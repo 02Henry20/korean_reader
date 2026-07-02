@@ -6,7 +6,1278 @@
   <meta name="theme-color" content="#f4f5ef" />
   <meta name="color-scheme" content="light" />
   <title>Korean Reader</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>:root {
+  --bg: #f4f5ef;
+  --surface: rgba(255, 255, 255, 0.76);
+  --surface-solid: #fffefa;
+  --surface-muted: #edf3ee;
+  --ink: #20342f;
+  --muted: #71807b;
+  --line: rgba(32, 52, 47, 0.12);
+  --accent: #4d7f69;
+  --accent-strong: #315f4e;
+  --accent-soft: #dceadf;
+  --word: #a65f3e;
+  --ambient-one: #cfe3d3;
+  --ambient-two: #eadcc6;
+  --shadow-sm: 0 10px 34px rgba(38, 60, 53, 0.08);
+  --shadow-md: 0 22px 70px rgba(38, 60, 53, 0.14);
+  --radius-md: 22px;
+  --radius-lg: 34px;
+  --reader-size: 1.36rem;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --font-ui: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-reading: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+    "NanumGothic", ui-sans-serif, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--bg);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 7%, color-mix(in srgb, var(--ambient-one) 72%, transparent), transparent 30rem),
+    radial-gradient(circle at 96% 10%, color-mix(in srgb, var(--ambient-two) 68%, transparent), transparent 28rem),
+    var(--bg);
+  font-family: var(--font-ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 220ms ease, color 220ms ease;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+button,
+.story-card,
+.sentence,
+.word-token {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ambient {
+  position: fixed;
+  z-index: -1;
+  border-radius: 999px;
+  filter: blur(100px);
+  opacity: 0.42;
+  pointer-events: none;
+  transition: background 240ms ease;
+}
+
+.ambient-a {
+  top: -10rem;
+  left: -12rem;
+  width: 30rem;
+  height: 30rem;
+  background: var(--ambient-one);
+}
+
+.ambient-b {
+  right: -13rem;
+  bottom: -9rem;
+  width: 34rem;
+  height: 34rem;
+  background: var(--ambient-two);
+}
+
+.app-shell {
+  width: min(1440px, calc(100% - 34px));
+  margin: 0 auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.view {
+  display: none;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.view-active {
+  display: block;
+}
+
+.library-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 72px 8px 30px;
+}
+
+.eyebrow {
+  margin: 0 0 7px;
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: clamp(2.3rem, 6vw, 4.7rem);
+  line-height: 0.96;
+  letter-spacing: -0.058em;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 49px;
+  padding: 0 19px;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 780;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  color: white;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  box-shadow: 0 12px 28px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.library-toolbar {
+  margin-bottom: 25px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: min(430px, 100%);
+  height: 51px;
+  padding: 0 17px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.search-box svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+
+.search-box input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  color: var(--ink);
+  background: transparent;
+}
+
+.search-box input::placeholder {
+  color: color-mix(in srgb, var(--muted) 76%, transparent);
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 19px;
+  padding-bottom: 72px;
+}
+
+.story-card {
+  position: relative;
+  grid-column: span 6;
+  min-height: 280px;
+  overflow: hidden;
+  padding: 27px;
+  border: 1px solid color-mix(in srgb, var(--card-accent) 12%, white);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(145deg,
+      color-mix(in srgb, var(--card-bg) 82%, white),
+      color-mix(in srgb, var(--card-soft) 54%, white));
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.story-card::after {
+  content: "";
+  position: absolute;
+  right: -52px;
+  bottom: -58px;
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  background: var(--card-soft);
+  opacity: 0.9;
+}
+
+.story-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.story-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--card-accent) 35%, transparent);
+  outline-offset: 4px;
+}
+
+.story-card-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.story-level {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 7px 11px;
+  border-radius: 999px;
+  color: var(--card-accent-strong);
+  background: color-mix(in srgb, var(--card-soft) 70%, white);
+  font-size: 0.72rem;
+  font-weight: 850;
+  letter-spacing: 0.04em;
+}
+
+.story-card h2 {
+  margin: 24px 0 7px;
+  max-width: 82%;
+  font-family: var(--font-reading);
+  font-size: clamp(1.8rem, 4vw, 2.65rem);
+  line-height: 1.1;
+  letter-spacing: -0.046em;
+}
+
+.english-title {
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 0.96rem;
+  font-weight: 680;
+}
+
+.description {
+  max-width: 76%;
+  margin: auto 0 0;
+  color: var(--muted);
+  line-height: 1.62;
+}
+
+.card-arrow {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  z-index: 2;
+  display: grid;
+  width: 43px;
+  height: 43px;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--card-accent);
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 9px 22px rgba(48, 74, 68, 0.1);
+}
+
+.card-arrow svg,
+.icon-button svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+.empty-state {
+  grid-column: 1 / -1;
+  padding: 64px 22px;
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-lg);
+  color: var(--muted);
+  text-align: center;
+}
+
+.reader-view {
+  padding: 18px 0 80px;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(24px) saturate(1.12);
+  -webkit-backdrop-filter: blur(24px) saturate(1.12);
+}
+
+.reader-header {
+  position: sticky;
+  top: 15px;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 15px;
+  min-height: 78px;
+  padding: 12px 14px;
+  border-radius: 27px;
+}
+
+.icon-button {
+  display: inline-grid;
+  width: 46px;
+  height: 46px;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-muted) 88%, white);
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.icon-button:hover {
+  transform: translateY(-1px);
+  background: var(--accent-soft);
+}
+
+.reader-heading {
+  min-width: 0;
+}
+
+.reader-heading .eyebrow {
+  margin-bottom: 2px;
+}
+
+.reader-heading h2 {
+  overflow: hidden;
+  margin: 0;
+  font-family: var(--font-reading);
+  font-size: clamp(1.05rem, 3vw, 1.45rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-tools {
+  display: flex;
+  gap: 6px;
+}
+
+.text-button {
+  width: auto;
+  min-width: 46px;
+  padding: 0 11px;
+  border-radius: 15px;
+  font-size: 0.84rem;
+  font-weight: 850;
+}
+
+.reader-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(340px, 0.9fr);
+  align-items: start;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.story-content {
+  min-height: calc(100vh - 170px);
+  padding: clamp(34px, 5vw, 70px);
+  border: 1px solid rgba(255, 255, 255, 0.84);
+  border-radius: clamp(27px, 4vw, 42px);
+  background: color-mix(in srgb, var(--surface-solid) 94%, transparent);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.story-paragraph {
+  margin: 0 0 2.15em;
+  font-family: var(--font-reading);
+  font-size: var(--reader-size);
+  font-weight: 525;
+  line-height: 2.02;
+  letter-spacing: -0.021em;
+  word-break: keep-all;
+}
+
+.story-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.sentence {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 150ms ease, box-shadow 150ms ease;
+}
+
+.sentence:hover {
+  background: color-mix(in srgb, var(--accent-soft) 65%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-soft) 65%, transparent);
+}
+
+.sentence-selected {
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.word-token {
+  border-radius: 4px;
+  cursor: context-menu;
+  touch-action: pan-y;
+}
+
+@media (hover: hover) {
+  .word-token:hover {
+    color: var(--word);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--word) 38%, transparent);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.detail-panel {
+  position: sticky;
+  top: 110px;
+  min-height: min(690px, calc(100vh - 130px));
+  max-height: calc(100vh - 130px);
+  overflow: auto;
+  padding: 25px 24px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.82);
+  border-radius: 32px;
+  background: color-mix(in srgb, var(--surface-solid) 95%, transparent);
+  box-shadow: var(--shadow-md);
+  scrollbar-width: thin;
+}
+
+.detail-panel-empty {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 75% 22%, var(--accent-soft), transparent 12rem),
+    linear-gradient(145deg, var(--surface-solid), color-mix(in srgb, var(--surface-muted) 65%, white));
+}
+
+.detail-panel-empty::after {
+  content: "문장";
+  position: absolute;
+  right: -10px;
+  bottom: -38px;
+  color: color-mix(in srgb, var(--accent) 10%, transparent);
+  font-family: var(--font-reading);
+  font-size: 9rem;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.detail-panel-empty .detail-content,
+.detail-panel-empty .close-detail {
+  display: none;
+}
+
+.close-detail {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  float: right;
+  width: 39px;
+  height: 39px;
+  margin: -7px -7px 0 10px;
+}
+
+.detail-content {
+  padding-right: 8px;
+}
+
+.detail-label {
+  margin: 19px 0 8px;
+  color: var(--accent);
+  font-size: 0.71rem;
+  font-weight: 870;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.detail-label:first-child {
+  margin-top: 2px;
+}
+
+.detail-korean {
+  margin: 0 0 18px;
+  font-family: var(--font-reading);
+  font-size: clamp(1.25rem, 2.2vw, 1.75rem);
+  font-weight: 770;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+}
+
+.detail-translation {
+  margin: 0;
+  color: color-mix(in srgb, var(--ink) 86%, var(--muted));
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.grammar-list,
+.vocab-list {
+  display: grid;
+  gap: 10px;
+}
+
+.grammar-card,
+.vocab-row {
+  padding: 15px 16px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--surface-muted) 70%, white);
+}
+
+.grammar-pattern,
+.vocab-term {
+  margin: 0 0 5px;
+  color: var(--word);
+  font-family: var(--font-reading);
+  font-weight: 830;
+}
+
+.grammar-explanation,
+.grammar-example,
+.vocab-meaning,
+.vocab-note {
+  margin: 0;
+  line-height: 1.56;
+}
+
+.grammar-example,
+.vocab-note {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.89rem;
+}
+
+.word-popover {
+  position: fixed;
+  z-index: 120;
+  width: min(310px, calc(100vw - 28px));
+  padding: 15px 17px;
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, white);
+  border-radius: 19px;
+  background: color-mix(in srgb, var(--ink) 96%, black);
+  box-shadow: 0 20px 52px rgba(23, 39, 35, 0.28);
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px) scale(0.98);
+  transition: opacity 130ms ease, transform 130ms ease;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.word-popover-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.word-popover strong {
+  display: block;
+  margin-bottom: 4px;
+  color: color-mix(in srgb, var(--accent-soft) 74%, white);
+  font-family: var(--font-reading);
+  font-size: 1.08rem;
+}
+
+.word-popover p {
+  margin: 0;
+  line-height: 1.48;
+}
+
+.word-base,
+.word-note {
+  margin-top: 6px !important;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.86rem;
+}
+
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(24px + var(--safe-bottom));
+  z-index: 160;
+  max-width: calc(100% - 32px);
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 96%, black);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 730;
+  box-shadow: 0 16px 44px rgba(25, 43, 39, 0.24);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 12px);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.toast-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 1040px) {
+  .reader-layout {
+    grid-template-columns: minmax(0, 1.45fr) minmax(315px, 0.85fr);
+    gap: 18px;
+  }
+
+  .story-content {
+    padding: 42px 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    width: min(100% - 20px, 1440px);
+  }
+
+  .story-card {
+    grid-column: 1 / -1;
+    min-height: 245px;
+  }
+
+  .reader-layout {
+    display: block;
+    margin-top: 26px;
+  }
+
+  .story-content {
+    min-height: calc(100vh - 140px);
+    padding: 34px 24px 48px;
+    border-radius: 29px;
+  }
+
+  .detail-panel {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    max-height: none;
+    padding:
+      calc(22px + var(--safe-top))
+      22px
+      calc(34px + var(--safe-bottom));
+    border: 0;
+    border-radius: 0;
+    background: var(--surface-solid);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(100%);
+    transition: transform 230ms cubic-bezier(.2,.8,.2,1), opacity 170ms ease;
+  }
+
+  .detail-panel-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+
+  .detail-panel-empty {
+    display: none;
+  }
+
+  .close-detail {
+    position: sticky;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    margin: 0 0 8px auto;
+    float: none;
+  }
+
+  .detail-content {
+    width: min(680px, 100%);
+    margin: 0 auto;
+    padding: 0 0 60px;
+  }
+
+  .detail-korean {
+    font-size: clamp(1.45rem, 6vw, 2rem);
+  }
+
+  .word-popover {
+    left: 50% !important;
+    top: auto !important;
+    bottom: calc(18px + var(--safe-bottom));
+    width: min(440px, calc(100% - 24px));
+    transform: translate(-50%, 12px) scale(0.98);
+  }
+
+  .word-popover-visible {
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .library-header {
+    display: grid;
+    align-items: start;
+    gap: 22px;
+    padding-top: 42px;
+  }
+
+  h1 {
+    font-size: 2.65rem;
+  }
+
+
+  .story-card {
+    padding: 23px;
+  }
+
+  .story-card h2 {
+    max-width: 79%;
+  }
+
+  .description {
+    max-width: 88%;
+  }
+
+  .reader-view {
+    padding-top: 10px;
+  }
+
+  .reader-header {
+    top: 10px;
+    min-height: 68px;
+    padding: 9px;
+    border-radius: 22px;
+  }
+
+  .reader-heading .eyebrow {
+    display: none;
+  }
+
+  .reader-heading h2 {
+    font-size: 1rem;
+  }
+
+  .reader-tools {
+    gap: 3px;
+  }
+
+  .icon-button {
+    width: 42px;
+    height: 42px;
+  }
+
+  .text-button {
+    min-width: 39px;
+    padding: 0 7px;
+    border-radius: 13px;
+    font-size: 0.76rem;
+  }
+
+  .story-paragraph {
+    line-height: 1.94;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+
+[hidden] { display: none !important; }
+
+.library-header {
+  align-items: center;
+}
+
+.library-heading-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
+}
+
+.library-copy {
+  min-width: 0;
+}
+
+.library-subtitle {
+  max-width: 760px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.library-back {
+  flex: 0 0 auto;
+  margin-top: 4px;
+}
+
+.collection-card {
+  min-height: 310px;
+}
+
+.collection-card h2 {
+  max-width: 78%;
+  margin-top: 18px;
+}
+
+.collection-monogram {
+  display: grid;
+  width: 62px;
+  height: 62px;
+  place-items: center;
+  border-radius: 20px;
+  color: var(--card-accent-strong);
+  background: color-mix(in srgb, var(--card-soft) 72%, white);
+  font-family: var(--font-reading);
+  font-size: 1.55rem;
+  font-weight: 900;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--card-accent) 12%, transparent);
+}
+
+.collection-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 54px;
+}
+
+.collection-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 31px;
+  padding: 0 11px;
+  border-radius: 999px;
+  color: var(--card-accent-strong);
+  background: rgba(255, 255, 255, 0.64);
+  font-size: 0.76rem;
+  font-weight: 820;
+}
+
+.collection-korean-title {
+  margin-bottom: 13px;
+  color: var(--card-accent-strong);
+  font-family: var(--font-reading);
+  font-size: 0.93rem;
+  font-weight: 730;
+}
+
+.collection-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 18px;
+}
+
+.collection-tag {
+  padding: 6px 9px;
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.62);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.collection-card .description {
+  max-width: 82%;
+  margin-top: auto;
+}
+
+.library-context {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.library-context-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+@media (max-width: 780px) {
+  .library-header {
+    align-items: flex-start;
+  }
+
+  .library-heading-group {
+    align-items: flex-start;
+  }
+
+  .library-subtitle {
+    font-size: 0.92rem;
+  }
+
+  .collection-card {
+    min-height: 270px;
+  }
+}
+
+@media (max-width: 600px) {
+  .library-header {
+    grid-template-columns: 1fr;
+  }
+.library-heading-group h1 {
+    font-size: clamp(2.15rem, 12vw, 3rem);
+  }
+
+  .library-back {
+    width: 42px;
+    height: 42px;
+  }
+
+  .collection-card h2 {
+    max-width: 72%;
+  }
+}
+
+
+/* =========================================================
+   V8 functionality layer — preserves the V3 visual language
+   ========================================================= */
+.library-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.appearance-button {
+  width: 49px;
+  min-width: 49px;
+  padding: 0;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-solid) 86%, transparent);
+  box-shadow: var(--shadow-sm);
+}
+
+
+.story-level-button {
+  border: 0;
+  cursor: pointer;
+}
+.story-level-button.has-variants::after { content: "  ▾"; }
+.story-level-button:hover {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--card-soft) 55%, transparent);
+}
+
+.reader-level-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.reader-level-button.has-variants::after { content: "▾"; font-size: .75rem; }
+
+
+.variant-menu,
+.appearance-menu {
+  position: fixed;
+  z-index: 150;
+  width: min(260px, calc(100vw - 24px));
+  padding: 10px;
+  border: 1px solid color-mix(in srgb, var(--line) 70%, white);
+  border-radius: 22px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-solid) 96%, transparent);
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(7px) scale(.98);
+  transition: opacity 140ms ease, transform 140ms ease;
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+}
+.variant-menu-open,
+.appearance-menu-open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.variant-choice,
+.appearance-choice {
+  display: grid;
+  grid-template-columns: 39px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  color: var(--ink);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.variant-choice:hover,
+.variant-choice.selected,
+.appearance-choice:hover,
+.appearance-choice.selected {
+  background: var(--surface-muted);
+}
+.variant-choice-mark,
+.appearance-choice-mark {
+  display: grid;
+  width: 39px;
+  height: 39px;
+  place-items: center;
+  border-radius: 13px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  font-weight: 900;
+}
+.appearance-choice-mark {
+  background: var(--choice-bg);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.variant-choice strong,
+.variant-choice small,
+.appearance-choice strong,
+.appearance-choice small { display: block; }
+.variant-choice small,
+.appearance-choice small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .76rem;
+  line-height: 1.35;
+}
+.variant-choice-check { color: var(--accent); font-weight: 950; }
+
+/* Menus need to follow the selected global appearance, including Dark. */
+.theme-menu {
+  border-color: var(--line);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-solid) 96%, transparent);
+}
+
+.word-token {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .library-actions { width: 100%; }
+.library-actions .appearance-button { flex: 0 0 49px; }
+  .reader-tools { max-width: 62vw; }
+  .reader-tools .icon-button { flex: 0 0 auto; }
+}
+
+
+/* V7: TOPIK availability states */
+.story-level-button {
+  cursor: default;
+}
+
+.story-level-button.has-variants,
+.reader-level-button.has-variants {
+  cursor: pointer;
+}
+
+.story-level-button.has-variants::after,
+.reader-level-button.has-variants::after {
+  content: attr(data-version-label) " versions ▾";
+  display: inline-flex;
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid currentColor;
+  font-size: .66rem;
+  font-weight: 850;
+  letter-spacing: .02em;
+  opacity: .72;
+}
+
+.story-level-static::after,
+.reader-level-button.single-version::after {
+  content: "1 version";
+  display: inline-flex;
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid currentColor;
+  font-size: .64rem;
+  font-weight: 780;
+  letter-spacing: .02em;
+  opacity: .48;
+}
+
+.reader-level-button:disabled {
+  cursor: default;
+  color: var(--accent);
+  opacity: 1;
+}
+
+.story-level-button:not(.has-variants):hover,
+.reader-level-button:not(.has-variants):hover {
+  box-shadow: none;
+}
+
+/* V7: readable direct translations under every appearance */
+.word-popover {
+  color: var(--word-popover-text, #ffffff);
+  background: var(--word-popover-bg, #17211e);
+}
+
+.word-popover strong {
+  color: var(--word-popover-heading, #e1eee6);
+}
+
+.word-base,
+.word-note {
+  color: var(--word-popover-muted, rgba(255, 255, 255, 0.72));
+}
+
+
+/* V8: thumbnails appear only on the story-selection level */
+.story-card.has-story-thumbnail .story-card-content {
+  padding-right: 126px;
+}
+
+.story-card.has-story-thumbnail h2,
+.story-card.has-story-thumbnail .english-title,
+.story-card.has-story-thumbnail .description {
+  max-width: 100%;
+}
+
+.story-thumbnail {
+  position: absolute;
+  z-index: 2;
+  top: 82px;
+  right: 27px;
+  width: 90px;
+  height: 120px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--card-accent) 18%, rgba(255,255,255,.72));
+  border-radius: 17px;
+  background: color-mix(in srgb, var(--card-soft) 70%, white);
+  box-shadow:
+    0 15px 30px color-mix(in srgb, var(--card-accent) 17%, transparent),
+    inset 0 0 0 1px rgba(255,255,255,.36);
+  transform: rotate(1.2deg);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  pointer-events: none;
+}
+
+.story-card:hover .story-thumbnail,
+.story-card:focus-visible .story-thumbnail {
+  transform: rotate(0deg) translateY(-3px);
+  box-shadow:
+    0 19px 38px color-mix(in srgb, var(--card-accent) 23%, transparent),
+    inset 0 0 0 1px rgba(255,255,255,.42);
+}
+
+.story-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-thumbnail::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.28);
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .story-card.has-story-thumbnail .story-card-content {
+    padding-right: 96px;
+  }
+
+  .story-thumbnail {
+    top: 76px;
+    right: 22px;
+    width: 74px;
+    height: 100px;
+    border-radius: 14px;
+  }
+}
+
+
+
+/* The GitHub library is read-only in the reader UI. */
+.library-actions {
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .library-actions {
+    width: auto;
+    justify-self: end;
+  }
+}
+
+</style>
 </head>
 <body>
   <div class="ambient ambient-a"></div>
@@ -28,6 +1299,7 @@
 
         <div class="library-actions">
           <button id="libraryAppearanceButton" class="button appearance-button" type="button" aria-label="Choose appearance" title="Appearance">◐</button>
+
         </div>
       </header>
 
@@ -51,14 +1323,7 @@
           <h2 id="readerTitle"></h2>
         </div>
         <div class="reader-tools">
-          <button id="readerReadButton" class="icon-button reader-read-button" type="button" aria-label="Mark story as read" title="Mark as read">✓</button>
           <button id="readerAppearanceButton" class="icon-button" type="button" aria-label="Choose appearance" title="Appearance">◐</button>
-          <button id="themeButton" class="icon-button" type="button" aria-label="Choose story accent" title="Story accent">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M12 3a9 9 0 1 0 0 18h1.2a1.8 1.8 0 0 0 0-3.6h-.6a1.6 1.6 0 0 1 0-3.2H15A6 6 0 0 0 12 3Z"/>
-              <circle cx="7.5" cy="10" r=".8"/><circle cx="10" cy="6.8" r=".8"/><circle cx="14" cy="6.8" r=".8"/><circle cx="16.5" cy="10" r=".8"/>
-            </svg>
-          </button>
           <button id="fontDownButton" class="icon-button text-button" type="button" aria-label="Decrease text size">A−</button>
           <button id="fontUpButton" class="icon-button text-button" type="button" aria-label="Increase text size">A+</button>
         </div>
@@ -77,11 +1342,1383 @@
   </main>
 
   <div id="wordPopover" class="word-popover" role="dialog" aria-hidden="true"></div>
-  <div id="themeMenu" class="theme-menu" role="menu" aria-hidden="true"></div>
   <div id="variantMenu" class="variant-menu" role="menu" aria-hidden="true"></div>
   <div id="appearanceMenu" class="appearance-menu" role="menu" aria-hidden="true"></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-  <script src="app.js" defer></script>
+  <script>const DEFAULT_COLLECTIONS = [];
+const DEFAULT_STORIES = [];
+const THEMES = {"sage":{"name":"Sage","bg":"#f4f5ef","surface":"#fffefa","surfaceMuted":"#edf3ee","ink":"#20342f","muted":"#71807b","accent":"#4d7f69","accentStrong":"#315f4e","accentSoft":"#dceadf","word":"#a65f3e","ambientOne":"#cfe3d3","ambientTwo":"#eadcc6"},"ocean":{"name":"Ocean","bg":"#f0f5f7","surface":"#fbfeff","surfaceMuted":"#e8f1f4","ink":"#1e3340","muted":"#687d87","accent":"#38758c","accentStrong":"#25566a","accentSoft":"#d8eaf0","word":"#b05f48","ambientOne":"#c6e1eb","ambientTwo":"#d9e4f1"},"plum":{"name":"Plum","bg":"#f7f2f7","surface":"#fffaff","surfaceMuted":"#f1e8f1","ink":"#3a2d3a","muted":"#806f80","accent":"#835b80","accentStrong":"#62445f","accentSoft":"#eadbea","word":"#ad6548","ambientOne":"#e7d0e5","ambientTwo":"#eadccf"},"sunset":{"name":"Sunset","bg":"#faf3ed","surface":"#fffdf9","surfaceMuted":"#f6e8dd","ink":"#422e29","muted":"#876f68","accent":"#bb684a","accentStrong":"#8d4732","accentSoft":"#f3ddcf","word":"#765a9b","ambientOne":"#f0cdbb","ambientTwo":"#ead8ba"},"hanok":{"name":"Hanok","bg":"#f5f0e6","surface":"#fffdf7","surfaceMuted":"#eee7d8","ink":"#342f28","muted":"#756e61","accent":"#78633e","accentStrong":"#59482d","accentSoft":"#e7ddc7","word":"#9d4e42","ambientOne":"#e2d5ba","ambientTwo":"#d9c6b5"},"midnight":{"name":"Midnight","bg":"#edf0f6","surface":"#fbfcff","surfaceMuted":"#e5e9f2","ink":"#252c42","muted":"#6d748a","accent":"#56698f","accentStrong":"#3b4b70","accentSoft":"#dce2ef","word":"#a6576c","ambientOne":"#cdd7ec","ambientTwo":"#e2d5e5"},"blossom":{"name":"Blossom","bg":"#faf2f4","surface":"#fffafb","surfaceMuted":"#f5e6e9","ink":"#402e34","muted":"#876f77","accent":"#a75f76","accentStrong":"#7f4559","accentSoft":"#f0d8df","word":"#8a6840","ambientOne":"#edcbd6","ambientTwo":"#f0ddc9"},"amber":{"name":"Amber","bg":"#f8f4e9","surface":"#fffef9","surfaceMuted":"#f3ead5","ink":"#3b3326","muted":"#7f7565","accent":"#a87932","accentStrong":"#7d5922","accentSoft":"#efdfbd","word":"#99614b","ambientOne":"#ecd9aa","ambientTwo":"#e6cfbf"}};
+
+const FONT_KEY = "korean-reader-font-size-v6";
+const MOBILE_QUERY = window.matchMedia("(max-width: 900px)");
+
+function storageGet(key) {
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+function storageSet(key, value) {
+  try { localStorage.setItem(key, value); } catch {}
+}
+
+const state = {
+  collections: [], stories: [], activeCollectionId: null, activeStory: null,
+  selectedSentenceElement: null, readerSize: Number(storageGet(FONT_KEY)) || 1.36,
+  longPressTimer: null, longPressTriggered: false,
+};
+
+const libraryView = document.getElementById("libraryView");
+const readerView = document.getElementById("readerView");
+const storyGrid = document.getElementById("storyGrid");
+const searchInput = document.getElementById("searchInput");
+const libraryBackButton = document.getElementById("libraryBackButton");
+const libraryEyebrow = document.getElementById("libraryEyebrow");
+const libraryTitle = document.getElementById("libraryTitle");
+const librarySubtitle = document.getElementById("librarySubtitle");
+const backButton = document.getElementById("backButton");
+const readerTitle = document.getElementById("readerTitle");
+const readerLevel = document.getElementById("readerLevel");
+const storyContent = document.getElementById("storyContent");
+const detailPanel = document.getElementById("detailPanel");
+const detailContent = document.getElementById("detailContent");
+const closeDetailButton = document.getElementById("closeDetailButton");
+const fontDownButton = document.getElementById("fontDownButton");
+const fontUpButton = document.getElementById("fontUpButton");
+const wordPopover = document.getElementById("wordPopover");
+const toast = document.getElementById("toast");
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+function slugify(value) {
+  return String(value || "collection").toLowerCase().normalize("NFKD")
+    .replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-+|-+$/g, "").slice(0, 64) || "collection";
+}
+
+const GITHUB_LIBRARY = Object.freeze({
+  owner: "02Henry20",
+  repo: "korean_reader",
+  branch: "main",
+  root: "library"
+});
+
+function dirname(path) {
+  const normalized = String(path || "").replace(/\\/g, "/");
+  const index = normalized.lastIndexOf("/");
+  return index < 0 ? "" : normalized.slice(0, index);
+}
+
+function basename(path) {
+  const normalized = String(path || "").replace(/\\/g, "/");
+  const index = normalized.lastIndexOf("/");
+  return index < 0 ? normalized : normalized.slice(index + 1);
+}
+
+function pathDepth(path) {
+  return path ? String(path).split("/").length : 0;
+}
+
+function numericOrder(path, fallback = 999) {
+  const match = basename(path).match(/^(\d+)/);
+  return match ? Number(match[1]) : fallback;
+}
+
+function encodeGitHubPath(path) {
+  return String(path).split("/").map(encodeURIComponent).join("/");
+}
+
+function humanizeFolderName(value) {
+  return String(value || "Collection")
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+async function fetchGitHubJSON(url, label) {
+  const response = await fetch(url, {
+    headers: {Accept: "application/vnd.github+json"},
+    cache: "no-cache"
+  });
+  if (!response.ok) {
+    throw new Error(`${label}: GitHub returned ${response.status}.`);
+  }
+  return response.json();
+}
+
+async function loadLibrary() {
+  const {owner, repo, branch, root} = GITHUB_LIBRARY;
+  const treeUrl =
+    `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}` +
+    `/git/trees/${encodeURIComponent(branch)}?recursive=1`;
+
+  const treeData = await fetchGitHubJSON(treeUrl, "Could not read the repository");
+  if (treeData.truncated) {
+    throw new Error("The GitHub file list was truncated because the repository is too large.");
+  }
+
+  const rootPrefix = `${String(root).replace(/^\/+|\/+$/g, "")}/`;
+  const jsonEntries = (treeData.tree || [])
+    .filter((entry) =>
+      entry.type === "blob" &&
+      entry.path.startsWith(rootPrefix) &&
+      entry.path.toLowerCase().endsWith(".json")
+    )
+    .sort((a, b) => a.path.localeCompare(b.path, undefined, {numeric: true}));
+
+  if (!jsonEntries.length) {
+    throw new Error(`No JSON stories were found inside ${root}/.`);
+  }
+
+  const results = await Promise.allSettled(jsonEntries.map(async (entry) => {
+    const rawUrl =
+      `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/` +
+      `${encodeURIComponent(branch)}/${encodeGitHubPath(entry.path)}`;
+    const response = await fetch(rawUrl, {cache: "no-cache"});
+    if (!response.ok) throw new Error(`${entry.path}: HTTP ${response.status}`);
+    return {
+      path: entry.path,
+      dir: dirname(entry.path),
+      name: basename(entry.path),
+      rawUrl,
+      data: await response.json()
+    };
+  }));
+
+  const parsed = [];
+  const warnings = [];
+  results.forEach((result, index) => {
+    if (result.status === "fulfilled") parsed.push(result.value);
+    else warnings.push(result.reason?.message || jsonEntries[index].path);
+  });
+
+  const collectionInfos = parsed
+    .filter((item) => item.data?.type === "collection")
+    .map((item) => ({
+      ...item,
+      collection: normalizeCollection(item.data, item.dir)
+    }));
+
+  state.collections = collectionInfos.map((item) => item.collection);
+  state.stories = [];
+
+  const collectionByDirectory = new Map(
+    collectionInfos.map((item) => [item.dir, item.collection])
+  );
+
+  const topLevelDirectories = new Set();
+  parsed.forEach((item) => {
+    const relative = item.path.slice(rootPrefix.length);
+    const firstDirectory = relative.includes("/") ? relative.split("/")[0] : "";
+    if (firstDirectory) topLevelDirectories.add(`${rootPrefix}${firstDirectory}`);
+  });
+
+  topLevelDirectories.forEach((directory) => {
+    const hasMetadata = collectionInfos.some(
+      (item) => item.dir === directory || item.dir.startsWith(`${directory}/`)
+    );
+    if (hasMetadata) return;
+
+    const folder = basename(directory);
+    const collection = normalizeCollection({
+      id: slugify(folder),
+      title: humanizeFolderName(folder),
+      koreanTitle: "",
+      description: "",
+      level: "",
+      theme: "sage",
+      order: numericOrder(folder),
+      monogram: humanizeFolderName(folder).slice(0, 1),
+      tags: []
+    }, directory);
+    state.collections.push(collection);
+    collectionByDirectory.set(directory, collection);
+  });
+
+  for (const item of parsed.filter((entry) => Array.isArray(entry.data?.paragraphs))) {
+    let collectionId = String(item.data.collectionId || "");
+
+    if (!collectionId) {
+      const matchingMetadata = collectionInfos
+        .filter((info) => item.dir === info.dir || item.dir.startsWith(`${info.dir}/`))
+        .sort((a, b) => pathDepth(b.dir) - pathDepth(a.dir));
+      collectionId = matchingMetadata[0]?.collection.id || "";
+    }
+
+    if (!collectionId) {
+      const relative = item.path.slice(rootPrefix.length);
+      const firstDirectory = relative.includes("/") ? relative.split("/")[0] : "";
+      collectionId =
+        collectionByDirectory.get(`${rootPrefix}${firstDirectory}`)?.id ||
+        "uncategorized";
+    }
+
+    try {
+      const story = normalizeStory(
+        {...item.data, sourcePath: item.rawUrl},
+        item.name,
+        collectionId,
+        numericOrder(item.path)
+      );
+      story.collectionId = collectionId;
+      state.stories.push(story);
+    } catch (error) {
+      warnings.push(`${item.path}: ${error.message}`);
+    }
+  }
+
+  ensureCollectionsForStories();
+
+  state.collections = state.collections
+    .filter((collection, index, all) =>
+      all.findIndex((item) => item.id === collection.id) === index
+    )
+    .map((collection) => ({
+      ...collection,
+      storyCount: state.stories.filter(
+        (story) => story.collectionId === collection.id
+      ).length
+    }));
+
+  if (!state.stories.length) {
+    throw new Error(`JSON files were found, but none were valid Korean Reader stories.`);
+  }
+
+  if (warnings.length) {
+    console.warn("Some library files could not be loaded:", warnings);
+    showToast(`${warnings.length} library file${warnings.length === 1 ? "" : "s"} could not be loaded`);
+  }
+}
+
+function saveLibrary() {
+  /* Story files are read-only and always come from the GitHub library folder. */
+}
+
+function normalizeCollection(info = {}, fallbackPath = "") {
+  const id = String(info.id || slugify(info.title || fallbackPath));
+  return {
+    type: "collection", id,
+    title: String(info.title || id), koreanTitle: String(info.koreanTitle || ""),
+    description: String(info.description || ""), level: String(info.level || ""),
+    theme: THEMES[info.theme] ? info.theme : "sage",
+    order: Number.isFinite(Number(info.order)) ? Number(info.order) : 999,
+    monogram: String(info.monogram || (info.title || id).slice(0, 1).toUpperCase()),
+    tags: Array.isArray(info.tags) ? info.tags.map(String) : [],
+    storyCount: Number(info.storyCount) || 0, sort: String(info.sort || "order")
+  };
+}
+
+function normalizeStory(story, sourceName = "Imported story", fallbackCollectionId = "uncategorized", fallbackOrder = 999) {
+  if (!story || typeof story !== "object" || !Array.isArray(story.paragraphs)) {
+    throw new Error(`${sourceName} is not a Korean reader story.`);
+  }
+  story.paragraphs.forEach((paragraph, paragraphIndex) => {
+    if (!paragraph || !Array.isArray(paragraph.sentences)) throw new Error(`Paragraph ${paragraphIndex + 1} needs a sentences array.`);
+    paragraph.sentences.forEach((sentence, sentenceIndex) => {
+      if (!sentence || typeof sentence.korean !== "string" || !sentence.korean.trim()) throw new Error(`Paragraph ${paragraphIndex + 1}, sentence ${sentenceIndex + 1} needs Korean text.`);
+      sentence.translation = String(sentence.translation || "");
+      sentence.grammar = Array.isArray(sentence.grammar) ? sentence.grammar : [];
+      sentence.vocab = Array.isArray(sentence.vocab) ? sentence.vocab : [];
+      sentence.words = Array.isArray(sentence.words) ? sentence.words : [];
+    });
+  });
+  return {
+    id: String(story.id || `${slugify(story.title || sourceName)}-${Date.now().toString(36)}`),
+    title: String(story.title || sourceName.replace(/\.json$/i, "")),
+    englishTitle: String(story.englishTitle || ""), level: String(story.level || ""),
+    description: String(story.description || ""), theme: THEMES[story.theme] ? story.theme : "sage",
+    collectionId: String(story.collectionId || fallbackCollectionId),
+    order: Number.isFinite(Number(story.order)) ? Number(story.order) : fallbackOrder,
+    sourcePath: String(story.sourcePath || ""), paragraphs: story.paragraphs
+  };
+}
+
+function ensureCollectionsForStories() {
+  const existing = new Set(state.collections.map((c) => c.id));
+  state.stories.forEach((story) => {
+    if (!existing.has(story.collectionId)) {
+      state.collections.push(normalizeCollection({
+        id: story.collectionId, title: story.collectionId === "uncategorized" ? "Imported stories" : story.collectionId,
+        koreanTitle: "가져온 이야기", description: "Stories imported without a collection info.json file.",
+        theme: "sage", order: 950, monogram: "文"
+      }));
+      existing.add(story.collectionId);
+    }
+  });
+}
+
+function getCollection(id) { return state.collections.find((collection) => collection.id === id); }
+function getStoriesForCollection(id) {
+  return state.stories.filter((story) => story.collectionId === id)
+    .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+}
+
+function showCollections(push = false) {
+  state.activeCollectionId = null; state.activeStory = null; clearDetails(); hideWordPopover();
+  readerView.classList.remove("view-active"); libraryView.classList.add("view-active");
+  searchInput.value = ""; renderLibrary(); window.scrollTo({top: 0, behavior: "auto"});
+  if (push) history.pushState({view: "collections"}, "", "#library");
+}
+
+function showCollection(collectionId, push = false) {
+  const collection = getCollection(collectionId); if (!collection) return showCollections(push);
+  state.activeCollectionId = collectionId; state.activeStory = null; clearDetails(); hideWordPopover();
+  readerView.classList.remove("view-active"); libraryView.classList.add("view-active");
+  searchInput.value = ""; renderLibrary(); window.scrollTo({top: 0, behavior: "auto"});
+  if (push) history.pushState({view: "collection", collectionId}, "", `#collection=${encodeURIComponent(collectionId)}`);
+}
+
+function renderLibrary(filter = "") {
+  const query = filter.trim().toLowerCase();
+  storyGrid.replaceChildren();
+  if (!state.activeCollectionId) renderCollectionCards(query); else renderStoryCards(state.activeCollectionId, query);
+}
+
+function renderCollectionCards(query) {
+  applyTheme("sage"); libraryBackButton.hidden = true;
+  libraryEyebrow.textContent = "한국어 리더"; libraryTitle.textContent = "Your Korean library";
+  librarySubtitle.textContent = "Choose a collection, then choose a story.";
+  searchInput.placeholder = "Search collections";
+
+  const collections = [...state.collections].sort((a,b) => a.order - b.order || a.title.localeCompare(b.title)).filter((collection) => {
+    const stories = getStoriesForCollection(collection.id);
+    const haystack = [collection.title, collection.koreanTitle, collection.description, collection.level, ...collection.tags, ...stories.flatMap((s) => [s.title, s.englishTitle])].join(" ").toLowerCase();
+    return haystack.includes(query);
+  });
+
+  if (!collections.length) return renderEmpty("No collections found.");
+  collections.forEach((collection) => storyGrid.appendChild(createCollectionCard(collection)));
+}
+
+function createCollectionCard(collection) {
+  const theme = THEMES[collection.theme] || THEMES.sage;
+  const stories = getStoriesForCollection(collection.id);
+  const card = document.createElement("article");
+  card.className = "story-card collection-card"; card.tabIndex = 0; card.setAttribute("role", "button");
+  card.setAttribute("aria-label", `Open ${collection.title}`); setCardTheme(card, theme);
+
+  const content = document.createElement("div"); content.className = "story-card-content";
+  const topline = document.createElement("div"); topline.className = "collection-topline";
+  const mark = createTextBlock("span", "collection-monogram", collection.monogram);
+  const count = createTextBlock("span", "collection-count", `${stories.length} stor${stories.length === 1 ? "y" : "ies"}`);
+  topline.append(mark, count); content.appendChild(topline);
+  content.appendChild(createTextBlock("h2", "", collection.title));
+  if (collection.koreanTitle) content.appendChild(createTextBlock("p", "collection-korean-title", collection.koreanTitle));
+  if (collection.description) content.appendChild(createTextBlock("p", "description", collection.description));
+  if (collection.tags.length) {
+    const tags = document.createElement("div"); tags.className = "collection-tags";
+    collection.tags.slice(0, 4).forEach((tag) => tags.appendChild(createTextBlock("span", "collection-tag", tag)));
+    content.appendChild(tags);
+  }
+  const arrow = document.createElement("span"); arrow.className = "card-arrow";
+  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
+  card.append(content, arrow);
+  card.addEventListener("click", () => showCollection(collection.id, true));
+  card.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showCollection(collection.id, true); } });
+  return card;
+}
+
+function renderStoryCards(collectionId, query) {
+  const collection = getCollection(collectionId); if (!collection) return showCollections(false);
+  applyTheme(collection.theme); libraryBackButton.hidden = false;
+  libraryEyebrow.textContent = collection.level || "STORY COLLECTION"; libraryTitle.textContent = collection.title;
+  librarySubtitle.textContent = [collection.koreanTitle, collection.description].filter(Boolean).join(" · ");
+  searchInput.placeholder = "Search stories";
+  const stories = getStoriesForCollection(collectionId).filter((story) => [story.title, story.englishTitle, story.level, story.description].join(" ").toLowerCase().includes(query));
+  if (!stories.length) return renderEmpty("No stories found in this collection.");
+  stories.forEach((story) => storyGrid.appendChild(createStoryCard(story)));
+}
+
+function createStoryCard(story) {
+  const theme = THEMES[story.theme] || THEMES.sage;
+  const card = document.createElement("article"); card.className = "story-card"; card.tabIndex = 0; card.setAttribute("role", "button");
+  card.setAttribute("aria-label", `Open ${story.title}`); setCardTheme(card, theme);
+  const content = document.createElement("div"); content.className = "story-card-content";
+  if (story.level) content.appendChild(createTextBlock("span", "story-level", story.level));
+  content.appendChild(createTextBlock("h2", "", story.title));
+  if (story.englishTitle) content.appendChild(createTextBlock("p", "english-title", story.englishTitle));
+  if (story.description) content.appendChild(createTextBlock("p", "description", story.description));
+  const arrow = document.createElement("span"); arrow.className = "card-arrow";
+  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
+  card.append(content, arrow);
+  card.addEventListener("click", () => openStory(story, true));
+  card.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openStory(story, true); } });
+  return card;
+}
+
+function renderEmpty(message) { const empty = createTextBlock("div", "empty-state", message); storyGrid.appendChild(empty); }
+function setCardTheme(card, theme) {
+  card.style.setProperty("--card-bg", theme.surface); card.style.setProperty("--card-soft", theme.accentSoft);
+  card.style.setProperty("--card-accent", theme.accent); card.style.setProperty("--card-accent-strong", theme.accentStrong);
+}
+function createThemeDot(color) { const dot = document.createElement("span"); dot.className = "card-theme-dot"; dot.style.setProperty("--dot", color); return dot; }
+
+function openStory(story, push = false) {
+  state.activeStory = story; state.activeCollectionId = story.collectionId; state.selectedSentenceElement = null;
+  hideWordPopover(); clearDetails(); applyTheme(story.theme);
+  readerTitle.textContent = story.title; readerLevel.textContent = story.level; renderStory(story);
+  libraryView.classList.remove("view-active"); readerView.classList.add("view-active"); window.scrollTo({top: 0, behavior: "auto"});
+  if (push) history.pushState({view: "reader", storyId: story.id, collectionId: story.collectionId}, "", `#story=${encodeURIComponent(story.id)}`);
+}
+
+function renderStory(story) {
+  storyContent.replaceChildren();
+  document.documentElement.style.setProperty("--reader-size", `${state.readerSize}rem`);
+
+  story.paragraphs.forEach((paragraph) => {
+    const paragraphElement = document.createElement("p");
+    paragraphElement.className = "story-paragraph";
+
+    paragraph.sentences.forEach((sentence, sentenceIndex) => {
+      const sentenceElement = document.createElement("span");
+      sentenceElement.className = "sentence";
+      sentenceElement.tabIndex = 0;
+
+      appendWordTokens(sentenceElement, sentence);
+
+      sentenceElement.addEventListener("click", (event) => {
+        if (event.defaultPrevented || state.longPressTriggered) {
+          state.longPressTriggered = false;
+          return;
+        }
+        event.stopPropagation();
+        selectSentence(sentenceElement, sentence);
+      });
+
+      sentenceElement.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          selectSentence(sentenceElement, sentence);
+        }
+      });
+
+      paragraphElement.appendChild(sentenceElement);
+
+      if (sentenceIndex < paragraph.sentences.length - 1) {
+        paragraphElement.appendChild(document.createTextNode(" "));
+      }
+    });
+
+    storyContent.appendChild(paragraphElement);
+  });
+}
+
+function appendWordTokens(container, sentence) {
+  const lookup = buildWordLookup(sentence);
+  const chunks = sentence.korean.split(/(\s+)/u);
+
+  chunks.forEach((chunk) => {
+    if (!chunk) return;
+
+    if (/^\s+$/u.test(chunk)) {
+      container.appendChild(document.createTextNode(chunk));
+      return;
+    }
+
+    const clean = cleanToken(chunk);
+    const translation = lookup.get(clean) || {
+      surface: clean || chunk,
+      meaning: "No individual translation is stored for this word yet.",
+      note: "Add it to the sentence’s words list in the JSON story file."
+    };
+
+    const word = document.createElement("span");
+    word.className = "word-token";
+    word.textContent = chunk;
+    word.dataset.surface = clean || chunk;
+
+    word.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      showWordPopover(translation, event.clientX, event.clientY);
+    });
+
+    let pressStarted = false;
+
+    word.addEventListener("pointerdown", (event) => {
+      if (event.pointerType !== "touch") return;
+      pressStarted = true;
+      state.longPressTriggered = false;
+      clearTimeout(state.longPressTimer);
+      state.longPressTimer = window.setTimeout(() => {
+        if (!pressStarted) return;
+        state.longPressTriggered = true;
+        showWordPopover(translation, event.clientX, event.clientY);
+        if (navigator.vibrate) navigator.vibrate(20);
+        window.setTimeout(() => {
+          state.longPressTriggered = false;
+        }, 900);
+      }, 560);
+    });
+
+    const cancelLongPress = () => {
+      pressStarted = false;
+      clearTimeout(state.longPressTimer);
+    };
+
+    word.addEventListener("pointerup", cancelLongPress);
+    word.addEventListener("pointercancel", cancelLongPress);
+    word.addEventListener("pointerleave", cancelLongPress);
+
+    word.addEventListener("click", (event) => {
+      if (state.longPressTriggered) {
+        event.preventDefault();
+        event.stopPropagation();
+        window.setTimeout(() => {
+          state.longPressTriggered = false;
+        }, 0);
+      }
+    });
+
+    container.appendChild(word);
+  });
+}
+
+function cleanToken(token) {
+  return token
+    .replace(/^[^\p{L}\p{N}]+/gu, "")
+    .replace(/[^\p{L}\p{N}]+$/gu, "");
+}
+
+function buildWordLookup(sentence) {
+  const lookup = new Map();
+
+  (sentence.words || []).forEach((entry) => {
+    if (!entry || !entry.surface) return;
+    lookup.set(cleanToken(String(entry.surface)), {
+      surface: String(entry.surface),
+      meaning: String(entry.meaning || "—"),
+      base: String(entry.base || ""),
+      note: String(entry.note || "")
+    });
+  });
+
+  (sentence.vocab || []).forEach((entry) => {
+    if (!entry || !entry.word) return;
+    const key = cleanToken(String(entry.word));
+    if (!lookup.has(key) && !String(entry.word).includes(" ")) {
+      lookup.set(key, {
+        surface: String(entry.word),
+        meaning: String(entry.meaning || "—"),
+        base: "",
+        note: String(entry.note || "")
+      });
+    }
+  });
+
+  return lookup;
+}
+
+function selectSentence(element, sentence) {
+  hideWordPopover();
+  clearSentenceSelection();
+
+  state.selectedSentenceElement = element;
+  element.classList.add("sentence-selected");
+  renderSentenceDetails(sentence);
+
+  detailPanel.classList.remove("detail-panel-empty");
+  if (MOBILE_QUERY.matches) {
+    document.body.style.overflow = "hidden";
+    requestAnimationFrame(() => detailPanel.classList.add("detail-panel-open"));
+  }
+}
+
+function clearSentenceSelection() {
+  if (state.selectedSentenceElement) {
+    state.selectedSentenceElement.classList.remove("sentence-selected");
+  }
+  state.selectedSentenceElement = null;
+}
+
+function renderSentenceDetails(sentence) {
+  detailContent.replaceChildren();
+
+  detailContent.append(
+    createLabel("Sentence"),
+    createTextBlock("p", "detail-korean", sentence.korean),
+    createLabel("Translation"),
+    createTextBlock("p", "detail-translation", sentence.translation || "—")
+  );
+
+  if (sentence.grammar?.length) {
+    detailContent.appendChild(createLabel("Grammar & usage"));
+
+    const list = document.createElement("div");
+    list.className = "grammar-list";
+
+    sentence.grammar.forEach((item) => {
+      const card = document.createElement("section");
+      card.className = "grammar-card";
+
+      if (typeof item === "string") {
+        card.appendChild(createTextBlock("p", "grammar-explanation", item));
+      } else {
+        if (item.pattern) {
+          card.appendChild(createTextBlock("p", "grammar-pattern", item.pattern));
+        }
+        if (item.explanation) {
+          card.appendChild(createTextBlock("p", "grammar-explanation", item.explanation));
+        }
+        if (item.example) {
+          card.appendChild(createTextBlock("p", "grammar-example", item.example));
+        }
+      }
+
+      list.appendChild(card);
+    });
+
+    detailContent.appendChild(list);
+  }
+
+  if (sentence.vocab?.length) {
+    detailContent.appendChild(createLabel("Key vocabulary"));
+
+    const list = document.createElement("div");
+    list.className = "vocab-list";
+
+    sentence.vocab.forEach((item) => {
+      const row = document.createElement("section");
+      row.className = "vocab-row";
+      row.appendChild(createTextBlock("p", "vocab-term", item.word || ""));
+      if (item.meaning) row.appendChild(createTextBlock("p", "vocab-meaning", item.meaning));
+      if (item.note) row.appendChild(createTextBlock("p", "vocab-note", item.note));
+      list.appendChild(row);
+    });
+
+    detailContent.appendChild(list);
+  }
+}
+
+function clearDetails() {
+  clearSentenceSelection();
+  detailPanel.classList.remove("detail-panel-open");
+  detailPanel.classList.add("detail-panel-empty");
+  detailContent.replaceChildren();
+  document.body.style.overflow = "";
+}
+
+function createLabel(text) {
+  return createTextBlock("p", "detail-label", text);
+}
+
+function createTextBlock(tag, className, text) {
+  const element = document.createElement(tag);
+  if (className) element.className = className;
+  element.textContent = text;
+  return element;
+}
+
+function showWordPopover(word, clientX, clientY) {
+  clearTimeout(state.longPressTimer);
+  wordPopover.replaceChildren();
+
+  wordPopover.appendChild(createTextBlock("strong", "", word.surface || ""));
+  wordPopover.appendChild(createTextBlock("p", "", word.meaning || "—"));
+  if (word.base) wordPopover.appendChild(createTextBlock("p", "word-base", word.base));
+  if (word.note) wordPopover.appendChild(createTextBlock("p", "word-note", word.note));
+
+  wordPopover.setAttribute("aria-hidden", "false");
+  wordPopover.classList.add("word-popover-visible");
+
+  if (!MOBILE_QUERY.matches) {
+    requestAnimationFrame(() => positionWordPopover(clientX, clientY));
+  }
+}
+
+function positionWordPopover(clientX, clientY) {
+  const rect = wordPopover.getBoundingClientRect();
+  const margin = 14;
+
+  let left = clientX + 12;
+  let top = clientY + 12;
+
+  if (left + rect.width > window.innerWidth - margin) {
+    left = clientX - rect.width - 12;
+  }
+  if (top + rect.height > window.innerHeight - margin) {
+    top = clientY - rect.height - 12;
+  }
+
+  wordPopover.style.left = `${Math.max(margin, left)}px`;
+  wordPopover.style.top = `${Math.max(margin, top)}px`;
+}
+
+function hideWordPopover() {
+  wordPopover.classList.remove("word-popover-visible");
+  wordPopover.setAttribute("aria-hidden", "true");
+}
+
+
+
+function applyTheme(themeKey) {
+  const theme = THEMES[themeKey] || THEMES.sage;
+  const root = document.documentElement;
+  root.style.setProperty("--bg", theme.bg); root.style.setProperty("--surface", `${theme.surface}d9`);
+  root.style.setProperty("--surface-solid", theme.surface); root.style.setProperty("--surface-muted", theme.surfaceMuted);
+  root.style.setProperty("--ink", theme.ink); root.style.setProperty("--muted", theme.muted);
+  root.style.setProperty("--accent", theme.accent); root.style.setProperty("--accent-strong", theme.accentStrong);
+  root.style.setProperty("--accent-soft", theme.accentSoft); root.style.setProperty("--word", theme.word);
+  root.style.setProperty("--ambient-one", theme.ambientOne); root.style.setProperty("--ambient-two", theme.ambientTwo);
+  themeColorMeta.setAttribute("content", theme.bg);
+}
+
+function changeReaderSize(delta) {
+  state.readerSize = Math.min(2.05, Math.max(1.0, state.readerSize + delta));
+  state.readerSize = Math.round(state.readerSize * 100) / 100;
+  document.documentElement.style.setProperty("--reader-size", `${state.readerSize}rem`);
+  storageSet(FONT_KEY, String(state.readerSize));
+}
+
+let toastTimer;
+function showToast(message) {
+  toast.textContent = message; toast.classList.add("toast-visible"); clearTimeout(toastTimer);
+  toastTimer = window.setTimeout(() => toast.classList.remove("toast-visible"), 3000);
+}
+
+function renderNavigation(nav) {
+  if (nav?.view === "reader") {
+    const story = state.stories.find((item) => item.id === nav.storyId);
+    if (story) return openStory(story, false);
+  }
+  if (nav?.view === "collection" && getCollection(nav.collectionId)) return showCollection(nav.collectionId, false);
+  showCollections(false);
+}
+
+searchInput.addEventListener("input", () => renderLibrary(searchInput.value));
+libraryBackButton.addEventListener("click", () => history.back());
+backButton.addEventListener("click", () => history.back());
+closeDetailButton.addEventListener("click", clearDetails);
+fontDownButton.addEventListener("click", () => changeReaderSize(-0.1));
+fontUpButton.addEventListener("click", () => changeReaderSize(0.1));
+storyContent.addEventListener("click", (event) => { if (!event.target.closest(".sentence")) clearDetails(); });
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".word-popover") && !event.target.closest(".word-token")) hideWordPopover();
+});
+document.addEventListener("keydown", (event) => { if (event.key === "Escape") { hideWordPopover(); clearDetails(); } });
+window.addEventListener("resize", () => { hideWordPopover(); if (!MOBILE_QUERY.matches) { detailPanel.classList.remove("detail-panel-open"); document.body.style.overflow = ""; } });
+window.addEventListener("scroll", () => { hideWordPopover(); }, {passive: true});
+window.addEventListener("popstate", (event) => renderNavigation(event.state || {view: "collections"}));
+
+
+/* =========================================================
+   V8 behavior patch
+   ========================================================= */
+const VARIANT_KEY_V6 = "korean-reader-variants-v6";
+const APPEARANCE_KEY_V6 = "korean-reader-appearance-v6";
+
+const APPEARANCES = {
+  light: {
+    name: "Light", symbol: "☀", bg: "#f4f5ef", surface: "#fffefa", surfaceMuted: "#edf3ee",
+    ink: "#20342f", muted: "#71807b", ambientOne: "#d9e7dc", ambientTwo: "#eee1cf"
+  },
+  warm: {
+    name: "Warm", symbol: "◒", bg: "#f6f0e7", surface: "#fffaf2", surfaceMuted: "#eee4d6",
+    ink: "#342d27", muted: "#7e7269", ambientOne: "#ead7bf", ambientTwo: "#e8cfc4"
+  },
+  forest: {
+    name: "Forest", symbol: "♧", bg: "#eaf0e9", surface: "#fbfdf9", surfaceMuted: "#dfe9de",
+    ink: "#243328", muted: "#68766b", ambientOne: "#c7dccb", ambientTwo: "#d9dfc5"
+  },
+  dark: {
+    name: "Dark", symbol: "☾", bg: "#15191d", surface: "#22272c", surfaceMuted: "#2c3339",
+    ink: "#f0f3f2", muted: "#aeb8b4", ambientOne: "#253c34", ambientTwo: "#3b302a"
+  }
+};
+
+function loadJSONV6(key, fallback) {
+  try { return JSON.parse(storageGet(key) || "null") ?? fallback; } catch { return fallback; }
+}
+
+state.variantSelections = loadJSONV6(VARIANT_KEY_V6, {});
+state.appearance = APPEARANCES[storageGet(APPEARANCE_KEY_V6)] ? storageGet(APPEARANCE_KEY_V6) : "light";
+state.variantTargetGroupId = null;
+state.lastWordTap = {element: null, time: 0};
+state.suppressSentenceClickUntil = 0;
+
+const libraryAppearanceButton = document.getElementById("libraryAppearanceButton");
+const readerAppearanceButton = document.getElementById("readerAppearanceButton");
+const variantMenu = document.getElementById("variantMenu");
+const appearanceMenu = document.getElementById("appearanceMenu");
+
+const normalizeStoryV3Base = normalizeStory;
+normalizeStory = function(story, sourceName = "Imported story", fallbackCollectionId = "uncategorized", fallbackOrder = 999) {
+  const normalized = normalizeStoryV3Base(story, sourceName, fallbackCollectionId, fallbackOrder);
+  normalized.variantGroupId = String(story.variantGroupId || story.groupId || normalized.id);
+  normalized.difficultyOrder = Number.isFinite(Number(story.difficultyOrder)) ? Number(story.difficultyOrder) : normalized.order;
+  normalized.variantLabel = String(story.variantLabel || story.level || normalized.level || "Version");
+  normalized.thumbnail = String(story.thumbnail || story.cover || story.coverImage || "");
+  return normalized;
+};
+
+function saveVariantsV6() { storageSet(VARIANT_KEY_V6, JSON.stringify(state.variantSelections)); }
+function uniqueStoriesV7(stories) {
+  const unique = new Map();
+  (stories || []).forEach((story) => {
+    if (story?.id && !unique.has(story.id)) unique.set(story.id, story);
+  });
+  return [...unique.values()];
+}
+function effectiveThemeKeyV7(story) {
+  return story && THEMES[story.theme] ? story.theme : "sage";
+}
+
+function escapeXmlV8(value) {
+  return String(value || "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;"
+  })[char]);
+}
+
+function splitCoverTextV8(value, maxCharacters = 12, maxLines = 2) {
+  const raw = String(value || "").trim();
+  if (!raw) return [];
+  const words = raw.split(/\s+/u);
+  const lines = [];
+  let current = "";
+
+  words.forEach((word) => {
+    if (!current) {
+      current = word;
+    } else if ((current + " " + word).length <= maxCharacters) {
+      current += " " + word;
+    } else {
+      lines.push(current);
+      current = word;
+    }
+  });
+  if (current) lines.push(current);
+
+  if (lines.length === 1 && lines[0].length > maxCharacters && !/\s/u.test(lines[0])) {
+    const compact = lines[0];
+    lines.length = 0;
+    for (let index = 0; index < compact.length; index += maxCharacters) {
+      lines.push(compact.slice(index, index + maxCharacters));
+    }
+  }
+
+  const limited = lines.slice(0, maxLines);
+  if (lines.length > maxLines && limited.length) {
+    limited[limited.length - 1] = limited[limited.length - 1].replace(/[.…]*$/u, "") + "…";
+  }
+  return limited;
+}
+
+function shortEnglishTitleV8(story) {
+  const full = String(story?.englishTitle || "").trim();
+  if (!full) return "KOREAN READER";
+  const pieces = full.split(/\s+[—–-]\s+/u);
+  return (pieces[pieces.length - 1] || full).trim();
+}
+
+function generatedStoryThumbnailV8(story, accent) {
+  const titleLines = splitCoverTextV8(story?.title || "이야기", 8, 2);
+  const englishLines = splitCoverTextV8(shortEnglishTitleV8(story), 18, 2);
+  const collection = getCollection(story?.collectionId);
+  const monogram = escapeXmlV8(collection?.monogram || String(story?.title || "문").slice(0, 1));
+  const storyTitle = titleLines.map((line, index) =>
+    `<tspan x="22" dy="${index === 0 ? 0 : 29}">${escapeXmlV8(line)}</tspan>`
+  ).join("");
+  const englishTitle = englishLines.map((line, index) =>
+    `<tspan x="22" dy="${index === 0 ? 0 : 15}">${escapeXmlV8(line)}</tspan>`
+  ).join("");
+
+  const svg = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320">
+    <defs>
+      <linearGradient id="coverGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="${accent.accentSoft}"/>
+        <stop offset=".52" stop-color="${accent.accent}"/>
+        <stop offset="1" stop-color="${accent.accentStrong}"/>
+      </linearGradient>
+      <linearGradient id="coverShade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000000" stop-opacity=".46"/>
+      </linearGradient>
+    </defs>
+    <rect width="240" height="320" rx="24" fill="url(#coverGradient)"/>
+    <circle cx="199" cy="52" r="76" fill="#ffffff" fill-opacity=".13"/>
+    <circle cx="28" cy="167" r="67" fill="#ffffff" fill-opacity=".08"/>
+    <path d="M-10 205 C42 157 77 230 132 181 C167 150 195 155 255 112 L255 335 L-10 335Z"
+          fill="#ffffff" fill-opacity=".11"/>
+    <text x="120" y="145" text-anchor="middle" fill="#ffffff" fill-opacity=".23"
+          font-size="96" font-weight="900"
+          font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">${monogram}</text>
+    <rect x="0" y="170" width="240" height="150" fill="url(#coverShade)"/>
+    <text x="22" y="218" fill="#ffffff" font-size="25" font-weight="850"
+          font-family="Noto Sans KR, Apple SD Gothic Neo, Malgun Gothic, sans-serif">${storyTitle}</text>
+    <text x="22" y="278" fill="#ffffff" fill-opacity=".76" font-size="11" font-weight="720"
+          letter-spacing=".45"
+          font-family="Inter, Arial, sans-serif">${englishTitle}</text>
+    <rect x="17" y="17" width="49" height="20" rx="10" fill="#ffffff" fill-opacity=".20"/>
+    <text x="41.5" y="31" text-anchor="middle" fill="#ffffff" font-size="8.5" font-weight="850"
+          letter-spacing=".9" font-family="Inter, Arial, sans-serif">STORY</text>
+  </svg>`;
+
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function storyThumbnailSourceV8(story, accent) {
+  return story?.thumbnail || generatedStoryThumbnailV8(story, accent);
+}
+
+function createStoryThumbnailV8(story, accent) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "story-thumbnail";
+  wrapper.setAttribute("aria-hidden", "true");
+
+  const image = document.createElement("img");
+  const fallback = generatedStoryThumbnailV8(story, accent);
+  image.src = storyThumbnailSourceV8(story, accent);
+  image.alt = "";
+  image.decoding = "async";
+  image.loading = "eager";
+  image.addEventListener("error", () => {
+    if (image.src !== fallback) image.src = fallback;
+  }, {once: true});
+
+  wrapper.appendChild(image);
+  return wrapper;
+}
+function groupIdFor(story) { return story?.variantGroupId || story?.id || ""; }
+function getVariantGroupsForCollection(collectionId) {
+  const groups = new Map();
+  getStoriesForCollection(collectionId).forEach((story, index) => {
+    const groupId = groupIdFor(story);
+    if (!groups.has(groupId)) groups.set(groupId, {groupId, variants: [], index});
+    groups.get(groupId).variants.push(story);
+  });
+  return [...groups.values()].map((group) => {
+    group.variants = uniqueStoriesV7(group.variants)
+      .sort((a, b) => a.difficultyOrder - b.difficultyOrder || a.order - b.order || a.title.localeCompare(b.title));
+    return group;
+  });
+}
+
+function getVariants(groupId) {
+  return uniqueStoriesV7(state.stories.filter((story) => groupIdFor(story) === groupId))
+    .sort((a, b) => a.difficultyOrder - b.difficultyOrder || a.order - b.order || a.title.localeCompare(b.title));
+}
+
+function selectedVariantForGroup(group) {
+  const selectedId = state.variantSelections[group.groupId];
+  return group.variants.find((story) => story.id === selectedId) || group.variants[0];
+}
+
+function selectVariantV6(groupId, storyId) {
+  state.variantSelections[groupId] = storyId;
+  saveVariantsV6();
+}
+
+
+renderCollectionCards = function(query) {
+  applyTheme("sage"); libraryBackButton.hidden = true;
+  libraryEyebrow.textContent = "한국어 리더"; libraryTitle.textContent = "Your Korean library";
+  librarySubtitle.textContent = "Choose a collection, then choose a story.";
+  searchInput.placeholder = "Search collections";
+
+  const collections = state.collections
+    .filter((collection) => {
+      const stories = getStoriesForCollection(collection.id);
+      const haystack = [collection.title, collection.koreanTitle, collection.description, collection.level, ...collection.tags, ...stories.flatMap((s) => [s.title, s.englishTitle, s.level])].join(" ").toLowerCase();
+      return haystack.includes(query);
+    })
+    .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+
+  if (!collections.length) return renderEmpty("No collections found.");
+  collections.forEach((collection) => storyGrid.appendChild(createCollectionCard(collection)));
+};
+
+createCollectionCard = function(collection) {
+  const accent = THEMES[collection.theme] || THEMES.sage;
+  const groups = getVariantGroupsForCollection(collection.id);
+  const card = document.createElement("article");
+  card.className = "story-card collection-card";
+  card.tabIndex = 0; card.setAttribute("role", "button");
+  card.setAttribute("aria-label", `Open ${collection.title}`); setCardTheme(card, accent);
+
+  const content = document.createElement("div"); content.className = "story-card-content";
+  const topline = document.createElement("div"); topline.className = "collection-topline";
+  const mark = createTextBlock("span", "collection-monogram", collection.monogram);
+  const count = createTextBlock("span", "collection-count", `${groups.length} stor${groups.length === 1 ? "y" : "ies"}`);
+  topline.append(mark, count); content.appendChild(topline);
+  content.appendChild(createTextBlock("h2", "", collection.title));
+  if (collection.koreanTitle) content.appendChild(createTextBlock("p", "collection-korean-title", collection.koreanTitle));
+  if (collection.description) content.appendChild(createTextBlock("p", "description", collection.description));
+  if (collection.tags.length) {
+    const tags = document.createElement("div"); tags.className = "collection-tags";
+    collection.tags.slice(0, 4).forEach((tag) => tags.appendChild(createTextBlock("span", "collection-tag", tag)));
+    content.appendChild(tags);
+  }
+  const arrow = document.createElement("span"); arrow.className = "card-arrow";
+  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
+  card.append(content, arrow);
+  card.addEventListener("click", () => showCollection(collection.id, true));
+  card.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); showCollection(collection.id, true); } });
+  return card;
+};
+
+renderStoryCards = function(collectionId, query) {
+  const collection = getCollection(collectionId); if (!collection) return showCollections(false);
+  applyTheme(collection.theme); libraryBackButton.hidden = false;
+  libraryEyebrow.textContent = collection.level || "STORY COLLECTION"; libraryTitle.textContent = collection.title;
+  librarySubtitle.textContent = [collection.koreanTitle, collection.description].filter(Boolean).join(" · ");
+  searchInput.placeholder = "Search stories";
+
+  const groups = getVariantGroupsForCollection(collectionId)
+    .filter((group) => group.variants.some((story) =>
+      [story.title, story.englishTitle, story.level, story.description].join(" ").toLowerCase().includes(query)
+    ))
+    .sort((a, b) => a.index - b.index);
+
+  if (!groups.length) return renderEmpty("No stories found in this collection.");
+  groups.forEach((group) => storyGrid.appendChild(createStoryCard(group)));
+};
+
+createStoryCard = function(group) {
+  group.variants = uniqueStoriesV7(group.variants);
+  const story = selectedVariantForGroup(group);
+  const variants = getVariants(group.groupId);
+  const hasVariants = variants.length > 1;
+  const accent = THEMES[story.theme] || THEMES.sage;
+  const card = document.createElement("article");
+  card.className = "story-card";
+  card.tabIndex = 0; card.setAttribute("role", "button");
+  card.setAttribute("aria-label", `Open ${story.title}`); setCardTheme(card, accent);
+
+  card.classList.add("has-story-thumbnail");
+  const thumbnail = createStoryThumbnailV8(story, accent);
+  const content = document.createElement("div"); content.className = "story-card-content";
+  if (story.level) {
+    if (hasVariants) {
+      const level = createTextBlock("button", "story-level story-level-button has-variants", story.level);
+      level.type = "button";
+      level.dataset.versionLabel = `${variants.length}`;
+      level.setAttribute("aria-label", `Choose among ${variants.length} versions of ${story.title}`);
+      level.title = `${variants.length} versions available`;
+      level.addEventListener("click", (event) => { event.stopPropagation(); openVariantMenu(level, group.groupId); });
+      content.appendChild(level);
+    } else {
+      const level = createTextBlock("span", "story-level story-level-static", story.level);
+      level.title = "Only one version available";
+      content.appendChild(level);
+    }
+  }
+  content.appendChild(createTextBlock("h2", "", story.title));
+  if (story.englishTitle) content.appendChild(createTextBlock("p", "english-title", story.englishTitle));
+  if (story.description) content.appendChild(createTextBlock("p", "description", story.description));
+
+  const arrow = document.createElement("span"); arrow.className = "card-arrow";
+  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
+  card.append(content, thumbnail, arrow);
+  card.addEventListener("click", () => openStory(story, true));
+  card.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openStory(story, true); } });
+  return card;
+};
+
+openStory = function(story, push = false) {
+  const groupId = groupIdFor(story);
+  const variants = getVariants(groupId);
+  const hasVariants = variants.length > 1;
+  selectVariantV6(groupId, story.id);
+  state.activeStory = story; state.activeCollectionId = story.collectionId; state.selectedSentenceElement = null;
+  hideWordPopover(); hideVariantMenu(); hideAppearanceMenu(); clearDetails();
+  applyTheme(story.theme);
+  readerTitle.textContent = story.title;
+  readerLevel.textContent = story.level;
+  readerLevel.classList.toggle("has-variants", hasVariants);
+  readerLevel.classList.toggle("single-version", !hasVariants);
+  readerLevel.disabled = !hasVariants;
+  readerLevel.dataset.versionLabel = hasVariants ? `${variants.length}` : "";
+  readerLevel.setAttribute("aria-label", hasVariants
+    ? `Choose among ${variants.length} versions of ${story.title}`
+    : `${story.level || "Story level"}; only one version available`);
+  readerLevel.title = hasVariants ? `${variants.length} versions available` : "Only one version available";
+  renderStory(story);
+  libraryView.classList.remove("view-active"); readerView.classList.add("view-active"); window.scrollTo({top: 0, behavior: "auto"});
+  if (push) history.pushState({view: "reader", storyId: story.id, collectionId: story.collectionId}, "", `#story=${encodeURIComponent(story.id)}`);
+};
+
+appendWordTokens = function(container, sentence) {
+  const lookup = buildWordLookup(sentence);
+  const chunks = sentence.korean.split(/(\s+)/u);
+  chunks.forEach((chunk) => {
+    if (!chunk) return;
+    if (/^\s+$/u.test(chunk)) { container.appendChild(document.createTextNode(chunk)); return; }
+    const clean = cleanToken(chunk);
+    const translation = lookup.get(clean) || {
+      surface: clean || chunk,
+      meaning: "No individual translation is stored for this word yet.",
+      note: "Add it to the sentence’s words list in the JSON story file."
+    };
+    const word = document.createElement("span");
+    word.className = "word-token"; word.textContent = chunk; word.dataset.surface = clean || chunk;
+
+    word.addEventListener("dblclick", (event) => {
+      event.preventDefault(); event.stopPropagation();
+      state.suppressSentenceClickUntil = Date.now() + 450;
+      showWordPopover(translation, event.clientX, event.clientY);
+    });
+
+    word.addEventListener("pointerup", (event) => {
+      if (event.pointerType === "mouse") return;
+      event.preventDefault(); event.stopPropagation();
+      const now = Date.now();
+      const sameWord = state.lastWordTap.element === word;
+      if (sameWord && now - state.lastWordTap.time < 370) {
+        clearTimeout(state.wordTapTimer);
+        state.suppressSentenceClickUntil = now + 500;
+        showWordPopover(translation, event.clientX, event.clientY);
+        state.lastWordTap = {element: null, time: 0};
+      } else {
+        clearTimeout(state.wordTapTimer);
+        state.lastWordTap = {element: word, time: now};
+        state.wordTapTimer = window.setTimeout(() => {
+          if (state.lastWordTap.element === word && state.lastWordTap.time === now) {
+            state.lastWordTap = {element: null, time: 0};
+            selectSentence(container, sentence);
+          }
+        }, 390);
+      }
+    }, {passive: false});
+
+    word.addEventListener("click", (event) => {
+      if (event.detail === 0 || Date.now() < state.suppressSentenceClickUntil || state.lastWordTap.element === word) {
+        event.preventDefault(); event.stopPropagation();
+      }
+    });
+
+    word.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") { event.preventDefault(); event.stopPropagation(); showWordPopover(translation, innerWidth / 2, innerHeight / 2); }
+    });
+    container.appendChild(word);
+  });
+};
+
+const renderStoryV3Base = renderStory;
+renderStory = function(story) {
+  renderStoryV3Base(story);
+  storyContent.querySelectorAll(".sentence").forEach((sentenceElement) => {
+    sentenceElement.addEventListener("click", (event) => {
+      if (Date.now() < state.suppressSentenceClickUntil) {
+        event.preventDefault(); event.stopImmediatePropagation();
+      }
+    }, true);
+  });
+};
+
+function mixHexV6(a, b, amount) {
+  const parse = (hex) => {
+    const h = String(hex).replace("#", "");
+    return [parseInt(h.slice(0,2),16), parseInt(h.slice(2,4),16), parseInt(h.slice(4,6),16)];
+  };
+  const x = parse(a), y = parse(b);
+  return "#" + x.map((v,i) => Math.round(v * (1-amount) + y[i] * amount).toString(16).padStart(2,"0")).join("");
+}
+
+setCardTheme = function(card, accent) {
+  const appearance = APPEARANCES[state.appearance] || APPEARANCES.light;
+  const dark = state.appearance === "dark";
+  card.style.setProperty("--card-bg", appearance.surface);
+  card.style.setProperty("--card-soft", mixHexV6(accent.accent, appearance.surfaceMuted, dark ? .72 : .82));
+  card.style.setProperty("--card-accent", dark ? mixHexV6(accent.accent, "#ffffff", .28) : accent.accent);
+  card.style.setProperty("--card-accent-strong", dark ? mixHexV6(accent.accent, "#ffffff", .46) : accent.accentStrong);
+};
+
+applyTheme = function(themeKey) {
+  const accent = THEMES[themeKey] || THEMES.sage;
+  const appearance = APPEARANCES[state.appearance] || APPEARANCES.light;
+  const dark = state.appearance === "dark";
+  const root = document.documentElement;
+  root.style.setProperty("--bg", appearance.bg);
+  root.style.setProperty("--surface", dark ? `${appearance.surface}e8` : `${appearance.surface}d9`);
+  root.style.setProperty("--surface-solid", appearance.surface);
+  root.style.setProperty("--surface-muted", appearance.surfaceMuted);
+  root.style.setProperty("--ink", appearance.ink);
+  root.style.setProperty("--muted", appearance.muted);
+  root.style.setProperty("--accent", dark ? mixHexV6(accent.accent, "#ffffff", .25) : accent.accent);
+  root.style.setProperty("--accent-strong", dark ? mixHexV6(accent.accent, "#ffffff", .43) : accent.accentStrong);
+  root.style.setProperty("--accent-soft", dark ? mixHexV6(accent.accent, appearance.surfaceMuted, .72) : accent.accentSoft);
+  root.style.setProperty("--word", dark ? mixHexV6(accent.word, "#ffffff", .28) : accent.word);
+  root.style.setProperty("--ambient-one", dark ? mixHexV6(accent.accent, appearance.bg, .55) : accent.ambientOne);
+  root.style.setProperty("--ambient-two", dark ? mixHexV6(accent.word, appearance.bg, .62) : accent.ambientTwo);
+  if (dark) {
+    root.style.setProperty("--word-popover-bg", "#f4f7f5");
+    root.style.setProperty("--word-popover-text", "#18211d");
+    root.style.setProperty("--word-popover-heading", mixHexV6(accent.accentStrong, "#18211d", .28));
+    root.style.setProperty("--word-popover-muted", "#58645f");
+  } else {
+    root.style.setProperty("--word-popover-bg", "#17211e");
+    root.style.setProperty("--word-popover-text", "#ffffff");
+    root.style.setProperty("--word-popover-heading", mixHexV6(accent.accentSoft, "#ffffff", .38));
+    root.style.setProperty("--word-popover-muted", "rgba(255,255,255,.72)");
+  }
+  themeColorMeta.setAttribute("content", appearance.bg);
+};
+
+function positionFloatingMenu(menu, anchor) {
+  requestAnimationFrame(() => {
+    const anchorRect = anchor.getBoundingClientRect();
+    const menuRect = menu.getBoundingClientRect();
+    const margin = 12;
+    let left = anchorRect.right - menuRect.width;
+    let top = anchorRect.bottom + 9;
+    if (left < margin) left = margin;
+    if (left + menuRect.width > innerWidth - margin) left = innerWidth - menuRect.width - margin;
+    if (top + menuRect.height > innerHeight - margin) top = anchorRect.top - menuRect.height - 9;
+    menu.style.left = `${Math.max(margin, left)}px`;
+    menu.style.top = `${Math.max(margin, top)}px`;
+  });
+}
+
+function openVariantMenu(anchor, groupId) {
+  const variants = uniqueStoriesV7(getVariants(groupId));
+  if (variants.length < 2) return;
+  hideAppearanceMenu();
+  state.variantTargetGroupId = groupId;
+  variantMenu.replaceChildren();
+  const currentId = state.activeStory && groupIdFor(state.activeStory) === groupId ? state.activeStory.id : (state.variantSelections[groupId] || variants[0].id);
+  variants.forEach((variant) => {
+    const choice = document.createElement("button");
+    choice.type = "button"; choice.className = `variant-choice${variant.id === currentId ? " selected" : ""}`;
+    const shortLevel = String(variant.level || "").replace(/^TOPIK\s*/i, "") || "•";
+    const mark = createTextBlock("span", "variant-choice-mark", shortLevel);
+    const copy = document.createElement("span");
+    copy.append(createTextBlock("strong", "", variant.variantLabel || variant.level || "Version"));
+    copy.append(createTextBlock("small", "", variant.englishTitle || variant.title));
+    const check = createTextBlock("span", "variant-choice-check", variant.id === currentId ? "✓" : "");
+    choice.append(mark, copy, check);
+    choice.addEventListener("click", (event) => {
+      event.stopPropagation(); selectVariantV6(groupId, variant.id); hideVariantMenu();
+      if (state.activeStory && groupIdFor(state.activeStory) === groupId) {
+        openStory(variant, false);
+        history.replaceState({view: "reader", storyId: variant.id, collectionId: variant.collectionId}, "", `#story=${encodeURIComponent(variant.id)}`);
+      } else renderLibrary(searchInput.value);
+    });
+    variantMenu.appendChild(choice);
+  });
+  variantMenu.setAttribute("aria-hidden", "false"); variantMenu.classList.add("variant-menu-open");
+  positionFloatingMenu(variantMenu, anchor);
+}
+
+function hideVariantMenu() {
+  variantMenu.classList.remove("variant-menu-open"); variantMenu.setAttribute("aria-hidden", "true"); state.variantTargetGroupId = null;
+}
+
+function openAppearanceMenu(anchor) {
+  hideVariantMenu();
+  appearanceMenu.replaceChildren();
+  Object.entries(APPEARANCES).forEach(([key, appearance]) => {
+    const choice = document.createElement("button");
+    choice.type = "button"; choice.className = `appearance-choice${state.appearance === key ? " selected" : ""}`;
+    const mark = createTextBlock("span", "appearance-choice-mark", appearance.symbol);
+    mark.style.setProperty("--choice-bg", appearance.surfaceMuted);
+    const copy = document.createElement("span");
+    copy.append(createTextBlock("strong", "", appearance.name));
+    copy.append(createTextBlock("small", "", key === "dark" ? "Dark surfaces; JSON story colors remain active" : "Story colors are read from JSON"));
+    const check = createTextBlock("span", "variant-choice-check", state.appearance === key ? "✓" : "");
+    choice.append(mark, copy, check);
+    choice.addEventListener("click", (event) => {
+      event.stopPropagation(); state.appearance = key; storageSet(APPEARANCE_KEY_V6, key); hideAppearanceMenu();
+      const activeTheme = state.activeStory ? effectiveThemeKeyV7(state.activeStory) : (getCollection(state.activeCollectionId)?.theme || "sage");
+      applyTheme(activeTheme);
+      if (libraryView.classList.contains("view-active")) renderLibrary(searchInput.value);
+    });
+    appearanceMenu.appendChild(choice);
+  });
+  appearanceMenu.setAttribute("aria-hidden", "false"); appearanceMenu.classList.add("appearance-menu-open");
+  positionFloatingMenu(appearanceMenu, anchor);
+}
+
+function hideAppearanceMenu() {
+  appearanceMenu.classList.remove("appearance-menu-open"); appearanceMenu.setAttribute("aria-hidden", "true");
+}
+
+readerLevel.addEventListener("click", (event) => {
+  event.stopPropagation();
+  if (!state.activeStory || readerLevel.disabled) return;
+  openVariantMenu(readerLevel, groupIdFor(state.activeStory));
+});
+libraryAppearanceButton.addEventListener("click", (event) => { event.stopPropagation(); openAppearanceMenu(libraryAppearanceButton); });
+readerAppearanceButton.addEventListener("click", (event) => { event.stopPropagation(); openAppearanceMenu(readerAppearanceButton); });
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest(".variant-menu") && !event.target.closest(".story-level-button") && event.target !== readerLevel) hideVariantMenu();
+  if (!event.target.closest(".appearance-menu") && event.target !== libraryAppearanceButton && event.target !== readerAppearanceButton) hideAppearanceMenu();
+});
+document.addEventListener("keydown", (event) => { if (event.key === "Escape") { hideVariantMenu(); hideAppearanceMenu(); } });
+window.addEventListener("resize", () => { hideVariantMenu(); hideAppearanceMenu(); });
+window.addEventListener("scroll", () => { hideAppearanceMenu(); }, {passive: true});
+
+
+function ensureBuiltInV7Variants() {}
+
+
+
+/* =========================================================
+   External thumbnails
+   =========================================================
+
+   External thumbnail examples inside a story JSON:
+
+     "thumbnail": "thumbnails/avatar-the-promise.jpg"
+       -> relative to this HTML file
+
+     "thumbnail": "./cover.jpg"
+       -> relative to the imported JSON file's folder when sourcePath is known
+
+   The image remains an external file. It is only referenced through <img src="...">.
+*/
+
+function resolveThumbnailPathV9(story, value) {
+  const path = String(value || "").trim().replace(/\\/g, "/");
+  if (!path) return "";
+
+  /* Full URLs, data/blob URLs, root paths, and anchors are already complete. */
+  if (/^(?:[a-z][a-z0-9+.-]*:|\/|#)/i.test(path)) return path;
+
+  /* ./cover.jpg and ../cover.jpg follow the imported JSON folder. */
+  if (/^\.\.?\//.test(path) && story?.sourcePath) {
+    try {
+      const sourceUrl = new URL(String(story.sourcePath).replace(/\\/g, "/"), document.baseURI);
+      return new URL(path, sourceUrl).href;
+    } catch {}
+  }
+
+  /* Other relative paths are intentionally relative to the HTML file. */
+  return path;
+}
+
+storyThumbnailSourceV8 = function(story, accent) {
+  const groupThumbnail = story?.thumbnail || getVariants(groupIdFor(story)).find((variant) => variant.thumbnail)?.thumbnail || "";
+  const resolved = resolveThumbnailPathV9(story, groupThumbnail);
+  return resolved || generatedStoryThumbnailV8(story, accent);
+};
+
+async function initializeLibrary() {
+  history.replaceState({view: "collections"}, "", "#library");
+  applyTheme("sage");
+  libraryBackButton.hidden = true;
+  libraryTitle.textContent = "Loading your library…";
+  librarySubtitle.textContent = `Reading ${GITHUB_LIBRARY.root}/ from ${GITHUB_LIBRARY.owner}/${GITHUB_LIBRARY.repo}.`;
+  searchInput.placeholder = "Loading stories";
+  storyGrid.replaceChildren(createTextBlock("div", "empty-state", "Loading collections and stories…"));
+
+  try {
+    await loadLibrary();
+    showCollections(false);
+  } catch (error) {
+    console.error(error);
+    libraryTitle.textContent = "Library could not be loaded";
+    librarySubtitle.textContent =
+      `${GITHUB_LIBRARY.owner}/${GITHUB_LIBRARY.repo}/${GITHUB_LIBRARY.root}`;
+    searchInput.placeholder = "Library unavailable";
+    storyGrid.replaceChildren(
+      createTextBlock(
+        "div",
+        "empty-state",
+        `${error.message} Make sure the repository is public and the library folder exists on the main branch.`
+      )
+    );
+  }
+}
+
+initializeLibrary();
+</script>
 </body>
 </html>
