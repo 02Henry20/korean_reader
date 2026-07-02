@@ -1474,18 +1474,53 @@ async function loadLibrary() {
   }
 
   const results = await Promise.allSettled(jsonEntries.map(async (entry) => {
-    const rawUrl =
-      `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/` +
-      `${encodeURIComponent(branch)}/${encodeGitHubPath(entry.path)}`;
-    const response = await fetch(rawUrl, {cache: "no-cache"});
-    if (!response.ok) throw new Error(`${entry.path}: HTTP ${response.status}`);
-    return {
-      path: entry.path,
-      dir: dirname(entry.path),
-      name: basename(entry.path),
-      rawUrl,
-      data: await response.json()
-    };
+    /*
+     * The repository tree is still obtained from api.github.com, but the
+     * actual JSON files are loaded from this GitHub Pages website itself.
+     *
+     * This avoids depending on raw.githubusercontent.com, which can be
+     * blocked by DNS filters, privacy extensions, proxies, or Linux network
+     * configuration even when api.github.com remains reachable.
+     */
+    if (window.location.protocol === "file:") {
+      throw new Error(
+        `${entry.path}: open the published GitHub Pages URL instead of a local file`
+      );
+    }
+
+    const fileUrl = new URL(entry.path, document.baseURI).href;
+    const response = await fetch(fileUrl, {
+      cache: "no-cache",
+      headers: {Accept: "application/json, text/plain;q=0.9, */*;q=0.1"}
+    });
+
+    if (!response.ok) {
+      throw new Error(`${entry.path}: HTTP ${response.status} from ${fileUrl}`);
+    }
+
+    const text = await response.text();
+
+    try {
+      /*
+       * Removing a UTF-8 BOM makes parsing tolerant of JSON files written by
+       * some Windows and PowerShell editors.
+       */
+      const data = JSON.parse(text.replace(/^\uFEFF/, ""));
+      return {
+        path: entry.path,
+        dir: dirname(entry.path),
+        name: basename(entry.path),
+        rawUrl: fileUrl,
+        data
+      };
+    } catch (error) {
+      const contentType = response.headers.get("content-type") || "unknown content type";
+      const preview = text.slice(0, 90).replace(/\s+/g, " ").trim();
+      throw new Error(
+        `${entry.path}: invalid JSON (${contentType})` +
+        (preview ? ` — received: ${preview}` : "")
+      );
+    }
   }));
 
   const parsed = [];
@@ -1584,7 +1619,11 @@ async function loadLibrary() {
     }));
 
   if (!state.stories.length) {
-    throw new Error(`JSON files were found, but none were valid Korean Reader stories.`);
+    const details = warnings.slice(0, 3).join(" | ");
+    throw new Error(
+      `JSON files were found, but no stories could be loaded.` +
+      (details ? ` First errors: ${details}` : "")
+    );
   }
 
   if (warnings.length) {
