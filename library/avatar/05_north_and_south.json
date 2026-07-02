@@ -1,0 +1,3376 @@
+{
+  "id": "avatar-north-and-south",
+  "title": "북과 남",
+  "englishTitle": "Avatar: The Last Airbender — North and South",
+  "level": "TOPIK 2–3",
+  "description": "카타라와 소카가 변해 버린 남극 고향과 새로운 갈등을 마주하는 이야기.",
+  "theme": "ocean",
+  "thumbnail": "thumbnails/05_north_and_south.jpg",
+  "thumbnailAlt": "Avatar: The Last Airbender — North and South",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "카타라와 소카는 오랜 여행을 마치고 남쪽 물 부족으로 돌아왔어.",
+          "translation": "Katara and Sokka finished their long journey and returned to the Southern Water Tribe.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing.” The verb is changed into a past modifier before 뒤.",
+              "example": "카타라와 소카는 오랜 여행을 마치고 남쪽 물 부족으로 돌아왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "카타라와 소카는 오랜 여행을 마치고 남쪽 물 부족으로 돌아왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라와",
+              "meaning": "Katara and",
+              "note": "카타라 + 와"
+            },
+            {
+              "word": "소카는",
+              "meaning": "Sokka (topic)",
+              "note": "소카 + 는"
+            },
+            {
+              "word": "오랜",
+              "meaning": "long",
+              "note": "오래다 + -(으)ㄴ"
+            },
+            {
+              "word": "여행을",
+              "meaning": "journey (object)",
+              "note": "여행 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카는",
+              "meaning": "Sokka (topic)",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "오랜",
+              "meaning": "long",
+              "base": "오래다 + -(으)ㄴ"
+            },
+            {
+              "surface": "여행을",
+              "meaning": "journey (object)",
+              "base": "여행 + 을"
+            },
+            {
+              "surface": "마치고",
+              "meaning": "finished and",
+              "base": "마치다 + -고"
+            },
+            {
+              "surface": "남쪽",
+              "meaning": "south / southern"
+            },
+            {
+              "surface": "물",
+              "meaning": "water"
+            },
+            {
+              "surface": "부족으로",
+              "meaning": "to the tribe",
+              "base": "부족 + 으로"
+            },
+            {
+              "surface": "돌아왔어",
+              "meaning": "returned",
+              "base": "돌아오다"
+            }
+          ]
+        },
+        {
+          "korean": "돌아오는 길에 카타라는 세상을 떠난 어머니 키아가 예전 고향에 서 있는 꿈을 꿨어.",
+          "translation": "On the journey home, Katara dreamed of her late mother Kya standing in their old village.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "돌아오는 길에 카타라는 세상을 떠난 어머니 키아가 예전 고향에 서 있는 꿈을 꿨어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "돌아오는 길에 카타라는 세상을 떠난 어머니 키아가 예전 고향에 서 있는 꿈을 꿨어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "키아가",
+              "meaning": "Kya (subject)"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dream (object)"
+            },
+            {
+              "word": "세상을",
+              "meaning": "the world (object)",
+              "note": "세상 + 을"
+            },
+            {
+              "word": "꿨어",
+              "meaning": "dreamed"
+            },
+            {
+              "word": "돌아오는",
+              "meaning": "returned",
+              "note": "돌아오다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "돌아오는",
+              "meaning": "returned",
+              "base": "돌아오다"
+            },
+            {
+              "surface": "길에",
+              "meaning": "paths to / at",
+              "base": "길 + 에"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "세상을",
+              "meaning": "the world (object)",
+              "base": "세상 + 을"
+            },
+            {
+              "surface": "떠난",
+              "meaning": "left",
+              "base": "떠나다 + -(으)ㄴ"
+            },
+            {
+              "surface": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "surface": "키아가",
+              "meaning": "Kya (subject)"
+            },
+            {
+              "surface": "예전",
+              "meaning": "in the past / previously"
+            },
+            {
+              "surface": "고향에",
+              "meaning": "hometown to / at",
+              "base": "고향 + 에"
+            },
+            {
+              "surface": "서",
+              "meaning": "each other"
+            },
+            {
+              "surface": "있는",
+              "meaning": "being",
+              "base": "있다 + -는"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dream (object)"
+            },
+            {
+              "surface": "꿨어",
+              "meaning": "dreamed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "작은 마을이 큰 도시처럼 변해 있어서 두 사람은 크게 놀랐어.",
+          "translation": "The small village had changed into something like a large city, so the two were greatly surprised.",
+          "grammar": [
+            {
+              "pattern": "-아/어지다",
+              "explanation": "Shows a change of state: “become / get” followed by an adjective.",
+              "example": "작은 마을이 큰 도시처럼 변해 있어서 두 사람은 크게 놀랐어."
+            },
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason to its result: “because,” “so,” or “and then.”",
+              "example": "작은 마을이 큰 도시처럼 변해 있어서 두 사람은 크게 놀랐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "작은 마을이 큰 도시처럼 변해 있어서 두 사람은 크게 놀랐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "작은",
+              "meaning": "small",
+              "note": "작다 + -(으)ㄴ"
+            },
+            {
+              "word": "마을이",
+              "meaning": "village (subject)",
+              "note": "마을 + 이"
+            },
+            {
+              "word": "큰",
+              "meaning": "large",
+              "note": "크다 + -(으)ㄴ"
+            },
+            {
+              "word": "도시처럼",
+              "meaning": "like a city",
+              "note": "도시 + 처럼"
+            }
+          ],
+          "words": [
+            {
+              "surface": "작은",
+              "meaning": "small",
+              "base": "작다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마을이",
+              "meaning": "village (subject)",
+              "base": "마을 + 이"
+            },
+            {
+              "surface": "큰",
+              "meaning": "large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "도시처럼",
+              "meaning": "like a city",
+              "base": "도시 + 처럼"
+            },
+            {
+              "surface": "변해",
+              "meaning": "changed",
+              "base": "변하다 + -아/어"
+            },
+            {
+              "surface": "있어서",
+              "meaning": "because it was",
+              "base": "있다 + -아/어서"
+            },
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people (topic)",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "크게",
+              "meaning": "greatly",
+              "base": "크다 + -게"
+            },
+            {
+              "surface": "놀랐어",
+              "meaning": "were surprised",
+              "base": "놀라다"
+            }
+          ]
+        },
+        {
+          "korean": "소카는 새 건물과 음식에 신이 났지만 카타라는 익숙한 모습이 사라져 슬펐어.",
+          "translation": "Sokka was excited by the new buildings and food, while Katara grieved that the familiar village had disappeared.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "소카는 새 건물과 음식에 신이 났지만 카타라는 익숙한 모습이 사라져 슬펐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "소카는 새 건물과 음식에 신이 났지만 카타라는 익숙한 모습이 사라져 슬펐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "신이",
+              "meaning": "excited / spirit (subject)"
+            },
+            {
+              "word": "났지만",
+              "meaning": "became / felt, but"
+            },
+            {
+              "word": "사라져",
+              "meaning": "disappeared"
+            },
+            {
+              "word": "슬펐어",
+              "meaning": "was sad"
+            },
+            {
+              "word": "소카는",
+              "meaning": "Sokka",
+              "note": "소카 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소카는",
+              "meaning": "Sokka",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "건물과",
+              "meaning": "building",
+              "base": "건물 + 과"
+            },
+            {
+              "surface": "음식에",
+              "meaning": "food to / at",
+              "base": "음식 + 에"
+            },
+            {
+              "surface": "신이",
+              "meaning": "excited / spirit (subject)"
+            },
+            {
+              "surface": "났지만",
+              "meaning": "became / felt, but"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "익숙한",
+              "meaning": "익숙: that did / ...",
+              "base": "익숙하다"
+            },
+            {
+              "surface": "모습이",
+              "meaning": "appearance / sight",
+              "base": "모습 + 이"
+            },
+            {
+              "surface": "사라져",
+              "meaning": "disappeared"
+            },
+            {
+              "surface": "슬펐어",
+              "meaning": "was sad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아버지 하코다는 남쪽의 지도자가 되어 있었고 북쪽 출신 말리나와 가까운 사이였어.",
+          "translation": "Their father Hakoda had become the South's leader and was close with Malina, who came from the North.",
+          "grammar": [
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason or sequence: “because / so / and then.”",
+              "example": "아버지 하코다는 남쪽의 지도자가 되어 있었고 북쪽 출신 말리나와 가까운 사이였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아버지 하코다는 남쪽의 지도자가 되어 있었고 북쪽 출신 말리나와 가까운 사이였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아버지",
+              "meaning": "father"
+            },
+            {
+              "word": "하코다는",
+              "meaning": "with Hakoda (는)",
+              "note": "하코다 + 는"
+            },
+            {
+              "word": "남쪽의",
+              "meaning": "the South's",
+              "note": "남쪽 + 의"
+            },
+            {
+              "word": "지도자가",
+              "meaning": "leader (가)",
+              "note": "지도자 + 가"
+            },
+            {
+              "word": "되어",
+              "meaning": "become",
+              "note": "되다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "하코다는",
+              "meaning": "with Hakoda (는)",
+              "base": "하코다 + 는"
+            },
+            {
+              "surface": "남쪽의",
+              "meaning": "the South's",
+              "base": "남쪽 + 의"
+            },
+            {
+              "surface": "지도자가",
+              "meaning": "leader (가)",
+              "base": "지도자 + 가"
+            },
+            {
+              "surface": "되어",
+              "meaning": "become",
+              "base": "되다 + -아/어"
+            },
+            {
+              "surface": "있었고",
+              "meaning": "there was / had, and",
+              "base": "있다 + -었고"
+            },
+            {
+              "surface": "북쪽",
+              "meaning": "north / northern"
+            },
+            {
+              "surface": "출신",
+              "meaning": "origin / from"
+            },
+            {
+              "surface": "말리나와",
+              "meaning": "Malina and",
+              "base": "말리나 + 와"
+            },
+            {
+              "surface": "가까운",
+              "meaning": "close",
+              "base": "가깝다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사이였어",
+              "meaning": "were in a relationship / were close",
+              "base": "사이이다"
+            }
+          ]
+        },
+        {
+          "korean": "하코다와 말리나가 입을 맞추는 모습을 본 카타라는 어머니를 잊는 것처럼 느꼈어.",
+          "translation": "When Katara saw Hakoda and Malina kiss, she felt as though her mother were being forgotten.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "하코다와 말리나가 입을 맞추는 모습을 본 카타라는 어머니를 잊는 것처럼 느꼈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "하코다와 말리나가 입을 맞추는 모습을 본 카타라는 어머니를 잊는 것처럼 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "입을",
+              "meaning": "mouth / lips (object)"
+            },
+            {
+              "word": "맞추는",
+              "meaning": "kissing / matching"
+            },
+            {
+              "word": "잊는",
+              "meaning": "forgetting"
+            },
+            {
+              "word": "말리나가",
+              "meaning": "Malina and (subject)",
+              "note": "말리나 + 가"
+            },
+            {
+              "word": "하코다와",
+              "meaning": "with Hakoda",
+              "note": "하코다 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하코다와",
+              "meaning": "with Hakoda",
+              "base": "하코다 + 와"
+            },
+            {
+              "surface": "말리나가",
+              "meaning": "Malina and (subject)",
+              "base": "말리나 + 가"
+            },
+            {
+              "surface": "입을",
+              "meaning": "mouth / lips (object)"
+            },
+            {
+              "surface": "맞추는",
+              "meaning": "kissing / matching"
+            },
+            {
+              "surface": "모습을",
+              "meaning": "image / appearance",
+              "base": "모습 + 을"
+            },
+            {
+              "surface": "본",
+              "meaning": "seen",
+              "base": "보다 + -(으)ㄴ"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "어머니를",
+              "meaning": "mother",
+              "base": "어머니 + 를"
+            },
+            {
+              "surface": "잊는",
+              "meaning": "forgetting"
+            },
+            {
+              "surface": "것처럼",
+              "meaning": "thing / fact like",
+              "base": "것 + 처럼"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 어머니의 자리가 바뀌는 것 같아 복잡한 마음을 느꼈어.",
+          "translation": "Katara had complicated feelings because it seemed as though her mother's place was being replaced.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 어머니의 자리가 바뀌는 것 같아 복잡한 마음을 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "어머니의",
+              "meaning": "mother (의)",
+              "note": "어머니 + 의"
+            },
+            {
+              "word": "자리가",
+              "meaning": "place / position (가)",
+              "note": "자리 + 가"
+            },
+            {
+              "word": "바뀌는",
+              "meaning": "be replaced / change",
+              "note": "바뀌다"
+            },
+            {
+              "word": "같아",
+              "meaning": "seems like / because it feels",
+              "note": "같다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "어머니의",
+              "meaning": "mother (의)",
+              "base": "어머니 + 의"
+            },
+            {
+              "surface": "자리가",
+              "meaning": "place / position (가)",
+              "base": "자리 + 가"
+            },
+            {
+              "surface": "바뀌는",
+              "meaning": "be replaced / change",
+              "base": "바뀌다"
+            },
+            {
+              "surface": "것",
+              "meaning": "thing / fact"
+            },
+            {
+              "surface": "같아",
+              "meaning": "seems like / because it feels",
+              "base": "같다 + -아/어"
+            },
+            {
+              "surface": "복잡한",
+              "meaning": "complicated",
+              "base": "복잡하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마음을",
+              "meaning": "heart / feelings (을)",
+              "base": "마음 + 을"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        },
+        {
+          "korean": "도둑들이 말릭의 서류 가방을 훔치는 과정에서 말리나가 다쳤어.",
+          "translation": "Malina was injured when thieves stole Maliq's briefcase.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "도둑들이 말릭의 서류 가방을 훔치는 과정에서 말리나가 다쳤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "도둑들이 말릭의 서류 가방을 훔치는 과정에서 말리나가 다쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "도둑들이",
+              "meaning": "thieves (subject)"
+            },
+            {
+              "word": "가방을",
+              "meaning": "bag / briefcase (object)"
+            },
+            {
+              "word": "훔치는",
+              "meaning": "stealing"
+            },
+            {
+              "word": "과정에서",
+              "meaning": "in the process"
+            },
+            {
+              "word": "서류",
+              "meaning": "documents"
+            }
+          ],
+          "words": [
+            {
+              "surface": "도둑들이",
+              "meaning": "thieves (subject)"
+            },
+            {
+              "surface": "말릭의",
+              "meaning": "Maliq 's / of",
+              "base": "말릭 + 의"
+            },
+            {
+              "surface": "서류",
+              "meaning": "documents"
+            },
+            {
+              "surface": "가방을",
+              "meaning": "bag / briefcase (object)"
+            },
+            {
+              "surface": "훔치는",
+              "meaning": "stealing"
+            },
+            {
+              "surface": "과정에서",
+              "meaning": "in the process"
+            },
+            {
+              "surface": "말리나가",
+              "meaning": "Malina and (subject)",
+              "base": "말리나 + 가"
+            },
+            {
+              "surface": "다쳤어",
+              "meaning": "was injured",
+              "base": "다치다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "북쪽에서 온 말리나와 말릭은 남쪽을 빠르게 발전시키고 있었어.",
+          "translation": "Malina and Maliq, who came from the North, were rapidly developing the South.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "북쪽에서 온 말리나와 말릭은 남쪽을 빠르게 발전시키고 있었어."
+            },
+            {
+              "pattern": "-고 있었어",
+              "explanation": "Casual past progressive: “was doing.” It emphasizes an action in progress in the past.",
+              "example": "북쪽에서 온 말리나와 말릭은 남쪽을 빠르게 발전시키고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "북쪽에서",
+              "meaning": "from the north",
+              "note": "북쪽 + 에서"
+            },
+            {
+              "word": "온",
+              "meaning": "came",
+              "note": "오다 + -(으)ㄴ"
+            },
+            {
+              "word": "말리나와",
+              "meaning": "Malina and",
+              "note": "말리나 + 와"
+            },
+            {
+              "word": "말릭은",
+              "meaning": "Maliq (topic)",
+              "note": "말릭 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "북쪽에서",
+              "meaning": "from the north",
+              "base": "북쪽 + 에서"
+            },
+            {
+              "surface": "온",
+              "meaning": "came",
+              "base": "오다 + -(으)ㄴ"
+            },
+            {
+              "surface": "말리나와",
+              "meaning": "Malina and",
+              "base": "말리나 + 와"
+            },
+            {
+              "surface": "말릭은",
+              "meaning": "Maliq (topic)",
+              "base": "말릭 + 은"
+            },
+            {
+              "surface": "남쪽을",
+              "meaning": "the south (object)",
+              "base": "남쪽 + 을"
+            },
+            {
+              "surface": "빠르게",
+              "meaning": "quickly",
+              "base": "빠르다 + -게"
+            },
+            {
+              "surface": "발전시키고",
+              "meaning": "developing",
+              "base": "발전시키다 + -고"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "were",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라와 소카는 도둑을 따라가 길락이 이끄는 남쪽 민족주의자들의 은신처를 찾았어.",
+          "translation": "Katara and Sokka followed the thieves and found the hideout of southern nationalists led by Gilak.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라와 소카는 도둑을 따라가 길락이 이끄는 남쪽 민족주의자들의 은신처를 찾았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라와 소카는 도둑을 따라가 길락이 이끄는 남쪽 민족주의자들의 은신처를 찾았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "도둑을",
+              "meaning": "thief (object)"
+            },
+            {
+              "word": "은신처를",
+              "meaning": "hideout (object)"
+            },
+            {
+              "word": "찾았어",
+              "meaning": "found"
+            },
+            {
+              "word": "따라가",
+              "meaning": "along / following (subject)",
+              "note": "따라 + 가"
+            },
+            {
+              "word": "길락이",
+              "meaning": "Gilak (subject)",
+              "note": "길락 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카는",
+              "meaning": "Sokka",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "도둑을",
+              "meaning": "thief (object)"
+            },
+            {
+              "surface": "따라가",
+              "meaning": "along / following (subject)",
+              "base": "따라 + 가"
+            },
+            {
+              "surface": "길락이",
+              "meaning": "Gilak (subject)",
+              "base": "길락 + 이"
+            },
+            {
+              "surface": "이끄는",
+              "meaning": "leading",
+              "base": "이끌다 + -는"
+            },
+            {
+              "surface": "남쪽",
+              "meaning": "south / southern"
+            },
+            {
+              "surface": "민족주의자들의",
+              "meaning": "peoples / ethnic groups",
+              "base": "민족"
+            },
+            {
+              "surface": "은신처를",
+              "meaning": "hideout (object)"
+            },
+            {
+              "surface": "찾았어",
+              "meaning": "found"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 길락은 북쪽 사람들이 남쪽의 문화와 자유를 빼앗을 거라고 주장했어.",
+          "translation": "However, Gilak claimed that the Northerners would take away the South's culture and freedom.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "하지만 길락은 북쪽 사람들이 남쪽의 문화와 자유를 빼앗을 거라고 주장했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "하지만 길락은 북쪽 사람들이 남쪽의 문화와 자유를 빼앗을 거라고 주장했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "하지만 길락은 북쪽 사람들이 남쪽의 문화와 자유를 빼앗을 거라고 주장했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하지만",
+              "meaning": "however"
+            },
+            {
+              "word": "길락은",
+              "meaning": "Gilak (topic)",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "사람들이",
+              "meaning": "people (subject)",
+              "note": "사람들 + 이"
+            },
+            {
+              "word": "남쪽의",
+              "meaning": "the South's",
+              "note": "남쪽 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "however"
+            },
+            {
+              "surface": "길락은",
+              "meaning": "Gilak (topic)",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "북쪽",
+              "meaning": "north / northern"
+            },
+            {
+              "surface": "사람들이",
+              "meaning": "people (subject)",
+              "base": "사람들 + 이"
+            },
+            {
+              "surface": "남쪽의",
+              "meaning": "the South's",
+              "base": "남쪽 + 의"
+            },
+            {
+              "surface": "문화와",
+              "meaning": "culture and",
+              "base": "문화 + 와"
+            },
+            {
+              "surface": "자유를",
+              "meaning": "freedom (object)",
+              "base": "자유 + 를"
+            },
+            {
+              "surface": "빼앗을",
+              "meaning": "would take away",
+              "base": "빼앗다 + -(으)ㄹ"
+            },
+            {
+              "surface": "거라고",
+              "meaning": "that they would",
+              "base": "것이라고"
+            },
+            {
+              "surface": "주장했어",
+              "meaning": "claimed",
+              "base": "주장하다"
+            }
+          ]
+        },
+        {
+          "korean": "길락은 훔친 문서가 북쪽의 숨은 계획을 증명한다고 주장했어.",
+          "translation": "Gilak claimed that the stolen documents proved the North's hidden plan.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "길락은 훔친 문서가 북쪽의 숨은 계획을 증명한다고 주장했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "길락은 훔친 문서가 북쪽의 숨은 계획을 증명한다고 주장했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "길락은 훔친 문서가 북쪽의 숨은 계획을 증명한다고 주장했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "문서가",
+              "meaning": "document (subject)"
+            },
+            {
+              "word": "숨은",
+              "meaning": "hidden"
+            },
+            {
+              "word": "훔친",
+              "meaning": "stolen"
+            },
+            {
+              "word": "길락은",
+              "meaning": "Gilak",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "북쪽의",
+              "meaning": "the North's",
+              "note": "북쪽 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락은",
+              "meaning": "Gilak",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "훔친",
+              "meaning": "stolen"
+            },
+            {
+              "surface": "문서가",
+              "meaning": "document (subject)"
+            },
+            {
+              "surface": "북쪽의",
+              "meaning": "the North's",
+              "base": "북쪽 + 의"
+            },
+            {
+              "surface": "숨은",
+              "meaning": "hidden"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "증명한다고",
+              "meaning": "prove: that one does",
+              "base": "증명하다"
+            },
+            {
+              "surface": "주장했어",
+              "meaning": "claimed",
+              "base": "주장하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "새 건물과 기계는 생활을 편하게 했지만 북쪽이 남쪽의 자원을 이용한다는 불만도 커졌어.",
+          "translation": "The new buildings and machines made life easier, but resentment grew that the North was exploiting the South's resources.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "새 건물과 기계는 생활을 편하게 했지만 북쪽이 남쪽의 자원을 이용한다는 불만도 커졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "새 건물과 기계는 생활을 편하게 했지만 북쪽이 남쪽의 자원을 이용한다는 불만도 커졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "건물과",
+              "meaning": "building (과)",
+              "note": "건물 + 과"
+            },
+            {
+              "word": "기계는",
+              "meaning": "machine (는)",
+              "note": "기계 + 는"
+            },
+            {
+              "word": "생활을",
+              "meaning": "life (을)",
+              "note": "생활 + 을"
+            },
+            {
+              "word": "편하게",
+              "meaning": "be comfortable / convenient",
+              "note": "편하다"
+            },
+            {
+              "word": "했지만",
+              "meaning": "had to but",
+              "note": "하다 + -지만"
+            }
+          ],
+          "words": [
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "건물과",
+              "meaning": "building (과)",
+              "base": "건물 + 과"
+            },
+            {
+              "surface": "기계는",
+              "meaning": "machine (는)",
+              "base": "기계 + 는"
+            },
+            {
+              "surface": "생활을",
+              "meaning": "life (을)",
+              "base": "생활 + 을"
+            },
+            {
+              "surface": "편하게",
+              "meaning": "be comfortable / convenient",
+              "base": "편하다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "had to but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "북쪽이",
+              "meaning": "from the north (이)",
+              "base": "북쪽 + 이"
+            },
+            {
+              "surface": "남쪽의",
+              "meaning": "the South's",
+              "base": "남쪽 + 의"
+            },
+            {
+              "surface": "자원을",
+              "meaning": "resources (object)",
+              "base": "자원 + 을"
+            },
+            {
+              "surface": "이용한다는",
+              "meaning": "that they exploit / use",
+              "base": "이용하다 + -ㄴ다는"
+            },
+            {
+              "surface": "불만도",
+              "meaning": "resentment / complaint (도)",
+              "base": "불만 + 도"
+            },
+            {
+              "surface": "커졌어",
+              "meaning": "grew / increased",
+              "base": "커지다"
+            }
+          ]
+        },
+        {
+          "korean": "문서에는 남쪽 땅 아래에서 발견된 거대한 석유 자원을 이용할 계획이 적혀 있었어.",
+          "translation": "The documents described plans to exploit a vast oil reserve discovered beneath the South.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "문서에는 남쪽 땅 아래에서 발견된 거대한 석유 자원을 이용할 계획이 적혀 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "문서에는 남쪽 땅 아래에서 발견된 거대한 석유 자원을 이용할 계획이 적혀 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "문서에는",
+              "meaning": "in the document (topic)"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "석유",
+              "meaning": "oil"
+            },
+            {
+              "word": "아래에서",
+              "meaning": "below",
+              "note": "아래 + 에서"
+            },
+            {
+              "word": "자원을",
+              "meaning": "resources",
+              "note": "자원 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "문서에는",
+              "meaning": "in the document (topic)"
+            },
+            {
+              "surface": "남쪽",
+              "meaning": "south / southern"
+            },
+            {
+              "surface": "땅",
+              "meaning": "earth / ground"
+            },
+            {
+              "surface": "아래에서",
+              "meaning": "below",
+              "base": "아래 + 에서"
+            },
+            {
+              "surface": "발견된",
+              "meaning": "discovered",
+              "base": "발견하다"
+            },
+            {
+              "surface": "거대한",
+              "meaning": "huge",
+              "base": "거대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "석유",
+              "meaning": "oil"
+            },
+            {
+              "surface": "자원을",
+              "meaning": "resources",
+              "base": "자원 + 을"
+            },
+            {
+              "surface": "이용할",
+              "meaning": "using: to do / that will do",
+              "base": "이용하다"
+            },
+            {
+              "surface": "계획이",
+              "meaning": "plan",
+              "base": "계획 + 이"
+            },
+            {
+              "surface": "적혀",
+              "meaning": "written",
+              "base": "적히다 + -아/어"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "길락은 예전에 하코다와 함께 싸운 전사였지만 이제는 변화 자체를 배신이라고 봤어.",
+          "translation": "Gilak had once fought beside Hakoda, but now he viewed change itself as betrayal.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "길락은 예전에 하코다와 함께 싸운 전사였지만 이제는 변화 자체를 배신이라고 봤어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "길락은 예전에 하코다와 함께 싸운 전사였지만 이제는 변화 자체를 배신이라고 봤어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "길락은 예전에 하코다와 함께 싸운 전사였지만 이제는 변화 자체를 배신이라고 봤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "길락은",
+              "meaning": "Gilak (topic)",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "예전에",
+              "meaning": "in the past / previously"
+            },
+            {
+              "word": "하코다와",
+              "meaning": "with Hakoda",
+              "note": "하코다 + 와"
+            },
+            {
+              "word": "함께",
+              "meaning": "together"
+            },
+            {
+              "word": "싸운",
+              "meaning": "fought",
+              "note": "싸우다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락은",
+              "meaning": "Gilak (topic)",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "예전에",
+              "meaning": "in the past / previously"
+            },
+            {
+              "surface": "하코다와",
+              "meaning": "with Hakoda",
+              "base": "하코다 + 와"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "싸운",
+              "meaning": "fought",
+              "base": "싸우다 + -(으)ㄴ"
+            },
+            {
+              "surface": "전사였지만",
+              "meaning": "was a warrior, but",
+              "base": "전사이다 + -였지만"
+            },
+            {
+              "surface": "이제는",
+              "meaning": "now (topic)"
+            },
+            {
+              "surface": "변화",
+              "meaning": "change"
+            },
+            {
+              "surface": "자체를",
+              "meaning": "itself (object)",
+              "base": "자체 + 를"
+            },
+            {
+              "surface": "배신이라고",
+              "meaning": "that it is betrayal",
+              "base": "배신이다 + -라고"
+            },
+            {
+              "surface": "봤어",
+              "meaning": "saw / judged",
+              "base": "보다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 아버지 회사의 대표로 남쪽에 와서 건설 계획을 도왔어.",
+          "translation": "Toph came to the South as a representative of her father's company and helped with the construction plans.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프는 아버지 회사의 대표로 남쪽에 와서 건설 계획을 도왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 아버지 회사의 대표로 남쪽에 와서 건설 계획을 도왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "대표로",
+              "meaning": "as a representative"
+            },
+            {
+              "word": "와서",
+              "meaning": "came and"
+            },
+            {
+              "word": "건설",
+              "meaning": "construction"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "회사의",
+              "meaning": "company 's / of",
+              "note": "회사 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "회사의",
+              "meaning": "company 's / of",
+              "base": "회사 + 의"
+            },
+            {
+              "surface": "대표로",
+              "meaning": "as a representative"
+            },
+            {
+              "surface": "남쪽에",
+              "meaning": "the South's to / at",
+              "base": "남쪽 + 에"
+            },
+            {
+              "surface": "와서",
+              "meaning": "came and"
+            },
+            {
+              "surface": "건설",
+              "meaning": "construction"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "도왔어",
+              "meaning": "helped",
+              "base": "돕다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 고향을 지키고 싶었지만 변화를 모두 거부할 수도 없다고 느꼈어.",
+          "translation": "Katara wanted to protect her home, but felt that she could not reject every change.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "카타라는 고향을 지키고 싶었지만 변화를 모두 거부할 수도 없다고 느꼈어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.” Tense is shown on 있다 or 없다.",
+              "example": "카타라는 고향을 지키고 싶었지만 변화를 모두 거부할 수도 없다고 느꼈어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "카타라는 고향을 지키고 싶었지만 변화를 모두 거부할 수도 없다고 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "고향을",
+              "meaning": "hometown (object)",
+              "note": "고향 + 을"
+            },
+            {
+              "word": "지키고",
+              "meaning": "protect and / want to protect",
+              "note": "지키다 + -고"
+            },
+            {
+              "word": "싶었지만",
+              "meaning": "wanted but",
+              "note": "싶다 + -었지만"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "고향을",
+              "meaning": "hometown (object)",
+              "base": "고향 + 을"
+            },
+            {
+              "surface": "지키고",
+              "meaning": "protect and / want to protect",
+              "base": "지키다 + -고"
+            },
+            {
+              "surface": "싶었지만",
+              "meaning": "wanted but",
+              "base": "싶다 + -었지만"
+            },
+            {
+              "surface": "변화를",
+              "meaning": "change (object)",
+              "base": "변화 + 를"
+            },
+            {
+              "surface": "모두",
+              "meaning": "all"
+            },
+            {
+              "surface": "거부할",
+              "meaning": "reject",
+              "base": "거부하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수도",
+              "meaning": "possibility also",
+              "base": "수 + 도"
+            },
+            {
+              "surface": "없다고",
+              "meaning": "that it was impossible",
+              "base": "없다 + -다고"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        },
+        {
+          "korean": "말리나와 말릭이 연 축제에서 길락의 세력이 갑자기 공격했어.",
+          "translation": "Gilak's forces suddenly attacked during a festival organized by Malina and Maliq.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "말리나와 말릭이 연 축제에서 길락의 세력이 갑자기 공격했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "세력이",
+              "meaning": "forces / faction (subject)"
+            },
+            {
+              "word": "말릭이",
+              "meaning": "Maliq (subject)",
+              "note": "말릭 + 이"
+            },
+            {
+              "word": "말리나와",
+              "meaning": "Malina and",
+              "note": "말리나 + 와"
+            },
+            {
+              "word": "축제에서",
+              "meaning": "festival at / from",
+              "note": "축제 + 에서"
+            },
+            {
+              "word": "길락의",
+              "meaning": "Gilak's",
+              "note": "길락 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "말리나와",
+              "meaning": "Malina and",
+              "base": "말리나 + 와"
+            },
+            {
+              "surface": "말릭이",
+              "meaning": "Maliq (subject)",
+              "base": "말릭 + 이"
+            },
+            {
+              "surface": "연",
+              "meaning": "held / organized"
+            },
+            {
+              "surface": "축제에서",
+              "meaning": "festival at / from",
+              "base": "축제 + 에서"
+            },
+            {
+              "surface": "길락의",
+              "meaning": "Gilak's",
+              "base": "길락 + 의"
+            },
+            {
+              "surface": "세력이",
+              "meaning": "forces / faction (subject)"
+            },
+            {
+              "surface": "갑자기",
+              "meaning": "suddenly"
+            },
+            {
+              "surface": "공격했어",
+              "meaning": "attacked",
+              "base": "공격하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "길락은 사람들의 불안을 이용해 반란을 일으키고 흙의 왕까지 납치했어.",
+          "translation": "Gilak used people's anxiety to start a rebellion and even kidnapped the Earth King.",
+          "grammar": [
+            {
+              "pattern": "-을/를 통해",
+              "explanation": "Means “through / by means of.”",
+              "example": "길락은 사람들의 불안을 이용해 반란을 일으키고 흙의 왕까지 납치했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "길락은 사람들의 불안을 이용해 반란을 일으키고 흙의 왕까지 납치했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "길락은",
+              "meaning": "Gilak (topic)",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "사람들의",
+              "meaning": "people's",
+              "note": "사람들 + 의"
+            },
+            {
+              "word": "불안을",
+              "meaning": "anxiety (object)",
+              "note": "불안 + 을"
+            },
+            {
+              "word": "이용해",
+              "meaning": "using",
+              "note": "이용하다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락은",
+              "meaning": "Gilak (topic)",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "사람들의",
+              "meaning": "people's",
+              "base": "사람들 + 의"
+            },
+            {
+              "surface": "불안을",
+              "meaning": "anxiety (object)",
+              "base": "불안 + 을"
+            },
+            {
+              "surface": "이용해",
+              "meaning": "using",
+              "base": "이용하다 + -아/어"
+            },
+            {
+              "surface": "반란을",
+              "meaning": "rebellion (object)",
+              "base": "반란 + 을"
+            },
+            {
+              "surface": "일으키고",
+              "meaning": "started and",
+              "base": "일으키다 + -고"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕까지",
+              "meaning": "even the king",
+              "base": "왕 + 까지"
+            },
+            {
+              "surface": "납치했어",
+              "meaning": "kidnapped",
+              "base": "납치하다"
+            }
+          ]
+        },
+        {
+          "korean": "말리나는 처음에는 석유를 북쪽으로 보내려 했지만 남쪽을 알게 된 뒤 계획을 바꿨다고 고백했어.",
+          "translation": "Malina admitted that she originally planned to send the oil north, but changed her mind after coming to know the South.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "말리나는 처음에는 석유를 북쪽으로 보내려 했지만 남쪽을 알게 된 뒤 계획을 바꿨다고 고백했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "말리나는 처음에는 석유를 북쪽으로 보내려 했지만 남쪽을 알게 된 뒤 계획을 바꿨다고 고백했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "말리나는 처음에는 석유를 북쪽으로 보내려 했지만 남쪽을 알게 된 뒤 계획을 바꿨다고 고백했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "석유를",
+              "meaning": "oil (object)"
+            },
+            {
+              "word": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "word": "바꿨다고",
+              "meaning": "that one changed"
+            },
+            {
+              "word": "말리나는",
+              "meaning": "Malina",
+              "note": "말리나 + 는"
+            },
+            {
+              "word": "처음에는",
+              "meaning": "at first",
+              "note": "처음 + 에는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "말리나는",
+              "meaning": "Malina",
+              "base": "말리나 + 는"
+            },
+            {
+              "surface": "처음에는",
+              "meaning": "at first",
+              "base": "처음 + 에는"
+            },
+            {
+              "surface": "석유를",
+              "meaning": "oil (object)"
+            },
+            {
+              "surface": "북쪽으로",
+              "meaning": "from the north to / by / as",
+              "base": "북쪽 + 으로"
+            },
+            {
+              "surface": "보내려",
+              "meaning": "send",
+              "base": "보내다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "surface": "남쪽을",
+              "meaning": "the south",
+              "base": "남쪽 + 을"
+            },
+            {
+              "surface": "알게",
+              "meaning": "come to know",
+              "base": "알다 + -게"
+            },
+            {
+              "surface": "된",
+              "meaning": "became",
+              "base": "되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "바꿨다고",
+              "meaning": "that one changed"
+            },
+            {
+              "surface": "고백했어",
+              "meaning": "고백: did / was",
+              "base": "고백하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "길락의 사람들은 북쪽과 남쪽의 통합을 축하하는 자리에서 갑자기 공격했어.",
+          "translation": "Gilak's followers suddenly attacked a celebration of unity between the North and South.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "길락의 사람들은 북쪽과 남쪽의 통합을 축하하는 자리에서 갑자기 공격했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "길락의",
+              "meaning": "Gilak's",
+              "note": "길락 + 의"
+            },
+            {
+              "word": "사람들은",
+              "meaning": "people (topic)",
+              "note": "사람들 + 은"
+            },
+            {
+              "word": "북쪽과",
+              "meaning": "from the north (과)",
+              "note": "북쪽 + 과"
+            },
+            {
+              "word": "남쪽의",
+              "meaning": "the South's",
+              "note": "남쪽 + 의"
+            },
+            {
+              "word": "통합을",
+              "meaning": "unification (을)",
+              "note": "통합 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락의",
+              "meaning": "Gilak's",
+              "base": "길락 + 의"
+            },
+            {
+              "surface": "사람들은",
+              "meaning": "people (topic)",
+              "base": "사람들 + 은"
+            },
+            {
+              "surface": "북쪽과",
+              "meaning": "from the north (과)",
+              "base": "북쪽 + 과"
+            },
+            {
+              "surface": "남쪽의",
+              "meaning": "the South's",
+              "base": "남쪽 + 의"
+            },
+            {
+              "surface": "통합을",
+              "meaning": "unification (을)",
+              "base": "통합 + 을"
+            },
+            {
+              "surface": "축하하는",
+              "meaning": "celebrating",
+              "base": "축하하다 + -는"
+            },
+            {
+              "surface": "자리에서",
+              "meaning": "place / position (에서)",
+              "base": "자리 + 에서"
+            },
+            {
+              "surface": "갑자기",
+              "meaning": "suddenly"
+            },
+            {
+              "surface": "공격했어",
+              "meaning": "attacked",
+              "base": "공격하다"
+            }
+          ]
+        },
+        {
+          "korean": "길락은 하코다와 대화하다가 그를 칼로 찔렀고 결국 감옥에 갇혔어.",
+          "translation": "Gilak stabbed Hakoda during their conversation and was eventually imprisoned.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was underway before another event or change occurred.",
+              "example": "길락은 하코다와 대화하다가 그를 칼로 찔렀고 결국 감옥에 갇혔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "길락은 하코다와 대화하다가 그를 칼로 찔렀고 결국 감옥에 갇혔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "찔렀고",
+              "meaning": "stabbed and"
+            },
+            {
+              "word": "갇혔어",
+              "meaning": "was trapped"
+            },
+            {
+              "word": "칼로",
+              "meaning": "with a knife"
+            },
+            {
+              "word": "길락은",
+              "meaning": "Gilak",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "하코다와",
+              "meaning": "with Hakoda",
+              "note": "하코다 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락은",
+              "meaning": "Gilak",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "하코다와",
+              "meaning": "with Hakoda",
+              "base": "하코다 + 와"
+            },
+            {
+              "surface": "대화하다가",
+              "meaning": "through dialogue",
+              "base": "대화"
+            },
+            {
+              "surface": "그를",
+              "meaning": "he",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "칼로",
+              "meaning": "with a knife"
+            },
+            {
+              "surface": "찔렀고",
+              "meaning": "stabbed and"
+            },
+            {
+              "surface": "결국",
+              "meaning": "in the end"
+            },
+            {
+              "surface": "감옥에",
+              "meaning": "prison",
+              "base": "감옥 + 에"
+            },
+            {
+              "surface": "갇혔어",
+              "meaning": "was trapped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그들은 흙의 왕과 여러 지도자를 붙잡아 자신들의 요구를 받아들이게 하려고 했어.",
+          "translation": "They captured the Earth King and several leaders to force acceptance of their demands.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "그들은 흙의 왕과 여러 지도자를 붙잡아 자신들의 요구를 받아들이게 하려고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그들은 흙의 왕과 여러 지도자를 붙잡아 자신들의 요구를 받아들이게 하려고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그들은",
+              "meaning": "he (들은)",
+              "note": "그 + 들은"
+            },
+            {
+              "word": "흙의",
+              "meaning": "Earth's / of Earth",
+              "note": "흙 + 의"
+            },
+            {
+              "word": "왕과",
+              "meaning": "king (과)",
+              "note": "왕 + 과"
+            },
+            {
+              "word": "지도자를",
+              "meaning": "leaders (object)",
+              "note": "지도자 + 를"
+            },
+            {
+              "word": "붙잡아",
+              "meaning": "capture",
+              "note": "붙잡다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그들은",
+              "meaning": "he (들은)",
+              "base": "그 + 들은"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕과",
+              "meaning": "king (과)",
+              "base": "왕 + 과"
+            },
+            {
+              "surface": "여러",
+              "meaning": "several / various"
+            },
+            {
+              "surface": "지도자를",
+              "meaning": "leaders (object)",
+              "base": "지도자 + 를"
+            },
+            {
+              "surface": "붙잡아",
+              "meaning": "capture",
+              "base": "붙잡다"
+            },
+            {
+              "surface": "자신들의",
+              "meaning": "he himself (들의)",
+              "base": "자신 + 들의"
+            },
+            {
+              "surface": "요구를",
+              "meaning": "demands (object)",
+              "base": "요구 + 를"
+            },
+            {
+              "surface": "받아들이게",
+              "meaning": "accept",
+              "base": "받아들이다"
+            },
+            {
+              "surface": "하려고",
+              "meaning": "in order to do",
+              "base": "하다 + -(으)려고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "그러나 길락에게 동의한 남쪽 병사가 몰래 감옥 열쇠를 건네줬어.",
+          "translation": "However, a southern soldier who agreed with Gilak secretly gave him a key to escape.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그러나 길락에게 동의한 남쪽 병사가 몰래 감옥 열쇠를 건네줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "열쇠를",
+              "meaning": "key (object)"
+            },
+            {
+              "word": "건네줬어",
+              "meaning": "handed over"
+            },
+            {
+              "word": "병사가",
+              "meaning": "soldier (subject)",
+              "note": "병사 + 가"
+            },
+            {
+              "word": "길락에게",
+              "meaning": "Gilak to",
+              "note": "길락 + 에게"
+            },
+            {
+              "word": "동의한",
+              "meaning": "동의: that did / ...",
+              "note": "동의하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "길락에게",
+              "meaning": "Gilak to",
+              "base": "길락 + 에게"
+            },
+            {
+              "surface": "동의한",
+              "meaning": "동의: that did / ...",
+              "base": "동의하다"
+            },
+            {
+              "surface": "남쪽",
+              "meaning": "south / southern"
+            },
+            {
+              "surface": "병사가",
+              "meaning": "soldier (subject)",
+              "base": "병사 + 가"
+            },
+            {
+              "surface": "몰래",
+              "meaning": "secretly"
+            },
+            {
+              "surface": "감옥",
+              "meaning": "prison"
+            },
+            {
+              "surface": "열쇠를",
+              "meaning": "key (object)"
+            },
+            {
+              "surface": "건네줬어",
+              "meaning": "handed over"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "소카와 카타라는 아버지 하코다와 함께 인질들을 구하고 길락의 계획을 막았어.",
+          "translation": "Sokka and Katara rescued the hostages with their father Hakoda and stopped Gilak's plan.",
+          "grammar": [
+            {
+              "pattern": "N과/와, N하고",
+              "explanation": "Connects nouns with the meaning “and” or “with.”",
+              "example": "소카와 카타라는 아버지 하코다와 함께 인질들을 구하고 길락의 계획을 막았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "소카와 카타라는 아버지 하코다와 함께 인질들을 구하고 길락의 계획을 막았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "아버지",
+              "meaning": "father"
+            },
+            {
+              "word": "하코다와",
+              "meaning": "with Hakoda",
+              "note": "하코다 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "하코다와",
+              "meaning": "with Hakoda",
+              "base": "하코다 + 와"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "인질들을",
+              "meaning": "hostages (object)",
+              "base": "인질들 + 을"
+            },
+            {
+              "surface": "구하고",
+              "meaning": "rescued and",
+              "base": "구하다 + -고"
+            },
+            {
+              "surface": "길락의",
+              "meaning": "Gilak's",
+              "base": "길락 + 의"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan (object)",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "막았어",
+              "meaning": "stopped",
+              "base": "막다"
+            }
+          ]
+        },
+        {
+          "korean": "하코다는 재건 문제를 논의하려고 주코와 쿠이를 남쪽으로 초대했어.",
+          "translation": "Hakoda invited Zuko and Kuei to the South to discuss reconstruction.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "하코다는 재건 문제를 논의하려고 주코와 쿠이를 남쪽으로 초대했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "하코다는 재건 문제를 논의하려고 주코와 쿠이를 남쪽으로 초대했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "하코다는 재건 문제를 논의하려고 주코와 쿠이를 남쪽으로 초대했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "재건",
+              "meaning": "reconstruction"
+            },
+            {
+              "word": "하코다는",
+              "meaning": "with Hakoda",
+              "note": "하코다 + 는"
+            },
+            {
+              "word": "문제를",
+              "meaning": "problem",
+              "note": "문제 + 를"
+            },
+            {
+              "word": "주코와",
+              "meaning": "Zuko",
+              "note": "주코 + 와"
+            },
+            {
+              "word": "쿠이를",
+              "meaning": "Kuei (를)",
+              "note": "쿠이 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하코다는",
+              "meaning": "with Hakoda",
+              "base": "하코다 + 는"
+            },
+            {
+              "surface": "재건",
+              "meaning": "reconstruction"
+            },
+            {
+              "surface": "문제를",
+              "meaning": "problem",
+              "base": "문제 + 를"
+            },
+            {
+              "surface": "논의하려고",
+              "meaning": "논의: in order to",
+              "base": "논의하다"
+            },
+            {
+              "surface": "주코와",
+              "meaning": "Zuko",
+              "base": "주코 + 와"
+            },
+            {
+              "surface": "쿠이를",
+              "meaning": "Kuei (를)",
+              "base": "쿠이 + 를"
+            },
+            {
+              "surface": "남쪽으로",
+              "meaning": "the South's to / by / as",
+              "base": "남쪽 + 으로"
+            },
+            {
+              "surface": "초대했어",
+              "meaning": "invited and: did / was",
+              "base": "초대하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "남쪽 사람들은 발전을 계속하되 북쪽의 명령만 따르지는 않기로 했어.",
+          "translation": "The Southerners decided to continue developing, but not simply follow the North's commands.",
+          "grammar": [
+            {
+              "pattern": "-아/어 가다",
+              "explanation": "Shows an action or change continuing forward from the present point.",
+              "example": "남쪽 사람들은 발전을 계속하되 북쪽의 명령만 따르지는 않기로 했어."
+            },
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "남쪽 사람들은 발전을 계속하되 북쪽의 명령만 따르지는 않기로 했어."
+            },
+            {
+              "pattern": "-지 않다",
+              "explanation": "A standard negation attached to a verb or adjective: “do not / is not.” Its tense comes from 않다.",
+              "example": "남쪽 사람들은 발전을 계속하되 북쪽의 명령만 따르지는 않기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사람들은",
+              "meaning": "people (topic)",
+              "note": "사람들 + 은"
+            },
+            {
+              "word": "발전을",
+              "meaning": "development (object)",
+              "note": "발전 + 을"
+            },
+            {
+              "word": "계속하되",
+              "meaning": "continue but with a condition",
+              "note": "계속하다 + -되"
+            },
+            {
+              "word": "북쪽의",
+              "meaning": "the North's",
+              "note": "북쪽 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "남쪽",
+              "meaning": "south / southern"
+            },
+            {
+              "surface": "사람들은",
+              "meaning": "people (topic)",
+              "base": "사람들 + 은"
+            },
+            {
+              "surface": "발전을",
+              "meaning": "development (object)",
+              "base": "발전 + 을"
+            },
+            {
+              "surface": "계속하되",
+              "meaning": "continue but with a condition",
+              "base": "계속하다 + -되"
+            },
+            {
+              "surface": "북쪽의",
+              "meaning": "the North's",
+              "base": "북쪽 + 의"
+            },
+            {
+              "surface": "명령만",
+              "meaning": "only commands",
+              "base": "명령 + 만"
+            },
+            {
+              "surface": "따르지는",
+              "meaning": "follow + contrastive not",
+              "base": "따르다 + -지는"
+            },
+            {
+              "surface": "않기로",
+              "meaning": "decided not to",
+              "base": "않다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "탈출한 길락은 회의장을 공격해 쿠이를 납치하고 하코다를 요구했어.",
+          "translation": "After escaping, Gilak attacked the meeting, kidnapped Kuei, and demanded Hakoda.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "탈출한 길락은 회의장을 공격해 쿠이를 납치하고 하코다를 요구했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "탈출한 길락은 회의장을 공격해 쿠이를 납치하고 하코다를 요구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "탈출한 길락은 회의장을 공격해 쿠이를 납치하고 하코다를 요구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "회의장을",
+              "meaning": "meeting hall (object)"
+            },
+            {
+              "word": "하코다를",
+              "meaning": "with Hakoda (object)",
+              "note": "하코다 + 를"
+            },
+            {
+              "word": "길락은",
+              "meaning": "Gilak",
+              "note": "길락 + 은"
+            },
+            {
+              "word": "쿠이를",
+              "meaning": "Kuei (를)",
+              "note": "쿠이 + 를"
+            },
+            {
+              "word": "탈출한",
+              "meaning": "to escape / planned escape: that did / ...",
+              "note": "탈출하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "탈출한",
+              "meaning": "to escape / planned escape: that did / ...",
+              "base": "탈출하다"
+            },
+            {
+              "surface": "길락은",
+              "meaning": "Gilak",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "회의장을",
+              "meaning": "meeting hall (object)"
+            },
+            {
+              "surface": "공격해",
+              "meaning": "attacked / by attacking",
+              "base": "공격하다 + -아/어"
+            },
+            {
+              "surface": "쿠이를",
+              "meaning": "Kuei (를)",
+              "base": "쿠이 + 를"
+            },
+            {
+              "surface": "납치하고",
+              "meaning": "kidnapped: doing and",
+              "base": "납치하다"
+            },
+            {
+              "surface": "하코다를",
+              "meaning": "with Hakoda (object)",
+              "base": "하코다 + 를"
+            },
+            {
+              "surface": "요구했어",
+              "meaning": "demands: did / was",
+              "base": "요구하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "얼음 다리 위의 마지막 싸움에서 말리나는 사람들을 구하다가 크게 다쳤어.",
+          "translation": "During the final fight on an ice bridge, Malina was badly injured while saving people.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action or situation changes, is interrupted, or leads to another result.",
+              "example": "얼음 다리 위의 마지막 싸움에서 말리나는 사람들을 구하다가 크게 다쳤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "얼음 다리 위의 마지막 싸움에서 말리나는 사람들을 구하다가 크게 다쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "얼음",
+              "meaning": "ice"
+            },
+            {
+              "word": "다리",
+              "meaning": "bridge"
+            },
+            {
+              "word": "위의",
+              "meaning": "above (의)",
+              "note": "위 + 의"
+            },
+            {
+              "word": "마지막",
+              "meaning": "last / final"
+            },
+            {
+              "word": "싸움에서",
+              "meaning": "fight (에서)",
+              "note": "싸움 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "얼음",
+              "meaning": "ice"
+            },
+            {
+              "surface": "다리",
+              "meaning": "bridge"
+            },
+            {
+              "surface": "위의",
+              "meaning": "above (의)",
+              "base": "위 + 의"
+            },
+            {
+              "surface": "마지막",
+              "meaning": "last / final"
+            },
+            {
+              "surface": "싸움에서",
+              "meaning": "fight (에서)",
+              "base": "싸움 + 에서"
+            },
+            {
+              "surface": "말리나는",
+              "meaning": "Malina (는)",
+              "base": "말리나 + 는"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people (object)",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "구하다가",
+              "meaning": "saved (가)",
+              "base": "구하다 + 가"
+            },
+            {
+              "surface": "크게",
+              "meaning": "greatly",
+              "base": "크다 + -게"
+            },
+            {
+              "surface": "다쳤어",
+              "meaning": "was injured",
+              "base": "다치다"
+            }
+          ]
+        },
+        {
+          "korean": "마지막 교환은 과거 죄수들을 추방할 때 쓰던 돌아오지 못하는 다리에서 이루어졌어.",
+          "translation": "The final exchange took place at the Bridge of No Return, once used to exile criminals.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "마지막 교환은 과거 죄수들을 추방할 때 쓰던 돌아오지 못하는 다리에서 이루어졌어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "마지막 교환은 과거 죄수들을 추방할 때 쓰던 돌아오지 못하는 다리에서 이루어졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "마지막 교환은 과거 죄수들을 추방할 때 쓰던 돌아오지 못하는 다리에서 이루어졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "교환은",
+              "meaning": "exchange (topic)"
+            },
+            {
+              "word": "쓰던",
+              "meaning": "used to use"
+            },
+            {
+              "word": "죄수들을",
+              "meaning": "prisoner (들을)",
+              "note": "죄수 + 들을"
+            },
+            {
+              "word": "못하는",
+              "meaning": "could not: doing",
+              "note": "못하다"
+            },
+            {
+              "word": "다리에서",
+              "meaning": "bridge at / from",
+              "note": "다리 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마지막",
+              "meaning": "last / final"
+            },
+            {
+              "surface": "교환은",
+              "meaning": "exchange (topic)"
+            },
+            {
+              "surface": "과거",
+              "meaning": "past"
+            },
+            {
+              "surface": "죄수들을",
+              "meaning": "prisoner (들을)",
+              "base": "죄수 + 들을"
+            },
+            {
+              "surface": "추방할",
+              "meaning": "추방: to do / that will do",
+              "base": "추방하다"
+            },
+            {
+              "surface": "때",
+              "meaning": "when"
+            },
+            {
+              "surface": "쓰던",
+              "meaning": "used to use"
+            },
+            {
+              "surface": "돌아오지",
+              "meaning": "returned",
+              "base": "돌아오다"
+            },
+            {
+              "surface": "못하는",
+              "meaning": "could not: doing",
+              "base": "못하다"
+            },
+            {
+              "surface": "다리에서",
+              "meaning": "bridge at / from",
+              "base": "다리 + 에서"
+            },
+            {
+              "surface": "이루어졌어",
+              "meaning": "forming while",
+              "base": "이루다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하코다는 남쪽이 스스로 미래를 결정하되 북쪽과 협력할 수 있어야 한다고 선언했어.",
+          "translation": "Hakoda declared that the South should decide its own future while remaining able to cooperate with the North.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 하다",
+              "explanation": "Expresses necessity: “must / have to.”",
+              "example": "하코다는 남쪽이 스스로 미래를 결정하되 북쪽과 협력할 수 있어야 한다고 선언했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "하코다는 남쪽이 스스로 미래를 결정하되 북쪽과 협력할 수 있어야 한다고 선언했어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "하코다는 남쪽이 스스로 미래를 결정하되 북쪽과 협력할 수 있어야 한다고 선언했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하코다는",
+              "meaning": "with Hakoda (는)",
+              "note": "하코다 + 는"
+            },
+            {
+              "word": "남쪽이",
+              "meaning": "south / southern (이)",
+              "note": "남쪽 + 이"
+            },
+            {
+              "word": "스스로",
+              "meaning": "by oneself / on one’s own"
+            },
+            {
+              "word": "미래를",
+              "meaning": "future (object)",
+              "note": "미래 + 를"
+            },
+            {
+              "word": "결정하되",
+              "meaning": "decide",
+              "note": "결정하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하코다는",
+              "meaning": "with Hakoda (는)",
+              "base": "하코다 + 는"
+            },
+            {
+              "surface": "남쪽이",
+              "meaning": "south / southern (이)",
+              "base": "남쪽 + 이"
+            },
+            {
+              "surface": "스스로",
+              "meaning": "by oneself / on one’s own"
+            },
+            {
+              "surface": "미래를",
+              "meaning": "future (object)",
+              "base": "미래 + 를"
+            },
+            {
+              "surface": "결정하되",
+              "meaning": "decide",
+              "base": "결정하다"
+            },
+            {
+              "surface": "북쪽과",
+              "meaning": "from the north (과)",
+              "base": "북쪽 + 과"
+            },
+            {
+              "surface": "협력할",
+              "meaning": "to cooperate",
+              "base": "협력하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있어야",
+              "meaning": "must exist / must be",
+              "base": "있다 + -아/어야"
+            },
+            {
+              "surface": "한다고",
+              "meaning": "that one does",
+              "base": "하다 + -ㄴ다고"
+            },
+            {
+              "surface": "선언했어",
+              "meaning": "declared",
+              "base": "선언하다"
+            }
+          ]
+        },
+        {
+          "korean": "소카가 만든 사슬 갑옷 덕분에 친구들은 기를 막는 공격을 견디고 반격할 수 있었어.",
+          "translation": "Thanks to chainmail designed by Sokka, the friends resisted chi-blocking attacks and fought back.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "소카가 만든 사슬 갑옷 덕분에 친구들은 기를 막는 공격을 견디고 반격할 수 있었어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "소카가 만든 사슬 갑옷 덕분에 친구들은 기를 막는 공격을 견디고 반격할 수 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "소카가 만든 사슬 갑옷 덕분에 친구들은 기를 막는 공격을 견디고 반격할 수 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "기를",
+              "meaning": "chi / energy (object)"
+            },
+            {
+              "word": "견디고",
+              "meaning": "endured and"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "소카가",
+              "meaning": "Sokka and (subject)",
+              "note": "소카 + 가"
+            },
+            {
+              "word": "사슬",
+              "meaning": "chain"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소카가",
+              "meaning": "Sokka and (subject)",
+              "base": "소카 + 가"
+            },
+            {
+              "surface": "만든",
+              "meaning": "made / created",
+              "base": "만들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사슬",
+              "meaning": "chain"
+            },
+            {
+              "surface": "갑옷",
+              "meaning": "armor"
+            },
+            {
+              "surface": "덕분에",
+              "meaning": "thanks to"
+            },
+            {
+              "surface": "친구들은",
+              "meaning": "friends",
+              "base": "친구들 + 은"
+            },
+            {
+              "surface": "기를",
+              "meaning": "chi / energy (object)"
+            },
+            {
+              "surface": "막는",
+              "meaning": "blocked (topic)",
+              "base": "막 + 는"
+            },
+            {
+              "surface": "공격을",
+              "meaning": "attacks",
+              "base": "공격 + 을"
+            },
+            {
+              "surface": "견디고",
+              "meaning": "endured and"
+            },
+            {
+              "surface": "반격할",
+              "meaning": "반격: to do / that will do",
+              "base": "반격하다"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라와 소카는 고향이 달라져도 그곳이 여전히 자기들의 집이라는 걸 알았어.",
+          "translation": "Katara and Sokka understood that even if their home changed, it was still their home.",
+          "grammar": [
+            {
+              "pattern": "-아/어도 / -더라도",
+              "explanation": "Means “even if / even though.” -더라도 is usually stronger and more hypothetical.",
+              "example": "카타라와 소카는 고향이 달라져도 그곳이 여전히 자기들의 집이라는 걸 알았어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "카타라와 소카는 고향이 달라져도 그곳이 여전히 자기들의 집이라는 걸 알았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "카타라와 소카는 고향이 달라져도 그곳이 여전히 자기들의 집이라는 걸 알았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라와",
+              "meaning": "Katara and",
+              "note": "카타라 + 와"
+            },
+            {
+              "word": "소카는",
+              "meaning": "Sokka (topic)",
+              "note": "소카 + 는"
+            },
+            {
+              "word": "고향이",
+              "meaning": "hometown (subject)",
+              "note": "고향 + 이"
+            },
+            {
+              "word": "달라져도",
+              "meaning": "even if it changes",
+              "note": "달라지다 + -아/어도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카는",
+              "meaning": "Sokka (topic)",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "고향이",
+              "meaning": "hometown (subject)",
+              "base": "고향 + 이"
+            },
+            {
+              "surface": "달라져도",
+              "meaning": "even if it changes",
+              "base": "달라지다 + -아/어도"
+            },
+            {
+              "surface": "그곳이",
+              "meaning": "that place (subject)",
+              "base": "그곳 + 이"
+            },
+            {
+              "surface": "여전히",
+              "meaning": "still"
+            },
+            {
+              "surface": "자기들의",
+              "meaning": "their own",
+              "base": "자기들 + 의"
+            },
+            {
+              "surface": "집이라는",
+              "meaning": "that it is home",
+              "base": "집 + 이라는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "알았어",
+              "meaning": "understood / knew",
+              "base": "알다"
+            }
+          ]
+        },
+        {
+          "korean": "길락은 다리를 무너뜨린 뒤 떨어졌고 말리나는 하코다를 살리려고 자기 손을 놓으려 했어.",
+          "translation": "Gilak fell after destroying the bridge, while Malina tried to release her own grip to save Hakoda.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "길락은 다리를 무너뜨린 뒤 떨어졌고 말리나는 하코다를 살리려고 자기 손을 놓으려 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "길락은 다리를 무너뜨린 뒤 떨어졌고 말리나는 하코다를 살리려고 자기 손을 놓으려 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "길락은 다리를 무너뜨린 뒤 떨어졌고 말리나는 하코다를 살리려고 자기 손을 놓으려 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "손을",
+              "meaning": "hand (object)"
+            },
+            {
+              "word": "무너뜨린",
+              "meaning": "destroyed / collapsed"
+            },
+            {
+              "word": "떨어졌고",
+              "meaning": "fell and"
+            },
+            {
+              "word": "살리려고",
+              "meaning": "in order to save"
+            },
+            {
+              "word": "놓으려",
+              "meaning": "to let go"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길락은",
+              "meaning": "Gilak",
+              "base": "길락 + 은"
+            },
+            {
+              "surface": "다리를",
+              "meaning": "bridge (object)",
+              "base": "다리 + 를"
+            },
+            {
+              "surface": "무너뜨린",
+              "meaning": "destroyed / collapsed"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "떨어졌고",
+              "meaning": "fell and"
+            },
+            {
+              "surface": "말리나는",
+              "meaning": "Malina",
+              "base": "말리나 + 는"
+            },
+            {
+              "surface": "하코다를",
+              "meaning": "with Hakoda (object)",
+              "base": "하코다 + 를"
+            },
+            {
+              "surface": "살리려고",
+              "meaning": "in order to save"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "손을",
+              "meaning": "hand (object)"
+            },
+            {
+              "surface": "놓으려",
+              "meaning": "to let go"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "남과 북은 같은 뿌리를 가졌지만 서로 다른 길을 존중해야 했어.",
+          "translation": "North and South shared the same roots, but had to respect each other's different paths.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "남과 북은 같은 뿌리를 가졌지만 서로 다른 길을 존중해야 했어."
+            },
+            {
+              "pattern": "서로",
+              "explanation": "An adverb meaning “each other / mutually.”",
+              "example": "남과 북은 같은 뿌리를 가졌지만 서로 다른 길을 존중해야 했어."
+            },
+            {
+              "pattern": "-아/어야 했어",
+              "explanation": "Means “had to / needed to.” It expresses necessity or obligation in the past.",
+              "example": "남과 북은 같은 뿌리를 가졌지만 서로 다른 길을 존중해야 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "남과",
+              "meaning": "south and",
+              "note": "남 + 과"
+            },
+            {
+              "word": "북은",
+              "meaning": "north (topic)",
+              "note": "북 + 은"
+            },
+            {
+              "word": "같은",
+              "meaning": "same",
+              "note": "같다 + -(으)ㄴ"
+            },
+            {
+              "word": "뿌리를",
+              "meaning": "roots (object)",
+              "note": "뿌리 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "남과",
+              "meaning": "south and",
+              "base": "남 + 과"
+            },
+            {
+              "surface": "북은",
+              "meaning": "north (topic)",
+              "base": "북 + 은"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뿌리를",
+              "meaning": "roots (object)",
+              "base": "뿌리 + 를"
+            },
+            {
+              "surface": "가졌지만",
+              "meaning": "had but",
+              "base": "가지다 + -었지만"
+            },
+            {
+              "surface": "서로",
+              "meaning": "each other"
+            },
+            {
+              "surface": "다른",
+              "meaning": "different",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "길을",
+              "meaning": "paths (object)",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "존중해야",
+              "meaning": "had to respect",
+              "base": "존중하다 + -아/어야"
+            },
+            {
+              "surface": "했어",
+              "meaning": "had to",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "다음 날 카타라와 소카는 키아의 무덤을 찾은 뒤 여러 문화의 음식이 놓인 잔치에 참여했어.",
+          "translation": "The next day, Katara and Sokka visited Kya's grave and then joined a feast containing food from several cultures.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "다음 날 카타라와 소카는 키아의 무덤을 찾은 뒤 여러 문화의 음식이 놓인 잔치에 참여했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "다음 날 카타라와 소카는 키아의 무덤을 찾은 뒤 여러 문화의 음식이 놓인 잔치에 참여했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "다음 날 카타라와 소카는 키아의 무덤을 찾은 뒤 여러 문화의 음식이 놓인 잔치에 참여했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "무덤을",
+              "meaning": "grave (object)"
+            },
+            {
+              "word": "키아의",
+              "meaning": "Kya's"
+            },
+            {
+              "word": "잔치에",
+              "meaning": "at the feast"
+            },
+            {
+              "word": "음식이",
+              "meaning": "food (subject)",
+              "note": "음식 + 이"
+            },
+            {
+              "word": "놓인",
+              "meaning": "placed"
+            }
+          ],
+          "words": [
+            {
+              "surface": "다음",
+              "meaning": "next"
+            },
+            {
+              "surface": "날",
+              "meaning": "day"
+            },
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카는",
+              "meaning": "Sokka",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "키아의",
+              "meaning": "Kya's"
+            },
+            {
+              "surface": "무덤을",
+              "meaning": "grave (object)"
+            },
+            {
+              "surface": "찾은",
+              "meaning": "found",
+              "base": "찾다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "여러",
+              "meaning": "several / various"
+            },
+            {
+              "surface": "문화의",
+              "meaning": "culture 's / of",
+              "base": "문화 + 의"
+            },
+            {
+              "surface": "음식이",
+              "meaning": "food (subject)",
+              "base": "음식 + 이"
+            },
+            {
+              "surface": "놓인",
+              "meaning": "placed"
+            },
+            {
+              "surface": "잔치에",
+              "meaning": "at the feast"
+            },
+            {
+              "surface": "참여했어",
+              "meaning": "participating: did / was",
+              "base": "참여하다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 5
+}

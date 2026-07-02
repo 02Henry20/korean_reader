@@ -1,0 +1,3439 @@
+{
+  "id": "avatar-katara-pirates-silver",
+  "title": "카타라와 해적의 은",
+  "englishTitle": "Avatar — Katara and the Pirate’s Silver",
+  "level": "TOPIK 2–3",
+  "description": "동료들과 떨어진 카타라가 해적들과 협력하며 스스로 살아남는 이야기.",
+  "theme": "ocean",
+  "thumbnail": "thumbnails/07_katara_and_the_pirates_silver.jpg",
+  "thumbnailAlt": "Avatar — Katara and the Pirate’s Silver",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "불의 나라 군대가 갑자기 공격해서 카타라는 아앙 일행과 떨어졌어.",
+          "translation": "The Fire Nation army attacked suddenly, causing Katara to become separated from Team Avatar.",
+          "grammar": [
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason to its result: “because,” “so,” or “and then.”",
+              "example": "불의 나라 군대가 갑자기 공격해서 카타라는 아앙 일행과 떨어졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "불의 나라 군대가 갑자기 공격해서 카타라는 아앙 일행과 떨어졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "불의",
+              "meaning": "fire's / Fire Nation's",
+              "note": "불 + 의"
+            },
+            {
+              "word": "군대가",
+              "meaning": "army (subject)",
+              "note": "군대 + 가"
+            },
+            {
+              "word": "갑자기",
+              "meaning": "suddenly"
+            },
+            {
+              "word": "공격해서",
+              "meaning": "because it attacked",
+              "note": "공격하다 + -아/어서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "불의",
+              "meaning": "fire's / Fire Nation's",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation"
+            },
+            {
+              "surface": "군대가",
+              "meaning": "army (subject)",
+              "base": "군대 + 가"
+            },
+            {
+              "surface": "갑자기",
+              "meaning": "suddenly"
+            },
+            {
+              "surface": "공격해서",
+              "meaning": "because it attacked",
+              "base": "공격하다 + -아/어서"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "아앙",
+              "meaning": "Aang"
+            },
+            {
+              "surface": "일행과",
+              "meaning": "from / with the group",
+              "base": "일행 + 과"
+            },
+            {
+              "surface": "떨어졌어",
+              "meaning": "became separated",
+              "base": "떨어지다"
+            }
+          ]
+        },
+        {
+          "korean": "이 사건은 아앙이 흙을 배우던 시기, 일행이 불의 나라 점령지를 지나던 때 일어났어.",
+          "translation": "The incident occurred while Aang was learning earthbending and the group was crossing Fire Nation-occupied land.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "이 사건은 아앙이 흙을 배우던 시기, 일행이 불의 나라 점령지를 지나던 때 일어났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "이 사건은 아앙이 흙을 배우던 시기, 일행이 불의 나라 점령지를 지나던 때 일어났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "점령지를",
+              "meaning": "occupied territory (object)"
+            },
+            {
+              "word": "지나던",
+              "meaning": "was passing through"
+            },
+            {
+              "word": "일어났어",
+              "meaning": "happened"
+            },
+            {
+              "word": "아앙이",
+              "meaning": "Aang (subject)",
+              "note": "아앙 + 이"
+            },
+            {
+              "word": "시기",
+              "meaning": "period / time"
+            }
+          ],
+          "words": [
+            {
+              "surface": "이",
+              "meaning": "this"
+            },
+            {
+              "surface": "사건은",
+              "meaning": "incident",
+              "base": "사건 + 은"
+            },
+            {
+              "surface": "아앙이",
+              "meaning": "Aang (subject)",
+              "base": "아앙 + 이"
+            },
+            {
+              "surface": "흙을",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 을"
+            },
+            {
+              "surface": "배우던",
+              "meaning": "learned",
+              "base": "배우다"
+            },
+            {
+              "surface": "시기",
+              "meaning": "period / time"
+            },
+            {
+              "surface": "일행이",
+              "meaning": "group / party (subject)",
+              "base": "일행 + 이"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "점령지를",
+              "meaning": "occupied territory (object)"
+            },
+            {
+              "surface": "지나던",
+              "meaning": "was passing through"
+            },
+            {
+              "surface": "때",
+              "meaning": "when"
+            },
+            {
+              "surface": "일어났어",
+              "meaning": "happened"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "혼자 남은 그녀는 잡히지 않으려고 숲과 강을 따라 도망쳤어.",
+          "translation": "Left alone, she fled along forests and rivers to avoid being captured.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "혼자 남은 그녀는 잡히지 않으려고 숲과 강을 따라 도망쳤어."
+            },
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "혼자 남은 그녀는 잡히지 않으려고 숲과 강을 따라 도망쳤어."
+            },
+            {
+              "pattern": "-이/히/리/기- passive",
+              "explanation": "A passive form meaning that something is done, seen, opened, or changed by another force.",
+              "example": "혼자 남은 그녀는 잡히지 않으려고 숲과 강을 따라 도망쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "남은",
+              "meaning": "left / remaining",
+              "note": "남다 + -(으)ㄴ"
+            },
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "잡히지",
+              "meaning": "be caught + not",
+              "note": "잡히다 + -지"
+            },
+            {
+              "word": "않으려고",
+              "meaning": "in order not to",
+              "note": "않다 + -(으)려고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "혼자",
+              "meaning": "alone"
+            },
+            {
+              "surface": "남은",
+              "meaning": "left / remaining",
+              "base": "남다 + -(으)ㄴ"
+            },
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "잡히지",
+              "meaning": "be caught + not",
+              "base": "잡히다 + -지"
+            },
+            {
+              "surface": "않으려고",
+              "meaning": "in order not to",
+              "base": "않다 + -(으)려고"
+            },
+            {
+              "surface": "숲과",
+              "meaning": "forest and",
+              "base": "숲 + 과"
+            },
+            {
+              "surface": "강을",
+              "meaning": "river (object/path)",
+              "base": "강 + 을"
+            },
+            {
+              "surface": "따라",
+              "meaning": "along / following",
+              "base": "따르다 + -아/어"
+            },
+            {
+              "surface": "도망쳤어",
+              "meaning": "ran away",
+              "base": "도망치다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 약속한 장소로 돌아가려 했지만 군인들이 길을 막아 친구들을 찾지 못했어.",
+          "translation": "Katara tried to return to the agreed meeting place, but soldiers blocked the way and she could not find her friends.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "카타라는 약속한 장소로 돌아가려 했지만 군인들이 길을 막아 친구들을 찾지 못했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 약속한 장소로 돌아가려 했지만 군인들이 길을 막아 친구들을 찾지 못했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 약속한 장소로 돌아가려 했지만 군인들이 길을 막아 친구들을 찾지 못했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아가려",
+              "meaning": "trying to return"
+            },
+            {
+              "word": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "word": "군인들이",
+              "meaning": "soldiers (subject)",
+              "note": "군인들 + 이"
+            },
+            {
+              "word": "찾지",
+              "meaning": "find + not"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "약속한",
+              "meaning": "promise / agreement: that did / ...",
+              "base": "약속하다"
+            },
+            {
+              "surface": "장소로",
+              "meaning": "place to / by / as",
+              "base": "장소 + 로"
+            },
+            {
+              "surface": "돌아가려",
+              "meaning": "trying to return"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "surface": "군인들이",
+              "meaning": "soldiers (subject)",
+              "base": "군인들 + 이"
+            },
+            {
+              "surface": "길을",
+              "meaning": "paths",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "막아",
+              "meaning": "stop",
+              "base": "막다 + -아/어"
+            },
+            {
+              "surface": "친구들을",
+              "meaning": "friend (들을)",
+              "base": "친구 + 들을"
+            },
+            {
+              "surface": "찾지",
+              "meaning": "find + not"
+            },
+            {
+              "surface": "못했어",
+              "meaning": "could not / did not",
+              "base": "못하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "공격 전 토프는 카타라가 너무 부드럽다며 더 강하게 행동해야 한다고 놀렸어.",
+          "translation": "Before the attack, Toph teased Katara for being too gentle and said she should act tougher.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 하다",
+              "explanation": "Expresses necessity: “must / have to.”",
+              "example": "공격 전 토프는 카타라가 너무 부드럽다며 더 강하게 행동해야 한다고 놀렸어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "공격 전 토프는 카타라가 너무 부드럽다며 더 강하게 행동해야 한다고 놀렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공격 전 토프는 카타라가 너무 부드럽다며 더 강하게 행동해야 한다고 놀렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "공격",
+              "meaning": "attack"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "카타라가",
+              "meaning": "Katara (subject)",
+              "note": "카타라 + 가"
+            },
+            {
+              "word": "너무",
+              "meaning": "too / very"
+            },
+            {
+              "word": "부드럽다며",
+              "meaning": "be gentle",
+              "note": "부드럽다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공격",
+              "meaning": "attack"
+            },
+            {
+              "surface": "전",
+              "meaning": "before / former"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "카타라가",
+              "meaning": "Katara (subject)",
+              "base": "카타라 + 가"
+            },
+            {
+              "surface": "너무",
+              "meaning": "too / very"
+            },
+            {
+              "surface": "부드럽다며",
+              "meaning": "be gentle",
+              "base": "부드럽다"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "강하게",
+              "meaning": "be strong",
+              "base": "강하다"
+            },
+            {
+              "surface": "행동해야",
+              "meaning": "must act",
+              "base": "행동하다 + -아/어야"
+            },
+            {
+              "surface": "한다고",
+              "meaning": "that one does",
+              "base": "하다 + -ㄴ다고"
+            },
+            {
+              "surface": "놀렸어",
+              "meaning": "teased",
+              "base": "놀리다"
+            }
+          ]
+        },
+        {
+          "korean": "한편 아앙과 소카와 토프는 자신들을 공격한 불의 나라 병사 한 명을 붙잡았어.",
+          "translation": "Meanwhile, Aang, Sokka, and Toph captured one of the Fire Nation soldiers who had attacked them.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "한편 아앙과 소카와 토프는 자신들을 공격한 불의 나라 병사 한 명을 붙잡았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "한편 아앙과 소카와 토프는 자신들을 공격한 불의 나라 병사 한 명을 붙잡았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "명을",
+              "meaning": "person (counter/object)"
+            },
+            {
+              "word": "아앙과",
+              "meaning": "Aang and",
+              "note": "아앙 + 과"
+            },
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "자신들을",
+              "meaning": "themselves",
+              "note": "자신들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "한편",
+              "meaning": "meanwhile"
+            },
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "자신들을",
+              "meaning": "themselves",
+              "base": "자신들 + 을"
+            },
+            {
+              "surface": "공격한",
+              "meaning": "attack also: that did / ...",
+              "base": "공격하다"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "병사",
+              "meaning": "soldier"
+            },
+            {
+              "surface": "한",
+              "meaning": "one / that did"
+            },
+            {
+              "surface": "명을",
+              "meaning": "person (counter/object)"
+            },
+            {
+              "surface": "붙잡았어",
+              "meaning": "captured",
+              "base": "붙잡다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 강함을 보여 주는 방법은 사람마다 다르다고 대답했어.",
+          "translation": "Katara answered that every person had a different way of showing strength.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "카타라는 강함을 보여 주는 방법은 사람마다 다르다고 대답했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 강함을 보여 주는 방법은 사람마다 다르다고 대답했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "강함을",
+              "meaning": "strength (object)",
+              "note": "강함 + 을"
+            },
+            {
+              "word": "보여",
+              "meaning": "showed",
+              "note": "보이다 + -아/어"
+            },
+            {
+              "word": "주는",
+              "meaning": "giving / showing",
+              "note": "주다 + -는"
+            },
+            {
+              "word": "방법은",
+              "meaning": "method / way (은)",
+              "note": "방법 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "강함을",
+              "meaning": "strength (object)",
+              "base": "강함 + 을"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "주는",
+              "meaning": "giving / showing",
+              "base": "주다 + -는"
+            },
+            {
+              "surface": "방법은",
+              "meaning": "method / way (은)",
+              "base": "방법 + 은"
+            },
+            {
+              "surface": "사람마다",
+              "meaning": "for each person",
+              "base": "사람 + 마다"
+            },
+            {
+              "surface": "다르다고",
+              "meaning": "different",
+              "base": "다르다"
+            },
+            {
+              "surface": "대답했어",
+              "meaning": "answered",
+              "base": "대답하다"
+            }
+          ]
+        },
+        {
+          "korean": "그 병사는 학교에서 배운 선전 때문에 공기 유목민이 세계를 정복하려 했다고 믿고 있었어.",
+          "translation": "Because of propaganda taught in school, the soldier believed the Air Nomads had planned to conquer the world.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "그 병사는 학교에서 배운 선전 때문에 공기 유목민이 세계를 정복하려 했다고 믿고 있었어."
+            },
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "그 병사는 학교에서 배운 선전 때문에 공기 유목민이 세계를 정복하려 했다고 믿고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그 병사는 학교에서 배운 선전 때문에 공기 유목민이 세계를 정복하려 했다고 믿고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "했다고",
+              "meaning": "that one did"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "병사는",
+              "meaning": "soldier (topic)",
+              "note": "병사 + 는"
+            },
+            {
+              "word": "선전",
+              "meaning": "propaganda"
+            },
+            {
+              "word": "유목민이",
+              "meaning": "nomad (subject)",
+              "note": "유목민 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "병사는",
+              "meaning": "soldier (topic)",
+              "base": "병사 + 는"
+            },
+            {
+              "surface": "학교에서",
+              "meaning": "school at / from",
+              "base": "학교 + 에서"
+            },
+            {
+              "surface": "배운",
+              "meaning": "learned",
+              "base": "배우다 + -(으)ㄴ"
+            },
+            {
+              "surface": "선전",
+              "meaning": "propaganda"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "공기",
+              "meaning": "air"
+            },
+            {
+              "surface": "유목민이",
+              "meaning": "nomad (subject)",
+              "base": "유목민 + 이"
+            },
+            {
+              "surface": "세계를",
+              "meaning": "world (object)",
+              "base": "세계 + 를"
+            },
+            {
+              "surface": "정복하려",
+              "meaning": "정복: intending to",
+              "base": "정복하다"
+            },
+            {
+              "surface": "했다고",
+              "meaning": "that one did"
+            },
+            {
+              "surface": "믿고",
+              "meaning": "believed and"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 살아남기 위해 위험한 해적 무리와 잠시 협력하기로 했어.",
+          "translation": "To survive, Katara decided to cooperate temporarily with a dangerous pirate crew.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "카타라는 살아남기 위해 위험한 해적 무리와 잠시 협력하기로 했어."
+            },
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "카타라는 살아남기 위해 위험한 해적 무리와 잠시 협력하기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "살아남기",
+              "meaning": "surviving",
+              "note": "살아남다 + -기"
+            },
+            {
+              "word": "위해",
+              "meaning": "in order to",
+              "note": "위하다 + -아/어"
+            },
+            {
+              "word": "위험한",
+              "meaning": "dangerous",
+              "note": "위험하다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "살아남기",
+              "meaning": "surviving",
+              "base": "살아남다 + -기"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "위험한",
+              "meaning": "dangerous",
+              "base": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "무리와",
+              "meaning": "with a group",
+              "base": "무리 + 와"
+            },
+            {
+              "surface": "잠시",
+              "meaning": "for a while"
+            },
+            {
+              "surface": "협력하기로",
+              "meaning": "decided to cooperate",
+              "base": "협력하다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라가 만난 해적 선장 장은 안전한 탈출을 돕는 대신 물 다루기 실력을 빌려 달라고 했어.",
+          "translation": "The pirate captain Jiang offered Katara safe passage in exchange for her waterbending skills.",
+          "grammar": [
+            {
+              "pattern": "-는 대신(에)",
+              "explanation": "Means “instead of” or presents an alternative.",
+              "example": "카타라가 만난 해적 선장 장은 안전한 탈출을 돕는 대신 물 다루기 실력을 빌려 달라고 했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "카타라가 만난 해적 선장 장은 안전한 탈출을 돕는 대신 물 다루기 실력을 빌려 달라고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라가 만난 해적 선장 장은 안전한 탈출을 돕는 대신 물 다루기 실력을 빌려 달라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돕는",
+              "meaning": "helping"
+            },
+            {
+              "word": "만난",
+              "meaning": "met"
+            },
+            {
+              "word": "선장",
+              "meaning": "captain"
+            },
+            {
+              "word": "빌려",
+              "meaning": "borrow / lend"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라가",
+              "meaning": "Katara",
+              "base": "카타라 + 가"
+            },
+            {
+              "surface": "만난",
+              "meaning": "met"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "선장",
+              "meaning": "captain"
+            },
+            {
+              "surface": "장은",
+              "meaning": "Jiang"
+            },
+            {
+              "surface": "안전한",
+              "meaning": "safely: that did / ...",
+              "base": "안전하다"
+            },
+            {
+              "surface": "탈출을",
+              "meaning": "to escape / planned escape",
+              "base": "탈출하다"
+            },
+            {
+              "surface": "돕는",
+              "meaning": "helping"
+            },
+            {
+              "surface": "대신",
+              "meaning": "instead"
+            },
+            {
+              "surface": "물",
+              "meaning": "water"
+            },
+            {
+              "surface": "다루기",
+              "meaning": "handle / bend",
+              "base": "다루다"
+            },
+            {
+              "surface": "실력을",
+              "meaning": "ability / skill",
+              "base": "실력 + 을"
+            },
+            {
+              "surface": "빌려",
+              "meaning": "borrow / lend"
+            },
+            {
+              "surface": "달라고",
+              "meaning": "asking someone to do it for him",
+              "base": "-아/어 달라고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "해적들은 카타라가 너무 착해서 싸움에 약할 거라고 생각했어.",
+          "translation": "The pirates thought Katara would be weak in a fight because she was too kind.",
+          "grammar": [
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason to its result: “because,” “so,” or “and then.”",
+              "example": "해적들은 카타라가 너무 착해서 싸움에 약할 거라고 생각했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "해적들은 카타라가 너무 착해서 싸움에 약할 거라고 생각했어."
+            },
+            {
+              "pattern": "-(으)ㄹ 것 같았어",
+              "explanation": "Means “it seemed likely that / looked as though.”",
+              "example": "해적들은 카타라가 너무 착해서 싸움에 약할 거라고 생각했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "해적들은",
+              "meaning": "pirates (topic)",
+              "note": "해적들 + 은"
+            },
+            {
+              "word": "카타라가",
+              "meaning": "Katara (subject)",
+              "note": "카타라 + 가"
+            },
+            {
+              "word": "착해서",
+              "meaning": "because she was kind",
+              "note": "착하다 + -아/어서"
+            },
+            {
+              "word": "싸움에",
+              "meaning": "in a fight",
+              "note": "싸움 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해적들은",
+              "meaning": "pirates (topic)",
+              "base": "해적들 + 은"
+            },
+            {
+              "surface": "카타라가",
+              "meaning": "Katara (subject)",
+              "base": "카타라 + 가"
+            },
+            {
+              "surface": "너무",
+              "meaning": "too / very"
+            },
+            {
+              "surface": "착해서",
+              "meaning": "because she was kind",
+              "base": "착하다 + -아/어서"
+            },
+            {
+              "surface": "싸움에",
+              "meaning": "in a fight",
+              "base": "싸움 + 에"
+            },
+            {
+              "surface": "약할",
+              "meaning": "would be weak",
+              "base": "약하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "거라고",
+              "meaning": "that she would",
+              "base": "것이라고"
+            },
+            {
+              "surface": "생각했어",
+              "meaning": "thought",
+              "base": "생각하다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 토프처럼 거칠게 보이려고 행동했지만 익숙하지 않아 자주 어색해했어.",
+          "translation": "Katara tried to act tough like Toph, but often looked awkward because it was unfamiliar to her.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "카타라는 토프처럼 거칠게 보이려고 행동했지만 익숙하지 않아 자주 어색해했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "카타라는 토프처럼 거칠게 보이려고 행동했지만 익숙하지 않아 자주 어색해했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 토프처럼 거칠게 보이려고 행동했지만 익숙하지 않아 자주 어색해했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "않아",
+              "meaning": "not / because not"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "토프처럼",
+              "meaning": "Toph like",
+              "note": "토프 + 처럼"
+            },
+            {
+              "word": "거칠게",
+              "meaning": "rough",
+              "note": "거칠다"
+            },
+            {
+              "word": "보이려고",
+              "meaning": "showed",
+              "note": "보이다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "토프처럼",
+              "meaning": "Toph like",
+              "base": "토프 + 처럼"
+            },
+            {
+              "surface": "거칠게",
+              "meaning": "rough",
+              "base": "거칠다"
+            },
+            {
+              "surface": "보이려고",
+              "meaning": "showed",
+              "base": "보이다"
+            },
+            {
+              "surface": "행동했지만",
+              "meaning": "action: did, but",
+              "base": "행동하다"
+            },
+            {
+              "surface": "익숙하지",
+              "meaning": "익숙: do + negation/contrast",
+              "base": "익숙하다"
+            },
+            {
+              "surface": "않아",
+              "meaning": "not / because not"
+            },
+            {
+              "surface": "자주",
+              "meaning": "often"
+            },
+            {
+              "surface": "어색해했어",
+              "meaning": "어색해: did / was",
+              "base": "어색해하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "불의 나라 군인들을 피하던 카타라는 장이라는 여자가 이끄는 해적단을 만났어.",
+          "translation": "While avoiding Fire Nation soldiers, Katara met a pirate crew led by a woman named Jiang.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "불의 나라 군인들을 피하던 카타라는 장이라는 여자가 이끄는 해적단을 만났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "note": "불 + 의"
+            },
+            {
+              "word": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "word": "군인들을",
+              "meaning": "soldiers (object)",
+              "note": "군인들 + 을"
+            },
+            {
+              "word": "피하던",
+              "meaning": "avoid",
+              "note": "피하다"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "군인들을",
+              "meaning": "soldiers (object)",
+              "base": "군인들 + 을"
+            },
+            {
+              "surface": "피하던",
+              "meaning": "avoid",
+              "base": "피하다"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "장이라는",
+              "meaning": "Jiang (이라는)",
+              "base": "장 + 이라는"
+            },
+            {
+              "surface": "여자가",
+              "meaning": "girls / female (가)",
+              "base": "여자 + 가"
+            },
+            {
+              "surface": "이끄는",
+              "meaning": "leading",
+              "base": "이끌다 + -는"
+            },
+            {
+              "surface": "해적단을",
+              "meaning": "pirate crew (을)",
+              "base": "해적단 + 을"
+            },
+            {
+              "surface": "만났어",
+              "meaning": "met",
+              "base": "만나다"
+            }
+          ]
+        },
+        {
+          "korean": "장과 일행은 불의 나라가 점령한 흙의 왕국 마을에서 물건을 가져갈 계획이었어.",
+          "translation": "Jiang and her crew planned to collect goods from an Earth Kingdom town occupied by the Fire Nation.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "장과 일행은 불의 나라가 점령한 흙의 왕국 마을에서 물건을 가져갈 계획이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "장과 일행은 불의 나라가 점령한 흙의 왕국 마을에서 물건을 가져갈 계획이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "물건을",
+              "meaning": "goods / object (object)"
+            },
+            {
+              "word": "가져갈",
+              "meaning": "to take"
+            },
+            {
+              "word": "일행은",
+              "meaning": "group / party",
+              "note": "일행 + 은"
+            },
+            {
+              "word": "나라가",
+              "meaning": "nation",
+              "note": "나라 + 가"
+            },
+            {
+              "word": "마을에서",
+              "meaning": "at the village at / from",
+              "note": "마을 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "장과",
+              "meaning": "Jiang and / with",
+              "base": "장 + 과"
+            },
+            {
+              "surface": "일행은",
+              "meaning": "group / party",
+              "base": "일행 + 은"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라가",
+              "meaning": "nation",
+              "base": "나라 + 가"
+            },
+            {
+              "surface": "점령한",
+              "meaning": "점령: that did / ...",
+              "base": "점령하다"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕국",
+              "meaning": "kingdom"
+            },
+            {
+              "surface": "마을에서",
+              "meaning": "at the village at / from",
+              "base": "마을 + 에서"
+            },
+            {
+              "surface": "물건을",
+              "meaning": "goods / object (object)"
+            },
+            {
+              "surface": "가져갈",
+              "meaning": "to take"
+            },
+            {
+              "surface": "계획이었어",
+              "meaning": "was a plan",
+              "base": "계획이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "해적들은 불의 나라 점령지에서 훔친 약을 다른 마을로 몰래 옮기려 했어.",
+          "translation": "The pirates were trying to smuggle medicine stolen from a Fire Nation-occupied area to another village.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "해적들은 불의 나라 점령지에서 훔친 약을 다른 마을로 몰래 옮기려 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "해적들은 불의 나라 점령지에서 훔친 약을 다른 마을로 몰래 옮기려 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "점령지에서",
+              "meaning": "in occupied territory"
+            },
+            {
+              "word": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "word": "옮기려",
+              "meaning": "trying to move / smuggle"
+            },
+            {
+              "word": "훔친",
+              "meaning": "stolen"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해적들은",
+              "meaning": "pirates",
+              "base": "해적들 + 은"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "점령지에서",
+              "meaning": "in occupied territory"
+            },
+            {
+              "surface": "훔친",
+              "meaning": "stolen"
+            },
+            {
+              "surface": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "surface": "다른",
+              "meaning": "other",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마을로",
+              "meaning": "to the town",
+              "base": "마을 + 로"
+            },
+            {
+              "surface": "몰래",
+              "meaning": "secretly"
+            },
+            {
+              "surface": "옮기려",
+              "meaning": "trying to move / smuggle"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 군대 표식이 붙은 상자와 협력자의 제복을 보고 해적들의 계획을 의심했어.",
+          "translation": "Katara became suspicious when she saw army markings on the crates and uniforms belonging to collaborators.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 군대 표식이 붙은 상자와 협력자의 제복을 보고 해적들의 계획을 의심했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "카타라는 군대 표식이 붙은 상자와 협력자의 제복을 보고 해적들의 계획을 의심했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 군대 표식이 붙은 상자와 협력자의 제복을 보고 해적들의 계획을 의심했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "표식이",
+              "meaning": "marking / insignia (subject)"
+            },
+            {
+              "word": "제복을",
+              "meaning": "uniform (object)"
+            },
+            {
+              "word": "상자와",
+              "meaning": "crate / box and"
+            },
+            {
+              "word": "붙은",
+              "meaning": "attached"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "군대",
+              "meaning": "army"
+            },
+            {
+              "surface": "표식이",
+              "meaning": "marking / insignia (subject)"
+            },
+            {
+              "surface": "붙은",
+              "meaning": "attached"
+            },
+            {
+              "surface": "상자와",
+              "meaning": "crate / box and"
+            },
+            {
+              "surface": "협력자의",
+              "meaning": "cooperated",
+              "base": "협력하다"
+            },
+            {
+              "surface": "제복을",
+              "meaning": "uniform (object)"
+            },
+            {
+              "surface": "보고",
+              "meaning": "after seeing / and saw",
+              "base": "보다 + -고"
+            },
+            {
+              "surface": "해적들의",
+              "meaning": "pirates 's / of",
+              "base": "해적들 + 의"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "의심했어",
+              "meaning": "suspicion: did / was",
+              "base": "의심하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 카타라는 물을 이용해 배를 움직이고 적의 공격도 막아 냈어.",
+          "translation": "However, Katara used water to move the ship and successfully blocked the enemy's attack.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "하지만 카타라는 물을 이용해 배를 움직이고 적의 공격도 막아 냈어."
+            },
+            {
+              "pattern": "-을/를 통해",
+              "explanation": "Means “through / by means of.”",
+              "example": "하지만 카타라는 물을 이용해 배를 움직이고 적의 공격도 막아 냈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "하지만 카타라는 물을 이용해 배를 움직이고 적의 공격도 막아 냈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하지만",
+              "meaning": "however"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "물을",
+              "meaning": "water (object)",
+              "note": "물 + 을"
+            },
+            {
+              "word": "이용해",
+              "meaning": "using",
+              "note": "이용하다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "however"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "물을",
+              "meaning": "water (object)",
+              "base": "물 + 을"
+            },
+            {
+              "surface": "이용해",
+              "meaning": "using",
+              "base": "이용하다 + -아/어"
+            },
+            {
+              "surface": "배를",
+              "meaning": "ship (object)",
+              "base": "배 + 를"
+            },
+            {
+              "surface": "움직이고",
+              "meaning": "moved and",
+              "base": "움직이다 + -고"
+            },
+            {
+              "surface": "적의",
+              "meaning": "enemy's",
+              "base": "적 + 의"
+            },
+            {
+              "surface": "공격도",
+              "meaning": "attack also",
+              "base": "공격 + 도"
+            },
+            {
+              "surface": "막아",
+              "meaning": "blocked",
+              "base": "막다 + -아/어"
+            },
+            {
+              "surface": "냈어",
+              "meaning": "managed to accomplish",
+              "base": "내다"
+            }
+          ]
+        },
+        {
+          "korean": "항구의 장교가 장의 배를 알아보면서 군인들과 해적 사이에 싸움이 시작됐어.",
+          "translation": "A fight began between the soldiers and pirates when an officer recognized Jiang's ship.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "항구의 장교가 장의 배를 알아보면서 군인들과 해적 사이에 싸움이 시작됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "항구의 장교가 장의 배를 알아보면서 군인들과 해적 사이에 싸움이 시작됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "장교가",
+              "meaning": "officer (subject)"
+            },
+            {
+              "word": "항구의",
+              "meaning": "harbor's"
+            },
+            {
+              "word": "싸움이",
+              "meaning": "fight (subject)",
+              "note": "싸움 + 이"
+            },
+            {
+              "word": "군인들과",
+              "meaning": "soldiers and / with",
+              "note": "군인들 + 과"
+            },
+            {
+              "word": "사이에",
+              "meaning": "between / of the space between to / at",
+              "note": "사이 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "항구의",
+              "meaning": "harbor's"
+            },
+            {
+              "surface": "장교가",
+              "meaning": "officer (subject)"
+            },
+            {
+              "surface": "장의",
+              "meaning": "Jiang 's / of",
+              "base": "장 + 의"
+            },
+            {
+              "surface": "배를",
+              "meaning": "ship",
+              "base": "배 + 를"
+            },
+            {
+              "surface": "알아보면서",
+              "meaning": "recognized and",
+              "base": "알아보다"
+            },
+            {
+              "surface": "군인들과",
+              "meaning": "soldiers and / with",
+              "base": "군인들 + 과"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "사이에",
+              "meaning": "between / of the space between to / at",
+              "base": "사이 + 에"
+            },
+            {
+              "surface": "싸움이",
+              "meaning": "fight (subject)",
+              "base": "싸움 + 이"
+            },
+            {
+              "surface": "시작됐어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "해적들과 지내는 동안 그녀는 부드러움과 강함이 함께 있을 수 있다는 걸 배웠어.",
+          "translation": "While staying with the pirates, she learned that gentleness and strength could exist together.",
+          "grammar": [
+            {
+              "pattern": "-는 동안",
+              "explanation": "Means “during the time that” an action continues.",
+              "example": "해적들과 지내는 동안 그녀는 부드러움과 강함이 함께 있을 수 있다는 걸 배웠어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.” Tense is shown on 있다 or 없다.",
+              "example": "해적들과 지내는 동안 그녀는 부드러움과 강함이 함께 있을 수 있다는 걸 배웠어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "해적들과 지내는 동안 그녀는 부드러움과 강함이 함께 있을 수 있다는 걸 배웠어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "해적들과",
+              "meaning": "with pirates",
+              "note": "해적들 + 과"
+            },
+            {
+              "word": "지내는",
+              "meaning": "spending time",
+              "note": "지내다 + -는"
+            },
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "부드러움과",
+              "meaning": "gentleness and",
+              "note": "부드러움 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해적들과",
+              "meaning": "with pirates",
+              "base": "해적들 + 과"
+            },
+            {
+              "surface": "지내는",
+              "meaning": "spending time",
+              "base": "지내다 + -는"
+            },
+            {
+              "surface": "동안",
+              "meaning": "during"
+            },
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "부드러움과",
+              "meaning": "gentleness and",
+              "base": "부드러움 + 과"
+            },
+            {
+              "surface": "강함이",
+              "meaning": "strength (subject)",
+              "base": "강함 + 이"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "있을",
+              "meaning": "exist",
+              "base": "있다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "possibility"
+            },
+            {
+              "surface": "있다는",
+              "meaning": "that it can",
+              "base": "있다 + -다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "배웠어",
+              "meaning": "learned",
+              "base": "배우다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 큰 파도와 얼음을 이용해 군인들을 밀어 내고 배에 올라탔어.",
+          "translation": "Katara used a large wave and ice to push the soldiers back and board the ship.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 큰 파도와 얼음을 이용해 군인들을 밀어 내고 배에 올라탔어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "카타라는 큰 파도와 얼음을 이용해 군인들을 밀어 내고 배에 올라탔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "올라탔어",
+              "meaning": "boarded"
+            },
+            {
+              "word": "얼음을",
+              "meaning": "ice (object)",
+              "note": "얼음 + 을"
+            },
+            {
+              "word": "밀어",
+              "meaning": "pushed"
+            },
+            {
+              "word": "내고",
+              "meaning": "out / and"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "큰",
+              "meaning": "large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "파도와",
+              "meaning": "wave and / with",
+              "base": "파도 + 와"
+            },
+            {
+              "surface": "얼음을",
+              "meaning": "ice (object)",
+              "base": "얼음 + 을"
+            },
+            {
+              "surface": "이용해",
+              "meaning": "using",
+              "base": "이용하다 + -아/어"
+            },
+            {
+              "surface": "군인들을",
+              "meaning": "soldiers",
+              "base": "군인들 + 을"
+            },
+            {
+              "surface": "밀어",
+              "meaning": "pushed"
+            },
+            {
+              "surface": "내고",
+              "meaning": "out / and"
+            },
+            {
+              "surface": "배에",
+              "meaning": "ship to / at",
+              "base": "배 + 에"
+            },
+            {
+              "surface": "올라탔어",
+              "meaning": "boarded"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 해적처럼 옷을 입고 거친 말을 하며 자기 정체를 숨겼어.",
+          "translation": "Katara dressed like a pirate, spoke roughly, and hid her identity.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or background: “while / as.”",
+              "example": "카타라는 해적처럼 옷을 입고 거친 말을 하며 자기 정체를 숨겼어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "카타라는 해적처럼 옷을 입고 거친 말을 하며 자기 정체를 숨겼어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 해적처럼 옷을 입고 거친 말을 하며 자기 정체를 숨겼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "카타라는",
+              "meaning": "Katara (topic)",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "해적처럼",
+              "meaning": "pirate (처럼)",
+              "note": "해적 + 처럼"
+            },
+            {
+              "word": "옷을",
+              "meaning": "clothes (object)",
+              "note": "옷 + 을"
+            },
+            {
+              "word": "입고",
+              "meaning": "wearing",
+              "note": "입다 + -고"
+            },
+            {
+              "word": "거친",
+              "meaning": "rough",
+              "note": "거칠다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "해적처럼",
+              "meaning": "pirate (처럼)",
+              "base": "해적 + 처럼"
+            },
+            {
+              "surface": "옷을",
+              "meaning": "clothes (object)",
+              "base": "옷 + 을"
+            },
+            {
+              "surface": "입고",
+              "meaning": "wearing",
+              "base": "입다 + -고"
+            },
+            {
+              "surface": "거친",
+              "meaning": "rough",
+              "base": "거칠다 + -(으)ㄴ"
+            },
+            {
+              "surface": "말을",
+              "meaning": "words (을)",
+              "base": "말 + 을"
+            },
+            {
+              "surface": "하며",
+              "meaning": "while doing",
+              "base": "하다 + -(으)며"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "정체를",
+              "meaning": "identity (를)",
+              "base": "정체 + 를"
+            },
+            {
+              "surface": "숨겼어",
+              "meaning": "hid",
+              "base": "숨기다"
+            }
+          ]
+        },
+        {
+          "korean": "불의 나라 순찰선이 불붙은 바위를 쏘아 해적선의 선체를 부쉈어.",
+          "translation": "A Fire Nation patrol boat fired a burning boulder that tore through the pirate ship's hull.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "불의 나라 순찰선이 불붙은 바위를 쏘아 해적선의 선체를 부쉈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "불의 나라 순찰선이 불붙은 바위를 쏘아 해적선의 선체를 부쉈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "순찰선이",
+              "meaning": "patrol ship (subject)"
+            },
+            {
+              "word": "선체를",
+              "meaning": "hull (object)"
+            },
+            {
+              "word": "불붙은",
+              "meaning": "burning / set on fire"
+            },
+            {
+              "word": "부쉈어",
+              "meaning": "broke / smashed"
+            },
+            {
+              "word": "바위를",
+              "meaning": "rock (object)",
+              "note": "바위 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "순찰선이",
+              "meaning": "patrol ship (subject)"
+            },
+            {
+              "surface": "불붙은",
+              "meaning": "burning / set on fire"
+            },
+            {
+              "surface": "바위를",
+              "meaning": "rock (object)",
+              "base": "바위 + 를"
+            },
+            {
+              "surface": "쏘아",
+              "meaning": "fired / shot"
+            },
+            {
+              "surface": "해적선의",
+              "meaning": "pirate",
+              "base": "해적"
+            },
+            {
+              "surface": "선체를",
+              "meaning": "hull (object)"
+            },
+            {
+              "surface": "부쉈어",
+              "meaning": "broke / smashed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그녀는 해적들이 위험한 사람들이지만 서로를 가족처럼 지킨다는 것도 알게 됐어.",
+          "translation": "She learned that although the pirates were dangerous, they protected one another like family.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "그녀는 해적들이 위험한 사람들이지만 서로를 가족처럼 지킨다는 것도 알게 됐어."
+            },
+            {
+              "pattern": "-게 되다",
+              "explanation": "Describes a change caused by circumstances: “came to / ended up.”",
+              "example": "그녀는 해적들이 위험한 사람들이지만 서로를 가족처럼 지킨다는 것도 알게 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그녀는 해적들이 위험한 사람들이지만 서로를 가족처럼 지킨다는 것도 알게 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "해적들이",
+              "meaning": "pirate (들이)",
+              "note": "해적 + 들이"
+            },
+            {
+              "word": "위험한",
+              "meaning": "dangerous",
+              "note": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "word": "사람들이지만",
+              "meaning": "although they were people",
+              "note": "사람들이다 + -지만"
+            },
+            {
+              "word": "서로를",
+              "meaning": "each other (object)",
+              "note": "서로 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "해적들이",
+              "meaning": "pirate (들이)",
+              "base": "해적 + 들이"
+            },
+            {
+              "surface": "위험한",
+              "meaning": "dangerous",
+              "base": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사람들이지만",
+              "meaning": "although they were people",
+              "base": "사람들이다 + -지만"
+            },
+            {
+              "surface": "서로를",
+              "meaning": "each other (object)",
+              "base": "서로 + 를"
+            },
+            {
+              "surface": "가족처럼",
+              "meaning": "family (처럼)",
+              "base": "가족 + 처럼"
+            },
+            {
+              "surface": "지킨다는",
+              "meaning": "that one protects",
+              "base": "지키다 + -ㄴ다는"
+            },
+            {
+              "surface": "것도",
+              "meaning": "thing / fact (도)",
+              "base": "것 + 도"
+            },
+            {
+              "surface": "알게",
+              "meaning": "come to know",
+              "base": "알다 + -게"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 순찰선을 빼앗아 항구를 막던 다른 배들과 군인들을 물리쳤어.",
+          "translation": "Katara commandeered the patrol boat and defeated the other ships and soldiers blocking the harbor.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 순찰선을 빼앗아 항구를 막던 다른 배들과 군인들을 물리쳤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 순찰선을 빼앗아 항구를 막던 다른 배들과 군인들을 물리쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "순찰선을",
+              "meaning": "patrol ship (object)"
+            },
+            {
+              "word": "항구를",
+              "meaning": "harbor (object)"
+            },
+            {
+              "word": "배들과",
+              "meaning": "with ships"
+            },
+            {
+              "word": "물리쳤어",
+              "meaning": "defeated / drove back"
+            },
+            {
+              "word": "막던",
+              "meaning": "was blocking"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "순찰선을",
+              "meaning": "patrol ship (object)"
+            },
+            {
+              "surface": "빼앗아",
+              "meaning": "would take away",
+              "base": "빼앗다"
+            },
+            {
+              "surface": "항구를",
+              "meaning": "harbor (object)"
+            },
+            {
+              "surface": "막던",
+              "meaning": "was blocking"
+            },
+            {
+              "surface": "다른",
+              "meaning": "other",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "배들과",
+              "meaning": "with ships"
+            },
+            {
+              "surface": "군인들을",
+              "meaning": "soldiers",
+              "base": "군인들 + 을"
+            },
+            {
+              "surface": "물리쳤어",
+              "meaning": "defeated / drove back"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 해적들이 훔친 상자가 약이라는 것을 알았지만 그 목적은 아직 믿지 못했어.",
+          "translation": "Katara learned that the stolen crates contained medicine, but she still did not trust the pirates' purpose.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "카타라는 해적들이 훔친 상자가 약이라는 것을 알았지만 그 목적은 아직 믿지 못했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 해적들이 훔친 상자가 약이라는 것을 알았지만 그 목적은 아직 믿지 못했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 해적들이 훔친 상자가 약이라는 것을 알았지만 그 목적은 아직 믿지 못했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "상자가",
+              "meaning": "crate (subject)"
+            },
+            {
+              "word": "목적은",
+              "meaning": "purpose (topic)"
+            },
+            {
+              "word": "약이라는",
+              "meaning": "that it is medicine"
+            },
+            {
+              "word": "알았지만",
+              "meaning": "knew, but"
+            },
+            {
+              "word": "훔친",
+              "meaning": "stolen"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "해적들이",
+              "meaning": "pirate",
+              "base": "해적 + 들이"
+            },
+            {
+              "surface": "훔친",
+              "meaning": "stolen"
+            },
+            {
+              "surface": "상자가",
+              "meaning": "crate (subject)"
+            },
+            {
+              "surface": "약이라는",
+              "meaning": "that it is medicine"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "알았지만",
+              "meaning": "knew, but"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "목적은",
+              "meaning": "purpose (topic)"
+            },
+            {
+              "surface": "아직",
+              "meaning": "yet"
+            },
+            {
+              "surface": "믿지",
+              "meaning": "believe + not"
+            },
+            {
+              "surface": "못했어",
+              "meaning": "could not / did not",
+              "base": "못하다"
+            }
+          ]
+        },
+        {
+          "korean": "상자 안에는 돈이나 은이 아니라 병든 사람들에게 필요한 약이 들어 있었어.",
+          "translation": "The crates contained not money or silver, but medicine needed by sick people.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "상자 안에는 돈이나 은이 아니라 병든 사람들에게 필요한 약이 들어 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "상자 안에는 돈이나 은이 아니라 병든 사람들에게 필요한 약이 들어 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사람들에게",
+              "meaning": "to people"
+            },
+            {
+              "word": "약이",
+              "meaning": "medicine (subject)"
+            },
+            {
+              "word": "돈이나",
+              "meaning": "money or"
+            },
+            {
+              "word": "필요한",
+              "meaning": "necessary / needed"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            }
+          ],
+          "words": [
+            {
+              "surface": "상자",
+              "meaning": "crate / box"
+            },
+            {
+              "surface": "안에는",
+              "meaning": "inside (topic)",
+              "base": "안에 + 는"
+            },
+            {
+              "surface": "돈이나",
+              "meaning": "money or"
+            },
+            {
+              "surface": "은이",
+              "meaning": "silver (subject)",
+              "base": "은 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "병든",
+              "meaning": "sick"
+            },
+            {
+              "surface": "사람들에게",
+              "meaning": "to people"
+            },
+            {
+              "surface": "필요한",
+              "meaning": "necessary / needed"
+            },
+            {
+              "surface": "약이",
+              "meaning": "medicine (subject)"
+            },
+            {
+              "surface": "들어",
+              "meaning": "contained / entered"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "카타라는 약을 옮기려는 해적들을 도우면서 항구를 안전하게 빠져나갈 방법을 찾았어.",
+          "translation": "Katara helped the pirates transport the medicine while searching for a safe way out of the harbor.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "카타라는 약을 옮기려는 해적들을 도우면서 항구를 안전하게 빠져나갈 방법을 찾았어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 약을 옮기려는 해적들을 도우면서 항구를 안전하게 빠져나갈 방법을 찾았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 약을 옮기려는 해적들을 도우면서 항구를 안전하게 빠져나갈 방법을 찾았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "항구를",
+              "meaning": "harbor (object)"
+            },
+            {
+              "word": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "word": "옮기려는",
+              "meaning": "trying to transport / smuggle"
+            },
+            {
+              "word": "도우면서",
+              "meaning": "while helping"
+            },
+            {
+              "word": "빠져나갈",
+              "meaning": "to get out / escape"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "surface": "옮기려는",
+              "meaning": "trying to transport / smuggle"
+            },
+            {
+              "surface": "해적들을",
+              "meaning": "pirates",
+              "base": "해적들 + 을"
+            },
+            {
+              "surface": "도우면서",
+              "meaning": "while helping"
+            },
+            {
+              "surface": "항구를",
+              "meaning": "harbor (object)"
+            },
+            {
+              "surface": "안전하게",
+              "meaning": "safely",
+              "base": "안전하다 + -게"
+            },
+            {
+              "surface": "빠져나갈",
+              "meaning": "to get out / escape"
+            },
+            {
+              "surface": "방법을",
+              "meaning": "method / way",
+              "base": "방법 + 을"
+            },
+            {
+              "surface": "찾았어",
+              "meaning": "found"
+            }
+          ]
+        },
+        {
+          "korean": "장은 흙의 왕국 정부가 변두리 사람들을 버렸기 때문에 자기 선원들이 직접 돕는다고 설명했어.",
+          "translation": "Jiang explained that her crew helped directly because the Earth Kingdom government had abandoned people on the frontier.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "장은 흙의 왕국 정부가 변두리 사람들을 버렸기 때문에 자기 선원들이 직접 돕는다고 설명했어."
+            },
+            {
+              "pattern": "-아/어 버리다",
+              "explanation": "Shows that an action is completed, often with finality, regret, or surprise.",
+              "example": "장은 흙의 왕국 정부가 변두리 사람들을 버렸기 때문에 자기 선원들이 직접 돕는다고 설명했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "장은 흙의 왕국 정부가 변두리 사람들을 버렸기 때문에 자기 선원들이 직접 돕는다고 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "정부가",
+              "meaning": "government (subject)"
+            },
+            {
+              "word": "선원들이",
+              "meaning": "crew members (subject)"
+            },
+            {
+              "word": "변두리",
+              "meaning": "frontier / outskirts"
+            },
+            {
+              "word": "버렸기",
+              "meaning": "the fact of abandoning"
+            },
+            {
+              "word": "돕는다고",
+              "meaning": "that they help"
+            }
+          ],
+          "words": [
+            {
+              "surface": "장은",
+              "meaning": "Jiang"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕국",
+              "meaning": "kingdom"
+            },
+            {
+              "surface": "정부가",
+              "meaning": "government (subject)"
+            },
+            {
+              "surface": "변두리",
+              "meaning": "frontier / outskirts"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "버렸기",
+              "meaning": "the fact of abandoning"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "선원들이",
+              "meaning": "crew members (subject)"
+            },
+            {
+              "surface": "직접",
+              "meaning": "directly"
+            },
+            {
+              "surface": "돕는다고",
+              "meaning": "that they help"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "설명: did / was",
+              "base": "설명하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "불의 나라의 함정 때문에 배가 위험해지자 카타라는 혼자 큰 파도를 만들어 모두를 구했어.",
+          "translation": "When a Fire Nation trap endangered the ship, Katara created a huge wave by herself and saved everyone.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "불의 나라의 함정 때문에 배가 위험해지자 카타라는 혼자 큰 파도를 만들어 모두를 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "note": "불 + 의"
+            },
+            {
+              "word": "나라의",
+              "meaning": "country's / of a country",
+              "note": "나라 + 의"
+            },
+            {
+              "word": "함정",
+              "meaning": "trap"
+            },
+            {
+              "word": "때문에",
+              "meaning": "because"
+            },
+            {
+              "word": "배가",
+              "meaning": "ship (가)",
+              "note": "배 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라의",
+              "meaning": "country's / of a country",
+              "base": "나라 + 의"
+            },
+            {
+              "surface": "함정",
+              "meaning": "trap"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "배가",
+              "meaning": "ship (가)",
+              "base": "배 + 가"
+            },
+            {
+              "surface": "위험해지자",
+              "meaning": "when it became dangerous",
+              "base": "위험하다 + -아/어지다 + -자"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara (topic)",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "혼자",
+              "meaning": "alone"
+            },
+            {
+              "surface": "큰",
+              "meaning": "large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "파도를",
+              "meaning": "wave (를)",
+              "base": "파도 + 를"
+            },
+            {
+              "surface": "만들어",
+              "meaning": "create",
+              "base": "만들다"
+            },
+            {
+              "surface": "모두를",
+              "meaning": "all (를)",
+              "base": "모두 + 를"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "saved",
+              "base": "구하다"
+            }
+          ]
+        },
+        {
+          "korean": "해적들은 약을 작은 마을에 무료로 전달하고 주민들에게서 은빛 백합꽃만 받았어.",
+          "translation": "The pirates delivered the medicine to a small village for free and received only silver lilies from the residents.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "해적들은 약을 작은 마을에 무료로 전달하고 주민들에게서 은빛 백합꽃만 받았어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "해적들은 약을 작은 마을에 무료로 전달하고 주민들에게서 은빛 백합꽃만 받았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "해적들은 약을 작은 마을에 무료로 전달하고 주민들에게서 은빛 백합꽃만 받았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "word": "무료로",
+              "meaning": "for free"
+            },
+            {
+              "word": "주민들에게서",
+              "meaning": "from residents"
+            },
+            {
+              "word": "백합꽃만",
+              "meaning": "only lily flowers"
+            },
+            {
+              "word": "받았어",
+              "meaning": "received"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해적들은",
+              "meaning": "pirates",
+              "base": "해적들 + 은"
+            },
+            {
+              "surface": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "surface": "작은",
+              "meaning": "small",
+              "base": "작다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마을에",
+              "meaning": "at the village",
+              "base": "마을 + 에"
+            },
+            {
+              "surface": "무료로",
+              "meaning": "for free"
+            },
+            {
+              "surface": "전달하고",
+              "meaning": "전달: doing and",
+              "base": "전달하다"
+            },
+            {
+              "surface": "주민들에게서",
+              "meaning": "from residents"
+            },
+            {
+              "surface": "은빛",
+              "meaning": "silver-colored"
+            },
+            {
+              "surface": "백합꽃만",
+              "meaning": "only lily flowers"
+            },
+            {
+              "surface": "받았어",
+              "meaning": "received"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "장은 카타라의 친절함이 약함이 아니라 힘을 사용하는 방식이라고 인정했어.",
+          "translation": "Jiang admitted that Katara's kindness was not weakness but her way of using strength.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "장은 카타라의 친절함이 약함이 아니라 힘을 사용하는 방식이라고 인정했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "장은 카타라의 친절함이 약함이 아니라 힘을 사용하는 방식이라고 인정했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "장은",
+              "meaning": "Jiang (topic)"
+            },
+            {
+              "word": "카타라의",
+              "meaning": "Katara (의)",
+              "note": "카타라 + 의"
+            },
+            {
+              "word": "친절함이",
+              "meaning": "kindness (subject)",
+              "note": "친절함 + 이"
+            },
+            {
+              "word": "약함이",
+              "meaning": "as weakness (이)",
+              "note": "약함 + 이"
+            },
+            {
+              "word": "아니라",
+              "meaning": "not but / rather than",
+              "note": "아니다 + -라"
+            }
+          ],
+          "words": [
+            {
+              "surface": "장은",
+              "meaning": "Jiang (topic)"
+            },
+            {
+              "surface": "카타라의",
+              "meaning": "Katara (의)",
+              "base": "카타라 + 의"
+            },
+            {
+              "surface": "친절함이",
+              "meaning": "kindness (subject)",
+              "base": "친절함 + 이"
+            },
+            {
+              "surface": "약함이",
+              "meaning": "as weakness (이)",
+              "base": "약함 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "힘을",
+              "meaning": "power (object)",
+              "base": "힘 + 을"
+            },
+            {
+              "surface": "사용하는",
+              "meaning": "using",
+              "base": "사용하다 + -는"
+            },
+            {
+              "surface": "방식이라고",
+              "meaning": "that it is a method",
+              "base": "방식이다 + -라고"
+            },
+            {
+              "surface": "인정했어",
+              "meaning": "admitted",
+              "base": "인정하다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라는 해적질을 모두 좋아하지는 않았지만 장이 선원과 주민을 지키는 방식은 존중했어.",
+          "translation": "Katara did not approve of all piracy, but respected how Jiang protected her crew and the villagers.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라는 해적질을 모두 좋아하지는 않았지만 장이 선원과 주민을 지키는 방식은 존중했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라는 해적질을 모두 좋아하지는 않았지만 장이 선원과 주민을 지키는 방식은 존중했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주민을",
+              "meaning": "residents (object)"
+            },
+            {
+              "word": "좋아하지는",
+              "meaning": "do not particularly like"
+            },
+            {
+              "word": "선원과",
+              "meaning": "crew and"
+            },
+            {
+              "word": "방식은",
+              "meaning": "method (topic)",
+              "note": "방식 + 은"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "해적질을",
+              "meaning": "pirate",
+              "base": "해적"
+            },
+            {
+              "surface": "모두",
+              "meaning": "all"
+            },
+            {
+              "surface": "좋아하지는",
+              "meaning": "do not particularly like"
+            },
+            {
+              "surface": "않았지만",
+              "meaning": "did not but",
+              "base": "않다 + -았지만"
+            },
+            {
+              "surface": "장이",
+              "meaning": "Jiang (subject)",
+              "base": "장 + 이"
+            },
+            {
+              "surface": "선원과",
+              "meaning": "crew and"
+            },
+            {
+              "surface": "주민을",
+              "meaning": "residents (object)"
+            },
+            {
+              "surface": "지키는",
+              "meaning": "protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "방식은",
+              "meaning": "method (topic)",
+              "base": "방식 + 은"
+            },
+            {
+              "surface": "존중했어",
+              "meaning": "respected",
+              "base": "존중하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "주민들은 약을 받은 뒤 해적들에게 은빛 백합을 건넸고 이것이 이야기 제목에 나오는 해적의 은이었어.",
+          "translation": "After receiving the medicine, the villagers gave the pirates silver lilies—the ‘pirate's silver’ named in the title.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "주민들은 약을 받은 뒤 해적들에게 은빛 백합을 건넸고 이것이 이야기 제목에 나오는 해적의 은이었어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "주민들은 약을 받은 뒤 해적들에게 은빛 백합을 건넸고 이것이 이야기 제목에 나오는 해적의 은이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "주민들은 약을 받은 뒤 해적들에게 은빛 백합을 건넸고 이것이 이야기 제목에 나오는 해적의 은이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주민들은",
+              "meaning": "residents (topic)"
+            },
+            {
+              "word": "백합을",
+              "meaning": "lily (object)"
+            },
+            {
+              "word": "이것이",
+              "meaning": "this (subject)"
+            },
+            {
+              "word": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "word": "제목에",
+              "meaning": "in the title"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주민들은",
+              "meaning": "residents (topic)"
+            },
+            {
+              "surface": "약을",
+              "meaning": "medicine (object)"
+            },
+            {
+              "surface": "받은",
+              "meaning": "received"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "해적들에게",
+              "meaning": "pirate to (plural)",
+              "base": "해적 + 들에게"
+            },
+            {
+              "surface": "은빛",
+              "meaning": "silver-colored"
+            },
+            {
+              "surface": "백합을",
+              "meaning": "lily (object)"
+            },
+            {
+              "surface": "건넸고",
+              "meaning": "handed over and"
+            },
+            {
+              "surface": "이것이",
+              "meaning": "this (subject)"
+            },
+            {
+              "surface": "이야기",
+              "meaning": "talked",
+              "base": "이야기하다"
+            },
+            {
+              "surface": "제목에",
+              "meaning": "in the title"
+            },
+            {
+              "surface": "나오는",
+              "meaning": "came out of",
+              "base": "나오다"
+            },
+            {
+              "surface": "해적의",
+              "meaning": "pirate 's / of",
+              "base": "해적 + 의"
+            },
+            {
+              "surface": "은이었어",
+              "meaning": "was silver"
+            }
+          ]
+        },
+        {
+          "korean": "장은 카타라에게 해적단에 들어오라고 제안했지만 카타라는 친구들을 찾기로 했어.",
+          "translation": "Jiang invited Katara to join the crew, but Katara chose to find her friends.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.”",
+              "example": "장은 카타라에게 해적단에 들어오라고 제안했지만 카타라는 친구들을 찾기로 했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "장은 카타라에게 해적단에 들어오라고 제안했지만 카타라는 친구들을 찾기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "장은 카타라에게 해적단에 들어오라고 제안했지만 카타라는 친구들을 찾기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "들어오라고",
+              "meaning": "telling someone to join / come in"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "카타라에게",
+              "meaning": "Katara to",
+              "note": "카타라 + 에게"
+            },
+            {
+              "word": "해적단에",
+              "meaning": "pirate crew to / at",
+              "note": "해적단 + 에"
+            },
+            {
+              "word": "친구들을",
+              "meaning": "friend (들을)",
+              "note": "친구 + 들을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "장은",
+              "meaning": "Jiang"
+            },
+            {
+              "surface": "카타라에게",
+              "meaning": "Katara to",
+              "base": "카타라 + 에게"
+            },
+            {
+              "surface": "해적단에",
+              "meaning": "pirate crew to / at",
+              "base": "해적단 + 에"
+            },
+            {
+              "surface": "들어오라고",
+              "meaning": "telling someone to join / come in"
+            },
+            {
+              "surface": "제안했지만",
+              "meaning": "제안: did, but",
+              "base": "제안하다"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "친구들을",
+              "meaning": "friend (들을)",
+              "base": "친구 + 들을"
+            },
+            {
+              "surface": "찾기로",
+              "meaning": "decided to find",
+              "base": "찾다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "친구들과 다시 만난 카타라는 부드러움과 단단함을 모두 가진 자신을 받아들였어.",
+          "translation": "After reuniting with her friends, Katara accepted that she could be both gentle and tough.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "친구들과 다시 만난 카타라는 부드러움과 단단함을 모두 가진 자신을 받아들였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "친구들과 다시 만난 카타라는 부드러움과 단단함을 모두 가진 자신을 받아들였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "자신을",
+              "meaning": "oneself (object)"
+            },
+            {
+              "word": "만난",
+              "meaning": "met"
+            },
+            {
+              "word": "친구들과",
+              "meaning": "with friends",
+              "note": "친구들 + 과"
+            },
+            {
+              "word": "카타라는",
+              "meaning": "Katara",
+              "note": "카타라 + 는"
+            },
+            {
+              "word": "부드러움과",
+              "meaning": "gentleness and",
+              "note": "부드러움 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "친구들과",
+              "meaning": "with friends",
+              "base": "친구들 + 과"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "만난",
+              "meaning": "met"
+            },
+            {
+              "surface": "카타라는",
+              "meaning": "Katara",
+              "base": "카타라 + 는"
+            },
+            {
+              "surface": "부드러움과",
+              "meaning": "gentleness and",
+              "base": "부드러움 + 과"
+            },
+            {
+              "surface": "단단함을",
+              "meaning": "toughness / firmness",
+              "base": "단단함 + 을"
+            },
+            {
+              "surface": "모두",
+              "meaning": "all"
+            },
+            {
+              "surface": "가진",
+              "meaning": "having / possessing",
+              "base": "가지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "자신을",
+              "meaning": "oneself (object)"
+            },
+            {
+              "surface": "받아들였어",
+              "meaning": "accepted",
+              "base": "받아들이다"
+            }
+          ]
+        },
+        {
+          "korean": "아앙과 소카와 토프는 길에 남은 얼음을 따라 카타라를 찾아와 다시 만났어.",
+          "translation": "Aang, Sokka, and Toph followed the ice she had left behind and reunited with Katara.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아앙과 소카와 토프는 길에 남은 얼음을 따라 카타라를 찾아와 다시 만났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙과 소카와 토프는 길에 남은 얼음을 따라 카타라를 찾아와 다시 만났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "얼음을",
+              "meaning": "ice (object)",
+              "note": "얼음 + 을"
+            },
+            {
+              "word": "카타라를",
+              "meaning": "Katara (object)",
+              "note": "카타라 + 를"
+            },
+            {
+              "word": "아앙과",
+              "meaning": "Aang and",
+              "note": "아앙 + 과"
+            },
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "길에",
+              "meaning": "paths to / at",
+              "base": "길 + 에"
+            },
+            {
+              "surface": "남은",
+              "meaning": "left / remaining",
+              "base": "남다 + -(으)ㄴ"
+            },
+            {
+              "surface": "얼음을",
+              "meaning": "ice (object)",
+              "base": "얼음 + 을"
+            },
+            {
+              "surface": "따라",
+              "meaning": "along / following",
+              "base": "따르다 + -아/어"
+            },
+            {
+              "surface": "카타라를",
+              "meaning": "Katara (object)",
+              "base": "카타라 + 를"
+            },
+            {
+              "surface": "찾아와",
+              "meaning": "found and and / with",
+              "base": "찾아 + 와"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "만났어",
+              "meaning": "met",
+              "base": "만나다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 7
+}

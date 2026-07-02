@@ -1,0 +1,5139 @@
+{
+  "id": "when-life-gives-you-tangerines",
+  "title": "폭싹 속았수다",
+  "englishTitle": "When Life Gives You Tangerines",
+  "level": "TOPIK 2–3",
+  "description": "제주에서 자란 애순과 관식이 오랜 세월 서로의 편이 되어 살아가는 이야기.",
+  "theme": "sunset",
+  "sourceNote": "Expanded transformative Korean thematic plot summary of the complete television drama; no dialogue or screenplay text is reproduced.",
+  "collectionId": "anime-film-drama",
+  "order": 5,
+  "thumbnail": "thumbnails/05_when_life_gives_you_tangerines.jpg",
+  "thumbnailAlt": "When Life Gives You Tangerines",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "오애순은 1950년대 제주에서 가난한 집의 딸로 태어났어.",
+          "translation": "Oh Ae-sun was born into a poor family on Jeju Island in the 1950s.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "오애순은 1950년대 제주에서 가난한 집의 딸로 태어났어."
+            },
+            {
+              "pattern": "Particles 은/는, 이/가, 을/를",
+              "explanation": "Korean particles mark a noun’s role. 은/는 sets the topic or contrast, 이/가 marks the grammatical subject or new focus, and 을/를 marks the direct object.",
+              "example": "오애순은 1950년대 제주에서 가난한 집의 딸로 태어났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "1950년대",
+              "meaning": "the 1950s"
+            },
+            {
+              "word": "제주에서",
+              "meaning": "on Jeju",
+              "note": "제주 + 에서"
+            },
+            {
+              "word": "가난한",
+              "meaning": "poor",
+              "note": "가난하다 + -(으)ㄴ"
+            },
+            {
+              "word": "집의",
+              "meaning": "house (of / possessive)",
+              "note": "집 + 의"
+            },
+            {
+              "word": "딸로",
+              "meaning": "daughter (to / by / as)",
+              "note": "딸 + 로"
+            },
+            {
+              "word": "태어났어",
+              "meaning": "was born",
+              "note": "태어나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "1950년대",
+              "meaning": "the 1950s"
+            },
+            {
+              "surface": "제주에서",
+              "meaning": "on Jeju",
+              "base": "제주 + 에서"
+            },
+            {
+              "surface": "가난한",
+              "meaning": "poor",
+              "base": "가난하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "집의",
+              "meaning": "house (of / possessive)",
+              "base": "집 + 의"
+            },
+            {
+              "surface": "딸로",
+              "meaning": "daughter (to / by / as)",
+              "base": "딸 + 로"
+            },
+            {
+              "surface": "태어났어",
+              "meaning": "was born",
+              "base": "태어나다"
+            }
+          ]
+        },
+        {
+          "korean": "어머니 전광례는 해녀로 일하며 딸만큼은 자기보다 넓은 세상에서 살기를 바랐어.",
+          "translation": "Her mother, Jeon Gwang-rye, worked as a haenyeo and hoped her daughter would live in a wider world than she had.",
+          "grammar": [
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing / more than doing.” It compares two actions or descriptions and places the speaker’s preference or stronger judgment in the following expression.",
+              "example": "어머니 전광례는 해녀로 일하며 딸만큼은 자기보다 넓은 세상에서 살기를 바랐어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "어머니 전광례는 해녀로 일하며 딸만큼은 자기보다 넓은 세상에서 살기를 바랐어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "어머니 전광례는 해녀로 일하며 딸만큼은 자기보다 넓은 세상에서 살기를 바랐어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "어머니 전광례는 해녀로 일하며 딸만큼은 자기보다 넓은 세상에서 살기를 바랐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "word": "해녀로",
+              "meaning": "haenyeo / female diver (to / by / as)",
+              "note": "해녀 + 로"
+            },
+            {
+              "word": "일하며",
+              "meaning": "had to work",
+              "note": "일하다 + -(으)며"
+            },
+            {
+              "word": "자기보다",
+              "meaning": "his own (than)",
+              "note": "자기 + 보다"
+            },
+            {
+              "word": "넓은",
+              "meaning": "wide",
+              "note": "넓다 + -(으)ㄴ"
+            },
+            {
+              "word": "세상에서",
+              "meaning": "from the world",
+              "note": "세상 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "surface": "해녀로",
+              "meaning": "haenyeo / female diver (to / by / as)",
+              "base": "해녀 + 로"
+            },
+            {
+              "surface": "일하며",
+              "meaning": "had to work",
+              "base": "일하다 + -(으)며"
+            },
+            {
+              "surface": "자기보다",
+              "meaning": "his own (than)",
+              "base": "자기 + 보다"
+            },
+            {
+              "surface": "넓은",
+              "meaning": "wide",
+              "base": "넓다 + -(으)ㄴ"
+            },
+            {
+              "surface": "세상에서",
+              "meaning": "from the world",
+              "base": "세상 + 에서"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어.",
+          "translation": "Ae-sun wanted to attend school and become a poet, but poverty and sexism made that dream difficult.",
+          "grammar": [
+            {
+              "pattern": "-고 싶다",
+              "explanation": "Expresses the speaker’s desire: “want to.” With another person as the subject, Korean often uses -고 싶어 하다 to describe that person’s observable desire.",
+              "example": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "애순은 학교에 다니고 시인이 되고 싶었지만 가난과 성차별 때문에 꿈을 펼치기 어려웠어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "학교에",
+              "meaning": "school (to / at / in)",
+              "note": "학교 + 에"
+            },
+            {
+              "word": "다니고",
+              "meaning": "to attend / go regularly",
+              "note": "다니다"
+            },
+            {
+              "word": "싶었지만",
+              "meaning": "wanted but",
+              "note": "싶다 + -었지만"
+            },
+            {
+              "word": "가난과",
+              "meaning": "poverty (and / with)",
+              "note": "가난 + 과"
+            },
+            {
+              "word": "성차별",
+              "meaning": "sexism"
+            },
+            {
+              "word": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "학교에",
+              "meaning": "school (to / at / in)",
+              "base": "학교 + 에"
+            },
+            {
+              "surface": "다니고",
+              "meaning": "to attend / go regularly",
+              "base": "다니다"
+            },
+            {
+              "surface": "싶었지만",
+              "meaning": "wanted but",
+              "base": "싶다 + -었지만"
+            },
+            {
+              "surface": "가난과",
+              "meaning": "poverty (and / with)",
+              "base": "가난 + 과"
+            },
+            {
+              "surface": "성차별",
+              "meaning": "sexism"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            }
+          ]
+        },
+        {
+          "korean": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어.",
+          "translation": "After Gwang-rye died young, Ae-sun had to live cautiously in relatives’ homes.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 하다",
+              "explanation": "Expresses necessity or obligation: “must / have to.” Tense appears on 하다, so -아/어야 했어 means “had to.”",
+              "example": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "광례가 일찍 세상을 떠난 뒤 애순은 친척 집에서 눈치를 보며 살아야 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "광례가",
+              "meaning": "Gwang-rye (subject)",
+              "note": "광례 + 가"
+            },
+            {
+              "word": "세상을",
+              "meaning": "world",
+              "note": "세상 + 을"
+            },
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "집에서",
+              "meaning": "house (in / at / from)",
+              "note": "집 + 에서"
+            },
+            {
+              "word": "눈치를",
+              "meaning": "social cues / others’ reactions",
+              "note": "눈치 + 를"
+            },
+            {
+              "word": "보며",
+              "meaning": "while watching",
+              "note": "보다 + -(으)며"
+            },
+            {
+              "word": "살아야",
+              "meaning": "must live",
+              "note": "살다 + -아/어야"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "광례가",
+              "meaning": "Gwang-rye (subject)",
+              "base": "광례 + 가"
+            },
+            {
+              "surface": "일찍",
+              "meaning": "early"
+            },
+            {
+              "surface": "세상을",
+              "meaning": "world",
+              "base": "세상 + 을"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "친척",
+              "meaning": "relative"
+            },
+            {
+              "surface": "집에서",
+              "meaning": "house (in / at / from)",
+              "base": "집 + 에서"
+            },
+            {
+              "surface": "눈치를",
+              "meaning": "social cues / others’ reactions",
+              "base": "눈치 + 를"
+            },
+            {
+              "surface": "보며",
+              "meaning": "while watching",
+              "base": "보다 + -(으)며"
+            },
+            {
+              "surface": "살아야",
+              "meaning": "must live",
+              "base": "살다 + -아/어야"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "양관식은 어릴 때부터 애순을 좋아했고 말보다 행동으로 늘 그녀의 편이 됐어.",
+          "translation": "Yang Gwan-sik loved Ae-sun from childhood and always stood by her through actions rather than words.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "양관식은 어릴 때부터 애순을 좋아했고 말보다 행동으로 늘 그녀의 편이 됐어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "양관식은 어릴 때부터 애순을 좋아했고 말보다 행동으로 늘 그녀의 편이 됐어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "양관식은 어릴 때부터 애순을 좋아했고 말보다 행동으로 늘 그녀의 편이 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "양관식은 어릴 때부터 애순을 좋아했고 말보다 행동으로 늘 그녀의 편이 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어릴",
+              "meaning": "young",
+              "note": "어리다 + -(으)ㄹ"
+            },
+            {
+              "word": "때부터",
+              "meaning": "since the time",
+              "note": "때 + 부터"
+            },
+            {
+              "word": "애순을",
+              "meaning": "Ae-sun (object)",
+              "note": "애순 + 을"
+            },
+            {
+              "word": "좋아했고",
+              "meaning": "liking",
+              "note": "좋아하다 + -았고"
+            },
+            {
+              "word": "말보다",
+              "meaning": "words / speech (than)",
+              "note": "말 + 보다"
+            },
+            {
+              "word": "행동으로",
+              "meaning": "through actions",
+              "note": "행동 + 으로"
+            },
+            {
+              "word": "그녀의",
+              "meaning": "her",
+              "note": "그녀 + 의"
+            },
+            {
+              "word": "편이",
+              "meaning": "side / ally",
+              "note": "편 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어릴",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄹ"
+            },
+            {
+              "surface": "때부터",
+              "meaning": "since the time",
+              "base": "때 + 부터"
+            },
+            {
+              "surface": "애순을",
+              "meaning": "Ae-sun (object)",
+              "base": "애순 + 을"
+            },
+            {
+              "surface": "좋아했고",
+              "meaning": "liking",
+              "base": "좋아하다 + -았고"
+            },
+            {
+              "surface": "말보다",
+              "meaning": "words / speech (than)",
+              "base": "말 + 보다"
+            },
+            {
+              "surface": "행동으로",
+              "meaning": "through actions",
+              "base": "행동 + 으로"
+            },
+            {
+              "surface": "늘",
+              "meaning": "always"
+            },
+            {
+              "surface": "그녀의",
+              "meaning": "her",
+              "base": "그녀 + 의"
+            },
+            {
+              "surface": "편이",
+              "meaning": "side / ally",
+              "base": "편 + 이"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        },
+        {
+          "korean": "그는 애순이 굶지 않게 음식을 챙기고 사람들이 그녀를 무시할 때 조용히 막아 줬어.",
+          "translation": "He brought her food so she would not go hungry and quietly defended her when others looked down on her.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "그는 애순이 굶지 않게 음식을 챙기고 사람들이 그녀를 무시할 때 조용히 막아 줬어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그는 애순이 굶지 않게 음식을 챙기고 사람들이 그녀를 무시할 때 조용히 막아 줬어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 애순이 굶지 않게 음식을 챙기고 사람들이 그녀를 무시할 때 조용히 막아 줬어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그는 애순이 굶지 않게 음식을 챙기고 사람들이 그녀를 무시할 때 조용히 막아 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "애순이",
+              "meaning": "Ae-sun (subject)",
+              "note": "애순 + 이"
+            },
+            {
+              "word": "않게",
+              "meaning": "so that it would not",
+              "note": "않다 + -게"
+            },
+            {
+              "word": "음식을",
+              "meaning": "food",
+              "note": "음식 + 을"
+            },
+            {
+              "word": "챙기고",
+              "meaning": "taking care of",
+              "note": "챙기다"
+            },
+            {
+              "word": "사람들이",
+              "meaning": "people",
+              "note": "사람들 + 이"
+            },
+            {
+              "word": "그녀를",
+              "meaning": "her",
+              "note": "그녀 + 를"
+            },
+            {
+              "word": "줬어",
+              "meaning": "did for her",
+              "note": "주다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "애순이",
+              "meaning": "Ae-sun (subject)",
+              "base": "애순 + 이"
+            },
+            {
+              "surface": "않게",
+              "meaning": "so that it would not",
+              "base": "않다 + -게"
+            },
+            {
+              "surface": "음식을",
+              "meaning": "food",
+              "base": "음식 + 을"
+            },
+            {
+              "surface": "챙기고",
+              "meaning": "taking care of",
+              "base": "챙기다"
+            },
+            {
+              "surface": "사람들이",
+              "meaning": "people",
+              "base": "사람들 + 이"
+            },
+            {
+              "surface": "그녀를",
+              "meaning": "her",
+              "base": "그녀 + 를"
+            },
+            {
+              "surface": "때",
+              "meaning": "when"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for her",
+              "base": "주다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어.",
+          "translation": "Ae-sun considered marrying someone else to escape poverty, but could not ignore Gwan-sik’s sincerity.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어."
+            },
+            {
+              "pattern": "-지 못하다 / 못",
+              "explanation": "Expresses inability or failure: “cannot / could not.” It often implies that circumstances or insufficient ability prevented the action.",
+              "example": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "애순은 가난에서 벗어나려고 다른 사람과 결혼할 생각도 했지만 관식의 진심을 외면할 수 없었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "가난에서",
+              "meaning": "poverty (in / at / from)",
+              "note": "가난 + 에서"
+            },
+            {
+              "word": "벗어나려고",
+              "meaning": "to escape",
+              "note": "벗어나다"
+            },
+            {
+              "word": "사람과",
+              "meaning": "with a person",
+              "note": "사람 + 과"
+            },
+            {
+              "word": "결혼할",
+              "meaning": "to do / make marriage",
+              "note": "결혼하다"
+            },
+            {
+              "word": "생각도",
+              "meaning": "thoughts (also / even)",
+              "note": "생각 + 도"
+            },
+            {
+              "word": "했지만",
+              "meaning": "tried but",
+              "note": "하다 + -지만"
+            },
+            {
+              "word": "관식의",
+              "meaning": "Gwan-sik (of / possessive)",
+              "note": "관식 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "가난에서",
+              "meaning": "poverty (in / at / from)",
+              "base": "가난 + 에서"
+            },
+            {
+              "surface": "벗어나려고",
+              "meaning": "to escape",
+              "base": "벗어나다"
+            },
+            {
+              "surface": "다른",
+              "meaning": "other",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사람과",
+              "meaning": "with a person",
+              "base": "사람 + 과"
+            },
+            {
+              "surface": "결혼할",
+              "meaning": "to do / make marriage",
+              "base": "결혼하다"
+            },
+            {
+              "surface": "생각도",
+              "meaning": "thoughts (also / even)",
+              "base": "생각 + 도"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "tried but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "관식의",
+              "meaning": "Gwan-sik (of / possessive)",
+              "base": "관식 + 의"
+            },
+            {
+              "surface": "수",
+              "meaning": "ability"
+            },
+            {
+              "surface": "없었어",
+              "meaning": "could not",
+              "base": "없다"
+            }
+          ]
+        },
+        {
+          "korean": "두 사람은 가족의 반대를 피해 함께 제주를 떠나 새로운 삶을 시작하려 했어.",
+          "translation": "The two tried to leave Jeju together and begin a new life despite their families’ opposition.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "두 사람은 가족의 반대를 피해 함께 제주를 떠나 새로운 삶을 시작하려 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "두 사람은 가족의 반대를 피해 함께 제주를 떠나 새로운 삶을 시작하려 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "두 사람은 가족의 반대를 피해 함께 제주를 떠나 새로운 삶을 시작하려 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사람은",
+              "meaning": "people",
+              "note": "사람 + 은"
+            },
+            {
+              "word": "가족의",
+              "meaning": "family's",
+              "note": "가족 + 의"
+            },
+            {
+              "word": "피해",
+              "meaning": "to avoid",
+              "note": "피하다 + -아/어"
+            },
+            {
+              "word": "제주를",
+              "meaning": "Jeju (object)",
+              "note": "제주 + 를"
+            },
+            {
+              "word": "떠나",
+              "meaning": "leave and",
+              "note": "떠나다 + -아/어"
+            },
+            {
+              "word": "새로운",
+              "meaning": "new",
+              "note": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "word": "삶을",
+              "meaning": "life",
+              "note": "삶 + 을"
+            },
+            {
+              "word": "시작하려",
+              "meaning": "to begin",
+              "note": "시작하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "가족의",
+              "meaning": "family's",
+              "base": "가족 + 의"
+            },
+            {
+              "surface": "피해",
+              "meaning": "to avoid",
+              "base": "피하다 + -아/어"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "제주를",
+              "meaning": "Jeju (object)",
+              "base": "제주 + 를"
+            },
+            {
+              "surface": "떠나",
+              "meaning": "leave and",
+              "base": "떠나다 + -아/어"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "시작하려",
+              "meaning": "to begin",
+              "base": "시작하다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그러나 돈도 일자리도 없어서 계획은 실패했고 결국 고향으로 돌아와 결혼했어.",
+          "translation": "But with neither money nor work, the plan failed and they eventually returned home and married.",
+          "grammar": [
+            {
+              "pattern": "-아/어서",
+              "explanation": "Links a cause, natural sequence, or closely connected action: “because / so / and then.” It usually presents the first clause as the reason or background for the next.",
+              "example": "그러나 돈도 일자리도 없어서 계획은 실패했고 결국 고향으로 돌아와 결혼했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그러나 돈도 일자리도 없어서 계획은 실패했고 결국 고향으로 돌아와 결혼했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그러나 돈도 일자리도 없어서 계획은 실패했고 결국 고향으로 돌아와 결혼했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그러나",
+              "meaning": "however"
+            },
+            {
+              "word": "돈도",
+              "meaning": "Don (also / even)",
+              "note": "돈 + 도"
+            },
+            {
+              "word": "없어서",
+              "meaning": "because she could not",
+              "note": "없다 + -아/어서"
+            },
+            {
+              "word": "계획은",
+              "meaning": "only the plan (topic)",
+              "note": "계획 + 은"
+            },
+            {
+              "word": "실패했고",
+              "meaning": "to fail",
+              "note": "실패하다 + -았고"
+            },
+            {
+              "word": "결국",
+              "meaning": "eventually"
+            },
+            {
+              "word": "돌아와",
+              "meaning": "returned",
+              "note": "돌아오다 + -아/어"
+            },
+            {
+              "word": "결혼했어",
+              "meaning": "to do / make marriage",
+              "note": "결혼하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "돈도",
+              "meaning": "Don (also / even)",
+              "base": "돈 + 도"
+            },
+            {
+              "surface": "없어서",
+              "meaning": "because she could not",
+              "base": "없다 + -아/어서"
+            },
+            {
+              "surface": "계획은",
+              "meaning": "only the plan (topic)",
+              "base": "계획 + 은"
+            },
+            {
+              "surface": "실패했고",
+              "meaning": "to fail",
+              "base": "실패하다 + -았고"
+            },
+            {
+              "surface": "결국",
+              "meaning": "eventually"
+            },
+            {
+              "surface": "돌아와",
+              "meaning": "returned",
+              "base": "돌아오다 + -아/어"
+            },
+            {
+              "surface": "결혼했어",
+              "meaning": "to do / make marriage",
+              "base": "결혼하다"
+            }
+          ]
+        },
+        {
+          "korean": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어.",
+          "translation": "Gwan-sik respected Ae-sun’s opinions and dreams so she would not become someone limited to housework.",
+          "grammar": [
+            {
+              "pattern": "-도록",
+              "explanation": "Expresses a goal, intended result, degree, or limit: “so that / until.” The surrounding verb determines whether it describes purpose or extent.",
+              "example": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "관식은 애순이 집안일만 하는 사람이 되지 않도록 그녀의 의견과 꿈을 존중했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "애순이",
+              "meaning": "Ae-sun (subject)",
+              "note": "애순 + 이"
+            },
+            {
+              "word": "하는",
+              "meaning": "doing",
+              "note": "하다 + -는"
+            },
+            {
+              "word": "사람이",
+              "meaning": "people",
+              "note": "사람 + 이"
+            },
+            {
+              "word": "그녀의",
+              "meaning": "her",
+              "note": "그녀 + 의"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "존중했어",
+              "meaning": "to respect",
+              "note": "존중하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "애순이",
+              "meaning": "Ae-sun (subject)",
+              "base": "애순 + 이"
+            },
+            {
+              "surface": "하는",
+              "meaning": "doing",
+              "base": "하다 + -는"
+            },
+            {
+              "surface": "사람이",
+              "meaning": "people",
+              "base": "사람 + 이"
+            },
+            {
+              "surface": "그녀의",
+              "meaning": "her",
+              "base": "그녀 + 의"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "존중했어",
+              "meaning": "to respect",
+              "base": "존중하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "두 사람은 어린 나이에 부모가 되었고 첫딸 금명을 비롯한 아이들을 키웠어.",
+          "translation": "They became parents at a young age and raised children, including their first daughter Geum-myeong.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "두 사람은 어린 나이에 부모가 되었고 첫딸 금명을 비롯한 아이들을 키웠어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "두 사람은 어린 나이에 부모가 되었고 첫딸 금명을 비롯한 아이들을 키웠어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "두 사람은 어린 나이에 부모가 되었고 첫딸 금명을 비롯한 아이들을 키웠어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "두",
+              "meaning": "two"
+            },
+            {
+              "word": "사람은",
+              "meaning": "people",
+              "note": "사람 + 은"
+            },
+            {
+              "word": "어린",
+              "meaning": "young",
+              "note": "어리다 + -(으)ㄴ"
+            },
+            {
+              "word": "나이에",
+              "meaning": "age (to / at / in)",
+              "note": "나이 + 에"
+            },
+            {
+              "word": "부모가",
+              "meaning": "parents",
+              "note": "부모 + 가"
+            },
+            {
+              "word": "금명을",
+              "meaning": "Geum-myeong (object)",
+              "note": "금명 + 을"
+            },
+            {
+              "word": "아이들을",
+              "meaning": "children's (object)",
+              "note": "아이들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "나이에",
+              "meaning": "age (to / at / in)",
+              "base": "나이 + 에"
+            },
+            {
+              "surface": "부모가",
+              "meaning": "parents",
+              "base": "부모 + 가"
+            },
+            {
+              "surface": "금명을",
+              "meaning": "Geum-myeong (object)",
+              "base": "금명 + 을"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children's (object)",
+              "base": "아이들 + 을"
+            }
+          ]
+        },
+        {
+          "korean": "생활비는 늘 부족했고 관식은 바다와 시장에서 몸이 부서질 만큼 열심히 일했어.",
+          "translation": "Money was always short, and Gwan-sik worked himself to exhaustion at sea and in the market.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "생활비는 늘 부족했고 관식은 바다와 시장에서 몸이 부서질 만큼 열심히 일했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "생활비는 늘 부족했고 관식은 바다와 시장에서 몸이 부서질 만큼 열심히 일했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "생활비는 늘 부족했고 관식은 바다와 시장에서 몸이 부서질 만큼 열심히 일했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "부족했고",
+              "meaning": "to do / make tribe / group",
+              "note": "부족하다"
+            },
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "바다와",
+              "meaning": "to sea (and / with)",
+              "note": "바다 + 와"
+            },
+            {
+              "word": "시장에서",
+              "meaning": "in the market",
+              "note": "시장 + 에서"
+            },
+            {
+              "word": "몸이",
+              "meaning": "body",
+              "note": "몸 + 이"
+            },
+            {
+              "word": "만큼",
+              "meaning": "as much as"
+            },
+            {
+              "word": "열심히",
+              "meaning": "diligently"
+            },
+            {
+              "word": "일했어",
+              "meaning": "had to work",
+              "note": "일하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "늘",
+              "meaning": "always"
+            },
+            {
+              "surface": "부족했고",
+              "meaning": "to do / make tribe / group",
+              "base": "부족하다"
+            },
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "바다와",
+              "meaning": "to sea (and / with)",
+              "base": "바다 + 와"
+            },
+            {
+              "surface": "시장에서",
+              "meaning": "in the market",
+              "base": "시장 + 에서"
+            },
+            {
+              "surface": "몸이",
+              "meaning": "body",
+              "base": "몸 + 이"
+            },
+            {
+              "surface": "만큼",
+              "meaning": "as much as"
+            },
+            {
+              "surface": "열심히",
+              "meaning": "diligently"
+            },
+            {
+              "surface": "일했어",
+              "meaning": "had to work",
+              "base": "일하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어.",
+          "translation": "Ae-sun also protected the family through trade, but was often treated unfairly because she was a woman.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "애순도 장사를 하며 가족을 지켰지만 여성이라는 이유로 부당한 대우를 자주 받았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순도",
+              "meaning": "Ae-sun also",
+              "note": "애순 + 도"
+            },
+            {
+              "word": "장사를",
+              "meaning": "business/trading",
+              "note": "장사 + 를"
+            },
+            {
+              "word": "가족을",
+              "meaning": "family",
+              "note": "가족 + 을"
+            },
+            {
+              "word": "지켰지만",
+              "meaning": "protected but",
+              "note": "지키다 + -었지만"
+            },
+            {
+              "word": "여성이라는",
+              "meaning": "that she was a woman",
+              "note": "여성 + 이라는"
+            },
+            {
+              "word": "이유로",
+              "meaning": "for the reason / because of",
+              "note": "이유 + 로"
+            },
+            {
+              "word": "부당한",
+              "meaning": "unfair",
+              "note": "부당하다 + -(으)ㄴ"
+            },
+            {
+              "word": "대우를",
+              "meaning": "treatment (object)",
+              "note": "대우 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순도",
+              "meaning": "Ae-sun also",
+              "base": "애순 + 도"
+            },
+            {
+              "surface": "장사를",
+              "meaning": "business/trading",
+              "base": "장사 + 를"
+            },
+            {
+              "surface": "하며",
+              "meaning": "doing while / and",
+              "base": "하다 + -(으)며"
+            },
+            {
+              "surface": "가족을",
+              "meaning": "family",
+              "base": "가족 + 을"
+            },
+            {
+              "surface": "지켰지만",
+              "meaning": "protected but",
+              "base": "지키다 + -었지만"
+            },
+            {
+              "surface": "여성이라는",
+              "meaning": "that she was a woman",
+              "base": "여성 + 이라는"
+            },
+            {
+              "surface": "이유로",
+              "meaning": "for the reason / because of",
+              "base": "이유 + 로"
+            },
+            {
+              "surface": "부당한",
+              "meaning": "unfair",
+              "base": "부당하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "대우를",
+              "meaning": "treatment (object)",
+              "base": "대우 + 를"
+            },
+            {
+              "surface": "자주",
+              "meaning": "often"
+            },
+            {
+              "surface": "받았어",
+              "meaning": "received",
+              "base": "받다"
+            }
+          ]
+        },
+        {
+          "korean": "그녀는 마을 사람들 앞에서 자기 권리를 요구하고 다른 여성들의 목소리도 대신 냈어.",
+          "translation": "She demanded her rights before the villagers and also spoke up for other women.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그녀는 마을 사람들 앞에서 자기 권리를 요구하고 다른 여성들의 목소리도 대신 냈어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그녀는 마을 사람들 앞에서 자기 권리를 요구하고 다른 여성들의 목소리도 대신 냈어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "그녀는 마을 사람들 앞에서 자기 권리를 요구하고 다른 여성들의 목소리도 대신 냈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "마을",
+              "meaning": "village"
+            },
+            {
+              "word": "앞에서",
+              "meaning": "even in front of (in / at / from)",
+              "note": "앞 + 에서"
+            },
+            {
+              "word": "권리를",
+              "meaning": "right (object)",
+              "note": "권리 + 를"
+            },
+            {
+              "word": "요구하고",
+              "meaning": "to demand",
+              "note": "요구하다 + -고"
+            },
+            {
+              "word": "다른",
+              "meaning": "other",
+              "note": "다르다 + -(으)ㄴ"
+            },
+            {
+              "word": "목소리도",
+              "meaning": "voice (also / even)",
+              "note": "목소리 + 도"
+            },
+            {
+              "word": "냈어",
+              "meaning": "managed to",
+              "note": "내다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "마을",
+              "meaning": "village"
+            },
+            {
+              "surface": "사람들",
+              "meaning": "people"
+            },
+            {
+              "surface": "앞에서",
+              "meaning": "even in front of (in / at / from)",
+              "base": "앞 + 에서"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "권리를",
+              "meaning": "right (object)",
+              "base": "권리 + 를"
+            },
+            {
+              "surface": "요구하고",
+              "meaning": "to demand",
+              "base": "요구하다 + -고"
+            },
+            {
+              "surface": "다른",
+              "meaning": "other",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "목소리도",
+              "meaning": "voice (also / even)",
+              "base": "목소리 + 도"
+            },
+            {
+              "surface": "대신",
+              "meaning": "in exchange / instead"
+            },
+            {
+              "surface": "냈어",
+              "meaning": "managed to",
+              "base": "내다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어.",
+          "translation": "The family suffered indescribable grief when their son Dong-myeong died in an accident.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.” The following clause states the result that applies under that condition.",
+              "example": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "가족은 아들 동명을 사고로 잃으면서 말로 표현하기 어려운 슬픔을 겪었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "가족은",
+              "meaning": "family (topic)",
+              "note": "가족 + 은"
+            },
+            {
+              "word": "동명을",
+              "meaning": "Dong-myeong (object)",
+              "note": "동명 + 을"
+            },
+            {
+              "word": "사고로",
+              "meaning": "because of an accident",
+              "note": "사고 + 로"
+            },
+            {
+              "word": "잃으면서",
+              "meaning": "while losing",
+              "note": "잃다 + -(으)면서"
+            },
+            {
+              "word": "말로",
+              "meaning": "words / speech (to / by / as)",
+              "note": "말 + 로"
+            },
+            {
+              "word": "표현하기",
+              "meaning": "to express",
+              "note": "표현하다 + -기"
+            },
+            {
+              "word": "어려운",
+              "meaning": "difficult",
+              "note": "어렵다 + -(으)ㄴ"
+            },
+            {
+              "word": "슬픔을",
+              "meaning": "sorrow",
+              "note": "슬픔 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "가족은",
+              "meaning": "family (topic)",
+              "base": "가족 + 은"
+            },
+            {
+              "surface": "아들",
+              "meaning": "son"
+            },
+            {
+              "surface": "동명을",
+              "meaning": "Dong-myeong (object)",
+              "base": "동명 + 을"
+            },
+            {
+              "surface": "사고로",
+              "meaning": "because of an accident",
+              "base": "사고 + 로"
+            },
+            {
+              "surface": "잃으면서",
+              "meaning": "while losing",
+              "base": "잃다 + -(으)면서"
+            },
+            {
+              "surface": "말로",
+              "meaning": "words / speech (to / by / as)",
+              "base": "말 + 로"
+            },
+            {
+              "surface": "표현하기",
+              "meaning": "to express",
+              "base": "표현하다 + -기"
+            },
+            {
+              "surface": "어려운",
+              "meaning": "difficult",
+              "base": "어렵다 + -(으)ㄴ"
+            },
+            {
+              "surface": "슬픔을",
+              "meaning": "sorrow",
+              "base": "슬픔 + 을"
+            },
+            {
+              "surface": "겪었어",
+              "meaning": "experienced",
+              "base": "겪다"
+            }
+          ]
+        },
+        {
+          "korean": "애순은 자기가 아이를 지키지 못했다고 자책했고 관식도 슬픔을 혼자 삼켰어.",
+          "translation": "Ae-sun blamed herself for failing to protect the child, while Gwan-sik swallowed his grief alone.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "애순은 자기가 아이를 지키지 못했다고 자책했고 관식도 슬픔을 혼자 삼켰어."
+            },
+            {
+              "pattern": "-지 못하다 / 못",
+              "explanation": "Expresses inability or failure: “cannot / could not.” It often implies that circumstances or insufficient ability prevented the action.",
+              "example": "애순은 자기가 아이를 지키지 못했다고 자책했고 관식도 슬픔을 혼자 삼켰어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 자기가 아이를 지키지 못했다고 자책했고 관식도 슬픔을 혼자 삼켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 자기가 아이를 지키지 못했다고 자책했고 관식도 슬픔을 혼자 삼켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "자기가",
+              "meaning": "his own (subject)",
+              "note": "자기 + 가"
+            },
+            {
+              "word": "아이를",
+              "meaning": "like a child (object)",
+              "note": "아이 + 를"
+            },
+            {
+              "word": "지키지",
+              "meaning": "to protect",
+              "note": "지키다"
+            },
+            {
+              "word": "못했다고",
+              "meaning": "could not and",
+              "note": "못하다 + -았다고"
+            },
+            {
+              "word": "자책했고",
+              "meaning": "to blame oneself",
+              "note": "자책하다 + -았고"
+            },
+            {
+              "word": "관식도",
+              "meaning": "Gwan-sik (also / even)",
+              "note": "관식 + 도"
+            },
+            {
+              "word": "슬픔을",
+              "meaning": "sorrow",
+              "note": "슬픔 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "자기가",
+              "meaning": "his own (subject)",
+              "base": "자기 + 가"
+            },
+            {
+              "surface": "아이를",
+              "meaning": "like a child (object)",
+              "base": "아이 + 를"
+            },
+            {
+              "surface": "지키지",
+              "meaning": "to protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "못했다고",
+              "meaning": "could not and",
+              "base": "못하다 + -았다고"
+            },
+            {
+              "surface": "자책했고",
+              "meaning": "to blame oneself",
+              "base": "자책하다 + -았고"
+            },
+            {
+              "surface": "관식도",
+              "meaning": "Gwan-sik (also / even)",
+              "base": "관식 + 도"
+            },
+            {
+              "surface": "슬픔을",
+              "meaning": "sorrow",
+              "base": "슬픔 + 을"
+            },
+            {
+              "surface": "혼자",
+              "meaning": "alone"
+            },
+            {
+              "surface": "삼켰어",
+              "meaning": "swallowed",
+              "base": "삼키다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "두 사람은 서로를 탓하기보다 같은 상처를 안고 다시 살아가기로 했어.",
+          "translation": "Rather than blaming each other, they chose to continue living while carrying the same wound.",
+          "grammar": [
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing / more than doing.” It compares two actions or descriptions and places the speaker’s preference or stronger judgment in the following expression.",
+              "example": "두 사람은 서로를 탓하기보다 같은 상처를 안고 다시 살아가기로 했어."
+            },
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.” -기 turns the action into the content of a decision, while 하다 carries the tense and subject’s commitment.",
+              "example": "두 사람은 서로를 탓하기보다 같은 상처를 안고 다시 살아가기로 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "두 사람은 서로를 탓하기보다 같은 상처를 안고 다시 살아가기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "두 사람은 서로를 탓하기보다 같은 상처를 안고 다시 살아가기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "두",
+              "meaning": "two"
+            },
+            {
+              "word": "사람은",
+              "meaning": "people",
+              "note": "사람 + 은"
+            },
+            {
+              "word": "서로를",
+              "meaning": "each other",
+              "note": "서로 + 를"
+            },
+            {
+              "word": "같은",
+              "meaning": "same / like",
+              "note": "같다 + -(으)ㄴ"
+            },
+            {
+              "word": "상처를",
+              "meaning": "wound (object)",
+              "note": "상처 + 를"
+            },
+            {
+              "word": "다시",
+              "meaning": "again"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "서로를",
+              "meaning": "each other",
+              "base": "서로 + 를"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same / like",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "상처를",
+              "meaning": "wound (object)",
+              "base": "상처 + 를"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "세월이 흐르며 금명은 부모의 희생 덕분에 서울에서 공부할 기회를 얻었어.",
+          "translation": "As time passed, Geum-myeong gained the chance to study in Seoul because of her parents’ sacrifices.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "세월이 흐르며 금명은 부모의 희생 덕분에 서울에서 공부할 기회를 얻었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "세월이 흐르며 금명은 부모의 희생 덕분에 서울에서 공부할 기회를 얻었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "세월이 흐르며 금명은 부모의 희생 덕분에 서울에서 공부할 기회를 얻었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "세월이",
+              "meaning": "years / time",
+              "note": "세월 + 이"
+            },
+            {
+              "word": "흐르며",
+              "meaning": "to flow",
+              "note": "흐르다"
+            },
+            {
+              "word": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "note": "금명 + 은"
+            },
+            {
+              "word": "부모의",
+              "meaning": "parents (of / possessive)",
+              "note": "부모 + 의"
+            },
+            {
+              "word": "덕분에",
+              "meaning": "thanks to (to / at / in)",
+              "note": "덕분 + 에"
+            },
+            {
+              "word": "서울에서",
+              "meaning": "Seoul's (in / at / from)",
+              "note": "서울 + 에서"
+            },
+            {
+              "word": "공부할",
+              "meaning": "study and / want to study",
+              "note": "공부하다 + -(으)ㄹ"
+            },
+            {
+              "word": "기회를",
+              "meaning": "opportunity",
+              "note": "기회 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "세월이",
+              "meaning": "years / time",
+              "base": "세월 + 이"
+            },
+            {
+              "surface": "흐르며",
+              "meaning": "to flow",
+              "base": "흐르다"
+            },
+            {
+              "surface": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "base": "금명 + 은"
+            },
+            {
+              "surface": "부모의",
+              "meaning": "parents (of / possessive)",
+              "base": "부모 + 의"
+            },
+            {
+              "surface": "희생",
+              "meaning": "sacrifice"
+            },
+            {
+              "surface": "덕분에",
+              "meaning": "thanks to (to / at / in)",
+              "base": "덕분 + 에"
+            },
+            {
+              "surface": "서울에서",
+              "meaning": "Seoul's (in / at / from)",
+              "base": "서울 + 에서"
+            },
+            {
+              "surface": "공부할",
+              "meaning": "study and / want to study",
+              "base": "공부하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "기회를",
+              "meaning": "opportunity",
+              "base": "기회 + 를"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어.",
+          "translation": "Ae-sun spared nothing because she hoped her daughter would not have to abandon her dreams as she had.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "애순은 딸이 자기처럼 꿈을 포기하지 않기를 바라며 가진 것을 아끼지 않았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "딸이",
+              "meaning": "daughter (subject)",
+              "note": "딸 + 이"
+            },
+            {
+              "word": "자기처럼",
+              "meaning": "his own (like)",
+              "note": "자기 + 처럼"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "포기하지",
+              "meaning": "give up + not",
+              "note": "포기하다 + -지"
+            },
+            {
+              "word": "않기를",
+              "meaning": "not forgetting (object)",
+              "note": "않기 + 를"
+            },
+            {
+              "word": "바라며",
+              "meaning": "to hope",
+              "note": "바라다"
+            },
+            {
+              "word": "것을",
+              "meaning": "the fact",
+              "note": "것 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "딸이",
+              "meaning": "daughter (subject)",
+              "base": "딸 + 이"
+            },
+            {
+              "surface": "자기처럼",
+              "meaning": "his own (like)",
+              "base": "자기 + 처럼"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "포기하지",
+              "meaning": "give up + not",
+              "base": "포기하다 + -지"
+            },
+            {
+              "surface": "않기를",
+              "meaning": "not forgetting (object)",
+              "base": "않기 + 를"
+            },
+            {
+              "surface": "바라며",
+              "meaning": "to hope",
+              "base": "바라다"
+            },
+            {
+              "surface": "가진",
+              "meaning": "having",
+              "base": "가지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "아끼지",
+              "meaning": "to save / cherish",
+              "base": "아끼다"
+            },
+            {
+              "surface": "않았어",
+              "meaning": "did not",
+              "base": "않다"
+            }
+          ]
+        },
+        {
+          "korean": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어.",
+          "translation": "Geum-myeong experienced university life and love while struggling between the stability her parents wanted and her own heart.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "금명은 대학 생활과 사랑을 경험하면서 부모가 원하는 안정과 자기 마음 사이에서 고민했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "note": "금명 + 은"
+            },
+            {
+              "word": "생활과",
+              "meaning": "life (and / with)",
+              "note": "생활 + 과"
+            },
+            {
+              "word": "사랑을",
+              "meaning": "love",
+              "note": "사랑 + 을"
+            },
+            {
+              "word": "경험하면서",
+              "meaning": "to do / make experience",
+              "note": "경험하다"
+            },
+            {
+              "word": "부모가",
+              "meaning": "parents",
+              "note": "부모 + 가"
+            },
+            {
+              "word": "원하는",
+              "meaning": "desired",
+              "note": "원하다 + -는"
+            },
+            {
+              "word": "사이에서",
+              "meaning": "between",
+              "note": "사이 + 에서"
+            },
+            {
+              "word": "고민했어",
+              "meaning": "struggled / worried",
+              "note": "고민하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "base": "금명 + 은"
+            },
+            {
+              "surface": "대학",
+              "meaning": "university"
+            },
+            {
+              "surface": "생활과",
+              "meaning": "life (and / with)",
+              "base": "생활 + 과"
+            },
+            {
+              "surface": "사랑을",
+              "meaning": "love",
+              "base": "사랑 + 을"
+            },
+            {
+              "surface": "경험하면서",
+              "meaning": "to do / make experience",
+              "base": "경험하다"
+            },
+            {
+              "surface": "부모가",
+              "meaning": "parents",
+              "base": "부모 + 가"
+            },
+            {
+              "surface": "원하는",
+              "meaning": "desired",
+              "base": "원하다 + -는"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "마음",
+              "meaning": "heart / feelings"
+            },
+            {
+              "surface": "사이에서",
+              "meaning": "between",
+              "base": "사이 + 에서"
+            },
+            {
+              "surface": "고민했어",
+              "meaning": "struggled / worried",
+              "base": "고민하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그녀는 부유한 집안의 남자를 사랑했지만 그 가족은 제주 출신인 금명과 부모를 낮게 봤어.",
+          "translation": "She loved a man from a wealthy family, but his family looked down on Geum-myeong and her Jeju-born parents.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "그녀는 부유한 집안의 남자를 사랑했지만 그 가족은 제주 출신인 금명과 부모를 낮게 봤어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그녀는 부유한 집안의 남자를 사랑했지만 그 가족은 제주 출신인 금명과 부모를 낮게 봤어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그녀는 부유한 집안의 남자를 사랑했지만 그 가족은 제주 출신인 금명과 부모를 낮게 봤어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그녀는 부유한 집안의 남자를 사랑했지만 그 가족은 제주 출신인 금명과 부모를 낮게 봤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "남자를",
+              "meaning": "as a man (object)",
+              "note": "남자 + 를"
+            },
+            {
+              "word": "사랑했지만",
+              "meaning": "loved but",
+              "note": "사랑하다 + -았지만"
+            },
+            {
+              "word": "그",
+              "meaning": "that"
+            },
+            {
+              "word": "가족은",
+              "meaning": "family (topic)",
+              "note": "가족 + 은"
+            },
+            {
+              "word": "제주",
+              "meaning": "Jeju"
+            },
+            {
+              "word": "금명과",
+              "meaning": "Geum-myeong (and / with)",
+              "note": "금명 + 과"
+            },
+            {
+              "word": "부모를",
+              "meaning": "parents",
+              "note": "부모 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "남자를",
+              "meaning": "as a man (object)",
+              "base": "남자 + 를"
+            },
+            {
+              "surface": "사랑했지만",
+              "meaning": "loved but",
+              "base": "사랑하다 + -았지만"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "가족은",
+              "meaning": "family (topic)",
+              "base": "가족 + 은"
+            },
+            {
+              "surface": "제주",
+              "meaning": "Jeju"
+            },
+            {
+              "surface": "금명과",
+              "meaning": "Geum-myeong (and / with)",
+              "base": "금명 + 과"
+            },
+            {
+              "surface": "부모를",
+              "meaning": "parents",
+              "base": "부모 + 를"
+            }
+          ]
+        },
+        {
+          "korean": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어.",
+          "translation": "Ae-sun told her daughter to reconsider the marriage so she would not endure humiliation for love.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어."
+            },
+            {
+              "pattern": "-도록",
+              "explanation": "Expresses a goal, intended result, degree, or limit: “so that / until.” The surrounding verb determines whether it describes purpose or extent.",
+              "example": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 딸이 사랑 때문에 모욕을 견디지 않도록 결혼을 다시 생각하라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "딸이",
+              "meaning": "daughter (subject)",
+              "note": "딸 + 이"
+            },
+            {
+              "word": "사랑",
+              "meaning": "love"
+            },
+            {
+              "word": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "word": "견디지",
+              "meaning": "to endure",
+              "note": "견디다"
+            },
+            {
+              "word": "결혼을",
+              "meaning": "marriage",
+              "note": "결혼 + 을"
+            },
+            {
+              "word": "생각하라고",
+              "meaning": "to think",
+              "note": "생각하다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "딸이",
+              "meaning": "daughter (subject)",
+              "base": "딸 + 이"
+            },
+            {
+              "surface": "사랑",
+              "meaning": "love"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "surface": "견디지",
+              "meaning": "to endure",
+              "base": "견디다"
+            },
+            {
+              "surface": "결혼을",
+              "meaning": "marriage",
+              "base": "결혼 + 을"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "생각하라고",
+              "meaning": "to think",
+              "base": "생각하다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어.",
+          "translation": "Geum-myeong ultimately left a relationship that did not respect her and chose an independent life.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "금명은 결국 자신을 존중하지 않는 관계를 떠나 독립적인 삶을 선택했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "note": "금명 + 은"
+            },
+            {
+              "word": "자신을",
+              "meaning": "her",
+              "note": "자신 + 을"
+            },
+            {
+              "word": "존중하지",
+              "meaning": "to respect",
+              "note": "존중하다"
+            },
+            {
+              "word": "않는",
+              "meaning": "not / that does not",
+              "note": "않다 + -는"
+            },
+            {
+              "word": "관계를",
+              "meaning": "relationship (object)",
+              "note": "관계 + 를"
+            },
+            {
+              "word": "떠나",
+              "meaning": "leave and",
+              "note": "떠나다 + -아/어"
+            },
+            {
+              "word": "삶을",
+              "meaning": "life",
+              "note": "삶 + 을"
+            },
+            {
+              "word": "선택했어",
+              "meaning": "chose",
+              "note": "선택하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "base": "금명 + 은"
+            },
+            {
+              "surface": "결국",
+              "meaning": "eventually"
+            },
+            {
+              "surface": "자신을",
+              "meaning": "her",
+              "base": "자신 + 을"
+            },
+            {
+              "surface": "존중하지",
+              "meaning": "to respect",
+              "base": "존중하다"
+            },
+            {
+              "surface": "않는",
+              "meaning": "not / that does not",
+              "base": "않다 + -는"
+            },
+            {
+              "surface": "관계를",
+              "meaning": "relationship (object)",
+              "base": "관계 + 를"
+            },
+            {
+              "surface": "떠나",
+              "meaning": "leave and",
+              "base": "떠나다 + -아/어"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "선택했어",
+              "meaning": "chose",
+              "base": "선택하다"
+            }
+          ]
+        },
+        {
+          "korean": "그녀는 교육의 기회를 넓히려는 마음으로 온라인 강의 사업을 시작해 성공한 기업가가 됐어.",
+          "translation": "Wanting to broaden access to education, she founded an online lecture business and became a successful entrepreneur.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그녀는 교육의 기회를 넓히려는 마음으로 온라인 강의 사업을 시작해 성공한 기업가가 됐어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그녀는 교육의 기회를 넓히려는 마음으로 온라인 강의 사업을 시작해 성공한 기업가가 됐어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "그녀는 교육의 기회를 넓히려는 마음으로 온라인 강의 사업을 시작해 성공한 기업가가 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그녀는 교육의 기회를 넓히려는 마음으로 온라인 강의 사업을 시작해 성공한 기업가가 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "교육의",
+              "meaning": "education’s / of education",
+              "note": "교육 + 의"
+            },
+            {
+              "word": "기회를",
+              "meaning": "opportunity",
+              "note": "기회 + 를"
+            },
+            {
+              "word": "넓히려는",
+              "meaning": "trying to broaden",
+              "note": "넓히다 + -(으)려는"
+            },
+            {
+              "word": "마음으로",
+              "meaning": "heart / nature (to / by / as)",
+              "note": "마음 + 으로"
+            },
+            {
+              "word": "사업을",
+              "meaning": "business",
+              "note": "사업 + 을"
+            },
+            {
+              "word": "시작해",
+              "meaning": "to begin",
+              "note": "시작하다 + -아/어"
+            },
+            {
+              "word": "기업가가",
+              "meaning": "entrepreneur",
+              "note": "기업가 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "교육의",
+              "meaning": "education’s / of education",
+              "base": "교육 + 의"
+            },
+            {
+              "surface": "기회를",
+              "meaning": "opportunity",
+              "base": "기회 + 를"
+            },
+            {
+              "surface": "넓히려는",
+              "meaning": "trying to broaden",
+              "base": "넓히다 + -(으)려는"
+            },
+            {
+              "surface": "마음으로",
+              "meaning": "heart / nature (to / by / as)",
+              "base": "마음 + 으로"
+            },
+            {
+              "surface": "온라인",
+              "meaning": "online"
+            },
+            {
+              "surface": "강의",
+              "meaning": "lecture"
+            },
+            {
+              "surface": "사업을",
+              "meaning": "business",
+              "base": "사업 + 을"
+            },
+            {
+              "surface": "시작해",
+              "meaning": "to begin",
+              "base": "시작하다 + -아/어"
+            },
+            {
+              "surface": "기업가가",
+              "meaning": "entrepreneur",
+              "base": "기업가 + 가"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "군 복무를 마친 화가 박충섭은 버스를 따라 달려가 금명을 다시 만났어.",
+          "translation": "After completing military service, the artist Park Chung-seop ran after a bus and reunited with Geum-myeong.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "군 복무를 마친 화가 박충섭은 버스를 따라 달려가 금명을 다시 만났어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "군 복무를 마친 화가 박충섭은 버스를 따라 달려가 금명을 다시 만났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "군 복무를 마친 화가 박충섭은 버스를 따라 달려가 금명을 다시 만났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "복무를",
+              "meaning": "service",
+              "note": "복무 + 를"
+            },
+            {
+              "word": "마친",
+              "meaning": "completed",
+              "note": "마치다 + -(으)ㄴ"
+            },
+            {
+              "word": "박충섭은",
+              "meaning": "Park Chung-seop",
+              "note": "박충섭 + 은"
+            },
+            {
+              "word": "버스를",
+              "meaning": "bus",
+              "note": "버스 + 를"
+            },
+            {
+              "word": "따라",
+              "meaning": "following / along",
+              "note": "따르다 + -아/어"
+            },
+            {
+              "word": "달려가",
+              "meaning": "ran toward",
+              "note": "달려가다 + -아/어"
+            },
+            {
+              "word": "금명을",
+              "meaning": "Geum-myeong (object)",
+              "note": "금명 + 을"
+            },
+            {
+              "word": "만났어",
+              "meaning": "met",
+              "note": "만나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "군",
+              "meaning": "military"
+            },
+            {
+              "surface": "복무를",
+              "meaning": "service",
+              "base": "복무 + 를"
+            },
+            {
+              "surface": "마친",
+              "meaning": "completed",
+              "base": "마치다 + -(으)ㄴ"
+            },
+            {
+              "surface": "화가",
+              "meaning": "artist / painter"
+            },
+            {
+              "surface": "박충섭은",
+              "meaning": "Park Chung-seop",
+              "base": "박충섭 + 은"
+            },
+            {
+              "surface": "버스를",
+              "meaning": "bus",
+              "base": "버스 + 를"
+            },
+            {
+              "surface": "따라",
+              "meaning": "following / along",
+              "base": "따르다 + -아/어"
+            },
+            {
+              "surface": "달려가",
+              "meaning": "ran toward",
+              "base": "달려가다 + -아/어"
+            },
+            {
+              "surface": "금명을",
+              "meaning": "Geum-myeong (object)",
+              "base": "금명 + 을"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "만났어",
+              "meaning": "met",
+              "base": "만나다"
+            }
+          ]
+        },
+        {
+          "korean": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어.",
+          "translation": "Geum-myeong married Chung-seop, with whom she could love and be loved comfortably as herself.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "금명은 자기 모습 그대로 편안하게 사랑할 수 있는 충섭과 결혼했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "note": "금명 + 은"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "그대로",
+              "meaning": "as it is"
+            },
+            {
+              "word": "편안하게",
+              "meaning": "comfortably",
+              "note": "편안하다 + -게"
+            },
+            {
+              "word": "사랑할",
+              "meaning": "loving",
+              "note": "사랑하다 + -(으)ㄹ"
+            },
+            {
+              "word": "있는",
+              "meaning": "existing / possible",
+              "note": "있다 + -는"
+            },
+            {
+              "word": "충섭과",
+              "meaning": "with Chung-seop",
+              "note": "충섭 + 과"
+            },
+            {
+              "word": "결혼했어",
+              "meaning": "to do / make marriage",
+              "note": "결혼하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "base": "금명 + 은"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "모습",
+              "meaning": "appearance / self"
+            },
+            {
+              "surface": "그대로",
+              "meaning": "as it is"
+            },
+            {
+              "surface": "편안하게",
+              "meaning": "comfortably",
+              "base": "편안하다 + -게"
+            },
+            {
+              "surface": "사랑할",
+              "meaning": "loving",
+              "base": "사랑하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "ability"
+            },
+            {
+              "surface": "있는",
+              "meaning": "existing / possible",
+              "base": "있다 + -는"
+            },
+            {
+              "surface": "충섭과",
+              "meaning": "with Chung-seop",
+              "base": "충섭 + 과"
+            },
+            {
+              "surface": "결혼했어",
+              "meaning": "to do / make marriage",
+              "base": "결혼하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "둘째 아들 은명이 감옥에 갇힐 위기에 놓이자 관식은 자존심을 내려놓고 돈을 구하러 다녔어.",
+          "translation": "When their second son Eun-myeong faced imprisonment, Gwan-sik swallowed his pride and searched for money to help him.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "둘째 아들 은명이 감옥에 갇힐 위기에 놓이자 관식은 자존심을 내려놓고 돈을 구하러 다녔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "둘째 아들 은명이 감옥에 갇힐 위기에 놓이자 관식은 자존심을 내려놓고 돈을 구하러 다녔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "은명이",
+              "meaning": "Eun-myeong",
+              "note": "은명 + 이"
+            },
+            {
+              "word": "감옥에",
+              "meaning": "in prison",
+              "note": "감옥 + 에"
+            },
+            {
+              "word": "위기에",
+              "meaning": "in a crisis",
+              "note": "위기 + 에"
+            },
+            {
+              "word": "놓이자",
+              "meaning": "when placed in",
+              "note": "놓이다 + -자"
+            },
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "자존심을",
+              "meaning": "pride",
+              "note": "자존심 + 을"
+            },
+            {
+              "word": "내려놓고",
+              "meaning": "put aside and",
+              "note": "내려놓다 + -고"
+            },
+            {
+              "word": "돈을",
+              "meaning": "Don (object)",
+              "note": "돈 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아들",
+              "meaning": "son"
+            },
+            {
+              "surface": "은명이",
+              "meaning": "Eun-myeong",
+              "base": "은명 + 이"
+            },
+            {
+              "surface": "감옥에",
+              "meaning": "in prison",
+              "base": "감옥 + 에"
+            },
+            {
+              "surface": "갇힐",
+              "meaning": "to be imprisoned",
+              "base": "갇히다 + -(으)ㄹ"
+            },
+            {
+              "surface": "위기에",
+              "meaning": "in a crisis",
+              "base": "위기 + 에"
+            },
+            {
+              "surface": "놓이자",
+              "meaning": "when placed in",
+              "base": "놓이다 + -자"
+            },
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "자존심을",
+              "meaning": "pride",
+              "base": "자존심 + 을"
+            },
+            {
+              "surface": "내려놓고",
+              "meaning": "put aside and",
+              "base": "내려놓다 + -고"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "Don (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "구하러",
+              "meaning": "in order to obtain",
+              "base": "구하다 + -(으)러"
+            },
+            {
+              "surface": "다녔어",
+              "meaning": "went around regularly",
+              "base": "다니다"
+            }
+          ]
+        },
+        {
+          "korean": "관식은 결국 생계와 추억이 담긴 배까지 팔아 아들을 구했고 은명은 아버지의 희생을 뒤늦게 이해했어.",
+          "translation": "Gwan-sik ultimately sold even the boat tied to his livelihood and memories to save his son, and Eun-myeong belatedly understood his father’s sacrifice.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "관식은 결국 생계와 추억이 담긴 배까지 팔아 아들을 구했고 은명은 아버지의 희생을 뒤늦게 이해했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "관식은 결국 생계와 추억이 담긴 배까지 팔아 아들을 구했고 은명은 아버지의 희생을 뒤늦게 이해했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "관식은 결국 생계와 추억이 담긴 배까지 팔아 아들을 구했고 은명은 아버지의 희생을 뒤늦게 이해했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "관식은 결국 생계와 추억이 담긴 배까지 팔아 아들을 구했고 은명은 아버지의 희생을 뒤늦게 이해했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "생계와",
+              "meaning": "livelihood and",
+              "note": "생계 + 와"
+            },
+            {
+              "word": "추억이",
+              "meaning": "memories",
+              "note": "추억 + 이"
+            },
+            {
+              "word": "배까지",
+              "meaning": "even the boat",
+              "note": "배 + 까지"
+            },
+            {
+              "word": "아들을",
+              "meaning": "sons",
+              "note": "아들 + 을"
+            },
+            {
+              "word": "은명은",
+              "meaning": "Eun-myeong",
+              "note": "은명 + 은"
+            },
+            {
+              "word": "아버지의",
+              "meaning": "father's",
+              "note": "아버지 + 의"
+            },
+            {
+              "word": "희생을",
+              "meaning": "sacrifice (object)",
+              "note": "희생 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "결국",
+              "meaning": "eventually"
+            },
+            {
+              "surface": "생계와",
+              "meaning": "livelihood and",
+              "base": "생계 + 와"
+            },
+            {
+              "surface": "추억이",
+              "meaning": "memories",
+              "base": "추억 + 이"
+            },
+            {
+              "surface": "담긴",
+              "meaning": "contained / filled with",
+              "base": "담기다 + -(으)ㄴ"
+            },
+            {
+              "surface": "배까지",
+              "meaning": "even the boat",
+              "base": "배 + 까지"
+            },
+            {
+              "surface": "팔아",
+              "meaning": "sold and",
+              "base": "팔다 + -아/어"
+            },
+            {
+              "surface": "아들을",
+              "meaning": "sons",
+              "base": "아들 + 을"
+            },
+            {
+              "surface": "구했고",
+              "meaning": "saved",
+              "base": "구하다 + -았고"
+            },
+            {
+              "surface": "은명은",
+              "meaning": "Eun-myeong",
+              "base": "은명 + 은"
+            },
+            {
+              "surface": "아버지의",
+              "meaning": "father's",
+              "base": "아버지 + 의"
+            },
+            {
+              "surface": "희생을",
+              "meaning": "sacrifice (object)",
+              "base": "희생 + 을"
+            },
+            {
+              "surface": "뒤늦게",
+              "meaning": "belatedly"
+            },
+            {
+              "surface": "이해했어",
+              "meaning": "understood",
+              "base": "이해하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "관식은 아이들이 성장한 뒤에도 가족의 필요를 먼저 생각하며 묵묵히 일했어.",
+          "translation": "Even after the children grew up, Gwan-sik quietly continued putting the family’s needs first.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "관식은 아이들이 성장한 뒤에도 가족의 필요를 먼저 생각하며 묵묵히 일했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "관식은 아이들이 성장한 뒤에도 가족의 필요를 먼저 생각하며 묵묵히 일했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "관식은 아이들이 성장한 뒤에도 가족의 필요를 먼저 생각하며 묵묵히 일했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "아이들이",
+              "meaning": "children's (subject)",
+              "note": "아이들 + 이"
+            },
+            {
+              "word": "성장한",
+              "meaning": "to grow",
+              "note": "성장하다 + -(으)ㄴ"
+            },
+            {
+              "word": "가족의",
+              "meaning": "family's",
+              "note": "가족 + 의"
+            },
+            {
+              "word": "필요를",
+              "meaning": "necessary / need (object)",
+              "note": "필요 + 를"
+            },
+            {
+              "word": "먼저",
+              "meaning": "first"
+            },
+            {
+              "word": "생각하며",
+              "meaning": "to think",
+              "note": "생각하다 + -(으)며"
+            },
+            {
+              "word": "일했어",
+              "meaning": "had to work",
+              "note": "일하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "아이들이",
+              "meaning": "children's (subject)",
+              "base": "아이들 + 이"
+            },
+            {
+              "surface": "성장한",
+              "meaning": "to grow",
+              "base": "성장하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "가족의",
+              "meaning": "family's",
+              "base": "가족 + 의"
+            },
+            {
+              "surface": "필요를",
+              "meaning": "necessary / need (object)",
+              "base": "필요 + 를"
+            },
+            {
+              "surface": "먼저",
+              "meaning": "first"
+            },
+            {
+              "surface": "생각하며",
+              "meaning": "to think",
+              "base": "생각하다 + -(으)며"
+            },
+            {
+              "surface": "일했어",
+              "meaning": "had to work",
+              "base": "일하다 + -았어"
+            }
+          ]
+        },
+        {
+          "korean": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어.",
+          "translation": "His body weakened from years of labor, but he hid his suffering from the family.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "그의 몸은 오랜 노동 때문에 점점 약해졌지만 가족 앞에서는 힘든 기색을 숨겼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그의",
+              "meaning": "his",
+              "note": "그 + 의"
+            },
+            {
+              "word": "몸은",
+              "meaning": "body (topic)",
+              "note": "몸 + 은"
+            },
+            {
+              "word": "오랜",
+              "meaning": "long",
+              "note": "오래다 + -(으)ㄴ"
+            },
+            {
+              "word": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "word": "약해졌지만",
+              "meaning": "was weak but",
+              "note": "약하다"
+            },
+            {
+              "word": "앞에서는",
+              "meaning": "even in front of (in/at (topic))",
+              "note": "앞 + 에서는"
+            },
+            {
+              "word": "힘든",
+              "meaning": "difficult",
+              "note": "힘들다 + -(으)ㄴ"
+            },
+            {
+              "word": "기색을",
+              "meaning": "sign / expression (object)",
+              "note": "기색 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그의",
+              "meaning": "his",
+              "base": "그 + 의"
+            },
+            {
+              "surface": "몸은",
+              "meaning": "body (topic)",
+              "base": "몸 + 은"
+            },
+            {
+              "surface": "오랜",
+              "meaning": "long",
+              "base": "오래다 + -(으)ㄴ"
+            },
+            {
+              "surface": "노동",
+              "meaning": "labor"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "surface": "점점",
+              "meaning": "gradually"
+            },
+            {
+              "surface": "약해졌지만",
+              "meaning": "was weak but",
+              "base": "약하다"
+            },
+            {
+              "surface": "가족",
+              "meaning": "family"
+            },
+            {
+              "surface": "앞에서는",
+              "meaning": "even in front of (in/at (topic))",
+              "base": "앞 + 에서는"
+            },
+            {
+              "surface": "힘든",
+              "meaning": "difficult",
+              "base": "힘들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "기색을",
+              "meaning": "sign / expression (object)",
+              "base": "기색 + 을"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어.",
+          "translation": "Ae-sun came to understand more deeply that Gwan-sik was not merely a kind husband but the partner who made her life possible.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "애순은 관식이 단순히 착한 남편이 아니라 자기 인생을 가능하게 만든 동반자였다는 걸 더 깊이 깨달았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "관식이",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 이"
+            },
+            {
+              "word": "착한",
+              "meaning": "kind and",
+              "note": "착하다 + -(으)ㄴ"
+            },
+            {
+              "word": "남편이",
+              "meaning": "husband (subject)",
+              "note": "남편 + 이"
+            },
+            {
+              "word": "아니라",
+              "meaning": "not but rather",
+              "note": "아니다 + -라"
+            },
+            {
+              "word": "인생을",
+              "meaning": "life",
+              "note": "인생 + 을"
+            },
+            {
+              "word": "가능하게",
+              "meaning": "to be possible",
+              "note": "가능하다 + -게"
+            },
+            {
+              "word": "만든",
+              "meaning": "created",
+              "note": "만들다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "관식이",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 이"
+            },
+            {
+              "surface": "착한",
+              "meaning": "kind and",
+              "base": "착하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "남편이",
+              "meaning": "husband (subject)",
+              "base": "남편 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but rather",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "인생을",
+              "meaning": "life",
+              "base": "인생 + 을"
+            },
+            {
+              "surface": "가능하게",
+              "meaning": "to be possible",
+              "base": "가능하다 + -게"
+            },
+            {
+              "surface": "만든",
+              "meaning": "created",
+              "base": "만들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact",
+              "base": "것을"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "깊이",
+              "meaning": "deeply"
+            }
+          ]
+        },
+        {
+          "korean": "관식이 병들자 애순과 아이들은 그가 가족에게 준 사랑을 돌려주려고 곁을 지켰어.",
+          "translation": "When Gwan-sik became ill, Ae-sun and the children stayed beside him, trying to return the love he had given the family.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "관식이 병들자 애순과 아이들은 그가 가족에게 준 사랑을 돌려주려고 곁을 지켰어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "관식이 병들자 애순과 아이들은 그가 가족에게 준 사랑을 돌려주려고 곁을 지켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "관식이 병들자 애순과 아이들은 그가 가족에게 준 사랑을 돌려주려고 곁을 지켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관식이",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 이"
+            },
+            {
+              "word": "병들자",
+              "meaning": "to become ill",
+              "note": "병들다"
+            },
+            {
+              "word": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "note": "애순 + 과"
+            },
+            {
+              "word": "아이들은",
+              "meaning": "children's (topic)",
+              "note": "아이들 + 은"
+            },
+            {
+              "word": "그가",
+              "meaning": "he",
+              "note": "그 + 가"
+            },
+            {
+              "word": "가족에게",
+              "meaning": "to family",
+              "note": "가족 + 에게"
+            },
+            {
+              "word": "사랑을",
+              "meaning": "love",
+              "note": "사랑 + 을"
+            },
+            {
+              "word": "돌려주려고",
+              "meaning": "to return",
+              "note": "돌려주다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "관식이",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 이"
+            },
+            {
+              "surface": "병들자",
+              "meaning": "to become ill",
+              "base": "병들다"
+            },
+            {
+              "surface": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "base": "애순 + 과"
+            },
+            {
+              "surface": "아이들은",
+              "meaning": "children's (topic)",
+              "base": "아이들 + 은"
+            },
+            {
+              "surface": "그가",
+              "meaning": "he",
+              "base": "그 + 가"
+            },
+            {
+              "surface": "가족에게",
+              "meaning": "to family",
+              "base": "가족 + 에게"
+            },
+            {
+              "surface": "준",
+              "meaning": "Jun"
+            },
+            {
+              "surface": "사랑을",
+              "meaning": "love",
+              "base": "사랑 + 을"
+            },
+            {
+              "surface": "돌려주려고",
+              "meaning": "to return",
+              "base": "돌려주다"
+            },
+            {
+              "surface": "곁을",
+              "meaning": "side (object)",
+              "base": "곁 + 을"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "관식은 거창한 성공보다 애순과 아이들이 잘 살아온 것을 자기 인생의 가장 큰 성취로 여겼어.",
+          "translation": "Gwan-sik considered Ae-sun and the children’s lives, rather than grand success, his greatest achievement.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "관식은 거창한 성공보다 애순과 아이들이 잘 살아온 것을 자기 인생의 가장 큰 성취로 여겼어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "관식은 거창한 성공보다 애순과 아이들이 잘 살아온 것을 자기 인생의 가장 큰 성취로 여겼어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "관식은 거창한 성공보다 애순과 아이들이 잘 살아온 것을 자기 인생의 가장 큰 성취로 여겼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "거창한",
+              "meaning": "to be grand",
+              "note": "거창하다 + -(으)ㄴ"
+            },
+            {
+              "word": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "note": "애순 + 과"
+            },
+            {
+              "word": "아이들이",
+              "meaning": "children's (subject)",
+              "note": "아이들 + 이"
+            },
+            {
+              "word": "것을",
+              "meaning": "the fact",
+              "note": "것 + 을"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "인생의",
+              "meaning": "life (of / possessive)",
+              "note": "인생 + 의"
+            },
+            {
+              "word": "큰",
+              "meaning": "great / large",
+              "note": "크다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "거창한",
+              "meaning": "to be grand",
+              "base": "거창하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "base": "애순 + 과"
+            },
+            {
+              "surface": "아이들이",
+              "meaning": "children's (subject)",
+              "base": "아이들 + 이"
+            },
+            {
+              "surface": "잘",
+              "meaning": "well"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "인생의",
+              "meaning": "life (of / possessive)",
+              "base": "인생 + 의"
+            },
+            {
+              "surface": "가장",
+              "meaning": "most"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            }
+          ]
+        },
+        {
+          "korean": "그가 세상을 떠난 뒤 애순은 오랜 세월 자기 옆을 지켜 준 사람의 빈자리를 견뎌야 했어.",
+          "translation": "After he died, Ae-sun had to endure the absence of the man who had stayed beside her for decades.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그가 세상을 떠난 뒤 애순은 오랜 세월 자기 옆을 지켜 준 사람의 빈자리를 견뎌야 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그가 세상을 떠난 뒤 애순은 오랜 세월 자기 옆을 지켜 준 사람의 빈자리를 견뎌야 했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "그가 세상을 떠난 뒤 애순은 오랜 세월 자기 옆을 지켜 준 사람의 빈자리를 견뎌야 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그가 세상을 떠난 뒤 애순은 오랜 세월 자기 옆을 지켜 준 사람의 빈자리를 견뎌야 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그가",
+              "meaning": "he",
+              "note": "그 + 가"
+            },
+            {
+              "word": "세상을",
+              "meaning": "world",
+              "note": "세상 + 을"
+            },
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "오랜",
+              "meaning": "long",
+              "note": "오래다 + -(으)ㄴ"
+            },
+            {
+              "word": "세월",
+              "meaning": "years / time"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "사람의",
+              "meaning": "people's",
+              "note": "사람 + 의"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그가",
+              "meaning": "he",
+              "base": "그 + 가"
+            },
+            {
+              "surface": "세상을",
+              "meaning": "world",
+              "base": "세상 + 을"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "오랜",
+              "meaning": "long",
+              "base": "오래다 + -(으)ㄴ"
+            },
+            {
+              "surface": "세월",
+              "meaning": "years / time"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "준",
+              "meaning": "Jun"
+            },
+            {
+              "surface": "사람의",
+              "meaning": "people's",
+              "base": "사람 + 의"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 관식의 사랑은 아이들과 손주들의 삶과 애순의 기억 속에 계속 남았어.",
+          "translation": "Yet Gwan-sik’s love continued in the lives of their children and grandchildren and in Ae-sun’s memories.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "하지만 관식의 사랑은 아이들과 손주들의 삶과 애순의 기억 속에 계속 남았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "하지만 관식의 사랑은 아이들과 손주들의 삶과 애순의 기억 속에 계속 남았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "하지만 관식의 사랑은 아이들과 손주들의 삶과 애순의 기억 속에 계속 남았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하지만",
+              "meaning": "however"
+            },
+            {
+              "word": "관식의",
+              "meaning": "Gwan-sik (of / possessive)",
+              "note": "관식 + 의"
+            },
+            {
+              "word": "사랑은",
+              "meaning": "love",
+              "note": "사랑 + 은"
+            },
+            {
+              "word": "아이들과",
+              "meaning": "children's (and / with)",
+              "note": "아이들 + 과"
+            },
+            {
+              "word": "삶과",
+              "meaning": "life (and / with)",
+              "note": "삶 + 과"
+            },
+            {
+              "word": "애순의",
+              "meaning": "Ae-sun's",
+              "note": "애순 + 의"
+            },
+            {
+              "word": "기억",
+              "meaning": "memory"
+            },
+            {
+              "word": "속에",
+              "meaning": "inside / in (to / at / in)",
+              "note": "속 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "however"
+            },
+            {
+              "surface": "관식의",
+              "meaning": "Gwan-sik (of / possessive)",
+              "base": "관식 + 의"
+            },
+            {
+              "surface": "사랑은",
+              "meaning": "love",
+              "base": "사랑 + 은"
+            },
+            {
+              "surface": "아이들과",
+              "meaning": "children's (and / with)",
+              "base": "아이들 + 과"
+            },
+            {
+              "surface": "삶과",
+              "meaning": "life (and / with)",
+              "base": "삶 + 과"
+            },
+            {
+              "surface": "애순의",
+              "meaning": "Ae-sun's",
+              "base": "애순 + 의"
+            },
+            {
+              "surface": "기억",
+              "meaning": "memory"
+            },
+            {
+              "surface": "속에",
+              "meaning": "inside / in (to / at / in)",
+              "base": "속 + 에"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously"
+            }
+          ]
+        },
+        {
+          "korean": "애순은 늦은 나이에도 글을 쓰고 자기 이야기를 세상에 남기려 했어.",
+          "translation": "Even in old age, Ae-sun continued writing and tried to leave her story in the world.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 늦은 나이에도 글을 쓰고 자기 이야기를 세상에 남기려 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 늦은 나이에도 글을 쓰고 자기 이야기를 세상에 남기려 했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "애순은 늦은 나이에도 글을 쓰고 자기 이야기를 세상에 남기려 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "애순은 늦은 나이에도 글을 쓰고 자기 이야기를 세상에 남기려 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "글을",
+              "meaning": "writing (object)",
+              "note": "글 + 을"
+            },
+            {
+              "word": "쓰고",
+              "meaning": "write and",
+              "note": "쓰다 + -고"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "이야기를",
+              "meaning": "story",
+              "note": "이야기 + 를"
+            },
+            {
+              "word": "세상에",
+              "meaning": "from the world (to / at / in)",
+              "note": "세상 + 에"
+            },
+            {
+              "word": "남기려",
+              "meaning": "to leave behind",
+              "note": "남기다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "글을",
+              "meaning": "writing (object)",
+              "base": "글 + 을"
+            },
+            {
+              "surface": "쓰고",
+              "meaning": "write and",
+              "base": "쓰다 + -고"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "이야기를",
+              "meaning": "story",
+              "base": "이야기 + 를"
+            },
+            {
+              "surface": "세상에",
+              "meaning": "from the world (to / at / in)",
+              "base": "세상 + 에"
+            },
+            {
+              "surface": "남기려",
+              "meaning": "to leave behind",
+              "base": "남기다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어.",
+          "translation": "Her lifelong dream of becoming a poet had not vanished completely but continued in another form.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어."
+            },
+            {
+              "pattern": "-았/었던",
+              "explanation": "A retrospective modifier for a completed past experience: “that had done / used to be.” It looks back on a fact that is separated from the present.",
+              "example": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그녀가 평생 원했던 시인의 꿈은 완전히 사라진 것이 아니라 다른 모습으로 이어졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀가",
+              "meaning": "her (subject)",
+              "note": "그녀 + 가"
+            },
+            {
+              "word": "원했던",
+              "meaning": "desired",
+              "note": "원하다"
+            },
+            {
+              "word": "꿈은",
+              "meaning": "dreams (topic)",
+              "note": "꿈 + 은"
+            },
+            {
+              "word": "완전히",
+              "meaning": "completely",
+              "note": "완전하다 + -히"
+            },
+            {
+              "word": "사라진",
+              "meaning": "missing / disappeared",
+              "note": "사라지다 + -(으)ㄴ"
+            },
+            {
+              "word": "것이",
+              "meaning": "the thing",
+              "note": "것 + 이"
+            },
+            {
+              "word": "아니라",
+              "meaning": "not but rather",
+              "note": "아니다 + -라"
+            },
+            {
+              "word": "모습으로",
+              "meaning": "self / appearance (to / by / as)",
+              "note": "모습 + 으로"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀가",
+              "meaning": "her (subject)",
+              "base": "그녀 + 가"
+            },
+            {
+              "surface": "평생",
+              "meaning": "lifelong"
+            },
+            {
+              "surface": "원했던",
+              "meaning": "desired",
+              "base": "원하다"
+            },
+            {
+              "surface": "꿈은",
+              "meaning": "dreams (topic)",
+              "base": "꿈 + 은"
+            },
+            {
+              "surface": "완전히",
+              "meaning": "completely",
+              "base": "완전하다 + -히"
+            },
+            {
+              "surface": "사라진",
+              "meaning": "missing / disappeared",
+              "base": "사라지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "것이",
+              "meaning": "the thing",
+              "base": "것 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but rather",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "다른",
+              "meaning": "other",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모습으로",
+              "meaning": "self / appearance (to / by / as)",
+              "base": "모습 + 으로"
+            }
+          ]
+        },
+        {
+          "korean": "금명은 부모의 삶을 이해하면서 자신이 받은 사랑이 얼마나 큰 희생 위에 있었는지 깨달았어.",
+          "translation": "As Geum-myeong understood her parents’ lives, she realized how much sacrifice lay beneath the love she had received.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "금명은 부모의 삶을 이해하면서 자신이 받은 사랑이 얼마나 큰 희생 위에 있었는지 깨달았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "금명은 부모의 삶을 이해하면서 자신이 받은 사랑이 얼마나 큰 희생 위에 있었는지 깨달았어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "금명은 부모의 삶을 이해하면서 자신이 받은 사랑이 얼마나 큰 희생 위에 있었는지 깨달았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "금명은 부모의 삶을 이해하면서 자신이 받은 사랑이 얼마나 큰 희생 위에 있었는지 깨달았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "note": "금명 + 은"
+            },
+            {
+              "word": "부모의",
+              "meaning": "parents (of / possessive)",
+              "note": "부모 + 의"
+            },
+            {
+              "word": "삶을",
+              "meaning": "life",
+              "note": "삶 + 을"
+            },
+            {
+              "word": "이해하면서",
+              "meaning": "came to understand",
+              "note": "이해하다 + -(으)면서"
+            },
+            {
+              "word": "자신이",
+              "meaning": "he himself",
+              "note": "자신 + 이"
+            },
+            {
+              "word": "사랑이",
+              "meaning": "love",
+              "note": "사랑 + 이"
+            },
+            {
+              "word": "큰",
+              "meaning": "great / large",
+              "note": "크다 + -(으)ㄴ"
+            },
+            {
+              "word": "위에",
+              "meaning": "on top (to / at / in)",
+              "note": "위 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "금명은",
+              "meaning": "Geum-myeong (topic)",
+              "base": "금명 + 은"
+            },
+            {
+              "surface": "부모의",
+              "meaning": "parents (of / possessive)",
+              "base": "부모 + 의"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "이해하면서",
+              "meaning": "came to understand",
+              "base": "이해하다 + -(으)면서"
+            },
+            {
+              "surface": "자신이",
+              "meaning": "he himself",
+              "base": "자신 + 이"
+            },
+            {
+              "surface": "사랑이",
+              "meaning": "love",
+              "base": "사랑 + 이"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "희생",
+              "meaning": "sacrifice"
+            },
+            {
+              "surface": "위에",
+              "meaning": "on top (to / at / in)",
+              "base": "위 + 에"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "가족의 역사는 특별한 영웅담이 아니라 매일 서로를 먹이고 지키고 기다린 사람들의 기록이었어.",
+          "translation": "The family history was not a heroic legend but a record of people feeding, protecting, and waiting for one another every day.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "가족의 역사는 특별한 영웅담이 아니라 매일 서로를 먹이고 지키고 기다린 사람들의 기록이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "가족의 역사는 특별한 영웅담이 아니라 매일 서로를 먹이고 지키고 기다린 사람들의 기록이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "가족의",
+              "meaning": "family's",
+              "note": "가족 + 의"
+            },
+            {
+              "word": "특별한",
+              "meaning": "special",
+              "note": "특별하다 + -(으)ㄴ"
+            },
+            {
+              "word": "아니라",
+              "meaning": "not but rather",
+              "note": "아니다 + -라"
+            },
+            {
+              "word": "매일",
+              "meaning": "every day"
+            },
+            {
+              "word": "서로를",
+              "meaning": "each other",
+              "note": "서로 + 를"
+            },
+            {
+              "word": "먹이고",
+              "meaning": "to feed",
+              "note": "먹이다"
+            },
+            {
+              "word": "지키고",
+              "meaning": "guarded and",
+              "note": "지키다 + -고"
+            },
+            {
+              "word": "사람들의",
+              "meaning": "people's",
+              "note": "사람들 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "가족의",
+              "meaning": "family's",
+              "base": "가족 + 의"
+            },
+            {
+              "surface": "특별한",
+              "meaning": "special",
+              "base": "특별하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but rather",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "매일",
+              "meaning": "every day"
+            },
+            {
+              "surface": "서로를",
+              "meaning": "each other",
+              "base": "서로 + 를"
+            },
+            {
+              "surface": "먹이고",
+              "meaning": "to feed",
+              "base": "먹이다"
+            },
+            {
+              "surface": "지키고",
+              "meaning": "guarded and",
+              "base": "지키다 + -고"
+            },
+            {
+              "surface": "사람들의",
+              "meaning": "people's",
+              "base": "사람들 + 의"
+            }
+          ]
+        },
+        {
+          "korean": "애순과 관식은 자주 다투고 실패했지만 어려운 순간마다 결국 서로의 편으로 돌아왔어.",
+          "translation": "Ae-sun and Gwan-sik often argued and failed, but in difficult moments they always returned to each other’s side.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "애순과 관식은 자주 다투고 실패했지만 어려운 순간마다 결국 서로의 편으로 돌아왔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순과 관식은 자주 다투고 실패했지만 어려운 순간마다 결국 서로의 편으로 돌아왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "애순과 관식은 자주 다투고 실패했지만 어려운 순간마다 결국 서로의 편으로 돌아왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "note": "애순 + 과"
+            },
+            {
+              "word": "관식은",
+              "meaning": "Gwan-sik",
+              "note": "관식 + 은"
+            },
+            {
+              "word": "다투고",
+              "meaning": "argued but",
+              "note": "다투다"
+            },
+            {
+              "word": "실패했지만",
+              "meaning": "to fail",
+              "note": "실패하다 + -았지만"
+            },
+            {
+              "word": "어려운",
+              "meaning": "difficult",
+              "note": "어렵다 + -(으)ㄴ"
+            },
+            {
+              "word": "순간마다",
+              "meaning": "rather than moments (each / every)",
+              "note": "순간 + 마다"
+            },
+            {
+              "word": "서로의",
+              "meaning": "each other's",
+              "note": "서로 + 의"
+            },
+            {
+              "word": "편으로",
+              "meaning": "on side (to / by / as)",
+              "note": "편 + 으로"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순과",
+              "meaning": "Ae-sun (and / with)",
+              "base": "애순 + 과"
+            },
+            {
+              "surface": "관식은",
+              "meaning": "Gwan-sik",
+              "base": "관식 + 은"
+            },
+            {
+              "surface": "자주",
+              "meaning": "often"
+            },
+            {
+              "surface": "다투고",
+              "meaning": "argued but",
+              "base": "다투다"
+            },
+            {
+              "surface": "실패했지만",
+              "meaning": "to fail",
+              "base": "실패하다 + -았지만"
+            },
+            {
+              "surface": "어려운",
+              "meaning": "difficult",
+              "base": "어렵다 + -(으)ㄴ"
+            },
+            {
+              "surface": "순간마다",
+              "meaning": "rather than moments (each / every)",
+              "base": "순간 + 마다"
+            },
+            {
+              "surface": "결국",
+              "meaning": "eventually"
+            },
+            {
+              "surface": "서로의",
+              "meaning": "each other's",
+              "base": "서로 + 의"
+            },
+            {
+              "surface": "편으로",
+              "meaning": "on side (to / by / as)",
+              "base": "편 + 으로"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "제주의 계절이 반복되듯 그들의 삶에도 기쁨과 상실과 새로운 시작이 계속 찾아왔어.",
+          "translation": "Just as Jeju’s seasons repeated, joy, loss, and new beginnings kept returning to their lives.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "제주의 계절이 반복되듯 그들의 삶에도 기쁨과 상실과 새로운 시작이 계속 찾아왔어."
+            },
+            {
+              "pattern": "Particles 은/는, 이/가, 을/를",
+              "explanation": "Korean particles mark a noun’s role. 은/는 sets the topic or contrast, 이/가 marks the grammatical subject or new focus, and 을/를 marks the direct object.",
+              "example": "제주의 계절이 반복되듯 그들의 삶에도 기쁨과 상실과 새로운 시작이 계속 찾아왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "제주의",
+              "meaning": "Jeju (of / possessive)",
+              "note": "제주 + 의"
+            },
+            {
+              "word": "계절이",
+              "meaning": "season (subject)",
+              "note": "계절 + 이"
+            },
+            {
+              "word": "반복되듯",
+              "meaning": "as it repeats",
+              "note": "반복되다 + -듯"
+            },
+            {
+              "word": "그들의",
+              "meaning": "their",
+              "note": "그들 + 의"
+            },
+            {
+              "word": "삶에도",
+              "meaning": "also in life",
+              "note": "삶 + 에도"
+            },
+            {
+              "word": "기쁨과",
+              "meaning": "joy (and / with)",
+              "note": "기쁨 + 과"
+            },
+            {
+              "word": "상실과",
+              "meaning": "loss and",
+              "note": "상실 + 과"
+            },
+            {
+              "word": "시작이",
+              "meaning": "beginning",
+              "note": "시작 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "제주의",
+              "meaning": "Jeju (of / possessive)",
+              "base": "제주 + 의"
+            },
+            {
+              "surface": "계절이",
+              "meaning": "season (subject)",
+              "base": "계절 + 이"
+            },
+            {
+              "surface": "반복되듯",
+              "meaning": "as it repeats",
+              "base": "반복되다 + -듯"
+            },
+            {
+              "surface": "그들의",
+              "meaning": "their",
+              "base": "그들 + 의"
+            },
+            {
+              "surface": "삶에도",
+              "meaning": "also in life",
+              "base": "삶 + 에도"
+            },
+            {
+              "surface": "기쁨과",
+              "meaning": "joy (and / with)",
+              "base": "기쁨 + 과"
+            },
+            {
+              "surface": "상실과",
+              "meaning": "loss and",
+              "base": "상실 + 과"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "시작이",
+              "meaning": "beginning",
+              "base": "시작 + 이"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously"
+            },
+            {
+              "surface": "찾아왔어",
+              "meaning": "came / arrived",
+              "base": "찾아오다"
+            }
+          ]
+        },
+        {
+          "korean": "이 이야기는 사랑이 화려한 말보다 오랜 시간 반복되는 작은 행동에 있다는 걸 보여 줘.",
+          "translation": "The story shows that love lies less in grand words than in small actions repeated over many years.",
+          "grammar": [
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
+              "example": "이 이야기는 사랑이 화려한 말보다 오랜 시간 반복되는 작은 행동에 있다는 걸 보여 줘."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "이 이야기는 사랑이 화려한 말보다 오랜 시간 반복되는 작은 행동에 있다는 걸 보여 줘."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "이 이야기는 사랑이 화려한 말보다 오랜 시간 반복되는 작은 행동에 있다는 걸 보여 줘."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "이야기는",
+              "meaning": "story",
+              "note": "이야기 + 는"
+            },
+            {
+              "word": "사랑이",
+              "meaning": "love",
+              "note": "사랑 + 이"
+            },
+            {
+              "word": "화려한",
+              "meaning": "glamorous + not",
+              "note": "화려하다 + -(으)ㄴ"
+            },
+            {
+              "word": "말보다",
+              "meaning": "words / speech (than)",
+              "note": "말 + 보다"
+            },
+            {
+              "word": "오랜",
+              "meaning": "long",
+              "note": "오래다 + -(으)ㄴ"
+            },
+            {
+              "word": "작은",
+              "meaning": "small",
+              "note": "작다 + -(으)ㄴ"
+            },
+            {
+              "word": "행동에",
+              "meaning": "through actions (to / at / in)",
+              "note": "행동 + 에"
+            },
+            {
+              "word": "있다는",
+              "meaning": "that it could",
+              "note": "있다 + -다는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "이",
+              "meaning": "this"
+            },
+            {
+              "surface": "이야기는",
+              "meaning": "story",
+              "base": "이야기 + 는"
+            },
+            {
+              "surface": "사랑이",
+              "meaning": "love",
+              "base": "사랑 + 이"
+            },
+            {
+              "surface": "화려한",
+              "meaning": "glamorous + not",
+              "base": "화려하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "말보다",
+              "meaning": "words / speech (than)",
+              "base": "말 + 보다"
+            },
+            {
+              "surface": "오랜",
+              "meaning": "long",
+              "base": "오래다 + -(으)ㄴ"
+            },
+            {
+              "surface": "시간",
+              "meaning": "time"
+            },
+            {
+              "surface": "작은",
+              "meaning": "small",
+              "base": "작다 + -(으)ㄴ"
+            },
+            {
+              "surface": "행동에",
+              "meaning": "through actions (to / at / in)",
+              "base": "행동 + 에"
+            },
+            {
+              "surface": "있다는",
+              "meaning": "that it could",
+              "base": "있다 + -다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact",
+              "base": "것을"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "줘",
+              "meaning": "does for us",
+              "base": "주다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "또한 한 세대가 포기한 꿈이 다음 세대에게 기회가 되기도 한다는 사실을 전해.",
+          "translation": "It also conveys that dreams sacrificed by one generation can become opportunities for the next.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "또한 한 세대가 포기한 꿈이 다음 세대에게 기회가 되기도 한다는 사실을 전해."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "또한 한 세대가 포기한 꿈이 다음 세대에게 기회가 되기도 한다는 사실을 전해."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "또한 한 세대가 포기한 꿈이 다음 세대에게 기회가 되기도 한다는 사실을 전해."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "또한",
+              "meaning": "also"
+            },
+            {
+              "word": "한",
+              "meaning": "made",
+              "note": "하다 + -(으)ㄴ"
+            },
+            {
+              "word": "포기한",
+              "meaning": "to give up",
+              "note": "포기하다 + -(으)ㄴ"
+            },
+            {
+              "word": "꿈이",
+              "meaning": "dreams (subject)",
+              "note": "꿈 + 이"
+            },
+            {
+              "word": "기회가",
+              "meaning": "opportunity (subject)",
+              "note": "기회 + 가"
+            },
+            {
+              "word": "한다는",
+              "meaning": "that someone does",
+              "note": "하다 + -ㄴ다는"
+            },
+            {
+              "word": "사실을",
+              "meaning": "fact",
+              "note": "사실 + 을"
+            },
+            {
+              "word": "전해",
+              "meaning": "to do / make before / ago",
+              "note": "전하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "또한",
+              "meaning": "also"
+            },
+            {
+              "surface": "한",
+              "meaning": "made",
+              "base": "하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "포기한",
+              "meaning": "to give up",
+              "base": "포기하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "꿈이",
+              "meaning": "dreams (subject)",
+              "base": "꿈 + 이"
+            },
+            {
+              "surface": "다음",
+              "meaning": "next"
+            },
+            {
+              "surface": "기회가",
+              "meaning": "opportunity (subject)",
+              "base": "기회 + 가"
+            },
+            {
+              "surface": "한다는",
+              "meaning": "that someone does",
+              "base": "하다 + -ㄴ다는"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "전해",
+              "meaning": "to do / make before / ago",
+              "base": "전하다"
+            }
+          ]
+        },
+        {
+          "korean": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어.",
+          "translation": "Ae-sun did not perfectly defeat the hardships of life, but she preserved her voice and love for her family to the end.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "애순은 힘든 삶을 완벽하게 이기지는 못했지만 자기 목소리와 가족에 대한 사랑을 끝까지 지켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "애순은",
+              "meaning": "Ae-sun",
+              "note": "애순 + 은"
+            },
+            {
+              "word": "삶을",
+              "meaning": "life",
+              "note": "삶 + 을"
+            },
+            {
+              "word": "완벽하게",
+              "meaning": "perfectly",
+              "note": "완벽하다 + -게"
+            },
+            {
+              "word": "이기지는",
+              "meaning": "defeated",
+              "note": "이기다"
+            },
+            {
+              "word": "못했지만",
+              "meaning": "could not and",
+              "note": "못하다 + -았지만"
+            },
+            {
+              "word": "목소리와",
+              "meaning": "voice (and / with)",
+              "note": "목소리 + 와"
+            },
+            {
+              "word": "가족에",
+              "meaning": "family (to / at / in)",
+              "note": "가족 + 에"
+            },
+            {
+              "word": "사랑을",
+              "meaning": "love",
+              "note": "사랑 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "애순은",
+              "meaning": "Ae-sun",
+              "base": "애순 + 은"
+            },
+            {
+              "surface": "힘든",
+              "meaning": "difficult",
+              "base": "힘들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "완벽하게",
+              "meaning": "perfectly",
+              "base": "완벽하다 + -게"
+            },
+            {
+              "surface": "이기지는",
+              "meaning": "defeated",
+              "base": "이기다"
+            },
+            {
+              "surface": "못했지만",
+              "meaning": "could not and",
+              "base": "못하다 + -았지만"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "목소리와",
+              "meaning": "voice (and / with)",
+              "base": "목소리 + 와"
+            },
+            {
+              "surface": "가족에",
+              "meaning": "family (to / at / in)",
+              "base": "가족 + 에"
+            },
+            {
+              "surface": "대한",
+              "meaning": "regarding",
+              "base": "대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사랑을",
+              "meaning": "love",
+              "base": "사랑 + 을"
+            },
+            {
+              "surface": "끝까지",
+              "meaning": "until the end"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

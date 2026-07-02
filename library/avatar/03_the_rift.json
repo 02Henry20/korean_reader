@@ -1,0 +1,3474 @@
+{
+  "id": "avatar-the-rift",
+  "title": "균열",
+  "englishTitle": "Avatar: The Last Airbender — The Rift",
+  "level": "TOPIK 2–3",
+  "description": "전통과 산업 발전이 충돌하고 오래된 영혼이 깨어나는 이야기.",
+  "theme": "hanok",
+  "thumbnail": "thumbnails/03_the_rift.jpg",
+  "thumbnailAlt": "Avatar: The Last Airbender — The Rift",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 오래전 양첸 아바타가 지키던 축제를 다시 열려고 했어.",
+          "translation": "Aang wanted to revive a festival that Avatar Yangchen had protected long ago.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "아앙은 오래전 양첸 아바타가 지키던 축제를 다시 열려고 했어."
+            },
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "아앙은 오래전 양첸 아바타가 지키던 축제를 다시 열려고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "오래전",
+              "meaning": "long ago"
+            },
+            {
+              "word": "아바타가",
+              "meaning": "Avatar (subject)",
+              "note": "아바타 + 가"
+            },
+            {
+              "word": "지키던",
+              "meaning": "used to protect",
+              "note": "지키다 + -던"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "오래전",
+              "meaning": "long ago"
+            },
+            {
+              "surface": "양첸",
+              "meaning": "Yangchen"
+            },
+            {
+              "surface": "아바타가",
+              "meaning": "Avatar (subject)",
+              "base": "아바타 + 가"
+            },
+            {
+              "surface": "지키던",
+              "meaning": "used to protect",
+              "base": "지키다 + -던"
+            },
+            {
+              "surface": "축제를",
+              "meaning": "festival (object)",
+              "base": "축제 + 를"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "열려고",
+              "meaning": "intending to hold / open",
+              "base": "열다 + -(으)려고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / intended",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "축제를 준비하던 아앙에게 양첸의 모습이 나타났지만 그녀의 말은 들리지 않았어.",
+          "translation": "As Aang prepared the festival, Yangchen appeared to him, but he could not hear her words.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "축제를 준비하던 아앙에게 양첸의 모습이 나타났지만 그녀의 말은 들리지 않았어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "축제를 준비하던 아앙에게 양첸의 모습이 나타났지만 그녀의 말은 들리지 않았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "축제를 준비하던 아앙에게 양첸의 모습이 나타났지만 그녀의 말은 들리지 않았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나타났지만",
+              "meaning": "appeared, but"
+            },
+            {
+              "word": "들리지",
+              "meaning": "be heard + not"
+            },
+            {
+              "word": "축제를",
+              "meaning": "festival",
+              "note": "축제 + 를"
+            },
+            {
+              "word": "아앙에게",
+              "meaning": "to Aang",
+              "note": "아앙 + 에게"
+            },
+            {
+              "word": "양첸의",
+              "meaning": "Yangchen 's / of",
+              "note": "양첸 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "축제를",
+              "meaning": "festival",
+              "base": "축제 + 를"
+            },
+            {
+              "surface": "준비하던",
+              "meaning": "prepared",
+              "base": "준비하다"
+            },
+            {
+              "surface": "아앙에게",
+              "meaning": "to Aang",
+              "base": "아앙 + 에게"
+            },
+            {
+              "surface": "양첸의",
+              "meaning": "Yangchen 's / of",
+              "base": "양첸 + 의"
+            },
+            {
+              "surface": "모습이",
+              "meaning": "appearance / sight",
+              "base": "모습 + 이"
+            },
+            {
+              "surface": "나타났지만",
+              "meaning": "appeared, but"
+            },
+            {
+              "surface": "그녀의",
+              "meaning": "to her",
+              "base": "그녀 + 의"
+            },
+            {
+              "surface": "말은",
+              "meaning": "words",
+              "base": "말 + 은"
+            },
+            {
+              "surface": "들리지",
+              "meaning": "be heard + not"
+            },
+            {
+              "surface": "않았어",
+              "meaning": "did not",
+              "base": "않다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그런데 성스러운 땅에는 거대한 공장과 새로운 마을이 생겨 있었어.",
+          "translation": "However, a huge factory and a new town had appeared on the sacred land.",
+          "grammar": [
+            {
+              "pattern": "-는데 / -(으)ㄴ데",
+              "explanation": "Provides background, introduces a situation, or creates a soft contrast before the next clause.",
+              "example": "그런데 성스러운 땅에는 거대한 공장과 새로운 마을이 생겨 있었어."
+            },
+            {
+              "pattern": "-고 있었어",
+              "explanation": "Casual past progressive: “was doing.” It emphasizes an action in progress in the past.",
+              "example": "그런데 성스러운 땅에는 거대한 공장과 새로운 마을이 생겨 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그런데",
+              "meaning": "however / by the way"
+            },
+            {
+              "word": "성스러운",
+              "meaning": "sacred",
+              "note": "성스럽다 + -(으)ㄴ"
+            },
+            {
+              "word": "땅에는",
+              "meaning": "on the land (topic)",
+              "note": "땅 + 에 + 는"
+            },
+            {
+              "word": "거대한",
+              "meaning": "huge",
+              "note": "거대하다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그런데",
+              "meaning": "however / by the way"
+            },
+            {
+              "surface": "성스러운",
+              "meaning": "sacred",
+              "base": "성스럽다 + -(으)ㄴ"
+            },
+            {
+              "surface": "땅에는",
+              "meaning": "on the land (topic)",
+              "base": "땅 + 에 + 는"
+            },
+            {
+              "surface": "거대한",
+              "meaning": "huge",
+              "base": "거대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "공장과",
+              "meaning": "factory and",
+              "base": "공장 + 과"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마을이",
+              "meaning": "town (subject)",
+              "base": "마을 + 이"
+            },
+            {
+              "surface": "생겨",
+              "meaning": "formed / appeared",
+              "base": "생기다 + -아/어"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "had been",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "공기 유목민 추종자들은 사라진 전통을 배우고 싶어 아앙의 의식을 열심히 따라 했어.",
+          "translation": "The Air Acolytes eagerly followed Aang's rituals because they wanted to learn the lost traditions.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "공기 유목민 추종자들은 사라진 전통을 배우고 싶어 아앙의 의식을 열심히 따라 했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "공기 유목민 추종자들은 사라진 전통을 배우고 싶어 아앙의 의식을 열심히 따라 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공기 유목민 추종자들은 사라진 전통을 배우고 싶어 아앙의 의식을 열심히 따라 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "열심히",
+              "meaning": "diligently"
+            },
+            {
+              "word": "추종자들은",
+              "meaning": "follower / acolyte (들과) (topic)",
+              "note": "추종자들 + 은"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "전통을",
+              "meaning": "tradition",
+              "note": "전통 + 을"
+            },
+            {
+              "word": "아앙의",
+              "meaning": "Aang 's / of",
+              "note": "아앙 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공기",
+              "meaning": "air"
+            },
+            {
+              "surface": "유목민",
+              "meaning": "nomad"
+            },
+            {
+              "surface": "추종자들은",
+              "meaning": "follower / acolyte (들과) (topic)",
+              "base": "추종자들 + 은"
+            },
+            {
+              "surface": "사라진",
+              "meaning": "missing / disappeared",
+              "base": "사라지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "전통을",
+              "meaning": "tradition",
+              "base": "전통 + 을"
+            },
+            {
+              "surface": "배우고",
+              "meaning": "learned",
+              "base": "배우다"
+            },
+            {
+              "surface": "싶어",
+              "meaning": "want",
+              "base": "싶다 + -아/어"
+            },
+            {
+              "surface": "아앙의",
+              "meaning": "Aang 's / of",
+              "base": "아앙 + 의"
+            },
+            {
+              "surface": "의식을",
+              "meaning": "ritual",
+              "base": "의식 + 을"
+            },
+            {
+              "surface": "열심히",
+              "meaning": "diligently"
+            },
+            {
+              "surface": "따라",
+              "meaning": "along / following",
+              "base": "따르다 + -아/어"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 새로 생긴 공기 유목민 추종자들과 함께 양첸 축제의 오래된 의식을 준비했어.",
+          "translation": "Aang prepared the old rituals of Yangchen's Festival with the newly formed Air Acolytes.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "아앙은 새로 생긴 공기 유목민 추종자들과 함께 양첸 축제의 오래된 의식을 준비했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙은 새로 생긴 공기 유목민 추종자들과 함께 양첸 축제의 오래된 의식을 준비했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "새로",
+              "meaning": "newly"
+            },
+            {
+              "word": "생긴",
+              "meaning": "formed",
+              "note": "생기다 + -(으)ㄴ"
+            },
+            {
+              "word": "공기",
+              "meaning": "air"
+            },
+            {
+              "word": "유목민",
+              "meaning": "nomad"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "새로",
+              "meaning": "newly"
+            },
+            {
+              "surface": "생긴",
+              "meaning": "formed",
+              "base": "생기다 + -(으)ㄴ"
+            },
+            {
+              "surface": "공기",
+              "meaning": "air"
+            },
+            {
+              "surface": "유목민",
+              "meaning": "nomad"
+            },
+            {
+              "surface": "추종자들과",
+              "meaning": "follower / acolyte (들과)",
+              "base": "추종자 + 들과"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "양첸",
+              "meaning": "Yangchen"
+            },
+            {
+              "surface": "축제의",
+              "meaning": "festival (의)",
+              "base": "축제 + 의"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "old / long-established",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "의식을",
+              "meaning": "ritual (을)",
+              "base": "의식 + 을"
+            },
+            {
+              "surface": "준비했어",
+              "meaning": "prepared",
+              "base": "준비하다"
+            }
+          ]
+        },
+        {
+          "korean": "축제 길을 따라가던 일행은 예전에 없던 정유 시설이 땅을 가득 차지한 것을 보았어.",
+          "translation": "Following the festival route, the group found a refinery occupying land that had once been empty.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "축제 길을 따라가던 일행은 예전에 없던 정유 시설이 땅을 가득 차지한 것을 보았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "축제 길을 따라가던 일행은 예전에 없던 정유 시설이 땅을 가득 차지한 것을 보았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "없던",
+              "meaning": "that had not existed"
+            },
+            {
+              "word": "가득",
+              "meaning": "full"
+            },
+            {
+              "word": "일행은",
+              "meaning": "group / party",
+              "note": "일행 + 은"
+            },
+            {
+              "word": "예전에",
+              "meaning": "in the past / previously"
+            },
+            {
+              "word": "시설이",
+              "meaning": "was a facility",
+              "note": "시설이다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "축제",
+              "meaning": "festival"
+            },
+            {
+              "surface": "길을",
+              "meaning": "paths",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "따라가던",
+              "meaning": "followed",
+              "base": "따라가다"
+            },
+            {
+              "surface": "일행은",
+              "meaning": "group / party",
+              "base": "일행 + 은"
+            },
+            {
+              "surface": "예전에",
+              "meaning": "in the past / previously"
+            },
+            {
+              "surface": "없던",
+              "meaning": "that had not existed"
+            },
+            {
+              "surface": "정유",
+              "meaning": "refining"
+            },
+            {
+              "surface": "시설이",
+              "meaning": "was a facility",
+              "base": "시설이다"
+            },
+            {
+              "surface": "땅을",
+              "meaning": "ground",
+              "base": "땅 + 을"
+            },
+            {
+              "surface": "가득",
+              "meaning": "full"
+            },
+            {
+              "surface": "차지한",
+              "meaning": "could take / possess: that did / ...",
+              "base": "차지하다"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "보았어",
+              "meaning": "saw",
+              "base": "보다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프는 의미를 모르는 전통을 그대로 따라야 한다는 생각을 이해하지 못했어.",
+          "translation": "Toph could not understand why they should follow traditions whose meaning they did not know.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "토프는 의미를 모르는 전통을 그대로 따라야 한다는 생각을 이해하지 못했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 의미를 모르는 전통을 그대로 따라야 한다는 생각을 이해하지 못했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "의미를",
+              "meaning": "meaning (object)",
+              "note": "의미 + 를"
+            },
+            {
+              "word": "모르는",
+              "meaning": "that it might be unknown",
+              "note": "모르다"
+            },
+            {
+              "word": "전통을",
+              "meaning": "tradition (을)",
+              "note": "전통 + 을"
+            },
+            {
+              "word": "그대로",
+              "meaning": "as it is / unchanged"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "의미를",
+              "meaning": "meaning (object)",
+              "base": "의미 + 를"
+            },
+            {
+              "surface": "모르는",
+              "meaning": "that it might be unknown",
+              "base": "모르다"
+            },
+            {
+              "surface": "전통을",
+              "meaning": "tradition (을)",
+              "base": "전통 + 을"
+            },
+            {
+              "surface": "그대로",
+              "meaning": "as it is / unchanged"
+            },
+            {
+              "surface": "따라야",
+              "meaning": "must follow",
+              "base": "따르다 + -아/어야"
+            },
+            {
+              "surface": "한다는",
+              "meaning": "that it must",
+              "base": "하다 + -는"
+            },
+            {
+              "surface": "생각을",
+              "meaning": "thoughts (object)",
+              "base": "생각 + 을"
+            },
+            {
+              "surface": "이해하지",
+              "meaning": "understand",
+              "base": "이해하다"
+            },
+            {
+              "surface": "못했어",
+              "meaning": "could not / did not",
+              "base": "못하다"
+            }
+          ]
+        },
+        {
+          "korean": "그 시설은 토프의 아버지 라오와 불의 나라 사업가 로반이 함께 운영하고 있었어.",
+          "translation": "The facility was jointly operated by Toph's father Lao and a Fire Nation businessman named Loban.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "그 시설은 토프의 아버지 라오와 불의 나라 사업가 로반이 함께 운영하고 있었어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "그 시설은 토프의 아버지 라오와 불의 나라 사업가 로반이 함께 운영하고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그 시설은 토프의 아버지 라오와 불의 나라 사업가 로반이 함께 운영하고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "시설은",
+              "meaning": "facility (topic)"
+            },
+            {
+              "word": "사업가",
+              "meaning": "businessperson"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "라오와",
+              "meaning": "Lao and / with",
+              "note": "라오 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "시설은",
+              "meaning": "facility (topic)"
+            },
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "라오와",
+              "meaning": "Lao and / with",
+              "base": "라오 + 와"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation / country"
+            },
+            {
+              "surface": "사업가",
+              "meaning": "businessperson"
+            },
+            {
+              "surface": "로반이",
+              "meaning": "Loban (이)",
+              "base": "로반 + 이"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "운영하고",
+              "meaning": "운영: doing and",
+              "base": "운영하다"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 전통이 사라질까 봐 걱정했지만 토프는 발전을 반겼어.",
+          "translation": "Aang worried that tradition might disappear, but Toph welcomed progress.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ까 봐",
+              "explanation": "Expresses worry or fear that something might happen: “because one is afraid that … / worried that …”.",
+              "example": "아앙은 전통이 사라질까 봐 걱정했지만 토프는 발전을 반겼어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "아앙은 전통이 사라질까 봐 걱정했지만 토프는 발전을 반겼어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아앙은 전통이 사라질까 봐 걱정했지만 토프는 발전을 반겼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "전통이",
+              "meaning": "tradition (subject)",
+              "note": "전통 + 이"
+            },
+            {
+              "word": "사라질까",
+              "meaning": "might disappear",
+              "note": "사라지다 + -(으)ㄹ까"
+            },
+            {
+              "word": "봐",
+              "meaning": "because of fear / concern",
+              "note": "보다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "전통이",
+              "meaning": "tradition (subject)",
+              "base": "전통 + 이"
+            },
+            {
+              "surface": "사라질까",
+              "meaning": "might disappear",
+              "base": "사라지다 + -(으)ㄹ까"
+            },
+            {
+              "surface": "봐",
+              "meaning": "because of fear / concern",
+              "base": "보다"
+            },
+            {
+              "surface": "걱정했지만",
+              "meaning": "worried but",
+              "base": "걱정하다 + -았지만"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "발전을",
+              "meaning": "development (object)",
+              "base": "발전 + 을"
+            },
+            {
+              "surface": "반겼어",
+              "meaning": "welcomed",
+              "base": "반기다"
+            }
+          ]
+        },
+        {
+          "korean": "공장을 지키는 사람들 가운데에는 전쟁 때 아앙과 싸웠던 거친 코뿔소 단원들도 있었어.",
+          "translation": "Among the refinery's guards were members of the Rough Rhinos, who had fought Aang during the war.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "공장을 지키는 사람들 가운데에는 전쟁 때 아앙과 싸웠던 거친 코뿔소 단원들도 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공장을 지키는 사람들 가운데에는 전쟁 때 아앙과 싸웠던 거친 코뿔소 단원들도 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "가운데에는",
+              "meaning": "among / in the middle"
+            },
+            {
+              "word": "싸웠던",
+              "meaning": "had fought"
+            },
+            {
+              "word": "코뿔소",
+              "meaning": "rhinoceros"
+            },
+            {
+              "word": "단원들도",
+              "meaning": "members also"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공장을",
+              "meaning": "factory (object)",
+              "base": "공장 + 을"
+            },
+            {
+              "surface": "지키는",
+              "meaning": "protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "사람들",
+              "meaning": "people"
+            },
+            {
+              "surface": "가운데에는",
+              "meaning": "among / in the middle"
+            },
+            {
+              "surface": "전쟁",
+              "meaning": "war"
+            },
+            {
+              "surface": "때",
+              "meaning": "when"
+            },
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "싸웠던",
+              "meaning": "had fought"
+            },
+            {
+              "surface": "거친",
+              "meaning": "rough",
+              "base": "거칠다 + -(으)ㄴ"
+            },
+            {
+              "surface": "코뿔소",
+              "meaning": "rhinoceros"
+            },
+            {
+              "surface": "단원들도",
+              "meaning": "members also"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "두 친구는 같은 장소를 보면서도 완전히 다른 미래를 생각했어.",
+          "translation": "Even while looking at the same place, the two friends imagined completely different futures.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서",
+              "explanation": "Means “while doing” when the same subject performs two actions at the same time.",
+              "example": "두 친구는 같은 장소를 보면서도 완전히 다른 미래를 생각했어."
+            },
+            {
+              "pattern": "-아/어도 / -더라도",
+              "explanation": "Means “even if / even though.” -더라도 is usually stronger and more hypothetical.",
+              "example": "두 친구는 같은 장소를 보면서도 완전히 다른 미래를 생각했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "두 친구는 같은 장소를 보면서도 완전히 다른 미래를 생각했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "친구는",
+              "meaning": "friends (topic)",
+              "note": "친구 + 는"
+            },
+            {
+              "word": "같은",
+              "meaning": "same",
+              "note": "같다 + -(으)ㄴ"
+            },
+            {
+              "word": "장소를",
+              "meaning": "place (object)",
+              "note": "장소 + 를"
+            },
+            {
+              "word": "보면서도",
+              "meaning": "even while looking",
+              "note": "보다 + -(으)면서도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "친구는",
+              "meaning": "friends (topic)",
+              "base": "친구 + 는"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "장소를",
+              "meaning": "place (object)",
+              "base": "장소 + 를"
+            },
+            {
+              "surface": "보면서도",
+              "meaning": "even while looking",
+              "base": "보다 + -(으)면서도"
+            },
+            {
+              "surface": "완전히",
+              "meaning": "completely"
+            },
+            {
+              "surface": "다른",
+              "meaning": "different",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "미래를",
+              "meaning": "future (object)",
+              "base": "미래 + 를"
+            },
+            {
+              "surface": "생각했어",
+              "meaning": "thought about / imagined",
+              "base": "생각하다"
+            }
+          ]
+        },
+        {
+          "korean": "카타라와 소카는 오염된 강과 반복되는 지진의 원인을 찾으려고 지하 통로를 조사했어.",
+          "translation": "Katara and Sokka investigated underground passages to find the cause of the polluted river and repeated earthquakes.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "카타라와 소카는 오염된 강과 반복되는 지진의 원인을 찾으려고 지하 통로를 조사했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "카타라와 소카는 오염된 강과 반복되는 지진의 원인을 찾으려고 지하 통로를 조사했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "카타라와 소카는 오염된 강과 반복되는 지진의 원인을 찾으려고 지하 통로를 조사했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "원인을",
+              "meaning": "cause (object)"
+            },
+            {
+              "word": "지진의",
+              "meaning": "earthquake's"
+            },
+            {
+              "word": "오염된",
+              "meaning": "polluted"
+            },
+            {
+              "word": "지하",
+              "meaning": "underground"
+            },
+            {
+              "word": "카타라와",
+              "meaning": "Katara and",
+              "note": "카타라 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카는",
+              "meaning": "Sokka",
+              "base": "소카 + 는"
+            },
+            {
+              "surface": "오염된",
+              "meaning": "polluted"
+            },
+            {
+              "surface": "강과",
+              "meaning": "river and / with",
+              "base": "강 + 과"
+            },
+            {
+              "surface": "반복되는",
+              "meaning": "to be repeated",
+              "base": "반복되다"
+            },
+            {
+              "surface": "지진의",
+              "meaning": "earthquake's"
+            },
+            {
+              "surface": "원인을",
+              "meaning": "cause (object)"
+            },
+            {
+              "surface": "찾으려고",
+              "meaning": "in order to find",
+              "base": "찾다 + -(으)려고"
+            },
+            {
+              "surface": "지하",
+              "meaning": "underground"
+            },
+            {
+              "surface": "통로를",
+              "meaning": "passage",
+              "base": "통로 + 를"
+            },
+            {
+              "surface": "조사했어",
+              "meaning": "investigated",
+              "base": "조사하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "공장은 불의 나라와 흙의 왕국 사람들이 함께 세운 정유 시설이었어.",
+          "translation": "The factory was a refinery built jointly by people from the Fire Nation and Earth Kingdom.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "공장은 불의 나라와 흙의 왕국 사람들이 함께 세운 정유 시설이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공장은 불의 나라와 흙의 왕국 사람들이 함께 세운 정유 시설이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "공장은",
+              "meaning": "factory (은)",
+              "note": "공장 + 은"
+            },
+            {
+              "word": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "note": "불 + 의"
+            },
+            {
+              "word": "나라와",
+              "meaning": "nation (와)",
+              "note": "나라 + 와"
+            },
+            {
+              "word": "흙의",
+              "meaning": "Earth's / of Earth",
+              "note": "흙 + 의"
+            },
+            {
+              "word": "왕국",
+              "meaning": "kingdom"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공장은",
+              "meaning": "factory (은)",
+              "base": "공장 + 은"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라와",
+              "meaning": "nation (와)",
+              "base": "나라 + 와"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕국",
+              "meaning": "kingdom"
+            },
+            {
+              "surface": "사람들이",
+              "meaning": "people (subject)",
+              "base": "사람들 + 이"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "세운",
+              "meaning": "built / established",
+              "base": "세우다 + -(으)ㄴ"
+            },
+            {
+              "surface": "정유",
+              "meaning": "refining"
+            },
+            {
+              "surface": "시설이었어",
+              "meaning": "was a facility",
+              "base": "시설이다"
+            }
+          ]
+        },
+        {
+          "korean": "라오는 토프가 눈앞에 있는데도 자기 딸이 아니라고 말하며 그녀를 인정하지 않았어.",
+          "translation": "Even with Toph before him, Lao claimed she was not his daughter and refused to acknowledge her.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "라오는 토프가 눈앞에 있는데도 자기 딸이 아니라고 말하며 그녀를 인정하지 않았어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "라오는 토프가 눈앞에 있는데도 자기 딸이 아니라고 말하며 그녀를 인정하지 않았어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "라오는 토프가 눈앞에 있는데도 자기 딸이 아니라고 말하며 그녀를 인정하지 않았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "눈앞에",
+              "meaning": "before one's eyes"
+            },
+            {
+              "word": "라오는",
+              "meaning": "Lao (topic)",
+              "note": "라오 + 는"
+            },
+            {
+              "word": "토프가",
+              "meaning": "Toph (subject)",
+              "note": "토프 + 가"
+            },
+            {
+              "word": "딸이",
+              "meaning": "daughter (subject)",
+              "note": "딸 + 이"
+            },
+            {
+              "word": "그녀를",
+              "meaning": "to her",
+              "note": "그녀 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "라오는",
+              "meaning": "Lao (topic)",
+              "base": "라오 + 는"
+            },
+            {
+              "surface": "토프가",
+              "meaning": "Toph (subject)",
+              "base": "토프 + 가"
+            },
+            {
+              "surface": "눈앞에",
+              "meaning": "before one's eyes"
+            },
+            {
+              "surface": "있는데도",
+              "meaning": "being",
+              "base": "있는"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "딸이",
+              "meaning": "daughter (subject)",
+              "base": "딸 + 이"
+            },
+            {
+              "surface": "아니라고",
+              "meaning": "not but / rather than",
+              "base": "아니라"
+            },
+            {
+              "surface": "말하며",
+              "meaning": "words: while doing",
+              "base": "말하다"
+            },
+            {
+              "surface": "그녀를",
+              "meaning": "to her",
+              "base": "그녀 + 를"
+            },
+            {
+              "surface": "인정하지",
+              "meaning": "admit",
+              "base": "인정하다"
+            },
+            {
+              "surface": "않았어",
+              "meaning": "did not",
+              "base": "않다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그곳에서 토프는 자신을 인정하지 않던 아버지 라오 베이퐁과 다시 마주쳤어.",
+          "translation": "There, Toph again faced her father, Lao Beifong, who still refused to acknowledge her.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "그곳에서 토프는 자신을 인정하지 않던 아버지 라오 베이퐁과 다시 마주쳤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그곳에서 토프는 자신을 인정하지 않던 아버지 라오 베이퐁과 다시 마주쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그곳에서",
+              "meaning": "that place (에서)",
+              "note": "그곳 + 에서"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "자신을",
+              "meaning": "her (object)",
+              "note": "자신 + 을"
+            },
+            {
+              "word": "인정하지",
+              "meaning": "admit",
+              "note": "인정하다"
+            },
+            {
+              "word": "않던",
+              "meaning": "who did not / used not to",
+              "note": "않다 + -던"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그곳에서",
+              "meaning": "that place (에서)",
+              "base": "그곳 + 에서"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "자신을",
+              "meaning": "her (object)",
+              "base": "자신 + 을"
+            },
+            {
+              "surface": "인정하지",
+              "meaning": "admit",
+              "base": "인정하다"
+            },
+            {
+              "surface": "않던",
+              "meaning": "who did not / used not to",
+              "base": "않다 + -던"
+            },
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "라오",
+              "meaning": "Lao"
+            },
+            {
+              "surface": "베이퐁과",
+              "meaning": "Beifong (과)",
+              "base": "베이퐁 + 과"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "마주쳤어",
+              "meaning": "encountered / faced",
+              "base": "마주치다"
+            }
+          ]
+        },
+        {
+          "korean": "광산이 무너지자 토프와 라오와 많은 노동자가 지하에 갇혔어.",
+          "translation": "When the mine collapsed, Toph, Lao, and many workers were trapped underground.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "광산이 무너지자 토프와 라오와 많은 노동자가 지하에 갇혔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "광산이 무너지자 토프와 라오와 많은 노동자가 지하에 갇혔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "광산이",
+              "meaning": "mine (subject)"
+            },
+            {
+              "word": "지하에",
+              "meaning": "underground / below"
+            },
+            {
+              "word": "많은",
+              "meaning": "many"
+            },
+            {
+              "word": "갇혔어",
+              "meaning": "was trapped"
+            },
+            {
+              "word": "노동자가",
+              "meaning": "worker (subject)",
+              "note": "노동자 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "광산이",
+              "meaning": "mine (subject)"
+            },
+            {
+              "surface": "무너지자",
+              "meaning": "would collapse",
+              "base": "무너지다"
+            },
+            {
+              "surface": "토프와",
+              "meaning": "Toph and",
+              "base": "토프 + 와"
+            },
+            {
+              "surface": "라오와",
+              "meaning": "Lao and / with",
+              "base": "라오 + 와"
+            },
+            {
+              "surface": "많은",
+              "meaning": "many"
+            },
+            {
+              "surface": "노동자가",
+              "meaning": "worker (subject)",
+              "base": "노동자 + 가"
+            },
+            {
+              "surface": "지하에",
+              "meaning": "underground / below"
+            },
+            {
+              "surface": "갇혔어",
+              "meaning": "was trapped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "공장이 땅속 자원을 너무 깊이 캐자 오래된 영혼 철 장군이 깨어났어.",
+          "translation": "When the factory dug too deeply for underground resources, the ancient spirit General Old Iron awakened.",
+          "grammar": [
+            {
+              "pattern": "-자",
+              "explanation": "Connects two events: “when/as the first event happened, the second followed.” It can imply a quick result, but is not identical to -자마자.",
+              "example": "공장이 땅속 자원을 너무 깊이 캐자 오래된 영혼 철 장군이 깨어났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "공장이 땅속 자원을 너무 깊이 캐자 오래된 영혼 철 장군이 깨어났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "공장이",
+              "meaning": "factory (subject)",
+              "note": "공장 + 이"
+            },
+            {
+              "word": "자원을",
+              "meaning": "resources (object)",
+              "note": "자원 + 을"
+            },
+            {
+              "word": "캐자",
+              "meaning": "when it dug",
+              "note": "캐다 + -자"
+            },
+            {
+              "word": "오래된",
+              "meaning": "ancient / old",
+              "note": "오래되다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공장이",
+              "meaning": "factory (subject)",
+              "base": "공장 + 이"
+            },
+            {
+              "surface": "땅속",
+              "meaning": "underground / inside the earth"
+            },
+            {
+              "surface": "자원을",
+              "meaning": "resources (object)",
+              "base": "자원 + 을"
+            },
+            {
+              "surface": "너무",
+              "meaning": "too / very"
+            },
+            {
+              "surface": "깊이",
+              "meaning": "deeply"
+            },
+            {
+              "surface": "캐자",
+              "meaning": "when it dug",
+              "base": "캐다 + -자"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "ancient / old",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "영혼",
+              "meaning": "spirit"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군이",
+              "meaning": "general (subject)",
+              "base": "장군 + 이"
+            },
+            {
+              "surface": "깨어났어",
+              "meaning": "awoke",
+              "base": "깨어나다"
+            }
+          ]
+        },
+        {
+          "korean": "양첸은 오래전 인간을 사랑한 영혼 티엔하이와 그녀를 지키던 철 장군의 이야기를 보여 줬어.",
+          "translation": "Yangchen showed Aang the old story of the spirit Tienhai, who loved humans, and General Old Iron, who protected her.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "양첸은 오래전 인간을 사랑한 영혼 티엔하이와 그녀를 지키던 철 장군의 이야기를 보여 줬어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "양첸은 오래전 인간을 사랑한 영혼 티엔하이와 그녀를 지키던 철 장군의 이야기를 보여 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "인간을",
+              "meaning": "humans (object)",
+              "note": "인간 + 을"
+            },
+            {
+              "word": "양첸은",
+              "meaning": "Yangchen",
+              "note": "양첸 + 은"
+            },
+            {
+              "word": "티엔하이와",
+              "meaning": "Tienhai (와)",
+              "note": "티엔하이 + 와"
+            },
+            {
+              "word": "그녀를",
+              "meaning": "to her",
+              "note": "그녀 + 를"
+            },
+            {
+              "word": "장군의",
+              "meaning": "general",
+              "note": "장군 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "양첸은",
+              "meaning": "Yangchen",
+              "base": "양첸 + 은"
+            },
+            {
+              "surface": "오래전",
+              "meaning": "long ago"
+            },
+            {
+              "surface": "인간을",
+              "meaning": "humans (object)",
+              "base": "인간 + 을"
+            },
+            {
+              "surface": "사랑한",
+              "meaning": "loved and: that did / ...",
+              "base": "사랑하다"
+            },
+            {
+              "surface": "영혼",
+              "meaning": "spirit"
+            },
+            {
+              "surface": "티엔하이와",
+              "meaning": "Tienhai (와)",
+              "base": "티엔하이 + 와"
+            },
+            {
+              "surface": "그녀를",
+              "meaning": "to her",
+              "base": "그녀 + 를"
+            },
+            {
+              "surface": "지키던",
+              "meaning": "used to protect",
+              "base": "지키다 + -던"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군의",
+              "meaning": "general",
+              "base": "장군 + 의"
+            },
+            {
+              "surface": "이야기를",
+              "meaning": "talked",
+              "base": "이야기하다"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for others",
+              "base": "주다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "철 장군은 인간이 약속을 어겼다며 도시를 없애려고 했어.",
+          "translation": "General Old Iron said humans had broken their promise and tried to destroy the city.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "철 장군은 인간이 약속을 어겼다며 도시를 없애려고 했어."
+            },
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "철 장군은 인간이 약속을 어겼다며 도시를 없애려고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "장군은",
+              "meaning": "general (topic)",
+              "note": "장군 + 은"
+            },
+            {
+              "word": "인간이",
+              "meaning": "humans (subject)",
+              "note": "인간 + 이"
+            },
+            {
+              "word": "약속을",
+              "meaning": "promise (object)",
+              "note": "약속 + 을"
+            },
+            {
+              "word": "어겼다며",
+              "meaning": "saying they broke it",
+              "note": "어기다 + -었다며"
+            }
+          ],
+          "words": [
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군은",
+              "meaning": "general (topic)",
+              "base": "장군 + 은"
+            },
+            {
+              "surface": "인간이",
+              "meaning": "humans (subject)",
+              "base": "인간 + 이"
+            },
+            {
+              "surface": "약속을",
+              "meaning": "promise (object)",
+              "base": "약속 + 을"
+            },
+            {
+              "surface": "어겼다며",
+              "meaning": "saying they broke it",
+              "base": "어기다 + -었다며"
+            },
+            {
+              "surface": "도시를",
+              "meaning": "city (object)",
+              "base": "도시 + 를"
+            },
+            {
+              "surface": "없애려고",
+              "meaning": "intending to destroy",
+              "base": "없애다 + -(으)려고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "티엔하이가 죽은 뒤 철 장군이 도시를 공격하자 양첸은 매년 의식을 하겠다고 약속했어.",
+          "translation": "After Tienhai died and Old Iron attacked the city, Yangchen promised to perform a ritual every year.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "티엔하이가 죽은 뒤 철 장군이 도시를 공격하자 양첸은 매년 의식을 하겠다고 약속했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "티엔하이가 죽은 뒤 철 장군이 도시를 공격하자 양첸은 매년 의식을 하겠다고 약속했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "티엔하이가 죽은 뒤 철 장군이 도시를 공격하자 양첸은 매년 의식을 하겠다고 약속했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "죽은",
+              "meaning": "dead / died"
+            },
+            {
+              "word": "하겠다고",
+              "meaning": "that one would do"
+            },
+            {
+              "word": "티엔하이가",
+              "meaning": "Tienhai (가)",
+              "note": "티엔하이 + 가"
+            },
+            {
+              "word": "장군이",
+              "meaning": "general",
+              "note": "장군 + 이"
+            },
+            {
+              "word": "도시를",
+              "meaning": "city",
+              "note": "도시 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "티엔하이가",
+              "meaning": "Tienhai (가)",
+              "base": "티엔하이 + 가"
+            },
+            {
+              "surface": "죽은",
+              "meaning": "dead / died"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군이",
+              "meaning": "general",
+              "base": "장군 + 이"
+            },
+            {
+              "surface": "도시를",
+              "meaning": "city",
+              "base": "도시 + 를"
+            },
+            {
+              "surface": "공격하자",
+              "meaning": "when they attacked",
+              "base": "공격하다 + -자"
+            },
+            {
+              "surface": "양첸은",
+              "meaning": "Yangchen",
+              "base": "양첸 + 은"
+            },
+            {
+              "surface": "매년",
+              "meaning": "every year"
+            },
+            {
+              "surface": "의식을",
+              "meaning": "ritual",
+              "base": "의식 + 을"
+            },
+            {
+              "surface": "하겠다고",
+              "meaning": "that one would do"
+            },
+            {
+              "surface": "약속했어",
+              "meaning": "promised",
+              "base": "약속하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "사고로 토프와 아버지가 땅속에 갇히자 두 사람은 처음으로 솔직하게 이야기했어.",
+          "translation": "When an accident trapped Toph and her father underground, they spoke honestly for the first time.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "사고로 토프와 아버지가 땅속에 갇히자 두 사람은 처음으로 솔직하게 이야기했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사고로",
+              "meaning": "because of an accident",
+              "note": "사고 + 로"
+            },
+            {
+              "word": "토프와",
+              "meaning": "Toph and",
+              "note": "토프 + 와"
+            },
+            {
+              "word": "아버지가",
+              "meaning": "father (subject)",
+              "note": "아버지 + 가"
+            },
+            {
+              "word": "땅속에",
+              "meaning": "underground / inside the earth (에)",
+              "note": "땅속 + 에"
+            },
+            {
+              "word": "갇히자",
+              "meaning": "be trapped",
+              "note": "갇히다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사고로",
+              "meaning": "because of an accident",
+              "base": "사고 + 로"
+            },
+            {
+              "surface": "토프와",
+              "meaning": "Toph and",
+              "base": "토프 + 와"
+            },
+            {
+              "surface": "아버지가",
+              "meaning": "father (subject)",
+              "base": "아버지 + 가"
+            },
+            {
+              "surface": "땅속에",
+              "meaning": "underground / inside the earth (에)",
+              "base": "땅속 + 에"
+            },
+            {
+              "surface": "갇히자",
+              "meaning": "be trapped",
+              "base": "갇히다"
+            },
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people (topic)",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "처음으로",
+              "meaning": "first / at first (으로)",
+              "base": "처음 + 으로"
+            },
+            {
+              "surface": "솔직하게",
+              "meaning": "be honest",
+              "base": "솔직하다"
+            },
+            {
+              "surface": "이야기했어",
+              "meaning": "talked",
+              "base": "이야기하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 무너지는 바위를 붙잡아 노동자와 아버지를 살렸고 라오는 마침내 그녀를 딸로 인정했어.",
+          "translation": "Toph held back the collapsing rock and saved the workers and her father, who finally acknowledged her as his daughter.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프는 무너지는 바위를 붙잡아 노동자와 아버지를 살렸고 라오는 마침내 그녀를 딸로 인정했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "토프는 무너지는 바위를 붙잡아 노동자와 아버지를 살렸고 라오는 마침내 그녀를 딸로 인정했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 무너지는 바위를 붙잡아 노동자와 아버지를 살렸고 라오는 마침내 그녀를 딸로 인정했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "살렸고",
+              "meaning": "saved and"
+            },
+            {
+              "word": "바위를",
+              "meaning": "rock (object)",
+              "note": "바위 + 를"
+            },
+            {
+              "word": "아버지를",
+              "meaning": "father (object)",
+              "note": "아버지 + 를"
+            },
+            {
+              "word": "라오는",
+              "meaning": "Lao (topic)",
+              "note": "라오 + 는"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "무너지는",
+              "meaning": "collapse",
+              "base": "무너지다"
+            },
+            {
+              "surface": "바위를",
+              "meaning": "rock (object)",
+              "base": "바위 + 를"
+            },
+            {
+              "surface": "붙잡아",
+              "meaning": "capture",
+              "base": "붙잡다"
+            },
+            {
+              "surface": "노동자와",
+              "meaning": "worker and / with",
+              "base": "노동자 + 와"
+            },
+            {
+              "surface": "아버지를",
+              "meaning": "father (object)",
+              "base": "아버지 + 를"
+            },
+            {
+              "surface": "살렸고",
+              "meaning": "saved and"
+            },
+            {
+              "surface": "라오는",
+              "meaning": "Lao (topic)",
+              "base": "라오 + 는"
+            },
+            {
+              "surface": "마침내",
+              "meaning": "finally"
+            },
+            {
+              "surface": "그녀를",
+              "meaning": "to her",
+              "base": "그녀 + 를"
+            },
+            {
+              "surface": "딸로",
+              "meaning": "daughter to / by / as",
+              "base": "딸 + 로"
+            },
+            {
+              "surface": "인정했어",
+              "meaning": "admitted",
+              "base": "인정하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "양첸은 철 장군과 인간 사이의 평화를 지키려고 매년 축제를 열었다는 사실도 밝혀졌어.",
+          "translation": "It was also revealed that Yangchen had held the festival every year to preserve peace between General Old Iron and humans.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "양첸은 철 장군과 인간 사이의 평화를 지키려고 매년 축제를 열었다는 사실도 밝혀졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "양첸은 철 장군과 인간 사이의 평화를 지키려고 매년 축제를 열었다는 사실도 밝혀졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "양첸은",
+              "meaning": "Yangchen (은)",
+              "note": "양첸 + 은"
+            },
+            {
+              "word": "장군과",
+              "meaning": "general (과)",
+              "note": "장군 + 과"
+            },
+            {
+              "word": "인간",
+              "meaning": "human / humans"
+            },
+            {
+              "word": "사이의",
+              "meaning": "between / of the space between",
+              "note": "사이 + 의"
+            },
+            {
+              "word": "평화를",
+              "meaning": "peace (를)",
+              "note": "평화 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "양첸은",
+              "meaning": "Yangchen (은)",
+              "base": "양첸 + 은"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군과",
+              "meaning": "general (과)",
+              "base": "장군 + 과"
+            },
+            {
+              "surface": "인간",
+              "meaning": "human / humans"
+            },
+            {
+              "surface": "사이의",
+              "meaning": "between / of the space between",
+              "base": "사이 + 의"
+            },
+            {
+              "surface": "평화를",
+              "meaning": "peace (를)",
+              "base": "평화 + 를"
+            },
+            {
+              "surface": "지키려고",
+              "meaning": "protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "매년",
+              "meaning": "every year"
+            },
+            {
+              "surface": "축제를",
+              "meaning": "festival (object)",
+              "base": "축제 + 를"
+            },
+            {
+              "surface": "열었다는",
+              "meaning": "that she held",
+              "base": "열다 + -었다는"
+            },
+            {
+              "surface": "사실도",
+              "meaning": "fact (도)",
+              "base": "사실 + 도"
+            },
+            {
+              "surface": "밝혀졌어",
+              "meaning": "was revealed",
+              "base": "밝혀지다"
+            }
+          ]
+        },
+        {
+          "korean": "인간들이 광산에서 철 장군의 갑옷 조각을 꺼내자 영혼은 그것을 다시 입고 도시로 향했어.",
+          "translation": "When humans removed pieces of Old Iron's armor from the mine, the spirit put them on again and marched toward the city.",
+          "grammar": [
+            {
+              "pattern": "-자",
+              "explanation": "Connects events: “when / once the first event happened.”",
+              "example": "인간들이 광산에서 철 장군의 갑옷 조각을 꺼내자 영혼은 그것을 다시 입고 도시로 향했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "인간들이 광산에서 철 장군의 갑옷 조각을 꺼내자 영혼은 그것을 다시 입고 도시로 향했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "인간들이 광산에서 철 장군의 갑옷 조각을 꺼내자 영혼은 그것을 다시 입고 도시로 향했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "조각을",
+              "meaning": "piece / fragment (object)"
+            },
+            {
+              "word": "광산에서",
+              "meaning": "in / from the mine"
+            },
+            {
+              "word": "꺼내자",
+              "meaning": "when someone took out"
+            },
+            {
+              "word": "그것을",
+              "meaning": "it (object)",
+              "note": "그것 + 을"
+            },
+            {
+              "word": "인간들이",
+              "meaning": "humans",
+              "note": "인간"
+            }
+          ],
+          "words": [
+            {
+              "surface": "인간들이",
+              "meaning": "humans",
+              "base": "인간"
+            },
+            {
+              "surface": "광산에서",
+              "meaning": "in / from the mine"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군의",
+              "meaning": "general",
+              "base": "장군 + 의"
+            },
+            {
+              "surface": "갑옷",
+              "meaning": "armor"
+            },
+            {
+              "surface": "조각을",
+              "meaning": "piece / fragment (object)"
+            },
+            {
+              "surface": "꺼내자",
+              "meaning": "when someone took out"
+            },
+            {
+              "surface": "영혼은",
+              "meaning": "spirit",
+              "base": "영혼 + 은"
+            },
+            {
+              "surface": "그것을",
+              "meaning": "it (object)",
+              "base": "그것 + 을"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "입고",
+              "meaning": "wearing",
+              "base": "입다 + -고"
+            },
+            {
+              "surface": "도시로",
+              "meaning": "into a city",
+              "base": "도시 + 로"
+            },
+            {
+              "surface": "향했어",
+              "meaning": "향: did / was",
+              "base": "향하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 영혼과 싸워야 했지만 토프와 노동자들은 사람들을 안전하게 구했어.",
+          "translation": "Aang had to fight the spirit, while Toph and the workers safely rescued the people.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 했어",
+              "explanation": "Means “had to / needed to.” It expresses necessity or obligation in the past.",
+              "example": "아앙은 영혼과 싸워야 했지만 토프와 노동자들은 사람들을 안전하게 구했어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "아앙은 영혼과 싸워야 했지만 토프와 노동자들은 사람들을 안전하게 구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아앙은 영혼과 싸워야 했지만 토프와 노동자들은 사람들을 안전하게 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "영혼과",
+              "meaning": "with the spirit",
+              "note": "영혼 + 과"
+            },
+            {
+              "word": "싸워야",
+              "meaning": "had to fight",
+              "note": "싸우다 + -아/어야"
+            },
+            {
+              "word": "했지만",
+              "meaning": "had to but",
+              "note": "하다 + -지만"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "영혼과",
+              "meaning": "with the spirit",
+              "base": "영혼 + 과"
+            },
+            {
+              "surface": "싸워야",
+              "meaning": "had to fight",
+              "base": "싸우다 + -아/어야"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "had to but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "토프와",
+              "meaning": "Toph and",
+              "base": "토프 + 와"
+            },
+            {
+              "surface": "노동자들은",
+              "meaning": "workers (topic)",
+              "base": "노동자들 + 은"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people (object)",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "안전하게",
+              "meaning": "safely",
+              "base": "안전하다 + -게"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "rescued",
+              "base": "구하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프의 학생들은 금속을 움직여 사람들을 대피시키고 아앙의 싸움도 도왔어.",
+          "translation": "Toph's students bent metal to evacuate people and assist Aang's fight.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프의 학생들은 금속을 움직여 사람들을 대피시키고 아앙의 싸움도 도왔어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "토프의 학생들은 금속을 움직여 사람들을 대피시키고 아앙의 싸움도 도왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프의 학생들은 금속을 움직여 사람들을 대피시키고 아앙의 싸움도 도왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "대피시키고",
+              "meaning": "evacuated and"
+            },
+            {
+              "word": "금속을",
+              "meaning": "metal (object)",
+              "note": "금속 + 을"
+            },
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "학생들은",
+              "meaning": "students",
+              "note": "학생들 + 은"
+            },
+            {
+              "word": "사람들을",
+              "meaning": "people",
+              "note": "사람들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "학생들은",
+              "meaning": "students",
+              "base": "학생들 + 은"
+            },
+            {
+              "surface": "금속을",
+              "meaning": "metal (object)",
+              "base": "금속 + 을"
+            },
+            {
+              "surface": "움직여",
+              "meaning": "moved",
+              "base": "움직이다 + -아/어"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "대피시키고",
+              "meaning": "evacuated and"
+            },
+            {
+              "surface": "아앙의",
+              "meaning": "Aang 's / of",
+              "base": "아앙 + 의"
+            },
+            {
+              "surface": "싸움도",
+              "meaning": "fight also / even",
+              "base": "싸움 + 도"
+            },
+            {
+              "surface": "도왔어",
+              "meaning": "helped",
+              "base": "돕다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 과거를 그대로 지키기보다 현재의 사람들과 새 약속을 만들기로 했어.",
+          "translation": "Rather than preserving the past unchanged, Aang decided to make a new promise with the people of the present.",
+          "grammar": [
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing” and compares two choices or descriptions.",
+              "example": "아앙은 과거를 그대로 지키기보다 현재의 사람들과 새 약속을 만들기로 했어."
+            },
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "아앙은 과거를 그대로 지키기보다 현재의 사람들과 새 약속을 만들기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "과거를",
+              "meaning": "past (object)",
+              "note": "과거 + 를"
+            },
+            {
+              "word": "그대로",
+              "meaning": "as it is / unchanged"
+            },
+            {
+              "word": "지키기보다",
+              "meaning": "rather than preserving",
+              "note": "지키다 + -기보다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "과거를",
+              "meaning": "past (object)",
+              "base": "과거 + 를"
+            },
+            {
+              "surface": "그대로",
+              "meaning": "as it is / unchanged"
+            },
+            {
+              "surface": "지키기보다",
+              "meaning": "rather than preserving",
+              "base": "지키다 + -기보다"
+            },
+            {
+              "surface": "현재의",
+              "meaning": "present-day / of the present",
+              "base": "현재 + 의"
+            },
+            {
+              "surface": "사람들과",
+              "meaning": "with people",
+              "base": "사람들 + 과"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "약속을",
+              "meaning": "promise (object)",
+              "base": "약속 + 을"
+            },
+            {
+              "surface": "만들기로",
+              "meaning": "decided to make",
+              "base": "만들다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "아앙은 새 도시가 단순한 침입자가 아니라 여러 사람이 삶을 만든 장소라는 사실을 받아들였어.",
+          "translation": "Aang accepted that the new town was not simply an intruder, but a place where many people had built lives.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아앙은 새 도시가 단순한 침입자가 아니라 여러 사람이 삶을 만든 장소라는 사실을 받아들였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙은 새 도시가 단순한 침입자가 아니라 여러 사람이 삶을 만든 장소라는 사실을 받아들였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "침입자가",
+              "meaning": "intruder (subject)"
+            },
+            {
+              "word": "아앙은",
+              "meaning": "Aang",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "도시가",
+              "meaning": "city",
+              "note": "도시 + 가"
+            },
+            {
+              "word": "사람이",
+              "meaning": "person",
+              "note": "사람 + 이"
+            },
+            {
+              "word": "장소라는",
+              "meaning": "place",
+              "note": "장소"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "도시가",
+              "meaning": "city",
+              "base": "도시 + 가"
+            },
+            {
+              "surface": "단순한",
+              "meaning": "단순: that did / ...",
+              "base": "단순하다"
+            },
+            {
+              "surface": "침입자가",
+              "meaning": "intruder (subject)"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "여러",
+              "meaning": "several / various"
+            },
+            {
+              "surface": "사람이",
+              "meaning": "person",
+              "base": "사람 + 이"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "만든",
+              "meaning": "made / created",
+              "base": "만들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "장소라는",
+              "meaning": "place",
+              "base": "장소"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "받아들였어",
+              "meaning": "accepted",
+              "base": "받아들이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙은 철 장군의 거대한 갑옷을 부수었지만 영혼 자체를 완전히 없애지는 않았어.",
+          "translation": "Aang destroyed General Old Iron's enormous armor but did not completely destroy the spirit itself.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "아앙은 철 장군의 거대한 갑옷을 부수었지만 영혼 자체를 완전히 없애지는 않았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙은 철 장군의 거대한 갑옷을 부수었지만 영혼 자체를 완전히 없애지는 않았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙은",
+              "meaning": "Aang (topic)",
+              "note": "아앙 + 은"
+            },
+            {
+              "word": "장군의",
+              "meaning": "general (의)",
+              "note": "장군 + 의"
+            },
+            {
+              "word": "거대한",
+              "meaning": "huge",
+              "note": "거대하다 + -(으)ㄴ"
+            },
+            {
+              "word": "갑옷을",
+              "meaning": "armor (을)",
+              "note": "갑옷 + 을"
+            },
+            {
+              "word": "부수었지만",
+              "meaning": "destroy / break",
+              "note": "부수다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang (topic)",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군의",
+              "meaning": "general (의)",
+              "base": "장군 + 의"
+            },
+            {
+              "surface": "거대한",
+              "meaning": "huge",
+              "base": "거대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "갑옷을",
+              "meaning": "armor (을)",
+              "base": "갑옷 + 을"
+            },
+            {
+              "surface": "부수었지만",
+              "meaning": "destroy / break",
+              "base": "부수다"
+            },
+            {
+              "surface": "영혼",
+              "meaning": "spirit"
+            },
+            {
+              "surface": "자체를",
+              "meaning": "itself (object)",
+              "base": "자체 + 를"
+            },
+            {
+              "surface": "완전히",
+              "meaning": "completely"
+            },
+            {
+              "surface": "없애지는",
+              "meaning": "remove / destroy",
+              "base": "없애다"
+            },
+            {
+              "surface": "않았어",
+              "meaning": "did not",
+              "base": "않다"
+            }
+          ]
+        },
+        {
+          "korean": "아앙은 철 장군의 갑옷을 하나씩 떼어 내며 그의 공격을 멈췄어.",
+          "translation": "Aang stopped Old Iron's attack by tearing away the pieces of his armor one by one.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "아앙은 철 장군의 갑옷을 하나씩 떼어 내며 그의 공격을 멈췄어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아앙은 철 장군의 갑옷을 하나씩 떼어 내며 그의 공격을 멈췄어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하나씩",
+              "meaning": "one by one"
+            },
+            {
+              "word": "멈췄어",
+              "meaning": "stopped"
+            },
+            {
+              "word": "떼어",
+              "meaning": "removed / detached"
+            },
+            {
+              "word": "내며",
+              "meaning": "while taking out"
+            },
+            {
+              "word": "아앙은",
+              "meaning": "Aang",
+              "note": "아앙 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "철",
+              "meaning": "iron"
+            },
+            {
+              "surface": "장군의",
+              "meaning": "general",
+              "base": "장군 + 의"
+            },
+            {
+              "surface": "갑옷을",
+              "meaning": "armor",
+              "base": "갑옷 + 을"
+            },
+            {
+              "surface": "하나씩",
+              "meaning": "one by one"
+            },
+            {
+              "surface": "떼어",
+              "meaning": "removed / detached"
+            },
+            {
+              "surface": "내며",
+              "meaning": "while taking out"
+            },
+            {
+              "surface": "그의",
+              "meaning": "he",
+              "base": "그 + 의"
+            },
+            {
+              "surface": "공격을",
+              "meaning": "attacks",
+              "base": "공격 + 을"
+            },
+            {
+              "surface": "멈췄어",
+              "meaning": "stopped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 인간의 발전과 영혼의 세계가 함께 존재할 방법을 계속 찾겠다고 약속했어.",
+          "translation": "He promised to keep searching for a way for human progress and the spirit world to coexist.",
+          "grammar": [
+            {
+              "pattern": "-겠다고 결심하다/약속하다",
+              "explanation": "Reports a firm intention, decision, or promise: “decide/promise that one will …”.",
+              "example": "그는 인간의 발전과 영혼의 세계가 함께 존재할 방법을 계속 찾겠다고 약속했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그는 인간의 발전과 영혼의 세계가 함께 존재할 방법을 계속 찾겠다고 약속했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he (topic)",
+              "note": "그 + 는"
+            },
+            {
+              "word": "인간의",
+              "meaning": "humans (의)",
+              "note": "인간 + 의"
+            },
+            {
+              "word": "발전과",
+              "meaning": "development (과)",
+              "note": "발전 + 과"
+            },
+            {
+              "word": "영혼의",
+              "meaning": "spirit (의)",
+              "note": "영혼 + 의"
+            },
+            {
+              "word": "세계가",
+              "meaning": "world (가)",
+              "note": "세계 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he (topic)",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "인간의",
+              "meaning": "humans (의)",
+              "base": "인간 + 의"
+            },
+            {
+              "surface": "발전과",
+              "meaning": "development (과)",
+              "base": "발전 + 과"
+            },
+            {
+              "surface": "영혼의",
+              "meaning": "spirit (의)",
+              "base": "영혼 + 의"
+            },
+            {
+              "surface": "세계가",
+              "meaning": "world (가)",
+              "base": "세계 + 가"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "존재할",
+              "meaning": "to exist",
+              "base": "존재하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "방법을",
+              "meaning": "method / way (을)",
+              "base": "방법 + 을"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously / still"
+            },
+            {
+              "surface": "찾겠다고",
+              "meaning": "that he would search",
+              "base": "찾다 + -겠다고"
+            },
+            {
+              "surface": "약속했어",
+              "meaning": "promised",
+              "base": "약속하다"
+            }
+          ]
+        },
+        {
+          "korean": "공장 사람들은 이익만 생각하지 않고 땅과 강을 보호할 책임도 받아들이기로 했어.",
+          "translation": "The refinery's people agreed to accept responsibility for protecting the land and river rather than thinking only of profit.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.”",
+              "example": "공장 사람들은 이익만 생각하지 않고 땅과 강을 보호할 책임도 받아들이기로 했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "공장 사람들은 이익만 생각하지 않고 땅과 강을 보호할 책임도 받아들이기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공장 사람들은 이익만 생각하지 않고 땅과 강을 보호할 책임도 받아들이기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사람들은",
+              "meaning": "people (topic)"
+            },
+            {
+              "word": "이익만",
+              "meaning": "only profit"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "생각하지",
+              "meaning": "thoughts: do + negation/contrast",
+              "note": "생각하다"
+            },
+            {
+              "word": "땅과",
+              "meaning": "ground and / with",
+              "note": "땅 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공장",
+              "meaning": "factory"
+            },
+            {
+              "surface": "사람들은",
+              "meaning": "people (topic)"
+            },
+            {
+              "surface": "이익만",
+              "meaning": "only profit"
+            },
+            {
+              "surface": "생각하지",
+              "meaning": "thoughts: do + negation/contrast",
+              "base": "생각하다"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "땅과",
+              "meaning": "ground and / with",
+              "base": "땅 + 과"
+            },
+            {
+              "surface": "강을",
+              "meaning": "river",
+              "base": "강 + 을"
+            },
+            {
+              "surface": "보호할",
+              "meaning": "보호: to do / that will do",
+              "base": "보호하다"
+            },
+            {
+              "surface": "책임도",
+              "meaning": "responsibility also / even",
+              "base": "책임 + 도"
+            },
+            {
+              "surface": "받아들이기로",
+              "meaning": "accept",
+              "base": "받아들이다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프도 발전에는 책임이 따라야 한다는 것을 조금씩 이해하게 됐어.",
+          "translation": "Toph also gradually came to understand that development must be accompanied by responsibility.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 했어",
+              "explanation": "Means “had to / needed to.” It expresses necessity or obligation in the past.",
+              "example": "토프도 발전에는 책임이 따라야 한다는 것을 조금씩 이해하게 됐어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "토프도 발전에는 책임이 따라야 한다는 것을 조금씩 이해하게 됐어."
+            },
+            {
+              "pattern": "-게 됐어",
+              "explanation": "Means “came to / ended up / became.” It often describes a change caused by circumstances.",
+              "example": "토프도 발전에는 책임이 따라야 한다는 것을 조금씩 이해하게 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프도",
+              "meaning": "Toph also",
+              "note": "토프 + 도"
+            },
+            {
+              "word": "발전에는",
+              "meaning": "as for development",
+              "note": "발전 + 에 + 는"
+            },
+            {
+              "word": "책임이",
+              "meaning": "responsibility (subject)",
+              "note": "책임 + 이"
+            },
+            {
+              "word": "따라야",
+              "meaning": "must follow",
+              "note": "따르다 + -아/어야"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프도",
+              "meaning": "Toph also",
+              "base": "토프 + 도"
+            },
+            {
+              "surface": "발전에는",
+              "meaning": "as for development",
+              "base": "발전 + 에 + 는"
+            },
+            {
+              "surface": "책임이",
+              "meaning": "responsibility (subject)",
+              "base": "책임 + 이"
+            },
+            {
+              "surface": "따라야",
+              "meaning": "must follow",
+              "base": "따르다 + -아/어야"
+            },
+            {
+              "surface": "한다는",
+              "meaning": "that it must",
+              "base": "하다 + -는"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact (object)",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "조금씩",
+              "meaning": "little by little"
+            },
+            {
+              "surface": "이해하게",
+              "meaning": "come to understand",
+              "base": "이해하다 + -게"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        },
+        {
+          "korean": "토프와 라오는 오랫동안 끊겼던 관계를 천천히 다시 시작할 기회를 얻었어.",
+          "translation": "Toph and Lao gained a chance to slowly rebuild their long-broken relationship.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프와 라오는 오랫동안 끊겼던 관계를 천천히 다시 시작할 기회를 얻었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프와 라오는 오랫동안 끊겼던 관계를 천천히 다시 시작할 기회를 얻었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "관계를",
+              "meaning": "relationship (object)"
+            },
+            {
+              "word": "기회를",
+              "meaning": "opportunity (object)"
+            },
+            {
+              "word": "끊겼던",
+              "meaning": "had been severed"
+            },
+            {
+              "word": "천천히",
+              "meaning": "slowly"
+            },
+            {
+              "word": "라오는",
+              "meaning": "Lao (topic)",
+              "note": "라오 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프와",
+              "meaning": "Toph and",
+              "base": "토프 + 와"
+            },
+            {
+              "surface": "라오는",
+              "meaning": "Lao (topic)",
+              "base": "라오 + 는"
+            },
+            {
+              "surface": "오랫동안",
+              "meaning": "for a long time"
+            },
+            {
+              "surface": "끊겼던",
+              "meaning": "had been severed"
+            },
+            {
+              "surface": "관계를",
+              "meaning": "relationship (object)"
+            },
+            {
+              "surface": "천천히",
+              "meaning": "slowly"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "시작할",
+              "meaning": "beginning: to do / that will do",
+              "base": "시작하다"
+            },
+            {
+              "surface": "기회를",
+              "meaning": "opportunity (object)"
+            },
+            {
+              "surface": "얻었어",
+              "meaning": "gained",
+              "base": "얻다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "둘 사이의 균열은 완전히 사라지지 않았지만 서로의 생각을 더 존중했어.",
+          "translation": "The rift between them did not completely disappear, but they respected each other's views more.",
+          "grammar": [
+            {
+              "pattern": "-지 않다",
+              "explanation": "A standard negation attached to a verb or adjective: “do not / is not.” Its tense comes from 않다.",
+              "example": "둘 사이의 균열은 완전히 사라지지 않았지만 서로의 생각을 더 존중했어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "둘 사이의 균열은 완전히 사라지지 않았지만 서로의 생각을 더 존중했어."
+            },
+            {
+              "pattern": "서로",
+              "explanation": "An adverb meaning “each other / mutually.”",
+              "example": "둘 사이의 균열은 완전히 사라지지 않았지만 서로의 생각을 더 존중했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사이의",
+              "meaning": "between / relationship's",
+              "note": "사이 + 의"
+            },
+            {
+              "word": "균열은",
+              "meaning": "rift (topic)",
+              "note": "균열 + 은"
+            },
+            {
+              "word": "완전히",
+              "meaning": "completely"
+            },
+            {
+              "word": "사라지지",
+              "meaning": "disappear + not",
+              "note": "사라지다 + -지"
+            }
+          ],
+          "words": [
+            {
+              "surface": "둘",
+              "meaning": "the two"
+            },
+            {
+              "surface": "사이의",
+              "meaning": "between / relationship's",
+              "base": "사이 + 의"
+            },
+            {
+              "surface": "균열은",
+              "meaning": "rift (topic)",
+              "base": "균열 + 은"
+            },
+            {
+              "surface": "완전히",
+              "meaning": "completely"
+            },
+            {
+              "surface": "사라지지",
+              "meaning": "disappear + not",
+              "base": "사라지다 + -지"
+            },
+            {
+              "surface": "않았지만",
+              "meaning": "did not but",
+              "base": "않다 + -았지만"
+            },
+            {
+              "surface": "서로의",
+              "meaning": "each other's",
+              "base": "서로 + 의"
+            },
+            {
+              "surface": "생각을",
+              "meaning": "thoughts (object)",
+              "base": "생각 + 을"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "존중했어",
+              "meaning": "respected",
+              "base": "존중하다"
+            }
+          ]
+        },
+        {
+          "korean": "아앙은 옛 의식의 의미를 새 시대에 맞게 바꾸며 사람과 영혼의 우정을 기념하기로 했어.",
+          "translation": "Aang adapted the old ritual for the new age and chose to celebrate friendship between humans and spirits.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.”",
+              "example": "아앙은 옛 의식의 의미를 새 시대에 맞게 바꾸며 사람과 영혼의 우정을 기념하기로 했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "아앙은 옛 의식의 의미를 새 시대에 맞게 바꾸며 사람과 영혼의 우정을 기념하기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙은 옛 의식의 의미를 새 시대에 맞게 바꾸며 사람과 영혼의 우정을 기념하기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "우정을",
+              "meaning": "friendship (object)"
+            },
+            {
+              "word": "기념하기로",
+              "meaning": "decided to commemorate"
+            },
+            {
+              "word": "맞게",
+              "meaning": "appropriately / to fit"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "아앙은",
+              "meaning": "Aang",
+              "note": "아앙 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙은",
+              "meaning": "Aang",
+              "base": "아앙 + 은"
+            },
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "의식의",
+              "meaning": "ritual 's / of",
+              "base": "의식 + 의"
+            },
+            {
+              "surface": "의미를",
+              "meaning": "meaning",
+              "base": "의미 + 를"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "시대에",
+              "meaning": "era to / at",
+              "base": "시대 + 에"
+            },
+            {
+              "surface": "맞게",
+              "meaning": "appropriately / to fit"
+            },
+            {
+              "surface": "바꾸며",
+              "meaning": "changed",
+              "base": "바꾸다"
+            },
+            {
+              "surface": "사람과",
+              "meaning": "people and / with",
+              "base": "사람 + 과"
+            },
+            {
+              "surface": "영혼의",
+              "meaning": "spirit",
+              "base": "영혼 + 의"
+            },
+            {
+              "surface": "우정을",
+              "meaning": "friendship (object)"
+            },
+            {
+              "surface": "기념하기로",
+              "meaning": "decided to commemorate"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 3
+}

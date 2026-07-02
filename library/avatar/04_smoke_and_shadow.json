@@ -1,0 +1,3436 @@
+{
+  "id": "avatar-smoke-and-shadow",
+  "title": "연기와 그림자",
+  "englishTitle": "Avatar: The Last Airbender — Smoke and Shadow",
+  "level": "TOPIK 2–3",
+  "description": "주코의 왕권을 흔드는 비밀 단체와 가짜 영혼들의 정체.",
+  "theme": "midnight",
+  "thumbnail": "thumbnails/04_smoke_and_shadow.jpg",
+  "thumbnailAlt": "Avatar: The Last Airbender — Smoke and Shadow",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "주코는 어머니 우르사와 새 가족을 불의 나라 수도로 데려왔어.",
+          "translation": "Zuko brought his mother Ursa and her new family to the Fire Nation capital.",
+          "grammar": [
+            {
+              "pattern": "N과/와, N하고",
+              "explanation": "Connects nouns with the meaning “and” or “with.”",
+              "example": "주코는 어머니 우르사와 새 가족을 불의 나라 수도로 데려왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "주코는 어머니 우르사와 새 가족을 불의 나라 수도로 데려왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "word": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "note": "우르사 + 와"
+            },
+            {
+              "word": "가족을",
+              "meaning": "family (object)",
+              "note": "가족 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "surface": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "base": "우르사 + 와"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "가족을",
+              "meaning": "family (object)",
+              "base": "가족 + 을"
+            },
+            {
+              "surface": "불의",
+              "meaning": "fire's / of the Fire Nation",
+              "base": "불 + 의"
+            },
+            {
+              "surface": "나라",
+              "meaning": "nation"
+            },
+            {
+              "surface": "수도로",
+              "meaning": "to the capital",
+              "base": "수도 + 로"
+            },
+            {
+              "surface": "데려왔어",
+              "meaning": "brought",
+              "base": "데려오다"
+            }
+          ]
+        },
+        {
+          "korean": "아앙과 친구들은 히라아에서 수도로 돌아가는 주코의 가족을 호위했어.",
+          "translation": "Aang and his friends escorted Zuko's family from Hira'a back to the capital.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아앙과 친구들은 히라아에서 수도로 돌아가는 주코의 가족을 호위했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙과 친구들은 히라아에서 수도로 돌아가는 주코의 가족을 호위했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아가는",
+              "meaning": "returning / going back"
+            },
+            {
+              "word": "아앙과",
+              "meaning": "Aang and",
+              "note": "아앙 + 과"
+            },
+            {
+              "word": "친구들은",
+              "meaning": "friends",
+              "note": "친구들 + 은"
+            },
+            {
+              "word": "히라아에서",
+              "meaning": "to Hira’a at / from",
+              "note": "히라아 + 에서"
+            },
+            {
+              "word": "주코의",
+              "meaning": "Zuko's",
+              "note": "주코 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "친구들은",
+              "meaning": "friends",
+              "base": "친구들 + 은"
+            },
+            {
+              "surface": "히라아에서",
+              "meaning": "to Hira’a at / from",
+              "base": "히라아 + 에서"
+            },
+            {
+              "surface": "수도로",
+              "meaning": "to the capital",
+              "base": "수도 + 로"
+            },
+            {
+              "surface": "돌아가는",
+              "meaning": "returning / going back"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "가족을",
+              "meaning": "family",
+              "base": "가족 + 을"
+            },
+            {
+              "surface": "호위했어",
+              "meaning": "호위: did / was",
+              "base": "호위하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그때 오자이를 다시 왕으로 세우려는 비밀 단체가 움직이기 시작했어.",
+          "translation": "At that time, a secret group seeking to restore Ozai as king began to move.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, or intended modifier placed before a noun.",
+              "example": "그때 오자이를 다시 왕으로 세우려는 비밀 단체가 움직이기 시작했어."
+            },
+            {
+              "pattern": "-기 시작했어",
+              "explanation": "Means “started to do.” The verb becomes noun-like with -기 before 시작하다.",
+              "example": "그때 오자이를 다시 왕으로 세우려는 비밀 단체가 움직이기 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "오자이를",
+              "meaning": "Ozai (object)",
+              "note": "오자이 + 를"
+            },
+            {
+              "word": "왕으로",
+              "meaning": "as king",
+              "note": "왕 + 으로"
+            },
+            {
+              "word": "세우려는",
+              "meaning": "trying to install",
+              "note": "세우다 + -(으)려는"
+            },
+            {
+              "word": "단체가",
+              "meaning": "organization (subject)",
+              "note": "단체 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그때",
+              "meaning": "at that time"
+            },
+            {
+              "surface": "오자이를",
+              "meaning": "Ozai (object)",
+              "base": "오자이 + 를"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "왕으로",
+              "meaning": "as king",
+              "base": "왕 + 으로"
+            },
+            {
+              "surface": "세우려는",
+              "meaning": "trying to install",
+              "base": "세우다 + -(으)려는"
+            },
+            {
+              "surface": "비밀",
+              "meaning": "secret"
+            },
+            {
+              "surface": "단체가",
+              "meaning": "organization (subject)",
+              "base": "단체 + 가"
+            },
+            {
+              "surface": "움직이기",
+              "meaning": "moving",
+              "base": "움직이다 + -기"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        },
+        {
+          "korean": "길에서 새 오자이 단체는 주코를 약한 왕이라고 비난하며 지지자들을 모았어.",
+          "translation": "Along the way, the New Ozai Society called Zuko a weak ruler and gathered supporters.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "길에서 새 오자이 단체는 주코를 약한 왕이라고 비난하며 지지자들을 모았어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "길에서 새 오자이 단체는 주코를 약한 왕이라고 비난하며 지지자들을 모았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "길에서 새 오자이 단체는 주코를 약한 왕이라고 비난하며 지지자들을 모았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "모았어",
+              "meaning": "gathered / collected"
+            },
+            {
+              "word": "단체는",
+              "meaning": "organization (topic)",
+              "note": "단체 + 는"
+            },
+            {
+              "word": "지지자들을",
+              "meaning": "supporters (object)",
+              "note": "지지자들 + 을"
+            },
+            {
+              "word": "길에서",
+              "meaning": "paths at / from",
+              "note": "길 + 에서"
+            },
+            {
+              "word": "오자이",
+              "meaning": "Ozai"
+            }
+          ],
+          "words": [
+            {
+              "surface": "길에서",
+              "meaning": "paths at / from",
+              "base": "길 + 에서"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "오자이",
+              "meaning": "Ozai"
+            },
+            {
+              "surface": "단체는",
+              "meaning": "organization (topic)",
+              "base": "단체 + 는"
+            },
+            {
+              "surface": "주코를",
+              "meaning": "Zuko",
+              "base": "주코 + 를"
+            },
+            {
+              "surface": "약한",
+              "meaning": "would be weak: that did / ...",
+              "base": "약하다"
+            },
+            {
+              "surface": "왕이라고",
+              "meaning": "king",
+              "base": "왕이"
+            },
+            {
+              "surface": "비난하며",
+              "meaning": "비난: while doing",
+              "base": "비난하다"
+            },
+            {
+              "surface": "지지자들을",
+              "meaning": "supporters (object)",
+              "base": "지지자들 + 을"
+            },
+            {
+              "surface": "모았어",
+              "meaning": "gathered / collected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "우르사는 오랫동안 두려워했던 오자이를 감옥에서 직접 만나 과거와 마주했어.",
+          "translation": "Ursa directly faced her past by visiting Ozai in prison, something she had feared for a long time.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "우르사는 오랫동안 두려워했던 오자이를 감옥에서 직접 만나 과거와 마주했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우르사는 오랫동안 두려워했던 오자이를 감옥에서 직접 만나 과거와 마주했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "우르사는",
+              "meaning": "Ursa (topic)",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "오랫동안",
+              "meaning": "for a long time"
+            },
+            {
+              "word": "두려워했던",
+              "meaning": "had feared",
+              "note": "두려워하다 + -았던"
+            },
+            {
+              "word": "오자이를",
+              "meaning": "Ozai (object)",
+              "note": "오자이 + 를"
+            },
+            {
+              "word": "감옥에서",
+              "meaning": "prison (에서)",
+              "note": "감옥 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "오랫동안",
+              "meaning": "for a long time"
+            },
+            {
+              "surface": "두려워했던",
+              "meaning": "had feared",
+              "base": "두려워하다 + -았던"
+            },
+            {
+              "surface": "오자이를",
+              "meaning": "Ozai (object)",
+              "base": "오자이 + 를"
+            },
+            {
+              "surface": "감옥에서",
+              "meaning": "prison (에서)",
+              "base": "감옥 + 에서"
+            },
+            {
+              "surface": "직접",
+              "meaning": "directly"
+            },
+            {
+              "surface": "만나",
+              "meaning": "meet / face",
+              "base": "만나다"
+            },
+            {
+              "surface": "과거와",
+              "meaning": "past (와)",
+              "base": "과거 + 와"
+            },
+            {
+              "surface": "마주했어",
+              "meaning": "faced",
+              "base": "마주하다"
+            }
+          ]
+        },
+        {
+          "korean": "오자이는 우르사의 새 얼굴을 조롱했지만 우르사는 더 이상 그를 두려워하지 않겠다고 말했어.",
+          "translation": "Ozai mocked Ursa's restored face, but she said she would no longer fear him.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "오자이는 우르사의 새 얼굴을 조롱했지만 우르사는 더 이상 그를 두려워하지 않겠다고 말했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "오자이는 우르사의 새 얼굴을 조롱했지만 우르사는 더 이상 그를 두려워하지 않겠다고 말했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "오자이는 우르사의 새 얼굴을 조롱했지만 우르사는 더 이상 그를 두려워하지 않겠다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "않겠다고",
+              "meaning": "that one would not"
+            },
+            {
+              "word": "이상",
+              "meaning": "more than / any longer"
+            },
+            {
+              "word": "오자이는",
+              "meaning": "Ozai",
+              "note": "오자이 + 는"
+            },
+            {
+              "word": "우르사의",
+              "meaning": "Ursa's",
+              "note": "우르사 + 의"
+            },
+            {
+              "word": "얼굴을",
+              "meaning": "of faces",
+              "note": "얼굴 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "오자이는",
+              "meaning": "Ozai",
+              "base": "오자이 + 는"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "조롱했지만",
+              "meaning": "조롱: did, but",
+              "base": "조롱하다"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "이상",
+              "meaning": "more than / any longer"
+            },
+            {
+              "surface": "그를",
+              "meaning": "he",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "두려워하지",
+              "meaning": "had feared: do + negation/contrast",
+              "base": "두려워하다"
+            },
+            {
+              "surface": "않겠다고",
+              "meaning": "that one would not"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "한편 마이의 아버지 우카노는 새 오자이 단체를 이끌며 주코를 왕좌에서 끌어내리려 했어.",
+          "translation": "Meanwhile, Mai's father Ukano led the New Ozai Society and tried to remove Zuko from the throne.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "한편 마이의 아버지 우카노는 새 오자이 단체를 이끌며 주코를 왕좌에서 끌어내리려 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마이의",
+              "meaning": "Mai (의)",
+              "note": "마이 + 의"
+            },
+            {
+              "word": "아버지",
+              "meaning": "father"
+            },
+            {
+              "word": "우카노는",
+              "meaning": "Ukano (는)",
+              "note": "우카노 + 는"
+            },
+            {
+              "word": "오자이",
+              "meaning": "Ozai"
+            },
+            {
+              "word": "단체를",
+              "meaning": "group (object)",
+              "note": "단체 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "한편",
+              "meaning": "meanwhile"
+            },
+            {
+              "surface": "마이의",
+              "meaning": "Mai (의)",
+              "base": "마이 + 의"
+            },
+            {
+              "surface": "아버지",
+              "meaning": "father"
+            },
+            {
+              "surface": "우카노는",
+              "meaning": "Ukano (는)",
+              "base": "우카노 + 는"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "오자이",
+              "meaning": "Ozai"
+            },
+            {
+              "surface": "단체를",
+              "meaning": "group (object)",
+              "base": "단체 + 를"
+            },
+            {
+              "surface": "이끌며",
+              "meaning": "lead",
+              "base": "이끌다"
+            },
+            {
+              "surface": "주코를",
+              "meaning": "Zuko (object)",
+              "base": "주코 + 를"
+            },
+            {
+              "surface": "왕좌에서",
+              "meaning": "throne (에서)",
+              "base": "왕좌 + 에서"
+            },
+            {
+              "surface": "끌어내리려",
+              "meaning": "remove / pull down",
+              "base": "끌어내리다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "우카노는 딸 마이에게도 숨긴 채 반란을 준비하고 있었어.",
+          "translation": "Ukano prepared the rebellion while hiding it even from his daughter Mai.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "우카노는 딸 마이에게도 숨긴 채 반란을 준비하고 있었어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "우카노는 딸 마이에게도 숨긴 채 반란을 준비하고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우카노는 딸 마이에게도 숨긴 채 반란을 준비하고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "숨긴",
+              "meaning": "hidden"
+            },
+            {
+              "word": "우카노는",
+              "meaning": "Ukano",
+              "note": "우카노 + 는"
+            },
+            {
+              "word": "반란을",
+              "meaning": "rebellion",
+              "note": "반란 + 을"
+            },
+            {
+              "word": "마이에게도",
+              "meaning": "Mai also to",
+              "note": "마이 + 에게도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우카노는",
+              "meaning": "Ukano",
+              "base": "우카노 + 는"
+            },
+            {
+              "surface": "딸",
+              "meaning": "daughter"
+            },
+            {
+              "surface": "마이에게도",
+              "meaning": "Mai also to",
+              "base": "마이 + 에게도"
+            },
+            {
+              "surface": "숨긴",
+              "meaning": "hidden"
+            },
+            {
+              "surface": "채",
+              "meaning": "while remaining / in the state of"
+            },
+            {
+              "surface": "반란을",
+              "meaning": "rebellion",
+              "base": "반란 + 을"
+            },
+            {
+              "surface": "준비하고",
+              "meaning": "prepared: doing and",
+              "base": "준비하다"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "수도에서는 케무리카게라는 무서운 존재가 나타나 아이들을 데려갔어.",
+          "translation": "In the capital, frightening beings called the Kemurikage appeared and took children away.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does...”",
+              "example": "수도에서는 케무리카게라는 무서운 존재가 나타나 아이들을 데려갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "수도에서는 케무리카게라는 무서운 존재가 나타나 아이들을 데려갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "수도에서는",
+              "meaning": "in the capital (topic)",
+              "note": "수도 + 에서 + 는"
+            },
+            {
+              "word": "케무리카게라는",
+              "meaning": "called Kemurikage",
+              "note": "케무리카게 + 라는"
+            },
+            {
+              "word": "무서운",
+              "meaning": "frightening",
+              "note": "무섭다 + -(으)ㄴ"
+            },
+            {
+              "word": "존재가",
+              "meaning": "beings (subject)",
+              "note": "존재 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "수도에서는",
+              "meaning": "in the capital (topic)",
+              "base": "수도 + 에서 + 는"
+            },
+            {
+              "surface": "케무리카게라는",
+              "meaning": "called Kemurikage",
+              "base": "케무리카게 + 라는"
+            },
+            {
+              "surface": "무서운",
+              "meaning": "frightening",
+              "base": "무섭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "존재가",
+              "meaning": "beings (subject)",
+              "base": "존재 + 가"
+            },
+            {
+              "surface": "나타나",
+              "meaning": "appeared and",
+              "base": "나타나다 + -아/어"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "데려갔어",
+              "meaning": "took away",
+              "base": "데려가다"
+            }
+          ]
+        },
+        {
+          "korean": "첫 번째 아이가 사라진 뒤 어두운 가면을 쓴 존재들은 수도 전체에 공포를 퍼뜨렸어.",
+          "translation": "After the first child disappeared, dark masked figures spread fear throughout the capital.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "첫 번째 아이가 사라진 뒤 어두운 가면을 쓴 존재들은 수도 전체에 공포를 퍼뜨렸어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "첫 번째 아이가 사라진 뒤 어두운 가면을 쓴 존재들은 수도 전체에 공포를 퍼뜨렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "첫 번째 아이가 사라진 뒤 어두운 가면을 쓴 존재들은 수도 전체에 공포를 퍼뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "전체에",
+              "meaning": "throughout the whole"
+            },
+            {
+              "word": "퍼뜨렸어",
+              "meaning": "spread"
+            },
+            {
+              "word": "번째",
+              "meaning": "number / nth"
+            },
+            {
+              "word": "아이가",
+              "meaning": "child (들도) (subject)",
+              "note": "아이 + 가"
+            },
+            {
+              "word": "공포를",
+              "meaning": "through fear (object)",
+              "note": "공포 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "첫",
+              "meaning": "first"
+            },
+            {
+              "surface": "번째",
+              "meaning": "number / nth"
+            },
+            {
+              "surface": "아이가",
+              "meaning": "child (들도) (subject)",
+              "base": "아이 + 가"
+            },
+            {
+              "surface": "사라진",
+              "meaning": "missing / disappeared",
+              "base": "사라지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "어두운",
+              "meaning": "dark",
+              "base": "어둡다 + -(으)ㄴ"
+            },
+            {
+              "surface": "가면을",
+              "meaning": "mask",
+              "base": "가면 + 을"
+            },
+            {
+              "surface": "쓴",
+              "meaning": "written / wrote",
+              "base": "쓰다 + -(으)ㄴ"
+            },
+            {
+              "surface": "존재들은",
+              "meaning": "that it exists",
+              "base": "존재하다"
+            },
+            {
+              "surface": "수도",
+              "meaning": "possibility also",
+              "base": "수 + 도"
+            },
+            {
+              "surface": "전체에",
+              "meaning": "throughout the whole"
+            },
+            {
+              "surface": "공포를",
+              "meaning": "through fear (object)",
+              "base": "공포 + 를"
+            },
+            {
+              "surface": "퍼뜨렸어",
+              "meaning": "spread"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "사람들은 그들이 오래된 영혼이라고 믿었기 때문에 더 크게 두려워했어.",
+          "translation": "People feared them even more because they believed they were ancient spirits.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "사람들은 그들이 오래된 영혼이라고 믿었기 때문에 더 크게 두려워했어."
+            },
+            {
+              "pattern": "-기 때문에",
+              "explanation": "Gives a clear reason: “because.” It is often more explicit than -아/어서.",
+              "example": "사람들은 그들이 오래된 영혼이라고 믿었기 때문에 더 크게 두려워했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "사람들은 그들이 오래된 영혼이라고 믿었기 때문에 더 크게 두려워했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사람들은",
+              "meaning": "people (topic)",
+              "note": "사람들 + 은"
+            },
+            {
+              "word": "그들이",
+              "meaning": "they (subject)",
+              "note": "그들 + 이"
+            },
+            {
+              "word": "오래된",
+              "meaning": "ancient",
+              "note": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "word": "영혼이라고",
+              "meaning": "that they were spirits",
+              "note": "영혼 + 이라고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사람들은",
+              "meaning": "people (topic)",
+              "base": "사람들 + 은"
+            },
+            {
+              "surface": "그들이",
+              "meaning": "they (subject)",
+              "base": "그들 + 이"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "ancient",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "영혼이라고",
+              "meaning": "that they were spirits",
+              "base": "영혼 + 이라고"
+            },
+            {
+              "surface": "믿었기",
+              "meaning": "believing / the fact they believed",
+              "base": "믿다 + -기"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "크게",
+              "meaning": "greatly",
+              "base": "크다 + -게"
+            },
+            {
+              "surface": "두려워했어",
+              "meaning": "feared",
+              "base": "두려워하다"
+            }
+          ]
+        },
+        {
+          "korean": "옛 전설에서 진짜 케무리카게는 나쁜 지도자의 아이들을 데려가는 영혼으로 알려져 있었어.",
+          "translation": "In the old legend, the real Kemurikage were spirits said to take the children of corrupt leaders.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "옛 전설에서 진짜 케무리카게는 나쁜 지도자의 아이들을 데려가는 영혼으로 알려져 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "옛 전설에서 진짜 케무리카게는 나쁜 지도자의 아이들을 데려가는 영혼으로 알려져 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "전설에서",
+              "meaning": "in the legend"
+            },
+            {
+              "word": "있었어",
+              "meaning": "was / had been"
+            },
+            {
+              "word": "나쁜",
+              "meaning": "bad"
+            },
+            {
+              "word": "케무리카게는",
+              "meaning": "Kemurikage",
+              "note": "케무리카게 + 는"
+            },
+            {
+              "word": "지도자의",
+              "meaning": "leader 's / of",
+              "note": "지도자 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "전설에서",
+              "meaning": "in the legend"
+            },
+            {
+              "surface": "진짜",
+              "meaning": "real / truly"
+            },
+            {
+              "surface": "케무리카게는",
+              "meaning": "Kemurikage",
+              "base": "케무리카게 + 는"
+            },
+            {
+              "surface": "나쁜",
+              "meaning": "bad"
+            },
+            {
+              "surface": "지도자의",
+              "meaning": "leader 's / of",
+              "base": "지도자 + 의"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "데려가는",
+              "meaning": "took away",
+              "base": "데려가다"
+            },
+            {
+              "surface": "영혼으로",
+              "meaning": "spirit to / by / as",
+              "base": "영혼 + 으로"
+            },
+            {
+              "surface": "알려져",
+              "meaning": "told",
+              "base": "알려"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was / had been"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "케무리카게는 주코가 왕에서 물러나지 않으면 나라가 망할 거라는 예언을 전했어.",
+          "translation": "The Kemurikage delivered a prophecy that the nation would perish unless Zuko stepped down.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "케무리카게는 주코가 왕에서 물러나지 않으면 나라가 망할 거라는 예언을 전했어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if / when.”",
+              "example": "케무리카게는 주코가 왕에서 물러나지 않으면 나라가 망할 거라는 예언을 전했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "케무리카게는 주코가 왕에서 물러나지 않으면 나라가 망할 거라는 예언을 전했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "케무리카게는",
+              "meaning": "Kemurikage (는)",
+              "note": "케무리카게 + 는"
+            },
+            {
+              "word": "주코가",
+              "meaning": "Zuko (subject)",
+              "note": "주코 + 가"
+            },
+            {
+              "word": "왕에서",
+              "meaning": "king (에서)",
+              "note": "왕 + 에서"
+            },
+            {
+              "word": "물러나지",
+              "meaning": "step down",
+              "note": "물러나다"
+            },
+            {
+              "word": "않으면",
+              "meaning": "if not",
+              "note": "않다 + -(으)면"
+            }
+          ],
+          "words": [
+            {
+              "surface": "케무리카게는",
+              "meaning": "Kemurikage (는)",
+              "base": "케무리카게 + 는"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko (subject)",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "왕에서",
+              "meaning": "king (에서)",
+              "base": "왕 + 에서"
+            },
+            {
+              "surface": "물러나지",
+              "meaning": "step down",
+              "base": "물러나다"
+            },
+            {
+              "surface": "않으면",
+              "meaning": "if not",
+              "base": "않다 + -(으)면"
+            },
+            {
+              "surface": "나라가",
+              "meaning": "nation (가)",
+              "base": "나라 + 가"
+            },
+            {
+              "surface": "망할",
+              "meaning": "would perish",
+              "base": "망하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "거라는",
+              "meaning": "that it would",
+              "base": "것이라는"
+            },
+            {
+              "surface": "예언을",
+              "meaning": "prophecy (을)",
+              "base": "예언 + 을"
+            },
+            {
+              "surface": "전했어",
+              "meaning": "delivered / conveyed",
+              "base": "전하다"
+            }
+          ]
+        },
+        {
+          "korean": "가짜 영혼들은 주코가 물러나야 아이들이 돌아올 거라고 시민들에게 경고했어.",
+          "translation": "The false spirits warned the citizens that the children would return only if Zuko stepped down.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "가짜 영혼들은 주코가 물러나야 아이들이 돌아올 거라고 시민들에게 경고했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "가짜 영혼들은 주코가 물러나야 아이들이 돌아올 거라고 시민들에게 경고했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "가짜 영혼들은 주코가 물러나야 아이들이 돌아올 거라고 시민들에게 경고했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아올",
+              "meaning": "to return / that will return"
+            },
+            {
+              "word": "가짜",
+              "meaning": "fake"
+            },
+            {
+              "word": "아이들이",
+              "meaning": "children (subject)",
+              "note": "아이들 + 이"
+            },
+            {
+              "word": "영혼들은",
+              "meaning": "spirit",
+              "note": "영혼"
+            },
+            {
+              "word": "주코가",
+              "meaning": "Zuko",
+              "note": "주코 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "가짜",
+              "meaning": "fake"
+            },
+            {
+              "surface": "영혼들은",
+              "meaning": "spirit",
+              "base": "영혼"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "물러나야",
+              "meaning": "step down",
+              "base": "물러나다"
+            },
+            {
+              "surface": "아이들이",
+              "meaning": "children (subject)",
+              "base": "아이들 + 이"
+            },
+            {
+              "surface": "돌아올",
+              "meaning": "to return / that will return"
+            },
+            {
+              "surface": "거라고",
+              "meaning": "that it would",
+              "base": "것이라고"
+            },
+            {
+              "surface": "시민들에게",
+              "meaning": "citizens to (plural)",
+              "base": "시민 + 들에게"
+            },
+            {
+              "surface": "경고했어",
+              "meaning": "경고: did / was",
+              "base": "경고하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "납치된 아이들 중에는 마이의 어린 동생 톰톰도 있어서 사건은 더욱 개인적인 문제가 됐어.",
+          "translation": "Mai's young brother Tom-Tom was among the kidnapped children, making the case deeply personal.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "납치된 아이들 중에는 마이의 어린 동생 톰톰도 있어서 사건은 더욱 개인적인 문제가 됐어."
+            },
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason or sequence: “because / so / and then.”",
+              "example": "납치된 아이들 중에는 마이의 어린 동생 톰톰도 있어서 사건은 더욱 개인적인 문제가 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "납치된 아이들 중에는 마이의 어린 동생 톰톰도 있어서 사건은 더욱 개인적인 문제가 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "납치된",
+              "meaning": "kidnapped",
+              "note": "납치되다 + -(으)ㄴ"
+            },
+            {
+              "word": "아이들",
+              "meaning": "children"
+            },
+            {
+              "word": "중에는",
+              "meaning": "among (topic)",
+              "note": "중 + 에는"
+            },
+            {
+              "word": "마이의",
+              "meaning": "Mai (의)",
+              "note": "마이 + 의"
+            },
+            {
+              "word": "어린",
+              "meaning": "young / childhood",
+              "note": "어리다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "납치된",
+              "meaning": "kidnapped",
+              "base": "납치되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "아이들",
+              "meaning": "children"
+            },
+            {
+              "surface": "중에는",
+              "meaning": "among (topic)",
+              "base": "중 + 에는"
+            },
+            {
+              "surface": "마이의",
+              "meaning": "Mai (의)",
+              "base": "마이 + 의"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young / childhood",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "동생",
+              "meaning": "younger sibling"
+            },
+            {
+              "surface": "톰톰도",
+              "meaning": "Tom-Tom (도)",
+              "base": "톰톰 + 도"
+            },
+            {
+              "surface": "있어서",
+              "meaning": "because it was",
+              "base": "있다 + -아/어서"
+            },
+            {
+              "surface": "사건은",
+              "meaning": "incident (은)",
+              "base": "사건 + 은"
+            },
+            {
+              "surface": "더욱",
+              "meaning": "even more"
+            },
+            {
+              "surface": "개인적인",
+              "meaning": "personal",
+              "base": "개인적이다 + -(으)ㄴ"
+            },
+            {
+              "surface": "문제가",
+              "meaning": "problem (가)",
+              "base": "문제 + 가"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        },
+        {
+          "korean": "톰톰까지 사라지자 마이와 어머니 미치의 가족은 우카노에게 진실을 요구했어.",
+          "translation": "When Tom-Tom also disappeared, Mai and her mother Michi's family demanded the truth from Ukano.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "톰톰까지 사라지자 마이와 어머니 미치의 가족은 우카노에게 진실을 요구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "톰톰까지 사라지자 마이와 어머니 미치의 가족은 우카노에게 진실을 요구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "미치의",
+              "meaning": "Michi's"
+            },
+            {
+              "word": "가족은",
+              "meaning": "family (topic)",
+              "note": "가족 + 은"
+            },
+            {
+              "word": "마이와",
+              "meaning": "Mai",
+              "note": "마이 + 와"
+            },
+            {
+              "word": "우카노에게",
+              "meaning": "Ukano to",
+              "note": "우카노 + 에게"
+            },
+            {
+              "word": "진실을",
+              "meaning": "truth",
+              "note": "진실 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "톰톰까지",
+              "meaning": "Tom-Tom until / even",
+              "base": "톰톰 + 까지"
+            },
+            {
+              "surface": "사라지자",
+              "meaning": "might disappear",
+              "base": "사라지다"
+            },
+            {
+              "surface": "마이와",
+              "meaning": "Mai",
+              "base": "마이 + 와"
+            },
+            {
+              "surface": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "surface": "미치의",
+              "meaning": "Michi's"
+            },
+            {
+              "surface": "가족은",
+              "meaning": "family (topic)",
+              "base": "가족 + 은"
+            },
+            {
+              "surface": "우카노에게",
+              "meaning": "Ukano to",
+              "base": "우카노 + 에게"
+            },
+            {
+              "surface": "진실을",
+              "meaning": "truth",
+              "base": "진실 + 을"
+            },
+            {
+              "surface": "요구했어",
+              "meaning": "demands: did / was",
+              "base": "요구하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙과 주코가 조사하고 보니 가면 뒤의 지도자는 아줄라였어.",
+          "translation": "After Aang and Zuko investigated, they discovered that the leader behind the masks was Azula.",
+          "grammar": [
+            {
+              "pattern": "-고 보니",
+              "explanation": "Means “after doing and then realizing.” It introduces a discovery made afterward.",
+              "example": "아앙과 주코가 조사하고 보니 가면 뒤의 지도자는 아줄라였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아앙과 주코가 조사하고 보니 가면 뒤의 지도자는 아줄라였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙과",
+              "meaning": "Aang and",
+              "note": "아앙 + 과"
+            },
+            {
+              "word": "주코가",
+              "meaning": "Zuko (subject)",
+              "note": "주코 + 가"
+            },
+            {
+              "word": "조사하고",
+              "meaning": "investigated and",
+              "note": "조사하다 + -고"
+            },
+            {
+              "word": "보니",
+              "meaning": "afterward they realized",
+              "note": "-고 보니"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko (subject)",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "조사하고",
+              "meaning": "investigated and",
+              "base": "조사하다 + -고"
+            },
+            {
+              "surface": "보니",
+              "meaning": "afterward they realized",
+              "base": "-고 보니"
+            },
+            {
+              "surface": "가면",
+              "meaning": "mask"
+            },
+            {
+              "surface": "뒤의",
+              "meaning": "behind / of behind",
+              "base": "뒤 + 의"
+            },
+            {
+              "surface": "지도자는",
+              "meaning": "leader (topic)",
+              "base": "지도자 + 는"
+            },
+            {
+              "surface": "아줄라였어",
+              "meaning": "was Azula",
+              "base": "아줄라 + 이었어"
+            }
+          ]
+        },
+        {
+          "korean": "아앙과 주코는 용뼈 지하 묘지에서 케무리카게의 실제 역사를 조사했어.",
+          "translation": "Aang and Zuko investigated the true history of the Kemurikage in the Dragonbone Catacombs.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아앙과 주코는 용뼈 지하 묘지에서 케무리카게의 실제 역사를 조사했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아앙과 주코는 용뼈 지하 묘지에서 케무리카게의 실제 역사를 조사했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "역사를",
+              "meaning": "history (object)"
+            },
+            {
+              "word": "묘지에서",
+              "meaning": "at the cemetery"
+            },
+            {
+              "word": "용뼈",
+              "meaning": "dragon-bone"
+            },
+            {
+              "word": "지하",
+              "meaning": "underground"
+            },
+            {
+              "word": "실제",
+              "meaning": "actual / real"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "용뼈",
+              "meaning": "dragon-bone"
+            },
+            {
+              "surface": "지하",
+              "meaning": "underground"
+            },
+            {
+              "surface": "묘지에서",
+              "meaning": "at the cemetery"
+            },
+            {
+              "surface": "케무리카게의",
+              "meaning": "Kemurikage 's / of",
+              "base": "케무리카게 + 의"
+            },
+            {
+              "surface": "실제",
+              "meaning": "actual / real"
+            },
+            {
+              "surface": "역사를",
+              "meaning": "history (object)"
+            },
+            {
+              "surface": "조사했어",
+              "meaning": "investigated",
+              "base": "조사하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 주코가 자비로운 왕이 아니라 공포로 다스리는 왕이 되기를 원했어.",
+          "translation": "Azula wanted Zuko to become a king who ruled through fear rather than a compassionate king.",
+          "grammar": [
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing” and compares two choices or descriptions.",
+              "example": "아줄라는 주코가 자비로운 왕이 아니라 공포로 다스리는 왕이 되기를 원했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "아줄라는 주코가 자비로운 왕이 아니라 공포로 다스리는 왕이 되기를 원했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아줄라는 주코가 자비로운 왕이 아니라 공포로 다스리는 왕이 되기를 원했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "주코가",
+              "meaning": "Zuko (subject)",
+              "note": "주코 + 가"
+            },
+            {
+              "word": "자비로운",
+              "meaning": "compassionate",
+              "note": "자비롭다 + -(으)ㄴ"
+            },
+            {
+              "word": "왕이",
+              "meaning": "king (complement)",
+              "note": "왕 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko (subject)",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "자비로운",
+              "meaning": "compassionate",
+              "base": "자비롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "왕이",
+              "meaning": "king (subject/complement)",
+              "base": "왕 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "공포로",
+              "meaning": "through fear",
+              "base": "공포 + 로"
+            },
+            {
+              "surface": "다스리는",
+              "meaning": "ruling",
+              "base": "다스리다 + -는"
+            },
+            {
+              "surface": "왕이",
+              "meaning": "king (complement)",
+              "base": "왕 + 이"
+            },
+            {
+              "surface": "되기를",
+              "meaning": "becoming (object)",
+              "base": "되다 + -기 + 를"
+            },
+            {
+              "surface": "원했어",
+              "meaning": "wanted",
+              "base": "원하다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라는 얼굴을 가리고 옛 치료소에서 탈출시킨 여성들과 함께 가짜 영혼 역할을 했어.",
+          "translation": "Azula concealed her face and played the false spirits together with women she had freed from the institution.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아줄라는 얼굴을 가리고 옛 치료소에서 탈출시킨 여성들과 함께 가짜 영혼 역할을 했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "아줄라는 얼굴을 가리고 옛 치료소에서 탈출시킨 여성들과 함께 가짜 영혼 역할을 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 얼굴을 가리고 옛 치료소에서 탈출시킨 여성들과 함께 가짜 영혼 역할을 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "역할을",
+              "meaning": "role (object)"
+            },
+            {
+              "word": "여성들과",
+              "meaning": "with women"
+            },
+            {
+              "word": "가리고",
+              "meaning": "covered / hid and"
+            },
+            {
+              "word": "가짜",
+              "meaning": "fake"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "가리고",
+              "meaning": "covered / hid and"
+            },
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "치료소에서",
+              "meaning": "institution / treatment center",
+              "base": "치료소 + 에서"
+            },
+            {
+              "surface": "탈출시킨",
+              "meaning": "to escape / planned escape",
+              "base": "탈출하다"
+            },
+            {
+              "surface": "여성들과",
+              "meaning": "with women"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "가짜",
+              "meaning": "fake"
+            },
+            {
+              "surface": "영혼",
+              "meaning": "spirit"
+            },
+            {
+              "surface": "역할을",
+              "meaning": "role (object)"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "마이의 새 남자 친구 케이로는 처음에는 비밀 단체의 첩자였지만 나중에는 아이들을 돕기로 했어.",
+          "translation": "Mai's new boyfriend Kei Lo was initially a spy for the secret society but later chose to help the children.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "마이의 새 남자 친구 케이로는 처음에는 비밀 단체의 첩자였지만 나중에는 아이들을 돕기로 했어."
+            },
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decided to do.”",
+              "example": "마이의 새 남자 친구 케이로는 처음에는 비밀 단체의 첩자였지만 나중에는 아이들을 돕기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "마이의 새 남자 친구 케이로는 처음에는 비밀 단체의 첩자였지만 나중에는 아이들을 돕기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마이의",
+              "meaning": "Mai (의)",
+              "note": "마이 + 의"
+            },
+            {
+              "word": "남자",
+              "meaning": "man / male"
+            },
+            {
+              "word": "친구",
+              "meaning": "friend"
+            },
+            {
+              "word": "케이로는",
+              "meaning": "Kei Lo (는)",
+              "note": "케이로 + 는"
+            },
+            {
+              "word": "처음에는",
+              "meaning": "at first (topic)",
+              "note": "처음 + 에는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이의",
+              "meaning": "Mai (의)",
+              "base": "마이 + 의"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "남자",
+              "meaning": "man / male"
+            },
+            {
+              "surface": "친구",
+              "meaning": "friend"
+            },
+            {
+              "surface": "케이로는",
+              "meaning": "Kei Lo (는)",
+              "base": "케이로 + 는"
+            },
+            {
+              "surface": "처음에는",
+              "meaning": "at first (topic)",
+              "base": "처음 + 에는"
+            },
+            {
+              "surface": "비밀",
+              "meaning": "secret"
+            },
+            {
+              "surface": "단체의",
+              "meaning": "organization (의)",
+              "base": "단체 + 의"
+            },
+            {
+              "surface": "첩자였지만",
+              "meaning": "was a spy, but",
+              "base": "첩자이다 + -였지만"
+            },
+            {
+              "surface": "나중에는",
+              "meaning": "later (는)",
+              "base": "나중에 + 는"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "돕기로",
+              "meaning": "decided to help",
+              "base": "돕다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "케이 로는 우카노를 위해 마이에게 접근했지만 그녀에게 진심을 느끼며 편을 바꿨어.",
+          "translation": "Kei Lo approached Mai on Ukano's behalf, but developed genuine feelings for her and changed sides.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "케이 로는 우카노를 위해 마이에게 접근했지만 그녀에게 진심을 느끼며 편을 바꿨어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "케이 로는 우카노를 위해 마이에게 접근했지만 그녀에게 진심을 느끼며 편을 바꿨어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "진심을",
+              "meaning": "true feelings / sincerity (object)"
+            },
+            {
+              "word": "로는",
+              "meaning": "as / by (topic)"
+            },
+            {
+              "word": "편을",
+              "meaning": "side (object)"
+            },
+            {
+              "word": "케이",
+              "meaning": "Kei"
+            },
+            {
+              "word": "바꿨어",
+              "meaning": "changed"
+            }
+          ],
+          "words": [
+            {
+              "surface": "케이",
+              "meaning": "Kei"
+            },
+            {
+              "surface": "로는",
+              "meaning": "as / by (topic)"
+            },
+            {
+              "surface": "우카노를",
+              "meaning": "Ukano (object)",
+              "base": "우카노 + 를"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "마이에게",
+              "meaning": "Mai to",
+              "base": "마이 + 에게"
+            },
+            {
+              "surface": "접근했지만",
+              "meaning": "접근: did, but",
+              "base": "접근하다"
+            },
+            {
+              "surface": "그녀에게",
+              "meaning": "to her",
+              "base": "그녀 + 에게"
+            },
+            {
+              "surface": "진심을",
+              "meaning": "true feelings / sincerity (object)"
+            },
+            {
+              "surface": "느끼며",
+              "meaning": "felt",
+              "base": "느끼다"
+            },
+            {
+              "surface": "편을",
+              "meaning": "side (object)"
+            },
+            {
+              "surface": "바꿨어",
+              "meaning": "changed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라와 동료들은 연기와 가면을 이용해 진짜 영혼처럼 보이도록 사람들을 속였어.",
+          "translation": "Azula and her companions used smoke and masks to deceive people into thinking they were real spirits.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라와 동료들은 연기와 가면을 이용해 진짜 영혼처럼 보이도록 사람들을 속였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라와",
+              "meaning": "Azula (와)",
+              "note": "아줄라 + 와"
+            },
+            {
+              "word": "동료들은",
+              "meaning": "companions (topic)",
+              "note": "동료들 + 은"
+            },
+            {
+              "word": "연기와",
+              "meaning": "smoke (와)",
+              "note": "연기 + 와"
+            },
+            {
+              "word": "가면을",
+              "meaning": "mask (을)",
+              "note": "가면 + 을"
+            },
+            {
+              "word": "이용해",
+              "meaning": "using",
+              "note": "이용하다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라와",
+              "meaning": "Azula (와)",
+              "base": "아줄라 + 와"
+            },
+            {
+              "surface": "동료들은",
+              "meaning": "companions (topic)",
+              "base": "동료들 + 은"
+            },
+            {
+              "surface": "연기와",
+              "meaning": "smoke (와)",
+              "base": "연기 + 와"
+            },
+            {
+              "surface": "가면을",
+              "meaning": "mask (을)",
+              "base": "가면 + 을"
+            },
+            {
+              "surface": "이용해",
+              "meaning": "using",
+              "base": "이용하다 + -아/어"
+            },
+            {
+              "surface": "진짜",
+              "meaning": "real / truly"
+            },
+            {
+              "surface": "영혼처럼",
+              "meaning": "spirit (처럼)",
+              "base": "영혼 + 처럼"
+            },
+            {
+              "surface": "보이도록",
+              "meaning": "appear / look",
+              "base": "보이다"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people (object)",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "속였어",
+              "meaning": "deceived",
+              "base": "속이다"
+            }
+          ]
+        },
+        {
+          "korean": "우카노는 아줄라가 아이들까지 이용하자 자신도 속았다는 사실을 깨달았어.",
+          "translation": "When Azula began using the children, Ukano realized that he too had been manipulated.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "우카노는 아줄라가 아이들까지 이용하자 자신도 속았다는 사실을 깨달았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우카노는 아줄라가 아이들까지 이용하자 자신도 속았다는 사실을 깨달았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "속았다는",
+              "meaning": "that one was deceived"
+            },
+            {
+              "word": "우카노는",
+              "meaning": "Ukano",
+              "note": "우카노 + 는"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "사실을",
+              "meaning": "fact",
+              "note": "사실 + 을"
+            },
+            {
+              "word": "아이들까지",
+              "meaning": "children until / even",
+              "note": "아이들 + 까지"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우카노는",
+              "meaning": "Ukano",
+              "base": "우카노 + 는"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "아이들까지",
+              "meaning": "children until / even",
+              "base": "아이들 + 까지"
+            },
+            {
+              "surface": "이용하자",
+              "meaning": "using: when / upon doing",
+              "base": "이용하다"
+            },
+            {
+              "surface": "자신도",
+              "meaning": "even himself",
+              "base": "자신 + 도"
+            },
+            {
+              "surface": "속았다는",
+              "meaning": "that one was deceived"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "깨달았어",
+              "meaning": "realized",
+              "base": "깨닫다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "주코는 아이들을 찾으려고 도시를 엄하게 통제하다가 친구들과 부딪쳤어.",
+          "translation": "While trying to find the children, Zuko strictly controlled the city and ended up clashing with his friends.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "주코는 아이들을 찾으려고 도시를 엄하게 통제하다가 친구들과 부딪쳤어."
+            },
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that one action was in progress and then changed, stopped, or was interrupted.",
+              "example": "주코는 아이들을 찾으려고 도시를 엄하게 통제하다가 친구들과 부딪쳤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "주코는 아이들을 찾으려고 도시를 엄하게 통제하다가 친구들과 부딪쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "아이들을",
+              "meaning": "children (object)",
+              "note": "아이들 + 을"
+            },
+            {
+              "word": "찾으려고",
+              "meaning": "in order to find",
+              "note": "찾다 + -(으)려고"
+            },
+            {
+              "word": "도시를",
+              "meaning": "city (object)",
+              "note": "도시 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "찾으려고",
+              "meaning": "in order to find",
+              "base": "찾다 + -(으)려고"
+            },
+            {
+              "surface": "도시를",
+              "meaning": "city (object)",
+              "base": "도시 + 를"
+            },
+            {
+              "surface": "엄하게",
+              "meaning": "strictly",
+              "base": "엄하다 + -게"
+            },
+            {
+              "surface": "통제하다가",
+              "meaning": "while controlling, then",
+              "base": "통제하다 + -다가"
+            },
+            {
+              "surface": "친구들과",
+              "meaning": "with friends",
+              "base": "친구들 + 과"
+            },
+            {
+              "surface": "부딪쳤어",
+              "meaning": "clashed",
+              "base": "부딪치다"
+            }
+          ]
+        },
+        {
+          "korean": "주코는 납치를 막으려고 통행 금지와 강한 검문을 실시했지만 공포만 더 커졌어.",
+          "translation": "Zuko imposed a curfew and strict searches to stop the kidnappings, but only increased the fear.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "주코는 납치를 막으려고 통행 금지와 강한 검문을 실시했지만 공포만 더 커졌어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "주코는 납치를 막으려고 통행 금지와 강한 검문을 실시했지만 공포만 더 커졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "주코는 납치를 막으려고 통행 금지와 강한 검문을 실시했지만 공포만 더 커졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "검문을",
+              "meaning": "inspection / checkpoint (object)"
+            },
+            {
+              "word": "막으려고",
+              "meaning": "in order to stop"
+            },
+            {
+              "word": "주코는",
+              "meaning": "Zuko",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "납치를",
+              "meaning": "kidnapped",
+              "note": "납치하다"
+            },
+            {
+              "word": "금지와",
+              "meaning": "prohibition",
+              "note": "금지 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "납치를",
+              "meaning": "kidnapped",
+              "base": "납치하다"
+            },
+            {
+              "surface": "막으려고",
+              "meaning": "in order to stop"
+            },
+            {
+              "surface": "통행",
+              "meaning": "passage"
+            },
+            {
+              "surface": "금지와",
+              "meaning": "prohibition",
+              "base": "금지 + 와"
+            },
+            {
+              "surface": "강한",
+              "meaning": "strong",
+              "base": "강하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "검문을",
+              "meaning": "inspection / checkpoint (object)"
+            },
+            {
+              "surface": "실시했지만",
+              "meaning": "실시: did, but",
+              "base": "실시하다"
+            },
+            {
+              "surface": "공포만",
+              "meaning": "through fear only",
+              "base": "공포 + 만"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "커졌어",
+              "meaning": "grew / increased",
+              "base": "커지다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "마이는 자신의 아버지가 단체를 이끌었다는 사실을 알고도 아이들을 구하는 데 협력했어.",
+          "translation": "Even after learning that her father led the group, Mai helped rescue the children.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "마이는 자신의 아버지가 단체를 이끌었다는 사실을 알고도 아이들을 구하는 데 협력했어."
+            },
+            {
+              "pattern": "-아/어도 / -더라도",
+              "explanation": "Means “even if / even though.” -더라도 is usually stronger and more hypothetical.",
+              "example": "마이는 자신의 아버지가 단체를 이끌었다는 사실을 알고도 아이들을 구하는 데 협력했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "마이는 자신의 아버지가 단체를 이끌었다는 사실을 알고도 아이들을 구하는 데 협력했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마이는",
+              "meaning": "Mai (topic)",
+              "note": "마이 + 는"
+            },
+            {
+              "word": "자신의",
+              "meaning": "her own",
+              "note": "자신 + 의"
+            },
+            {
+              "word": "아버지가",
+              "meaning": "father (subject)",
+              "note": "아버지 + 가"
+            },
+            {
+              "word": "단체를",
+              "meaning": "group (object)",
+              "note": "단체 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이는",
+              "meaning": "Mai (topic)",
+              "base": "마이 + 는"
+            },
+            {
+              "surface": "자신의",
+              "meaning": "her own",
+              "base": "자신 + 의"
+            },
+            {
+              "surface": "아버지가",
+              "meaning": "father (subject)",
+              "base": "아버지 + 가"
+            },
+            {
+              "surface": "단체를",
+              "meaning": "group (object)",
+              "base": "단체 + 를"
+            },
+            {
+              "surface": "이끌었다는",
+              "meaning": "that he led",
+              "base": "이끌다 + -었다는"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact (object)",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "알고도",
+              "meaning": "even knowing",
+              "base": "알다 + -고도"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "구하는",
+              "meaning": "rescuing",
+              "base": "구하다 + -는"
+            },
+            {
+              "surface": "데",
+              "meaning": "in doing / situation"
+            },
+            {
+              "surface": "협력했어",
+              "meaning": "cooperated",
+              "base": "협력하다"
+            }
+          ]
+        },
+        {
+          "korean": "마이는 우카노가 자기 아버지여도 잘못된 반란을 도울 수 없다고 분명히 했어.",
+          "translation": "Mai made clear that even though Ukano was her father, she could not support his wrongful rebellion.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "마이는 우카노가 자기 아버지여도 잘못된 반란을 도울 수 없다고 분명히 했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "마이는 우카노가 자기 아버지여도 잘못된 반란을 도울 수 없다고 분명히 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "마이는 우카노가 자기 아버지여도 잘못된 반란을 도울 수 없다고 분명히 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "분명히",
+              "meaning": "clearly"
+            },
+            {
+              "word": "우카노가",
+              "meaning": "Ukano (subject)",
+              "note": "우카노 + 가"
+            },
+            {
+              "word": "도울",
+              "meaning": "to help"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "마이는",
+              "meaning": "Mai",
+              "note": "마이 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이는",
+              "meaning": "Mai",
+              "base": "마이 + 는"
+            },
+            {
+              "surface": "우카노가",
+              "meaning": "Ukano (subject)",
+              "base": "우카노 + 가"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "아버지여도",
+              "meaning": "father",
+              "base": "아버지"
+            },
+            {
+              "surface": "잘못된",
+              "meaning": "might have been wrong",
+              "base": "잘못하다"
+            },
+            {
+              "surface": "반란을",
+              "meaning": "rebellion",
+              "base": "반란 + 을"
+            },
+            {
+              "surface": "도울",
+              "meaning": "to help"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "없다고",
+              "meaning": "that it was impossible",
+              "base": "없다 + -다고"
+            },
+            {
+              "surface": "분명히",
+              "meaning": "clearly"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "주코가 통행 금지와 강한 감시를 명령하자 수도의 시민들은 그가 오자이처럼 변한다고 걱정했어.",
+          "translation": "When Zuko ordered a curfew and strict surveillance, citizens worried that he was becoming like Ozai.",
+          "grammar": [
+            {
+              "pattern": "-자",
+              "explanation": "Means “when / once” and introduces the situation that causes the next event.",
+              "example": "주코가 통행 금지와 강한 감시를 명령하자 수도의 시민들은 그가 오자이처럼 변한다고 걱정했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "주코가 통행 금지와 강한 감시를 명령하자 수도의 시민들은 그가 오자이처럼 변한다고 걱정했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "주코가 통행 금지와 강한 감시를 명령하자 수도의 시민들은 그가 오자이처럼 변한다고 걱정했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코가",
+              "meaning": "Zuko (subject)",
+              "note": "주코 + 가"
+            },
+            {
+              "word": "통행",
+              "meaning": "passage"
+            },
+            {
+              "word": "금지와",
+              "meaning": "prohibition (와)",
+              "note": "금지 + 와"
+            },
+            {
+              "word": "강한",
+              "meaning": "strong",
+              "note": "강하다 + -(으)ㄴ"
+            },
+            {
+              "word": "감시를",
+              "meaning": "surveillance (를)",
+              "note": "감시 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코가",
+              "meaning": "Zuko (subject)",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "통행",
+              "meaning": "passage"
+            },
+            {
+              "surface": "금지와",
+              "meaning": "prohibition (와)",
+              "base": "금지 + 와"
+            },
+            {
+              "surface": "강한",
+              "meaning": "strong",
+              "base": "강하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "감시를",
+              "meaning": "surveillance (를)",
+              "base": "감시 + 를"
+            },
+            {
+              "surface": "명령하자",
+              "meaning": "order",
+              "base": "명령하다"
+            },
+            {
+              "surface": "수도의",
+              "meaning": "capital (의)",
+              "base": "수도 + 의"
+            },
+            {
+              "surface": "시민들은",
+              "meaning": "citizens (들은)",
+              "base": "시민 + 들은"
+            },
+            {
+              "surface": "그가",
+              "meaning": "he (subject)",
+              "base": "그 + 가"
+            },
+            {
+              "surface": "오자이처럼",
+              "meaning": "Ozai (처럼)",
+              "base": "오자이 + 처럼"
+            },
+            {
+              "surface": "변한다고",
+              "meaning": "that he was changing",
+              "base": "변하다 + -ㄴ다고"
+            },
+            {
+              "surface": "걱정했어",
+              "meaning": "worried",
+              "base": "걱정하다"
+            }
+          ]
+        },
+        {
+          "korean": "시민들은 군인들이 거리를 통제하는 모습을 보고 주코가 오자이처럼 된다고 불안해했어.",
+          "translation": "Seeing soldiers control the streets, citizens feared that Zuko was becoming like Ozai.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "시민들은 군인들이 거리를 통제하는 모습을 보고 주코가 오자이처럼 된다고 불안해했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "시민들은 군인들이 거리를 통제하는 모습을 보고 주코가 오자이처럼 된다고 불안해했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "시민들은 군인들이 거리를 통제하는 모습을 보고 주코가 오자이처럼 된다고 불안해했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "거리를",
+              "meaning": "street / distance (object)"
+            },
+            {
+              "word": "된다고",
+              "meaning": "that it becomes / is allowed"
+            },
+            {
+              "word": "군인들이",
+              "meaning": "soldiers (subject)",
+              "note": "군인들 + 이"
+            },
+            {
+              "word": "시민들은",
+              "meaning": "citizens",
+              "note": "시민 + 들은"
+            },
+            {
+              "word": "통제하는",
+              "meaning": "while controlling, then: doing",
+              "note": "통제하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "시민들은",
+              "meaning": "citizens",
+              "base": "시민 + 들은"
+            },
+            {
+              "surface": "군인들이",
+              "meaning": "soldiers (subject)",
+              "base": "군인들 + 이"
+            },
+            {
+              "surface": "거리를",
+              "meaning": "street / distance (object)"
+            },
+            {
+              "surface": "통제하는",
+              "meaning": "while controlling, then: doing",
+              "base": "통제하다"
+            },
+            {
+              "surface": "모습을",
+              "meaning": "image / appearance",
+              "base": "모습 + 을"
+            },
+            {
+              "surface": "보고",
+              "meaning": "after seeing / and saw",
+              "base": "보다 + -고"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "오자이처럼",
+              "meaning": "Ozai",
+              "base": "오자이 + 처럼"
+            },
+            {
+              "surface": "된다고",
+              "meaning": "that it becomes / is allowed"
+            },
+            {
+              "surface": "불안해했어",
+              "meaning": "felt anxious",
+              "base": "불안해하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "마이는 아버지의 계획을 거부하고 가족과 아이들을 지키기 위해 그와 맞섰어.",
+          "translation": "Mai rejected her father's plan and stood against him to protect her family and the children.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "마이는 아버지의 계획을 거부하고 가족과 아이들을 지키기 위해 그와 맞섰어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "마이는 아버지의 계획을 거부하고 가족과 아이들을 지키기 위해 그와 맞섰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마이는",
+              "meaning": "Mai (topic)",
+              "note": "마이 + 는"
+            },
+            {
+              "word": "아버지의",
+              "meaning": "father (의)",
+              "note": "아버지 + 의"
+            },
+            {
+              "word": "계획을",
+              "meaning": "plan (object)",
+              "note": "계획 + 을"
+            },
+            {
+              "word": "거부하고",
+              "meaning": "reject",
+              "note": "거부하다"
+            },
+            {
+              "word": "가족과",
+              "meaning": "family (과)",
+              "note": "가족 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이는",
+              "meaning": "Mai (topic)",
+              "base": "마이 + 는"
+            },
+            {
+              "surface": "아버지의",
+              "meaning": "father (의)",
+              "base": "아버지 + 의"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan (object)",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "거부하고",
+              "meaning": "reject",
+              "base": "거부하다"
+            },
+            {
+              "surface": "가족과",
+              "meaning": "family (과)",
+              "base": "가족 + 과"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "지키기",
+              "meaning": "protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "그와",
+              "meaning": "he (와)",
+              "base": "그 + 와"
+            },
+            {
+              "surface": "맞섰어",
+              "meaning": "stood against",
+              "base": "맞서다"
+            }
+          ]
+        },
+        {
+          "korean": "우카노는 숨겨진 통로의 위치를 알려 주며 아이들을 구하는 데 협력했어.",
+          "translation": "Ukano helped rescue the children by revealing the location of the hidden passage.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "우카노는 숨겨진 통로의 위치를 알려 주며 아이들을 구하는 데 협력했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "우카노는 숨겨진 통로의 위치를 알려 주며 아이들을 구하는 데 협력했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우카노는 숨겨진 통로의 위치를 알려 주며 아이들을 구하는 데 협력했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "위치를",
+              "meaning": "location (object)"
+            },
+            {
+              "word": "주며",
+              "meaning": "while giving"
+            },
+            {
+              "word": "우카노는",
+              "meaning": "Ukano",
+              "note": "우카노 + 는"
+            },
+            {
+              "word": "통로의",
+              "meaning": "passage 's / of",
+              "note": "통로 + 의"
+            },
+            {
+              "word": "아이들을",
+              "meaning": "children",
+              "note": "아이들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우카노는",
+              "meaning": "Ukano",
+              "base": "우카노 + 는"
+            },
+            {
+              "surface": "숨겨진",
+              "meaning": "hidden",
+              "base": "숨겨지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "통로의",
+              "meaning": "passage 's / of",
+              "base": "통로 + 의"
+            },
+            {
+              "surface": "위치를",
+              "meaning": "location (object)"
+            },
+            {
+              "surface": "알려",
+              "meaning": "told",
+              "base": "알리다 + -아/어"
+            },
+            {
+              "surface": "주며",
+              "meaning": "while giving"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "구하는",
+              "meaning": "rescuing",
+              "base": "구하다 + -는"
+            },
+            {
+              "surface": "데",
+              "meaning": "in doing / situation"
+            },
+            {
+              "surface": "협력했어",
+              "meaning": "cooperated",
+              "base": "협력하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "친구들은 숨겨진 통로를 찾아 아이들을 구했지만 아줄라는 연기 속으로 사라졌어.",
+          "translation": "The friends found a hidden passage and rescued the children, but Azula disappeared into the smoke.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "친구들은 숨겨진 통로를 찾아 아이들을 구했지만 아줄라는 연기 속으로 사라졌어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "친구들은 숨겨진 통로를 찾아 아이들을 구했지만 아줄라는 연기 속으로 사라졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "친구들은 숨겨진 통로를 찾아 아이들을 구했지만 아줄라는 연기 속으로 사라졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "친구들은",
+              "meaning": "friends (topic)",
+              "note": "친구들 + 은"
+            },
+            {
+              "word": "숨겨진",
+              "meaning": "hidden",
+              "note": "숨겨지다 + -(으)ㄴ"
+            },
+            {
+              "word": "통로를",
+              "meaning": "passage (object)",
+              "note": "통로 + 를"
+            },
+            {
+              "word": "찾아",
+              "meaning": "found and",
+              "note": "찾다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "친구들은",
+              "meaning": "friends (topic)",
+              "base": "친구들 + 은"
+            },
+            {
+              "surface": "숨겨진",
+              "meaning": "hidden",
+              "base": "숨겨지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "통로를",
+              "meaning": "passage (object)",
+              "base": "통로 + 를"
+            },
+            {
+              "surface": "찾아",
+              "meaning": "found and",
+              "base": "찾다 + -아/어"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children (object)",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "구했지만",
+              "meaning": "rescued but",
+              "base": "구하다 + -았지만"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "연기",
+              "meaning": "smoke"
+            },
+            {
+              "surface": "속으로",
+              "meaning": "into",
+              "base": "속 + 으로"
+            },
+            {
+              "surface": "사라졌어",
+              "meaning": "disappeared",
+              "base": "사라지다"
+            }
+          ]
+        },
+        {
+          "korean": "주코와 친구들이 아이들을 풀어 준 뒤 아줄라는 주코와 싸우며 자기 목적을 설명했어.",
+          "translation": "After Zuko and his friends freed the children, Azula fought Zuko and explained her purpose.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "주코와 친구들이 아이들을 풀어 준 뒤 아줄라는 주코와 싸우며 자기 목적을 설명했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "주코와 친구들이 아이들을 풀어 준 뒤 아줄라는 주코와 싸우며 자기 목적을 설명했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "주코와 친구들이 아이들을 풀어 준 뒤 아줄라는 주코와 싸우며 자기 목적을 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "목적을",
+              "meaning": "purpose (object)"
+            },
+            {
+              "word": "풀어",
+              "meaning": "released / untied"
+            },
+            {
+              "word": "주코와",
+              "meaning": "Zuko",
+              "note": "주코 + 와"
+            },
+            {
+              "word": "친구들이",
+              "meaning": "friends",
+              "note": "친구들 + 이"
+            },
+            {
+              "word": "아이들을",
+              "meaning": "children",
+              "note": "아이들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코와",
+              "meaning": "Zuko",
+              "base": "주코 + 와"
+            },
+            {
+              "surface": "친구들이",
+              "meaning": "friends",
+              "base": "친구들 + 이"
+            },
+            {
+              "surface": "아이들을",
+              "meaning": "children",
+              "base": "아이들 + 을"
+            },
+            {
+              "surface": "풀어",
+              "meaning": "released / untied"
+            },
+            {
+              "surface": "준",
+              "meaning": "June"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "주코와",
+              "meaning": "Zuko",
+              "base": "주코 + 와"
+            },
+            {
+              "surface": "싸우며",
+              "meaning": "fight",
+              "base": "싸우다"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "목적을",
+              "meaning": "purpose (object)"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "설명: did / was",
+              "base": "설명하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "주코는 두려움을 이용하기보다 사람들의 믿음을 얻는 왕이 되기로 했어.",
+          "translation": "Zuko decided to become a king who earned people's trust rather than using fear.",
+          "grammar": [
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing” and compares two choices or descriptions.",
+              "example": "주코는 두려움을 이용하기보다 사람들의 믿음을 얻는 왕이 되기로 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does...”",
+              "example": "주코는 두려움을 이용하기보다 사람들의 믿음을 얻는 왕이 되기로 했어."
+            },
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "주코는 두려움을 이용하기보다 사람들의 믿음을 얻는 왕이 되기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "두려움을",
+              "meaning": "fear (object)",
+              "note": "두려움 + 을"
+            },
+            {
+              "word": "이용하기보다",
+              "meaning": "rather than using",
+              "note": "이용하다 + -기보다"
+            },
+            {
+              "word": "사람들의",
+              "meaning": "people's",
+              "note": "사람들 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "두려움을",
+              "meaning": "fear (object)",
+              "base": "두려움 + 을"
+            },
+            {
+              "surface": "이용하기보다",
+              "meaning": "rather than using",
+              "base": "이용하다 + -기보다"
+            },
+            {
+              "surface": "사람들의",
+              "meaning": "people's",
+              "base": "사람들 + 의"
+            },
+            {
+              "surface": "믿음을",
+              "meaning": "trust (object)",
+              "base": "믿음 + 을"
+            },
+            {
+              "surface": "얻는",
+              "meaning": "earning",
+              "base": "얻다 + -는"
+            },
+            {
+              "surface": "왕이",
+              "meaning": "king (complement)",
+              "base": "왕 + 이"
+            },
+            {
+              "surface": "되기로",
+              "meaning": "decided to become",
+              "base": "되다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "사건 뒤 주코는 시민들 앞에서 지나친 통제를 사과하고 더 나은 왕이 되겠다고 약속했어.",
+          "translation": "After the crisis, Zuko apologized to the citizens for his excessive control and promised to become a better ruler.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "사건 뒤 주코는 시민들 앞에서 지나친 통제를 사과하고 더 나은 왕이 되겠다고 약속했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "사건 뒤 주코는 시민들 앞에서 지나친 통제를 사과하고 더 나은 왕이 되겠다고 약속했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "사건 뒤 주코는 시민들 앞에서 지나친 통제를 사과하고 더 나은 왕이 되겠다고 약속했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "지나친",
+              "meaning": "excessive"
+            },
+            {
+              "word": "나은",
+              "meaning": "better"
+            },
+            {
+              "word": "되겠다고",
+              "meaning": "that one would become"
+            },
+            {
+              "word": "주코는",
+              "meaning": "Zuko",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "앞에서",
+              "meaning": "in front of",
+              "note": "앞 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사건",
+              "meaning": "incident"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "시민들",
+              "meaning": "citizens"
+            },
+            {
+              "surface": "앞에서",
+              "meaning": "in front of",
+              "base": "앞 + 에서"
+            },
+            {
+              "surface": "지나친",
+              "meaning": "excessive"
+            },
+            {
+              "surface": "통제를",
+              "meaning": "while controlling, then",
+              "base": "통제하다"
+            },
+            {
+              "surface": "사과하고",
+              "meaning": "apology and / with",
+              "base": "사과 + 하고"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "나은",
+              "meaning": "better"
+            },
+            {
+              "surface": "왕이",
+              "meaning": "king",
+              "base": "왕 + 이"
+            },
+            {
+              "surface": "되겠다고",
+              "meaning": "that one would become"
+            },
+            {
+              "surface": "약속했어",
+              "meaning": "promised",
+              "base": "약속하다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 4
+}

@@ -1,0 +1,3515 @@
+{
+  "id": "avatar-toph-metalbending-academy",
+  "title": "토프의 금속 굽히기 학교",
+  "englishTitle": "Avatar — Toph Beifong’s Metalbending Academy",
+  "level": "TOPIK 2–3",
+  "description": "성공한 학교가 지루해진 토프가 새로운 재능과 목적을 찾는 이야기.",
+  "theme": "sage",
+  "thumbnail": "thumbnails/08_tophs_metalbending_academy.jpg",
+  "thumbnailAlt": "Avatar — Toph Beifong’s Metalbending Academy",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "토프의 금속 굽히기 학교는 성공했지만 토프는 매일 같은 생활이 지루했어.",
+          "translation": "Toph's metalbending academy was successful, but Toph was bored by the same routine every day.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "토프의 금속 굽히기 학교는 성공했지만 토프는 매일 같은 생활이 지루했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "토프의 금속 굽히기 학교는 성공했지만 토프는 매일 같은 생활이 지루했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "굽히기",
+              "meaning": "bending",
+              "note": "굽히다 + -기"
+            },
+            {
+              "word": "학교는",
+              "meaning": "school (topic)",
+              "note": "학교 + 는"
+            },
+            {
+              "word": "성공했지만",
+              "meaning": "succeeded but",
+              "note": "성공하다 + -았지만"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "금속",
+              "meaning": "metal"
+            },
+            {
+              "surface": "굽히기",
+              "meaning": "bending",
+              "base": "굽히다 + -기"
+            },
+            {
+              "surface": "학교는",
+              "meaning": "school (topic)",
+              "base": "학교 + 는"
+            },
+            {
+              "surface": "성공했지만",
+              "meaning": "succeeded but",
+              "base": "성공하다 + -았지만"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "매일",
+              "meaning": "every day"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "생활이",
+              "meaning": "life / routine (subject)",
+              "base": "생활 + 이"
+            },
+            {
+              "surface": "지루했어",
+              "meaning": "was boring",
+              "base": "지루하다"
+            }
+          ]
+        },
+        {
+          "korean": "학교의 첫 학생들이 이제 수업을 맡을 만큼 성장했기 때문에 토프가 직접 할 일은 줄어들었어.",
+          "translation": "Because the academy's first students had grown enough to teach, Toph had less work to do herself.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "학교의 첫 학생들이 이제 수업을 맡을 만큼 성장했기 때문에 토프가 직접 할 일은 줄어들었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "학교의 첫 학생들이 이제 수업을 맡을 만큼 성장했기 때문에 토프가 직접 할 일은 줄어들었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "맡을",
+              "meaning": "to take charge of"
+            },
+            {
+              "word": "줄어들었어",
+              "meaning": "decreased"
+            },
+            {
+              "word": "수업을",
+              "meaning": "lesson (object)",
+              "note": "수업 + 을"
+            },
+            {
+              "word": "만큼",
+              "meaning": "to the extent / enough to"
+            },
+            {
+              "word": "토프가",
+              "meaning": "Toph (subject)",
+              "note": "토프 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "학교의",
+              "meaning": "school's / of the school",
+              "base": "학교 + 의"
+            },
+            {
+              "surface": "첫",
+              "meaning": "first"
+            },
+            {
+              "surface": "학생들이",
+              "meaning": "students",
+              "base": "학생들 + 이"
+            },
+            {
+              "surface": "이제",
+              "meaning": "now"
+            },
+            {
+              "surface": "수업을",
+              "meaning": "lesson (object)",
+              "base": "수업 + 을"
+            },
+            {
+              "surface": "맡을",
+              "meaning": "to take charge of"
+            },
+            {
+              "surface": "만큼",
+              "meaning": "to the extent / enough to"
+            },
+            {
+              "surface": "성장했기",
+              "meaning": "that they had grown",
+              "base": "성장했다"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "토프가",
+              "meaning": "Toph (subject)",
+              "base": "토프 + 가"
+            },
+            {
+              "surface": "직접",
+              "meaning": "directly"
+            },
+            {
+              "surface": "할",
+              "meaning": "to do / that will do"
+            },
+            {
+              "surface": "일은",
+              "meaning": "work (topic)",
+              "base": "일 + 은"
+            },
+            {
+              "surface": "줄어들었어",
+              "meaning": "decreased"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "소카와 수키가 찾아오자 토프는 모험이 생길지도 모른다고 기대했어.",
+          "translation": "When Sokka and Suki visited, Toph hoped that an adventure might happen.",
+          "grammar": [
+            {
+              "pattern": "-자",
+              "explanation": "Connects two events: “when/as the first event happened, the second followed.” It can imply a quick result, but is not identical to -자마자.",
+              "example": "소카와 수키가 찾아오자 토프는 모험이 생길지도 모른다고 기대했어."
+            },
+            {
+              "pattern": "-(으)ㄹ지도 몰라",
+              "explanation": "Means “might / may.” It expresses uncertain possibility.",
+              "example": "소카와 수키가 찾아오자 토프는 모험이 생길지도 모른다고 기대했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "소카와 수키가 찾아오자 토프는 모험이 생길지도 모른다고 기대했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "수키가",
+              "meaning": "Suki (subject)",
+              "note": "수키 + 가"
+            },
+            {
+              "word": "찾아오자",
+              "meaning": "when they visited",
+              "note": "찾아오다 + -자"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "수키가",
+              "meaning": "Suki (subject)",
+              "base": "수키 + 가"
+            },
+            {
+              "surface": "찾아오자",
+              "meaning": "when they visited",
+              "base": "찾아오다 + -자"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "모험이",
+              "meaning": "adventure (subject)",
+              "base": "모험 + 이"
+            },
+            {
+              "surface": "생길지도",
+              "meaning": "might happen",
+              "base": "생기다 + -(으)ㄹ지도"
+            },
+            {
+              "surface": "모른다고",
+              "meaning": "that it might be unknown",
+              "base": "모르다 + -다고"
+            },
+            {
+              "surface": "기대했어",
+              "meaning": "expected / hoped",
+              "base": "기대하다"
+            }
+          ]
+        },
+        {
+          "korean": "소카와 수키는 토프를 기분 전환시키려고 노래하는 유목민들의 긴 공연에 데려갔어.",
+          "translation": "Sokka and Suki took Toph to a long performance by the nomad singers to cheer her up.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "소카와 수키는 토프를 기분 전환시키려고 노래하는 유목민들의 긴 공연에 데려갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "소카와 수키는 토프를 기분 전환시키려고 노래하는 유목민들의 긴 공연에 데려갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "소카와 수키는 토프를 기분 전환시키려고 노래하는 유목민들의 긴 공연에 데려갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "전환시키려고",
+              "meaning": "in order to refresh / change"
+            },
+            {
+              "word": "토프를",
+              "meaning": "Toph (object)",
+              "note": "토프 + 를"
+            },
+            {
+              "word": "기분",
+              "meaning": "mood"
+            },
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "수키는",
+              "meaning": "Suki",
+              "note": "수키 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "수키는",
+              "meaning": "Suki",
+              "base": "수키 + 는"
+            },
+            {
+              "surface": "토프를",
+              "meaning": "Toph (object)",
+              "base": "토프 + 를"
+            },
+            {
+              "surface": "기분",
+              "meaning": "mood"
+            },
+            {
+              "surface": "전환시키려고",
+              "meaning": "in order to refresh / change"
+            },
+            {
+              "surface": "노래하는",
+              "meaning": "노래: doing",
+              "base": "노래하다"
+            },
+            {
+              "surface": "유목민들의",
+              "meaning": "nomad",
+              "base": "유목민"
+            },
+            {
+              "surface": "긴",
+              "meaning": "long",
+              "base": "길다 + -(으)ㄴ"
+            },
+            {
+              "surface": "공연에",
+              "meaning": "performance to / at",
+              "base": "공연 + 에"
+            },
+            {
+              "surface": "데려갔어",
+              "meaning": "took away",
+              "base": "데려가다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프의 첫 학생인 호툰과 펭가와 다크 원은 이제 초보 학생들을 직접 가르치고 있었어.",
+          "translation": "Toph's first students, Ho Tun, Penga, and the Dark One, were now teaching beginners themselves.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "토프의 첫 학생인 호툰과 펭가와 다크 원은 이제 초보 학생들을 직접 가르치고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프의 첫 학생인 호툰과 펭가와 다크 원은 이제 초보 학생들을 직접 가르치고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "학생인",
+              "meaning": "who is a student",
+              "note": "학생이다 + -(으)ㄴ"
+            },
+            {
+              "word": "호툰과",
+              "meaning": "Ho Tun (과)",
+              "note": "호툰 + 과"
+            },
+            {
+              "word": "펭가와",
+              "meaning": "Penga (와)",
+              "note": "펭가 + 와"
+            },
+            {
+              "word": "다크",
+              "meaning": "Dark"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "첫",
+              "meaning": "first"
+            },
+            {
+              "surface": "학생인",
+              "meaning": "who is a student",
+              "base": "학생이다 + -(으)ㄴ"
+            },
+            {
+              "surface": "호툰과",
+              "meaning": "Ho Tun (과)",
+              "base": "호툰 + 과"
+            },
+            {
+              "surface": "펭가와",
+              "meaning": "Penga (와)",
+              "base": "펭가 + 와"
+            },
+            {
+              "surface": "다크",
+              "meaning": "Dark"
+            },
+            {
+              "surface": "원은",
+              "meaning": "One (은)",
+              "base": "원 + 은"
+            },
+            {
+              "surface": "이제",
+              "meaning": "now"
+            },
+            {
+              "surface": "초보",
+              "meaning": "beginner"
+            },
+            {
+              "surface": "학생들을",
+              "meaning": "student (들을)",
+              "base": "학생 + 들을"
+            },
+            {
+              "surface": "직접",
+              "meaning": "directly"
+            },
+            {
+              "surface": "가르치고",
+              "meaning": "teach",
+              "base": "가르치다"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "were",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "호툰과 펭가와 다크 원은 토프가 자신들을 아직 어린 학생으로만 보는 것에 답답함을 느꼈어.",
+          "translation": "Ho Tun, Penga, and the Dark One were frustrated that Toph still saw them only as young students.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "호툰과 펭가와 다크 원은 토프가 자신들을 아직 어린 학생으로만 보는 것에 답답함을 느꼈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "호툰과 펭가와 다크 원은 토프가 자신들을 아직 어린 학생으로만 보는 것에 답답함을 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "답답함을",
+              "meaning": "frustration (object)"
+            },
+            {
+              "word": "보는",
+              "meaning": "seeing / viewing"
+            },
+            {
+              "word": "토프가",
+              "meaning": "Toph (subject)",
+              "note": "토프 + 가"
+            },
+            {
+              "word": "호툰과",
+              "meaning": "Ho Tun",
+              "note": "호툰 + 과"
+            },
+            {
+              "word": "펭가와",
+              "meaning": "Penga",
+              "note": "펭가 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "호툰과",
+              "meaning": "Ho Tun",
+              "base": "호툰 + 과"
+            },
+            {
+              "surface": "펭가와",
+              "meaning": "Penga",
+              "base": "펭가 + 와"
+            },
+            {
+              "surface": "다크",
+              "meaning": "Dark"
+            },
+            {
+              "surface": "원은",
+              "meaning": "One",
+              "base": "원 + 은"
+            },
+            {
+              "surface": "토프가",
+              "meaning": "Toph (subject)",
+              "base": "토프 + 가"
+            },
+            {
+              "surface": "자신들을",
+              "meaning": "themselves",
+              "base": "자신들 + 을"
+            },
+            {
+              "surface": "아직",
+              "meaning": "yet"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young / childhood",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "학생으로만",
+              "meaning": "student and",
+              "base": "학생"
+            },
+            {
+              "surface": "보는",
+              "meaning": "seeing / viewing"
+            },
+            {
+              "surface": "것에",
+              "meaning": "thing / fact to / at",
+              "base": "것 + 에"
+            },
+            {
+              "surface": "답답함을",
+              "meaning": "frustration (object)"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 토프는 그들의 성장을 제대로 보지 않고 모든 일이 너무 쉬워졌다고 불평했어.",
+          "translation": "But Toph failed to notice their growth and complained that everything had become too easy.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "하지만 토프는 그들의 성장을 제대로 보지 않고 모든 일이 너무 쉬워졌다고 불평했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "하지만 토프는 그들의 성장을 제대로 보지 않고 모든 일이 너무 쉬워졌다고 불평했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "하지만 토프는 그들의 성장을 제대로 보지 않고 모든 일이 너무 쉬워졌다고 불평했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "그들의",
+              "meaning": "he (들의)",
+              "note": "그 + 들의"
+            },
+            {
+              "word": "성장을",
+              "meaning": "growth (object)",
+              "note": "성장 + 을"
+            },
+            {
+              "word": "제대로",
+              "meaning": "properly"
+            },
+            {
+              "word": "보지",
+              "meaning": "see + not / see",
+              "note": "보다 + -지"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "but / however"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "그들의",
+              "meaning": "he (들의)",
+              "base": "그 + 들의"
+            },
+            {
+              "surface": "성장을",
+              "meaning": "growth (object)",
+              "base": "성장 + 을"
+            },
+            {
+              "surface": "제대로",
+              "meaning": "properly"
+            },
+            {
+              "surface": "보지",
+              "meaning": "see + not / see",
+              "base": "보다 + -지"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "모든",
+              "meaning": "all / every"
+            },
+            {
+              "surface": "일이",
+              "meaning": "act / matter (subject)",
+              "base": "일 + 이"
+            },
+            {
+              "surface": "너무",
+              "meaning": "too / very"
+            },
+            {
+              "surface": "쉬워졌다고",
+              "meaning": "that it became easier",
+              "base": "쉬워지다 + -었다고"
+            },
+            {
+              "surface": "불평했어",
+              "meaning": "complained",
+              "base": "불평하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 학교가 안정되자 자신이 더 이상 특별한 일을 하지 않는다고 느꼈어.",
+          "translation": "Once the academy became stable, Toph felt that she was no longer doing anything special.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "토프는 학교가 안정되자 자신이 더 이상 특별한 일을 하지 않는다고 느꼈어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "토프는 학교가 안정되자 자신이 더 이상 특별한 일을 하지 않는다고 느꼈어."
+            },
+            {
+              "pattern": "-자",
+              "explanation": "Connects events: “when / once the first event happened.”",
+              "example": "토프는 학교가 안정되자 자신이 더 이상 특별한 일을 하지 않는다고 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "자신이",
+              "meaning": "oneself (subject)"
+            },
+            {
+              "word": "안정되자",
+              "meaning": "when it became stable"
+            },
+            {
+              "word": "이상",
+              "meaning": "more than / any longer"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "학교가",
+              "meaning": "school",
+              "note": "학교 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "학교가",
+              "meaning": "school",
+              "base": "학교 + 가"
+            },
+            {
+              "surface": "안정되자",
+              "meaning": "when it became stable"
+            },
+            {
+              "surface": "자신이",
+              "meaning": "oneself (subject)"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "이상",
+              "meaning": "more than / any longer"
+            },
+            {
+              "surface": "특별한",
+              "meaning": "special",
+              "base": "특별하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "일을",
+              "meaning": "work",
+              "base": "일 + 을"
+            },
+            {
+              "surface": "하지",
+              "meaning": "make/do + not",
+              "base": "하다 + -지"
+            },
+            {
+              "surface": "않는다고",
+              "meaning": "that it does not",
+              "base": "않다 + -는다고"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "도시를 걷다가 토프는 땅속에서 낯선 진동을 느끼고 비밀 경기장을 발견했어.",
+          "translation": "While walking through the city, Toph felt an unfamiliar vibration underground and discovered a secret arena.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that one action was in progress and then changed, stopped, or was interrupted.",
+              "example": "도시를 걷다가 토프는 땅속에서 낯선 진동을 느끼고 비밀 경기장을 발견했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "도시를 걷다가 토프는 땅속에서 낯선 진동을 느끼고 비밀 경기장을 발견했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "도시를",
+              "meaning": "city (object/path)",
+              "note": "도시 + 를"
+            },
+            {
+              "word": "걷다가",
+              "meaning": "while walking, then",
+              "note": "걷다 + -다가"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "땅속에서",
+              "meaning": "underground",
+              "note": "땅속 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "도시를",
+              "meaning": "city (object/path)",
+              "base": "도시 + 를"
+            },
+            {
+              "surface": "걷다가",
+              "meaning": "while walking, then",
+              "base": "걷다 + -다가"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "땅속에서",
+              "meaning": "underground",
+              "base": "땅속 + 에서"
+            },
+            {
+              "surface": "낯선",
+              "meaning": "unfamiliar",
+              "base": "낯설다 + -(으)ㄴ"
+            },
+            {
+              "surface": "진동을",
+              "meaning": "vibration (object)",
+              "base": "진동 + 을"
+            },
+            {
+              "surface": "느끼고",
+              "meaning": "felt and",
+              "base": "느끼다 + -고"
+            },
+            {
+              "surface": "비밀",
+              "meaning": "secret"
+            },
+            {
+              "surface": "경기장을",
+              "meaning": "arena (object)",
+              "base": "경기장 + 을"
+            },
+            {
+              "surface": "발견했어",
+              "meaning": "discovered",
+              "base": "발견하다"
+            }
+          ]
+        },
+        {
+          "korean": "공연장을 나온 토프는 총이라는 음악가와 함께 진동을 따라갔어.",
+          "translation": "After leaving the performance, Toph followed the vibrations together with the musician Chong.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "공연장을 나온 토프는 총이라는 음악가와 함께 진동을 따라갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공연장을 나온 토프는 총이라는 음악가와 함께 진동을 따라갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "총이라는",
+              "meaning": "called Chong"
+            },
+            {
+              "word": "공연장을",
+              "meaning": "performance",
+              "note": "공연"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "음악가와",
+              "meaning": "music",
+              "note": "음악"
+            },
+            {
+              "word": "진동을",
+              "meaning": "vibration",
+              "note": "진동 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공연장을",
+              "meaning": "performance",
+              "base": "공연"
+            },
+            {
+              "surface": "나온",
+              "meaning": "came out of",
+              "base": "나오다 + -(으)ㄴ"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "총이라는",
+              "meaning": "called Chong"
+            },
+            {
+              "surface": "음악가와",
+              "meaning": "music",
+              "base": "음악"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "진동을",
+              "meaning": "vibration",
+              "base": "진동 + 을"
+            },
+            {
+              "surface": "따라갔어",
+              "meaning": "followed",
+              "base": "따라가다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그곳에서는 어린 소년 선이 자신도 모르게 용암을 움직이고 있었어.",
+          "translation": "There, a young boy named Sun was moving lava without realizing it himself.",
+          "grammar": [
+            {
+              "pattern": "-고 있었어",
+              "explanation": "Casual past progressive: “was doing.” It emphasizes an action in progress in the past.",
+              "example": "그곳에서는 어린 소년 선이 자신도 모르게 용암을 움직이고 있었어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "그곳에서는 어린 소년 선이 자신도 모르게 용암을 움직이고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그곳에서는",
+              "meaning": "at that place (topic)",
+              "note": "그곳 + 에서 + 는"
+            },
+            {
+              "word": "어린",
+              "meaning": "young",
+              "note": "어리다 + -(으)ㄴ"
+            },
+            {
+              "word": "선이",
+              "meaning": "Sun (subject)",
+              "note": "선 + 이"
+            },
+            {
+              "word": "자신도",
+              "meaning": "even himself",
+              "note": "자신 + 도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그곳에서는",
+              "meaning": "at that place (topic)",
+              "base": "그곳 + 에서 + 는"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "소년",
+              "meaning": "boy"
+            },
+            {
+              "surface": "선이",
+              "meaning": "Sun (subject)",
+              "base": "선 + 이"
+            },
+            {
+              "surface": "자신도",
+              "meaning": "even himself",
+              "base": "자신 + 도"
+            },
+            {
+              "surface": "모르게",
+              "meaning": "without knowing",
+              "base": "모르다 + -게"
+            },
+            {
+              "surface": "용암을",
+              "meaning": "lava (object)",
+              "base": "용암 + 을"
+            },
+            {
+              "surface": "움직이고",
+              "meaning": "moving",
+              "base": "움직이다 + -고"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "비밀 경기장은 돈을 걸고 여러 종류의 벤더들이 싸우는 곳이었어.",
+          "translation": "The secret arena was a place where different kinds of benders fought for bets.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "비밀 경기장은 돈을 걸고 여러 종류의 벤더들이 싸우는 곳이었어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "비밀 경기장은 돈을 걸고 여러 종류의 벤더들이 싸우는 곳이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "비밀 경기장은 돈을 걸고 여러 종류의 벤더들이 싸우는 곳이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "종류의",
+              "meaning": "kind / type of"
+            },
+            {
+              "word": "곳이었어",
+              "meaning": "was a place"
+            },
+            {
+              "word": "경기장은",
+              "meaning": "arena (topic)",
+              "note": "경기장 + 은"
+            },
+            {
+              "word": "걸고",
+              "meaning": "betting / hanging"
+            },
+            {
+              "word": "벤더들이",
+              "meaning": "benders (subject)",
+              "note": "벤더들 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "비밀",
+              "meaning": "secret"
+            },
+            {
+              "surface": "경기장은",
+              "meaning": "arena (topic)",
+              "base": "경기장 + 은"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "only money (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "걸고",
+              "meaning": "betting / hanging"
+            },
+            {
+              "surface": "여러",
+              "meaning": "several / various"
+            },
+            {
+              "surface": "종류의",
+              "meaning": "kind / type of"
+            },
+            {
+              "surface": "벤더들이",
+              "meaning": "benders (subject)",
+              "base": "벤더들 + 이"
+            },
+            {
+              "surface": "싸우는",
+              "meaning": "had to fight",
+              "base": "싸우다"
+            },
+            {
+              "surface": "곳이었어",
+              "meaning": "was a place"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프는 소카와 수키와 함께 옛 친구들이 만든 긴 음악 공연을 보러 갔어.",
+          "translation": "Toph went with Sokka and Suki to a long musical performance by old acquaintances.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "토프는 소카와 수키와 함께 옛 친구들이 만든 긴 음악 공연을 보러 갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 소카와 수키와 함께 옛 친구들이 만든 긴 음악 공연을 보러 갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "소카와",
+              "meaning": "Sokka and",
+              "note": "소카 + 와"
+            },
+            {
+              "word": "수키와",
+              "meaning": "Suki (와)",
+              "note": "수키 + 와"
+            },
+            {
+              "word": "함께",
+              "meaning": "together"
+            },
+            {
+              "word": "친구들이",
+              "meaning": "friends (subject)",
+              "note": "친구들 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "소카와",
+              "meaning": "Sokka and",
+              "base": "소카 + 와"
+            },
+            {
+              "surface": "수키와",
+              "meaning": "Suki (와)",
+              "base": "수키 + 와"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "친구들이",
+              "meaning": "friends (subject)",
+              "base": "친구들 + 이"
+            },
+            {
+              "surface": "만든",
+              "meaning": "made / created",
+              "base": "만들다 + -(으)ㄴ"
+            },
+            {
+              "surface": "긴",
+              "meaning": "long",
+              "base": "길다 + -(으)ㄴ"
+            },
+            {
+              "surface": "음악",
+              "meaning": "music"
+            },
+            {
+              "surface": "공연을",
+              "meaning": "performance (을)",
+              "base": "공연 + 을"
+            },
+            {
+              "surface": "보러",
+              "meaning": "in order to see",
+              "base": "보다 + -(으)러"
+            },
+            {
+              "surface": "갔어",
+              "meaning": "went",
+              "base": "가다"
+            }
+          ]
+        },
+        {
+          "korean": "토프의 학생들은 새로운 도전을 원해 선생에게 말하지 않고 경기장에 들어갔어.",
+          "translation": "Toph's students wanted a new challenge and entered the arena without telling their teacher.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "토프의 학생들은 새로운 도전을 원해 선생에게 말하지 않고 경기장에 들어갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프의 학생들은 새로운 도전을 원해 선생에게 말하지 않고 경기장에 들어갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프의 학생들은 새로운 도전을 원해 선생에게 말하지 않고 경기장에 들어갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "도전을",
+              "meaning": "challenge (object)",
+              "note": "도전 + 을"
+            },
+            {
+              "word": "원해",
+              "meaning": "wanting"
+            },
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "학생들은",
+              "meaning": "students",
+              "note": "학생들 + 은"
+            },
+            {
+              "word": "선생에게",
+              "meaning": "teachers to",
+              "note": "선생 + 에게"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "학생들은",
+              "meaning": "students",
+              "base": "학생들 + 은"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "도전을",
+              "meaning": "challenge (object)",
+              "base": "도전 + 을"
+            },
+            {
+              "surface": "원해",
+              "meaning": "wanting"
+            },
+            {
+              "surface": "선생에게",
+              "meaning": "teachers to",
+              "base": "선생 + 에게"
+            },
+            {
+              "surface": "말하지",
+              "meaning": "words: do + negation/contrast",
+              "base": "말하다"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "경기장에",
+              "meaning": "arena to / at",
+              "base": "경기장 + 에"
+            },
+            {
+              "surface": "들어갔어",
+              "meaning": "entered",
+              "base": "들어가다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "공연이 지루해서 밖으로 나온 뒤에야 토프는 땅 아래에서 특별한 움직임을 느꼈어.",
+          "translation": "Only after leaving because the performance bored her did Toph sense an unusual movement underground.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "공연이 지루해서 밖으로 나온 뒤에야 토프는 땅 아래에서 특별한 움직임을 느꼈어."
+            },
+            {
+              "pattern": "-아/어서",
+              "explanation": "Connects a reason or sequence: “because / so / and then.”",
+              "example": "공연이 지루해서 밖으로 나온 뒤에야 토프는 땅 아래에서 특별한 움직임을 느꼈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "공연이 지루해서 밖으로 나온 뒤에야 토프는 땅 아래에서 특별한 움직임을 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "공연이",
+              "meaning": "performance (이)",
+              "note": "공연 + 이"
+            },
+            {
+              "word": "지루해서",
+              "meaning": "because it was boring",
+              "note": "지루하다 + -아/어서"
+            },
+            {
+              "word": "밖으로",
+              "meaning": "outside (으로)",
+              "note": "밖 + 으로"
+            },
+            {
+              "word": "나온",
+              "meaning": "came out of",
+              "note": "나오다 + -(으)ㄴ"
+            },
+            {
+              "word": "뒤에야",
+              "meaning": "only after",
+              "note": "뒤 + 에야"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공연이",
+              "meaning": "performance (이)",
+              "base": "공연 + 이"
+            },
+            {
+              "surface": "지루해서",
+              "meaning": "because it was boring",
+              "base": "지루하다 + -아/어서"
+            },
+            {
+              "surface": "밖으로",
+              "meaning": "outside (으로)",
+              "base": "밖 + 으로"
+            },
+            {
+              "surface": "나온",
+              "meaning": "came out of",
+              "base": "나오다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤에야",
+              "meaning": "only after",
+              "base": "뒤 + 에야"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "땅",
+              "meaning": "earth / ground"
+            },
+            {
+              "surface": "아래에서",
+              "meaning": "below (에서)",
+              "base": "아래 + 에서"
+            },
+            {
+              "surface": "특별한",
+              "meaning": "special",
+              "base": "특별하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "움직임을",
+              "meaning": "movement (object)",
+              "base": "움직임 + 을"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        },
+        {
+          "korean": "선은 거리에서 살며 돈을 벌기 위해 위험한 경기에서 싸우던 어린 흙 벤더였어.",
+          "translation": "Sun was a young earthbender living on the streets and fighting in dangerous matches to earn money.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "선은 거리에서 살며 돈을 벌기 위해 위험한 경기에서 싸우던 어린 흙 벤더였어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "선은 거리에서 살며 돈을 벌기 위해 위험한 경기에서 싸우던 어린 흙 벤더였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "선은 거리에서 살며 돈을 벌기 위해 위험한 경기에서 싸우던 어린 흙 벤더였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "거리에서",
+              "meaning": "on the street"
+            },
+            {
+              "word": "살며",
+              "meaning": "while living"
+            },
+            {
+              "word": "벌기",
+              "meaning": "earning"
+            },
+            {
+              "word": "선은",
+              "meaning": "Sun (topic)",
+              "note": "선 + 은"
+            },
+            {
+              "word": "돈을",
+              "meaning": "only money (object)",
+              "note": "돈 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "선은",
+              "meaning": "Sun (topic)",
+              "base": "선 + 은"
+            },
+            {
+              "surface": "거리에서",
+              "meaning": "on the street"
+            },
+            {
+              "surface": "살며",
+              "meaning": "while living"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "only money (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "벌기",
+              "meaning": "earning"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "위험한",
+              "meaning": "dangerous",
+              "base": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "경기에서",
+              "meaning": "in the competition at / from",
+              "base": "경기 + 에서"
+            },
+            {
+              "surface": "싸우던",
+              "meaning": "had to fight",
+              "base": "싸우다"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young / childhood",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "흙",
+              "meaning": "Earth's / of Earth"
+            },
+            {
+              "surface": "벤더였어",
+              "meaning": "benders and",
+              "base": "벤더"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프의 학생들도 실력을 증명하려고 몰래 경기에 참가했다가 위험에 빠졌어.",
+          "translation": "Toph's students secretly entered the competition to prove their skills and then fell into danger.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "토프의 학생들도 실력을 증명하려고 몰래 경기에 참가했다가 위험에 빠졌어."
+            },
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that one action was in progress and then changed, stopped, or was interrupted.",
+              "example": "토프의 학생들도 실력을 증명하려고 몰래 경기에 참가했다가 위험에 빠졌어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "토프의 학생들도 실력을 증명하려고 몰래 경기에 참가했다가 위험에 빠졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "학생들도",
+              "meaning": "students also",
+              "note": "학생들 + 도"
+            },
+            {
+              "word": "실력을",
+              "meaning": "ability / skill (object)",
+              "note": "실력 + 을"
+            },
+            {
+              "word": "증명하려고",
+              "meaning": "in order to prove",
+              "note": "증명하다 + -(으)려고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "학생들도",
+              "meaning": "students also",
+              "base": "학생들 + 도"
+            },
+            {
+              "surface": "실력을",
+              "meaning": "ability / skill (object)",
+              "base": "실력 + 을"
+            },
+            {
+              "surface": "증명하려고",
+              "meaning": "in order to prove",
+              "base": "증명하다 + -(으)려고"
+            },
+            {
+              "surface": "몰래",
+              "meaning": "secretly"
+            },
+            {
+              "surface": "경기에",
+              "meaning": "in the competition",
+              "base": "경기 + 에"
+            },
+            {
+              "surface": "참가했다가",
+              "meaning": "entered and then",
+              "base": "참가하다 + -았다가"
+            },
+            {
+              "surface": "위험에",
+              "meaning": "into danger",
+              "base": "위험 + 에"
+            },
+            {
+              "surface": "빠졌어",
+              "meaning": "fell",
+              "base": "빠지다"
+            }
+          ]
+        },
+        {
+          "korean": "선이 얼음 위에서 미끄러져 땅을 짚자 갑자기 용암이 솟아올랐어.",
+          "translation": "When Sun slipped on ice and touched the ground, lava suddenly erupted.",
+          "grammar": [
+            {
+              "pattern": "-자",
+              "explanation": "Connects events: “when / once the first event happened.”",
+              "example": "선이 얼음 위에서 미끄러져 땅을 짚자 갑자기 용암이 솟아올랐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "선이 얼음 위에서 미끄러져 땅을 짚자 갑자기 용암이 솟아올랐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "미끄러져",
+              "meaning": "slipped"
+            },
+            {
+              "word": "솟아올랐어",
+              "meaning": "surged upward"
+            },
+            {
+              "word": "짚자",
+              "meaning": "when one touched / braced"
+            },
+            {
+              "word": "용암이",
+              "meaning": "lava (subject)",
+              "note": "용암 + 이"
+            },
+            {
+              "word": "위에서",
+              "meaning": "above at / from",
+              "note": "위 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "선이",
+              "meaning": "Sun",
+              "base": "선 + 이"
+            },
+            {
+              "surface": "얼음",
+              "meaning": "ice"
+            },
+            {
+              "surface": "위에서",
+              "meaning": "above at / from",
+              "base": "위 + 에서"
+            },
+            {
+              "surface": "미끄러져",
+              "meaning": "slipped"
+            },
+            {
+              "surface": "땅을",
+              "meaning": "ground",
+              "base": "땅 + 을"
+            },
+            {
+              "surface": "짚자",
+              "meaning": "when one touched / braced"
+            },
+            {
+              "surface": "갑자기",
+              "meaning": "suddenly"
+            },
+            {
+              "surface": "용암이",
+              "meaning": "lava (subject)",
+              "base": "용암 + 이"
+            },
+            {
+              "surface": "솟아올랐어",
+              "meaning": "surged upward"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "건물이 무너지기 시작하자 학생들은 배운 기술로 관객들을 구했어.",
+          "translation": "When the building began to collapse, the students used the skills they had learned to rescue the audience.",
+          "grammar": [
+            {
+              "pattern": "-기 시작했어",
+              "explanation": "Means “started to do.” The verb becomes noun-like with -기 before 시작하다.",
+              "example": "건물이 무너지기 시작하자 학생들은 배운 기술로 관객들을 구했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "건물이 무너지기 시작하자 학생들은 배운 기술로 관객들을 구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "건물이 무너지기 시작하자 학생들은 배운 기술로 관객들을 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "건물이",
+              "meaning": "building (subject)",
+              "note": "건물 + 이"
+            },
+            {
+              "word": "무너지기",
+              "meaning": "collapsing",
+              "note": "무너지다 + -기"
+            },
+            {
+              "word": "시작하자",
+              "meaning": "when it began",
+              "note": "시작하다 + -자"
+            },
+            {
+              "word": "학생들은",
+              "meaning": "students (topic)",
+              "note": "학생들 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "건물이",
+              "meaning": "building (subject)",
+              "base": "건물 + 이"
+            },
+            {
+              "surface": "무너지기",
+              "meaning": "collapsing",
+              "base": "무너지다 + -기"
+            },
+            {
+              "surface": "시작하자",
+              "meaning": "when it began",
+              "base": "시작하다 + -자"
+            },
+            {
+              "surface": "학생들은",
+              "meaning": "students (topic)",
+              "base": "학생들 + 은"
+            },
+            {
+              "surface": "배운",
+              "meaning": "learned",
+              "base": "배우다 + -(으)ㄴ"
+            },
+            {
+              "surface": "기술로",
+              "meaning": "with skills",
+              "base": "기술 + 로"
+            },
+            {
+              "surface": "관객들을",
+              "meaning": "audience members (object)",
+              "base": "관객들 + 을"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "rescued",
+              "base": "구하다"
+            }
+          ]
+        },
+        {
+          "korean": "통제되지 않은 용암 때문에 경기장의 창고 건물이 무너지기 시작했어.",
+          "translation": "The warehouse holding the arena began to collapse because of the uncontrolled lava.",
+          "grammar": [
+            {
+              "pattern": "-기 시작하다",
+              "explanation": "Means “begin to do.”",
+              "example": "통제되지 않은 용암 때문에 경기장의 창고 건물이 무너지기 시작했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "통제되지 않은 용암 때문에 경기장의 창고 건물이 무너지기 시작했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "통제되지 않은 용암 때문에 경기장의 창고 건물이 무너지기 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "않은",
+              "meaning": "not / that did not"
+            },
+            {
+              "word": "때문에",
+              "meaning": "because"
+            },
+            {
+              "word": "경기장의",
+              "meaning": "arena 's / of",
+              "note": "경기장 + 의"
+            },
+            {
+              "word": "건물이",
+              "meaning": "building",
+              "note": "건물 + 이"
+            },
+            {
+              "word": "통제되지",
+              "meaning": "while controlling, then",
+              "note": "통제하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "통제되지",
+              "meaning": "while controlling, then",
+              "base": "통제하다"
+            },
+            {
+              "surface": "않은",
+              "meaning": "not / that did not"
+            },
+            {
+              "surface": "용암",
+              "meaning": "lava"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "경기장의",
+              "meaning": "arena 's / of",
+              "base": "경기장 + 의"
+            },
+            {
+              "surface": "창고",
+              "meaning": "storehouse / granary"
+            },
+            {
+              "surface": "건물이",
+              "meaning": "building",
+              "base": "건물 + 이"
+            },
+            {
+              "surface": "무너지기",
+              "meaning": "collapsing",
+              "base": "무너지다 + -기"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "선의 용암 굽히기는 강했지만 감정이 흔들릴 때마다 마음대로 폭발했어.",
+          "translation": "Sun's lavabending was powerful, but it erupted uncontrollably whenever his emotions wavered.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "선의 용암 굽히기는 강했지만 감정이 흔들릴 때마다 마음대로 폭발했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "선의 용암 굽히기는 강했지만 감정이 흔들릴 때마다 마음대로 폭발했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "선의",
+              "meaning": "Sun (의)",
+              "note": "선 + 의"
+            },
+            {
+              "word": "용암",
+              "meaning": "lava"
+            },
+            {
+              "word": "굽히기는",
+              "meaning": "bending",
+              "note": "굽히다"
+            },
+            {
+              "word": "강했지만",
+              "meaning": "was strong, but",
+              "note": "강하다 + -았지만"
+            },
+            {
+              "word": "감정이",
+              "meaning": "emotion (이)",
+              "note": "감정 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "선의",
+              "meaning": "Sun (의)",
+              "base": "선 + 의"
+            },
+            {
+              "surface": "용암",
+              "meaning": "lava"
+            },
+            {
+              "surface": "굽히기는",
+              "meaning": "bending",
+              "base": "굽히다"
+            },
+            {
+              "surface": "강했지만",
+              "meaning": "was strong, but",
+              "base": "강하다 + -았지만"
+            },
+            {
+              "surface": "감정이",
+              "meaning": "emotion (이)",
+              "base": "감정 + 이"
+            },
+            {
+              "surface": "흔들릴",
+              "meaning": "destabilizing",
+              "base": "흔들다"
+            },
+            {
+              "surface": "때마다",
+              "meaning": "whenever",
+              "base": "때 + 마다"
+            },
+            {
+              "surface": "마음대로",
+              "meaning": "as one wants / uncontrollably",
+              "base": "마음 + 대로"
+            },
+            {
+              "surface": "폭발했어",
+              "meaning": "exploded / erupted",
+              "base": "폭발하다"
+            }
+          ]
+        },
+        {
+          "korean": "펭가는 금속 기둥을 붙잡았고 세 학생은 출구를 열기 위해 함께 힘을 썼어.",
+          "translation": "Penga held a metal beam while the three students worked together to clear the exit.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "펭가는 금속 기둥을 붙잡았고 세 학생은 출구를 열기 위해 함께 힘을 썼어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "펭가는 금속 기둥을 붙잡았고 세 학생은 출구를 열기 위해 함께 힘을 썼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "출구를",
+              "meaning": "exit (object)"
+            },
+            {
+              "word": "펭가는",
+              "meaning": "Penga (topic)",
+              "note": "펭가 + 는"
+            },
+            {
+              "word": "열기",
+              "meaning": "opening"
+            },
+            {
+              "word": "썼어",
+              "meaning": "used"
+            },
+            {
+              "word": "기둥을",
+              "meaning": "beam / pillar",
+              "note": "기둥 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "펭가는",
+              "meaning": "Penga (topic)",
+              "base": "펭가 + 는"
+            },
+            {
+              "surface": "금속",
+              "meaning": "metal"
+            },
+            {
+              "surface": "기둥을",
+              "meaning": "beam / pillar",
+              "base": "기둥 + 을"
+            },
+            {
+              "surface": "붙잡았고",
+              "meaning": "capture",
+              "base": "붙잡다"
+            },
+            {
+              "surface": "세",
+              "meaning": "three"
+            },
+            {
+              "surface": "학생은",
+              "meaning": "student",
+              "base": "학생 + 은"
+            },
+            {
+              "surface": "출구를",
+              "meaning": "exit (object)"
+            },
+            {
+              "surface": "열기",
+              "meaning": "opening"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "힘을",
+              "meaning": "power",
+              "base": "힘 + 을"
+            },
+            {
+              "surface": "썼어",
+              "meaning": "used"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프의 학생들은 선과 싸우려는 것이 아니라 자기들도 성장했다는 걸 증명하고 싶어 했어.",
+          "translation": "Toph's students did not simply want to fight Sun; they wanted to prove that they had grown too.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "토프의 학생들은 선과 싸우려는 것이 아니라 자기들도 성장했다는 걸 증명하고 싶어 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프의 학생들은 선과 싸우려는 것이 아니라 자기들도 성장했다는 걸 증명하고 싶어 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프의",
+              "meaning": "Toph's",
+              "note": "토프 + 의"
+            },
+            {
+              "word": "학생들은",
+              "meaning": "students (topic)",
+              "note": "학생들 + 은"
+            },
+            {
+              "word": "선과",
+              "meaning": "Sun (과)",
+              "note": "선 + 과"
+            },
+            {
+              "word": "싸우려는",
+              "meaning": "fight",
+              "note": "싸우다"
+            },
+            {
+              "word": "것이",
+              "meaning": "thing / fact (이)",
+              "note": "것 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프의",
+              "meaning": "Toph's",
+              "base": "토프 + 의"
+            },
+            {
+              "surface": "학생들은",
+              "meaning": "students (topic)",
+              "base": "학생들 + 은"
+            },
+            {
+              "surface": "선과",
+              "meaning": "Sun (과)",
+              "base": "선 + 과"
+            },
+            {
+              "surface": "싸우려는",
+              "meaning": "fight",
+              "base": "싸우다"
+            },
+            {
+              "surface": "것이",
+              "meaning": "thing / fact (이)",
+              "base": "것 + 이"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "자기들도",
+              "meaning": "him (들도)",
+              "base": "자기 + 들도"
+            },
+            {
+              "surface": "성장했다는",
+              "meaning": "that they had grown",
+              "base": "성장하다 + -았다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "증명하고",
+              "meaning": "prove",
+              "base": "증명하다"
+            },
+            {
+              "surface": "싶어",
+              "meaning": "want",
+              "base": "싶다 + -아/어"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 선이 금속 벤더가 아니라 드문 용암 벤더라는 사실을 알아봤어.",
+          "translation": "Toph recognized that Sun was not a metalbender, but a rare lavabender.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프는 선이 금속 벤더가 아니라 드문 용암 벤더라는 사실을 알아봤어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 선이 금속 벤더가 아니라 드문 용암 벤더라는 사실을 알아봤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알아봤어",
+              "meaning": "recognized"
+            },
+            {
+              "word": "드문",
+              "meaning": "rare"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "벤더가",
+              "meaning": "benders",
+              "note": "벤더 + 가"
+            },
+            {
+              "word": "사실을",
+              "meaning": "fact",
+              "note": "사실 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "선이",
+              "meaning": "Sun",
+              "base": "선 + 이"
+            },
+            {
+              "surface": "금속",
+              "meaning": "metal"
+            },
+            {
+              "surface": "벤더가",
+              "meaning": "benders",
+              "base": "벤더 + 가"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "드문",
+              "meaning": "rare"
+            },
+            {
+              "surface": "용암",
+              "meaning": "lava"
+            },
+            {
+              "surface": "벤더라는",
+              "meaning": "benders and",
+              "base": "벤더"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "알아봤어",
+              "meaning": "recognized"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "토프는 자기 학생들이 이미 훌륭한 선생이 되어 가고 있다는 걸 깨달았어.",
+          "translation": "Toph realized that her students were already becoming excellent teachers.",
+          "grammar": [
+            {
+              "pattern": "-아/어 가다",
+              "explanation": "Shows an action or change continuing forward from the present point.",
+              "example": "토프는 자기 학생들이 이미 훌륭한 선생이 되어 가고 있다는 걸 깨달았어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "토프는 자기 학생들이 이미 훌륭한 선생이 되어 가고 있다는 걸 깨달았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "토프는 자기 학생들이 이미 훌륭한 선생이 되어 가고 있다는 걸 깨달았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "학생들이",
+              "meaning": "students (subject)",
+              "note": "학생들 + 이"
+            },
+            {
+              "word": "훌륭한",
+              "meaning": "excellent",
+              "note": "훌륭하다 + -(으)ㄴ"
+            },
+            {
+              "word": "선생이",
+              "meaning": "teachers (complement)",
+              "note": "선생 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "학생들이",
+              "meaning": "students (subject)",
+              "base": "학생들 + 이"
+            },
+            {
+              "surface": "이미",
+              "meaning": "already"
+            },
+            {
+              "surface": "훌륭한",
+              "meaning": "excellent",
+              "base": "훌륭하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "선생이",
+              "meaning": "teachers (complement)",
+              "base": "선생 + 이"
+            },
+            {
+              "surface": "되어",
+              "meaning": "becoming",
+              "base": "되다 + -아/어"
+            },
+            {
+              "surface": "가고",
+              "meaning": "continuing",
+              "base": "가다 + -고"
+            },
+            {
+              "surface": "있다는",
+              "meaning": "that they are",
+              "base": "있다 + -다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "깨달았어",
+              "meaning": "realized",
+              "base": "깨닫다"
+            }
+          ]
+        },
+        {
+          "korean": "선은 일부러 건물을 파괴한 것이 아니며 자기 힘이 가끔 저절로 나온다고 설명했어.",
+          "translation": "Sun explained that he had not destroyed the building intentionally and that his power sometimes emerged on its own.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "선은 일부러 건물을 파괴한 것이 아니며 자기 힘이 가끔 저절로 나온다고 설명했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "선은 일부러 건물을 파괴한 것이 아니며 자기 힘이 가끔 저절로 나온다고 설명했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "선은 일부러 건물을 파괴한 것이 아니며 자기 힘이 가끔 저절로 나온다고 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "저절로",
+              "meaning": "by itself"
+            },
+            {
+              "word": "건물을",
+              "meaning": "building (object)",
+              "note": "건물 + 을"
+            },
+            {
+              "word": "가끔",
+              "meaning": "sometimes"
+            },
+            {
+              "word": "선은",
+              "meaning": "Sun (topic)",
+              "note": "선 + 은"
+            },
+            {
+              "word": "일부러",
+              "meaning": "some / a portion",
+              "note": "일부"
+            }
+          ],
+          "words": [
+            {
+              "surface": "선은",
+              "meaning": "Sun (topic)",
+              "base": "선 + 은"
+            },
+            {
+              "surface": "일부러",
+              "meaning": "some / a portion",
+              "base": "일부"
+            },
+            {
+              "surface": "건물을",
+              "meaning": "building (object)",
+              "base": "건물 + 을"
+            },
+            {
+              "surface": "파괴한",
+              "meaning": "파괴: that did / ...",
+              "base": "파괴하다"
+            },
+            {
+              "surface": "것이",
+              "meaning": "thing / fact",
+              "base": "것 + 이"
+            },
+            {
+              "surface": "아니며",
+              "meaning": "not but / rather than",
+              "base": "아니다"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "힘이",
+              "meaning": "power",
+              "base": "힘 + 이"
+            },
+            {
+              "surface": "가끔",
+              "meaning": "sometimes"
+            },
+            {
+              "surface": "저절로",
+              "meaning": "by itself"
+            },
+            {
+              "surface": "나온다고",
+              "meaning": "came out of",
+              "base": "나온"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "설명: did / was",
+              "base": "설명하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그녀는 선을 학교로 초대해 힘을 안전하게 다루도록 도와주기로 했어.",
+          "translation": "She invited Sun to the academy and decided to help him control his power safely.",
+          "grammar": [
+            {
+              "pattern": "-도록",
+              "explanation": "Expresses a goal, degree, or result: “so that / until.”",
+              "example": "그녀는 선을 학교로 초대해 힘을 안전하게 다루도록 도와주기로 했어."
+            },
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is done for another person as a favor or benefit.",
+              "example": "그녀는 선을 학교로 초대해 힘을 안전하게 다루도록 도와주기로 했어."
+            },
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "그녀는 선을 학교로 초대해 힘을 안전하게 다루도록 도와주기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "선을",
+              "meaning": "Sun (object)",
+              "note": "선 + 을"
+            },
+            {
+              "word": "학교로",
+              "meaning": "to the school",
+              "note": "학교 + 로"
+            },
+            {
+              "word": "초대해",
+              "meaning": "invited and",
+              "note": "초대하다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "선을",
+              "meaning": "Sun (object)",
+              "base": "선 + 을"
+            },
+            {
+              "surface": "학교로",
+              "meaning": "to the school",
+              "base": "학교 + 로"
+            },
+            {
+              "surface": "초대해",
+              "meaning": "invited and",
+              "base": "초대하다 + -아/어"
+            },
+            {
+              "surface": "힘을",
+              "meaning": "power (object)",
+              "base": "힘 + 을"
+            },
+            {
+              "surface": "안전하게",
+              "meaning": "safely",
+              "base": "안전하다 + -게"
+            },
+            {
+              "surface": "다루도록",
+              "meaning": "so that he could control",
+              "base": "다루다 + -도록"
+            },
+            {
+              "surface": "도와주기로",
+              "meaning": "decided to help",
+              "base": "도와주다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 세 학생을 흙의 왕국에서 가장 훌륭한 금속 굽히기 선생들이라고 소개했어.",
+          "translation": "Toph introduced her three students as some of the finest metalbending teachers in the Earth Kingdom.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "토프는 세 학생을 흙의 왕국에서 가장 훌륭한 금속 굽히기 선생들이라고 소개했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프는 세 학생을 흙의 왕국에서 가장 훌륭한 금속 굽히기 선생들이라고 소개했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 세 학생을 흙의 왕국에서 가장 훌륭한 금속 굽히기 선생들이라고 소개했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "학생을",
+              "meaning": "student and (object)",
+              "note": "학생 + 을"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "왕국에서",
+              "meaning": "kingdom at / from",
+              "note": "왕국 + 에서"
+            },
+            {
+              "word": "흙의",
+              "meaning": "Earth's / of Earth",
+              "note": "흙 + 의"
+            },
+            {
+              "word": "훌륭한",
+              "meaning": "excellent",
+              "note": "훌륭하다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "세",
+              "meaning": "three"
+            },
+            {
+              "surface": "학생을",
+              "meaning": "student and (object)",
+              "base": "학생 + 을"
+            },
+            {
+              "surface": "흙의",
+              "meaning": "Earth's / of Earth",
+              "base": "흙 + 의"
+            },
+            {
+              "surface": "왕국에서",
+              "meaning": "kingdom at / from",
+              "base": "왕국 + 에서"
+            },
+            {
+              "surface": "가장",
+              "meaning": "most"
+            },
+            {
+              "surface": "훌륭한",
+              "meaning": "excellent",
+              "base": "훌륭하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "금속",
+              "meaning": "metal"
+            },
+            {
+              "surface": "굽히기",
+              "meaning": "bending",
+              "base": "굽히다 + -기"
+            },
+            {
+              "surface": "선생들이라고",
+              "meaning": "teachers",
+              "base": "선생"
+            },
+            {
+              "surface": "소개했어",
+              "meaning": "소개: did / was",
+              "base": "소개하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "무너지는 경기장에서 세 학생은 금속 기둥을 함께 움직여 사람들이 나갈 길을 만들었어.",
+          "translation": "In the collapsing arena, the three students moved metal beams together and created an escape route.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "무너지는 경기장에서 세 학생은 금속 기둥을 함께 움직여 사람들이 나갈 길을 만들었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "무너지는",
+              "meaning": "collapse",
+              "note": "무너지다"
+            },
+            {
+              "word": "경기장에서",
+              "meaning": "arena (에서)",
+              "note": "경기장 + 에서"
+            },
+            {
+              "word": "학생은",
+              "meaning": "student (은)",
+              "note": "학생 + 은"
+            },
+            {
+              "word": "금속",
+              "meaning": "metal"
+            },
+            {
+              "word": "기둥을",
+              "meaning": "beam / pillar (을)",
+              "note": "기둥 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "무너지는",
+              "meaning": "collapse",
+              "base": "무너지다"
+            },
+            {
+              "surface": "경기장에서",
+              "meaning": "arena (에서)",
+              "base": "경기장 + 에서"
+            },
+            {
+              "surface": "세",
+              "meaning": "three"
+            },
+            {
+              "surface": "학생은",
+              "meaning": "student (은)",
+              "base": "학생 + 은"
+            },
+            {
+              "surface": "금속",
+              "meaning": "metal"
+            },
+            {
+              "surface": "기둥을",
+              "meaning": "beam / pillar (을)",
+              "base": "기둥 + 을"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "움직여",
+              "meaning": "moved",
+              "base": "움직이다 + -아/어"
+            },
+            {
+              "surface": "사람들이",
+              "meaning": "people (subject)",
+              "base": "사람들 + 이"
+            },
+            {
+              "surface": "나갈",
+              "meaning": "to go out / escape",
+              "base": "나가다 + -(으)ㄹ"
+            },
+            {
+              "surface": "길을",
+              "meaning": "paths (object)",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "만들었어",
+              "meaning": "created",
+              "base": "만들다"
+            }
+          ]
+        },
+        {
+          "korean": "학생들은 토프가 위험할 때만 자신들을 믿는다고 불평하지 않고 사람들을 먼저 구했어.",
+          "translation": "Rather than complain that Toph trusted them only in danger, the students focused first on rescuing people.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "학생들은 토프가 위험할 때만 자신들을 믿는다고 불평하지 않고 사람들을 먼저 구했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "학생들은 토프가 위험할 때만 자신들을 믿는다고 불평하지 않고 사람들을 먼저 구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "학생들은 토프가 위험할 때만 자신들을 믿는다고 불평하지 않고 사람들을 먼저 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "믿는다고",
+              "meaning": "that one trusts"
+            },
+            {
+              "word": "토프가",
+              "meaning": "Toph (subject)",
+              "note": "토프 + 가"
+            },
+            {
+              "word": "학생들은",
+              "meaning": "students",
+              "note": "학생들 + 은"
+            },
+            {
+              "word": "자신들을",
+              "meaning": "themselves",
+              "note": "자신들 + 을"
+            },
+            {
+              "word": "사람들을",
+              "meaning": "people",
+              "note": "사람들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "학생들은",
+              "meaning": "students",
+              "base": "학생들 + 은"
+            },
+            {
+              "surface": "토프가",
+              "meaning": "Toph (subject)",
+              "base": "토프 + 가"
+            },
+            {
+              "surface": "위험할",
+              "meaning": "into danger: to do / that will do",
+              "base": "위험하다"
+            },
+            {
+              "surface": "때만",
+              "meaning": "when only",
+              "base": "때 + 만"
+            },
+            {
+              "surface": "자신들을",
+              "meaning": "themselves",
+              "base": "자신들 + 을"
+            },
+            {
+              "surface": "믿는다고",
+              "meaning": "that one trusts"
+            },
+            {
+              "surface": "불평하지",
+              "meaning": "complained: do + negation/contrast",
+              "base": "불평하다"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "먼저",
+              "meaning": "first / beforehand"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "saved",
+              "base": "구하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그 모습을 본 토프는 학생들이 자신 없이도 올바른 판단을 할 수 있다는 걸 인정했어.",
+          "translation": "Seeing this, Toph admitted that her students could make good decisions even without her.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "그 모습을 본 토프는 학생들이 자신 없이도 올바른 판단을 할 수 있다는 걸 인정했어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "그 모습을 본 토프는 학생들이 자신 없이도 올바른 판단을 할 수 있다는 걸 인정했어."
+            },
+            {
+              "pattern": "N 없이도",
+              "explanation": "Means “even without N.” 도 adds the meaning “even/also” to 없이.",
+              "example": "그 모습을 본 토프는 학생들이 자신 없이도 올바른 판단을 할 수 있다는 걸 인정했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "모습을",
+              "meaning": "image / appearance (object)",
+              "note": "모습 + 을"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph (topic)",
+              "note": "토프 + 는"
+            },
+            {
+              "word": "학생들이",
+              "meaning": "students (subject)",
+              "note": "학생들 + 이"
+            },
+            {
+              "word": "자신",
+              "meaning": "oneself / self"
+            },
+            {
+              "word": "없이도",
+              "meaning": "even without",
+              "note": "없다 + -이 + 도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "모습을",
+              "meaning": "image / appearance (object)",
+              "base": "모습 + 을"
+            },
+            {
+              "surface": "본",
+              "meaning": "seen",
+              "base": "보다 + -(으)ㄴ"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "학생들이",
+              "meaning": "students (subject)",
+              "base": "학생들 + 이"
+            },
+            {
+              "surface": "자신",
+              "meaning": "oneself / self"
+            },
+            {
+              "surface": "없이도",
+              "meaning": "even without",
+              "base": "없다 + -이 + 도"
+            },
+            {
+              "surface": "올바른",
+              "meaning": "right / proper",
+              "base": "올바르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "판단을",
+              "meaning": "judgment (object)",
+              "base": "판단 + 을"
+            },
+            {
+              "surface": "할",
+              "meaning": "do",
+              "base": "하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있다는",
+              "meaning": "that it can",
+              "base": "있다 + -다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "인정했어",
+              "meaning": "admitted",
+              "base": "인정하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 그들이 기술뿐 아니라 책임감도 배웠다는 사실을 분명히 보게 됐어.",
+          "translation": "Toph clearly saw that they had learned responsibility as well as technique.",
+          "grammar": [
+            {
+              "pattern": "-게 되다",
+              "explanation": "Describes a change or result: “come to / end up / become.”",
+              "example": "토프는 그들이 기술뿐 아니라 책임감도 배웠다는 사실을 분명히 보게 됐어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "토프는 그들이 기술뿐 아니라 책임감도 배웠다는 사실을 분명히 보게 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "토프는 그들이 기술뿐 아니라 책임감도 배웠다는 사실을 분명히 보게 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그들이",
+              "meaning": "they (subject)"
+            },
+            {
+              "word": "배웠다는",
+              "meaning": "that one learned"
+            },
+            {
+              "word": "분명히",
+              "meaning": "clearly"
+            },
+            {
+              "word": "보게",
+              "meaning": "come to see"
+            },
+            {
+              "word": "됐어",
+              "meaning": "became / came to"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "그들이",
+              "meaning": "they (subject)"
+            },
+            {
+              "surface": "기술뿐",
+              "meaning": "with skills",
+              "base": "기술"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "책임감도",
+              "meaning": "responsibility",
+              "base": "책임"
+            },
+            {
+              "surface": "배웠다는",
+              "meaning": "that one learned"
+            },
+            {
+              "surface": "사실을",
+              "meaning": "fact",
+              "base": "사실 + 을"
+            },
+            {
+              "surface": "분명히",
+              "meaning": "clearly"
+            },
+            {
+              "surface": "보게",
+              "meaning": "come to see"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became / came to"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "새로운 학생과 도전이 생기면서 토프는 다시 학교의 의미를 느꼈어.",
+          "translation": "As a new student and challenge appeared, Toph felt the meaning of the academy again.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서",
+              "explanation": "Means “while doing” when the same subject performs two actions at the same time.",
+              "example": "새로운 학생과 도전이 생기면서 토프는 다시 학교의 의미를 느꼈어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "새로운 학생과 도전이 생기면서 토프는 다시 학교의 의미를 느꼈어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "새로운",
+              "meaning": "new",
+              "note": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "word": "학생과",
+              "meaning": "student and",
+              "note": "학생 + 과"
+            },
+            {
+              "word": "도전이",
+              "meaning": "challenge (subject)",
+              "note": "도전 + 이"
+            },
+            {
+              "word": "생기면서",
+              "meaning": "as it appeared",
+              "note": "생기다 + -(으)면서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "학생과",
+              "meaning": "student and",
+              "base": "학생 + 과"
+            },
+            {
+              "surface": "도전이",
+              "meaning": "challenge (subject)",
+              "base": "도전 + 이"
+            },
+            {
+              "surface": "생기면서",
+              "meaning": "as it appeared",
+              "base": "생기다 + -(으)면서"
+            },
+            {
+              "surface": "토프는",
+              "meaning": "Toph (topic)",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "학교의",
+              "meaning": "school's / of the school",
+              "base": "학교 + 의"
+            },
+            {
+              "surface": "의미를",
+              "meaning": "meaning (object)",
+              "base": "의미 + 를"
+            },
+            {
+              "surface": "느꼈어",
+              "meaning": "felt",
+              "base": "느끼다"
+            }
+          ]
+        },
+        {
+          "korean": "선과 거리 친구들은 학교에서 지내며 힘을 배우라는 제안을 조심스럽게 받아들였어.",
+          "translation": "Sun and his street friends cautiously accepted the offer to stay at the academy and learn to control his power.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "선과 거리 친구들은 학교에서 지내며 힘을 배우라는 제안을 조심스럽게 받아들였어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "선과 거리 친구들은 학교에서 지내며 힘을 배우라는 제안을 조심스럽게 받아들였어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "선과 거리 친구들은 학교에서 지내며 힘을 배우라는 제안을 조심스럽게 받아들였어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "제안을",
+              "meaning": "proposal / offer (object)"
+            },
+            {
+              "word": "조심스럽게",
+              "meaning": "cautiously"
+            },
+            {
+              "word": "거리",
+              "meaning": "street / distance"
+            },
+            {
+              "word": "친구들은",
+              "meaning": "friends",
+              "note": "친구들 + 은"
+            },
+            {
+              "word": "학교에서",
+              "meaning": "school at / from",
+              "note": "학교 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "선과",
+              "meaning": "Sun",
+              "base": "선 + 과"
+            },
+            {
+              "surface": "거리",
+              "meaning": "street / distance"
+            },
+            {
+              "surface": "친구들은",
+              "meaning": "friends",
+              "base": "친구들 + 은"
+            },
+            {
+              "surface": "학교에서",
+              "meaning": "school at / from",
+              "base": "학교 + 에서"
+            },
+            {
+              "surface": "지내며",
+              "meaning": "spending time",
+              "base": "지내다"
+            },
+            {
+              "surface": "힘을",
+              "meaning": "power",
+              "base": "힘 + 을"
+            },
+            {
+              "surface": "배우라는",
+              "meaning": "learned",
+              "base": "배우다"
+            },
+            {
+              "surface": "제안을",
+              "meaning": "proposal / offer (object)"
+            },
+            {
+              "surface": "조심스럽게",
+              "meaning": "cautiously"
+            },
+            {
+              "surface": "받아들였어",
+              "meaning": "accepted",
+              "base": "받아들이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "완벽한 학교를 유지하는 것보다 계속 배우는 일이 토프에게 더 중요했어.",
+          "translation": "Continuing to learn was more important to Toph than maintaining a perfect academy.",
+          "grammar": [
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "완벽한 학교를 유지하는 것보다 계속 배우는 일이 토프에게 더 중요했어."
+            },
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing” and compares two choices or descriptions.",
+              "example": "완벽한 학교를 유지하는 것보다 계속 배우는 일이 토프에게 더 중요했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "완벽한 학교를 유지하는 것보다 계속 배우는 일이 토프에게 더 중요했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "완벽한",
+              "meaning": "perfect",
+              "note": "완벽하다 + -(으)ㄴ"
+            },
+            {
+              "word": "학교를",
+              "meaning": "school (object)",
+              "note": "학교 + 를"
+            },
+            {
+              "word": "유지하는",
+              "meaning": "maintaining",
+              "note": "유지하다 + -는"
+            },
+            {
+              "word": "것보다",
+              "meaning": "rather than the thing",
+              "note": "것 + 보다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "완벽한",
+              "meaning": "perfect",
+              "base": "완벽하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "학교를",
+              "meaning": "school (object)",
+              "base": "학교 + 를"
+            },
+            {
+              "surface": "유지하는",
+              "meaning": "maintaining",
+              "base": "유지하다 + -는"
+            },
+            {
+              "surface": "것보다",
+              "meaning": "rather than the thing",
+              "base": "것 + 보다"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously"
+            },
+            {
+              "surface": "배우는",
+              "meaning": "learning",
+              "base": "배우다 + -는"
+            },
+            {
+              "surface": "일이",
+              "meaning": "act / matter (subject)",
+              "base": "일 + 이"
+            },
+            {
+              "surface": "토프에게",
+              "meaning": "to Toph",
+              "base": "토프 + 에게"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "중요했어",
+              "meaning": "was important",
+              "base": "중요하다"
+            }
+          ]
+        },
+        {
+          "korean": "토프는 선에게 떠나고 싶으면 언제든 떠날 수 있다고 약속하며 새로운 수업을 시작했어.",
+          "translation": "Toph promised Sun that he could leave whenever he wished and began a new kind of lesson.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "토프는 선에게 떠나고 싶으면 언제든 떠날 수 있다고 약속하며 새로운 수업을 시작했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "토프는 선에게 떠나고 싶으면 언제든 떠날 수 있다고 약속하며 새로운 수업을 시작했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "토프는 선에게 떠나고 싶으면 언제든 떠날 수 있다고 약속하며 새로운 수업을 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "싶으면",
+              "meaning": "if one wants"
+            },
+            {
+              "word": "언제든",
+              "meaning": "whenever"
+            },
+            {
+              "word": "떠날",
+              "meaning": "to leave"
+            },
+            {
+              "word": "수업을",
+              "meaning": "lesson (object)",
+              "note": "수업 + 을"
+            },
+            {
+              "word": "토프는",
+              "meaning": "Toph",
+              "note": "토프 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "토프는",
+              "meaning": "Toph",
+              "base": "토프 + 는"
+            },
+            {
+              "surface": "선에게",
+              "meaning": "Sun to",
+              "base": "선 + 에게"
+            },
+            {
+              "surface": "떠나고",
+              "meaning": "left",
+              "base": "떠나다"
+            },
+            {
+              "surface": "싶으면",
+              "meaning": "if one wants"
+            },
+            {
+              "surface": "언제든",
+              "meaning": "whenever"
+            },
+            {
+              "surface": "떠날",
+              "meaning": "to leave"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is possible",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "약속하며",
+              "meaning": "promise / agreement: while doing",
+              "base": "약속하다"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "수업을",
+              "meaning": "lesson (object)",
+              "base": "수업 + 을"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 8
+}

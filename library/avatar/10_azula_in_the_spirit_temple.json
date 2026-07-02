@@ -1,0 +1,3446 @@
+{
+  "id": "avatar-azula-spirit-temple",
+  "title": "아줄라와 영혼의 사원",
+  "englishTitle": "Avatar — Azula in the Spirit Temple",
+  "level": "TOPIK 2–3",
+  "description": "아줄라가 신비한 사원에서 자신의 과거와 외로움을 마주하는 이야기.",
+  "theme": "plum",
+  "thumbnail": "thumbnails/10_azula_in_the_spirit_temple.jpg",
+  "thumbnailAlt": "Avatar — Azula in the Spirit Temple",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 주코의 나라를 흔들기 위해 동료들과 공격을 계속하고 있었어.",
+          "translation": "Azula was continuing attacks with her companions in order to destabilize Zuko's nation.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "아줄라는 주코의 나라를 흔들기 위해 동료들과 공격을 계속하고 있었어."
+            },
+            {
+              "pattern": "-고 있었어",
+              "explanation": "Casual past progressive: “was doing.” It emphasizes an action in progress in the past.",
+              "example": "아줄라는 주코의 나라를 흔들기 위해 동료들과 공격을 계속하고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "주코의",
+              "meaning": "Zuko's",
+              "note": "주코 + 의"
+            },
+            {
+              "word": "나라를",
+              "meaning": "nation (object)",
+              "note": "나라 + 를"
+            },
+            {
+              "word": "흔들기",
+              "meaning": "destabilizing",
+              "note": "흔들다 + -기"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "나라를",
+              "meaning": "nation (object)",
+              "base": "나라 + 를"
+            },
+            {
+              "surface": "흔들기",
+              "meaning": "destabilizing",
+              "base": "흔들다 + -기"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "동료들과",
+              "meaning": "with companions",
+              "base": "동료들 + 과"
+            },
+            {
+              "surface": "공격을",
+              "meaning": "attacks (object)",
+              "base": "공격 + 을"
+            },
+            {
+              "surface": "계속하고",
+              "meaning": "continuing",
+              "base": "계속하다 + -고"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라와 지린과 불 전사들은 주코의 통치를 약하게 하려고 작은 마을의 곡식 창고를 노렸어.",
+          "translation": "Azula, Zirin, and the Fire Warriors targeted a village granary to weaken Zuko's rule.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "아줄라와 지린과 불 전사들은 주코의 통치를 약하게 하려고 작은 마을의 곡식 창고를 노렸어."
+            },
+            {
+              "pattern": "-게 하다",
+              "explanation": "Means “make or let someone do” or “cause something to become.”",
+              "example": "아줄라와 지린과 불 전사들은 주코의 통치를 약하게 하려고 작은 마을의 곡식 창고를 노렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라와 지린과 불 전사들은 주코의 통치를 약하게 하려고 작은 마을의 곡식 창고를 노렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "노렸어",
+              "meaning": "targeted"
+            },
+            {
+              "word": "아줄라와",
+              "meaning": "Azula",
+              "note": "아줄라 + 와"
+            },
+            {
+              "word": "지린과",
+              "meaning": "Zirin and / with",
+              "note": "지린 + 과"
+            },
+            {
+              "word": "전사들은",
+              "meaning": "warrior",
+              "note": "전사 + 들은"
+            },
+            {
+              "word": "주코의",
+              "meaning": "Zuko's",
+              "note": "주코 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라와",
+              "meaning": "Azula",
+              "base": "아줄라 + 와"
+            },
+            {
+              "surface": "지린과",
+              "meaning": "Zirin and / with",
+              "base": "지린 + 과"
+            },
+            {
+              "surface": "불",
+              "meaning": "fire"
+            },
+            {
+              "surface": "전사들은",
+              "meaning": "warrior",
+              "base": "전사 + 들은"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "통치를",
+              "meaning": "rule / governance",
+              "base": "통치 + 를"
+            },
+            {
+              "surface": "약하게",
+              "meaning": "would be weak",
+              "base": "약하다"
+            },
+            {
+              "surface": "하려고",
+              "meaning": "in order to do",
+              "base": "하다 + -(으)려고"
+            },
+            {
+              "surface": "작은",
+              "meaning": "small",
+              "base": "작다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마을의",
+              "meaning": "at the village 's / of",
+              "base": "마을 + 의"
+            },
+            {
+              "surface": "곡식",
+              "meaning": "grain"
+            },
+            {
+              "surface": "창고를",
+              "meaning": "storehouse / granary",
+              "base": "창고 + 를"
+            },
+            {
+              "surface": "노렸어",
+              "meaning": "targeted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 동료들은 자신들을 도구처럼 대하는 아줄라를 떠나 버렸어.",
+          "translation": "However, her companions left Azula because she treated them like tools.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "하지만 동료들은 자신들을 도구처럼 대하는 아줄라를 떠나 버렸어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does...”",
+              "example": "하지만 동료들은 자신들을 도구처럼 대하는 아줄라를 떠나 버렸어."
+            },
+            {
+              "pattern": "-아/어 버리다",
+              "explanation": "Shows that an action is completely finished, often with regret, relief, or surprise.",
+              "example": "하지만 동료들은 자신들을 도구처럼 대하는 아줄라를 떠나 버렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "하지만",
+              "meaning": "however"
+            },
+            {
+              "word": "동료들은",
+              "meaning": "companions (topic)",
+              "note": "동료들 + 은"
+            },
+            {
+              "word": "자신들을",
+              "meaning": "themselves (object)",
+              "note": "자신들 + 을"
+            },
+            {
+              "word": "도구처럼",
+              "meaning": "like tools",
+              "note": "도구 + 처럼"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "however"
+            },
+            {
+              "surface": "동료들은",
+              "meaning": "companions (topic)",
+              "base": "동료들 + 은"
+            },
+            {
+              "surface": "자신들을",
+              "meaning": "themselves (object)",
+              "base": "자신들 + 을"
+            },
+            {
+              "surface": "도구처럼",
+              "meaning": "like tools",
+              "base": "도구 + 처럼"
+            },
+            {
+              "surface": "대하는",
+              "meaning": "treating",
+              "base": "대하다 + -는"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula (object)",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "떠나",
+              "meaning": "left",
+              "base": "떠나다 + -아/어"
+            },
+            {
+              "surface": "버렸어",
+              "meaning": "completely / with finality",
+              "base": "버리다"
+            }
+          ]
+        },
+        {
+          "korean": "타이 리는 창고를 비워 둔 뒤 왕실 병사들과 숨어 아줄라의 공격을 기다렸어.",
+          "translation": "Ty Lee had the granary emptied and waited in hiding with royal soldiers for Azula's attack.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "타이 리는 창고를 비워 둔 뒤 왕실 병사들과 숨어 아줄라의 공격을 기다렸어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "타이 리는 창고를 비워 둔 뒤 왕실 병사들과 숨어 아줄라의 공격을 기다렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "타이 리는 창고를 비워 둔 뒤 왕실 병사들과 숨어 아줄라의 공격을 기다렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "기다렸어",
+              "meaning": "waited"
+            },
+            {
+              "word": "비워",
+              "meaning": "emptied"
+            },
+            {
+              "word": "숨어",
+              "meaning": "hid"
+            },
+            {
+              "word": "리는",
+              "meaning": "Lee (topic)",
+              "note": "리 + 는"
+            },
+            {
+              "word": "창고를",
+              "meaning": "storehouse / granary",
+              "note": "창고 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "surface": "리는",
+              "meaning": "Lee (topic)",
+              "base": "리 + 는"
+            },
+            {
+              "surface": "창고를",
+              "meaning": "storehouse / granary",
+              "base": "창고 + 를"
+            },
+            {
+              "surface": "비워",
+              "meaning": "emptied"
+            },
+            {
+              "surface": "둔",
+              "meaning": "left / kept"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "왕실",
+              "meaning": "royal"
+            },
+            {
+              "surface": "병사들과",
+              "meaning": "soldier and / with",
+              "base": "병사들 + 과"
+            },
+            {
+              "surface": "숨어",
+              "meaning": "hid"
+            },
+            {
+              "surface": "아줄라의",
+              "meaning": "Azula's",
+              "base": "아줄라 + 의"
+            },
+            {
+              "surface": "공격을",
+              "meaning": "attacks",
+              "base": "공격 + 을"
+            },
+            {
+              "surface": "기다렸어",
+              "meaning": "waited"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라의 불 전사들은 곡식 창고를 불태워 주코의 통치를 약하게 만들려고 했어.",
+          "translation": "Azula's Fire Warriors tried to weaken Zuko's rule by burning a granary.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "아줄라의 불 전사들은 곡식 창고를 불태워 주코의 통치를 약하게 만들려고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라의 불 전사들은 곡식 창고를 불태워 주코의 통치를 약하게 만들려고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라의",
+              "meaning": "Azula's",
+              "note": "아줄라 + 의"
+            },
+            {
+              "word": "전사들은",
+              "meaning": "warrior (들은)",
+              "note": "전사 + 들은"
+            },
+            {
+              "word": "곡식",
+              "meaning": "grain"
+            },
+            {
+              "word": "창고를",
+              "meaning": "storehouse / granary (를)",
+              "note": "창고 + 를"
+            },
+            {
+              "word": "불태워",
+              "meaning": "burning",
+              "note": "불태우다 + -아/어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라의",
+              "meaning": "Azula's",
+              "base": "아줄라 + 의"
+            },
+            {
+              "surface": "불",
+              "meaning": "fire"
+            },
+            {
+              "surface": "전사들은",
+              "meaning": "warrior (들은)",
+              "base": "전사 + 들은"
+            },
+            {
+              "surface": "곡식",
+              "meaning": "grain"
+            },
+            {
+              "surface": "창고를",
+              "meaning": "storehouse / granary (를)",
+              "base": "창고 + 를"
+            },
+            {
+              "surface": "불태워",
+              "meaning": "burning",
+              "base": "불태우다 + -아/어"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "통치를",
+              "meaning": "rule / governance (object)",
+              "base": "통치 + 를"
+            },
+            {
+              "surface": "약하게",
+              "meaning": "would be weak",
+              "base": "약하다"
+            },
+            {
+              "surface": "만들려고",
+              "meaning": "create",
+              "base": "만들다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "치요우가 붙잡힌 뒤 지린은 돌아가서 동료를 구해야 한다고 주장했어.",
+          "translation": "After Chiyou was captured, Zirin insisted that they return and rescue their companion.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "치요우가 붙잡힌 뒤 지린은 돌아가서 동료를 구해야 한다고 주장했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "치요우가 붙잡힌 뒤 지린은 돌아가서 동료를 구해야 한다고 주장했어."
+            },
+            {
+              "pattern": "-아/어야 하다",
+              "explanation": "Expresses necessity or obligation: “must / have to.”",
+              "example": "치요우가 붙잡힌 뒤 지린은 돌아가서 동료를 구해야 한다고 주장했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아가서",
+              "meaning": "returned and"
+            },
+            {
+              "word": "한다고",
+              "meaning": "that one does"
+            },
+            {
+              "word": "동료를",
+              "meaning": "companion (object)",
+              "note": "동료 + 를"
+            },
+            {
+              "word": "치요우가",
+              "meaning": "Chiyou",
+              "note": "치요우 + 가"
+            },
+            {
+              "word": "지린은",
+              "meaning": "Zirin",
+              "note": "지린 + 은"
+            }
+          ],
+          "words": [
+            {
+              "surface": "치요우가",
+              "meaning": "Chiyou",
+              "base": "치요우 + 가"
+            },
+            {
+              "surface": "붙잡힌",
+              "meaning": "capture",
+              "base": "붙잡다"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "지린은",
+              "meaning": "Zirin",
+              "base": "지린 + 은"
+            },
+            {
+              "surface": "돌아가서",
+              "meaning": "returned and"
+            },
+            {
+              "surface": "동료를",
+              "meaning": "companion (object)",
+              "base": "동료 + 를"
+            },
+            {
+              "surface": "구해야",
+              "meaning": "rescued and: must do",
+              "base": "구하다"
+            },
+            {
+              "surface": "한다고",
+              "meaning": "that one does"
+            },
+            {
+              "surface": "주장했어",
+              "meaning": "claimed",
+              "base": "주장하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "하지만 타이 리와 왕실 병사들이 함정을 준비했고 동료 치요우가 붙잡혔어.",
+          "translation": "But Ty Lee and the royal guards had prepared a trap, and their companion Chiyou was captured.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "하지만 타이 리와 왕실 병사들이 함정을 준비했고 동료 치요우가 붙잡혔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "하지만 타이 리와 왕실 병사들이 함정을 준비했고 동료 치요우가 붙잡혔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "word": "리와",
+              "meaning": "Lee (와)",
+              "note": "리 + 와"
+            },
+            {
+              "word": "왕실",
+              "meaning": "royal"
+            },
+            {
+              "word": "병사들이",
+              "meaning": "soldier (들이)",
+              "note": "병사 + 들이"
+            },
+            {
+              "word": "함정을",
+              "meaning": "trap (을)",
+              "note": "함정 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "but / however"
+            },
+            {
+              "surface": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "surface": "리와",
+              "meaning": "Lee (와)",
+              "base": "리 + 와"
+            },
+            {
+              "surface": "왕실",
+              "meaning": "royal"
+            },
+            {
+              "surface": "병사들이",
+              "meaning": "soldier (들이)",
+              "base": "병사 + 들이"
+            },
+            {
+              "surface": "함정을",
+              "meaning": "trap (을)",
+              "base": "함정 + 을"
+            },
+            {
+              "surface": "준비했고",
+              "meaning": "prepared, and",
+              "base": "준비하다 + -았고"
+            },
+            {
+              "surface": "동료",
+              "meaning": "companion"
+            },
+            {
+              "surface": "치요우가",
+              "meaning": "Chiyou (가)",
+              "base": "치요우 + 가"
+            },
+            {
+              "surface": "붙잡혔어",
+              "meaning": "capture",
+              "base": "붙잡다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라는 치요우를 전쟁의 희생이라고 부르며 구조를 거부했어.",
+          "translation": "Azula called Chiyou a casualty of war and refused to rescue her.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "아줄라는 치요우를 전쟁의 희생이라고 부르며 구조를 거부했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "아줄라는 치요우를 전쟁의 희생이라고 부르며 구조를 거부했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 치요우를 전쟁의 희생이라고 부르며 구조를 거부했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "구조를",
+              "meaning": "rescue (object)"
+            },
+            {
+              "word": "희생이라고",
+              "meaning": "that it was a sacrifice / casualty"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "치요우를",
+              "meaning": "Chiyou",
+              "note": "치요우 + 를"
+            },
+            {
+              "word": "전쟁의",
+              "meaning": "war",
+              "note": "전쟁 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "치요우를",
+              "meaning": "Chiyou",
+              "base": "치요우 + 를"
+            },
+            {
+              "surface": "전쟁의",
+              "meaning": "war",
+              "base": "전쟁 + 의"
+            },
+            {
+              "surface": "희생이라고",
+              "meaning": "that it was a sacrifice / casualty"
+            },
+            {
+              "surface": "부르며",
+              "meaning": "calling while",
+              "base": "부르다 + -(으)며"
+            },
+            {
+              "surface": "구조를",
+              "meaning": "rescue (object)"
+            },
+            {
+              "surface": "거부했어",
+              "meaning": "reject: did / was",
+              "base": "거부하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "폭풍 속을 걷던 아줄라는 숲 한가운데에서 낯선 사원을 발견했어.",
+          "translation": "While walking through a storm, Azula discovered a strange temple in the middle of the forest.",
+          "grammar": [
+            {
+              "pattern": "-던 N",
+              "explanation": "A retrospective modifier for an action or state remembered as ongoing or repeated in the past: “the N that was/used to …”.",
+              "example": "폭풍 속을 걷던 아줄라는 숲 한가운데에서 낯선 사원을 발견했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "폭풍 속을 걷던 아줄라는 숲 한가운데에서 낯선 사원을 발견했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "속을",
+              "meaning": "through the inside",
+              "note": "속 + 을"
+            },
+            {
+              "word": "걷던",
+              "meaning": "was walking",
+              "note": "걷다 + -던"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "한가운데에서",
+              "meaning": "in the very middle",
+              "note": "한가운데 + 에서"
+            }
+          ],
+          "words": [
+            {
+              "surface": "폭풍",
+              "meaning": "storm"
+            },
+            {
+              "surface": "속을",
+              "meaning": "through the inside",
+              "base": "속 + 을"
+            },
+            {
+              "surface": "걷던",
+              "meaning": "was walking",
+              "base": "걷다 + -던"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "숲",
+              "meaning": "forest"
+            },
+            {
+              "surface": "한가운데에서",
+              "meaning": "in the very middle",
+              "base": "한가운데 + 에서"
+            },
+            {
+              "surface": "낯선",
+              "meaning": "unfamiliar / strange",
+              "base": "낯설다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사원을",
+              "meaning": "temple (object)",
+              "base": "사원 + 을"
+            },
+            {
+              "surface": "발견했어",
+              "meaning": "discovered",
+              "base": "발견하다"
+            }
+          ]
+        },
+        {
+          "korean": "불 전사들은 밤사이에 캠프를 떠나 치요우를 스스로 구하기로 했어.",
+          "translation": "During the night, the Fire Warriors left camp and decided to rescue Chiyou themselves.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.”",
+              "example": "불 전사들은 밤사이에 캠프를 떠나 치요우를 스스로 구하기로 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "불 전사들은 밤사이에 캠프를 떠나 치요우를 스스로 구하기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "불 전사들은 밤사이에 캠프를 떠나 치요우를 스스로 구하기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "캠프를",
+              "meaning": "camp (object)"
+            },
+            {
+              "word": "밤사이에",
+              "meaning": "during the night"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "전사들은",
+              "meaning": "warrior",
+              "note": "전사 + 들은"
+            },
+            {
+              "word": "치요우를",
+              "meaning": "Chiyou",
+              "note": "치요우 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "불",
+              "meaning": "fire"
+            },
+            {
+              "surface": "전사들은",
+              "meaning": "warrior",
+              "base": "전사 + 들은"
+            },
+            {
+              "surface": "밤사이에",
+              "meaning": "during the night"
+            },
+            {
+              "surface": "캠프를",
+              "meaning": "camp (object)"
+            },
+            {
+              "surface": "떠나",
+              "meaning": "left",
+              "base": "떠나다 + -아/어"
+            },
+            {
+              "surface": "치요우를",
+              "meaning": "Chiyou",
+              "base": "치요우 + 를"
+            },
+            {
+              "surface": "스스로",
+              "meaning": "by oneself / on one’s own"
+            },
+            {
+              "surface": "구하기로",
+              "meaning": "save",
+              "base": "구하다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "사원의 영혼은 아줄라가 가장 원하는 행복한 가족의 모습을 보여 줬어.",
+          "translation": "The temple spirit showed Azula an image of the happy family she desired most.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does...”",
+              "example": "사원의 영혼은 아줄라가 가장 원하는 행복한 가족의 모습을 보여 줬어."
+            },
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is done for another person as a favor or benefit.",
+              "example": "사원의 영혼은 아줄라가 가장 원하는 행복한 가족의 모습을 보여 줬어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "사원의 영혼은 아줄라가 가장 원하는 행복한 가족의 모습을 보여 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사원의",
+              "meaning": "temple's",
+              "note": "사원 + 의"
+            },
+            {
+              "word": "영혼은",
+              "meaning": "spirit (topic)",
+              "note": "영혼 + 은"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula (subject)",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "원하는",
+              "meaning": "desiring",
+              "note": "원하다 + -는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사원의",
+              "meaning": "temple's",
+              "base": "사원 + 의"
+            },
+            {
+              "surface": "영혼은",
+              "meaning": "spirit (topic)",
+              "base": "영혼 + 은"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula (subject)",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "가장",
+              "meaning": "most"
+            },
+            {
+              "surface": "원하는",
+              "meaning": "desiring",
+              "base": "원하다 + -는"
+            },
+            {
+              "surface": "행복한",
+              "meaning": "happy",
+              "base": "행복하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "가족의",
+              "meaning": "family's",
+              "base": "가족 + 의"
+            },
+            {
+              "surface": "모습을",
+              "meaning": "image / appearance (object)",
+              "base": "모습 + 을"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for her",
+              "base": "주다"
+            }
+          ]
+        },
+        {
+          "korean": "혼자 남은 아줄라는 배신자들에게 복수하려고 숲을 헤매다가 폭풍을 만났어.",
+          "translation": "Left alone, Azula wandered the forest seeking revenge on the traitors and was caught in a storm.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was underway before another event or change occurred.",
+              "example": "혼자 남은 아줄라는 배신자들에게 복수하려고 숲을 헤매다가 폭풍을 만났어."
+            },
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "혼자 남은 아줄라는 배신자들에게 복수하려고 숲을 헤매다가 폭풍을 만났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "배신자들에게",
+              "meaning": "to the traitors"
+            },
+            {
+              "word": "헤매다가",
+              "meaning": "while wandering, then"
+            },
+            {
+              "word": "폭풍을",
+              "meaning": "storm (object)",
+              "note": "폭풍 + 을"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "숲을",
+              "meaning": "forest and (object)",
+              "note": "숲 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "혼자",
+              "meaning": "alone"
+            },
+            {
+              "surface": "남은",
+              "meaning": "left / remaining",
+              "base": "남다 + -(으)ㄴ"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "배신자들에게",
+              "meaning": "to the traitors"
+            },
+            {
+              "surface": "복수하려고",
+              "meaning": "복수: in order to",
+              "base": "복수하다"
+            },
+            {
+              "surface": "숲을",
+              "meaning": "forest and (object)",
+              "base": "숲 + 을"
+            },
+            {
+              "surface": "헤매다가",
+              "meaning": "while wandering, then"
+            },
+            {
+              "surface": "폭풍을",
+              "meaning": "storm (object)",
+              "base": "폭풍 + 을"
+            },
+            {
+              "surface": "만났어",
+              "meaning": "met",
+              "base": "만나다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "지린은 치요우를 구하자고 했지만 아줄라는 실패한 동료는 버려야 한다고 말했어.",
+          "translation": "Zirin urged them to rescue Chiyou, but Azula said a failed companion should be abandoned.",
+          "grammar": [
+            {
+              "pattern": "-아/어야 하다",
+              "explanation": "Expresses necessity: “must / have to.”",
+              "example": "지린은 치요우를 구하자고 했지만 아줄라는 실패한 동료는 버려야 한다고 말했어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "지린은 치요우를 구하자고 했지만 아줄라는 실패한 동료는 버려야 한다고 말했어."
+            },
+            {
+              "pattern": "-자",
+              "explanation": "Means “when / once” and introduces the situation that causes the next event.",
+              "example": "지린은 치요우를 구하자고 했지만 아줄라는 실패한 동료는 버려야 한다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "지린은",
+              "meaning": "Zirin (은)",
+              "note": "지린 + 은"
+            },
+            {
+              "word": "치요우를",
+              "meaning": "Chiyou (를)",
+              "note": "치요우 + 를"
+            },
+            {
+              "word": "구하자고",
+              "meaning": "save",
+              "note": "구하다"
+            },
+            {
+              "word": "했지만",
+              "meaning": "had to but",
+              "note": "하다 + -지만"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "지린은",
+              "meaning": "Zirin (은)",
+              "base": "지린 + 은"
+            },
+            {
+              "surface": "치요우를",
+              "meaning": "Chiyou (를)",
+              "base": "치요우 + 를"
+            },
+            {
+              "surface": "구하자고",
+              "meaning": "save",
+              "base": "구하다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "had to but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "실패한",
+              "meaning": "failed",
+              "base": "실패하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "동료는",
+              "meaning": "companion (는)",
+              "base": "동료 + 는"
+            },
+            {
+              "surface": "버려야",
+              "meaning": "must abandon",
+              "base": "버리다 + -아/어야"
+            },
+            {
+              "surface": "한다고",
+              "meaning": "that one does",
+              "base": "하다 + -ㄴ다고"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        },
+        {
+          "korean": "사원 안의 여자 승려는 그곳이 지친 여행자에게 휴식을 주는 피난처라고 설명했어.",
+          "translation": "The female monk inside the temple explained that it was a refuge offering rest to weary travelers.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "사원 안의 여자 승려는 그곳이 지친 여행자에게 휴식을 주는 피난처라고 설명했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "사원 안의 여자 승려는 그곳이 지친 여행자에게 휴식을 주는 피난처라고 설명했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "사원 안의 여자 승려는 그곳이 지친 여행자에게 휴식을 주는 피난처라고 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "휴식을",
+              "meaning": "rest (object)"
+            },
+            {
+              "word": "피난처라고",
+              "meaning": "that it is a refuge"
+            },
+            {
+              "word": "지친",
+              "meaning": "tired / weary"
+            },
+            {
+              "word": "승려는",
+              "meaning": "monk",
+              "note": "승려 + 는"
+            },
+            {
+              "word": "그곳이",
+              "meaning": "that place",
+              "note": "그곳 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사원",
+              "meaning": "temple"
+            },
+            {
+              "surface": "안의",
+              "meaning": "inside 's / of",
+              "base": "안 + 의"
+            },
+            {
+              "surface": "여자",
+              "meaning": "girls / female"
+            },
+            {
+              "surface": "승려는",
+              "meaning": "monk",
+              "base": "승려 + 는"
+            },
+            {
+              "surface": "그곳이",
+              "meaning": "that place",
+              "base": "그곳 + 이"
+            },
+            {
+              "surface": "지친",
+              "meaning": "tired / weary"
+            },
+            {
+              "surface": "여행자에게",
+              "meaning": "traveler to",
+              "base": "여행자 + 에게"
+            },
+            {
+              "surface": "휴식을",
+              "meaning": "rest (object)"
+            },
+            {
+              "surface": "주는",
+              "meaning": "giving / showing",
+              "base": "주다 + -는"
+            },
+            {
+              "surface": "피난처라고",
+              "meaning": "that it is a refuge"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "설명: did / was",
+              "base": "설명하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그 말을 들은 불 전사들은 아줄라가 자신들을 전혀 아끼지 않는다고 느껴 떠났어.",
+          "translation": "Hearing this, the Fire Warriors felt that Azula did not care for them at all and left.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "그 말을 들은 불 전사들은 아줄라가 자신들을 전혀 아끼지 않는다고 느껴 떠났어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "그 말을 들은 불 전사들은 아줄라가 자신들을 전혀 아끼지 않는다고 느껴 떠났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그 말을 들은 불 전사들은 아줄라가 자신들을 전혀 아끼지 않는다고 느껴 떠났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "말을",
+              "meaning": "words (을)",
+              "note": "말 + 을"
+            },
+            {
+              "word": "들은",
+              "meaning": "heard",
+              "note": "듣다 + -(으)ㄴ"
+            },
+            {
+              "word": "전사들은",
+              "meaning": "warrior (들은)",
+              "note": "전사 + 들은"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula (subject)",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "자신들을",
+              "meaning": "themselves (object)",
+              "note": "자신들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "말을",
+              "meaning": "words (을)",
+              "base": "말 + 을"
+            },
+            {
+              "surface": "들은",
+              "meaning": "heard",
+              "base": "듣다 + -(으)ㄴ"
+            },
+            {
+              "surface": "불",
+              "meaning": "fire"
+            },
+            {
+              "surface": "전사들은",
+              "meaning": "warrior (들은)",
+              "base": "전사 + 들은"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula (subject)",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "자신들을",
+              "meaning": "themselves (object)",
+              "base": "자신들 + 을"
+            },
+            {
+              "surface": "전혀",
+              "meaning": "not at all"
+            },
+            {
+              "surface": "아끼지",
+              "meaning": "care for / cherish",
+              "base": "아끼다"
+            },
+            {
+              "surface": "않는다고",
+              "meaning": "that it does not",
+              "base": "않다 + -는다고"
+            },
+            {
+              "surface": "느껴",
+              "meaning": "felt / sensing",
+              "base": "느끼다 + -아/어"
+            },
+            {
+              "surface": "떠났어",
+              "meaning": "left",
+              "base": "떠나다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라는 승려의 방까지 빼앗아 잠들면서도 동료들에게 복수할 생각만 했어.",
+          "translation": "Azula took the monk's own room and fell asleep still thinking only of revenge.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "아줄라는 승려의 방까지 빼앗아 잠들면서도 동료들에게 복수할 생각만 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아줄라는 승려의 방까지 빼앗아 잠들면서도 동료들에게 복수할 생각만 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 승려의 방까지 빼앗아 잠들면서도 동료들에게 복수할 생각만 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "방까지",
+              "meaning": "even the room"
+            },
+            {
+              "word": "잠들면서도",
+              "meaning": "even while falling asleep"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "승려의",
+              "meaning": "monk 's / of",
+              "note": "승려 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "승려의",
+              "meaning": "monk 's / of",
+              "base": "승려 + 의"
+            },
+            {
+              "surface": "방까지",
+              "meaning": "even the room"
+            },
+            {
+              "surface": "빼앗아",
+              "meaning": "would take away",
+              "base": "빼앗다"
+            },
+            {
+              "surface": "잠들면서도",
+              "meaning": "even while falling asleep"
+            },
+            {
+              "surface": "동료들에게",
+              "meaning": "companion to (plural)",
+              "base": "동료 + 들에게"
+            },
+            {
+              "surface": "복수할",
+              "meaning": "복수: to do / that will do",
+              "base": "복수하다"
+            },
+            {
+              "surface": "생각만",
+              "meaning": "thoughts only",
+              "base": "생각 + 만"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그 환상에서는 어머니와 친구들이 아줄라를 사랑하고 자랑스러워했어.",
+          "translation": "In the illusion, her mother and friends loved Azula and were proud of her.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "그 환상에서는 어머니와 친구들이 아줄라를 사랑하고 자랑스러워했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "환상에서는",
+              "meaning": "in the illusion (topic)",
+              "note": "환상 + 에서 + 는"
+            },
+            {
+              "word": "어머니와",
+              "meaning": "mother and",
+              "note": "어머니 + 와"
+            },
+            {
+              "word": "친구들이",
+              "meaning": "friends (subject)",
+              "note": "친구들 + 이"
+            },
+            {
+              "word": "아줄라를",
+              "meaning": "Azula (object)",
+              "note": "아줄라 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "환상에서는",
+              "meaning": "in the illusion (topic)",
+              "base": "환상 + 에서 + 는"
+            },
+            {
+              "surface": "어머니와",
+              "meaning": "mother and",
+              "base": "어머니 + 와"
+            },
+            {
+              "surface": "친구들이",
+              "meaning": "friends (subject)",
+              "base": "친구들 + 이"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula (object)",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "사랑하고",
+              "meaning": "loved and",
+              "base": "사랑하다 + -고"
+            },
+            {
+              "surface": "자랑스러워했어",
+              "meaning": "were proud",
+              "base": "자랑스러워하다"
+            }
+          ]
+        },
+        {
+          "korean": "첫 환상은 엠버 섬에서 오자이와 우르사와 상처 없는 주코가 아줄라를 환영하는 장면이었어.",
+          "translation": "The first vision showed Ozai, Ursa, and an unscarred Zuko welcoming Azula on Ember Island.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "첫 환상은 엠버 섬에서 오자이와 우르사와 상처 없는 주코가 아줄라를 환영하는 장면이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "첫 환상은 엠버 섬에서 오자이와 우르사와 상처 없는 주코가 아줄라를 환영하는 장면이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "장면이었어",
+              "meaning": "was a scene"
+            },
+            {
+              "word": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "note": "환상 + 은"
+            },
+            {
+              "word": "엠버",
+              "meaning": "Ember"
+            },
+            {
+              "word": "섬에서",
+              "meaning": "on the island",
+              "note": "섬 + 에서"
+            },
+            {
+              "word": "오자이와",
+              "meaning": "Ozai and / with",
+              "note": "오자이 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "첫",
+              "meaning": "first"
+            },
+            {
+              "surface": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "base": "환상 + 은"
+            },
+            {
+              "surface": "엠버",
+              "meaning": "Ember"
+            },
+            {
+              "surface": "섬에서",
+              "meaning": "on the island",
+              "base": "섬 + 에서"
+            },
+            {
+              "surface": "오자이와",
+              "meaning": "Ozai and / with",
+              "base": "오자이 + 와"
+            },
+            {
+              "surface": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "base": "우르사 + 와"
+            },
+            {
+              "surface": "상처",
+              "meaning": "wound"
+            },
+            {
+              "surface": "없는",
+              "meaning": "without / lacking",
+              "base": "없다 + -는"
+            },
+            {
+              "surface": "주코가",
+              "meaning": "Zuko",
+              "base": "주코 + 가"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "환영하는",
+              "meaning": "환영: doing",
+              "base": "환영하다"
+            },
+            {
+              "surface": "장면이었어",
+              "meaning": "was a scene"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 그것이 거짓이라는 걸 알면서도 잠시 그 안에 머물고 싶어 했어.",
+          "translation": "Although Azula knew it was false, for a moment she wanted to remain inside it.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서",
+              "explanation": "Means “while doing” when the same subject performs two actions at the same time.",
+              "example": "아줄라는 그것이 거짓이라는 걸 알면서도 잠시 그 안에 머물고 싶어 했어."
+            },
+            {
+              "pattern": "-아/어도 / -더라도",
+              "explanation": "Means “even if / even though.” -더라도 is usually stronger and more hypothetical.",
+              "example": "아줄라는 그것이 거짓이라는 걸 알면서도 잠시 그 안에 머물고 싶어 했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "아줄라는 그것이 거짓이라는 걸 알면서도 잠시 그 안에 머물고 싶어 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "그것이",
+              "meaning": "it (subject)",
+              "note": "그것 + 이"
+            },
+            {
+              "word": "거짓이라는",
+              "meaning": "that it is false",
+              "note": "거짓 + 이라는"
+            },
+            {
+              "word": "걸",
+              "meaning": "the fact (object)",
+              "note": "것을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "그것이",
+              "meaning": "it (subject)",
+              "base": "그것 + 이"
+            },
+            {
+              "surface": "거짓이라는",
+              "meaning": "that it is false",
+              "base": "거짓 + 이라는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact (object)",
+              "base": "것을"
+            },
+            {
+              "surface": "알면서도",
+              "meaning": "even while knowing",
+              "base": "알다 + -(으)면서도"
+            },
+            {
+              "surface": "잠시",
+              "meaning": "for a moment"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "안에",
+              "meaning": "inside",
+              "base": "안 + 에"
+            },
+            {
+              "surface": "머물고",
+              "meaning": "stay and / want to stay",
+              "base": "머물다 + -고"
+            },
+            {
+              "surface": "싶어",
+              "meaning": "want",
+              "base": "싶다 + -아/어"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / showed",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "마이와 타이 리의 모습은 그 행복한 가족이 사실이 아니라는 점을 계속 지적했어.",
+          "translation": "Apparitions of Mai and Ty Lee repeatedly pointed out that the happy family was not real.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "마이와 타이 리의 모습은 그 행복한 가족이 사실이 아니라는 점을 계속 지적했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "마이와 타이 리의 모습은 그 행복한 가족이 사실이 아니라는 점을 계속 지적했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "점을",
+              "meaning": "point / fact (object)"
+            },
+            {
+              "word": "모습은",
+              "meaning": "image / appearance (topic)",
+              "note": "모습 + 은"
+            },
+            {
+              "word": "가족이",
+              "meaning": "family (subject)",
+              "note": "가족 + 이"
+            },
+            {
+              "word": "사실이",
+              "meaning": "fact (subject)",
+              "note": "사실 + 이"
+            },
+            {
+              "word": "아니라는",
+              "meaning": "not but / rather than (topic)",
+              "note": "아니라 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이와",
+              "meaning": "Mai",
+              "base": "마이 + 와"
+            },
+            {
+              "surface": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "surface": "리의",
+              "meaning": "Lee 's / of",
+              "base": "리 + 의"
+            },
+            {
+              "surface": "모습은",
+              "meaning": "image / appearance (topic)",
+              "base": "모습 + 은"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "행복한",
+              "meaning": "happy",
+              "base": "행복하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "가족이",
+              "meaning": "family (subject)",
+              "base": "가족 + 이"
+            },
+            {
+              "surface": "사실이",
+              "meaning": "fact (subject)",
+              "base": "사실 + 이"
+            },
+            {
+              "surface": "아니라는",
+              "meaning": "not but / rather than (topic)",
+              "base": "아니라 + 는"
+            },
+            {
+              "surface": "점을",
+              "meaning": "point / fact (object)"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously / still"
+            },
+            {
+              "surface": "지적했어",
+              "meaning": "지적: did / was",
+              "base": "지적하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "사원에 있던 친절한 승려는 사실 아줄라의 마음을 치료하려는 영혼이었어.",
+          "translation": "The kind monk in the temple was actually a spirit trying to heal Azula's heart.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "사원에 있던 친절한 승려는 사실 아줄라의 마음을 치료하려는 영혼이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "사원에 있던 친절한 승려는 사실 아줄라의 마음을 치료하려는 영혼이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사원에",
+              "meaning": "temple (에)",
+              "note": "사원 + 에"
+            },
+            {
+              "word": "있던",
+              "meaning": "that was / had been",
+              "note": "있다 + -던"
+            },
+            {
+              "word": "친절한",
+              "meaning": "kind",
+              "note": "친절하다 + -(으)ㄴ"
+            },
+            {
+              "word": "승려는",
+              "meaning": "monk (는)",
+              "note": "승려 + 는"
+            },
+            {
+              "word": "사실",
+              "meaning": "fact"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사원에",
+              "meaning": "temple (에)",
+              "base": "사원 + 에"
+            },
+            {
+              "surface": "있던",
+              "meaning": "that was / had been",
+              "base": "있다 + -던"
+            },
+            {
+              "surface": "친절한",
+              "meaning": "kind",
+              "base": "친절하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "승려는",
+              "meaning": "monk (는)",
+              "base": "승려 + 는"
+            },
+            {
+              "surface": "사실",
+              "meaning": "fact"
+            },
+            {
+              "surface": "아줄라의",
+              "meaning": "Azula's",
+              "base": "아줄라 + 의"
+            },
+            {
+              "surface": "마음을",
+              "meaning": "heart / feelings (을)",
+              "base": "마음 + 을"
+            },
+            {
+              "surface": "치료하려는",
+              "meaning": "heal",
+              "base": "치료하다"
+            },
+            {
+              "surface": "영혼이었어",
+              "meaning": "was a spirit",
+              "base": "영혼이다"
+            }
+          ]
+        },
+        {
+          "korean": "사원을 떠나려 할 때마다 안개가 아줄라를 다시 같은 문 앞으로 데려왔어.",
+          "translation": "Each time Azula tried to leave, the mist brought her back to the same temple door.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "사원을 떠나려 할 때마다 안개가 아줄라를 다시 같은 문 앞으로 데려왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "사원을 떠나려 할 때마다 안개가 아줄라를 다시 같은 문 앞으로 데려왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "안개가",
+              "meaning": "mist (subject)"
+            },
+            {
+              "word": "사원을",
+              "meaning": "temple",
+              "note": "사원 + 을"
+            },
+            {
+              "word": "아줄라를",
+              "meaning": "Azula",
+              "note": "아줄라 + 를"
+            },
+            {
+              "word": "앞으로",
+              "meaning": "in front of to / by / as",
+              "note": "앞 + 으로"
+            },
+            {
+              "word": "떠나려",
+              "meaning": "left",
+              "note": "떠나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사원을",
+              "meaning": "temple",
+              "base": "사원 + 을"
+            },
+            {
+              "surface": "떠나려",
+              "meaning": "left",
+              "base": "떠나다"
+            },
+            {
+              "surface": "할",
+              "meaning": "to do / that will do"
+            },
+            {
+              "surface": "때마다",
+              "meaning": "whenever",
+              "base": "때 + 마다"
+            },
+            {
+              "surface": "안개가",
+              "meaning": "mist (subject)"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "문",
+              "meaning": "door"
+            },
+            {
+              "surface": "앞으로",
+              "meaning": "in front of to / by / as",
+              "base": "앞 + 으로"
+            },
+            {
+              "surface": "데려왔어",
+              "meaning": "brought",
+              "base": "데려오다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "영혼은 주코와 우르사와 마이와 타이 리가 있는 여러 환상을 차례로 보여 줬어.",
+          "translation": "The spirit showed her a series of visions involving Zuko, Ursa, Mai, and Ty Lee.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "영혼은 주코와 우르사와 마이와 타이 리가 있는 여러 환상을 차례로 보여 줬어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "영혼은 주코와 우르사와 마이와 타이 리가 있는 여러 환상을 차례로 보여 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "영혼은",
+              "meaning": "spirit (topic)",
+              "note": "영혼 + 은"
+            },
+            {
+              "word": "주코와",
+              "meaning": "Zuko (와)",
+              "note": "주코 + 와"
+            },
+            {
+              "word": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "note": "우르사 + 와"
+            },
+            {
+              "word": "마이와",
+              "meaning": "Mai (와)",
+              "note": "마이 + 와"
+            },
+            {
+              "word": "타이",
+              "meaning": "Ty"
+            }
+          ],
+          "words": [
+            {
+              "surface": "영혼은",
+              "meaning": "spirit (topic)",
+              "base": "영혼 + 은"
+            },
+            {
+              "surface": "주코와",
+              "meaning": "Zuko (와)",
+              "base": "주코 + 와"
+            },
+            {
+              "surface": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "base": "우르사 + 와"
+            },
+            {
+              "surface": "마이와",
+              "meaning": "Mai (와)",
+              "base": "마이 + 와"
+            },
+            {
+              "surface": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "surface": "리가",
+              "meaning": "Lee (가)",
+              "base": "리 + 가"
+            },
+            {
+              "surface": "있는",
+              "meaning": "being",
+              "base": "있다 + -는"
+            },
+            {
+              "surface": "여러",
+              "meaning": "several / various"
+            },
+            {
+              "surface": "환상을",
+              "meaning": "vision / illusion (을)",
+              "base": "환상 + 을"
+            },
+            {
+              "surface": "차례로",
+              "meaning": "in sequence / one after another"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for others",
+              "base": "주다"
+            }
+          ]
+        },
+        {
+          "korean": "승려는 아줄라가 가족에게 사랑받는 것이 가장 깊은 소원이라고 밝혔어.",
+          "translation": "The monk revealed that Azula's deepest wish was to be loved by her family.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "승려는 아줄라가 가족에게 사랑받는 것이 가장 깊은 소원이라고 밝혔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "승려는 아줄라가 가족에게 사랑받는 것이 가장 깊은 소원이라고 밝혔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소원이라고",
+              "meaning": "that it is a wish"
+            },
+            {
+              "word": "밝혔어",
+              "meaning": "revealed"
+            },
+            {
+              "word": "승려는",
+              "meaning": "monk",
+              "note": "승려 + 는"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "가족에게",
+              "meaning": "family to",
+              "note": "가족 + 에게"
+            }
+          ],
+          "words": [
+            {
+              "surface": "승려는",
+              "meaning": "monk",
+              "base": "승려 + 는"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "가족에게",
+              "meaning": "family to",
+              "base": "가족 + 에게"
+            },
+            {
+              "surface": "사랑받는",
+              "meaning": "love",
+              "base": "사랑하다"
+            },
+            {
+              "surface": "것이",
+              "meaning": "thing / fact",
+              "base": "것 + 이"
+            },
+            {
+              "surface": "가장",
+              "meaning": "most"
+            },
+            {
+              "surface": "깊은",
+              "meaning": "deeply (topic)",
+              "base": "깊 + 은"
+            },
+            {
+              "surface": "소원이라고",
+              "meaning": "that it is a wish"
+            },
+            {
+              "surface": "밝혔어",
+              "meaning": "revealed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "영혼은 과거의 잘못을 인정하면 다른 길을 선택할 수 있다고 말했어.",
+          "translation": "The spirit said that if she admitted her past wrongs, she could choose another path.",
+          "grammar": [
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.”",
+              "example": "영혼은 과거의 잘못을 인정하면 다른 길을 선택할 수 있다고 말했어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.” Tense is shown on 있다 or 없다.",
+              "example": "영혼은 과거의 잘못을 인정하면 다른 길을 선택할 수 있다고 말했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "영혼은 과거의 잘못을 인정하면 다른 길을 선택할 수 있다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "영혼은",
+              "meaning": "spirit (topic)",
+              "note": "영혼 + 은"
+            },
+            {
+              "word": "과거의",
+              "meaning": "past's",
+              "note": "과거 + 의"
+            },
+            {
+              "word": "잘못을",
+              "meaning": "wrongdoing (object)",
+              "note": "잘못 + 을"
+            },
+            {
+              "word": "인정하면",
+              "meaning": "if she admits",
+              "note": "인정하다 + -(으)면"
+            }
+          ],
+          "words": [
+            {
+              "surface": "영혼은",
+              "meaning": "spirit (topic)",
+              "base": "영혼 + 은"
+            },
+            {
+              "surface": "과거의",
+              "meaning": "past's",
+              "base": "과거 + 의"
+            },
+            {
+              "surface": "잘못을",
+              "meaning": "wrongdoing (object)",
+              "base": "잘못 + 을"
+            },
+            {
+              "surface": "인정하면",
+              "meaning": "if she admits",
+              "base": "인정하다 + -(으)면"
+            },
+            {
+              "surface": "다른",
+              "meaning": "another",
+              "base": "다르다 + -(으)ㄴ"
+            },
+            {
+              "surface": "길을",
+              "meaning": "path (object)",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "선택할",
+              "meaning": "choose",
+              "base": "선택하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "possibility"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that she could",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        },
+        {
+          "korean": "타이 리의 환상은 아줄라가 친구가 아니라 두려움으로 사람들을 붙잡았다고 비판했어.",
+          "translation": "A vision of Ty Lee criticized Azula for holding people through fear rather than friendship.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "타이 리의 환상은 아줄라가 친구가 아니라 두려움으로 사람들을 붙잡았다고 비판했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "타이 리의 환상은 아줄라가 친구가 아니라 두려움으로 사람들을 붙잡았다고 비판했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "타이 리의 환상은 아줄라가 친구가 아니라 두려움으로 사람들을 붙잡았다고 비판했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "note": "환상 + 은"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "친구가",
+              "meaning": "friends",
+              "note": "친구 + 가"
+            },
+            {
+              "word": "두려움으로",
+              "meaning": "fear to / by / as",
+              "note": "두려움 + 으로"
+            },
+            {
+              "word": "사람들을",
+              "meaning": "people",
+              "note": "사람들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "타이",
+              "meaning": "Ty"
+            },
+            {
+              "surface": "리의",
+              "meaning": "Lee 's / of",
+              "base": "리 + 의"
+            },
+            {
+              "surface": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "base": "환상 + 은"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "친구가",
+              "meaning": "friends",
+              "base": "친구 + 가"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but / rather than",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "두려움으로",
+              "meaning": "fear to / by / as",
+              "base": "두려움 + 으로"
+            },
+            {
+              "surface": "사람들을",
+              "meaning": "people",
+              "base": "사람들 + 을"
+            },
+            {
+              "surface": "붙잡았다고",
+              "meaning": "capture",
+              "base": "붙잡다"
+            },
+            {
+              "surface": "비판했어",
+              "meaning": "criticized",
+              "base": "비판하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그러나 아줄라는 용서를 약함이라고 부르며 영혼과 싸웠어.",
+          "translation": "However, Azula called forgiveness weakness and fought the spirit.",
+          "grammar": [
+            {
+              "pattern": "-라고 했어",
+              "explanation": "Indirectly reports quoted words, commands, names, or noun statements.",
+              "example": "그러나 아줄라는 용서를 약함이라고 부르며 영혼과 싸웠어."
+            },
+            {
+              "pattern": "-(으)면서",
+              "explanation": "Means “while doing” when the same subject performs two actions at the same time.",
+              "example": "그러나 아줄라는 용서를 약함이라고 부르며 영혼과 싸웠어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "그러나 아줄라는 용서를 약함이라고 부르며 영혼과 싸웠어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그러나",
+              "meaning": "however"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "용서를",
+              "meaning": "forgiveness (object)",
+              "note": "용서 + 를"
+            },
+            {
+              "word": "약함이라고",
+              "meaning": "as weakness",
+              "note": "약함 + 이라고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "용서를",
+              "meaning": "forgiveness (object)",
+              "base": "용서 + 를"
+            },
+            {
+              "surface": "약함이라고",
+              "meaning": "as weakness",
+              "base": "약함 + 이라고"
+            },
+            {
+              "surface": "부르며",
+              "meaning": "calling while",
+              "base": "부르다 + -(으)며"
+            },
+            {
+              "surface": "영혼과",
+              "meaning": "with the spirit",
+              "base": "영혼 + 과"
+            },
+            {
+              "surface": "싸웠어",
+              "meaning": "fought",
+              "base": "싸우다"
+            }
+          ]
+        },
+        {
+          "korean": "우르사의 환상은 아줄라를 안으며 과거를 인정하고 용서를 선택할 기회를 줬어.",
+          "translation": "A vision of Ursa embraced Azula and gave her a chance to acknowledge the past and choose forgiveness.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "우르사의 환상은 아줄라를 안으며 과거를 인정하고 용서를 선택할 기회를 줬어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "우르사의 환상은 아줄라를 안으며 과거를 인정하고 용서를 선택할 기회를 줬어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우르사의 환상은 아줄라를 안으며 과거를 인정하고 용서를 선택할 기회를 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "기회를",
+              "meaning": "opportunity (object)"
+            },
+            {
+              "word": "안으며",
+              "meaning": "while embracing"
+            },
+            {
+              "word": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "note": "환상 + 은"
+            },
+            {
+              "word": "우르사의",
+              "meaning": "Ursa's",
+              "note": "우르사 + 의"
+            },
+            {
+              "word": "아줄라를",
+              "meaning": "Azula",
+              "note": "아줄라 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "base": "환상 + 은"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "안으며",
+              "meaning": "while embracing"
+            },
+            {
+              "surface": "과거를",
+              "meaning": "past",
+              "base": "과거 + 를"
+            },
+            {
+              "surface": "인정하고",
+              "meaning": "acknowledged and",
+              "base": "인정하다 + -고"
+            },
+            {
+              "surface": "용서를",
+              "meaning": "forgiveness",
+              "base": "용서 + 를"
+            },
+            {
+              "surface": "선택할",
+              "meaning": "choose",
+              "base": "선택하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "기회를",
+              "meaning": "opportunity (object)"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for others",
+              "base": "주다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "환상 속 사람들은 아줄라가 두려움 없이 잘못을 인정하기를 기다리고 있었어.",
+          "translation": "The people in the visions were waiting for Azula to admit her mistakes without fear.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "환상 속 사람들은 아줄라가 두려움 없이 잘못을 인정하기를 기다리고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "환상 속 사람들은 아줄라가 두려움 없이 잘못을 인정하기를 기다리고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "환상",
+              "meaning": "vision / illusion"
+            },
+            {
+              "word": "사람들은",
+              "meaning": "people (topic)",
+              "note": "사람들 + 은"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula (subject)",
+              "note": "아줄라 + 가"
+            },
+            {
+              "word": "두려움",
+              "meaning": "fear"
+            },
+            {
+              "word": "없이",
+              "meaning": "without",
+              "note": "없다 + -이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "환상",
+              "meaning": "vision / illusion"
+            },
+            {
+              "surface": "속",
+              "meaning": "inside"
+            },
+            {
+              "surface": "사람들은",
+              "meaning": "people (topic)",
+              "base": "사람들 + 은"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula (subject)",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "두려움",
+              "meaning": "fear"
+            },
+            {
+              "surface": "없이",
+              "meaning": "without",
+              "base": "없다 + -이"
+            },
+            {
+              "surface": "잘못을",
+              "meaning": "wrongdoing (object)",
+              "base": "잘못 + 을"
+            },
+            {
+              "surface": "인정하기를",
+              "meaning": "admit",
+              "base": "인정하다"
+            },
+            {
+              "surface": "기다리고",
+              "meaning": "wait",
+              "base": "기다리다"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "were",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "마이와 주코의 환상은 아줄라가 혼자가 되지 않으려고 약한 사람들만 곁에 둔다고 말했어.",
+          "translation": "Visions of Mai and Zuko said that Azula kept vulnerable people around her because she feared being alone.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "마이와 주코의 환상은 아줄라가 혼자가 되지 않으려고 약한 사람들만 곁에 둔다고 말했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "마이와 주코의 환상은 아줄라가 혼자가 되지 않으려고 약한 사람들만 곁에 둔다고 말했어."
+            },
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "마이와 주코의 환상은 아줄라가 혼자가 되지 않으려고 약한 사람들만 곁에 둔다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "곁에",
+              "meaning": "beside / by"
+            },
+            {
+              "word": "둔다고",
+              "meaning": "that one keeps / places"
+            },
+            {
+              "word": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "note": "환상 + 은"
+            },
+            {
+              "word": "혼자가",
+              "meaning": "alone (subject)",
+              "note": "혼자 + 가"
+            },
+            {
+              "word": "되지",
+              "meaning": "become + not"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마이와",
+              "meaning": "Mai",
+              "base": "마이 + 와"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "환상은",
+              "meaning": "vision / illusion (topic)",
+              "base": "환상 + 은"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "혼자가",
+              "meaning": "alone (subject)",
+              "base": "혼자 + 가"
+            },
+            {
+              "surface": "되지",
+              "meaning": "become + not"
+            },
+            {
+              "surface": "않으려고",
+              "meaning": "in order not to",
+              "base": "않다 + -(으)려고"
+            },
+            {
+              "surface": "약한",
+              "meaning": "would be weak: that did / ...",
+              "base": "약하다"
+            },
+            {
+              "surface": "사람들만",
+              "meaning": "people only",
+              "base": "사람들 + 만"
+            },
+            {
+              "surface": "곁에",
+              "meaning": "beside / by"
+            },
+            {
+              "surface": "둔다고",
+              "meaning": "that one keeps / places"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 상처받은 마음을 인정하는 대신 번개로 사원을 공격해 환상을 깨뜨렸어.",
+          "translation": "Instead of acknowledging her wounded heart, Azula attacked the temple with lightning and shattered the illusion.",
+          "grammar": [
+            {
+              "pattern": "-는 대신(에)",
+              "explanation": "Means “instead of” or presents an alternative choice.",
+              "example": "아줄라는 상처받은 마음을 인정하는 대신 번개로 사원을 공격해 환상을 깨뜨렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 상처받은 마음을 인정하는 대신 번개로 사원을 공격해 환상을 깨뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "상처받은",
+              "meaning": "hurt / wounded",
+              "note": "상처받다 + -(으)ㄴ"
+            },
+            {
+              "word": "마음을",
+              "meaning": "heart / feelings (을)",
+              "note": "마음 + 을"
+            },
+            {
+              "word": "인정하는",
+              "meaning": "admit",
+              "note": "인정하다"
+            },
+            {
+              "word": "대신",
+              "meaning": "instead"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "상처받은",
+              "meaning": "hurt / wounded",
+              "base": "상처받다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마음을",
+              "meaning": "heart / feelings (을)",
+              "base": "마음 + 을"
+            },
+            {
+              "surface": "인정하는",
+              "meaning": "admit",
+              "base": "인정하다"
+            },
+            {
+              "surface": "대신",
+              "meaning": "instead"
+            },
+            {
+              "surface": "번개로",
+              "meaning": "with lightning",
+              "base": "번개 + 로"
+            },
+            {
+              "surface": "사원을",
+              "meaning": "temple (object)",
+              "base": "사원 + 을"
+            },
+            {
+              "surface": "공격해",
+              "meaning": "attacked / by attacking",
+              "base": "공격하다 + -아/어"
+            },
+            {
+              "surface": "환상을",
+              "meaning": "vision / illusion (을)",
+              "base": "환상 + 을"
+            },
+            {
+              "surface": "깨뜨렸어",
+              "meaning": "shattered",
+              "base": "깨뜨리다"
+            }
+          ]
+        },
+        {
+          "korean": "승려는 거대한 벌레 같은 영혼으로 변해 아줄라가 더 나은 길을 선택할 수 있다고 설명했어.",
+          "translation": "The monk transformed into a giant insect-like spirit and explained that Azula could choose a better path.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "승려는 거대한 벌레 같은 영혼으로 변해 아줄라가 더 나은 길을 선택할 수 있다고 설명했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "승려는 거대한 벌레 같은 영혼으로 변해 아줄라가 더 나은 길을 선택할 수 있다고 설명했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "승려는 거대한 벌레 같은 영혼으로 변해 아줄라가 더 나은 길을 선택할 수 있다고 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나은",
+              "meaning": "better"
+            },
+            {
+              "word": "벌레",
+              "meaning": "insect / bug"
+            },
+            {
+              "word": "승려는",
+              "meaning": "monk",
+              "note": "승려 + 는"
+            },
+            {
+              "word": "영혼으로",
+              "meaning": "spirit to / by / as",
+              "note": "영혼 + 으로"
+            },
+            {
+              "word": "아줄라가",
+              "meaning": "Azula",
+              "note": "아줄라 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "승려는",
+              "meaning": "monk",
+              "base": "승려 + 는"
+            },
+            {
+              "surface": "거대한",
+              "meaning": "huge",
+              "base": "거대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "벌레",
+              "meaning": "insect / bug"
+            },
+            {
+              "surface": "같은",
+              "meaning": "same",
+              "base": "같다 + -(으)ㄴ"
+            },
+            {
+              "surface": "영혼으로",
+              "meaning": "spirit to / by / as",
+              "base": "영혼 + 으로"
+            },
+            {
+              "surface": "변해",
+              "meaning": "changed",
+              "base": "변하다 + -아/어"
+            },
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "나은",
+              "meaning": "better"
+            },
+            {
+              "surface": "길을",
+              "meaning": "paths",
+              "base": "길 + 을"
+            },
+            {
+              "surface": "선택할",
+              "meaning": "choose",
+              "base": "선택하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is possible",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "설명: did / was",
+              "base": "설명하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 용서와 구원을 거부하고 번개로 영혼을 공격해 사원을 무너뜨렸어.",
+          "translation": "Azula rejected forgiveness and redemption and struck the spirit with lightning, causing the temple to collapse.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아줄라는 용서와 구원을 거부하고 번개로 영혼을 공격해 사원을 무너뜨렸어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "아줄라는 용서와 구원을 거부하고 번개로 영혼을 공격해 사원을 무너뜨렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 용서와 구원을 거부하고 번개로 영혼을 공격해 사원을 무너뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "구원을",
+              "meaning": "redemption / salvation (object)"
+            },
+            {
+              "word": "무너뜨렸어",
+              "meaning": "brought down / collapsed"
+            },
+            {
+              "word": "영혼을",
+              "meaning": "spirit (object)",
+              "note": "영혼 + 을"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "용서와",
+              "meaning": "forgiveness and / with",
+              "note": "용서 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "용서와",
+              "meaning": "forgiveness and / with",
+              "base": "용서 + 와"
+            },
+            {
+              "surface": "구원을",
+              "meaning": "redemption / salvation (object)"
+            },
+            {
+              "surface": "거부하고",
+              "meaning": "reject",
+              "base": "거부하다"
+            },
+            {
+              "surface": "번개로",
+              "meaning": "with lightning",
+              "base": "번개 + 로"
+            },
+            {
+              "surface": "영혼을",
+              "meaning": "spirit (object)",
+              "base": "영혼 + 을"
+            },
+            {
+              "surface": "공격해",
+              "meaning": "attacked / by attacking",
+              "base": "공격하다 + -아/어"
+            },
+            {
+              "surface": "사원을",
+              "meaning": "temple",
+              "base": "사원 + 을"
+            },
+            {
+              "surface": "무너뜨렸어",
+              "meaning": "brought down / collapsed"
+            }
+          ]
+        },
+        {
+          "korean": "사원을 나온 뒤 아줄라는 자신을 떠난 동료들이 잘 지내는 모습을 보았어.",
+          "translation": "After leaving the temple, Azula saw that the companions who had left her were doing well.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing.” The verb is changed into a past modifier before 뒤.",
+              "example": "사원을 나온 뒤 아줄라는 자신을 떠난 동료들이 잘 지내는 모습을 보았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "사원을 나온 뒤 아줄라는 자신을 떠난 동료들이 잘 지내는 모습을 보았어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does...”",
+              "example": "사원을 나온 뒤 아줄라는 자신을 떠난 동료들이 잘 지내는 모습을 보았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사원을",
+              "meaning": "temple (object)",
+              "note": "사원 + 을"
+            },
+            {
+              "word": "나온",
+              "meaning": "came out of",
+              "note": "나오다 + -(으)ㄴ"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "자신을",
+              "meaning": "her (object)",
+              "note": "자신 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사원을",
+              "meaning": "temple (object)",
+              "base": "사원 + 을"
+            },
+            {
+              "surface": "나온",
+              "meaning": "came out of",
+              "base": "나오다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "자신을",
+              "meaning": "her (object)",
+              "base": "자신 + 을"
+            },
+            {
+              "surface": "떠난",
+              "meaning": "left",
+              "base": "떠나다 + -(으)ㄴ"
+            },
+            {
+              "surface": "동료들이",
+              "meaning": "companions (subject)",
+              "base": "동료들 + 이"
+            },
+            {
+              "surface": "잘",
+              "meaning": "well"
+            },
+            {
+              "surface": "지내는",
+              "meaning": "living / doing",
+              "base": "지내다 + -는"
+            },
+            {
+              "surface": "모습을",
+              "meaning": "sight / appearance (object)",
+              "base": "모습 + 을"
+            },
+            {
+              "surface": "보았어",
+              "meaning": "saw",
+              "base": "보다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그녀는 사과하지 않았지만 그들을 공격하지 않고 혼자 떠났어.",
+          "translation": "She did not apologize, but she left alone without attacking them.",
+          "grammar": [
+            {
+              "pattern": "-지 않다",
+              "explanation": "A standard negation attached to a verb or adjective: “do not / is not.” Its tense comes from 않다.",
+              "example": "그녀는 사과하지 않았지만 그들을 공격하지 않고 혼자 떠났어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "그녀는 사과하지 않았지만 그들을 공격하지 않고 혼자 떠났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "그녀는 사과하지 않았지만 그들을 공격하지 않고 혼자 떠났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "사과하지",
+              "meaning": "apologize + not",
+              "note": "사과하다 + -지"
+            },
+            {
+              "word": "않았지만",
+              "meaning": "did not but",
+              "note": "않다 + -았지만"
+            },
+            {
+              "word": "그들을",
+              "meaning": "them (object)",
+              "note": "그들 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "사과하지",
+              "meaning": "apologize + not",
+              "base": "사과하다 + -지"
+            },
+            {
+              "surface": "않았지만",
+              "meaning": "did not but",
+              "base": "않다 + -았지만"
+            },
+            {
+              "surface": "그들을",
+              "meaning": "them (object)",
+              "base": "그들 + 을"
+            },
+            {
+              "surface": "공격하지",
+              "meaning": "attack + not",
+              "base": "공격하다 + -지"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "혼자",
+              "meaning": "alone"
+            },
+            {
+              "surface": "떠났어",
+              "meaning": "left",
+              "base": "떠나다"
+            }
+          ]
+        },
+        {
+          "korean": "숲으로 돌아온 아줄라는 치요우를 구한 옛 동료들을 보았지만 복수하지 않고 새 부하를 찾으러 떠났어.",
+          "translation": "Back in the forest, Azula saw her former followers after they rescued Chiyou, but left to find new followers instead of taking revenge.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms negation: “do not / cannot.”",
+              "example": "숲으로 돌아온 아줄라는 치요우를 구한 옛 동료들을 보았지만 복수하지 않고 새 부하를 찾으러 떠났어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "숲으로 돌아온 아줄라는 치요우를 구한 옛 동료들을 보았지만 복수하지 않고 새 부하를 찾으러 떠났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "부하를",
+              "meaning": "subordinate / follower (object)"
+            },
+            {
+              "word": "돌아온",
+              "meaning": "returned"
+            },
+            {
+              "word": "보았지만",
+              "meaning": "saw, but"
+            },
+            {
+              "word": "찾으러",
+              "meaning": "in order to find"
+            },
+            {
+              "word": "숲으로",
+              "meaning": "forest and to / by / as",
+              "note": "숲 + 으로"
+            }
+          ],
+          "words": [
+            {
+              "surface": "숲으로",
+              "meaning": "forest and to / by / as",
+              "base": "숲 + 으로"
+            },
+            {
+              "surface": "돌아온",
+              "meaning": "returned"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "치요우를",
+              "meaning": "Chiyou",
+              "base": "치요우 + 를"
+            },
+            {
+              "surface": "구한",
+              "meaning": "rescued and: that did / ...",
+              "base": "구하다"
+            },
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "동료들을",
+              "meaning": "comrades",
+              "base": "동료들 + 을"
+            },
+            {
+              "surface": "보았지만",
+              "meaning": "saw, but"
+            },
+            {
+              "surface": "복수하지",
+              "meaning": "복수: do + negation/contrast",
+              "base": "복수하다"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "부하를",
+              "meaning": "subordinate / follower (object)"
+            },
+            {
+              "surface": "찾으러",
+              "meaning": "in order to find"
+            },
+            {
+              "surface": "떠났어",
+              "meaning": "left",
+              "base": "떠나다"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 10
+}

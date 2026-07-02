@@ -1,0 +1,3080 @@
+{
+  "id": "aladdin",
+  "title": "알라딘과 마법의 램프",
+  "englishTitle": "Aladdin and the Magic Lamp",
+  "level": "TOPIK 2–3",
+  "description": "가난한 청년이 마법의 램프를 얻지만 욕심 많은 마법사와 싸우는 이야기.",
+  "theme": "amber",
+  "sourceNote": "Expanded Korean learning retelling of the traditional Aladdin tale associated with Antoine Galland’s public-domain version.",
+  "collectionId": "classic-stories",
+  "order": 4,
+  "thumbnail": "thumbnails/04_aladdin.jpg",
+  "thumbnailAlt": "Aladdin and the Magic Lamp",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "알라딘은 중국의 한 도시에서 어머니와 살던 가난하고 게으른 소년이었어.",
+          "translation": "Aladdin was a poor and idle boy who lived with his mother in a city in China.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "알라딘은 중국의 한 도시에서 어머니와 살던 가난하고 게으른 소년이었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 중국의 한 도시에서 어머니와 살던 가난하고 게으른 소년이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘은 중국의 한 도시에서 어머니와 살던 가난하고 게으른 소년이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "한",
+              "meaning": "made",
+              "note": "하다 + -(으)ㄴ"
+            },
+            {
+              "word": "도시에서",
+              "meaning": "in the city",
+              "note": "도시 + 에서"
+            },
+            {
+              "word": "어머니와",
+              "meaning": "with mother",
+              "note": "어머니 + 와"
+            },
+            {
+              "word": "살던",
+              "meaning": "used to live",
+              "note": "살다 + -던"
+            },
+            {
+              "word": "가난하고",
+              "meaning": "poverty (and / with)",
+              "note": "가난 + 하고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "한",
+              "meaning": "made",
+              "base": "하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "도시에서",
+              "meaning": "in the city",
+              "base": "도시 + 에서"
+            },
+            {
+              "surface": "어머니와",
+              "meaning": "with mother",
+              "base": "어머니 + 와"
+            },
+            {
+              "surface": "살던",
+              "meaning": "used to live",
+              "base": "살다 + -던"
+            },
+            {
+              "surface": "가난하고",
+              "meaning": "poverty (and / with)",
+              "base": "가난 + 하고"
+            }
+          ]
+        },
+        {
+          "korean": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어.",
+          "translation": "Even after his father died, he preferred playing with friends in the street to learning a trade.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after something happened.” A completed-action modifier precedes 뒤 or 후, and the following clause describes the later event.",
+              "example": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어."
+            },
+            {
+              "pattern": "-기보다",
+              "explanation": "Means “rather than doing / more than doing.” It compares two actions or descriptions and places the speaker’s preference or stronger judgment in the following expression.",
+              "example": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "아버지가 죽은 뒤에도 그는 일을 배우기보다 거리에서 친구들과 노는 것을 좋아했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아버지가",
+              "meaning": "father",
+              "note": "아버지 + 가"
+            },
+            {
+              "word": "죽은",
+              "meaning": "dead",
+              "note": "죽다 + -(으)ㄴ"
+            },
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "일을",
+              "meaning": "work",
+              "note": "일 + 을"
+            },
+            {
+              "word": "배우기보다",
+              "meaning": "learned",
+              "note": "배우다"
+            },
+            {
+              "word": "거리에서",
+              "meaning": "street / distance (in / at / from)",
+              "note": "거리 + 에서"
+            },
+            {
+              "word": "친구들과",
+              "meaning": "friends (and / with)",
+              "note": "친구들 + 과"
+            },
+            {
+              "word": "좋아했어",
+              "meaning": "liking",
+              "note": "좋아하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아버지가",
+              "meaning": "father",
+              "base": "아버지 + 가"
+            },
+            {
+              "surface": "죽은",
+              "meaning": "dead",
+              "base": "죽다 + -(으)ㄴ"
+            },
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "일을",
+              "meaning": "work",
+              "base": "일 + 을"
+            },
+            {
+              "surface": "배우기보다",
+              "meaning": "learned",
+              "base": "배우다"
+            },
+            {
+              "surface": "거리에서",
+              "meaning": "street / distance (in / at / from)",
+              "base": "거리 + 에서"
+            },
+            {
+              "surface": "친구들과",
+              "meaning": "friends (and / with)",
+              "base": "친구들 + 과"
+            },
+            {
+              "surface": "것을",
+              "meaning": "the fact",
+              "base": "것 + 을"
+            },
+            {
+              "surface": "좋아했어",
+              "meaning": "liking",
+              "base": "좋아하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "어느 날 아프리카에서 온 마법사는 알라딘을 보고 죽은 아버지의 동생인 척했어.",
+          "translation": "One day, a magician from Africa saw Aladdin and pretended to be his dead father’s brother.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "어느 날 아프리카에서 온 마법사는 알라딘을 보고 죽은 아버지의 동생인 척했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "어느 날 아프리카에서 온 마법사는 알라딘을 보고 죽은 아버지의 동생인 척했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "어느 날 아프리카에서 온 마법사는 알라딘을 보고 죽은 아버지의 동생인 척했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "어느 날 아프리카에서 온 마법사는 알라딘을 보고 죽은 아버지의 동생인 척했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어느",
+              "meaning": "a certain"
+            },
+            {
+              "word": "아프리카에서",
+              "meaning": "Africa (in / at / from)",
+              "note": "아프리카 + 에서"
+            },
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "알라딘을",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 을"
+            },
+            {
+              "word": "보고",
+              "meaning": "saw and",
+              "note": "보다 + -고"
+            },
+            {
+              "word": "죽은",
+              "meaning": "dead",
+              "note": "죽다 + -(으)ㄴ"
+            },
+            {
+              "word": "아버지의",
+              "meaning": "father's",
+              "note": "아버지 + 의"
+            },
+            {
+              "word": "척했어",
+              "meaning": "pretending",
+              "note": "척하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어느",
+              "meaning": "a certain"
+            },
+            {
+              "surface": "날",
+              "meaning": "day"
+            },
+            {
+              "surface": "아프리카에서",
+              "meaning": "Africa (in / at / from)",
+              "base": "아프리카 + 에서"
+            },
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "알라딘을",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 을"
+            },
+            {
+              "surface": "보고",
+              "meaning": "saw and",
+              "base": "보다 + -고"
+            },
+            {
+              "surface": "죽은",
+              "meaning": "dead",
+              "base": "죽다 + -(으)ㄴ"
+            },
+            {
+              "surface": "아버지의",
+              "meaning": "father's",
+              "base": "아버지 + 의"
+            },
+            {
+              "surface": "척했어",
+              "meaning": "pretending",
+              "base": "척하다 + -았어"
+            }
+          ]
+        },
+        {
+          "korean": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어.",
+          "translation": "The magician bought them good clothes and food and gained Aladdin and his mother’s trust.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "마법사는 좋은 옷과 음식을 사 주며 알라딘과 어머니의 믿음을 얻었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "좋은",
+              "meaning": "good",
+              "note": "좋다 + -(으)ㄴ"
+            },
+            {
+              "word": "옷과",
+              "meaning": "clothes (and / with)",
+              "note": "옷 + 과"
+            },
+            {
+              "word": "음식을",
+              "meaning": "food",
+              "note": "음식 + 을"
+            },
+            {
+              "word": "알라딘과",
+              "meaning": "Aladdin (and / with)",
+              "note": "알라딘 + 과"
+            },
+            {
+              "word": "어머니의",
+              "meaning": "mother (of / possessive)",
+              "note": "어머니 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "좋은",
+              "meaning": "good",
+              "base": "좋다 + -(으)ㄴ"
+            },
+            {
+              "surface": "옷과",
+              "meaning": "clothes (and / with)",
+              "base": "옷 + 과"
+            },
+            {
+              "surface": "음식을",
+              "meaning": "food",
+              "base": "음식 + 을"
+            },
+            {
+              "surface": "알라딘과",
+              "meaning": "Aladdin (and / with)",
+              "base": "알라딘 + 과"
+            },
+            {
+              "surface": "어머니의",
+              "meaning": "mother (of / possessive)",
+              "base": "어머니 + 의"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어.",
+          "translation": "He took Aladdin outside the city, burned incense, recited a spell, and caused the ground to split open.",
+          "grammar": [
+            {
+              "pattern": "-게 하다 / -게 만들다",
+              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
+              "example": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그는 알라딘을 도시 밖으로 데려가 향을 피우고 주문을 외워 땅을 갈라지게 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "알라딘을",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 을"
+            },
+            {
+              "word": "도시",
+              "meaning": "in the city"
+            },
+            {
+              "word": "밖으로",
+              "meaning": "outside",
+              "note": "밖 + 으로"
+            },
+            {
+              "word": "데려가",
+              "meaning": "to take someone",
+              "note": "데려가다"
+            },
+            {
+              "word": "땅을",
+              "meaning": "land",
+              "note": "땅 + 을"
+            },
+            {
+              "word": "갈라지게",
+              "meaning": "to split",
+              "note": "갈라지다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "알라딘을",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 을"
+            },
+            {
+              "surface": "도시",
+              "meaning": "in the city"
+            },
+            {
+              "surface": "밖으로",
+              "meaning": "outside",
+              "base": "밖 + 으로"
+            },
+            {
+              "surface": "데려가",
+              "meaning": "to take someone",
+              "base": "데려가다"
+            },
+            {
+              "surface": "땅을",
+              "meaning": "land",
+              "base": "땅 + 을"
+            },
+            {
+              "surface": "갈라지게",
+              "meaning": "to split",
+              "base": "갈라지다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "땅속에는 보물이 가득한 동굴이 있었지만 마법사는 알라딘만 안으로 들어갈 수 있다고 했어.",
+          "translation": "Underground was a cave full of treasure, but the magician said only Aladdin could enter it.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "땅속에는 보물이 가득한 동굴이 있었지만 마법사는 알라딘만 안으로 들어갈 수 있다고 했어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "땅속에는 보물이 가득한 동굴이 있었지만 마법사는 알라딘만 안으로 들어갈 수 있다고 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "땅속에는 보물이 가득한 동굴이 있었지만 마법사는 알라딘만 안으로 들어갈 수 있다고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "땅속에는 보물이 가득한 동굴이 있었지만 마법사는 알라딘만 안으로 들어갈 수 있다고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "보물이",
+              "meaning": "treasure (subject)",
+              "note": "보물 + 이"
+            },
+            {
+              "word": "가득한",
+              "meaning": "to be full",
+              "note": "가득하다 + -(으)ㄴ"
+            },
+            {
+              "word": "동굴이",
+              "meaning": "cave (subject)",
+              "note": "동굴 + 이"
+            },
+            {
+              "word": "있었지만",
+              "meaning": "were but",
+              "note": "있다 + -었지만"
+            },
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "알라딘만",
+              "meaning": "Aladdin (only)",
+              "note": "알라딘 + 만"
+            },
+            {
+              "word": "안으로",
+              "meaning": "inside",
+              "note": "안 + 으로"
+            },
+            {
+              "word": "있다고",
+              "meaning": "that it is",
+              "note": "있다 + -다고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "보물이",
+              "meaning": "treasure (subject)",
+              "base": "보물 + 이"
+            },
+            {
+              "surface": "가득한",
+              "meaning": "to be full",
+              "base": "가득하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "동굴이",
+              "meaning": "cave (subject)",
+              "base": "동굴 + 이"
+            },
+            {
+              "surface": "있었지만",
+              "meaning": "were but",
+              "base": "있다 + -었지만"
+            },
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "알라딘만",
+              "meaning": "Aladdin (only)",
+              "base": "알라딘 + 만"
+            },
+            {
+              "surface": "안으로",
+              "meaning": "inside",
+              "base": "안 + 으로"
+            },
+            {
+              "surface": "수",
+              "meaning": "ability"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "마법사는 보호용 반지를 주고 정원 끝에 있는 오래된 램프만 가져오라고 명령했어.",
+          "translation": "The magician gave him a protective ring and ordered him to bring back only the old lamp at the end of the garden.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "마법사는 보호용 반지를 주고 정원 끝에 있는 오래된 램프만 가져오라고 명령했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "마법사는 보호용 반지를 주고 정원 끝에 있는 오래된 램프만 가져오라고 명령했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "마법사는 보호용 반지를 주고 정원 끝에 있는 오래된 램프만 가져오라고 명령했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "반지를",
+              "meaning": "ring (object)",
+              "note": "반지 + 를"
+            },
+            {
+              "word": "정원",
+              "meaning": "into a garden"
+            },
+            {
+              "word": "끝에",
+              "meaning": "at the end of",
+              "note": "끝 + 에"
+            },
+            {
+              "word": "있는",
+              "meaning": "existing / possible",
+              "note": "있다 + -는"
+            },
+            {
+              "word": "오래된",
+              "meaning": "old",
+              "note": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "word": "램프만",
+              "meaning": "only the lamp",
+              "note": "램프 + 만"
+            },
+            {
+              "word": "가져오라고",
+              "meaning": "to bring",
+              "note": "가져오다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "반지를",
+              "meaning": "ring (object)",
+              "base": "반지 + 를"
+            },
+            {
+              "surface": "정원",
+              "meaning": "into a garden"
+            },
+            {
+              "surface": "끝에",
+              "meaning": "at the end of",
+              "base": "끝 + 에"
+            },
+            {
+              "surface": "있는",
+              "meaning": "existing / possible",
+              "base": "있다 + -는"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "old",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "램프만",
+              "meaning": "only the lamp",
+              "base": "램프 + 만"
+            },
+            {
+              "surface": "가져오라고",
+              "meaning": "to bring",
+              "base": "가져오다"
+            }
+          ]
+        },
+        {
+          "korean": "알라딘은 램프뿐만 아니라 나무에 열려 있던 빛나는 보석들도 주머니에 넣었어.",
+          "translation": "Aladdin put not only the lamp but also the shining jewels growing on the trees into his pockets.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "알라딘은 램프뿐만 아니라 나무에 열려 있던 빛나는 보석들도 주머니에 넣었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "알라딘은 램프뿐만 아니라 나무에 열려 있던 빛나는 보석들도 주머니에 넣었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 램프뿐만 아니라 나무에 열려 있던 빛나는 보석들도 주머니에 넣었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘은 램프뿐만 아니라 나무에 열려 있던 빛나는 보석들도 주머니에 넣었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "램프뿐만",
+              "meaning": "not only the lamp",
+              "note": "램프 + 뿐만"
+            },
+            {
+              "word": "아니라",
+              "meaning": "not but rather",
+              "note": "아니다 + -라"
+            },
+            {
+              "word": "나무에",
+              "meaning": "tree (to / at / in)",
+              "note": "나무 + 에"
+            },
+            {
+              "word": "빛나는",
+              "meaning": "shining",
+              "note": "빛나다 + -는"
+            },
+            {
+              "word": "보석들도",
+              "meaning": "jewels also",
+              "note": "보석들 + 도"
+            },
+            {
+              "word": "주머니에",
+              "meaning": "into the pocket",
+              "note": "주머니 + 에"
+            },
+            {
+              "word": "넣었어",
+              "meaning": "put in",
+              "note": "넣다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "램프뿐만",
+              "meaning": "not only the lamp",
+              "base": "램프 + 뿐만"
+            },
+            {
+              "surface": "아니라",
+              "meaning": "not but rather",
+              "base": "아니다 + -라"
+            },
+            {
+              "surface": "나무에",
+              "meaning": "tree (to / at / in)",
+              "base": "나무 + 에"
+            },
+            {
+              "surface": "열려",
+              "meaning": "opened / growing",
+              "base": "열리다 + -아/어"
+            },
+            {
+              "surface": "있던",
+              "meaning": "had been",
+              "base": "있다 + -던"
+            },
+            {
+              "surface": "빛나는",
+              "meaning": "shining",
+              "base": "빛나다 + -는"
+            },
+            {
+              "surface": "보석들도",
+              "meaning": "jewels also",
+              "base": "보석들 + 도"
+            },
+            {
+              "surface": "주머니에",
+              "meaning": "into the pocket",
+              "base": "주머니 + 에"
+            },
+            {
+              "surface": "넣었어",
+              "meaning": "put in",
+              "base": "넣다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "입구에 돌아온 알라딘은 먼저 밖으로 꺼내 달라고 했지만 마법사는 램프부터 달라고 소리쳤어.",
+          "translation": "When Aladdin returned to the entrance, he asked to be pulled out first, but the magician shouted for the lamp first.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "입구에 돌아온 알라딘은 먼저 밖으로 꺼내 달라고 했지만 마법사는 램프부터 달라고 소리쳤어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "입구에 돌아온 알라딘은 먼저 밖으로 꺼내 달라고 했지만 마법사는 램프부터 달라고 소리쳤어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "입구에 돌아온 알라딘은 먼저 밖으로 꺼내 달라고 했지만 마법사는 램프부터 달라고 소리쳤어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "입구에 돌아온 알라딘은 먼저 밖으로 꺼내 달라고 했지만 마법사는 램프부터 달라고 소리쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아온",
+              "meaning": "returned",
+              "note": "돌아오다 + -(으)ㄴ"
+            },
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "밖으로",
+              "meaning": "outside",
+              "note": "밖 + 으로"
+            },
+            {
+              "word": "달라고",
+              "meaning": "asking for it",
+              "note": "-아/어 달라고"
+            },
+            {
+              "word": "했지만",
+              "meaning": "tried but",
+              "note": "하다 + -지만"
+            },
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "램프부터",
+              "meaning": "lamp (from / since)",
+              "note": "램프 + 부터"
+            },
+            {
+              "word": "달라고",
+              "meaning": "asking for it",
+              "note": "-아/어 달라고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "돌아온",
+              "meaning": "returned",
+              "base": "돌아오다 + -(으)ㄴ"
+            },
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "먼저",
+              "meaning": "first"
+            },
+            {
+              "surface": "밖으로",
+              "meaning": "outside",
+              "base": "밖 + 으로"
+            },
+            {
+              "surface": "꺼내",
+              "meaning": "to take out",
+              "base": "꺼내다"
+            },
+            {
+              "surface": "달라고",
+              "meaning": "asking for it",
+              "base": "-아/어 달라고"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "tried but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "램프부터",
+              "meaning": "lamp (from / since)",
+              "base": "램프 + 부터"
+            },
+            {
+              "surface": "달라고",
+              "meaning": "asking for it",
+              "base": "-아/어 달라고"
+            }
+          ]
+        },
+        {
+          "korean": "알라딘이 거절하자 마법사는 화를 내며 동굴 입구를 닫고 그를 안에 버렸어.",
+          "translation": "When Aladdin refused, the magician became angry, sealed the cave entrance, and abandoned him inside.",
+          "grammar": [
+            {
+              "pattern": "-아/어 버리다",
+              "explanation": "Shows that an action is completed fully. It often adds emotion such as regret, surprise, relief, or a sense of irreversible finality.",
+              "example": "알라딘이 거절하자 마법사는 화를 내며 동굴 입구를 닫고 그를 안에 버렸어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "알라딘이 거절하자 마법사는 화를 내며 동굴 입구를 닫고 그를 안에 버렸어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "알라딘이 거절하자 마법사는 화를 내며 동굴 입구를 닫고 그를 안에 버렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘이 거절하자 마법사는 화를 내며 동굴 입구를 닫고 그를 안에 버렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘이",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 이"
+            },
+            {
+              "word": "거절하자",
+              "meaning": "to do / make refusal",
+              "note": "거절하다"
+            },
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "화를",
+              "meaning": "anger",
+              "note": "화 + 를"
+            },
+            {
+              "word": "동굴",
+              "meaning": "cave"
+            },
+            {
+              "word": "그를",
+              "meaning": "him",
+              "note": "그 + 를"
+            },
+            {
+              "word": "안에",
+              "meaning": "inside (to / at / in)",
+              "note": "안 + 에"
+            },
+            {
+              "word": "버렸어",
+              "meaning": "completely / unfortunately",
+              "note": "버리다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘이",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 이"
+            },
+            {
+              "surface": "거절하자",
+              "meaning": "to do / make refusal",
+              "base": "거절하다"
+            },
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "화를",
+              "meaning": "anger",
+              "base": "화 + 를"
+            },
+            {
+              "surface": "동굴",
+              "meaning": "cave"
+            },
+            {
+              "surface": "그를",
+              "meaning": "him",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "안에",
+              "meaning": "inside (to / at / in)",
+              "base": "안 + 에"
+            },
+            {
+              "surface": "버렸어",
+              "meaning": "completely / unfortunately",
+              "base": "버리다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "절망한 알라딘이 손을 비비다가 반지를 문지르자 반지의 지니가 나타났어.",
+          "translation": "As the desperate Aladdin rubbed his hands, he rubbed the ring and the genie of the ring appeared.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
+              "example": "절망한 알라딘이 손을 비비다가 반지를 문지르자 반지의 지니가 나타났어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "절망한 알라딘이 손을 비비다가 반지를 문지르자 반지의 지니가 나타났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "절망한 알라딘이 손을 비비다가 반지를 문지르자 반지의 지니가 나타났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘이",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 이"
+            },
+            {
+              "word": "손을",
+              "meaning": "hand",
+              "note": "손 + 을"
+            },
+            {
+              "word": "반지를",
+              "meaning": "ring (object)",
+              "note": "반지 + 를"
+            },
+            {
+              "word": "문지르자",
+              "meaning": "when he rubbed",
+              "note": "문지르다 + -자"
+            },
+            {
+              "word": "반지의",
+              "meaning": "ring (of / possessive)",
+              "note": "반지 + 의"
+            },
+            {
+              "word": "지니가",
+              "meaning": "genie",
+              "note": "지니 + 가"
+            },
+            {
+              "word": "나타났어",
+              "meaning": "appeared",
+              "note": "나타나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘이",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 이"
+            },
+            {
+              "surface": "손을",
+              "meaning": "hand",
+              "base": "손 + 을"
+            },
+            {
+              "surface": "반지를",
+              "meaning": "ring (object)",
+              "base": "반지 + 를"
+            },
+            {
+              "surface": "문지르자",
+              "meaning": "when he rubbed",
+              "base": "문지르다 + -자"
+            },
+            {
+              "surface": "반지의",
+              "meaning": "ring (of / possessive)",
+              "base": "반지 + 의"
+            },
+            {
+              "surface": "지니가",
+              "meaning": "genie",
+              "base": "지니 + 가"
+            },
+            {
+              "surface": "나타났어",
+              "meaning": "appeared",
+              "base": "나타나다"
+            }
+          ]
+        },
+        {
+          "korean": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어.",
+          "translation": "The ring genie brought Aladdin home, and Aladdin explained everything to his mother.",
+          "grammar": [
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
+              "example": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "반지의 지니는 알라딘을 집으로 데려다주었고 알라딘은 어머니에게 모든 일을 설명했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "반지의",
+              "meaning": "ring (of / possessive)",
+              "note": "반지 + 의"
+            },
+            {
+              "word": "지니는",
+              "meaning": "genie (topic)",
+              "note": "지니 + 는"
+            },
+            {
+              "word": "알라딘을",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 을"
+            },
+            {
+              "word": "집으로",
+              "meaning": "to the house",
+              "note": "집 + 으로"
+            },
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "어머니에게",
+              "meaning": "mother (to / by)",
+              "note": "어머니 + 에게"
+            },
+            {
+              "word": "일을",
+              "meaning": "work",
+              "note": "일 + 을"
+            },
+            {
+              "word": "설명했어",
+              "meaning": "must explain",
+              "note": "설명하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "반지의",
+              "meaning": "ring (of / possessive)",
+              "base": "반지 + 의"
+            },
+            {
+              "surface": "지니는",
+              "meaning": "genie (topic)",
+              "base": "지니 + 는"
+            },
+            {
+              "surface": "알라딘을",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 을"
+            },
+            {
+              "surface": "집으로",
+              "meaning": "to the house",
+              "base": "집 + 으로"
+            },
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "어머니에게",
+              "meaning": "mother (to / by)",
+              "base": "어머니 + 에게"
+            },
+            {
+              "surface": "모든",
+              "meaning": "all"
+            },
+            {
+              "surface": "일을",
+              "meaning": "work",
+              "base": "일 + 을"
+            },
+            {
+              "surface": "설명했어",
+              "meaning": "must explain",
+              "base": "설명하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "어머니가 램프를 닦으려고 문지르자 훨씬 강한 램프의 지니가 나타났어.",
+          "translation": "When his mother rubbed the lamp to clean it, the far more powerful genie of the lamp appeared.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "어머니가 램프를 닦으려고 문지르자 훨씬 강한 램프의 지니가 나타났어."
+            },
+            {
+              "pattern": "Particles 은/는, 이/가, 을/를",
+              "explanation": "Korean particles mark a noun’s role. 은/는 sets the topic or contrast, 이/가 marks the grammatical subject or new focus, and 을/를 marks the direct object.",
+              "example": "어머니가 램프를 닦으려고 문지르자 훨씬 강한 램프의 지니가 나타났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어머니가",
+              "meaning": "mother",
+              "note": "어머니 + 가"
+            },
+            {
+              "word": "램프를",
+              "meaning": "lamp",
+              "note": "램프 + 를"
+            },
+            {
+              "word": "문지르자",
+              "meaning": "when he rubbed",
+              "note": "문지르다 + -자"
+            },
+            {
+              "word": "훨씬",
+              "meaning": "much / far"
+            },
+            {
+              "word": "강한",
+              "meaning": "strong",
+              "note": "강하다 + -(으)ㄴ"
+            },
+            {
+              "word": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "note": "램프 + 의"
+            },
+            {
+              "word": "지니가",
+              "meaning": "genie",
+              "note": "지니 + 가"
+            },
+            {
+              "word": "나타났어",
+              "meaning": "appeared",
+              "note": "나타나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어머니가",
+              "meaning": "mother",
+              "base": "어머니 + 가"
+            },
+            {
+              "surface": "램프를",
+              "meaning": "lamp",
+              "base": "램프 + 를"
+            },
+            {
+              "surface": "문지르자",
+              "meaning": "when he rubbed",
+              "base": "문지르다 + -자"
+            },
+            {
+              "surface": "훨씬",
+              "meaning": "much / far"
+            },
+            {
+              "surface": "강한",
+              "meaning": "strong",
+              "base": "강하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "base": "램프 + 의"
+            },
+            {
+              "surface": "지니가",
+              "meaning": "genie",
+              "base": "지니 + 가"
+            },
+            {
+              "surface": "나타났어",
+              "meaning": "appeared",
+              "base": "나타나다"
+            }
+          ]
+        },
+        {
+          "korean": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어.",
+          "translation": "The genie brought food, and Aladdin began changing their life by selling the jewels.",
+          "grammar": [
+            {
+              "pattern": "-기 시작하다",
+              "explanation": "Means “begin to do.” The verb before -기 is nominalized and becomes the action whose beginning is described.",
+              "example": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어."
+            },
+            {
+              "pattern": "-아/어 오다",
+              "explanation": "Shows movement toward the speaker or a process continuing from the past up to a reference point.",
+              "example": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "지니는 음식을 가져왔고 알라딘은 보석을 팔아 생활을 바꾸기 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "지니는",
+              "meaning": "genie (topic)",
+              "note": "지니 + 는"
+            },
+            {
+              "word": "음식을",
+              "meaning": "food",
+              "note": "음식 + 을"
+            },
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "보석을",
+              "meaning": "jewel (object)",
+              "note": "보석 + 을"
+            },
+            {
+              "word": "팔아",
+              "meaning": "sold and",
+              "note": "팔다 + -아/어"
+            },
+            {
+              "word": "생활을",
+              "meaning": "daily life",
+              "note": "생활 + 을"
+            },
+            {
+              "word": "바꾸기",
+              "meaning": "to change",
+              "note": "바꾸다"
+            },
+            {
+              "word": "시작했어",
+              "meaning": "began",
+              "note": "시작하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "지니는",
+              "meaning": "genie (topic)",
+              "base": "지니 + 는"
+            },
+            {
+              "surface": "음식을",
+              "meaning": "food",
+              "base": "음식 + 을"
+            },
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "보석을",
+              "meaning": "jewel (object)",
+              "base": "보석 + 을"
+            },
+            {
+              "surface": "팔아",
+              "meaning": "sold and",
+              "base": "팔다 + -아/어"
+            },
+            {
+              "surface": "생활을",
+              "meaning": "daily life",
+              "base": "생활 + 을"
+            },
+            {
+              "surface": "바꾸기",
+              "meaning": "to change",
+              "base": "바꾸다"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "알라딘은 술탄의 딸 바드룰부두르 공주를 본 뒤 그녀와 결혼하고 싶어 했어.",
+          "translation": "After seeing Princess Badroulbadour, the sultan’s daughter, Aladdin wanted to marry her.",
+          "grammar": [
+            {
+              "pattern": "-고 싶다",
+              "explanation": "Expresses the speaker’s desire: “want to.” With another person as the subject, Korean often uses -고 싶어 하다 to describe that person’s observable desire.",
+              "example": "알라딘은 술탄의 딸 바드룰부두르 공주를 본 뒤 그녀와 결혼하고 싶어 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 술탄의 딸 바드룰부두르 공주를 본 뒤 그녀와 결혼하고 싶어 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘은 술탄의 딸 바드룰부두르 공주를 본 뒤 그녀와 결혼하고 싶어 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "술탄의",
+              "meaning": "sultan (of / possessive)",
+              "note": "술탄 + 의"
+            },
+            {
+              "word": "바드룰부두르",
+              "meaning": "Badroulbadour"
+            },
+            {
+              "word": "공주를",
+              "meaning": "princess",
+              "note": "공주 + 를"
+            },
+            {
+              "word": "그녀와",
+              "meaning": "her (and / with)",
+              "note": "그녀 + 와"
+            },
+            {
+              "word": "결혼하고",
+              "meaning": "marriage (and / with)",
+              "note": "결혼 + 하고"
+            },
+            {
+              "word": "싶어",
+              "meaning": "want",
+              "note": "싶다 + -아/어"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "술탄의",
+              "meaning": "sultan (of / possessive)",
+              "base": "술탄 + 의"
+            },
+            {
+              "surface": "딸",
+              "meaning": "daughter"
+            },
+            {
+              "surface": "바드룰부두르",
+              "meaning": "Badroulbadour"
+            },
+            {
+              "surface": "공주를",
+              "meaning": "princess",
+              "base": "공주 + 를"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "그녀와",
+              "meaning": "her (and / with)",
+              "base": "그녀 + 와"
+            },
+            {
+              "surface": "결혼하고",
+              "meaning": "marriage (and / with)",
+              "base": "결혼 + 하고"
+            },
+            {
+              "surface": "싶어",
+              "meaning": "want",
+              "base": "싶다 + -아/어"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "그의 어머니는 동굴에서 가져온 보석을 선물로 들고 술탄에게 청혼을 전했어.",
+          "translation": "His mother carried the jewels from the cave as a gift and delivered his marriage proposal to the sultan.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그의 어머니는 동굴에서 가져온 보석을 선물로 들고 술탄에게 청혼을 전했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그의 어머니는 동굴에서 가져온 보석을 선물로 들고 술탄에게 청혼을 전했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그의 어머니는 동굴에서 가져온 보석을 선물로 들고 술탄에게 청혼을 전했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그의 어머니는 동굴에서 가져온 보석을 선물로 들고 술탄에게 청혼을 전했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그의",
+              "meaning": "his",
+              "note": "그 + 의"
+            },
+            {
+              "word": "어머니는",
+              "meaning": "mother",
+              "note": "어머니 + 는"
+            },
+            {
+              "word": "동굴에서",
+              "meaning": "cave (in / at / from)",
+              "note": "동굴 + 에서"
+            },
+            {
+              "word": "보석을",
+              "meaning": "jewel (object)",
+              "note": "보석 + 을"
+            },
+            {
+              "word": "들고",
+              "meaning": "holding and",
+              "note": "들다 + -고"
+            },
+            {
+              "word": "술탄에게",
+              "meaning": "sultan (to / by)",
+              "note": "술탄 + 에게"
+            },
+            {
+              "word": "전했어",
+              "meaning": "to do / make before / ago",
+              "note": "전하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그의",
+              "meaning": "his",
+              "base": "그 + 의"
+            },
+            {
+              "surface": "어머니는",
+              "meaning": "mother",
+              "base": "어머니 + 는"
+            },
+            {
+              "surface": "동굴에서",
+              "meaning": "cave (in / at / from)",
+              "base": "동굴 + 에서"
+            },
+            {
+              "surface": "보석을",
+              "meaning": "jewel (object)",
+              "base": "보석 + 을"
+            },
+            {
+              "surface": "들고",
+              "meaning": "holding and",
+              "base": "들다 + -고"
+            },
+            {
+              "surface": "술탄에게",
+              "meaning": "sultan (to / by)",
+              "base": "술탄 + 에게"
+            },
+            {
+              "surface": "전했어",
+              "meaning": "to do / make before / ago",
+              "base": "전하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "술탄은 놀라운 재물과 많은 하인을 요구했지만 램프의 지니가 모두 준비해 줬어.",
+          "translation": "The sultan demanded astonishing wealth and many servants, but the lamp genie prepared them all.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "술탄은 놀라운 재물과 많은 하인을 요구했지만 램프의 지니가 모두 준비해 줬어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "술탄은 놀라운 재물과 많은 하인을 요구했지만 램프의 지니가 모두 준비해 줬어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "술탄은 놀라운 재물과 많은 하인을 요구했지만 램프의 지니가 모두 준비해 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "술탄은",
+              "meaning": "sultan (topic)",
+              "note": "술탄 + 은"
+            },
+            {
+              "word": "요구했지만",
+              "meaning": "to demand",
+              "note": "요구하다 + -았지만"
+            },
+            {
+              "word": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "note": "램프 + 의"
+            },
+            {
+              "word": "지니가",
+              "meaning": "genie",
+              "note": "지니 + 가"
+            },
+            {
+              "word": "모두",
+              "meaning": "both"
+            },
+            {
+              "word": "준비해",
+              "meaning": "when it prepared",
+              "note": "준비하다 + -아/어"
+            },
+            {
+              "word": "줬어",
+              "meaning": "did for her",
+              "note": "주다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "술탄은",
+              "meaning": "sultan (topic)",
+              "base": "술탄 + 은"
+            },
+            {
+              "surface": "요구했지만",
+              "meaning": "to demand",
+              "base": "요구하다 + -았지만"
+            },
+            {
+              "surface": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "base": "램프 + 의"
+            },
+            {
+              "surface": "지니가",
+              "meaning": "genie",
+              "base": "지니 + 가"
+            },
+            {
+              "surface": "모두",
+              "meaning": "both"
+            },
+            {
+              "surface": "준비해",
+              "meaning": "when it prepared",
+              "base": "준비하다 + -아/어"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for her",
+              "base": "주다"
+            }
+          ]
+        },
+        {
+          "korean": "알라딘은 공주와 결혼하고 하룻밤 사이에 세워진 화려한 궁전에서 살았어.",
+          "translation": "Aladdin married the princess and lived in a splendid palace built in a single night.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 공주와 결혼하고 하룻밤 사이에 세워진 화려한 궁전에서 살았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘은 공주와 결혼하고 하룻밤 사이에 세워진 화려한 궁전에서 살았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "공주와",
+              "meaning": "princess (and / with)",
+              "note": "공주 + 와"
+            },
+            {
+              "word": "결혼하고",
+              "meaning": "marriage (and / with)",
+              "note": "결혼 + 하고"
+            },
+            {
+              "word": "사이에",
+              "meaning": "between (to / at / in)",
+              "note": "사이 + 에"
+            },
+            {
+              "word": "화려한",
+              "meaning": "glamorous + not",
+              "note": "화려하다 + -(으)ㄴ"
+            },
+            {
+              "word": "궁전에서",
+              "meaning": "palace (in / at / from)",
+              "note": "궁전 + 에서"
+            },
+            {
+              "word": "살았어",
+              "meaning": "lived",
+              "note": "살다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "공주와",
+              "meaning": "princess (and / with)",
+              "base": "공주 + 와"
+            },
+            {
+              "surface": "결혼하고",
+              "meaning": "marriage (and / with)",
+              "base": "결혼 + 하고"
+            },
+            {
+              "surface": "사이에",
+              "meaning": "between (to / at / in)",
+              "base": "사이 + 에"
+            },
+            {
+              "surface": "화려한",
+              "meaning": "glamorous + not",
+              "base": "화려하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "궁전에서",
+              "meaning": "palace (in / at / from)",
+              "base": "궁전 + 에서"
+            },
+            {
+              "surface": "살았어",
+              "meaning": "lived",
+              "base": "살다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어.",
+          "translation": "He behaved more responsibly than before and showed kindness to the people.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그는 예전보다 책임감 있게 행동하며 백성들에게 친절을 베풀었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "예전보다",
+              "meaning": "than before",
+              "note": "예전 + 보다"
+            },
+            {
+              "word": "책임감",
+              "meaning": "sense of responsibility"
+            },
+            {
+              "word": "있게",
+              "meaning": "be able to",
+              "note": "있다 + -게"
+            },
+            {
+              "word": "행동하며",
+              "meaning": "to do / make through actions",
+              "note": "행동하다"
+            },
+            {
+              "word": "백성들에게",
+              "meaning": "to the people / subjects",
+              "note": "백성들 + 에게"
+            },
+            {
+              "word": "친절을",
+              "meaning": "kindness",
+              "note": "친절 + 을"
+            },
+            {
+              "word": "베풀었어",
+              "meaning": "showed / bestowed",
+              "note": "베풀다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "예전보다",
+              "meaning": "than before",
+              "base": "예전 + 보다"
+            },
+            {
+              "surface": "책임감",
+              "meaning": "sense of responsibility"
+            },
+            {
+              "surface": "있게",
+              "meaning": "be able to",
+              "base": "있다 + -게"
+            },
+            {
+              "surface": "행동하며",
+              "meaning": "to do / make through actions",
+              "base": "행동하다"
+            },
+            {
+              "surface": "백성들에게",
+              "meaning": "to the people / subjects",
+              "base": "백성들 + 에게"
+            },
+            {
+              "surface": "친절을",
+              "meaning": "kindness",
+              "base": "친절 + 을"
+            },
+            {
+              "surface": "베풀었어",
+              "meaning": "showed / bestowed",
+              "base": "베풀다"
+            }
+          ]
+        },
+        {
+          "korean": "소식을 들은 마법사는 돌아와 새 램프를 헌 램프와 바꾸어 준다고 외쳤어.",
+          "translation": "Hearing the news, the magician returned and cried that he would exchange new lamps for old ones.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "소식을 들은 마법사는 돌아와 새 램프를 헌 램프와 바꾸어 준다고 외쳤어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "소식을 들은 마법사는 돌아와 새 램프를 헌 램프와 바꾸어 준다고 외쳤어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "소식을 들은 마법사는 돌아와 새 램프를 헌 램프와 바꾸어 준다고 외쳤어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "소식을 들은 마법사는 돌아와 새 램프를 헌 램프와 바꾸어 준다고 외쳤어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소식을",
+              "meaning": "news",
+              "note": "소식 + 을"
+            },
+            {
+              "word": "들은",
+              "meaning": "heard",
+              "note": "듣다 + -(으)ㄴ"
+            },
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "돌아와",
+              "meaning": "returned",
+              "note": "돌아오다 + -아/어"
+            },
+            {
+              "word": "램프를",
+              "meaning": "lamp",
+              "note": "램프 + 를"
+            },
+            {
+              "word": "램프와",
+              "meaning": "lamp (and / with)",
+              "note": "램프 + 와"
+            },
+            {
+              "word": "바꾸어",
+              "meaning": "to change",
+              "note": "바꾸다"
+            },
+            {
+              "word": "준다고",
+              "meaning": "that one would give",
+              "note": "주다 + -ㄴ다고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소식을",
+              "meaning": "news",
+              "base": "소식 + 을"
+            },
+            {
+              "surface": "들은",
+              "meaning": "heard",
+              "base": "듣다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "돌아와",
+              "meaning": "returned",
+              "base": "돌아오다 + -아/어"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "램프를",
+              "meaning": "lamp",
+              "base": "램프 + 를"
+            },
+            {
+              "surface": "헌",
+              "meaning": "old / worn",
+              "base": "헐다 + -(으)ㄴ"
+            },
+            {
+              "surface": "램프와",
+              "meaning": "lamp (and / with)",
+              "base": "램프 + 와"
+            },
+            {
+              "surface": "바꾸어",
+              "meaning": "to change",
+              "base": "바꾸다"
+            },
+            {
+              "surface": "준다고",
+              "meaning": "that one would give",
+              "base": "주다 + -ㄴ다고"
+            },
+            {
+              "surface": "외쳤어",
+              "meaning": "shouted",
+              "base": "외치다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어.",
+          "translation": "A servant who did not know the lamp’s secret exchanged the old magic lamp for a new one.",
+          "grammar": [
+            {
+              "pattern": "-아/어 버리다",
+              "explanation": "Shows that an action is completed fully. It often adds emotion such as regret, surprise, relief, or a sense of irreversible finality.",
+              "example": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어."
+            },
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "램프의 비밀을 몰랐던 하인은 오래된 마법 램프를 새 램프와 바꿔 버렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "note": "램프 + 의"
+            },
+            {
+              "word": "비밀을",
+              "meaning": "secret and (object)",
+              "note": "비밀 + 을"
+            },
+            {
+              "word": "오래된",
+              "meaning": "old",
+              "note": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "word": "마법",
+              "meaning": "magic"
+            },
+            {
+              "word": "램프를",
+              "meaning": "lamp",
+              "note": "램프 + 를"
+            },
+            {
+              "word": "새",
+              "meaning": "new"
+            },
+            {
+              "word": "램프와",
+              "meaning": "lamp (and / with)",
+              "note": "램프 + 와"
+            },
+            {
+              "word": "버렸어",
+              "meaning": "completely / unfortunately",
+              "note": "버리다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "램프의",
+              "meaning": "lamp (of / possessive)",
+              "base": "램프 + 의"
+            },
+            {
+              "surface": "비밀을",
+              "meaning": "secret and (object)",
+              "base": "비밀 + 을"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "old",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "마법",
+              "meaning": "magic"
+            },
+            {
+              "surface": "램프를",
+              "meaning": "lamp",
+              "base": "램프 + 를"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "램프와",
+              "meaning": "lamp (and / with)",
+              "base": "램프 + 와"
+            },
+            {
+              "surface": "버렸어",
+              "meaning": "completely / unfortunately",
+              "base": "버리다"
+            }
+          ]
+        },
+        {
+          "korean": "마법사는 지니에게 궁전과 공주를 아프리카로 옮기라고 명령했어.",
+          "translation": "The magician ordered the genie to move the palace and princess to Africa.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "마법사는 지니에게 궁전과 공주를 아프리카로 옮기라고 명령했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "마법사는 지니에게 궁전과 공주를 아프리카로 옮기라고 명령했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "마법사는 지니에게 궁전과 공주를 아프리카로 옮기라고 명령했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "마법사는 지니에게 궁전과 공주를 아프리카로 옮기라고 명령했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마법사는",
+              "meaning": "sorcerer",
+              "note": "마법사 + 는"
+            },
+            {
+              "word": "지니에게",
+              "meaning": "genie (to / by)",
+              "note": "지니 + 에게"
+            },
+            {
+              "word": "궁전과",
+              "meaning": "palace (and / with)",
+              "note": "궁전 + 과"
+            },
+            {
+              "word": "공주를",
+              "meaning": "princess",
+              "note": "공주 + 를"
+            },
+            {
+              "word": "아프리카로",
+              "meaning": "Africa (to / by / as)",
+              "note": "아프리카 + 로"
+            },
+            {
+              "word": "옮기라고",
+              "meaning": "to move",
+              "note": "옮기다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마법사는",
+              "meaning": "sorcerer",
+              "base": "마법사 + 는"
+            },
+            {
+              "surface": "지니에게",
+              "meaning": "genie (to / by)",
+              "base": "지니 + 에게"
+            },
+            {
+              "surface": "궁전과",
+              "meaning": "palace (and / with)",
+              "base": "궁전 + 과"
+            },
+            {
+              "surface": "공주를",
+              "meaning": "princess",
+              "base": "공주 + 를"
+            },
+            {
+              "surface": "아프리카로",
+              "meaning": "Africa (to / by / as)",
+              "base": "아프리카 + 로"
+            },
+            {
+              "surface": "옮기라고",
+              "meaning": "to move",
+              "base": "옮기다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어.",
+          "translation": "The sultan ordered Aladdin to recover the princess and palace within a fixed period.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "술탄은 알라딘에게 정해진 기간 안에 공주와 궁전을 되찾으라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "술탄은",
+              "meaning": "sultan (topic)",
+              "note": "술탄 + 은"
+            },
+            {
+              "word": "알라딘에게",
+              "meaning": "Aladdin (to / by)",
+              "note": "알라딘 + 에게"
+            },
+            {
+              "word": "기간",
+              "meaning": "period"
+            },
+            {
+              "word": "안에",
+              "meaning": "inside (to / at / in)",
+              "note": "안 + 에"
+            },
+            {
+              "word": "공주와",
+              "meaning": "princess (and / with)",
+              "note": "공주 + 와"
+            },
+            {
+              "word": "궁전을",
+              "meaning": "palace (object)",
+              "note": "궁전 + 을"
+            },
+            {
+              "word": "되찾으라고",
+              "meaning": "restored",
+              "note": "되찾다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "술탄은",
+              "meaning": "sultan (topic)",
+              "base": "술탄 + 은"
+            },
+            {
+              "surface": "알라딘에게",
+              "meaning": "Aladdin (to / by)",
+              "base": "알라딘 + 에게"
+            },
+            {
+              "surface": "기간",
+              "meaning": "period"
+            },
+            {
+              "surface": "안에",
+              "meaning": "inside (to / at / in)",
+              "base": "안 + 에"
+            },
+            {
+              "surface": "공주와",
+              "meaning": "princess (and / with)",
+              "base": "공주 + 와"
+            },
+            {
+              "surface": "궁전을",
+              "meaning": "palace (object)",
+              "base": "궁전 + 을"
+            },
+            {
+              "surface": "되찾으라고",
+              "meaning": "restored",
+              "base": "되찾다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "알라딘은 반지의 지니 도움으로 아프리카에 도착해 공주와 몰래 계획을 세웠어.",
+          "translation": "With the ring genie’s help, Aladdin reached Africa and secretly made a plan with the princess.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 반지의 지니 도움으로 아프리카에 도착해 공주와 몰래 계획을 세웠어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "알라딘은 반지의 지니 도움으로 아프리카에 도착해 공주와 몰래 계획을 세웠어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "반지의",
+              "meaning": "ring (of / possessive)",
+              "note": "반지 + 의"
+            },
+            {
+              "word": "도움으로",
+              "meaning": "help (to / by / as)",
+              "note": "도움 + 으로"
+            },
+            {
+              "word": "아프리카에",
+              "meaning": "Africa (to / at / in)",
+              "note": "아프리카 + 에"
+            },
+            {
+              "word": "도착해",
+              "meaning": "to arrive",
+              "note": "도착하다 + -아/어"
+            },
+            {
+              "word": "공주와",
+              "meaning": "princess (and / with)",
+              "note": "공주 + 와"
+            },
+            {
+              "word": "계획을",
+              "meaning": "plan",
+              "note": "계획 + 을"
+            },
+            {
+              "word": "세웠어",
+              "meaning": "made",
+              "note": "세우다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "반지의",
+              "meaning": "ring (of / possessive)",
+              "base": "반지 + 의"
+            },
+            {
+              "surface": "지니",
+              "meaning": "genie"
+            },
+            {
+              "surface": "도움으로",
+              "meaning": "help (to / by / as)",
+              "base": "도움 + 으로"
+            },
+            {
+              "surface": "아프리카에",
+              "meaning": "Africa (to / at / in)",
+              "base": "아프리카 + 에"
+            },
+            {
+              "surface": "도착해",
+              "meaning": "to arrive",
+              "base": "도착하다 + -아/어"
+            },
+            {
+              "surface": "공주와",
+              "meaning": "princess (and / with)",
+              "base": "공주 + 와"
+            },
+            {
+              "surface": "몰래",
+              "meaning": "secretly"
+            },
+            {
+              "surface": "계획을",
+              "meaning": "plan",
+              "base": "계획 + 을"
+            },
+            {
+              "surface": "세웠어",
+              "meaning": "made",
+              "base": "세우다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "공주는 마법사를 안심시킨 뒤 약을 탄 음료를 마시게 해 그를 쓰러뜨렸어.",
+          "translation": "The princess put the magician at ease and then made him drink a drugged beverage, bringing him down.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "공주는 마법사를 안심시킨 뒤 약을 탄 음료를 마시게 해 그를 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "공주는 마법사를 안심시킨 뒤 약을 탄 음료를 마시게 해 그를 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "공주는 마법사를 안심시킨 뒤 약을 탄 음료를 마시게 해 그를 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "공주는 마법사를 안심시킨 뒤 약을 탄 음료를 마시게 해 그를 쓰러뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "공주는",
+              "meaning": "princess",
+              "note": "공주 + 는"
+            },
+            {
+              "word": "마법사를",
+              "meaning": "sorcerer",
+              "note": "마법사 + 를"
+            },
+            {
+              "word": "안심시킨",
+              "meaning": "reassured",
+              "note": "안심시키다 + -(으)ㄴ"
+            },
+            {
+              "word": "약을",
+              "meaning": "medicine / drug",
+              "note": "약 + 을"
+            },
+            {
+              "word": "음료를",
+              "meaning": "drink",
+              "note": "음료 + 를"
+            },
+            {
+              "word": "마시게",
+              "meaning": "to drink",
+              "note": "마시다"
+            },
+            {
+              "word": "그를",
+              "meaning": "him",
+              "note": "그 + 를"
+            },
+            {
+              "word": "쓰러뜨렸어",
+              "meaning": "defeated / knocked down",
+              "note": "쓰러뜨리다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "공주는",
+              "meaning": "princess",
+              "base": "공주 + 는"
+            },
+            {
+              "surface": "마법사를",
+              "meaning": "sorcerer",
+              "base": "마법사 + 를"
+            },
+            {
+              "surface": "안심시킨",
+              "meaning": "reassured",
+              "base": "안심시키다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "약을",
+              "meaning": "medicine / drug",
+              "base": "약 + 을"
+            },
+            {
+              "surface": "탄",
+              "meaning": "mixed into",
+              "base": "타다 + -(으)ㄴ"
+            },
+            {
+              "surface": "음료를",
+              "meaning": "drink",
+              "base": "음료 + 를"
+            },
+            {
+              "surface": "마시게",
+              "meaning": "to drink",
+              "base": "마시다"
+            },
+            {
+              "surface": "해",
+              "meaning": "do / make",
+              "base": "하다 + -아/어"
+            },
+            {
+              "surface": "그를",
+              "meaning": "him",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "쓰러뜨렸어",
+              "meaning": "defeated / knocked down",
+              "base": "쓰러뜨리다"
+            }
+          ]
+        },
+        {
+          "korean": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어.",
+          "translation": "Aladdin recovered the lamp and ordered the genie to return the palace to its original city.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "알라딘은 램프를 되찾고 지니에게 궁전을 원래 도시로 돌려놓으라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "램프를",
+              "meaning": "lamp",
+              "note": "램프 + 를"
+            },
+            {
+              "word": "되찾고",
+              "meaning": "restored",
+              "note": "되찾다"
+            },
+            {
+              "word": "지니에게",
+              "meaning": "genie (to / by)",
+              "note": "지니 + 에게"
+            },
+            {
+              "word": "궁전을",
+              "meaning": "palace (object)",
+              "note": "궁전 + 을"
+            },
+            {
+              "word": "도시로",
+              "meaning": "to the city",
+              "note": "도시 + 로"
+            },
+            {
+              "word": "돌려놓으라고",
+              "meaning": "to restore / put back",
+              "note": "돌려놓다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "램프를",
+              "meaning": "lamp",
+              "base": "램프 + 를"
+            },
+            {
+              "surface": "되찾고",
+              "meaning": "restored",
+              "base": "되찾다"
+            },
+            {
+              "surface": "지니에게",
+              "meaning": "genie (to / by)",
+              "base": "지니 + 에게"
+            },
+            {
+              "surface": "궁전을",
+              "meaning": "palace (object)",
+              "base": "궁전 + 을"
+            },
+            {
+              "surface": "도시로",
+              "meaning": "to the city",
+              "base": "도시 + 로"
+            },
+            {
+              "surface": "돌려놓으라고",
+              "meaning": "to restore / put back",
+              "base": "돌려놓다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "나중에 마법사의 형제가 복수하려고 성스러운 여인으로 변장했지만 알라딘은 속지 않았어.",
+          "translation": "Later, the magician’s brother disguised himself as a holy woman to take revenge, but Aladdin was not deceived.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "나중에 마법사의 형제가 복수하려고 성스러운 여인으로 변장했지만 알라딘은 속지 않았어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "나중에 마법사의 형제가 복수하려고 성스러운 여인으로 변장했지만 알라딘은 속지 않았어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "나중에 마법사의 형제가 복수하려고 성스러운 여인으로 변장했지만 알라딘은 속지 않았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "나중에 마법사의 형제가 복수하려고 성스러운 여인으로 변장했지만 알라딘은 속지 않았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마법사의",
+              "meaning": "sorcerer (of / possessive)",
+              "note": "마법사 + 의"
+            },
+            {
+              "word": "형제가",
+              "meaning": "to the brothers (subject)",
+              "note": "형제 + 가"
+            },
+            {
+              "word": "복수하려고",
+              "meaning": "to do / make revenge",
+              "note": "복수하다"
+            },
+            {
+              "word": "변장했지만",
+              "meaning": "to disguise oneself",
+              "note": "변장하다 + -았지만"
+            },
+            {
+              "word": "알라딘은",
+              "meaning": "Aladdin",
+              "note": "알라딘 + 은"
+            },
+            {
+              "word": "않았어",
+              "meaning": "did not",
+              "note": "않다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마법사의",
+              "meaning": "sorcerer (of / possessive)",
+              "base": "마법사 + 의"
+            },
+            {
+              "surface": "형제가",
+              "meaning": "to the brothers (subject)",
+              "base": "형제 + 가"
+            },
+            {
+              "surface": "복수하려고",
+              "meaning": "to do / make revenge",
+              "base": "복수하다"
+            },
+            {
+              "surface": "변장했지만",
+              "meaning": "to disguise oneself",
+              "base": "변장하다 + -았지만"
+            },
+            {
+              "surface": "알라딘은",
+              "meaning": "Aladdin",
+              "base": "알라딘 + 은"
+            },
+            {
+              "surface": "않았어",
+              "meaning": "did not",
+              "base": "않다"
+            }
+          ]
+        },
+        {
+          "korean": "모든 위험이 끝난 뒤 알라딘과 공주는 나라를 지혜롭게 다스리며 행복하게 살았어.",
+          "translation": "After all the dangers ended, Aladdin and the princess ruled the country wisely and lived happily.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "모든 위험이 끝난 뒤 알라딘과 공주는 나라를 지혜롭게 다스리며 행복하게 살았어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "모든 위험이 끝난 뒤 알라딘과 공주는 나라를 지혜롭게 다스리며 행복하게 살았어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "모든 위험이 끝난 뒤 알라딘과 공주는 나라를 지혜롭게 다스리며 행복하게 살았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "모든 위험이 끝난 뒤 알라딘과 공주는 나라를 지혜롭게 다스리며 행복하게 살았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "모든",
+              "meaning": "all"
+            },
+            {
+              "word": "위험이",
+              "meaning": "risk (subject)",
+              "note": "위험 + 이"
+            },
+            {
+              "word": "끝난",
+              "meaning": "ended",
+              "note": "끝나다 + -(으)ㄴ"
+            },
+            {
+              "word": "뒤",
+              "meaning": "after"
+            },
+            {
+              "word": "알라딘과",
+              "meaning": "Aladdin (and / with)",
+              "note": "알라딘 + 과"
+            },
+            {
+              "word": "공주는",
+              "meaning": "princess",
+              "note": "공주 + 는"
+            },
+            {
+              "word": "나라를",
+              "meaning": "country",
+              "note": "나라 + 를"
+            },
+            {
+              "word": "살았어",
+              "meaning": "lived",
+              "note": "살다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "모든",
+              "meaning": "all"
+            },
+            {
+              "surface": "위험이",
+              "meaning": "risk (subject)",
+              "base": "위험 + 이"
+            },
+            {
+              "surface": "끝난",
+              "meaning": "ended",
+              "base": "끝나다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "알라딘과",
+              "meaning": "Aladdin (and / with)",
+              "base": "알라딘 + 과"
+            },
+            {
+              "surface": "공주는",
+              "meaning": "princess",
+              "base": "공주 + 는"
+            },
+            {
+              "surface": "나라를",
+              "meaning": "country",
+              "base": "나라 + 를"
+            },
+            {
+              "surface": "살았어",
+              "meaning": "lived",
+              "base": "살다"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

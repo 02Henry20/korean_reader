@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f4f5ef" />
+  <meta name="color-scheme" content="light" />
+  <title>Korean Reader</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <main class="app-shell">
+    <section id="libraryView" class="view view-active" aria-label="Korean story library">
+      <header class="library-header">
+        <div class="library-heading-group">
+          <button id="libraryBackButton" class="icon-button library-back" type="button" aria-label="Back to collections" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="library-copy">
+            <p id="libraryEyebrow" class="eyebrow">한국어 리더</p>
+            <h1 id="libraryTitle">Your Korean library</h1>
+            <p id="librarySubtitle" class="library-subtitle">Choose a collection.</p>
+          </div>
+        </div>
+
+        <div class="library-actions">
+          <button id="libraryAppearanceButton" class="button appearance-button" type="button" aria-label="Choose appearance" title="Appearance">◐</button>
+        </div>
+      </header>
+
+      <section class="library-toolbar">
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.1-5.4a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+          <input id="searchInput" type="search" placeholder="Search collections" autocomplete="off" />
+        </label>
+      </section>
+
+      <section id="storyGrid" class="story-grid" aria-live="polite"></section>
+    </section>
+
+    <section id="readerView" class="view reader-view" aria-label="Story reader">
+      <header class="reader-header glass">
+        <button id="backButton" class="icon-button" type="button" aria-label="Back to story list">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+        </button>
+        <div class="reader-heading">
+          <button id="readerLevel" class="eyebrow reader-level-button" type="button" aria-label="Choose story level"></button>
+          <h2 id="readerTitle"></h2>
+        </div>
+        <div class="reader-tools">
+          <button id="readerReadButton" class="icon-button reader-read-button" type="button" aria-label="Mark story as read" title="Mark as read">✓</button>
+          <button id="readerAppearanceButton" class="icon-button" type="button" aria-label="Choose appearance" title="Appearance">◐</button>
+          <button id="themeButton" class="icon-button" type="button" aria-label="Choose story accent" title="Story accent">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3a9 9 0 1 0 0 18h1.2a1.8 1.8 0 0 0 0-3.6h-.6a1.6 1.6 0 0 1 0-3.2H15A6 6 0 0 0 12 3Z"/>
+              <circle cx="7.5" cy="10" r=".8"/><circle cx="10" cy="6.8" r=".8"/><circle cx="14" cy="6.8" r=".8"/><circle cx="16.5" cy="10" r=".8"/>
+            </svg>
+          </button>
+          <button id="fontDownButton" class="icon-button text-button" type="button" aria-label="Decrease text size">A−</button>
+          <button id="fontUpButton" class="icon-button text-button" type="button" aria-label="Increase text size">A+</button>
+        </div>
+      </header>
+
+      <div class="reader-layout">
+        <article id="storyContent" class="story-content" aria-live="polite"></article>
+        <aside id="detailPanel" class="detail-panel detail-panel-empty" aria-label="Sentence details">
+          <button id="closeDetailButton" class="icon-button close-detail" type="button" aria-label="Close sentence details">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+          </button>
+          <div id="detailContent" class="detail-content"></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div id="wordPopover" class="word-popover" role="dialog" aria-hidden="true"></div>
+  <div id="themeMenu" class="theme-menu" role="menu" aria-hidden="true"></div>
+  <div id="variantMenu" class="variant-menu" role="menu" aria-hidden="true"></div>
+  <div id="appearanceMenu" class="appearance-menu" role="menu" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

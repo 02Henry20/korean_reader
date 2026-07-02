@@ -1,0 +1,3516 @@
+{
+  "id": "avatar-the-search",
+  "title": "수색",
+  "englishTitle": "Avatar: The Last Airbender — The Search",
+  "level": "TOPIK 2–3",
+  "description": "주코와 아줄라가 사라진 어머니 우르사를 찾으러 떠나는 이야기.",
+  "theme": "plum",
+  "thumbnail": "thumbnails/02_the_search.jpg",
+  "thumbnailAlt": "Avatar: The Last Airbender — The Search",
+  "sourceNote": "Expanded transformative Korean learning summary of the comic's plot; no original dialogue is reproduced.",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "주코는 왕이 된 뒤에도 사라진 어머니 우르사를 계속 생각했어.",
+          "translation": "Even after becoming Fire Lord, Zuko kept thinking about his missing mother, Ursa.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing.” The verb is changed into a past modifier before 뒤.",
+              "example": "주코는 왕이 된 뒤에도 사라진 어머니 우르사를 계속 생각했어."
+            },
+            {
+              "pattern": "-아/어도 / -더라도",
+              "explanation": "Means “even if / even though.” -더라도 is usually stronger and more hypothetical.",
+              "example": "주코는 왕이 된 뒤에도 사라진 어머니 우르사를 계속 생각했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "주코는 왕이 된 뒤에도 사라진 어머니 우르사를 계속 생각했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "왕이",
+              "meaning": "king / ruler (subject)",
+              "note": "왕 + 이"
+            },
+            {
+              "word": "된",
+              "meaning": "became",
+              "note": "되다 + -(으)ㄴ"
+            },
+            {
+              "word": "뒤에도",
+              "meaning": "even after",
+              "note": "뒤 + 에도"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "왕이",
+              "meaning": "king / ruler (subject)",
+              "base": "왕 + 이"
+            },
+            {
+              "surface": "된",
+              "meaning": "became",
+              "base": "되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤에도",
+              "meaning": "even after",
+              "base": "뒤 + 에도"
+            },
+            {
+              "surface": "사라진",
+              "meaning": "missing / disappeared",
+              "base": "사라지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "어머니",
+              "meaning": "mother"
+            },
+            {
+              "surface": "우르사를",
+              "meaning": "Ursa (object)",
+              "base": "우르사 + 를"
+            },
+            {
+              "surface": "계속",
+              "meaning": "continuously / still"
+            },
+            {
+              "surface": "생각했어",
+              "meaning": "thought about",
+              "base": "생각하다"
+            }
+          ]
+        },
+        {
+          "korean": "과거의 우르사는 고향 히라아에서 배우 이켐과 사랑하며 결혼을 약속했어.",
+          "translation": "In the past, Ursa loved the actor Ikem in her hometown of Hira'a, and they promised to marry.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects actions or background occurring together: “while / as.”",
+              "example": "과거의 우르사는 고향 히라아에서 배우 이켐과 사랑하며 결혼을 약속했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "과거의 우르사는 고향 히라아에서 배우 이켐과 사랑하며 결혼을 약속했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "과거의 우르사는 고향 히라아에서 배우 이켐과 사랑하며 결혼을 약속했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "결혼을",
+              "meaning": "marriage (object)"
+            },
+            {
+              "word": "과거의",
+              "meaning": "past's",
+              "note": "과거 + 의"
+            },
+            {
+              "word": "우르사는",
+              "meaning": "Ursa",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "히라아에서",
+              "meaning": "to Hira’a at / from",
+              "note": "히라아 + 에서"
+            },
+            {
+              "word": "이켐과",
+              "meaning": "with Ikem",
+              "note": "이켐 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "과거의",
+              "meaning": "past's",
+              "base": "과거 + 의"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "고향",
+              "meaning": "hometown"
+            },
+            {
+              "surface": "히라아에서",
+              "meaning": "to Hira’a at / from",
+              "base": "히라아 + 에서"
+            },
+            {
+              "surface": "배우",
+              "meaning": "learning"
+            },
+            {
+              "surface": "이켐과",
+              "meaning": "with Ikem",
+              "base": "이켐 + 과"
+            },
+            {
+              "surface": "사랑하며",
+              "meaning": "loved and: while doing",
+              "base": "사랑하다"
+            },
+            {
+              "surface": "결혼을",
+              "meaning": "marriage (object)"
+            },
+            {
+              "surface": "약속했어",
+              "meaning": "promised",
+              "base": "약속하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 오래된 편지에서 단서를 발견하고 어머니를 찾기로 했어.",
+          "translation": "He found a clue in an old letter and decided to search for his mother.",
+          "grammar": [
+            {
+              "pattern": "-기로 했어",
+              "explanation": "Means “decided to do.” The action before -기로 becomes the content of the decision.",
+              "example": "그는 오래된 편지에서 단서를 발견하고 어머니를 찾기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "그는 오래된 편지에서 단서를 발견하고 어머니를 찾기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he (topic)",
+              "note": "그 + 는"
+            },
+            {
+              "word": "오래된",
+              "meaning": "old",
+              "note": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "word": "편지에서",
+              "meaning": "in a letter",
+              "note": "편지 + 에서"
+            },
+            {
+              "word": "단서를",
+              "meaning": "clue (object)",
+              "note": "단서 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he (topic)",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "오래된",
+              "meaning": "old",
+              "base": "오래되다 + -(으)ㄴ"
+            },
+            {
+              "surface": "편지에서",
+              "meaning": "in a letter",
+              "base": "편지 + 에서"
+            },
+            {
+              "surface": "단서를",
+              "meaning": "clue (object)",
+              "base": "단서 + 를"
+            },
+            {
+              "surface": "발견하고",
+              "meaning": "discovered and",
+              "base": "발견하다 + -고"
+            },
+            {
+              "surface": "어머니를",
+              "meaning": "mother (object)",
+              "base": "어머니 + 를"
+            },
+            {
+              "surface": "찾기로",
+              "meaning": "decided to find",
+              "base": "찾다 + -기로"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / decided",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "하지만 왕자 오자이는 아바타 로쿠의 후손과 결혼하려고 우르사를 강제로 데려갔어.",
+          "translation": "However, Prince Ozai forcibly took Ursa because he wanted to marry a descendant of Avatar Roku.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "하지만 왕자 오자이는 아바타 로쿠의 후손과 결혼하려고 우르사를 강제로 데려갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "하지만 왕자 오자이는 아바타 로쿠의 후손과 결혼하려고 우르사를 강제로 데려갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "하지만 왕자 오자이는 아바타 로쿠의 후손과 결혼하려고 우르사를 강제로 데려갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "후손과",
+              "meaning": "with a descendant"
+            },
+            {
+              "word": "왕자",
+              "meaning": "prince"
+            },
+            {
+              "word": "오자이는",
+              "meaning": "Ozai",
+              "note": "오자이 + 는"
+            },
+            {
+              "word": "로쿠의",
+              "meaning": "Roku (의)",
+              "note": "로쿠 + 의"
+            },
+            {
+              "word": "우르사를",
+              "meaning": "Ursa",
+              "note": "우르사 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "하지만",
+              "meaning": "but / however"
+            },
+            {
+              "surface": "왕자",
+              "meaning": "prince"
+            },
+            {
+              "surface": "오자이는",
+              "meaning": "Ozai",
+              "base": "오자이 + 는"
+            },
+            {
+              "surface": "아바타",
+              "meaning": "Avatar"
+            },
+            {
+              "surface": "로쿠의",
+              "meaning": "Roku (의)",
+              "base": "로쿠 + 의"
+            },
+            {
+              "surface": "후손과",
+              "meaning": "with a descendant"
+            },
+            {
+              "surface": "결혼하려고",
+              "meaning": "결혼: in order to",
+              "base": "결혼하다"
+            },
+            {
+              "surface": "우르사를",
+              "meaning": "Ursa",
+              "base": "우르사 + 를"
+            },
+            {
+              "surface": "강제로",
+              "meaning": "by force / forcibly"
+            },
+            {
+              "surface": "데려갔어",
+              "meaning": "took away",
+              "base": "데려가다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "주코는 아줄라만이 숨겨진 편지를 찾을 수 있다고 생각해서 그녀를 치료소에서 데리고 나왔어.",
+          "translation": "Zuko believed only Azula could find the hidden letter, so he took her out of the institution.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "주코는 아줄라만이 숨겨진 편지를 찾을 수 있다고 생각해서 그녀를 치료소에서 데리고 나왔어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.”",
+              "example": "주코는 아줄라만이 숨겨진 편지를 찾을 수 있다고 생각해서 그녀를 치료소에서 데리고 나왔어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "주코는 아줄라만이 숨겨진 편지를 찾을 수 있다고 생각해서 그녀를 치료소에서 데리고 나왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "아줄라만이",
+              "meaning": "only Azula (subject)",
+              "note": "아줄라 + 만이"
+            },
+            {
+              "word": "숨겨진",
+              "meaning": "hidden",
+              "note": "숨겨지다 + -(으)ㄴ"
+            },
+            {
+              "word": "편지를",
+              "meaning": "letter (를)",
+              "note": "편지 + 를"
+            },
+            {
+              "word": "찾을",
+              "meaning": "to find",
+              "note": "찾다 + -(으)ㄹ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "아줄라만이",
+              "meaning": "only Azula (subject)",
+              "base": "아줄라 + 만이"
+            },
+            {
+              "surface": "숨겨진",
+              "meaning": "hidden",
+              "base": "숨겨지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "편지를",
+              "meaning": "letter (를)",
+              "base": "편지 + 를"
+            },
+            {
+              "surface": "찾을",
+              "meaning": "to find",
+              "base": "찾다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is possible",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "생각해서",
+              "meaning": "because he thought",
+              "base": "생각하다 + -아/어서"
+            },
+            {
+              "surface": "그녀를",
+              "meaning": "to her (를)",
+              "base": "그녀 + 를"
+            },
+            {
+              "surface": "치료소에서",
+              "meaning": "institution / treatment center (에서)",
+              "base": "치료소 + 에서"
+            },
+            {
+              "surface": "데리고",
+              "meaning": "taking / bringing",
+              "base": "데리다 + -고"
+            },
+            {
+              "surface": "나왔어",
+              "meaning": "came out",
+              "base": "나오다"
+            }
+          ]
+        },
+        {
+          "korean": "현재의 주코는 아줄라를 데리고 감옥의 오자이에게 가서 우르사의 행방을 물었어.",
+          "translation": "In the present, Zuko brought Azula to Ozai's prison and asked about Ursa's whereabouts.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "현재의 주코는 아줄라를 데리고 감옥의 오자이에게 가서 우르사의 행방을 물었어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "현재의 주코는 아줄라를 데리고 감옥의 오자이에게 가서 우르사의 행방을 물었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "현재의 주코는 아줄라를 데리고 감옥의 오자이에게 가서 우르사의 행방을 물었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "행방을",
+              "meaning": "whereabouts (object)"
+            },
+            {
+              "word": "물었어",
+              "meaning": "asked"
+            },
+            {
+              "word": "가서",
+              "meaning": "went and"
+            },
+            {
+              "word": "현재의",
+              "meaning": "present-day / of the present",
+              "note": "현재 + 의"
+            },
+            {
+              "word": "주코는",
+              "meaning": "Zuko",
+              "note": "주코 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "현재의",
+              "meaning": "present-day / of the present",
+              "base": "현재 + 의"
+            },
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "데리고",
+              "meaning": "taking / bringing",
+              "base": "데리다 + -고"
+            },
+            {
+              "surface": "감옥의",
+              "meaning": "prison 's / of",
+              "base": "감옥 + 의"
+            },
+            {
+              "surface": "오자이에게",
+              "meaning": "by Ozai / from Ozai",
+              "base": "오자이 + 에게"
+            },
+            {
+              "surface": "가서",
+              "meaning": "went and"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "행방을",
+              "meaning": "whereabouts (object)"
+            },
+            {
+              "surface": "물었어",
+              "meaning": "asked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그 편지에는 주코의 아버지가 오자이가 아닐 수도 있다고 적혀 있었지만 우르사가 오자이를 시험하려고 쓴 거짓말이었어.",
+          "translation": "The letter said that Ozai might not be Zuko's father, but it was a lie Ursa had written to test Ozai.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "그 편지에는 주코의 아버지가 오자이가 아닐 수도 있다고 적혀 있었지만 우르사가 오자이를 시험하려고 쓴 거짓말이었어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "그 편지에는 주코의 아버지가 오자이가 아닐 수도 있다고 적혀 있었지만 우르사가 오자이를 시험하려고 쓴 거짓말이었어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "그 편지에는 주코의 아버지가 오자이가 아닐 수도 있다고 적혀 있었지만 우르사가 오자이를 시험하려고 쓴 거짓말이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "편지에는",
+              "meaning": "letter (에는)",
+              "note": "편지 + 에는"
+            },
+            {
+              "word": "주코의",
+              "meaning": "Zuko's",
+              "note": "주코 + 의"
+            },
+            {
+              "word": "아버지가",
+              "meaning": "father (subject)",
+              "note": "아버지 + 가"
+            },
+            {
+              "word": "오자이가",
+              "meaning": "Ozai (가)",
+              "note": "오자이 + 가"
+            },
+            {
+              "word": "아닐",
+              "meaning": "might not be",
+              "note": "아니다 + -(으)ㄹ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "편지에는",
+              "meaning": "letter (에는)",
+              "base": "편지 + 에는"
+            },
+            {
+              "surface": "주코의",
+              "meaning": "Zuko's",
+              "base": "주코 + 의"
+            },
+            {
+              "surface": "아버지가",
+              "meaning": "father (subject)",
+              "base": "아버지 + 가"
+            },
+            {
+              "surface": "오자이가",
+              "meaning": "Ozai (가)",
+              "base": "오자이 + 가"
+            },
+            {
+              "surface": "아닐",
+              "meaning": "might not be",
+              "base": "아니다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수도",
+              "meaning": "possibility also",
+              "base": "수 + 도"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is possible",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "적혀",
+              "meaning": "written",
+              "base": "적히다 + -아/어"
+            },
+            {
+              "surface": "있었지만",
+              "meaning": "were but",
+              "base": "있다 + -었지만"
+            },
+            {
+              "surface": "우르사가",
+              "meaning": "Ursa (가)",
+              "base": "우르사 + 가"
+            },
+            {
+              "surface": "오자이를",
+              "meaning": "Ozai (object)",
+              "base": "오자이 + 를"
+            },
+            {
+              "surface": "시험하려고",
+              "meaning": "in order to test",
+              "base": "시험하다 + -(으)려고"
+            },
+            {
+              "surface": "쓴",
+              "meaning": "written / wrote",
+              "base": "쓰다 + -(으)ㄴ"
+            },
+            {
+              "surface": "거짓말이었어",
+              "meaning": "was a lie",
+              "base": "거짓말이다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라는 우르사의 편지들을 먼저 찾아 불태운 뒤 자신도 여행에 참여하게 만들었어.",
+          "translation": "Azula found and burned Ursa's letters first, then forced Zuko to include her in the journey.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "아줄라는 우르사의 편지들을 먼저 찾아 불태운 뒤 자신도 여행에 참여하게 만들었어."
+            },
+            {
+              "pattern": "-게 하다",
+              "explanation": "Means “make or let someone do” or “cause something to become.”",
+              "example": "아줄라는 우르사의 편지들을 먼저 찾아 불태운 뒤 자신도 여행에 참여하게 만들었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 우르사의 편지들을 먼저 찾아 불태운 뒤 자신도 여행에 참여하게 만들었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "불태운",
+              "meaning": "burned"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "우르사의",
+              "meaning": "Ursa's",
+              "note": "우르사 + 의"
+            },
+            {
+              "word": "편지들을",
+              "meaning": "letter",
+              "note": "편지"
+            },
+            {
+              "word": "여행에",
+              "meaning": "on the journey",
+              "note": "여행 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "편지들을",
+              "meaning": "letter",
+              "base": "편지"
+            },
+            {
+              "surface": "먼저",
+              "meaning": "first / beforehand"
+            },
+            {
+              "surface": "찾아",
+              "meaning": "found and",
+              "base": "찾다 + -아/어"
+            },
+            {
+              "surface": "불태운",
+              "meaning": "burned"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "자신도",
+              "meaning": "even himself",
+              "base": "자신 + 도"
+            },
+            {
+              "surface": "여행에",
+              "meaning": "on the journey",
+              "base": "여행 + 에"
+            },
+            {
+              "surface": "참여하게",
+              "meaning": "participating: so that / in a ... way",
+              "base": "참여하다"
+            },
+            {
+              "surface": "만들었어",
+              "meaning": "created",
+              "base": "만들다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 중요한 정보를 알고 있었기 때문에 위험하지만 여행에 함께 갔어.",
+          "translation": "Azula went on the journey with them despite being dangerous, because she knew important information.",
+          "grammar": [
+            {
+              "pattern": "-기 때문에",
+              "explanation": "Gives a clear reason: “because.” It is often more explicit than -아/어서.",
+              "example": "아줄라는 중요한 정보를 알고 있었기 때문에 위험하지만 여행에 함께 갔어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "아줄라는 중요한 정보를 알고 있었기 때문에 위험하지만 여행에 함께 갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아줄라는 중요한 정보를 알고 있었기 때문에 위험하지만 여행에 함께 갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "중요한",
+              "meaning": "important",
+              "note": "중요하다 + -(으)ㄴ"
+            },
+            {
+              "word": "정보를",
+              "meaning": "information (object)",
+              "note": "정보 + 를"
+            },
+            {
+              "word": "알고",
+              "meaning": "knowing",
+              "note": "알다 + -고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "중요한",
+              "meaning": "important",
+              "base": "중요하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "정보를",
+              "meaning": "information (object)",
+              "base": "정보 + 를"
+            },
+            {
+              "surface": "알고",
+              "meaning": "knowing",
+              "base": "알다 + -고"
+            },
+            {
+              "surface": "있었기",
+              "meaning": "being / the fact she knew",
+              "base": "있다 + -기"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because"
+            },
+            {
+              "surface": "위험하지만",
+              "meaning": "dangerous but",
+              "base": "위험하다 + -지만"
+            },
+            {
+              "surface": "여행에",
+              "meaning": "on the journey",
+              "base": "여행 + 에"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "갔어",
+              "meaning": "went",
+              "base": "가다"
+            }
+          ]
+        },
+        {
+          "korean": "일행은 히라아의 극단을 만나 우르사와 이켐의 옛이야기를 들었어.",
+          "translation": "The group met Hira'a's acting troupe and heard the old story of Ursa and Ikem.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "일행은 히라아의 극단을 만나 우르사와 이켐의 옛이야기를 들었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "일행은 히라아의 극단을 만나 우르사와 이켐의 옛이야기를 들었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "극단을",
+              "meaning": "theater troupe (object)"
+            },
+            {
+              "word": "옛이야기를",
+              "meaning": "old story (object)"
+            },
+            {
+              "word": "들었어",
+              "meaning": "heard"
+            },
+            {
+              "word": "일행은",
+              "meaning": "group / party",
+              "note": "일행 + 은"
+            },
+            {
+              "word": "히라아의",
+              "meaning": "to Hira’a 's / of",
+              "note": "히라아 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "일행은",
+              "meaning": "group / party",
+              "base": "일행 + 은"
+            },
+            {
+              "surface": "히라아의",
+              "meaning": "to Hira’a 's / of",
+              "base": "히라아 + 의"
+            },
+            {
+              "surface": "극단을",
+              "meaning": "theater troupe (object)"
+            },
+            {
+              "surface": "만나",
+              "meaning": "meet / face",
+              "base": "만나다"
+            },
+            {
+              "surface": "우르사와",
+              "meaning": "Ursa and / with Ursa",
+              "base": "우르사 + 와"
+            },
+            {
+              "surface": "이켐의",
+              "meaning": "with Ikem 's / of",
+              "base": "이켐 + 의"
+            },
+            {
+              "surface": "옛이야기를",
+              "meaning": "old story (object)"
+            },
+            {
+              "surface": "들었어",
+              "meaning": "heard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아앙과 카타라와 소카도 남매가 서로 해치지 않도록 따라갔어.",
+          "translation": "Aang, Katara, and Sokka also followed so that the siblings would not hurt each other.",
+          "grammar": [
+            {
+              "pattern": "-도록",
+              "explanation": "Expresses a goal, degree, or result: “so that / until.”",
+              "example": "아앙과 카타라와 소카도 남매가 서로 해치지 않도록 따라갔어."
+            },
+            {
+              "pattern": "서로",
+              "explanation": "An adverb meaning “each other / mutually.”",
+              "example": "아앙과 카타라와 소카도 남매가 서로 해치지 않도록 따라갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "아앙과 카타라와 소카도 남매가 서로 해치지 않도록 따라갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아앙과",
+              "meaning": "Aang and",
+              "note": "아앙 + 과"
+            },
+            {
+              "word": "카타라와",
+              "meaning": "Katara and",
+              "note": "카타라 + 와"
+            },
+            {
+              "word": "소카도",
+              "meaning": "Sokka also",
+              "note": "소카 + 도"
+            },
+            {
+              "word": "남매가",
+              "meaning": "brother and sister (subject)",
+              "note": "남매 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아앙과",
+              "meaning": "Aang and",
+              "base": "아앙 + 과"
+            },
+            {
+              "surface": "카타라와",
+              "meaning": "Katara and",
+              "base": "카타라 + 와"
+            },
+            {
+              "surface": "소카도",
+              "meaning": "Sokka also",
+              "base": "소카 + 도"
+            },
+            {
+              "surface": "남매가",
+              "meaning": "brother and sister (subject)",
+              "base": "남매 + 가"
+            },
+            {
+              "surface": "서로",
+              "meaning": "each other"
+            },
+            {
+              "surface": "해치지",
+              "meaning": "hurt + not",
+              "base": "해치다 + -지"
+            },
+            {
+              "surface": "않도록",
+              "meaning": "so that they would not",
+              "base": "않다 + -도록"
+            },
+            {
+              "surface": "따라갔어",
+              "meaning": "followed",
+              "base": "따라가다"
+            }
+          ]
+        },
+        {
+          "korean": "그들은 노렌과 노리코와 어린 키이를 만났지만 처음에는 두 사람의 정체를 몰랐어.",
+          "translation": "They met Noren, Noriko, and young Kiyi, but initially did not know the adults' true identities.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "그들은 노렌과 노리코와 어린 키이를 만났지만 처음에는 두 사람의 정체를 몰랐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그들은 노렌과 노리코와 어린 키이를 만났지만 처음에는 두 사람의 정체를 몰랐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그들은",
+              "meaning": "he",
+              "note": "그 + 들은"
+            },
+            {
+              "word": "노렌과",
+              "meaning": "Noren and / with",
+              "note": "노렌 + 과"
+            },
+            {
+              "word": "노리코와",
+              "meaning": "Noriko (와)",
+              "note": "노리코 + 와"
+            },
+            {
+              "word": "키이를",
+              "meaning": "Kiyi",
+              "note": "키이 + 를"
+            },
+            {
+              "word": "처음에는",
+              "meaning": "at first",
+              "note": "처음 + 에는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그들은",
+              "meaning": "he",
+              "base": "그 + 들은"
+            },
+            {
+              "surface": "노렌과",
+              "meaning": "Noren and / with",
+              "base": "노렌 + 과"
+            },
+            {
+              "surface": "노리코와",
+              "meaning": "Noriko (와)",
+              "base": "노리코 + 와"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young / childhood",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "키이를",
+              "meaning": "Kiyi",
+              "base": "키이 + 를"
+            },
+            {
+              "surface": "만났지만",
+              "meaning": "met",
+              "base": "만났"
+            },
+            {
+              "surface": "처음에는",
+              "meaning": "at first",
+              "base": "처음 + 에는"
+            },
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람의",
+              "meaning": "person / people",
+              "base": "사람 + 의"
+            },
+            {
+              "surface": "정체를",
+              "meaning": "identity",
+              "base": "정체 + 를"
+            },
+            {
+              "surface": "몰랐어",
+              "meaning": "did not know",
+              "base": "모르다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "여행하는 동안 아줄라는 어머니의 환상을 자주 보고 현실과 기억을 구별하기 어려워했어.",
+          "translation": "During the journey, Azula often saw visions of her mother and struggled to separate reality from memory.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "여행하는 동안 아줄라는 어머니의 환상을 자주 보고 현실과 기억을 구별하기 어려워했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "여행하는",
+              "meaning": "traveling",
+              "note": "여행하다 + -는"
+            },
+            {
+              "word": "동안",
+              "meaning": "during"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "어머니의",
+              "meaning": "mother (의)",
+              "note": "어머니 + 의"
+            },
+            {
+              "word": "환상을",
+              "meaning": "vision / illusion (을)",
+              "note": "환상 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "여행하는",
+              "meaning": "traveling",
+              "base": "여행하다 + -는"
+            },
+            {
+              "surface": "동안",
+              "meaning": "during"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "어머니의",
+              "meaning": "mother (의)",
+              "base": "어머니 + 의"
+            },
+            {
+              "surface": "환상을",
+              "meaning": "vision / illusion (을)",
+              "base": "환상 + 을"
+            },
+            {
+              "surface": "자주",
+              "meaning": "often"
+            },
+            {
+              "surface": "보고",
+              "meaning": "after seeing / and saw",
+              "base": "보다 + -고"
+            },
+            {
+              "surface": "현실과",
+              "meaning": "reality (과)",
+              "base": "현실 + 과"
+            },
+            {
+              "surface": "기억을",
+              "meaning": "memories (object)",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "구별하기",
+              "meaning": "distinguish",
+              "base": "구별하다"
+            },
+            {
+              "surface": "어려워했어",
+              "meaning": "had difficulty",
+              "base": "어려워하다"
+            }
+          ]
+        },
+        {
+          "korean": "단서를 따라간 일행은 얼굴이 새겨진 동물들이 사는 망각의 계곡에 들어갔어.",
+          "translation": "Following the clues, the group entered Forgetful Valley, where animals bearing strange faces lived.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "단서를 따라간 일행은 얼굴이 새겨진 동물들이 사는 망각의 계곡에 들어갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "단서를 따라간 일행은 얼굴이 새겨진 동물들이 사는 망각의 계곡에 들어갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "동물들이",
+              "meaning": "animals (subject)"
+            },
+            {
+              "word": "망각의",
+              "meaning": "of forgetting / oblivion"
+            },
+            {
+              "word": "계곡에",
+              "meaning": "in / to the valley"
+            },
+            {
+              "word": "새겨진",
+              "meaning": "engraved / marked"
+            },
+            {
+              "word": "얼굴이",
+              "meaning": "of faces (subject)",
+              "note": "얼굴 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "단서를",
+              "meaning": "clue",
+              "base": "단서 + 를"
+            },
+            {
+              "surface": "따라간",
+              "meaning": "along / following",
+              "base": "따라"
+            },
+            {
+              "surface": "일행은",
+              "meaning": "group / party",
+              "base": "일행 + 은"
+            },
+            {
+              "surface": "얼굴이",
+              "meaning": "of faces (subject)",
+              "base": "얼굴 + 이"
+            },
+            {
+              "surface": "새겨진",
+              "meaning": "engraved / marked"
+            },
+            {
+              "surface": "동물들이",
+              "meaning": "animals (subject)"
+            },
+            {
+              "surface": "사는",
+              "meaning": "living",
+              "base": "살다 + -는"
+            },
+            {
+              "surface": "망각의",
+              "meaning": "of forgetting / oblivion"
+            },
+            {
+              "surface": "계곡에",
+              "meaning": "in / to the valley"
+            },
+            {
+              "surface": "들어갔어",
+              "meaning": "entered",
+              "base": "들어가다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그래도 그녀는 편지의 단서를 이용해 모두를 우르사의 고향인 히라아로 이끌었어.",
+          "translation": "Even so, she used clues from the letter to lead everyone to Ursa's hometown, Hira'a.",
+          "grammar": [
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그래도 그녀는 편지의 단서를 이용해 모두를 우르사의 고향인 히라아로 이끌었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그녀는",
+              "meaning": "she (topic)",
+              "note": "그녀 + 는"
+            },
+            {
+              "word": "편지의",
+              "meaning": "letter (의)",
+              "note": "편지 + 의"
+            },
+            {
+              "word": "단서를",
+              "meaning": "clue (object)",
+              "note": "단서 + 를"
+            },
+            {
+              "word": "이용해",
+              "meaning": "using",
+              "note": "이용하다 + -아/어"
+            },
+            {
+              "word": "모두를",
+              "meaning": "all (를)",
+              "note": "모두 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그래도",
+              "meaning": "even so / nevertheless"
+            },
+            {
+              "surface": "그녀는",
+              "meaning": "she (topic)",
+              "base": "그녀 + 는"
+            },
+            {
+              "surface": "편지의",
+              "meaning": "letter (의)",
+              "base": "편지 + 의"
+            },
+            {
+              "surface": "단서를",
+              "meaning": "clue (object)",
+              "base": "단서 + 를"
+            },
+            {
+              "surface": "이용해",
+              "meaning": "using",
+              "base": "이용하다 + -아/어"
+            },
+            {
+              "surface": "모두를",
+              "meaning": "all (를)",
+              "base": "모두 + 를"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "고향인",
+              "meaning": "that is the hometown",
+              "base": "고향이다 + -(으)ㄴ"
+            },
+            {
+              "surface": "히라아로",
+              "meaning": "to Hira’a",
+              "base": "히라아 + 로"
+            },
+            {
+              "surface": "이끌었어",
+              "meaning": "lead",
+              "base": "이끌다"
+            }
+          ]
+        },
+        {
+          "korean": "그 계곡의 얼굴의 어머니는 한 계절에 단 하나의 소원만 들어주는 강한 영혼이었어.",
+          "translation": "The Mother of Faces in that valley was a powerful spirit who granted only one request each season.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "그 계곡의 얼굴의 어머니는 한 계절에 단 하나의 소원만 들어주는 강한 영혼이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그 계곡의 얼굴의 어머니는 한 계절에 단 하나의 소원만 들어주는 강한 영혼이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "계곡의",
+              "meaning": "valley's / of the valley"
+            },
+            {
+              "word": "계절에",
+              "meaning": "in the season"
+            },
+            {
+              "word": "하나의",
+              "meaning": "one / a single"
+            },
+            {
+              "word": "들어주는",
+              "meaning": "granting / listening to"
+            },
+            {
+              "word": "소원만",
+              "meaning": "only one wish"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "계곡의",
+              "meaning": "valley's / of the valley"
+            },
+            {
+              "surface": "얼굴의",
+              "meaning": "of faces",
+              "base": "얼굴 + 의"
+            },
+            {
+              "surface": "어머니는",
+              "meaning": "mother (topic)",
+              "base": "어머니 + 는"
+            },
+            {
+              "surface": "한",
+              "meaning": "one / that did"
+            },
+            {
+              "surface": "계절에",
+              "meaning": "in the season"
+            },
+            {
+              "surface": "단",
+              "meaning": "only / just"
+            },
+            {
+              "surface": "하나의",
+              "meaning": "one / a single"
+            },
+            {
+              "surface": "소원만",
+              "meaning": "only one wish"
+            },
+            {
+              "surface": "들어주는",
+              "meaning": "granting / listening to"
+            },
+            {
+              "surface": "강한",
+              "meaning": "strong",
+              "base": "강하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "영혼이었어",
+              "meaning": "was a spirit",
+              "base": "영혼이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "고향 마을에 도착하고 보니 우르사는 어린 시절의 연인 이켐과 다시 살고 있었어.",
+          "translation": "After arriving at her hometown, they discovered that Ursa was living again with her childhood love, Ikem.",
+          "grammar": [
+            {
+              "pattern": "-고 보니",
+              "explanation": "Means “after doing and then realizing.” It introduces a discovery made afterward.",
+              "example": "고향 마을에 도착하고 보니 우르사는 어린 시절의 연인 이켐과 다시 살고 있었어."
+            },
+            {
+              "pattern": "-고 있었어",
+              "explanation": "Casual past progressive: “was doing.” It emphasizes an action in progress in the past.",
+              "example": "고향 마을에 도착하고 보니 우르사는 어린 시절의 연인 이켐과 다시 살고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마을에",
+              "meaning": "at the village",
+              "note": "마을 + 에"
+            },
+            {
+              "word": "도착하고",
+              "meaning": "arriving and",
+              "note": "도착하다 + -고"
+            },
+            {
+              "word": "보니",
+              "meaning": "after doing and realizing",
+              "note": "-고 보니"
+            },
+            {
+              "word": "우르사는",
+              "meaning": "Ursa (topic)",
+              "note": "우르사 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "고향",
+              "meaning": "hometown"
+            },
+            {
+              "surface": "마을에",
+              "meaning": "at the village",
+              "base": "마을 + 에"
+            },
+            {
+              "surface": "도착하고",
+              "meaning": "arriving and",
+              "base": "도착하다 + -고"
+            },
+            {
+              "surface": "보니",
+              "meaning": "after doing and realizing",
+              "base": "-고 보니"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young / childhood",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "시절의",
+              "meaning": "of the time / childhood",
+              "base": "시절 + 의"
+            },
+            {
+              "surface": "연인",
+              "meaning": "lover / partner"
+            },
+            {
+              "surface": "이켐과",
+              "meaning": "with Ikem",
+              "base": "이켐 + 과"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "살고",
+              "meaning": "living",
+              "base": "살다 + -고"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "was",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "미수는 얼굴을 잃은 동생 라파를 치료하기 위해 그 소원을 사용하고 싶어 했어.",
+          "translation": "Misu wanted to use that request to heal her brother Rafa, who had lost his face.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses an intention or purpose: “in order to / intending to.”",
+              "example": "미수는 얼굴을 잃은 동생 라파를 치료하기 위해 그 소원을 사용하고 싶어 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "미수는 얼굴을 잃은 동생 라파를 치료하기 위해 그 소원을 사용하고 싶어 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "미수는 얼굴을 잃은 동생 라파를 치료하기 위해 그 소원을 사용하고 싶어 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소원을",
+              "meaning": "wish (object)"
+            },
+            {
+              "word": "잃은",
+              "meaning": "lost"
+            },
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "미수는",
+              "meaning": "Misu (는)",
+              "note": "미수 + 는"
+            },
+            {
+              "word": "얼굴을",
+              "meaning": "of faces",
+              "note": "얼굴 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "미수는",
+              "meaning": "Misu (는)",
+              "base": "미수 + 는"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "잃은",
+              "meaning": "lost"
+            },
+            {
+              "surface": "동생",
+              "meaning": "younger sibling"
+            },
+            {
+              "surface": "라파를",
+              "meaning": "Rafa (를)",
+              "base": "라파 + 를"
+            },
+            {
+              "surface": "치료하기",
+              "meaning": "heal",
+              "base": "치료하다"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "소원을",
+              "meaning": "wish (object)"
+            },
+            {
+              "surface": "사용하고",
+              "meaning": "using: doing and",
+              "base": "사용하다"
+            },
+            {
+              "surface": "싶어",
+              "meaning": "want",
+              "base": "싶다 + -아/어"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "얼굴의 어머니라는 영혼이 우르사의 얼굴과 아픈 기억을 바꾸어 주었던 거야.",
+          "translation": "A spirit called the Mother of Faces had changed Ursa's face and painful memories for her.",
+          "grammar": [
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is done for another person as a favor or benefit.",
+              "example": "얼굴의 어머니라는 영혼이 우르사의 얼굴과 아픈 기억을 바꾸어 주었던 거야."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "얼굴의 어머니라는 영혼이 우르사의 얼굴과 아픈 기억을 바꾸어 주었던 거야."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Turns a verb phrase into a noun-like idea, similar to “doing” or “the fact that.”",
+              "example": "얼굴의 어머니라는 영혼이 우르사의 얼굴과 아픈 기억을 바꾸어 주었던 거야."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "얼굴의",
+              "meaning": "of faces",
+              "note": "얼굴 + 의"
+            },
+            {
+              "word": "어머니라는",
+              "meaning": "called Mother",
+              "note": "어머니 + 라는"
+            },
+            {
+              "word": "영혼이",
+              "meaning": "spirit (subject)",
+              "note": "영혼 + 이"
+            },
+            {
+              "word": "우르사의",
+              "meaning": "Ursa's",
+              "note": "우르사 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "얼굴의",
+              "meaning": "of faces",
+              "base": "얼굴 + 의"
+            },
+            {
+              "surface": "어머니라는",
+              "meaning": "called Mother",
+              "base": "어머니 + 라는"
+            },
+            {
+              "surface": "영혼이",
+              "meaning": "spirit (subject)",
+              "base": "영혼 + 이"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "얼굴과",
+              "meaning": "face and",
+              "base": "얼굴 + 과"
+            },
+            {
+              "surface": "아픈",
+              "meaning": "painful",
+              "base": "아프다 + -(으)ㄴ"
+            },
+            {
+              "surface": "기억을",
+              "meaning": "memories (object)",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "바꾸어",
+              "meaning": "changed",
+              "base": "바꾸다 + -아/어"
+            },
+            {
+              "surface": "주었던",
+              "meaning": "had done for her",
+              "base": "주다 + -었던"
+            },
+            {
+              "surface": "거야",
+              "meaning": "it was the fact that",
+              "base": "것이야"
+            }
+          ]
+        },
+        {
+          "korean": "그러나 아줄라는 영혼 앞에 뛰어들어 우르사가 어디 있는지 먼저 말하라고 요구했어.",
+          "translation": "However, Azula rushed before the spirit and demanded that it reveal Ursa's location first.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "그러나 아줄라는 영혼 앞에 뛰어들어 우르사가 어디 있는지 먼저 말하라고 요구했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "그러나 아줄라는 영혼 앞에 뛰어들어 우르사가 어디 있는지 먼저 말하라고 요구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "그러나 아줄라는 영혼 앞에 뛰어들어 우르사가 어디 있는지 먼저 말하라고 요구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "뛰어들어",
+              "meaning": "jumped in"
+            },
+            {
+              "word": "어디",
+              "meaning": "where"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "우르사가",
+              "meaning": "Ursa",
+              "note": "우르사 + 가"
+            },
+            {
+              "word": "앞에",
+              "meaning": "in front of to / at",
+              "note": "앞 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "영혼",
+              "meaning": "spirit"
+            },
+            {
+              "surface": "앞에",
+              "meaning": "in front of to / at",
+              "base": "앞 + 에"
+            },
+            {
+              "surface": "뛰어들어",
+              "meaning": "jumped in"
+            },
+            {
+              "surface": "우르사가",
+              "meaning": "Ursa",
+              "base": "우르사 + 가"
+            },
+            {
+              "surface": "어디",
+              "meaning": "where"
+            },
+            {
+              "surface": "있는지",
+              "meaning": "being",
+              "base": "있는"
+            },
+            {
+              "surface": "먼저",
+              "meaning": "first / beforehand"
+            },
+            {
+              "surface": "말하라고",
+              "meaning": "said",
+              "base": "말하다"
+            },
+            {
+              "surface": "요구했어",
+              "meaning": "demands: did / was",
+              "base": "요구하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "과거에 오자이는 우르사를 억지로 결혼시키고 옛 연인 이켐과 연락하지 못하게 했어.",
+          "translation": "In the past, Ozai forced Ursa to marry him and prevented her from contacting her former love, Ikem.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 못하다",
+              "explanation": "Forms a negative expression: “do not / cannot.”",
+              "example": "과거에 오자이는 우르사를 억지로 결혼시키고 옛 연인 이켐과 연락하지 못하게 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "과거에 오자이는 우르사를 억지로 결혼시키고 옛 연인 이켐과 연락하지 못하게 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "과거에",
+              "meaning": "past (에)",
+              "note": "과거 + 에"
+            },
+            {
+              "word": "오자이는",
+              "meaning": "Ozai (는)",
+              "note": "오자이 + 는"
+            },
+            {
+              "word": "우르사를",
+              "meaning": "Ursa (object)",
+              "note": "우르사 + 를"
+            },
+            {
+              "word": "억지로",
+              "meaning": "forcibly / against one's will"
+            },
+            {
+              "word": "결혼시키고",
+              "meaning": "force / arrange marriage",
+              "note": "결혼시키다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "과거에",
+              "meaning": "past (에)",
+              "base": "과거 + 에"
+            },
+            {
+              "surface": "오자이는",
+              "meaning": "Ozai (는)",
+              "base": "오자이 + 는"
+            },
+            {
+              "surface": "우르사를",
+              "meaning": "Ursa (object)",
+              "base": "우르사 + 를"
+            },
+            {
+              "surface": "억지로",
+              "meaning": "forcibly / against one's will"
+            },
+            {
+              "surface": "결혼시키고",
+              "meaning": "force / arrange marriage",
+              "base": "결혼시키다"
+            },
+            {
+              "surface": "옛",
+              "meaning": "former / old"
+            },
+            {
+              "surface": "연인",
+              "meaning": "lover / partner"
+            },
+            {
+              "surface": "이켐과",
+              "meaning": "with Ikem",
+              "base": "이켐 + 과"
+            },
+            {
+              "surface": "연락하지",
+              "meaning": "contact",
+              "base": "연락하다"
+            },
+            {
+              "surface": "못하게",
+              "meaning": "that it failed",
+              "base": "못하다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried / did",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "과거에 우르사는 이켐에게 몰래 편지를 보냈고 오자이는 그 편지를 발견했어.",
+          "translation": "In the past, Ursa secretly sent letters to Ikem, and Ozai discovered them.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "과거에 우르사는 이켐에게 몰래 편지를 보냈고 오자이는 그 편지를 발견했어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "과거에 우르사는 이켐에게 몰래 편지를 보냈고 오자이는 그 편지를 발견했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "과거에 우르사는 이켐에게 몰래 편지를 보냈고 오자이는 그 편지를 발견했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "보냈고",
+              "meaning": "sent and"
+            },
+            {
+              "word": "과거에",
+              "meaning": "past",
+              "note": "과거 + 에"
+            },
+            {
+              "word": "우르사는",
+              "meaning": "Ursa",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "이켐에게",
+              "meaning": "with Ikem to",
+              "note": "이켐 + 에게"
+            },
+            {
+              "word": "편지를",
+              "meaning": "letter",
+              "note": "편지 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "과거에",
+              "meaning": "past",
+              "base": "과거 + 에"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "이켐에게",
+              "meaning": "with Ikem to",
+              "base": "이켐 + 에게"
+            },
+            {
+              "surface": "몰래",
+              "meaning": "secretly"
+            },
+            {
+              "surface": "편지를",
+              "meaning": "letter",
+              "base": "편지 + 를"
+            },
+            {
+              "surface": "보냈고",
+              "meaning": "sent and"
+            },
+            {
+              "surface": "오자이는",
+              "meaning": "Ozai",
+              "base": "오자이 + 는"
+            },
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "편지를",
+              "meaning": "letter",
+              "base": "편지 + 를"
+            },
+            {
+              "surface": "발견했어",
+              "meaning": "discovered",
+              "base": "발견하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "우르사는 주코를 지키기 위해 위험한 선택을 했고 결국 궁전에서 쫓겨났어.",
+          "translation": "Ursa made a dangerous choice to protect Zuko and was eventually banished from the palace.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고 / -기 위해",
+              "explanation": "Expresses intention or purpose: “in order to” or “with the aim of.”",
+              "example": "우르사는 주코를 지키기 위해 위험한 선택을 했고 결국 궁전에서 쫓겨났어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that…” / “the … N.”",
+              "example": "우르사는 주코를 지키기 위해 위험한 선택을 했고 결국 궁전에서 쫓겨났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우르사는 주코를 지키기 위해 위험한 선택을 했고 결국 궁전에서 쫓겨났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "우르사는",
+              "meaning": "Ursa (topic)",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "주코를",
+              "meaning": "Zuko (object)",
+              "note": "주코 + 를"
+            },
+            {
+              "word": "지키기",
+              "meaning": "protect",
+              "note": "지키다"
+            },
+            {
+              "word": "위해",
+              "meaning": "in order to",
+              "note": "위하다 + -아/어"
+            },
+            {
+              "word": "위험한",
+              "meaning": "dangerous",
+              "note": "위험하다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "주코를",
+              "meaning": "Zuko (object)",
+              "base": "주코 + 를"
+            },
+            {
+              "surface": "지키기",
+              "meaning": "protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "위험한",
+              "meaning": "dangerous",
+              "base": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "선택을",
+              "meaning": "choice (을)",
+              "base": "선택 + 을"
+            },
+            {
+              "surface": "했고",
+              "meaning": "did, and",
+              "base": "하다 + -았고"
+            },
+            {
+              "surface": "결국",
+              "meaning": "in the end"
+            },
+            {
+              "surface": "궁전에서",
+              "meaning": "palace (에서)",
+              "base": "궁전 + 에서"
+            },
+            {
+              "surface": "쫓겨났어",
+              "meaning": "was banished",
+              "base": "쫓겨나다"
+            }
+          ]
+        },
+        {
+          "korean": "오자이는 우르사의 도움으로 아줄론을 죽인 뒤 주코를 살려 주는 대신 우르사를 추방했어.",
+          "translation": "With Ursa's help, Ozai killed Azulon, then spared Zuko in exchange for banishing Ursa.",
+          "grammar": [
+            {
+              "pattern": "-는 대신(에)",
+              "explanation": "Means “instead of” or presents an alternative.",
+              "example": "오자이는 우르사의 도움으로 아줄론을 죽인 뒤 주코를 살려 주는 대신 우르사를 추방했어."
+            },
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "오자이는 우르사의 도움으로 아줄론을 죽인 뒤 주코를 살려 주는 대신 우르사를 추방했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "오자이는 우르사의 도움으로 아줄론을 죽인 뒤 주코를 살려 주는 대신 우르사를 추방했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄론을",
+              "meaning": "Azulon (object)"
+            },
+            {
+              "word": "죽인",
+              "meaning": "killed"
+            },
+            {
+              "word": "살려",
+              "meaning": "spared / saved"
+            },
+            {
+              "word": "오자이는",
+              "meaning": "Ozai",
+              "note": "오자이 + 는"
+            },
+            {
+              "word": "우르사의",
+              "meaning": "Ursa's",
+              "note": "우르사 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "오자이는",
+              "meaning": "Ozai",
+              "base": "오자이 + 는"
+            },
+            {
+              "surface": "우르사의",
+              "meaning": "Ursa's",
+              "base": "우르사 + 의"
+            },
+            {
+              "surface": "도움으로",
+              "meaning": "with help",
+              "base": "도움 + 으로"
+            },
+            {
+              "surface": "아줄론을",
+              "meaning": "Azulon (object)"
+            },
+            {
+              "surface": "죽인",
+              "meaning": "killed"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "주코를",
+              "meaning": "Zuko",
+              "base": "주코 + 를"
+            },
+            {
+              "surface": "살려",
+              "meaning": "spared / saved"
+            },
+            {
+              "surface": "주는",
+              "meaning": "giving / showing",
+              "base": "주다 + -는"
+            },
+            {
+              "surface": "대신",
+              "meaning": "instead"
+            },
+            {
+              "surface": "우르사를",
+              "meaning": "Ursa",
+              "base": "우르사 + 를"
+            },
+            {
+              "surface": "추방했어",
+              "meaning": "추방: did / was",
+              "base": "추방하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "우르사는 오자이에게 빼앗긴 삶을 잊으려고 자신의 과거까지 버렸어.",
+          "translation": "Ursa discarded even her past because she wanted to forget the life Ozai had taken from her.",
+          "grammar": [
+            {
+              "pattern": "-(으)려고",
+              "explanation": "Expresses intention or purpose: “in order to” or “intending to.”",
+              "example": "우르사는 오자이에게 빼앗긴 삶을 잊으려고 자신의 과거까지 버렸어."
+            },
+            {
+              "pattern": "-이/히/리/기- passive",
+              "explanation": "A passive form meaning that something is done, seen, opened, or changed by another force.",
+              "example": "우르사는 오자이에게 빼앗긴 삶을 잊으려고 자신의 과거까지 버렸어."
+            },
+            {
+              "pattern": "-아/어 버리다",
+              "explanation": "Shows that an action is completely finished, often with regret, relief, or surprise.",
+              "example": "우르사는 오자이에게 빼앗긴 삶을 잊으려고 자신의 과거까지 버렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "우르사는",
+              "meaning": "Ursa (topic)",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "오자이에게",
+              "meaning": "by Ozai / from Ozai",
+              "note": "오자이 + 에게"
+            },
+            {
+              "word": "빼앗긴",
+              "meaning": "taken away",
+              "note": "빼앗기다 + -(으)ㄴ"
+            },
+            {
+              "word": "삶을",
+              "meaning": "life (object)",
+              "note": "삶 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "오자이에게",
+              "meaning": "by Ozai / from Ozai",
+              "base": "오자이 + 에게"
+            },
+            {
+              "surface": "빼앗긴",
+              "meaning": "taken away",
+              "base": "빼앗기다 + -(으)ㄴ"
+            },
+            {
+              "surface": "삶을",
+              "meaning": "life (object)",
+              "base": "삶 + 을"
+            },
+            {
+              "surface": "잊으려고",
+              "meaning": "in order to forget",
+              "base": "잊다 + -(으)려고"
+            },
+            {
+              "surface": "자신의",
+              "meaning": "her own",
+              "base": "자신 + 의"
+            },
+            {
+              "surface": "과거까지",
+              "meaning": "even her past",
+              "base": "과거 + 까지"
+            },
+            {
+              "surface": "버렸어",
+              "meaning": "threw away completely",
+              "base": "버리다"
+            }
+          ]
+        },
+        {
+          "korean": "고향으로 돌아온 우르사는 새 얼굴을 받은 이켐이 노렌으로 살고 있다는 걸 알았어.",
+          "translation": "After returning home, Ursa learned that Ikem had received a new face and was living as Noren.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "고향으로 돌아온 우르사는 새 얼굴을 받은 이켐이 노렌으로 살고 있다는 걸 알았어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "고향으로 돌아온 우르사는 새 얼굴을 받은 이켐이 노렌으로 살고 있다는 걸 알았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "고향으로 돌아온 우르사는 새 얼굴을 받은 이켐이 노렌으로 살고 있다는 걸 알았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "돌아온",
+              "meaning": "returned"
+            },
+            {
+              "word": "받은",
+              "meaning": "received"
+            },
+            {
+              "word": "이켐이",
+              "meaning": "with Ikem (subject)",
+              "note": "이켐 + 이"
+            },
+            {
+              "word": "고향으로",
+              "meaning": "homeland / hometown",
+              "note": "고향 + 으로"
+            },
+            {
+              "word": "우르사는",
+              "meaning": "Ursa",
+              "note": "우르사 + 는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "고향으로",
+              "meaning": "homeland / hometown",
+              "base": "고향 + 으로"
+            },
+            {
+              "surface": "돌아온",
+              "meaning": "returned"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "받은",
+              "meaning": "received"
+            },
+            {
+              "surface": "이켐이",
+              "meaning": "with Ikem (subject)",
+              "base": "이켐 + 이"
+            },
+            {
+              "surface": "노렌으로",
+              "meaning": "Noren to / by / as",
+              "base": "노렌 + 으로"
+            },
+            {
+              "surface": "살고",
+              "meaning": "living",
+              "base": "살다 + -고"
+            },
+            {
+              "surface": "있다는",
+              "meaning": "that it can",
+              "base": "있다 + -다는"
+            },
+            {
+              "surface": "걸",
+              "meaning": "the fact",
+              "base": "것을"
+            },
+            {
+              "surface": "알았어",
+              "meaning": "understood / knew",
+              "base": "알다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "영혼은 그녀에게 원한다면 원래 얼굴과 기억을 돌려주겠다고 했어.",
+          "translation": "The spirit said that it would restore her original face and memories if she wanted.",
+          "grammar": [
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.”",
+              "example": "영혼은 그녀에게 원한다면 원래 얼굴과 기억을 돌려주겠다고 했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "영혼은 그녀에게 원한다면 원래 얼굴과 기억을 돌려주겠다고 했어."
+            },
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is done for another person as a favor or benefit.",
+              "example": "영혼은 그녀에게 원한다면 원래 얼굴과 기억을 돌려주겠다고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "영혼은",
+              "meaning": "spirit (topic)",
+              "note": "영혼 + 은"
+            },
+            {
+              "word": "그녀에게",
+              "meaning": "to her",
+              "note": "그녀 + 에게"
+            },
+            {
+              "word": "원한다면",
+              "meaning": "if she wants",
+              "note": "원하다 + -다면"
+            },
+            {
+              "word": "얼굴과",
+              "meaning": "face and",
+              "note": "얼굴 + 과"
+            }
+          ],
+          "words": [
+            {
+              "surface": "영혼은",
+              "meaning": "spirit (topic)",
+              "base": "영혼 + 은"
+            },
+            {
+              "surface": "그녀에게",
+              "meaning": "to her",
+              "base": "그녀 + 에게"
+            },
+            {
+              "surface": "원한다면",
+              "meaning": "if she wants",
+              "base": "원하다 + -다면"
+            },
+            {
+              "surface": "원래",
+              "meaning": "original / originally"
+            },
+            {
+              "surface": "얼굴과",
+              "meaning": "face and",
+              "base": "얼굴 + 과"
+            },
+            {
+              "surface": "기억을",
+              "meaning": "memories (object)",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "돌려주겠다고",
+              "meaning": "that it would return",
+              "base": "돌려주다 + -겠다고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "said",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "우르사도 노리코라는 새 얼굴을 받고 왕궁의 기억을 지워 달라고 선택했어.",
+          "translation": "Ursa also chose a new face as Noriko and asked for her memories of the palace to be erased.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "우르사도 노리코라는 새 얼굴을 받고 왕궁의 기억을 지워 달라고 선택했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "우르사도 노리코라는 새 얼굴을 받고 왕궁의 기억을 지워 달라고 선택했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "우르사도 노리코라는 새 얼굴을 받고 왕궁의 기억을 지워 달라고 선택했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "노리코라는",
+              "meaning": "called Noriko"
+            },
+            {
+              "word": "왕궁의",
+              "meaning": "royal palace's"
+            },
+            {
+              "word": "지워",
+              "meaning": "erased"
+            },
+            {
+              "word": "얼굴을",
+              "meaning": "of faces",
+              "note": "얼굴 + 을"
+            },
+            {
+              "word": "기억을",
+              "meaning": "memories",
+              "note": "기억 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "우르사도",
+              "meaning": "Ursa also / even",
+              "base": "우르사 + 도"
+            },
+            {
+              "surface": "노리코라는",
+              "meaning": "called Noriko"
+            },
+            {
+              "surface": "새",
+              "meaning": "new"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "받고",
+              "meaning": "receive and",
+              "base": "받다 + -고"
+            },
+            {
+              "surface": "왕궁의",
+              "meaning": "royal palace's"
+            },
+            {
+              "surface": "기억을",
+              "meaning": "memories",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "지워",
+              "meaning": "erased"
+            },
+            {
+              "surface": "달라고",
+              "meaning": "asking someone to do it for him",
+              "base": "-아/어 달라고"
+            },
+            {
+              "surface": "선택했어",
+              "meaning": "choice: did / was",
+              "base": "선택하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "이켐은 새로운 얼굴을 받고 노렌이라는 이름으로 살고 있었고 두 사람에게는 키이라는 딸도 있었어.",
+          "translation": "Ikem had received a new face and lived as Noren, and the couple also had a daughter named Kiyi.",
+          "grammar": [
+            {
+              "pattern": "-고 있다",
+              "explanation": "Describes an action or state in progress: “be doing.”",
+              "example": "이켐은 새로운 얼굴을 받고 노렌이라는 이름으로 살고 있었고 두 사람에게는 키이라는 딸도 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "이켐은 새로운 얼굴을 받고 노렌이라는 이름으로 살고 있었고 두 사람에게는 키이라는 딸도 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "이켐은",
+              "meaning": "Ikem (은)",
+              "note": "이켐 + 은"
+            },
+            {
+              "word": "새로운",
+              "meaning": "new",
+              "note": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "word": "얼굴을",
+              "meaning": "of faces (을)",
+              "note": "얼굴 + 을"
+            },
+            {
+              "word": "받고",
+              "meaning": "receive and",
+              "note": "받다 + -고"
+            },
+            {
+              "word": "노렌이라는",
+              "meaning": "Noren (이라는)",
+              "note": "노렌 + 이라는"
+            }
+          ],
+          "words": [
+            {
+              "surface": "이켐은",
+              "meaning": "Ikem (은)",
+              "base": "이켐 + 은"
+            },
+            {
+              "surface": "새로운",
+              "meaning": "new",
+              "base": "새롭다 + -(으)ㄴ"
+            },
+            {
+              "surface": "얼굴을",
+              "meaning": "of faces (을)",
+              "base": "얼굴 + 을"
+            },
+            {
+              "surface": "받고",
+              "meaning": "receive and",
+              "base": "받다 + -고"
+            },
+            {
+              "surface": "노렌이라는",
+              "meaning": "Noren (이라는)",
+              "base": "노렌 + 이라는"
+            },
+            {
+              "surface": "이름으로",
+              "meaning": "name (으로)",
+              "base": "이름 + 으로"
+            },
+            {
+              "surface": "살고",
+              "meaning": "living",
+              "base": "살다 + -고"
+            },
+            {
+              "surface": "있었고",
+              "meaning": "there was / had, and",
+              "base": "있다 + -었고"
+            },
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람에게는",
+              "meaning": "for a person",
+              "base": "사람 + 에게는"
+            },
+            {
+              "surface": "키이라는",
+              "meaning": "called Kiyi",
+              "base": "키이 + 라는"
+            },
+            {
+              "surface": "딸도",
+              "meaning": "daughter (도)",
+              "base": "딸 + 도"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "were",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "진실을 안 노리코는 원래 얼굴과 주코와 아줄라에 대한 기억을 되찾기로 했어.",
+          "translation": "After learning the truth, Noriko chose to regain her original face and her memories of Zuko and Azula.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.”",
+              "example": "진실을 안 노리코는 원래 얼굴과 주코와 아줄라에 대한 기억을 되찾기로 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "진실을 안 노리코는 원래 얼굴과 주코와 아줄라에 대한 기억을 되찾기로 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "진실을 안 노리코는 원래 얼굴과 주코와 아줄라에 대한 기억을 되찾기로 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "했어",
+              "meaning": "did / tried"
+            },
+            {
+              "word": "진실을",
+              "meaning": "truth",
+              "note": "진실 + 을"
+            },
+            {
+              "word": "노리코는",
+              "meaning": "Noriko (는)",
+              "note": "노리코 + 는"
+            },
+            {
+              "word": "얼굴과",
+              "meaning": "face and",
+              "note": "얼굴 + 과"
+            },
+            {
+              "word": "주코와",
+              "meaning": "Zuko",
+              "note": "주코 + 와"
+            }
+          ],
+          "words": [
+            {
+              "surface": "진실을",
+              "meaning": "truth",
+              "base": "진실 + 을"
+            },
+            {
+              "surface": "안",
+              "meaning": "inside"
+            },
+            {
+              "surface": "노리코는",
+              "meaning": "Noriko (는)",
+              "base": "노리코 + 는"
+            },
+            {
+              "surface": "원래",
+              "meaning": "original / originally"
+            },
+            {
+              "surface": "얼굴과",
+              "meaning": "face and",
+              "base": "얼굴 + 과"
+            },
+            {
+              "surface": "주코와",
+              "meaning": "Zuko",
+              "base": "주코 + 와"
+            },
+            {
+              "surface": "아줄라에",
+              "meaning": "Azula to / at",
+              "base": "아줄라 + 에"
+            },
+            {
+              "surface": "대한",
+              "meaning": "treated: that did / ...",
+              "base": "대하다"
+            },
+            {
+              "surface": "기억을",
+              "meaning": "memories",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "되찾기로",
+              "meaning": "regained",
+              "base": "되찾다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "did / tried"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 어머니가 자기를 사랑하지 않았다고 믿으며 분노했지만 우르사는 그렇지 않았다고 말했어.",
+          "translation": "Azula angrily believed her mother had never loved her, but Ursa said that was not true.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.”",
+              "example": "아줄라는 어머니가 자기를 사랑하지 않았다고 믿으며 분노했지만 우르사는 그렇지 않았다고 말했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or background: “while / as.”",
+              "example": "아줄라는 어머니가 자기를 사랑하지 않았다고 믿으며 분노했지만 우르사는 그렇지 않았다고 말했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "아줄라는 어머니가 자기를 사랑하지 않았다고 믿으며 분노했지만 우르사는 그렇지 않았다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "어머니가",
+              "meaning": "mother (가)",
+              "note": "어머니 + 가"
+            },
+            {
+              "word": "자기를",
+              "meaning": "him (object)",
+              "note": "자기 + 를"
+            },
+            {
+              "word": "사랑하지",
+              "meaning": "love",
+              "note": "사랑하다"
+            },
+            {
+              "word": "않았다고",
+              "meaning": "that it was not / did not",
+              "note": "않다 + -았다고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "어머니가",
+              "meaning": "mother (가)",
+              "base": "어머니 + 가"
+            },
+            {
+              "surface": "자기를",
+              "meaning": "him (object)",
+              "base": "자기 + 를"
+            },
+            {
+              "surface": "사랑하지",
+              "meaning": "love",
+              "base": "사랑하다"
+            },
+            {
+              "surface": "않았다고",
+              "meaning": "that it was not / did not",
+              "base": "않다 + -았다고"
+            },
+            {
+              "surface": "믿으며",
+              "meaning": "while believing",
+              "base": "믿다 + -(으)며"
+            },
+            {
+              "surface": "분노했지만",
+              "meaning": "was angry, but",
+              "base": "분노하다 + -았지만"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "그렇지",
+              "meaning": "not so / that is not true",
+              "base": "그렇다 + -지"
+            },
+            {
+              "surface": "않았다고",
+              "meaning": "that it was not / did not",
+              "base": "않다 + -았다고"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라는 우르사를 공격하려 했지만 어머니의 사과를 듣고 감정이 흔들렸어.",
+          "translation": "Azula tried to attack Ursa, but her emotions wavered when she heard her mother's apology.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아줄라는 우르사를 공격하려 했지만 어머니의 사과를 듣고 감정이 흔들렸어."
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Connects actions or descriptions: “and / and then.”",
+              "example": "아줄라는 우르사를 공격하려 했지만 어머니의 사과를 듣고 감정이 흔들렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라는 우르사를 공격하려 했지만 어머니의 사과를 듣고 감정이 흔들렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "word": "듣고",
+              "meaning": "heard and / after hearing"
+            },
+            {
+              "word": "아줄라는",
+              "meaning": "Azula",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "우르사를",
+              "meaning": "Ursa",
+              "note": "우르사 + 를"
+            },
+            {
+              "word": "어머니의",
+              "meaning": "mother",
+              "note": "어머니 + 의"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "우르사를",
+              "meaning": "Ursa",
+              "base": "우르사 + 를"
+            },
+            {
+              "surface": "공격하려",
+              "meaning": "attack also: intending to",
+              "base": "공격하다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "did, but"
+            },
+            {
+              "surface": "어머니의",
+              "meaning": "mother",
+              "base": "어머니 + 의"
+            },
+            {
+              "surface": "사과를",
+              "meaning": "apology",
+              "base": "사과 + 를"
+            },
+            {
+              "surface": "듣고",
+              "meaning": "heard and / after hearing"
+            },
+            {
+              "surface": "감정이",
+              "meaning": "emotion",
+              "base": "감정 + 이"
+            },
+            {
+              "surface": "흔들렸어",
+              "meaning": "wavered emotionally",
+              "base": "흔들리다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "기억을 되찾은 우르사는 주코를 알아보고 오랫동안 못 한 사과를 했어.",
+          "translation": "After regaining her memories, Ursa recognized Zuko and gave the apology she had been unable to make for a long time.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun: “the N that did/was...”",
+              "example": "기억을 되찾은 우르사는 주코를 알아보고 오랫동안 못 한 사과를 했어."
+            },
+            {
+              "pattern": "-지 못했어",
+              "explanation": "Means “could not” or “failed to,” often because circumstances prevented the action.",
+              "example": "기억을 되찾은 우르사는 주코를 알아보고 오랫동안 못 한 사과를 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense. It describes an action or state that was completed in the past.",
+              "example": "기억을 되찾은 우르사는 주코를 알아보고 오랫동안 못 한 사과를 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "기억을",
+              "meaning": "memories (object)",
+              "note": "기억 + 을"
+            },
+            {
+              "word": "되찾은",
+              "meaning": "regained",
+              "note": "되찾다 + -(으)ㄴ"
+            },
+            {
+              "word": "우르사는",
+              "meaning": "Ursa (topic)",
+              "note": "우르사 + 는"
+            },
+            {
+              "word": "주코를",
+              "meaning": "Zuko (object)",
+              "note": "주코 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "기억을",
+              "meaning": "memories (object)",
+              "base": "기억 + 을"
+            },
+            {
+              "surface": "되찾은",
+              "meaning": "regained",
+              "base": "되찾다 + -(으)ㄴ"
+            },
+            {
+              "surface": "우르사는",
+              "meaning": "Ursa (topic)",
+              "base": "우르사 + 는"
+            },
+            {
+              "surface": "주코를",
+              "meaning": "Zuko (object)",
+              "base": "주코 + 를"
+            },
+            {
+              "surface": "알아보고",
+              "meaning": "recognized and",
+              "base": "알아보다 + -고"
+            },
+            {
+              "surface": "오랫동안",
+              "meaning": "for a long time"
+            },
+            {
+              "surface": "못",
+              "meaning": "could not"
+            },
+            {
+              "surface": "한",
+              "meaning": "done",
+              "base": "하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사과를",
+              "meaning": "apology (object)",
+              "base": "사과 + 를"
+            },
+            {
+              "surface": "했어",
+              "meaning": "made",
+              "base": "하다"
+            }
+          ]
+        },
+        {
+          "korean": "주코는 모든 일에도 불구하고 아줄라를 여전히 자기 여동생으로 사랑한다고 말했어.",
+          "translation": "Zuko said that despite everything, he still loved Azula as his younger sister.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect speech or thought: “say, think, or explain that ….”",
+              "example": "주코는 모든 일에도 불구하고 아줄라를 여전히 자기 여동생으로 사랑한다고 말했어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "주코는 모든 일에도 불구하고 아줄라를 여전히 자기 여동생으로 사랑한다고 말했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "주코는 모든 일에도 불구하고 아줄라를 여전히 자기 여동생으로 사랑한다고 말했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "일에도",
+              "meaning": "even in the matter"
+            },
+            {
+              "word": "주코는",
+              "meaning": "Zuko",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "아줄라를",
+              "meaning": "Azula",
+              "note": "아줄라 + 를"
+            },
+            {
+              "word": "여동생으로",
+              "meaning": "younger sister to / by / as",
+              "note": "여동생 + 으로"
+            },
+            {
+              "word": "불구하고",
+              "meaning": "불구: doing and",
+              "note": "불구하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "모든",
+              "meaning": "all / every"
+            },
+            {
+              "surface": "일에도",
+              "meaning": "even in the matter"
+            },
+            {
+              "surface": "불구하고",
+              "meaning": "불구: doing and",
+              "base": "불구하다"
+            },
+            {
+              "surface": "아줄라를",
+              "meaning": "Azula",
+              "base": "아줄라 + 를"
+            },
+            {
+              "surface": "여전히",
+              "meaning": "still"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "여동생으로",
+              "meaning": "younger sister to / by / as",
+              "base": "여동생 + 으로"
+            },
+            {
+              "surface": "사랑한다고",
+              "meaning": "that she loved",
+              "base": "사랑하다 + -ㄴ다고"
+            },
+            {
+              "surface": "말했어",
+              "meaning": "said",
+              "base": "말하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아줄라는 다시 달아났지만 주코는 언젠가 가족을 회복할 수 있다고 믿었어.",
+          "translation": "Azula ran away again, but Zuko believed that their family could someday be restored.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but” or “although.”",
+              "example": "아줄라는 다시 달아났지만 주코는 언젠가 가족을 회복할 수 있다고 믿었어."
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or possibility: “can / cannot.” Tense is shown on 있다 or 없다.",
+              "example": "아줄라는 다시 달아났지만 주코는 언젠가 가족을 회복할 수 있다고 믿었어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation before verbs such as 말하다, 생각하다, 믿다, 느끼다, or 주장하다: “say/think/believe that …”.",
+              "example": "아줄라는 다시 달아났지만 주코는 언젠가 가족을 회복할 수 있다고 믿었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아줄라는",
+              "meaning": "Azula (topic)",
+              "note": "아줄라 + 는"
+            },
+            {
+              "word": "달아났지만",
+              "meaning": "ran away but",
+              "note": "달아나다 + -았지만"
+            },
+            {
+              "word": "주코는",
+              "meaning": "Zuko (topic)",
+              "note": "주코 + 는"
+            },
+            {
+              "word": "언젠가",
+              "meaning": "someday"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라는",
+              "meaning": "Azula (topic)",
+              "base": "아줄라 + 는"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "달아났지만",
+              "meaning": "ran away but",
+              "base": "달아나다 + -았지만"
+            },
+            {
+              "surface": "주코는",
+              "meaning": "Zuko (topic)",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "언젠가",
+              "meaning": "someday"
+            },
+            {
+              "surface": "가족을",
+              "meaning": "family (object)",
+              "base": "가족 + 을"
+            },
+            {
+              "surface": "회복할",
+              "meaning": "restore",
+              "base": "회복하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "way / possibility"
+            },
+            {
+              "surface": "있다고",
+              "meaning": "that it is possible",
+              "base": "있다 + -다고"
+            },
+            {
+              "surface": "믿었어",
+              "meaning": "believed",
+              "base": "믿다"
+            }
+          ]
+        },
+        {
+          "korean": "아줄라가 숲으로 달아난 뒤 주코는 우르사 곁에 앉아 자신이 살아온 이야기를 들려줬어.",
+          "translation": "After Azula fled into the forest, Zuko sat beside Ursa and told her the story of the life he had lived.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ 뒤(에)",
+              "explanation": "Means “after doing / after an event.”",
+              "example": "아줄라가 숲으로 달아난 뒤 주코는 우르사 곁에 앉아 자신이 살아온 이야기를 들려줬어."
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A verb or adjective modifies the following noun: “the N that … / the … N.”",
+              "example": "아줄라가 숲으로 달아난 뒤 주코는 우르사 곁에 앉아 자신이 살아온 이야기를 들려줬어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used for completed events or past states.",
+              "example": "아줄라가 숲으로 달아난 뒤 주코는 우르사 곁에 앉아 자신이 살아온 이야기를 들려줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "자신이",
+              "meaning": "oneself (subject)"
+            },
+            {
+              "word": "달아난",
+              "meaning": "ran away"
+            },
+            {
+              "word": "곁에",
+              "meaning": "beside / by"
+            },
+            {
+              "word": "살아온",
+              "meaning": "has lived"
+            },
+            {
+              "word": "들려줬어",
+              "meaning": "told / narrated"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아줄라가",
+              "meaning": "Azula",
+              "base": "아줄라 + 가"
+            },
+            {
+              "surface": "숲으로",
+              "meaning": "forest and to / by / as",
+              "base": "숲 + 으로"
+            },
+            {
+              "surface": "달아난",
+              "meaning": "ran away"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "주코는",
+              "meaning": "Zuko",
+              "base": "주코 + 는"
+            },
+            {
+              "surface": "우르사",
+              "meaning": "Ursa"
+            },
+            {
+              "surface": "곁에",
+              "meaning": "beside / by"
+            },
+            {
+              "surface": "앉아",
+              "meaning": "sat and"
+            },
+            {
+              "surface": "자신이",
+              "meaning": "oneself (subject)"
+            },
+            {
+              "surface": "살아온",
+              "meaning": "has lived"
+            },
+            {
+              "surface": "이야기를",
+              "meaning": "talked",
+              "base": "이야기하다"
+            },
+            {
+              "surface": "들려줬어",
+              "meaning": "told / narrated"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collectionId": "avatar-last-airbender",
+  "order": 2
+}

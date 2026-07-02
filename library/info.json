@@ -1,0 +1,19 @@
+{
+  "type": "library",
+  "schemaVersion": 1,
+  "format": "korean-reader-library",
+  "id": "henry-korean-story-library",
+  "title": "Henry's Korean Story Library",
+  "description": "A directory-organized Korean reader library with exhaustive sentence grammar and per-word translations.",
+  "version": 3,
+  "collectionCount": 5,
+  "storyCount": 30,
+  "infoFileName": "info.json",
+  "collectionDirectories": [
+    "avatar",
+    "korra",
+    "anime_film_drama",
+    "classics",
+    "originals"
+  ]
+}

@@ -1,0 +1,2283 @@
+{
+  "id": "little-red-riding-hood",
+  "title": "빨간 모자",
+  "englishTitle": "Little Red Riding Hood",
+  "level": "TOPIK 2",
+  "description": "할머니를 찾아가던 아이가 숲속의 늑대를 만나는 이야기.",
+  "theme": "sunset",
+  "sourceNote": "Expanded Korean learning retelling of the Brothers Grimm public-domain tale; no original wording is reproduced.",
+  "collectionId": "classic-stories",
+  "order": 3,
+  "thumbnail": "thumbnails/03_little_red_riding_hood.jpg",
+  "thumbnailAlt": "Little Red Riding Hood",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "한 소녀는 할머니가 만들어 준 빨간 모자를 늘 쓰고 다녀서 빨간 모자라고 불렸어.",
+          "translation": "A girl always wore a red cap made by her grandmother, so she was called Little Red Riding Hood.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "한 소녀는 할머니가 만들어 준 빨간 모자를 늘 쓰고 다녀서 빨간 모자라고 불렸어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "한 소녀는 할머니가 만들어 준 빨간 모자를 늘 쓰고 다녀서 빨간 모자라고 불렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "한 소녀는 할머니가 만들어 준 빨간 모자를 늘 쓰고 다녀서 빨간 모자라고 불렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "한",
+              "meaning": "made",
+              "note": "하다 + -(으)ㄴ"
+            },
+            {
+              "word": "할머니가",
+              "meaning": "grandmother (subject)",
+              "note": "할머니 + 가"
+            },
+            {
+              "word": "만들어",
+              "meaning": "made and",
+              "note": "만들다 + -아/어"
+            },
+            {
+              "word": "준",
+              "meaning": "Jun"
+            },
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자를",
+              "meaning": "hood / cap (object)",
+              "note": "모자 + 를"
+            },
+            {
+              "word": "쓰고",
+              "meaning": "write and",
+              "note": "쓰다 + -고"
+            },
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            }
+          ],
+          "words": [
+            {
+              "surface": "한",
+              "meaning": "made",
+              "base": "하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "할머니가",
+              "meaning": "grandmother (subject)",
+              "base": "할머니 + 가"
+            },
+            {
+              "surface": "만들어",
+              "meaning": "made and",
+              "base": "만들다 + -아/어"
+            },
+            {
+              "surface": "준",
+              "meaning": "Jun"
+            },
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자를",
+              "meaning": "hood / cap (object)",
+              "base": "모자 + 를"
+            },
+            {
+              "surface": "늘",
+              "meaning": "always"
+            },
+            {
+              "surface": "쓰고",
+              "meaning": "write and",
+              "base": "쓰다 + -고"
+            },
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            }
+          ]
+        },
+        {
+          "korean": "어느 날 어머니는 아픈 할머니에게 케이크와 음료를 가져다주라고 했어.",
+          "translation": "One day, her mother told her to bring cake and a drink to her sick grandmother.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "어느 날 어머니는 아픈 할머니에게 케이크와 음료를 가져다주라고 했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "어느 날 어머니는 아픈 할머니에게 케이크와 음료를 가져다주라고 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "어느 날 어머니는 아픈 할머니에게 케이크와 음료를 가져다주라고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "어느 날 어머니는 아픈 할머니에게 케이크와 음료를 가져다주라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어느",
+              "meaning": "a certain"
+            },
+            {
+              "word": "어머니는",
+              "meaning": "mother",
+              "note": "어머니 + 는"
+            },
+            {
+              "word": "아픈",
+              "meaning": "sick",
+              "note": "아프다 + -(으)ㄴ"
+            },
+            {
+              "word": "할머니에게",
+              "meaning": "to grandmother",
+              "note": "할머니 + 에게"
+            },
+            {
+              "word": "케이크와",
+              "meaning": "cake (and / with)",
+              "note": "케이크 + 와"
+            },
+            {
+              "word": "음료를",
+              "meaning": "drink",
+              "note": "음료 + 를"
+            },
+            {
+              "word": "가져다주라고",
+              "meaning": "in order to bring",
+              "note": "가져다주다"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어느",
+              "meaning": "a certain"
+            },
+            {
+              "surface": "날",
+              "meaning": "day"
+            },
+            {
+              "surface": "어머니는",
+              "meaning": "mother",
+              "base": "어머니 + 는"
+            },
+            {
+              "surface": "아픈",
+              "meaning": "sick",
+              "base": "아프다 + -(으)ㄴ"
+            },
+            {
+              "surface": "할머니에게",
+              "meaning": "to grandmother",
+              "base": "할머니 + 에게"
+            },
+            {
+              "surface": "케이크와",
+              "meaning": "cake (and / with)",
+              "base": "케이크 + 와"
+            },
+            {
+              "surface": "음료를",
+              "meaning": "drink",
+              "base": "음료 + 를"
+            },
+            {
+              "surface": "가져다주라고",
+              "meaning": "in order to bring",
+              "base": "가져다주다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어.",
+          "translation": "Her mother warned her not to leave the path and to greet her grandmother politely when she arrived.",
+          "grammar": [
+            {
+              "pattern": "-지 말다",
+              "explanation": "Forms a negative command or prohibition: “do not….” In indirect speech, -지 말라고 하다 means “tell someone not to do….”",
+              "example": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.” The following clause states the result that applies under that condition.",
+              "example": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "어머니는 길에서 벗어나지 말고 할머니 집에 도착하면 예의 있게 인사하라고 당부했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어머니는",
+              "meaning": "mother",
+              "note": "어머니 + 는"
+            },
+            {
+              "word": "길에서",
+              "meaning": "from the path",
+              "note": "길 + 에서"
+            },
+            {
+              "word": "벗어나지",
+              "meaning": "leave + not",
+              "note": "벗어나다 + -지"
+            },
+            {
+              "word": "말고",
+              "meaning": "do not and",
+              "note": "말다 + -고"
+            },
+            {
+              "word": "집에",
+              "meaning": "house (to / at / in)",
+              "note": "집 + 에"
+            },
+            {
+              "word": "도착하면",
+              "meaning": "to arrive",
+              "note": "도착하다 + -(으)면"
+            },
+            {
+              "word": "있게",
+              "meaning": "be able to",
+              "note": "있다 + -게"
+            },
+            {
+              "word": "당부했어",
+              "meaning": "to urge / remind",
+              "note": "당부하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어머니는",
+              "meaning": "mother",
+              "base": "어머니 + 는"
+            },
+            {
+              "surface": "길에서",
+              "meaning": "from the path",
+              "base": "길 + 에서"
+            },
+            {
+              "surface": "벗어나지",
+              "meaning": "leave + not",
+              "base": "벗어나다 + -지"
+            },
+            {
+              "surface": "말고",
+              "meaning": "do not and",
+              "base": "말다 + -고"
+            },
+            {
+              "surface": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "surface": "집에",
+              "meaning": "house (to / at / in)",
+              "base": "집 + 에"
+            },
+            {
+              "surface": "도착하면",
+              "meaning": "to arrive",
+              "base": "도착하다 + -(으)면"
+            },
+            {
+              "surface": "있게",
+              "meaning": "be able to",
+              "base": "있다 + -게"
+            },
+            {
+              "surface": "당부했어",
+              "meaning": "to urge / remind",
+              "base": "당부하다 + -았어"
+            }
+          ]
+        },
+        {
+          "korean": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어.",
+          "translation": "While the girl walked through the forest, a wolf approached and asked where she was going.",
+          "grammar": [
+            {
+              "pattern": "-는 동안",
+              "explanation": "Marks the period during which another action or state continues: “while / during the time that….” The two events overlap in time.",
+              "example": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어."
+            },
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
+              "example": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "소녀가 숲을 걷는 동안 늑대가 다가와 어디에 가는지 물었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소녀가",
+              "meaning": "girl",
+              "note": "소녀 + 가"
+            },
+            {
+              "word": "숲을",
+              "meaning": "forest",
+              "note": "숲 + 을"
+            },
+            {
+              "word": "걷는",
+              "meaning": "walking",
+              "note": "걷다 + -는"
+            },
+            {
+              "word": "늑대가",
+              "meaning": "wolf",
+              "note": "늑대 + 가"
+            },
+            {
+              "word": "다가와",
+              "meaning": "approached",
+              "note": "다가오다 + -아/어"
+            },
+            {
+              "word": "어디에",
+              "meaning": "where it was (to / at / in)",
+              "note": "어디 + 에"
+            },
+            {
+              "word": "가는지",
+              "meaning": "whether/where one is going",
+              "note": "가다 + -는지"
+            },
+            {
+              "word": "물었어",
+              "meaning": "asked",
+              "note": "묻다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소녀가",
+              "meaning": "girl",
+              "base": "소녀 + 가"
+            },
+            {
+              "surface": "숲을",
+              "meaning": "forest",
+              "base": "숲 + 을"
+            },
+            {
+              "surface": "걷는",
+              "meaning": "walking",
+              "base": "걷다 + -는"
+            },
+            {
+              "surface": "동안",
+              "meaning": "during"
+            },
+            {
+              "surface": "늑대가",
+              "meaning": "wolf",
+              "base": "늑대 + 가"
+            },
+            {
+              "surface": "다가와",
+              "meaning": "approached",
+              "base": "다가오다 + -아/어"
+            },
+            {
+              "surface": "어디에",
+              "meaning": "where it was (to / at / in)",
+              "base": "어디 + 에"
+            },
+            {
+              "surface": "가는지",
+              "meaning": "whether/where one is going",
+              "base": "가다 + -는지"
+            },
+            {
+              "surface": "물었어",
+              "meaning": "asked",
+              "base": "묻다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "빨간 모자는 늑대가 위험한 동물인지 몰라 할머니 집의 위치를 알려 줬어.",
+          "translation": "Little Red Riding Hood did not know the wolf was dangerous and told him where her grandmother lived.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "빨간 모자는 늑대가 위험한 동물인지 몰라 할머니 집의 위치를 알려 줬어."
+            },
+            {
+              "pattern": "Particles 은/는, 이/가, 을/를",
+              "explanation": "Korean particles mark a noun’s role. 은/는 sets the topic or contrast, 이/가 marks the grammatical subject or new focus, and 을/를 marks the direct object.",
+              "example": "빨간 모자는 늑대가 위험한 동물인지 몰라 할머니 집의 위치를 알려 줬어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "note": "모자 + 는"
+            },
+            {
+              "word": "늑대가",
+              "meaning": "wolf",
+              "note": "늑대 + 가"
+            },
+            {
+              "word": "위험한",
+              "meaning": "dangerous",
+              "note": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "word": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "word": "집의",
+              "meaning": "house (of / possessive)",
+              "note": "집 + 의"
+            },
+            {
+              "word": "알려",
+              "meaning": "told",
+              "note": "알리다 + -아/어"
+            },
+            {
+              "word": "줬어",
+              "meaning": "did for her",
+              "note": "주다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "base": "모자 + 는"
+            },
+            {
+              "surface": "늑대가",
+              "meaning": "wolf",
+              "base": "늑대 + 가"
+            },
+            {
+              "surface": "위험한",
+              "meaning": "dangerous",
+              "base": "위험하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "surface": "집의",
+              "meaning": "house (of / possessive)",
+              "base": "집 + 의"
+            },
+            {
+              "surface": "알려",
+              "meaning": "told",
+              "base": "알리다 + -아/어"
+            },
+            {
+              "surface": "줬어",
+              "meaning": "did for her",
+              "base": "주다"
+            }
+          ]
+        },
+        {
+          "korean": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어.",
+          "translation": "The wolf said her grandmother would be happy if she picked flowers, leading the girl away from the path.",
+          "grammar": [
+            {
+              "pattern": "-게 하다 / -게 만들다",
+              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
+              "example": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어."
+            },
+            {
+              "pattern": "-아/어 가다",
+              "explanation": "Shows an action or change moving away from the current point or continuing forward over time. Context determines whether the movement is literal or gradual.",
+              "example": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.” The following clause states the result that applies under that condition.",
+              "example": "늑대는 꽃을 좀 꺾어 가면 할머니가 기뻐할 거라고 말하며 소녀를 길에서 벗어나게 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "꽃을",
+              "meaning": "flowers",
+              "note": "꽃 + 을"
+            },
+            {
+              "word": "할머니가",
+              "meaning": "grandmother (subject)",
+              "note": "할머니 + 가"
+            },
+            {
+              "word": "기뻐할",
+              "meaning": "to be glad",
+              "note": "기뻐하다 + -(으)ㄹ"
+            },
+            {
+              "word": "거라고",
+              "meaning": "that it would",
+              "note": "것이라고"
+            },
+            {
+              "word": "말하며",
+              "meaning": "to say",
+              "note": "말하다 + -(으)며"
+            },
+            {
+              "word": "길에서",
+              "meaning": "from the path",
+              "note": "길 + 에서"
+            },
+            {
+              "word": "벗어나게",
+              "meaning": "to escape",
+              "note": "벗어나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "꽃을",
+              "meaning": "flowers",
+              "base": "꽃 + 을"
+            },
+            {
+              "surface": "할머니가",
+              "meaning": "grandmother (subject)",
+              "base": "할머니 + 가"
+            },
+            {
+              "surface": "기뻐할",
+              "meaning": "to be glad",
+              "base": "기뻐하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "거라고",
+              "meaning": "that it would",
+              "base": "것이라고"
+            },
+            {
+              "surface": "말하며",
+              "meaning": "to say",
+              "base": "말하다 + -(으)며"
+            },
+            {
+              "surface": "길에서",
+              "meaning": "from the path",
+              "base": "길 + 에서"
+            },
+            {
+              "surface": "벗어나게",
+              "meaning": "to escape",
+              "base": "벗어나다"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어.",
+          "translation": "While the girl searched for flowers, the wolf ran to the grandmother’s house by the shortest route.",
+          "grammar": [
+            {
+              "pattern": "-는 동안",
+              "explanation": "Marks the period during which another action or state continues: “while / during the time that….” The two events overlap in time.",
+              "example": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "소녀가 꽃을 찾는 동안 늑대는 가장 짧은 길로 할머니 집까지 달려갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소녀가",
+              "meaning": "girl",
+              "note": "소녀 + 가"
+            },
+            {
+              "word": "꽃을",
+              "meaning": "flowers",
+              "note": "꽃 + 을"
+            },
+            {
+              "word": "찾는",
+              "meaning": "searching for",
+              "note": "찾다 + -는"
+            },
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "짧은",
+              "meaning": "short",
+              "note": "짧다 + -(으)ㄴ"
+            },
+            {
+              "word": "길로",
+              "meaning": "from the path (to / by / as)",
+              "note": "길 + 로"
+            },
+            {
+              "word": "집까지",
+              "meaning": "house (until / as far as)",
+              "note": "집 + 까지"
+            },
+            {
+              "word": "달려갔어",
+              "meaning": "ran",
+              "note": "달려가다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소녀가",
+              "meaning": "girl",
+              "base": "소녀 + 가"
+            },
+            {
+              "surface": "꽃을",
+              "meaning": "flowers",
+              "base": "꽃 + 을"
+            },
+            {
+              "surface": "찾는",
+              "meaning": "searching for",
+              "base": "찾다 + -는"
+            },
+            {
+              "surface": "동안",
+              "meaning": "during"
+            },
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "가장",
+              "meaning": "most"
+            },
+            {
+              "surface": "짧은",
+              "meaning": "short",
+              "base": "짧다 + -(으)ㄴ"
+            },
+            {
+              "surface": "길로",
+              "meaning": "from the path (to / by / as)",
+              "base": "길 + 로"
+            },
+            {
+              "surface": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "surface": "집까지",
+              "meaning": "house (until / as far as)",
+              "base": "집 + 까지"
+            },
+            {
+              "surface": "달려갔어",
+              "meaning": "ran",
+              "base": "달려가다"
+            }
+          ]
+        },
+        {
+          "korean": "늑대는 빨간 모자의 목소리를 흉내 내어 문을 열게 한 뒤 할머니를 통째로 삼켰어.",
+          "translation": "The wolf imitated Little Red Riding Hood’s voice, got the door opened, and swallowed the grandmother whole.",
+          "grammar": [
+            {
+              "pattern": "-게 하다 / -게 만들다",
+              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
+              "example": "늑대는 빨간 모자의 목소리를 흉내 내어 문을 열게 한 뒤 할머니를 통째로 삼켰어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "늑대는 빨간 모자의 목소리를 흉내 내어 문을 열게 한 뒤 할머니를 통째로 삼켰어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "늑대는 빨간 모자의 목소리를 흉내 내어 문을 열게 한 뒤 할머니를 통째로 삼켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "늑대는 빨간 모자의 목소리를 흉내 내어 문을 열게 한 뒤 할머니를 통째로 삼켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자의",
+              "meaning": "hood / cap (of / possessive)",
+              "note": "모자 + 의"
+            },
+            {
+              "word": "목소리를",
+              "meaning": "voice (object)",
+              "note": "목소리 + 를"
+            },
+            {
+              "word": "문을",
+              "meaning": "portal",
+              "note": "문 + 을"
+            },
+            {
+              "word": "할머니를",
+              "meaning": "grandmother",
+              "note": "할머니 + 를"
+            },
+            {
+              "word": "통째로",
+              "meaning": "whole"
+            },
+            {
+              "word": "삼켰어",
+              "meaning": "swallowed",
+              "note": "삼키다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자의",
+              "meaning": "hood / cap (of / possessive)",
+              "base": "모자 + 의"
+            },
+            {
+              "surface": "목소리를",
+              "meaning": "voice (object)",
+              "base": "목소리 + 를"
+            },
+            {
+              "surface": "문을",
+              "meaning": "portal",
+              "base": "문 + 을"
+            },
+            {
+              "surface": "한",
+              "meaning": "made",
+              "base": "하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "할머니를",
+              "meaning": "grandmother",
+              "base": "할머니 + 를"
+            },
+            {
+              "surface": "통째로",
+              "meaning": "whole"
+            },
+            {
+              "surface": "삼켰어",
+              "meaning": "swallowed",
+              "base": "삼키다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 할머니 옷과 모자를 쓰고 침대에 누워 소녀를 기다렸어.",
+          "translation": "He put on the grandmother’s clothes and cap, lay in bed, and waited for the girl.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 할머니 옷과 모자를 쓰고 침대에 누워 소녀를 기다렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그는 할머니 옷과 모자를 쓰고 침대에 누워 소녀를 기다렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "word": "옷과",
+              "meaning": "clothes (and / with)",
+              "note": "옷 + 과"
+            },
+            {
+              "word": "모자를",
+              "meaning": "hood / cap (object)",
+              "note": "모자 + 를"
+            },
+            {
+              "word": "쓰고",
+              "meaning": "write and",
+              "note": "쓰다 + -고"
+            },
+            {
+              "word": "침대에",
+              "meaning": "on the bed",
+              "note": "침대 + 에"
+            },
+            {
+              "word": "기다렸어",
+              "meaning": "waited",
+              "note": "기다리다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "surface": "옷과",
+              "meaning": "clothes (and / with)",
+              "base": "옷 + 과"
+            },
+            {
+              "surface": "모자를",
+              "meaning": "hood / cap (object)",
+              "base": "모자 + 를"
+            },
+            {
+              "surface": "쓰고",
+              "meaning": "write and",
+              "base": "쓰다 + -고"
+            },
+            {
+              "surface": "침대에",
+              "meaning": "on the bed",
+              "base": "침대 + 에"
+            },
+            {
+              "surface": "기다렸어",
+              "meaning": "waited",
+              "base": "기다리다"
+            }
+          ]
+        },
+        {
+          "korean": "뒤늦게 도착한 빨간 모자는 할머니가 평소와 달라 보여 이상하게 생각했어.",
+          "translation": "Little Red Riding Hood arrived late and thought it strange that her grandmother looked different from usual.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "뒤늦게 도착한 빨간 모자는 할머니가 평소와 달라 보여 이상하게 생각했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "뒤늦게 도착한 빨간 모자는 할머니가 평소와 달라 보여 이상하게 생각했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "뒤늦게 도착한 빨간 모자는 할머니가 평소와 달라 보여 이상하게 생각했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "뒤늦게",
+              "meaning": "belatedly"
+            },
+            {
+              "word": "도착한",
+              "meaning": "arrived",
+              "note": "도착하다 + -(으)ㄴ"
+            },
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "note": "모자 + 는"
+            },
+            {
+              "word": "할머니가",
+              "meaning": "grandmother (subject)",
+              "note": "할머니 + 가"
+            },
+            {
+              "word": "보여",
+              "meaning": "showed",
+              "note": "보이다 + -아/어"
+            },
+            {
+              "word": "이상하게",
+              "meaning": "strange",
+              "note": "이상하다 + -게"
+            },
+            {
+              "word": "생각했어",
+              "meaning": "thought",
+              "note": "생각하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "뒤늦게",
+              "meaning": "belatedly"
+            },
+            {
+              "surface": "도착한",
+              "meaning": "arrived",
+              "base": "도착하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "base": "모자 + 는"
+            },
+            {
+              "surface": "할머니가",
+              "meaning": "grandmother (subject)",
+              "base": "할머니 + 가"
+            },
+            {
+              "surface": "보여",
+              "meaning": "showed",
+              "base": "보이다 + -아/어"
+            },
+            {
+              "surface": "이상하게",
+              "meaning": "strange",
+              "base": "이상하다 + -게"
+            },
+            {
+              "surface": "생각했어",
+              "meaning": "thought",
+              "base": "생각하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어.",
+          "translation": "When the girl asked about the large ears, eyes, and hands, the wolf said they were to hear, see, and grab her better.",
+          "grammar": [
+            {
+              "pattern": "-기 위해(서)",
+              "explanation": "Expresses purpose: “in order to.” The preceding verb becomes a goal, and the following clause describes the action taken to achieve it.",
+              "example": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어."
+            },
+            {
+              "pattern": "-아/어서",
+              "explanation": "Links a cause, natural sequence, or closely connected action: “because / so / and then.” It usually presents the first clause as the reason or background for the next.",
+              "example": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "소녀가 큰 귀와 눈과 손에 대해 묻자 늑대는 모두 너를 더 잘 듣고 보고 잡기 위해서라고 대답했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "소녀가",
+              "meaning": "girl",
+              "note": "소녀 + 가"
+            },
+            {
+              "word": "귀와",
+              "meaning": "ear (and / with)",
+              "note": "귀 + 와"
+            },
+            {
+              "word": "눈과",
+              "meaning": "eyes (and / with)",
+              "note": "눈 + 과"
+            },
+            {
+              "word": "손에",
+              "meaning": "hand (to / at / in)",
+              "note": "손 + 에"
+            },
+            {
+              "word": "대해",
+              "meaning": "to treat / face",
+              "note": "대하다 + -아/어"
+            },
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "너를",
+              "meaning": "you",
+              "note": "너 + 를"
+            },
+            {
+              "word": "위해서라고",
+              "meaning": "in order to",
+              "note": "위하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "소녀가",
+              "meaning": "girl",
+              "base": "소녀 + 가"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "귀와",
+              "meaning": "ear (and / with)",
+              "base": "귀 + 와"
+            },
+            {
+              "surface": "눈과",
+              "meaning": "eyes (and / with)",
+              "base": "눈 + 과"
+            },
+            {
+              "surface": "손에",
+              "meaning": "hand (to / at / in)",
+              "base": "손 + 에"
+            },
+            {
+              "surface": "대해",
+              "meaning": "to treat / face",
+              "base": "대하다 + -아/어"
+            },
+            {
+              "surface": "묻자",
+              "meaning": "when she asked",
+              "base": "묻다 + -자"
+            },
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "모두",
+              "meaning": "both"
+            },
+            {
+              "surface": "너를",
+              "meaning": "you",
+              "base": "너 + 를"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "잘",
+              "meaning": "well"
+            },
+            {
+              "surface": "듣고",
+              "meaning": "heard and",
+              "base": "듣다 + -고"
+            },
+            {
+              "surface": "보고",
+              "meaning": "saw and",
+              "base": "보다 + -고"
+            },
+            {
+              "surface": "위해서라고",
+              "meaning": "in order to",
+              "base": "위하다"
+            }
+          ]
+        },
+        {
+          "korean": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어.",
+          "translation": "When she finally asked about the large mouth, the wolf said it was to eat her better and swallowed the girl too.",
+          "grammar": [
+            {
+              "pattern": "-기 위해(서)",
+              "explanation": "Expresses purpose: “in order to.” The preceding verb becomes a goal, and the following clause describes the action taken to achieve it.",
+              "example": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어."
+            },
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어."
+            },
+            {
+              "pattern": "-아/어서",
+              "explanation": "Links a cause, natural sequence, or closely connected action: “because / so / and then.” It usually presents the first clause as the reason or background for the next.",
+              "example": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "마지막으로 큰 입을 묻자 늑대는 너를 더 잘 먹기 위해서라고 말하고 소녀까지 삼켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마지막으로",
+              "meaning": "final (to / by / as)",
+              "note": "마지막 + 으로"
+            },
+            {
+              "word": "입을",
+              "meaning": "mouth",
+              "note": "입 + 을"
+            },
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "너를",
+              "meaning": "you",
+              "note": "너 + 를"
+            },
+            {
+              "word": "위해서라고",
+              "meaning": "in order to",
+              "note": "위하다"
+            },
+            {
+              "word": "말하고",
+              "meaning": "words / speech (and / with)",
+              "note": "말 + 하고"
+            },
+            {
+              "word": "소녀까지",
+              "meaning": "even the girl",
+              "note": "소녀 + 까지"
+            },
+            {
+              "word": "삼켰어",
+              "meaning": "swallowed",
+              "note": "삼키다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마지막으로",
+              "meaning": "final (to / by / as)",
+              "base": "마지막 + 으로"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "입을",
+              "meaning": "mouth",
+              "base": "입 + 을"
+            },
+            {
+              "surface": "묻자",
+              "meaning": "when she asked",
+              "base": "묻다 + -자"
+            },
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "너를",
+              "meaning": "you",
+              "base": "너 + 를"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "잘",
+              "meaning": "well"
+            },
+            {
+              "surface": "먹기",
+              "meaning": "eating / to eat",
+              "base": "먹다 + -기"
+            },
+            {
+              "surface": "위해서라고",
+              "meaning": "in order to",
+              "base": "위하다"
+            },
+            {
+              "surface": "말하고",
+              "meaning": "words / speech (and / with)",
+              "base": "말 + 하고"
+            },
+            {
+              "surface": "소녀까지",
+              "meaning": "even the girl",
+              "base": "소녀 + 까지"
+            },
+            {
+              "surface": "삼켰어",
+              "meaning": "swallowed",
+              "base": "삼키다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "배가 부른 늑대는 침대에서 큰 소리로 코를 골며 잠들었어.",
+          "translation": "The full wolf fell asleep in the bed and snored loudly.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "배가 부른 늑대는 침대에서 큰 소리로 코를 골며 잠들었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "배가 부른 늑대는 침대에서 큰 소리로 코를 골며 잠들었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "배가 부른 늑대는 침대에서 큰 소리로 코를 골며 잠들었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "배가",
+              "meaning": "boat (subject)",
+              "note": "배 + 가"
+            },
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "침대에서",
+              "meaning": "on the bed (in / at / from)",
+              "note": "침대 + 에서"
+            },
+            {
+              "word": "큰",
+              "meaning": "great / large",
+              "note": "크다 + -(으)ㄴ"
+            },
+            {
+              "word": "소리로",
+              "meaning": "sound (to / by / as)",
+              "note": "소리 + 로"
+            },
+            {
+              "word": "잠들었어",
+              "meaning": "fell asleep but",
+              "note": "잠들다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "배가",
+              "meaning": "boat (subject)",
+              "base": "배 + 가"
+            },
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "침대에서",
+              "meaning": "on the bed (in / at / from)",
+              "base": "침대 + 에서"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "소리로",
+              "meaning": "sound (to / by / as)",
+              "base": "소리 + 로"
+            },
+            {
+              "surface": "잠들었어",
+              "meaning": "fell asleep but",
+              "base": "잠들다"
+            }
+          ]
+        },
+        {
+          "korean": "지나가던 사냥꾼은 이상한 코 고는 소리를 듣고 할머니 집에 들어갔어.",
+          "translation": "A passing huntsman heard the strange snoring and entered the grandmother’s house.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "지나가던 사냥꾼은 이상한 코 고는 소리를 듣고 할머니 집에 들어갔어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "지나가던 사냥꾼은 이상한 코 고는 소리를 듣고 할머니 집에 들어갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "지나가던 사냥꾼은 이상한 코 고는 소리를 듣고 할머니 집에 들어갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "지나가던 사냥꾼은 이상한 코 고는 소리를 듣고 할머니 집에 들어갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "지나가던",
+              "meaning": "was passing",
+              "note": "지나가다 + -던"
+            },
+            {
+              "word": "사냥꾼은",
+              "meaning": "hunter",
+              "note": "사냥꾼 + 은"
+            },
+            {
+              "word": "이상한",
+              "meaning": "strange",
+              "note": "이상하다 + -(으)ㄴ"
+            },
+            {
+              "word": "소리를",
+              "meaning": "sound",
+              "note": "소리 + 를"
+            },
+            {
+              "word": "듣고",
+              "meaning": "heard and",
+              "note": "듣다 + -고"
+            },
+            {
+              "word": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "word": "집에",
+              "meaning": "house (to / at / in)",
+              "note": "집 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "지나가던",
+              "meaning": "was passing",
+              "base": "지나가다 + -던"
+            },
+            {
+              "surface": "사냥꾼은",
+              "meaning": "hunter",
+              "base": "사냥꾼 + 은"
+            },
+            {
+              "surface": "이상한",
+              "meaning": "strange",
+              "base": "이상하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "소리를",
+              "meaning": "sound",
+              "base": "소리 + 를"
+            },
+            {
+              "surface": "듣고",
+              "meaning": "heard and",
+              "base": "듣다 + -고"
+            },
+            {
+              "surface": "할머니",
+              "meaning": "grandmother"
+            },
+            {
+              "surface": "집에",
+              "meaning": "house (to / at / in)",
+              "base": "집 + 에"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 늑대를 바로 쏘지 않고 배 안에 할머니가 있을지도 모른다고 생각했어.",
+          "translation": "He did not shoot the wolf immediately because he thought the grandmother might be inside its belly.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "그는 늑대를 바로 쏘지 않고 배 안에 할머니가 있을지도 모른다고 생각했어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "그는 늑대를 바로 쏘지 않고 배 안에 할머니가 있을지도 모른다고 생각했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 늑대를 바로 쏘지 않고 배 안에 할머니가 있을지도 모른다고 생각했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그는 늑대를 바로 쏘지 않고 배 안에 할머니가 있을지도 모른다고 생각했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "늑대를",
+              "meaning": "wolf (object)",
+              "note": "늑대 + 를"
+            },
+            {
+              "word": "않고",
+              "meaning": "without doing",
+              "note": "않다 + -고"
+            },
+            {
+              "word": "안에",
+              "meaning": "inside (to / at / in)",
+              "note": "안 + 에"
+            },
+            {
+              "word": "할머니가",
+              "meaning": "grandmother (subject)",
+              "note": "할머니 + 가"
+            },
+            {
+              "word": "있을지도",
+              "meaning": "whether it could (also / even)",
+              "note": "있을지 + 도"
+            },
+            {
+              "word": "모른다고",
+              "meaning": "that one did not know",
+              "note": "모르다 + -ㄴ다고"
+            },
+            {
+              "word": "생각했어",
+              "meaning": "thought",
+              "note": "생각하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "늑대를",
+              "meaning": "wolf (object)",
+              "base": "늑대 + 를"
+            },
+            {
+              "surface": "않고",
+              "meaning": "without doing",
+              "base": "않다 + -고"
+            },
+            {
+              "surface": "배",
+              "meaning": "boat"
+            },
+            {
+              "surface": "안에",
+              "meaning": "inside (to / at / in)",
+              "base": "안 + 에"
+            },
+            {
+              "surface": "할머니가",
+              "meaning": "grandmother (subject)",
+              "base": "할머니 + 가"
+            },
+            {
+              "surface": "있을지도",
+              "meaning": "whether it could (also / even)",
+              "base": "있을지 + 도"
+            },
+            {
+              "surface": "모른다고",
+              "meaning": "that one did not know",
+              "base": "모르다 + -ㄴ다고"
+            },
+            {
+              "surface": "생각했어",
+              "meaning": "thought",
+              "base": "생각하다"
+            }
+          ]
+        },
+        {
+          "korean": "사냥꾼이 가위로 늑대의 배를 조심스럽게 자르자 빨간 모자와 할머니가 살아서 나왔어.",
+          "translation": "When the huntsman carefully cut open the wolf’s belly with scissors, Little Red Riding Hood and her grandmother emerged alive.",
+          "grammar": [
+            {
+              "pattern": "-아/어서",
+              "explanation": "Links a cause, natural sequence, or closely connected action: “because / so / and then.” It usually presents the first clause as the reason or background for the next.",
+              "example": "사냥꾼이 가위로 늑대의 배를 조심스럽게 자르자 빨간 모자와 할머니가 살아서 나왔어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "사냥꾼이 가위로 늑대의 배를 조심스럽게 자르자 빨간 모자와 할머니가 살아서 나왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "사냥꾼이 가위로 늑대의 배를 조심스럽게 자르자 빨간 모자와 할머니가 살아서 나왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "사냥꾼이",
+              "meaning": "hunter",
+              "note": "사냥꾼 + 이"
+            },
+            {
+              "word": "가위로",
+              "meaning": "scissors (to / by / as)",
+              "note": "가위 + 로"
+            },
+            {
+              "word": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "note": "늑대 + 의"
+            },
+            {
+              "word": "배를",
+              "meaning": "boat",
+              "note": "배 + 를"
+            },
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자와",
+              "meaning": "hood / cap (and / with)",
+              "note": "모자 + 와"
+            },
+            {
+              "word": "할머니가",
+              "meaning": "grandmother (subject)",
+              "note": "할머니 + 가"
+            },
+            {
+              "word": "나왔어",
+              "meaning": "came out / appeared",
+              "note": "나오다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "사냥꾼이",
+              "meaning": "hunter",
+              "base": "사냥꾼 + 이"
+            },
+            {
+              "surface": "가위로",
+              "meaning": "scissors (to / by / as)",
+              "base": "가위 + 로"
+            },
+            {
+              "surface": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "base": "늑대 + 의"
+            },
+            {
+              "surface": "배를",
+              "meaning": "boat",
+              "base": "배 + 를"
+            },
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자와",
+              "meaning": "hood / cap (and / with)",
+              "base": "모자 + 와"
+            },
+            {
+              "surface": "할머니가",
+              "meaning": "grandmother (subject)",
+              "base": "할머니 + 가"
+            },
+            {
+              "surface": "나왔어",
+              "meaning": "came out / appeared",
+              "base": "나오다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "세 사람은 늑대의 배에 무거운 돌을 넣고 다시 꿰맸어.",
+          "translation": "The three filled the wolf’s belly with heavy stones and sewed it back up.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "세 사람은 늑대의 배에 무거운 돌을 넣고 다시 꿰맸어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "세 사람은 늑대의 배에 무거운 돌을 넣고 다시 꿰맸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "세",
+              "meaning": "three",
+              "note": "셋 → 세"
+            },
+            {
+              "word": "사람은",
+              "meaning": "people",
+              "note": "사람 + 은"
+            },
+            {
+              "word": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "note": "늑대 + 의"
+            },
+            {
+              "word": "배에",
+              "meaning": "boat (to / at / in)",
+              "note": "배 + 에"
+            },
+            {
+              "word": "돌을",
+              "meaning": "stone (object)",
+              "note": "돌 + 을"
+            },
+            {
+              "word": "다시",
+              "meaning": "again"
+            }
+          ],
+          "words": [
+            {
+              "surface": "세",
+              "meaning": "three",
+              "base": "셋 → 세"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "base": "늑대 + 의"
+            },
+            {
+              "surface": "배에",
+              "meaning": "boat (to / at / in)",
+              "base": "배 + 에"
+            },
+            {
+              "surface": "돌을",
+              "meaning": "stone (object)",
+              "base": "돌 + 을"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            }
+          ]
+        },
+        {
+          "korean": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어.",
+          "translation": "The wolf woke, tried to go drink water, and collapsed and died because of the stones’ weight.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
+              "example": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "잠에서 깬 늑대는 물을 마시러 가다가 돌의 무게 때문에 쓰러져 죽었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "잠에서",
+              "meaning": "from sleep",
+              "note": "잠 + 에서"
+            },
+            {
+              "word": "늑대는",
+              "meaning": "wolf",
+              "note": "늑대 + 는"
+            },
+            {
+              "word": "물을",
+              "meaning": "water",
+              "note": "물 + 을"
+            },
+            {
+              "word": "마시러",
+              "meaning": "to drink",
+              "note": "마시다"
+            },
+            {
+              "word": "가다가",
+              "meaning": "while going, then",
+              "note": "가다 + -다가"
+            },
+            {
+              "word": "돌의",
+              "meaning": "stone (of / possessive)",
+              "note": "돌 + 의"
+            },
+            {
+              "word": "쓰러져",
+              "meaning": "collapsed",
+              "note": "쓰러지다 + -아/어"
+            },
+            {
+              "word": "죽었어",
+              "meaning": "died",
+              "note": "죽다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "잠에서",
+              "meaning": "from sleep",
+              "base": "잠 + 에서"
+            },
+            {
+              "surface": "깬",
+              "meaning": "awakened",
+              "base": "깨다 + -(으)ㄴ"
+            },
+            {
+              "surface": "늑대는",
+              "meaning": "wolf",
+              "base": "늑대 + 는"
+            },
+            {
+              "surface": "물을",
+              "meaning": "water",
+              "base": "물 + 을"
+            },
+            {
+              "surface": "마시러",
+              "meaning": "to drink",
+              "base": "마시다"
+            },
+            {
+              "surface": "가다가",
+              "meaning": "while going, then",
+              "base": "가다 + -다가"
+            },
+            {
+              "surface": "돌의",
+              "meaning": "stone (of / possessive)",
+              "base": "돌 + 의"
+            },
+            {
+              "surface": "무게",
+              "meaning": "weight"
+            },
+            {
+              "surface": "때문에",
+              "meaning": "because of"
+            },
+            {
+              "surface": "쓰러져",
+              "meaning": "collapsed",
+              "base": "쓰러지다 + -아/어"
+            },
+            {
+              "surface": "죽었어",
+              "meaning": "died",
+              "base": "죽다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "할머니는 음식을 먹고 건강을 되찾았고 사냥꾼은 늑대의 가죽을 가져갔어.",
+          "translation": "The grandmother ate the food and recovered, and the huntsman took the wolf’s skin.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "할머니는 음식을 먹고 건강을 되찾았고 사냥꾼은 늑대의 가죽을 가져갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "할머니는 음식을 먹고 건강을 되찾았고 사냥꾼은 늑대의 가죽을 가져갔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "할머니는 음식을 먹고 건강을 되찾았고 사냥꾼은 늑대의 가죽을 가져갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "할머니는 음식을 먹고 건강을 되찾았고 사냥꾼은 늑대의 가죽을 가져갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "할머니는",
+              "meaning": "grandmother (topic)",
+              "note": "할머니 + 는"
+            },
+            {
+              "word": "음식을",
+              "meaning": "food",
+              "note": "음식 + 을"
+            },
+            {
+              "word": "먹고",
+              "meaning": "ate and",
+              "note": "먹다 + -고"
+            },
+            {
+              "word": "건강을",
+              "meaning": "health (object)",
+              "note": "건강 + 을"
+            },
+            {
+              "word": "되찾았고",
+              "meaning": "restored",
+              "note": "되찾다"
+            },
+            {
+              "word": "사냥꾼은",
+              "meaning": "hunter",
+              "note": "사냥꾼 + 은"
+            },
+            {
+              "word": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "note": "늑대 + 의"
+            },
+            {
+              "word": "가죽을",
+              "meaning": "leather / skin (object)",
+              "note": "가죽 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "할머니는",
+              "meaning": "grandmother (topic)",
+              "base": "할머니 + 는"
+            },
+            {
+              "surface": "음식을",
+              "meaning": "food",
+              "base": "음식 + 을"
+            },
+            {
+              "surface": "먹고",
+              "meaning": "ate and",
+              "base": "먹다 + -고"
+            },
+            {
+              "surface": "건강을",
+              "meaning": "health (object)",
+              "base": "건강 + 을"
+            },
+            {
+              "surface": "되찾았고",
+              "meaning": "restored",
+              "base": "되찾다"
+            },
+            {
+              "surface": "사냥꾼은",
+              "meaning": "hunter",
+              "base": "사냥꾼 + 은"
+            },
+            {
+              "surface": "늑대의",
+              "meaning": "wolf (of / possessive)",
+              "base": "늑대 + 의"
+            },
+            {
+              "surface": "가죽을",
+              "meaning": "leather / skin (object)",
+              "base": "가죽 + 을"
+            }
+          ]
+        },
+        {
+          "korean": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어.",
+          "translation": "Little Red Riding Hood resolved never again to ignore her mother’s words and leave the forest path.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "빨간 모자는 다시는 어머니의 말을 무시하고 숲길을 떠나지 않겠다고 다짐했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "빨간",
+              "meaning": "red",
+              "note": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "word": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "note": "모자 + 는"
+            },
+            {
+              "word": "다시는",
+              "meaning": "again (topic)",
+              "note": "다시 + 는"
+            },
+            {
+              "word": "어머니의",
+              "meaning": "mother (of / possessive)",
+              "note": "어머니 + 의"
+            },
+            {
+              "word": "말을",
+              "meaning": "words / speech (object)",
+              "note": "말 + 을"
+            },
+            {
+              "word": "숲길을",
+              "meaning": "forest path",
+              "note": "숲길 + 을"
+            },
+            {
+              "word": "떠나지",
+              "meaning": "to leave",
+              "note": "떠나다"
+            },
+            {
+              "word": "다짐했어",
+              "meaning": "to resolve",
+              "note": "다짐하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "빨간",
+              "meaning": "red",
+              "base": "빨갛다 + -(으)ㄴ"
+            },
+            {
+              "surface": "모자는",
+              "meaning": "hood / Red Riding Hood",
+              "base": "모자 + 는"
+            },
+            {
+              "surface": "다시는",
+              "meaning": "again (topic)",
+              "base": "다시 + 는"
+            },
+            {
+              "surface": "어머니의",
+              "meaning": "mother (of / possessive)",
+              "base": "어머니 + 의"
+            },
+            {
+              "surface": "말을",
+              "meaning": "words / speech (object)",
+              "base": "말 + 을"
+            },
+            {
+              "surface": "숲길을",
+              "meaning": "forest path",
+              "base": "숲길 + 을"
+            },
+            {
+              "surface": "떠나지",
+              "meaning": "to leave",
+              "base": "떠나다"
+            },
+            {
+              "surface": "다짐했어",
+              "meaning": "to resolve",
+              "base": "다짐하다 + -았어"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

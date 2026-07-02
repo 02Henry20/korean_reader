@@ -1,0 +1,4510 @@
+{
+  "id": "one-piece-east-blue",
+  "title": "원피스: 이스트 블루",
+  "englishTitle": "One Piece — East Blue",
+  "level": "TOPIK 2–3",
+  "description": "루피가 동료를 모아 위대한 바다로 떠나는 첫 번째 모험.",
+  "theme": "ocean",
+  "sourceNote": "Expanded transformative Korean plot summary of the East Blue saga through Loguetown; no manga or anime dialogue is reproduced.",
+  "collectionId": "anime-film-drama",
+  "order": 4,
+  "thumbnail": "thumbnails/04_one_piece_east_blue.jpg",
+  "thumbnailAlt": "One Piece — East Blue",
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "korean": "어린 루피는 해적 샹크스를 동경하며 언젠가 해적왕이 되겠다고 결심했어.",
+          "translation": "As a child, Luffy admired the pirate Shanks and decided that he would someday become the Pirate King.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "어린 루피는 해적 샹크스를 동경하며 언젠가 해적왕이 되겠다고 결심했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "어린 루피는 해적 샹크스를 동경하며 언젠가 해적왕이 되겠다고 결심했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "어린 루피는 해적 샹크스를 동경하며 언젠가 해적왕이 되겠다고 결심했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "어린 루피는 해적 샹크스를 동경하며 언젠가 해적왕이 되겠다고 결심했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "어린",
+              "meaning": "young",
+              "note": "어리다 + -(으)ㄴ"
+            },
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "word": "샹크스를",
+              "meaning": "Shanks (object)",
+              "note": "샹크스 + 를"
+            },
+            {
+              "word": "동경하며",
+              "meaning": "to admire",
+              "note": "동경하다 + -(으)며"
+            },
+            {
+              "word": "해적왕이",
+              "meaning": "Pirate King",
+              "note": "해적왕 + 이"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어린",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "샹크스를",
+              "meaning": "Shanks (object)",
+              "base": "샹크스 + 를"
+            },
+            {
+              "surface": "동경하며",
+              "meaning": "to admire",
+              "base": "동경하다 + -(으)며"
+            },
+            {
+              "surface": "해적왕이",
+              "meaning": "Pirate King",
+              "base": "해적왕 + 이"
+            }
+          ]
+        },
+        {
+          "korean": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어.",
+          "translation": "Luffy accidentally ate a Devil Fruit, gaining a rubber body but losing the ability to swim.",
+          "grammar": [
+            {
+              "pattern": "-게 되다",
+              "explanation": "Describes a change produced by circumstances: “came to / ended up / became able to.” It often sounds less directly intentional than a simple active verb.",
+              "example": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어."
+            },
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "루피는 실수로 악마의 열매를 먹어 몸이 고무처럼 늘어나게 됐지만 수영 능력을 잃었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "악마의",
+              "meaning": "Devil Fruit’s"
+            },
+            {
+              "word": "몸이",
+              "meaning": "body",
+              "note": "몸 + 이"
+            },
+            {
+              "word": "고무처럼",
+              "meaning": "like rubber",
+              "note": "고무 + 처럼"
+            },
+            {
+              "word": "늘어나게",
+              "meaning": "stretching",
+              "note": "늘어나다"
+            },
+            {
+              "word": "능력을",
+              "meaning": "power / ability",
+              "note": "능력 + 을"
+            },
+            {
+              "word": "잃었어",
+              "meaning": "lost",
+              "note": "잃다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "악마의",
+              "meaning": "Devil Fruit’s"
+            },
+            {
+              "surface": "몸이",
+              "meaning": "body",
+              "base": "몸 + 이"
+            },
+            {
+              "surface": "고무처럼",
+              "meaning": "like rubber",
+              "base": "고무 + 처럼"
+            },
+            {
+              "surface": "늘어나게",
+              "meaning": "stretching",
+              "base": "늘어나다"
+            },
+            {
+              "surface": "능력을",
+              "meaning": "power / ability",
+              "base": "능력 + 을"
+            },
+            {
+              "surface": "잃었어",
+              "meaning": "lost",
+              "base": "잃다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어.",
+          "translation": "Shanks lost one arm while saving Luffy after bandits threw him into the sea.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
+              "example": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "산적에게 바다에 던져진 루피를 구하려다가 샹크스는 한쪽 팔을 잃었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "바다에",
+              "meaning": "to sea (to / at / in)",
+              "note": "바다 + 에"
+            },
+            {
+              "word": "루피를",
+              "meaning": "Luffy (object)",
+              "note": "루피 + 를"
+            },
+            {
+              "word": "구하려다가",
+              "meaning": "saved",
+              "note": "구하다"
+            },
+            {
+              "word": "샹크스는",
+              "meaning": "Shanks (topic)",
+              "note": "샹크스 + 는"
+            },
+            {
+              "word": "잃었어",
+              "meaning": "lost",
+              "note": "잃다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "바다에",
+              "meaning": "to sea (to / at / in)",
+              "base": "바다 + 에"
+            },
+            {
+              "surface": "루피를",
+              "meaning": "Luffy (object)",
+              "base": "루피 + 를"
+            },
+            {
+              "surface": "구하려다가",
+              "meaning": "saved",
+              "base": "구하다"
+            },
+            {
+              "surface": "샹크스는",
+              "meaning": "Shanks (topic)",
+              "base": "샹크스 + 는"
+            },
+            {
+              "surface": "잃었어",
+              "meaning": "lost",
+              "base": "잃다"
+            }
+          ]
+        },
+        {
+          "korean": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어.",
+          "translation": "Shanks entrusted Luffy with his precious straw hat and asked him to return it after becoming a great pirate.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.” The following clause states the result that applies under that condition.",
+              "example": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "샹크스는 소중한 밀짚모자를 맡기며 훌륭한 해적이 되면 돌려달라고 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "샹크스는",
+              "meaning": "Shanks (topic)",
+              "note": "샹크스 + 는"
+            },
+            {
+              "word": "소중한",
+              "meaning": "to be precious",
+              "note": "소중하다 + -(으)ㄴ"
+            },
+            {
+              "word": "밀짚모자를",
+              "meaning": "straw hat (object)",
+              "note": "밀짚모자 + 를"
+            },
+            {
+              "word": "맡기며",
+              "meaning": "entrusting while",
+              "note": "맡기다 + -(으)며"
+            },
+            {
+              "word": "훌륭한",
+              "meaning": "great / admirable",
+              "note": "훌륭하다 + -(으)ㄴ"
+            },
+            {
+              "word": "해적이",
+              "meaning": "pirate",
+              "note": "해적 + 이"
+            },
+            {
+              "word": "되면",
+              "meaning": "if/when becoming",
+              "note": "되다 + -(으)면"
+            },
+            {
+              "word": "돌려달라고",
+              "meaning": "asking to return it",
+              "note": "돌려주다 + -아/어 달라고"
+            }
+          ],
+          "words": [
+            {
+              "surface": "샹크스는",
+              "meaning": "Shanks (topic)",
+              "base": "샹크스 + 는"
+            },
+            {
+              "surface": "소중한",
+              "meaning": "to be precious",
+              "base": "소중하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "밀짚모자를",
+              "meaning": "straw hat (object)",
+              "base": "밀짚모자 + 를"
+            },
+            {
+              "surface": "맡기며",
+              "meaning": "entrusting while",
+              "base": "맡기다 + -(으)며"
+            },
+            {
+              "surface": "훌륭한",
+              "meaning": "great / admirable",
+              "base": "훌륭하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "해적이",
+              "meaning": "pirate",
+              "base": "해적 + 이"
+            },
+            {
+              "surface": "되면",
+              "meaning": "if/when becoming",
+              "base": "되다 + -(으)면"
+            },
+            {
+              "surface": "돌려달라고",
+              "meaning": "asking to return it",
+              "base": "돌려주다 + -아/어 달라고"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어.",
+          "translation": "Years later, Luffy set out in a small boat and began gathering a crew in the East Blue.",
+          "grammar": [
+            {
+              "pattern": "-기 시작하다",
+              "explanation": "Means “begin to do.” The verb before -기 is nominalized and becomes the action whose beginning is described.",
+              "example": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "몇 년 뒤 루피는 작은 배를 타고 이스트 블루에서 동료를 모으기 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "작은",
+              "meaning": "small",
+              "note": "작다 + -(으)ㄴ"
+            },
+            {
+              "word": "배를",
+              "meaning": "boat",
+              "note": "배 + 를"
+            },
+            {
+              "word": "타고",
+              "meaning": "rode and",
+              "note": "타다 + -고"
+            },
+            {
+              "word": "블루에서",
+              "meaning": "Blue (in / at / from)",
+              "note": "블루 + 에서"
+            },
+            {
+              "word": "동료를",
+              "meaning": "companion",
+              "note": "동료 + 를"
+            },
+            {
+              "word": "모으기",
+              "meaning": "to gather",
+              "note": "모으다"
+            },
+            {
+              "word": "시작했어",
+              "meaning": "began",
+              "note": "시작하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "몇",
+              "meaning": "several / how many"
+            },
+            {
+              "surface": "년",
+              "meaning": "years"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "작은",
+              "meaning": "small",
+              "base": "작다 + -(으)ㄴ"
+            },
+            {
+              "surface": "배를",
+              "meaning": "boat",
+              "base": "배 + 를"
+            },
+            {
+              "surface": "타고",
+              "meaning": "rode and",
+              "base": "타다 + -고"
+            },
+            {
+              "surface": "이스트",
+              "meaning": "East"
+            },
+            {
+              "surface": "블루에서",
+              "meaning": "Blue (in / at / from)",
+              "base": "블루 + 에서"
+            },
+            {
+              "surface": "동료를",
+              "meaning": "companion",
+              "base": "동료 + 를"
+            },
+            {
+              "surface": "모으기",
+              "meaning": "to gather",
+              "base": "모으다"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        },
+        {
+          "korean": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어.",
+          "translation": "He met the timid Coby, who was forced to work aboard Alvida’s ship, and helped him find courage.",
+          "grammar": [
+            {
+              "pattern": "-게 하다 / -게 만들다",
+              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
+              "example": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어."
+            },
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그는 해적 알비다의 배에서 잡일을 하던 겁 많은 코비를 만나 용기를 내게 했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "word": "알비다의",
+              "meaning": "Alvida (of / possessive)",
+              "note": "알비다 + 의"
+            },
+            {
+              "word": "배에서",
+              "meaning": "boat (in / at / from)",
+              "note": "배 + 에서"
+            },
+            {
+              "word": "코비를",
+              "meaning": "Coby (object)",
+              "note": "코비 + 를"
+            },
+            {
+              "word": "만나",
+              "meaning": "met and",
+              "note": "만나다 + -아/어"
+            },
+            {
+              "word": "용기를",
+              "meaning": "courage and (object)",
+              "note": "용기 + 를"
+            },
+            {
+              "word": "했어",
+              "meaning": "tried",
+              "note": "하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "알비다의",
+              "meaning": "Alvida (of / possessive)",
+              "base": "알비다 + 의"
+            },
+            {
+              "surface": "배에서",
+              "meaning": "boat (in / at / from)",
+              "base": "배 + 에서"
+            },
+            {
+              "surface": "겁",
+              "meaning": "fear"
+            },
+            {
+              "surface": "코비를",
+              "meaning": "Coby (object)",
+              "base": "코비 + 를"
+            },
+            {
+              "surface": "만나",
+              "meaning": "met and",
+              "base": "만나다 + -아/어"
+            },
+            {
+              "surface": "용기를",
+              "meaning": "courage and (object)",
+              "base": "용기 + 를"
+            },
+            {
+              "surface": "했어",
+              "meaning": "tried",
+              "base": "하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "셸스 타운에서 루피는 해군에게 묶여 있던 검객 롤로노아 조로를 구했어.",
+          "translation": "In Shells Town, Luffy rescued the swordsman Roronoa Zoro, who had been tied up by the Marines.",
+          "grammar": [
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "셸스 타운에서 루피는 해군에게 묶여 있던 검객 롤로노아 조로를 구했어."
+            },
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "셸스 타운에서 루피는 해군에게 묶여 있던 검객 롤로노아 조로를 구했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "셸스 타운에서 루피는 해군에게 묶여 있던 검객 롤로노아 조로를 구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "셸스 타운에서 루피는 해군에게 묶여 있던 검객 롤로노아 조로를 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "해군에게",
+              "meaning": "Marines / navy (to / by)",
+              "note": "해군 + 에게"
+            },
+            {
+              "word": "있던",
+              "meaning": "had been",
+              "note": "있다 + -던"
+            },
+            {
+              "word": "검객",
+              "meaning": "swordsman"
+            },
+            {
+              "word": "롤로노아",
+              "meaning": "Roronoa"
+            },
+            {
+              "word": "조로를",
+              "meaning": "Zoro",
+              "note": "조로 + 를"
+            },
+            {
+              "word": "구했어",
+              "meaning": "saved",
+              "note": "구하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "해군에게",
+              "meaning": "Marines / navy (to / by)",
+              "base": "해군 + 에게"
+            },
+            {
+              "surface": "있던",
+              "meaning": "had been",
+              "base": "있다 + -던"
+            },
+            {
+              "surface": "검객",
+              "meaning": "swordsman"
+            },
+            {
+              "surface": "롤로노아",
+              "meaning": "Roronoa"
+            },
+            {
+              "surface": "조로를",
+              "meaning": "Zoro",
+              "base": "조로 + 를"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "saved",
+              "base": "구하다 + -았어"
+            }
+          ]
+        },
+        {
+          "korean": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어.",
+          "translation": "Zoro became Luffy’s first crewmate in order to pursue his dream of becoming the world’s greatest swordsman.",
+          "grammar": [
+            {
+              "pattern": "-기 위해(서)",
+              "explanation": "Expresses purpose: “in order to.” The preceding verb becomes a goal, and the following clause describes the action taken to achieve it.",
+              "example": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "조로는 세계 최고의 검사가 되겠다는 꿈을 지키기 위해 루피의 첫 동료가 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "조로는",
+              "meaning": "Zoro (topic)",
+              "note": "조로 + 는"
+            },
+            {
+              "word": "최고의",
+              "meaning": "greatest",
+              "note": "최고 + 의"
+            },
+            {
+              "word": "검사가",
+              "meaning": "swordsman",
+              "note": "검사 + 가"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "지키기",
+              "meaning": "to protect",
+              "note": "지키다"
+            },
+            {
+              "word": "위해",
+              "meaning": "in order to",
+              "note": "위하다 + -아/어"
+            },
+            {
+              "word": "루피의",
+              "meaning": "Luffy (of / possessive)",
+              "note": "루피 + 의"
+            },
+            {
+              "word": "동료가",
+              "meaning": "companion (subject)",
+              "note": "동료 + 가"
+            }
+          ],
+          "words": [
+            {
+              "surface": "조로는",
+              "meaning": "Zoro (topic)",
+              "base": "조로 + 는"
+            },
+            {
+              "surface": "세계",
+              "meaning": "world"
+            },
+            {
+              "surface": "최고의",
+              "meaning": "greatest",
+              "base": "최고 + 의"
+            },
+            {
+              "surface": "검사가",
+              "meaning": "swordsman",
+              "base": "검사 + 가"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "지키기",
+              "meaning": "to protect",
+              "base": "지키다"
+            },
+            {
+              "surface": "위해",
+              "meaning": "in order to",
+              "base": "위하다 + -아/어"
+            },
+            {
+              "surface": "루피의",
+              "meaning": "Luffy (of / possessive)",
+              "base": "루피 + 의"
+            },
+            {
+              "surface": "첫",
+              "meaning": "first"
+            },
+            {
+              "surface": "동료가",
+              "meaning": "companion (subject)",
+              "base": "동료 + 가"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어.",
+          "translation": "The two defeated the tyrannical Captain Morgan, and Coby joined the Marines.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "두 사람은 독재적으로 행동하던 모건 대령을 쓰러뜨렸고 코비는 해군에 들어갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "두",
+              "meaning": "two"
+            },
+            {
+              "word": "사람은",
+              "meaning": "people",
+              "note": "사람 + 은"
+            },
+            {
+              "word": "독재적으로",
+              "meaning": "dictatorial (to / by / as)",
+              "note": "독재적 + 으로"
+            },
+            {
+              "word": "모건",
+              "meaning": "Morgan"
+            },
+            {
+              "word": "대령을",
+              "meaning": "captain / colonel (object)",
+              "note": "대령 + 을"
+            },
+            {
+              "word": "코비는",
+              "meaning": "Coby (topic)",
+              "note": "코비 + 는"
+            },
+            {
+              "word": "해군에",
+              "meaning": "Marines / navy (to / at / in)",
+              "note": "해군 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "사람은",
+              "meaning": "people",
+              "base": "사람 + 은"
+            },
+            {
+              "surface": "독재적으로",
+              "meaning": "dictatorial (to / by / as)",
+              "base": "독재적 + 으로"
+            },
+            {
+              "surface": "모건",
+              "meaning": "Morgan"
+            },
+            {
+              "surface": "대령을",
+              "meaning": "captain / colonel (object)",
+              "base": "대령 + 을"
+            },
+            {
+              "surface": "코비는",
+              "meaning": "Coby (topic)",
+              "base": "코비 + 는"
+            },
+            {
+              "surface": "해군에",
+              "meaning": "Marines / navy (to / at / in)",
+              "base": "해군 + 에"
+            }
+          ]
+        },
+        {
+          "korean": "오렌지 마을에서는 항해사 나미가 해적 버기의 보물을 훔치려 하고 있었어.",
+          "translation": "In Orange Town, the navigator Nami was trying to steal the pirate Buggy’s treasure.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "오렌지 마을에서는 항해사 나미가 해적 버기의 보물을 훔치려 하고 있었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "오렌지 마을에서는 항해사 나미가 해적 버기의 보물을 훔치려 하고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "오렌지 마을에서는 항해사 나미가 해적 버기의 보물을 훔치려 하고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마을에서는",
+              "meaning": "village (in/at (topic))",
+              "note": "마을 + 에서는"
+            },
+            {
+              "word": "항해사",
+              "meaning": "navigator"
+            },
+            {
+              "word": "나미가",
+              "meaning": "Nami",
+              "note": "나미 + 가"
+            },
+            {
+              "word": "버기의",
+              "meaning": "Buggy (of / possessive)",
+              "note": "버기 + 의"
+            },
+            {
+              "word": "보물을",
+              "meaning": "treasure",
+              "note": "보물 + 을"
+            },
+            {
+              "word": "훔치려",
+              "meaning": "stole and",
+              "note": "훔치다"
+            },
+            {
+              "word": "하고",
+              "meaning": "made and",
+              "note": "하다 + -고"
+            },
+            {
+              "word": "있었어",
+              "meaning": "could",
+              "note": "있다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "마을에서는",
+              "meaning": "village (in/at (topic))",
+              "base": "마을 + 에서는"
+            },
+            {
+              "surface": "항해사",
+              "meaning": "navigator"
+            },
+            {
+              "surface": "나미가",
+              "meaning": "Nami",
+              "base": "나미 + 가"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "버기의",
+              "meaning": "Buggy (of / possessive)",
+              "base": "버기 + 의"
+            },
+            {
+              "surface": "보물을",
+              "meaning": "treasure",
+              "base": "보물 + 을"
+            },
+            {
+              "surface": "훔치려",
+              "meaning": "stole and",
+              "base": "훔치다"
+            },
+            {
+              "surface": "하고",
+              "meaning": "made and",
+              "base": "하다 + -고"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "could",
+              "base": "있다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "동강동강 열매의 힘을 가진 버기는 자기 몸을 나누어 공격할 수 있었어.",
+          "translation": "Buggy, who possessed the Chop-Chop Fruit’s power, could separate his body to attack.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "동강동강 열매의 힘을 가진 버기는 자기 몸을 나누어 공격할 수 있었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "동강동강 열매의 힘을 가진 버기는 자기 몸을 나누어 공격할 수 있었어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "동강동강 열매의 힘을 가진 버기는 자기 몸을 나누어 공격할 수 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "동강동강 열매의 힘을 가진 버기는 자기 몸을 나누어 공격할 수 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "힘을",
+              "meaning": "strength",
+              "note": "힘 + 을"
+            },
+            {
+              "word": "가진",
+              "meaning": "having",
+              "note": "가지다 + -(으)ㄴ"
+            },
+            {
+              "word": "버기는",
+              "meaning": "Buggy (topic)",
+              "note": "버기 + 는"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "몸을",
+              "meaning": "body",
+              "note": "몸 + 을"
+            },
+            {
+              "word": "나누어",
+              "meaning": "dividing / sharing",
+              "note": "나누다 + -아/어"
+            },
+            {
+              "word": "공격할",
+              "meaning": "trying to attack",
+              "note": "공격하다 + -(으)ㄹ"
+            },
+            {
+              "word": "있었어",
+              "meaning": "could",
+              "note": "있다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "힘을",
+              "meaning": "strength",
+              "base": "힘 + 을"
+            },
+            {
+              "surface": "가진",
+              "meaning": "having",
+              "base": "가지다 + -(으)ㄴ"
+            },
+            {
+              "surface": "버기는",
+              "meaning": "Buggy (topic)",
+              "base": "버기 + 는"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "몸을",
+              "meaning": "body",
+              "base": "몸 + 을"
+            },
+            {
+              "surface": "나누어",
+              "meaning": "dividing / sharing",
+              "base": "나누다 + -아/어"
+            },
+            {
+              "surface": "공격할",
+              "meaning": "trying to attack",
+              "base": "공격하다 + -(으)ㄹ"
+            },
+            {
+              "surface": "수",
+              "meaning": "ability"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "could",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "루피와 조로와 나미는 마을을 지키고 버기를 물리친 뒤 잠시 함께 항해했어.",
+          "translation": "Luffy, Zoro, and Nami protected the town, defeated Buggy, and then sailed together for a time.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "루피와 조로와 나미는 마을을 지키고 버기를 물리친 뒤 잠시 함께 항해했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "루피와 조로와 나미는 마을을 지키고 버기를 물리친 뒤 잠시 함께 항해했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "루피와 조로와 나미는 마을을 지키고 버기를 물리친 뒤 잠시 함께 항해했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피와",
+              "meaning": "Luffy (and / with)",
+              "note": "루피 + 와"
+            },
+            {
+              "word": "조로와",
+              "meaning": "Zoro (and / with)",
+              "note": "조로 + 와"
+            },
+            {
+              "word": "나미는",
+              "meaning": "Nami (topic)",
+              "note": "나미 + 는"
+            },
+            {
+              "word": "마을을",
+              "meaning": "village",
+              "note": "마을 + 을"
+            },
+            {
+              "word": "지키고",
+              "meaning": "guarded and",
+              "note": "지키다 + -고"
+            },
+            {
+              "word": "버기를",
+              "meaning": "Buggy (object)",
+              "note": "버기 + 를"
+            },
+            {
+              "word": "잠시",
+              "meaning": "for a while"
+            },
+            {
+              "word": "함께",
+              "meaning": "together"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피와",
+              "meaning": "Luffy (and / with)",
+              "base": "루피 + 와"
+            },
+            {
+              "surface": "조로와",
+              "meaning": "Zoro (and / with)",
+              "base": "조로 + 와"
+            },
+            {
+              "surface": "나미는",
+              "meaning": "Nami (topic)",
+              "base": "나미 + 는"
+            },
+            {
+              "surface": "마을을",
+              "meaning": "village",
+              "base": "마을 + 을"
+            },
+            {
+              "surface": "지키고",
+              "meaning": "guarded and",
+              "base": "지키다 + -고"
+            },
+            {
+              "surface": "버기를",
+              "meaning": "Buggy (object)",
+              "base": "버기 + 를"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "잠시",
+              "meaning": "for a while"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "시롭 마을에서 거짓말을 즐기는 우솝은 해적들이 온다고 매일 외치고 다녔어.",
+          "translation": "In Syrup Village, Usopp loved telling lies and ran around every day shouting that pirates were coming.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "시롭 마을에서 거짓말을 즐기는 우솝은 해적들이 온다고 매일 외치고 다녔어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "시롭 마을에서 거짓말을 즐기는 우솝은 해적들이 온다고 매일 외치고 다녔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "시롭 마을에서 거짓말을 즐기는 우솝은 해적들이 온다고 매일 외치고 다녔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "시롭 마을에서 거짓말을 즐기는 우솝은 해적들이 온다고 매일 외치고 다녔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "마을에서",
+              "meaning": "in the town",
+              "note": "마을 + 에서"
+            },
+            {
+              "word": "거짓말을",
+              "meaning": "lies",
+              "note": "거짓말 + 을"
+            },
+            {
+              "word": "즐기는",
+              "meaning": "enjoying",
+              "note": "즐기다 + -는"
+            },
+            {
+              "word": "우솝은",
+              "meaning": "Usopp (topic)",
+              "note": "우솝 + 은"
+            },
+            {
+              "word": "해적들이",
+              "meaning": "pirates",
+              "note": "해적들 + 이"
+            },
+            {
+              "word": "온다고",
+              "meaning": "that they were coming",
+              "note": "오다 + -ㄴ다고"
+            },
+            {
+              "word": "외치고",
+              "meaning": "shouted and",
+              "note": "외치다 + -고"
+            },
+            {
+              "word": "다녔어",
+              "meaning": "went around regularly",
+              "note": "다니다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "시롭",
+              "meaning": "Syrup"
+            },
+            {
+              "surface": "마을에서",
+              "meaning": "in the town",
+              "base": "마을 + 에서"
+            },
+            {
+              "surface": "거짓말을",
+              "meaning": "lies",
+              "base": "거짓말 + 을"
+            },
+            {
+              "surface": "즐기는",
+              "meaning": "enjoying",
+              "base": "즐기다 + -는"
+            },
+            {
+              "surface": "우솝은",
+              "meaning": "Usopp (topic)",
+              "base": "우솝 + 은"
+            },
+            {
+              "surface": "해적들이",
+              "meaning": "pirates",
+              "base": "해적들 + 이"
+            },
+            {
+              "surface": "온다고",
+              "meaning": "that they were coming",
+              "base": "오다 + -ㄴ다고"
+            },
+            {
+              "surface": "매일",
+              "meaning": "every day"
+            },
+            {
+              "surface": "외치고",
+              "meaning": "shouted and",
+              "base": "외치다 + -고"
+            },
+            {
+              "surface": "다녔어",
+              "meaning": "went around regularly",
+              "base": "다니다"
+            }
+          ]
+        },
+        {
+          "korean": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어.",
+          "translation": "But his warning that the pirate Kuro, disguised as a butler, planned to steal Kaya’s fortune was true.",
+          "grammar": [
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그러나 집사로 숨어 살던 해적 크로가 카야의 재산을 빼앗으려 한다는 말은 진실이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "집사로",
+              "meaning": "as a butler",
+              "note": "집사 + 로"
+            },
+            {
+              "word": "크로가",
+              "meaning": "Kuro (subject)",
+              "note": "크로 + 가"
+            },
+            {
+              "word": "카야의",
+              "meaning": "Kaya (of / possessive)",
+              "note": "카야 + 의"
+            },
+            {
+              "word": "재산을",
+              "meaning": "fortune/property",
+              "note": "재산 + 을"
+            },
+            {
+              "word": "빼앗으려",
+              "meaning": "to take away",
+              "note": "빼앗다"
+            },
+            {
+              "word": "한다는",
+              "meaning": "that someone does",
+              "note": "하다 + -ㄴ다는"
+            },
+            {
+              "word": "말은",
+              "meaning": "words / speech (topic)",
+              "note": "말 + 은"
+            },
+            {
+              "word": "진실이었어",
+              "meaning": "was the truth",
+              "note": "진실이다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "집사로",
+              "meaning": "as a butler",
+              "base": "집사 + 로"
+            },
+            {
+              "surface": "숨어",
+              "meaning": "hidden / hiding",
+              "base": "숨다 + -아/어"
+            },
+            {
+              "surface": "살던",
+              "meaning": "used to live",
+              "base": "살다 + -던"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "크로가",
+              "meaning": "Kuro (subject)",
+              "base": "크로 + 가"
+            },
+            {
+              "surface": "카야의",
+              "meaning": "Kaya (of / possessive)",
+              "base": "카야 + 의"
+            },
+            {
+              "surface": "재산을",
+              "meaning": "fortune/property",
+              "base": "재산 + 을"
+            },
+            {
+              "surface": "빼앗으려",
+              "meaning": "to take away",
+              "base": "빼앗다"
+            },
+            {
+              "surface": "한다는",
+              "meaning": "that someone does",
+              "base": "하다 + -ㄴ다는"
+            },
+            {
+              "surface": "말은",
+              "meaning": "words / speech (topic)",
+              "base": "말 + 은"
+            },
+            {
+              "surface": "진실이었어",
+              "meaning": "was the truth",
+              "base": "진실이다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어.",
+          "translation": "When no one believed him, Usopp decided to defend the village even alone, and Luffy’s group helped him.",
+          "grammar": [
+            {
+              "pattern": "-기로 하다",
+              "explanation": "Means “decide to do.” -기 turns the action into the content of a decision, while 하다 carries the tense and subject’s commitment.",
+              "example": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어."
+            },
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
+              "example": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "아무도 믿어 주지 않자 우솝은 혼자라도 마을을 지키기로 했고 루피 일행이 그를 도왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아무도",
+              "meaning": "nobody"
+            },
+            {
+              "word": "주지",
+              "meaning": "did for him + not",
+              "note": "주다 + -지"
+            },
+            {
+              "word": "우솝은",
+              "meaning": "Usopp (topic)",
+              "note": "우솝 + 은"
+            },
+            {
+              "word": "마을을",
+              "meaning": "village",
+              "note": "마을 + 을"
+            },
+            {
+              "word": "지키기로",
+              "meaning": "decided to protect",
+              "note": "지키다 + -기로"
+            },
+            {
+              "word": "일행이",
+              "meaning": "group (subject)",
+              "note": "일행 + 이"
+            },
+            {
+              "word": "그를",
+              "meaning": "him",
+              "note": "그 + 를"
+            },
+            {
+              "word": "도왔어",
+              "meaning": "helped",
+              "note": "돕다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아무도",
+              "meaning": "nobody"
+            },
+            {
+              "surface": "주지",
+              "meaning": "did for him + not",
+              "base": "주다 + -지"
+            },
+            {
+              "surface": "않자",
+              "meaning": "when they did not",
+              "base": "않다 + -자"
+            },
+            {
+              "surface": "우솝은",
+              "meaning": "Usopp (topic)",
+              "base": "우솝 + 은"
+            },
+            {
+              "surface": "마을을",
+              "meaning": "village",
+              "base": "마을 + 을"
+            },
+            {
+              "surface": "지키기로",
+              "meaning": "decided to protect",
+              "base": "지키다 + -기로"
+            },
+            {
+              "surface": "했고",
+              "meaning": "did and",
+              "base": "하다 + -았고"
+            },
+            {
+              "surface": "루피",
+              "meaning": "Luffy"
+            },
+            {
+              "surface": "일행이",
+              "meaning": "group (subject)",
+              "base": "일행 + 이"
+            },
+            {
+              "surface": "그를",
+              "meaning": "him",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "도왔어",
+              "meaning": "helped",
+              "base": "돕다"
+            }
+          ]
+        },
+        {
+          "korean": "크로를 물리친 뒤 카야는 고잉 메리호를 선물했고 우솝도 저격수로 동료가 됐어.",
+          "translation": "After Kuro was defeated, Kaya gave them the Going Merry, and Usopp joined as the crew’s sniper.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "크로를 물리친 뒤 카야는 고잉 메리호를 선물했고 우솝도 저격수로 동료가 됐어."
+            },
+            {
+              "pattern": "Passive or change-of-state expression",
+              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
+              "example": "크로를 물리친 뒤 카야는 고잉 메리호를 선물했고 우솝도 저격수로 동료가 됐어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "크로를 물리친 뒤 카야는 고잉 메리호를 선물했고 우솝도 저격수로 동료가 됐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "크로를",
+              "meaning": "Kuro (object)",
+              "note": "크로 + 를"
+            },
+            {
+              "word": "카야는",
+              "meaning": "Kaya (topic)",
+              "note": "카야 + 는"
+            },
+            {
+              "word": "고잉",
+              "meaning": "Going"
+            },
+            {
+              "word": "메리호를",
+              "meaning": "Merry (object)",
+              "note": "메리호 + 를"
+            },
+            {
+              "word": "우솝도",
+              "meaning": "Usopp (also / even)",
+              "note": "우솝 + 도"
+            },
+            {
+              "word": "저격수로",
+              "meaning": "sniper (to / by / as)",
+              "note": "저격수 + 로"
+            },
+            {
+              "word": "동료가",
+              "meaning": "companion (subject)",
+              "note": "동료 + 가"
+            },
+            {
+              "word": "됐어",
+              "meaning": "became",
+              "note": "되다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "크로를",
+              "meaning": "Kuro (object)",
+              "base": "크로 + 를"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "카야는",
+              "meaning": "Kaya (topic)",
+              "base": "카야 + 는"
+            },
+            {
+              "surface": "고잉",
+              "meaning": "Going"
+            },
+            {
+              "surface": "메리호를",
+              "meaning": "Merry (object)",
+              "base": "메리호 + 를"
+            },
+            {
+              "surface": "우솝도",
+              "meaning": "Usopp (also / even)",
+              "base": "우솝 + 도"
+            },
+            {
+              "surface": "저격수로",
+              "meaning": "sniper (to / by / as)",
+              "base": "저격수 + 로"
+            },
+            {
+              "surface": "동료가",
+              "meaning": "companion (subject)",
+              "base": "동료 + 가"
+            },
+            {
+              "surface": "됐어",
+              "meaning": "became",
+              "base": "되다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "바다 위 식당 바라티에에서 루피는 여자를 존중하고 요리를 사랑하는 상디를 만났어.",
+          "translation": "At the floating restaurant Baratie, Luffy met Sanji, a cook who respected women and loved food.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "바다 위 식당 바라티에에서 루피는 여자를 존중하고 요리를 사랑하는 상디를 만났어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "바다 위 식당 바라티에에서 루피는 여자를 존중하고 요리를 사랑하는 상디를 만났어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "바다",
+              "meaning": "to sea"
+            },
+            {
+              "word": "바라티에에서",
+              "meaning": "to hope",
+              "note": "바라다"
+            },
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "존중하고",
+              "meaning": "to respect",
+              "note": "존중하다 + -고"
+            },
+            {
+              "word": "요리를",
+              "meaning": "dish / cooking (object)",
+              "note": "요리 + 를"
+            },
+            {
+              "word": "사랑하는",
+              "meaning": "loving",
+              "note": "사랑하다 + -는"
+            },
+            {
+              "word": "상디를",
+              "meaning": "Sanji (object)",
+              "note": "상디 + 를"
+            },
+            {
+              "word": "만났어",
+              "meaning": "met",
+              "note": "만나다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "바다",
+              "meaning": "to sea"
+            },
+            {
+              "surface": "위",
+              "meaning": "on top"
+            },
+            {
+              "surface": "바라티에에서",
+              "meaning": "to hope",
+              "base": "바라다"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "존중하고",
+              "meaning": "to respect",
+              "base": "존중하다 + -고"
+            },
+            {
+              "surface": "요리를",
+              "meaning": "dish / cooking (object)",
+              "base": "요리 + 를"
+            },
+            {
+              "surface": "사랑하는",
+              "meaning": "loving",
+              "base": "사랑하다 + -는"
+            },
+            {
+              "surface": "상디를",
+              "meaning": "Sanji (object)",
+              "base": "상디 + 를"
+            },
+            {
+              "surface": "만났어",
+              "meaning": "met",
+              "base": "만나다"
+            }
+          ]
+        },
+        {
+          "korean": "상디는 어린 시절 제프와 무인도에 갇혔고 제프의 희생 덕분에 살아남았어.",
+          "translation": "As a child, Sanji was stranded on an island with Zeff and survived because of Zeff’s sacrifice.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "상디는 어린 시절 제프와 무인도에 갇혔고 제프의 희생 덕분에 살아남았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "상디는 어린 시절 제프와 무인도에 갇혔고 제프의 희생 덕분에 살아남았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "상디는",
+              "meaning": "Sanji (topic)",
+              "note": "상디 + 는"
+            },
+            {
+              "word": "어린",
+              "meaning": "young",
+              "note": "어리다 + -(으)ㄴ"
+            },
+            {
+              "word": "제프와",
+              "meaning": "Zeff (and / with)",
+              "note": "제프 + 와"
+            },
+            {
+              "word": "무인도에",
+              "meaning": "deserted island (to / at / in)",
+              "note": "무인도 + 에"
+            },
+            {
+              "word": "제프의",
+              "meaning": "Zeff (of / possessive)",
+              "note": "제프 + 의"
+            },
+            {
+              "word": "희생",
+              "meaning": "sacrifice"
+            },
+            {
+              "word": "덕분에",
+              "meaning": "thanks to (to / at / in)",
+              "note": "덕분 + 에"
+            },
+            {
+              "word": "살아남았어",
+              "meaning": "to survive",
+              "note": "살아남다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "상디는",
+              "meaning": "Sanji (topic)",
+              "base": "상디 + 는"
+            },
+            {
+              "surface": "어린",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄴ"
+            },
+            {
+              "surface": "제프와",
+              "meaning": "Zeff (and / with)",
+              "base": "제프 + 와"
+            },
+            {
+              "surface": "무인도에",
+              "meaning": "deserted island (to / at / in)",
+              "base": "무인도 + 에"
+            },
+            {
+              "surface": "제프의",
+              "meaning": "Zeff (of / possessive)",
+              "base": "제프 + 의"
+            },
+            {
+              "surface": "희생",
+              "meaning": "sacrifice"
+            },
+            {
+              "surface": "덕분에",
+              "meaning": "thanks to (to / at / in)",
+              "base": "덕분 + 에"
+            },
+            {
+              "surface": "살아남았어",
+              "meaning": "to survive",
+              "base": "살아남다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그는 모든 바다의 물고기가 모인다는 전설의 바다 올 블루를 찾는 꿈을 가지고 있었어.",
+          "translation": "He dreamed of finding the legendary All Blue, where fish from every sea were said to gather.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그는 모든 바다의 물고기가 모인다는 전설의 바다 올 블루를 찾는 꿈을 가지고 있었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그는 모든 바다의 물고기가 모인다는 전설의 바다 올 블루를 찾는 꿈을 가지고 있었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그는 모든 바다의 물고기가 모인다는 전설의 바다 올 블루를 찾는 꿈을 가지고 있었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그는",
+              "meaning": "he",
+              "note": "그 + 는"
+            },
+            {
+              "word": "모든",
+              "meaning": "all"
+            },
+            {
+              "word": "바다의",
+              "meaning": "to sea (of / possessive)",
+              "note": "바다 + 의"
+            },
+            {
+              "word": "블루를",
+              "meaning": "Blue (object)",
+              "note": "블루 + 를"
+            },
+            {
+              "word": "찾는",
+              "meaning": "searching for",
+              "note": "찾다 + -는"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "가지고",
+              "meaning": "having",
+              "note": "가지다"
+            },
+            {
+              "word": "있었어",
+              "meaning": "could",
+              "note": "있다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그는",
+              "meaning": "he",
+              "base": "그 + 는"
+            },
+            {
+              "surface": "모든",
+              "meaning": "all"
+            },
+            {
+              "surface": "바다의",
+              "meaning": "to sea (of / possessive)",
+              "base": "바다 + 의"
+            },
+            {
+              "surface": "바다",
+              "meaning": "to sea"
+            },
+            {
+              "surface": "올",
+              "meaning": "All"
+            },
+            {
+              "surface": "블루를",
+              "meaning": "Blue (object)",
+              "base": "블루 + 를"
+            },
+            {
+              "surface": "찾는",
+              "meaning": "searching for",
+              "base": "찾다 + -는"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "가지고",
+              "meaning": "having",
+              "base": "가지다"
+            },
+            {
+              "surface": "있었어",
+              "meaning": "could",
+              "base": "있다"
+            }
+          ]
+        },
+        {
+          "korean": "해적 돈 크리크가 바라티에를 빼앗으려 했지만 루피는 식당과 상디의 꿈을 지켰어.",
+          "translation": "Pirate Don Krieg tried to seize the Baratie, but Luffy protected the restaurant and Sanji’s dream.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "해적 돈 크리크가 바라티에를 빼앗으려 했지만 루피는 식당과 상디의 꿈을 지켰어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "해적 돈 크리크가 바라티에를 빼앗으려 했지만 루피는 식당과 상디의 꿈을 지켰어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "해적 돈 크리크가 바라티에를 빼앗으려 했지만 루피는 식당과 상디의 꿈을 지켰어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "word": "크리크가",
+              "meaning": "Krieg (subject)",
+              "note": "크리크 + 가"
+            },
+            {
+              "word": "바라티에를",
+              "meaning": "to hope",
+              "note": "바라다"
+            },
+            {
+              "word": "빼앗으려",
+              "meaning": "to take away",
+              "note": "빼앗다"
+            },
+            {
+              "word": "했지만",
+              "meaning": "tried but",
+              "note": "하다 + -지만"
+            },
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "상디의",
+              "meaning": "Sanji (of / possessive)",
+              "note": "상디 + 의"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "돈",
+              "meaning": "Don"
+            },
+            {
+              "surface": "크리크가",
+              "meaning": "Krieg (subject)",
+              "base": "크리크 + 가"
+            },
+            {
+              "surface": "바라티에를",
+              "meaning": "to hope",
+              "base": "바라다"
+            },
+            {
+              "surface": "빼앗으려",
+              "meaning": "to take away",
+              "base": "빼앗다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "tried but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "상디의",
+              "meaning": "Sanji (of / possessive)",
+              "base": "상디 + 의"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "그 무렵 조로는 최강의 검사 미호크에게 도전했다가 압도적으로 패배했어.",
+          "translation": "Around that time, Zoro challenged the world’s strongest swordsman, Mihawk, and was overwhelmingly defeated.",
+          "grammar": [
+            {
+              "pattern": "-다가",
+              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
+              "example": "그 무렵 조로는 최강의 검사 미호크에게 도전했다가 압도적으로 패배했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "그 무렵 조로는 최강의 검사 미호크에게 도전했다가 압도적으로 패배했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "그 무렵 조로는 최강의 검사 미호크에게 도전했다가 압도적으로 패배했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그 무렵 조로는 최강의 검사 미호크에게 도전했다가 압도적으로 패배했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "무렵",
+              "meaning": "around that time"
+            },
+            {
+              "word": "조로는",
+              "meaning": "Zoro (topic)",
+              "note": "조로 + 는"
+            },
+            {
+              "word": "최강의",
+              "meaning": "strongest",
+              "note": "최강 + 의"
+            },
+            {
+              "word": "검사",
+              "meaning": "swordsman"
+            },
+            {
+              "word": "미호크에게",
+              "meaning": "Mihawk (to / by)",
+              "note": "미호크 + 에게"
+            },
+            {
+              "word": "도전했다가",
+              "meaning": "challenged and then",
+              "note": "도전하다 + -았다가"
+            },
+            {
+              "word": "압도적으로",
+              "meaning": "overwhelmingly",
+              "note": "압도적 + 으로"
+            },
+            {
+              "word": "패배했어",
+              "meaning": "was defeated",
+              "note": "패배하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그",
+              "meaning": "that"
+            },
+            {
+              "surface": "무렵",
+              "meaning": "around that time"
+            },
+            {
+              "surface": "조로는",
+              "meaning": "Zoro (topic)",
+              "base": "조로 + 는"
+            },
+            {
+              "surface": "최강의",
+              "meaning": "strongest",
+              "base": "최강 + 의"
+            },
+            {
+              "surface": "검사",
+              "meaning": "swordsman"
+            },
+            {
+              "surface": "미호크에게",
+              "meaning": "Mihawk (to / by)",
+              "base": "미호크 + 에게"
+            },
+            {
+              "surface": "도전했다가",
+              "meaning": "challenged and then",
+              "base": "도전하다 + -았다가"
+            },
+            {
+              "surface": "압도적으로",
+              "meaning": "overwhelmingly",
+              "base": "압도적 + 으로"
+            },
+            {
+              "surface": "패배했어",
+              "meaning": "was defeated",
+              "base": "패배하다"
+            }
+          ]
+        },
+        {
+          "korean": "조로는 다시는 지지 않겠다고 루피에게 맹세했고 상디는 제프와 작별한 뒤 배에 올랐어.",
+          "translation": "Zoro swore to Luffy that he would never lose again, and Sanji joined after saying farewell to Zeff.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "조로는 다시는 지지 않겠다고 루피에게 맹세했고 상디는 제프와 작별한 뒤 배에 올랐어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "조로는 다시는 지지 않겠다고 루피에게 맹세했고 상디는 제프와 작별한 뒤 배에 올랐어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "조로는 다시는 지지 않겠다고 루피에게 맹세했고 상디는 제프와 작별한 뒤 배에 올랐어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "조로는 다시는 지지 않겠다고 루피에게 맹세했고 상디는 제프와 작별한 뒤 배에 올랐어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "조로는",
+              "meaning": "Zoro (topic)",
+              "note": "조로 + 는"
+            },
+            {
+              "word": "다시는",
+              "meaning": "again (topic)",
+              "note": "다시 + 는"
+            },
+            {
+              "word": "루피에게",
+              "meaning": "Luffy (to / by)",
+              "note": "루피 + 에게"
+            },
+            {
+              "word": "맹세했고",
+              "meaning": "to swear",
+              "note": "맹세하다 + -았고"
+            },
+            {
+              "word": "상디는",
+              "meaning": "Sanji (topic)",
+              "note": "상디 + 는"
+            },
+            {
+              "word": "제프와",
+              "meaning": "Zeff (and / with)",
+              "note": "제프 + 와"
+            },
+            {
+              "word": "작별한",
+              "meaning": "to say farewell",
+              "note": "작별하다 + -(으)ㄴ"
+            },
+            {
+              "word": "배에",
+              "meaning": "boat (to / at / in)",
+              "note": "배 + 에"
+            }
+          ],
+          "words": [
+            {
+              "surface": "조로는",
+              "meaning": "Zoro (topic)",
+              "base": "조로 + 는"
+            },
+            {
+              "surface": "다시는",
+              "meaning": "again (topic)",
+              "base": "다시 + 는"
+            },
+            {
+              "surface": "지지",
+              "meaning": "support"
+            },
+            {
+              "surface": "루피에게",
+              "meaning": "Luffy (to / by)",
+              "base": "루피 + 에게"
+            },
+            {
+              "surface": "맹세했고",
+              "meaning": "to swear",
+              "base": "맹세하다 + -았고"
+            },
+            {
+              "surface": "상디는",
+              "meaning": "Sanji (topic)",
+              "base": "상디 + 는"
+            },
+            {
+              "surface": "제프와",
+              "meaning": "Zeff (and / with)",
+              "base": "제프 + 와"
+            },
+            {
+              "surface": "작별한",
+              "meaning": "to say farewell",
+              "base": "작별하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "뒤",
+              "meaning": "after"
+            },
+            {
+              "surface": "배에",
+              "meaning": "boat (to / at / in)",
+              "base": "배 + 에"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "한편 나미는 고잉 메리호를 훔쳐 자기 고향 코코야시 마을로 돌아갔어.",
+          "translation": "Meanwhile, Nami stole the Going Merry and returned to her home, Cocoyasi Village.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "한편 나미는 고잉 메리호를 훔쳐 자기 고향 코코야시 마을로 돌아갔어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "한편 나미는 고잉 메리호를 훔쳐 자기 고향 코코야시 마을로 돌아갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "한편 나미는 고잉 메리호를 훔쳐 자기 고향 코코야시 마을로 돌아갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "한편",
+              "meaning": "meanwhile"
+            },
+            {
+              "word": "나미는",
+              "meaning": "Nami (topic)",
+              "note": "나미 + 는"
+            },
+            {
+              "word": "고잉",
+              "meaning": "Going"
+            },
+            {
+              "word": "메리호를",
+              "meaning": "Merry (object)",
+              "note": "메리호 + 를"
+            },
+            {
+              "word": "훔쳐",
+              "meaning": "stole and",
+              "note": "훔치다 + -아/어"
+            },
+            {
+              "word": "자기",
+              "meaning": "her own"
+            },
+            {
+              "word": "마을로",
+              "meaning": "village (to / by / as)",
+              "note": "마을 + 로"
+            },
+            {
+              "word": "돌아갔어",
+              "meaning": "returned",
+              "note": "돌아가다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "한편",
+              "meaning": "meanwhile"
+            },
+            {
+              "surface": "나미는",
+              "meaning": "Nami (topic)",
+              "base": "나미 + 는"
+            },
+            {
+              "surface": "고잉",
+              "meaning": "Going"
+            },
+            {
+              "surface": "메리호를",
+              "meaning": "Merry (object)",
+              "base": "메리호 + 를"
+            },
+            {
+              "surface": "훔쳐",
+              "meaning": "stole and",
+              "base": "훔치다 + -아/어"
+            },
+            {
+              "surface": "자기",
+              "meaning": "her own"
+            },
+            {
+              "surface": "마을로",
+              "meaning": "village (to / by / as)",
+              "base": "마을 + 로"
+            },
+            {
+              "surface": "돌아갔어",
+              "meaning": "returned",
+              "base": "돌아가다"
+            }
+          ]
+        },
+        {
+          "korean": "나미의 고향은 어인 해적 아론에게 지배당하고 있었고 주민들은 오랫동안 돈을 빼앗겼어.",
+          "translation": "Nami’s home was ruled by the fish-man pirate Arlong, who had extorted the villagers for years.",
+          "grammar": [
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "나미의 고향은 어인 해적 아론에게 지배당하고 있었고 주민들은 오랫동안 돈을 빼앗겼어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "나미의 고향은 어인 해적 아론에게 지배당하고 있었고 주민들은 오랫동안 돈을 빼앗겼어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "나미의 고향은 어인 해적 아론에게 지배당하고 있었고 주민들은 오랫동안 돈을 빼앗겼어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "나미의 고향은 어인 해적 아론에게 지배당하고 있었고 주민들은 오랫동안 돈을 빼앗겼어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나미의",
+              "meaning": "Nami's",
+              "note": "나미 + 의"
+            },
+            {
+              "word": "고향은",
+              "meaning": "hometown",
+              "note": "고향 + 은"
+            },
+            {
+              "word": "아론에게",
+              "meaning": "by Arlong",
+              "note": "아론 + 에게"
+            },
+            {
+              "word": "지배당하고",
+              "meaning": "being ruled and",
+              "note": "지배당하다 + -고"
+            },
+            {
+              "word": "있었고",
+              "meaning": "was / had and",
+              "note": "있다 + -었고"
+            },
+            {
+              "word": "주민들은",
+              "meaning": "residents",
+              "note": "주민들 + 은"
+            },
+            {
+              "word": "돈을",
+              "meaning": "Don (object)",
+              "note": "돈 + 을"
+            },
+            {
+              "word": "빼앗겼어",
+              "meaning": "to take away",
+              "note": "빼앗다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "나미의",
+              "meaning": "Nami's",
+              "base": "나미 + 의"
+            },
+            {
+              "surface": "고향은",
+              "meaning": "hometown",
+              "base": "고향 + 은"
+            },
+            {
+              "surface": "어인",
+              "meaning": "fish-man"
+            },
+            {
+              "surface": "해적",
+              "meaning": "pirate"
+            },
+            {
+              "surface": "아론에게",
+              "meaning": "by Arlong",
+              "base": "아론 + 에게"
+            },
+            {
+              "surface": "지배당하고",
+              "meaning": "being ruled and",
+              "base": "지배당하다 + -고"
+            },
+            {
+              "surface": "있었고",
+              "meaning": "was / had and",
+              "base": "있다 + -었고"
+            },
+            {
+              "surface": "주민들은",
+              "meaning": "residents",
+              "base": "주민들 + 은"
+            },
+            {
+              "surface": "오랫동안",
+              "meaning": "for a long time"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "Don (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "빼앗겼어",
+              "meaning": "to take away",
+              "base": "빼앗다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "어릴 때 나미와 노지코를 키운 벨메일은 두 아이를 가족이라고 인정한 대가로 아론에게 죽었어.",
+          "translation": "Belle-mère, who raised Nami and Nojiko, was killed by Arlong because she openly acknowledged the two girls as her family.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "어릴 때 나미와 노지코를 키운 벨메일은 두 아이를 가족이라고 인정한 대가로 아론에게 죽었어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "어릴 때 나미와 노지코를 키운 벨메일은 두 아이를 가족이라고 인정한 대가로 아론에게 죽었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "어릴 때 나미와 노지코를 키운 벨메일은 두 아이를 가족이라고 인정한 대가로 아론에게 죽었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "어릴 때 나미와 노지코를 키운 벨메일은 두 아이를 가족이라고 인정한 대가로 아론에게 죽었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나미와",
+              "meaning": "Nami and",
+              "note": "나미 + 와"
+            },
+            {
+              "word": "노지코를",
+              "meaning": "Nojiko (object)",
+              "note": "노지코 + 를"
+            },
+            {
+              "word": "벨메일은",
+              "meaning": "Belle-mère (topic)",
+              "note": "벨메일 + 은"
+            },
+            {
+              "word": "아이를",
+              "meaning": "like a child (object)",
+              "note": "아이 + 를"
+            },
+            {
+              "word": "가족이라고",
+              "meaning": "family (quoted as / that it is)",
+              "note": "가족 + 이라고"
+            },
+            {
+              "word": "인정한",
+              "meaning": "to acknowledge",
+              "note": "인정하다 + -(으)ㄴ"
+            },
+            {
+              "word": "대가로",
+              "meaning": "price / cost (to / by / as)",
+              "note": "대가 + 로"
+            },
+            {
+              "word": "아론에게",
+              "meaning": "by Arlong",
+              "note": "아론 + 에게"
+            }
+          ],
+          "words": [
+            {
+              "surface": "어릴",
+              "meaning": "young",
+              "base": "어리다 + -(으)ㄹ"
+            },
+            {
+              "surface": "때",
+              "meaning": "when"
+            },
+            {
+              "surface": "나미와",
+              "meaning": "Nami and",
+              "base": "나미 + 와"
+            },
+            {
+              "surface": "노지코를",
+              "meaning": "Nojiko (object)",
+              "base": "노지코 + 를"
+            },
+            {
+              "surface": "키운",
+              "meaning": "raised",
+              "base": "키우다 + -(으)ㄴ"
+            },
+            {
+              "surface": "벨메일은",
+              "meaning": "Belle-mère (topic)",
+              "base": "벨메일 + 은"
+            },
+            {
+              "surface": "두",
+              "meaning": "two"
+            },
+            {
+              "surface": "아이를",
+              "meaning": "like a child (object)",
+              "base": "아이 + 를"
+            },
+            {
+              "surface": "가족이라고",
+              "meaning": "family (quoted as / that it is)",
+              "base": "가족 + 이라고"
+            },
+            {
+              "surface": "인정한",
+              "meaning": "to acknowledge",
+              "base": "인정하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "대가로",
+              "meaning": "price / cost (to / by / as)",
+              "base": "대가 + 로"
+            },
+            {
+              "surface": "아론에게",
+              "meaning": "by Arlong",
+              "base": "아론 + 에게"
+            },
+            {
+              "surface": "죽었어",
+              "meaning": "died",
+              "base": "죽다"
+            }
+          ]
+        },
+        {
+          "korean": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어.",
+          "translation": "Arlong exploited Nami’s navigation skills and promised she could buy the village for one hundred million berries.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어."
+            },
+            {
+              "pattern": "-아/어 주다",
+              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
+              "example": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어."
+            },
+            {
+              "pattern": "-(으)면",
+              "explanation": "Expresses a condition: “if” or sometimes “when.” The following clause states the result that applies under that condition.",
+              "example": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "아론은 나미의 항해술을 이용하려고 그녀에게 일억 베리를 모으면 마을을 사게 해 주겠다고 약속했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "아론은",
+              "meaning": "Arlong (topic)",
+              "note": "아론 + 은"
+            },
+            {
+              "word": "나미의",
+              "meaning": "Nami's",
+              "note": "나미 + 의"
+            },
+            {
+              "word": "이용하려고",
+              "meaning": "intending to use",
+              "note": "이용하다 + -(으)려고"
+            },
+            {
+              "word": "그녀에게",
+              "meaning": "her (to / by)",
+              "note": "그녀 + 에게"
+            },
+            {
+              "word": "베리를",
+              "meaning": "berry (currency) (object)",
+              "note": "베리 + 를"
+            },
+            {
+              "word": "마을을",
+              "meaning": "village",
+              "note": "마을 + 을"
+            },
+            {
+              "word": "주겠다고",
+              "meaning": "that he would give",
+              "note": "주다 + -겠다고"
+            },
+            {
+              "word": "약속했어",
+              "meaning": "promised",
+              "note": "약속하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "아론은",
+              "meaning": "Arlong (topic)",
+              "base": "아론 + 은"
+            },
+            {
+              "surface": "나미의",
+              "meaning": "Nami's",
+              "base": "나미 + 의"
+            },
+            {
+              "surface": "이용하려고",
+              "meaning": "intending to use",
+              "base": "이용하다 + -(으)려고"
+            },
+            {
+              "surface": "그녀에게",
+              "meaning": "her (to / by)",
+              "base": "그녀 + 에게"
+            },
+            {
+              "surface": "일억",
+              "meaning": "one hundred million"
+            },
+            {
+              "surface": "베리를",
+              "meaning": "berry (currency) (object)",
+              "base": "베리 + 를"
+            },
+            {
+              "surface": "모으면",
+              "meaning": "to gather",
+              "base": "모으다"
+            },
+            {
+              "surface": "마을을",
+              "meaning": "village",
+              "base": "마을 + 을"
+            },
+            {
+              "surface": "해",
+              "meaning": "do / make",
+              "base": "하다 + -아/어"
+            },
+            {
+              "surface": "주겠다고",
+              "meaning": "that he would give",
+              "base": "주다 + -겠다고"
+            },
+            {
+              "surface": "약속했어",
+              "meaning": "promised",
+              "base": "약속하다"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어.",
+          "translation": "For years, Nami stole money from pirates and saved the promised amount.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어."
+            },
+            {
+              "pattern": "-지 않다 / 안",
+              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
+              "example": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "나미는 해적에게서 돈을 훔치며 수년 동안 약속한 금액을 모았어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나미는",
+              "meaning": "Nami (topic)",
+              "note": "나미 + 는"
+            },
+            {
+              "word": "해적에게서",
+              "meaning": "pirate (from)",
+              "note": "해적 + 에게서"
+            },
+            {
+              "word": "돈을",
+              "meaning": "Don (object)",
+              "note": "돈 + 을"
+            },
+            {
+              "word": "훔치며",
+              "meaning": "stole and",
+              "note": "훔치다"
+            },
+            {
+              "word": "동안",
+              "meaning": "during"
+            },
+            {
+              "word": "약속한",
+              "meaning": "promised",
+              "note": "약속하다 + -(으)ㄴ"
+            },
+            {
+              "word": "금액을",
+              "meaning": "amount of money (object)",
+              "note": "금액 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "나미는",
+              "meaning": "Nami (topic)",
+              "base": "나미 + 는"
+            },
+            {
+              "surface": "해적에게서",
+              "meaning": "pirate (from)",
+              "base": "해적 + 에게서"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "Don (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "훔치며",
+              "meaning": "stole and",
+              "base": "훔치다"
+            },
+            {
+              "surface": "동안",
+              "meaning": "during"
+            },
+            {
+              "surface": "약속한",
+              "meaning": "promised",
+              "base": "약속하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "금액을",
+              "meaning": "amount of money (object)",
+              "base": "금액 + 을"
+            }
+          ]
+        },
+        {
+          "korean": "그러나 아론은 부패한 해군과 짜고 나미가 모은 돈을 빼앗아 약속을 깨뜨렸어.",
+          "translation": "But Arlong conspired with corrupt Marines to confiscate Nami’s savings and break the agreement.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "그러나 아론은 부패한 해군과 짜고 나미가 모은 돈을 빼앗아 약속을 깨뜨렸어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "그러나 아론은 부패한 해군과 짜고 나미가 모은 돈을 빼앗아 약속을 깨뜨렸어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "그러나 아론은 부패한 해군과 짜고 나미가 모은 돈을 빼앗아 약속을 깨뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "그러나",
+              "meaning": "however"
+            },
+            {
+              "word": "아론은",
+              "meaning": "Arlong (topic)",
+              "note": "아론 + 은"
+            },
+            {
+              "word": "해군과",
+              "meaning": "Marines / navy (and / with)",
+              "note": "해군 + 과"
+            },
+            {
+              "word": "나미가",
+              "meaning": "Nami",
+              "note": "나미 + 가"
+            },
+            {
+              "word": "모은",
+              "meaning": "collected",
+              "note": "모으다 + -(으)ㄴ"
+            },
+            {
+              "word": "돈을",
+              "meaning": "Don (object)",
+              "note": "돈 + 을"
+            },
+            {
+              "word": "빼앗아",
+              "meaning": "to take away",
+              "note": "빼앗다"
+            },
+            {
+              "word": "약속을",
+              "meaning": "promise",
+              "note": "약속 + 을"
+            }
+          ],
+          "words": [
+            {
+              "surface": "그러나",
+              "meaning": "however"
+            },
+            {
+              "surface": "아론은",
+              "meaning": "Arlong (topic)",
+              "base": "아론 + 은"
+            },
+            {
+              "surface": "해군과",
+              "meaning": "Marines / navy (and / with)",
+              "base": "해군 + 과"
+            },
+            {
+              "surface": "나미가",
+              "meaning": "Nami",
+              "base": "나미 + 가"
+            },
+            {
+              "surface": "모은",
+              "meaning": "collected",
+              "base": "모으다 + -(으)ㄴ"
+            },
+            {
+              "surface": "돈을",
+              "meaning": "Don (object)",
+              "base": "돈 + 을"
+            },
+            {
+              "surface": "빼앗아",
+              "meaning": "to take away",
+              "base": "빼앗다"
+            },
+            {
+              "surface": "약속을",
+              "meaning": "promise",
+              "base": "약속 + 을"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "절망한 나미가 루피에게 도와 달라고 부탁하자 루피는 밀짚모자를 맡기고 아론 파크로 향했어.",
+          "translation": "When the desperate Nami asked Luffy for help, he placed his straw hat on her and headed for Arlong Park.",
+          "grammar": [
+            {
+              "pattern": "-다고/라고 하다",
+              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
+              "example": "절망한 나미가 루피에게 도와 달라고 부탁하자 루피는 밀짚모자를 맡기고 아론 파크로 향했어."
+            },
+            {
+              "pattern": "-게",
+              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
+              "example": "절망한 나미가 루피에게 도와 달라고 부탁하자 루피는 밀짚모자를 맡기고 아론 파크로 향했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "절망한 나미가 루피에게 도와 달라고 부탁하자 루피는 밀짚모자를 맡기고 아론 파크로 향했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "절망한 나미가 루피에게 도와 달라고 부탁하자 루피는 밀짚모자를 맡기고 아론 파크로 향했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나미가",
+              "meaning": "Nami",
+              "note": "나미 + 가"
+            },
+            {
+              "word": "루피에게",
+              "meaning": "Luffy (to / by)",
+              "note": "루피 + 에게"
+            },
+            {
+              "word": "달라고",
+              "meaning": "asking for it",
+              "note": "-아/어 달라고"
+            },
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "밀짚모자를",
+              "meaning": "straw hat (object)",
+              "note": "밀짚모자 + 를"
+            },
+            {
+              "word": "아론",
+              "meaning": "Arlong"
+            },
+            {
+              "word": "향했어",
+              "meaning": "to head toward",
+              "note": "향하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "나미가",
+              "meaning": "Nami",
+              "base": "나미 + 가"
+            },
+            {
+              "surface": "루피에게",
+              "meaning": "Luffy (to / by)",
+              "base": "루피 + 에게"
+            },
+            {
+              "surface": "달라고",
+              "meaning": "asking for it",
+              "base": "-아/어 달라고"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "밀짚모자를",
+              "meaning": "straw hat (object)",
+              "base": "밀짚모자 + 를"
+            },
+            {
+              "surface": "아론",
+              "meaning": "Arlong"
+            },
+            {
+              "surface": "향했어",
+              "meaning": "to head toward",
+              "base": "향하다 + -았어"
+            }
+          ]
+        },
+        {
+          "korean": "루피와 조로와 상디와 우솝은 각자 어인 간부들과 싸워 주민들을 해방했어.",
+          "translation": "Luffy, Zoro, Sanji, and Usopp fought the fish-man officers and freed the villagers.",
+          "grammar": [
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "루피와 조로와 상디와 우솝은 각자 어인 간부들과 싸워 주민들을 해방했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "루피와 조로와 상디와 우솝은 각자 어인 간부들과 싸워 주민들을 해방했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "루피와 조로와 상디와 우솝은 각자 어인 간부들과 싸워 주민들을 해방했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피와",
+              "meaning": "Luffy (and / with)",
+              "note": "루피 + 와"
+            },
+            {
+              "word": "조로와",
+              "meaning": "Zoro (and / with)",
+              "note": "조로 + 와"
+            },
+            {
+              "word": "상디와",
+              "meaning": "Sanji (and / with)",
+              "note": "상디 + 와"
+            },
+            {
+              "word": "우솝은",
+              "meaning": "Usopp (topic)",
+              "note": "우솝 + 은"
+            },
+            {
+              "word": "각자",
+              "meaning": "each person"
+            },
+            {
+              "word": "어인",
+              "meaning": "fish-man"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피와",
+              "meaning": "Luffy (and / with)",
+              "base": "루피 + 와"
+            },
+            {
+              "surface": "조로와",
+              "meaning": "Zoro (and / with)",
+              "base": "조로 + 와"
+            },
+            {
+              "surface": "상디와",
+              "meaning": "Sanji (and / with)",
+              "base": "상디 + 와"
+            },
+            {
+              "surface": "우솝은",
+              "meaning": "Usopp (topic)",
+              "base": "우솝 + 은"
+            },
+            {
+              "surface": "각자",
+              "meaning": "each person"
+            },
+            {
+              "surface": "어인",
+              "meaning": "fish-man"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어.",
+          "translation": "Luffy defeated Arlong and even destroyed the map room that had imprisoned Nami through her work.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-던",
+              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
+              "example": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-았/었던",
+              "explanation": "A retrospective modifier for a completed past experience: “that had done / used to be.” It looks back on a fact that is separated from the present.",
+              "example": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "루피는 나미를 가둬 두었던 지도 제작실까지 부수며 아론을 쓰러뜨렸어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "나미를",
+              "meaning": "Nami (object)",
+              "note": "나미 + 를"
+            },
+            {
+              "word": "가둬",
+              "meaning": "confined",
+              "note": "가두다 + -아/어"
+            },
+            {
+              "word": "두었던",
+              "meaning": "had kept",
+              "note": "두다 + -었던"
+            },
+            {
+              "word": "제작실까지",
+              "meaning": "even the production/map room",
+              "note": "제작실 + 까지"
+            },
+            {
+              "word": "부수며",
+              "meaning": "to destroy",
+              "note": "부수다"
+            },
+            {
+              "word": "아론을",
+              "meaning": "Arlong (object)",
+              "note": "아론 + 을"
+            },
+            {
+              "word": "쓰러뜨렸어",
+              "meaning": "defeated / knocked down",
+              "note": "쓰러뜨리다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "나미를",
+              "meaning": "Nami (object)",
+              "base": "나미 + 를"
+            },
+            {
+              "surface": "가둬",
+              "meaning": "confined",
+              "base": "가두다 + -아/어"
+            },
+            {
+              "surface": "두었던",
+              "meaning": "had kept",
+              "base": "두다 + -었던"
+            },
+            {
+              "surface": "지도",
+              "meaning": "map"
+            },
+            {
+              "surface": "제작실까지",
+              "meaning": "even the production/map room",
+              "base": "제작실 + 까지"
+            },
+            {
+              "surface": "부수며",
+              "meaning": "to destroy",
+              "base": "부수다"
+            },
+            {
+              "surface": "아론을",
+              "meaning": "Arlong (object)",
+              "base": "아론 + 을"
+            },
+            {
+              "surface": "쓰러뜨렸어",
+              "meaning": "defeated / knocked down",
+              "base": "쓰러뜨리다"
+            }
+          ]
+        },
+        {
+          "korean": "나미는 진짜 항해사로 밀짚모자 일당에 합류했고 마을 사람들과 웃으며 작별했어.",
+          "translation": "Nami officially joined the Straw Hats as their navigator and said a smiling farewell to the villagers.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "나미는 진짜 항해사로 밀짚모자 일당에 합류했고 마을 사람들과 웃으며 작별했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "나미는 진짜 항해사로 밀짚모자 일당에 합류했고 마을 사람들과 웃으며 작별했어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "나미는 진짜 항해사로 밀짚모자 일당에 합류했고 마을 사람들과 웃으며 작별했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "나미는 진짜 항해사로 밀짚모자 일당에 합류했고 마을 사람들과 웃으며 작별했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "나미는",
+              "meaning": "Nami (topic)",
+              "note": "나미 + 는"
+            },
+            {
+              "word": "진짜",
+              "meaning": "real"
+            },
+            {
+              "word": "항해사로",
+              "meaning": "navigator (to / by / as)",
+              "note": "항해사 + 로"
+            },
+            {
+              "word": "밀짚모자",
+              "meaning": "straw hat"
+            },
+            {
+              "word": "마을",
+              "meaning": "village"
+            },
+            {
+              "word": "사람들과",
+              "meaning": "with people",
+              "note": "사람들 + 과"
+            },
+            {
+              "word": "작별했어",
+              "meaning": "to say farewell",
+              "note": "작별하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "나미는",
+              "meaning": "Nami (topic)",
+              "base": "나미 + 는"
+            },
+            {
+              "surface": "진짜",
+              "meaning": "real"
+            },
+            {
+              "surface": "항해사로",
+              "meaning": "navigator (to / by / as)",
+              "base": "항해사 + 로"
+            },
+            {
+              "surface": "밀짚모자",
+              "meaning": "straw hat"
+            },
+            {
+              "surface": "마을",
+              "meaning": "village"
+            },
+            {
+              "surface": "사람들과",
+              "meaning": "with people",
+              "base": "사람들 + 과"
+            },
+            {
+              "surface": "작별했어",
+              "meaning": "to say farewell",
+              "base": "작별하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "로그타운에 도착한 루피는 해적왕 골 D. 로저가 처형된 장소를 보러 갔어.",
+          "translation": "In Loguetown, Luffy went to see the place where Pirate King Gol D. Roger had been executed.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "로그타운에 도착한 루피는 해적왕 골 D. 로저가 처형된 장소를 보러 갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "로그타운에 도착한 루피는 해적왕 골 D. 로저가 처형된 장소를 보러 갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "로그타운에",
+              "meaning": "Loguetown (to / at / in)",
+              "note": "로그타운 + 에"
+            },
+            {
+              "word": "도착한",
+              "meaning": "arrived",
+              "note": "도착하다 + -(으)ㄴ"
+            },
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "해적왕",
+              "meaning": "Pirate King"
+            },
+            {
+              "word": "골",
+              "meaning": "Gol"
+            },
+            {
+              "word": "로저가",
+              "meaning": "Roger (subject)",
+              "note": "로저 + 가"
+            },
+            {
+              "word": "장소를",
+              "meaning": "more than a place (object)",
+              "note": "장소 + 를"
+            },
+            {
+              "word": "갔어",
+              "meaning": "continued",
+              "note": "가다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "로그타운에",
+              "meaning": "Loguetown (to / at / in)",
+              "base": "로그타운 + 에"
+            },
+            {
+              "surface": "도착한",
+              "meaning": "arrived",
+              "base": "도착하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "해적왕",
+              "meaning": "Pirate King"
+            },
+            {
+              "surface": "골",
+              "meaning": "Gol"
+            },
+            {
+              "surface": "로저가",
+              "meaning": "Roger (subject)",
+              "base": "로저 + 가"
+            },
+            {
+              "surface": "장소를",
+              "meaning": "more than a place (object)",
+              "base": "장소 + 를"
+            },
+            {
+              "surface": "갔어",
+              "meaning": "continued",
+              "base": "가다"
+            }
+          ]
+        },
+        {
+          "korean": "버기와 알비다는 루피를 처형대에서 죽이려 했지만 갑작스러운 번개가 그를 구했어.",
+          "translation": "Buggy and Alvida tried to execute Luffy on the platform, but a sudden bolt of lightning saved him.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "버기와 알비다는 루피를 처형대에서 죽이려 했지만 갑작스러운 번개가 그를 구했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "버기와 알비다는 루피를 처형대에서 죽이려 했지만 갑작스러운 번개가 그를 구했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "버기와 알비다는 루피를 처형대에서 죽이려 했지만 갑작스러운 번개가 그를 구했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "버기와",
+              "meaning": "Buggy (and / with)",
+              "note": "버기 + 와"
+            },
+            {
+              "word": "알비다는",
+              "meaning": "Alvida (topic)",
+              "note": "알비다 + 는"
+            },
+            {
+              "word": "루피를",
+              "meaning": "Luffy (object)",
+              "note": "루피 + 를"
+            },
+            {
+              "word": "죽이려",
+              "meaning": "to kill",
+              "note": "죽이다"
+            },
+            {
+              "word": "했지만",
+              "meaning": "tried but",
+              "note": "하다 + -지만"
+            },
+            {
+              "word": "번개가",
+              "meaning": "lightning (subject)",
+              "note": "번개 + 가"
+            },
+            {
+              "word": "그를",
+              "meaning": "him",
+              "note": "그 + 를"
+            },
+            {
+              "word": "구했어",
+              "meaning": "saved",
+              "note": "구하다 + -았어"
+            }
+          ],
+          "words": [
+            {
+              "surface": "버기와",
+              "meaning": "Buggy (and / with)",
+              "base": "버기 + 와"
+            },
+            {
+              "surface": "알비다는",
+              "meaning": "Alvida (topic)",
+              "base": "알비다 + 는"
+            },
+            {
+              "surface": "루피를",
+              "meaning": "Luffy (object)",
+              "base": "루피 + 를"
+            },
+            {
+              "surface": "죽이려",
+              "meaning": "to kill",
+              "base": "죽이다"
+            },
+            {
+              "surface": "했지만",
+              "meaning": "tried but",
+              "base": "하다 + -지만"
+            },
+            {
+              "surface": "번개가",
+              "meaning": "lightning (subject)",
+              "base": "번개 + 가"
+            },
+            {
+              "surface": "그를",
+              "meaning": "him",
+              "base": "그 + 를"
+            },
+            {
+              "surface": "구했어",
+              "meaning": "saved",
+              "base": "구하다 + -았어"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어.",
+          "translation": "Marine Captain Smoker captured Luffy with smoke powers, but the revolutionary Dragon helped him escape.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "해군 대령 스모커는 연기 능력으로 루피를 붙잡았지만 혁명가 드래곤이 탈출을 도왔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "스모커는",
+              "meaning": "Smoker (topic)",
+              "note": "스모커 + 는"
+            },
+            {
+              "word": "능력으로",
+              "meaning": "power / ability (to / by / as)",
+              "note": "능력 + 으로"
+            },
+            {
+              "word": "루피를",
+              "meaning": "Luffy (object)",
+              "note": "루피 + 를"
+            },
+            {
+              "word": "붙잡았지만",
+              "meaning": "captured but",
+              "note": "붙잡다 + -았지만"
+            },
+            {
+              "word": "혁명가",
+              "meaning": "revolutionary"
+            },
+            {
+              "word": "드래곤이",
+              "meaning": "Dragon (subject)",
+              "note": "드래곤 + 이"
+            },
+            {
+              "word": "탈출을",
+              "meaning": "escape",
+              "note": "탈출 + 을"
+            },
+            {
+              "word": "도왔어",
+              "meaning": "helped",
+              "note": "돕다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "해군",
+              "meaning": "Marines / navy"
+            },
+            {
+              "surface": "대령",
+              "meaning": "captain / colonel"
+            },
+            {
+              "surface": "스모커는",
+              "meaning": "Smoker (topic)",
+              "base": "스모커 + 는"
+            },
+            {
+              "surface": "연기",
+              "meaning": "smoke"
+            },
+            {
+              "surface": "능력으로",
+              "meaning": "power / ability (to / by / as)",
+              "base": "능력 + 으로"
+            },
+            {
+              "surface": "루피를",
+              "meaning": "Luffy (object)",
+              "base": "루피 + 를"
+            },
+            {
+              "surface": "붙잡았지만",
+              "meaning": "captured but",
+              "base": "붙잡다 + -았지만"
+            },
+            {
+              "surface": "혁명가",
+              "meaning": "revolutionary"
+            },
+            {
+              "surface": "드래곤이",
+              "meaning": "Dragon (subject)",
+              "base": "드래곤 + 이"
+            },
+            {
+              "surface": "탈출을",
+              "meaning": "escape",
+              "base": "탈출 + 을"
+            },
+            {
+              "surface": "도왔어",
+              "meaning": "helped",
+              "base": "돕다"
+            }
+          ]
+        },
+        {
+          "korean": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어.",
+          "translation": "Before entering the Grand Line, the crew restated their dreams and strengthened their resolve.",
+          "grammar": [
+            {
+              "pattern": "-기 전에",
+              "explanation": "Means “before doing.” -기 turns the verb into a noun-like action, and 전에 places the next event earlier than it.",
+              "example": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어."
+            },
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어."
+            },
+            {
+              "pattern": "-는 것 / -기",
+              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
+              "example": "동료들은 위대한 항로로 들어가기 전에 각자의 꿈을 다시 말하며 결의를 다졌어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "동료들은",
+              "meaning": "crewmates",
+              "note": "동료들 + 은"
+            },
+            {
+              "word": "위대한",
+              "meaning": "great",
+              "note": "위대하다 + -(으)ㄴ"
+            },
+            {
+              "word": "항로로",
+              "meaning": "to the sea route",
+              "note": "항로 + 로"
+            },
+            {
+              "word": "전에",
+              "meaning": "before / ago",
+              "note": "전 + 에"
+            },
+            {
+              "word": "각자의",
+              "meaning": "each person's",
+              "note": "각자 + 의"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "말하며",
+              "meaning": "to say",
+              "note": "말하다 + -(으)며"
+            },
+            {
+              "word": "결의를",
+              "meaning": "resolve (object)",
+              "note": "결의 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "동료들은",
+              "meaning": "crewmates",
+              "base": "동료들 + 은"
+            },
+            {
+              "surface": "위대한",
+              "meaning": "great",
+              "base": "위대하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "항로로",
+              "meaning": "to the sea route",
+              "base": "항로 + 로"
+            },
+            {
+              "surface": "전에",
+              "meaning": "before / ago",
+              "base": "전 + 에"
+            },
+            {
+              "surface": "각자의",
+              "meaning": "each person's",
+              "base": "각자 + 의"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "다시",
+              "meaning": "again"
+            },
+            {
+              "surface": "말하며",
+              "meaning": "to say",
+              "base": "말하다 + -(으)며"
+            },
+            {
+              "surface": "결의를",
+              "meaning": "resolve (object)",
+              "base": "결의 + 를"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "루피는 해적왕, 조로는 최고의 검사, 나미는 세계 지도, 우솝은 용감한 바다 전사, 상디는 올 블루를 꿈꿨어.",
+          "translation": "Luffy dreamed of becoming Pirate King, Zoro the greatest swordsman, Nami of mapping the world, Usopp of becoming a brave warrior of the sea, and Sanji of finding the All Blue.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "루피는 해적왕, 조로는 최고의 검사, 나미는 세계 지도, 우솝은 용감한 바다 전사, 상디는 올 블루를 꿈꿨어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "루피는 해적왕, 조로는 최고의 검사, 나미는 세계 지도, 우솝은 용감한 바다 전사, 상디는 올 블루를 꿈꿨어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "루피는",
+              "meaning": "Luffy",
+              "note": "루피 + 는"
+            },
+            {
+              "word": "조로는",
+              "meaning": "Zoro (topic)",
+              "note": "조로 + 는"
+            },
+            {
+              "word": "최고의",
+              "meaning": "greatest",
+              "note": "최고 + 의"
+            },
+            {
+              "word": "나미는",
+              "meaning": "Nami (topic)",
+              "note": "나미 + 는"
+            },
+            {
+              "word": "우솝은",
+              "meaning": "Usopp (topic)",
+              "note": "우솝 + 은"
+            },
+            {
+              "word": "용감한",
+              "meaning": "to be brave",
+              "note": "용감하다 + -(으)ㄴ"
+            },
+            {
+              "word": "상디는",
+              "meaning": "Sanji (topic)",
+              "note": "상디 + 는"
+            },
+            {
+              "word": "블루를",
+              "meaning": "Blue (object)",
+              "note": "블루 + 를"
+            }
+          ],
+          "words": [
+            {
+              "surface": "루피는",
+              "meaning": "Luffy",
+              "base": "루피 + 는"
+            },
+            {
+              "surface": "해적왕",
+              "meaning": "Pirate King"
+            },
+            {
+              "surface": "조로는",
+              "meaning": "Zoro (topic)",
+              "base": "조로 + 는"
+            },
+            {
+              "surface": "최고의",
+              "meaning": "greatest",
+              "base": "최고 + 의"
+            },
+            {
+              "surface": "검사",
+              "meaning": "swordsman"
+            },
+            {
+              "surface": "나미는",
+              "meaning": "Nami (topic)",
+              "base": "나미 + 는"
+            },
+            {
+              "surface": "세계",
+              "meaning": "world"
+            },
+            {
+              "surface": "지도",
+              "meaning": "map"
+            },
+            {
+              "surface": "우솝은",
+              "meaning": "Usopp (topic)",
+              "base": "우솝 + 은"
+            },
+            {
+              "surface": "용감한",
+              "meaning": "to be brave",
+              "base": "용감하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "바다",
+              "meaning": "to sea"
+            },
+            {
+              "surface": "상디는",
+              "meaning": "Sanji (topic)",
+              "base": "상디 + 는"
+            },
+            {
+              "surface": "올",
+              "meaning": "All"
+            },
+            {
+              "surface": "블루를",
+              "meaning": "Blue (object)",
+              "base": "블루 + 를"
+            },
+            {
+              "surface": "꿈꿨어",
+              "meaning": "dreamed",
+              "base": "꿈꾸다"
+            }
+          ]
+        },
+        {
+          "korean": "밀짚모자 일당은 리버스 마운틴을 향해 출항하며 더 큰 바다로 나아갔어.",
+          "translation": "The Straw Hat crew sailed toward Reverse Mountain and moved on to a far greater sea.",
+          "grammar": [
+            {
+              "pattern": "-(으)면서 / -(으)며",
+              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
+              "example": "밀짚모자 일당은 리버스 마운틴을 향해 출항하며 더 큰 바다로 나아갔어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "밀짚모자 일당은 리버스 마운틴을 향해 출항하며 더 큰 바다로 나아갔어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "밀짚모자 일당은 리버스 마운틴을 향해 출항하며 더 큰 바다로 나아갔어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "밀짚모자 일당은 리버스 마운틴을 향해 출항하며 더 큰 바다로 나아갔어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "밀짚모자",
+              "meaning": "straw hat"
+            },
+            {
+              "word": "리버스",
+              "meaning": "Reverse"
+            },
+            {
+              "word": "마운틴을",
+              "meaning": "Mountain (object)",
+              "note": "마운틴 + 을"
+            },
+            {
+              "word": "향해",
+              "meaning": "to head toward",
+              "note": "향하다 + -아/어"
+            },
+            {
+              "word": "출항하며",
+              "meaning": "to set sail",
+              "note": "출항하다 + -(으)며"
+            },
+            {
+              "word": "더",
+              "meaning": "more"
+            },
+            {
+              "word": "큰",
+              "meaning": "great / large",
+              "note": "크다 + -(으)ㄴ"
+            },
+            {
+              "word": "바다로",
+              "meaning": "to sea",
+              "note": "바다 + 로"
+            }
+          ],
+          "words": [
+            {
+              "surface": "밀짚모자",
+              "meaning": "straw hat"
+            },
+            {
+              "surface": "리버스",
+              "meaning": "Reverse"
+            },
+            {
+              "surface": "마운틴을",
+              "meaning": "Mountain (object)",
+              "base": "마운틴 + 을"
+            },
+            {
+              "surface": "향해",
+              "meaning": "to head toward",
+              "base": "향하다 + -아/어"
+            },
+            {
+              "surface": "출항하며",
+              "meaning": "to set sail",
+              "base": "출항하다 + -(으)며"
+            },
+            {
+              "surface": "더",
+              "meaning": "more"
+            },
+            {
+              "surface": "큰",
+              "meaning": "great / large",
+              "base": "크다 + -(으)ㄴ"
+            },
+            {
+              "surface": "바다로",
+              "meaning": "to sea",
+              "base": "바다 + 로"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "korean": "이스트 블루의 모험은 루피가 강한 사람보다 서로의 꿈을 지켜 주는 동료를 모으는 과정이었어.",
+          "translation": "The East Blue adventure was the process by which Luffy gathered companions who protected one another’s dreams rather than merely seeking strength.",
+          "grammar": [
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "이스트 블루의 모험은 루피가 강한 사람보다 서로의 꿈을 지켜 주는 동료를 모으는 과정이었어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "이스트 블루의 모험은 루피가 강한 사람보다 서로의 꿈을 지켜 주는 동료를 모으는 과정이었어."
+            },
+            {
+              "pattern": "-(으)ㄹ N",
+              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
+              "example": "이스트 블루의 모험은 루피가 강한 사람보다 서로의 꿈을 지켜 주는 동료를 모으는 과정이었어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "이스트 블루의 모험은 루피가 강한 사람보다 서로의 꿈을 지켜 주는 동료를 모으는 과정이었어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "블루의",
+              "meaning": "Blue (of / possessive)",
+              "note": "블루 + 의"
+            },
+            {
+              "word": "모험은",
+              "meaning": "adventure (topic)",
+              "note": "모험 + 은"
+            },
+            {
+              "word": "루피가",
+              "meaning": "Luffy (subject)",
+              "note": "루피 + 가"
+            },
+            {
+              "word": "사람보다",
+              "meaning": "with a person (than)",
+              "note": "사람 + 보다"
+            },
+            {
+              "word": "서로의",
+              "meaning": "each other's",
+              "note": "서로 + 의"
+            },
+            {
+              "word": "꿈을",
+              "meaning": "dreams",
+              "note": "꿈 + 을"
+            },
+            {
+              "word": "동료를",
+              "meaning": "companion",
+              "note": "동료 + 를"
+            },
+            {
+              "word": "모으는",
+              "meaning": "to gather",
+              "note": "모으다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "이스트",
+              "meaning": "East"
+            },
+            {
+              "surface": "블루의",
+              "meaning": "Blue (of / possessive)",
+              "base": "블루 + 의"
+            },
+            {
+              "surface": "모험은",
+              "meaning": "adventure (topic)",
+              "base": "모험 + 은"
+            },
+            {
+              "surface": "루피가",
+              "meaning": "Luffy (subject)",
+              "base": "루피 + 가"
+            },
+            {
+              "surface": "강한",
+              "meaning": "strong",
+              "base": "강하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "사람보다",
+              "meaning": "with a person (than)",
+              "base": "사람 + 보다"
+            },
+            {
+              "surface": "서로의",
+              "meaning": "each other's",
+              "base": "서로 + 의"
+            },
+            {
+              "surface": "꿈을",
+              "meaning": "dreams",
+              "base": "꿈 + 을"
+            },
+            {
+              "surface": "주는",
+              "meaning": "doing for them",
+              "base": "주다 + -는"
+            },
+            {
+              "surface": "동료를",
+              "meaning": "companion",
+              "base": "동료 + 를"
+            },
+            {
+              "surface": "모으는",
+              "meaning": "to gather",
+              "base": "모으다"
+            }
+          ]
+        },
+        {
+          "korean": "각자의 상처와 과거는 달랐지만 그들은 자유를 향한 항해를 함께 시작했어.",
+          "translation": "Their wounds and pasts differed, but together they began a voyage toward freedom.",
+          "grammar": [
+            {
+              "pattern": "-지만",
+              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
+              "example": "각자의 상처와 과거는 달랐지만 그들은 자유를 향한 항해를 함께 시작했어."
+            },
+            {
+              "pattern": "-는 N",
+              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
+              "example": "각자의 상처와 과거는 달랐지만 그들은 자유를 향한 항해를 함께 시작했어."
+            },
+            {
+              "pattern": "-(으)ㄴ N",
+              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
+              "example": "각자의 상처와 과거는 달랐지만 그들은 자유를 향한 항해를 함께 시작했어."
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
+              "example": "각자의 상처와 과거는 달랐지만 그들은 자유를 향한 항해를 함께 시작했어."
+            }
+          ],
+          "vocab": [
+            {
+              "word": "각자의",
+              "meaning": "each person's",
+              "note": "각자 + 의"
+            },
+            {
+              "word": "상처와",
+              "meaning": "wound (and / with)",
+              "note": "상처 + 와"
+            },
+            {
+              "word": "과거는",
+              "meaning": "past's (topic)",
+              "note": "과거 + 는"
+            },
+            {
+              "word": "그들은",
+              "meaning": "to them (topic)",
+              "note": "그들 + 은"
+            },
+            {
+              "word": "자유를",
+              "meaning": "freedom",
+              "note": "자유 + 를"
+            },
+            {
+              "word": "향한",
+              "meaning": "to head toward",
+              "note": "향하다 + -(으)ㄴ"
+            },
+            {
+              "word": "함께",
+              "meaning": "together"
+            },
+            {
+              "word": "시작했어",
+              "meaning": "began",
+              "note": "시작하다"
+            }
+          ],
+          "words": [
+            {
+              "surface": "각자의",
+              "meaning": "each person's",
+              "base": "각자 + 의"
+            },
+            {
+              "surface": "상처와",
+              "meaning": "wound (and / with)",
+              "base": "상처 + 와"
+            },
+            {
+              "surface": "과거는",
+              "meaning": "past's (topic)",
+              "base": "과거 + 는"
+            },
+            {
+              "surface": "그들은",
+              "meaning": "to them (topic)",
+              "base": "그들 + 은"
+            },
+            {
+              "surface": "자유를",
+              "meaning": "freedom",
+              "base": "자유 + 를"
+            },
+            {
+              "surface": "향한",
+              "meaning": "to head toward",
+              "base": "향하다 + -(으)ㄴ"
+            },
+            {
+              "surface": "함께",
+              "meaning": "together"
+            },
+            {
+              "surface": "시작했어",
+              "meaning": "began",
+              "base": "시작하다"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

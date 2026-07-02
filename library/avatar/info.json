@@ -1,0 +1,20 @@
+{
+  "type": "collection",
+  "schemaVersion": 1,
+  "id": "avatar-last-airbender",
+  "title": "Avatar: The Last Airbender",
+  "koreanTitle": "아바타: 아앙의 전설",
+  "description": "Twelve expanded TOPIK 2–3 Korean learning summaries covering the main post-series graphic novels and standalone Avatar stories.",
+  "level": "TOPIK 2–3",
+  "theme": "sunset",
+  "order": 10,
+  "monogram": "四",
+  "tags": [
+    "fantasy",
+    "adventure",
+    "friendship",
+    "politics"
+  ],
+  "storyCount": 12,
+  "sort": "order"
+}
