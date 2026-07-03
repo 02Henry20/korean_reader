@@ -1,9 +1,18 @@
 # Library folder
 
-Place the real collection and story JSON files here when merging this modular code into the repository.
+Place collection metadata and story JSON files in this directory.
 
-The deployed application currently reads the public GitHub `library/` folder configured in `js/settings.js`, not this placeholder documentation file.
+The app first tries to load these files from the deployed website itself. If they are unavailable there, it falls back to the public GitHub repository configured in `js/settings.js` through jsDelivr and GitHub raw URLs.
 
-For story, word, grammar, and preferred-font fields, see:
+For deterministic static deployment, optionally add `manifest.json`:
 
-- `../docs/STORY_JSON_SCHEMA.md`
+```json
+{
+  "files": [
+    "collection_name/info.json",
+    "collection_name/01_story.json"
+  ]
+}
+```
+
+For story, word, grammar, variant, thumbnail, and preferred-font fields, see `../docs/STORY_JSON_SCHEMA.md`.

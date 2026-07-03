@@ -34,61 +34,170 @@ function humanizeFolderName(value) {
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
-async function fetchGitHubJSON(url, label) {
+async function fetchJSONResponse(url, options = {}) {
   const response = await fetch(url, {
-    headers: {Accept: "application/vnd.github+json"},
-    cache: "no-cache"
+    cache: "no-store",
+    ...options
   });
-  if (!response.ok) {
-    throw new Error(`${label}: GitHub returned ${response.status}.`);
+  if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
+  return {data: await response.json(), url: response.url || url};
+}
+
+function normalizeLibraryEntryPath(value, rootPrefix) {
+  let path = String(value?.path || value?.name || value || "")
+    .trim()
+    .replace(/\\/g, "/")
+    .replace(/^\/+/, "");
+  if (!path) return "";
+  if (!path.startsWith(rootPrefix)) path = `${rootPrefix}${path}`;
+  return path;
+}
+
+function pathsFromManifest(manifest, rootPrefix) {
+  const files = Array.isArray(manifest)
+    ? manifest
+    : Array.isArray(manifest?.files)
+      ? manifest.files
+      : Array.isArray(manifest?.stories)
+        ? manifest.stories
+        : [];
+
+  return files
+    .map((entry) => normalizeLibraryEntryPath(entry, rootPrefix))
+    .filter((path) => path && path.toLowerCase().endsWith(".json"));
+}
+
+async function discoverLibraryEntries() {
+  const {owner, repo, branch, root} = GITHUB_LIBRARY;
+  const rootPrefix = `${String(root).replace(/^\/+|\/+$/g, "")}/`;
+  const warnings = [];
+
+  /*
+   * A same-origin manifest is the most reliable option for static hosting.
+   * Supported shapes: ["folder/story.json"] or {"files": [...]}.
+   */
+  const manifestCandidates = [
+    "library/manifest.json",
+    "library/library-manifest.json",
+    "library-manifest.json"
+  ];
+
+  for (const manifestPath of manifestCandidates) {
+    try {
+      const url = new URL(manifestPath, document.baseURI).href;
+      const {data} = await fetchJSONResponse(url);
+      const paths = pathsFromManifest(data, rootPrefix);
+      if (paths.length) {
+        return {rootPrefix, paths: [...new Set(paths)], source: "manifest", warnings};
+      }
+    } catch (error) {
+      warnings.push(error.message);
+    }
   }
-  return response.json();
+
+  /* jsDelivr provides a CORS-enabled flat file listing without GitHub API limits. */
+  try {
+    const metadataUrl =
+      `https://data.jsdelivr.com/v1/package/gh/${encodeURIComponent(owner)}/` +
+      `${encodeURIComponent(repo)}@${encodeURIComponent(branch)}/flat`;
+    const {data} = await fetchJSONResponse(metadataUrl);
+    const paths = (data.files || [])
+      .map((entry) => normalizeLibraryEntryPath(entry.name, rootPrefix))
+      .filter((path) =>
+        path.startsWith(rootPrefix) &&
+        path.toLowerCase().endsWith(".json")
+      );
+    if (paths.length) {
+      return {rootPrefix, paths: [...new Set(paths)], source: "jsdelivr", warnings};
+    }
+  } catch (error) {
+    warnings.push(error.message);
+  }
+
+  /* Final fallback: GitHub's recursive tree API. */
+  try {
+    const treeUrl =
+      `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}` +
+      `/git/trees/${encodeURIComponent(branch)}?recursive=1`;
+    const {data} = await fetchJSONResponse(treeUrl, {
+      headers: {Accept: "application/vnd.github+json"}
+    });
+    if (data.truncated) {
+      throw new Error("The GitHub file list was truncated because the repository is too large.");
+    }
+    const paths = (data.tree || [])
+      .filter((entry) =>
+        entry.type === "blob" &&
+        entry.path.startsWith(rootPrefix) &&
+        entry.path.toLowerCase().endsWith(".json")
+      )
+      .map((entry) => entry.path);
+    if (paths.length) {
+      return {rootPrefix, paths: [...new Set(paths)], source: "github", warnings};
+    }
+  } catch (error) {
+    warnings.push(error.message);
+  }
+
+  throw new Error(
+    `No JSON stories could be discovered inside ${root}/. ` +
+    `Add library/manifest.json or check the repository connection.`
+  );
+}
+
+async function loadLibraryFile(path) {
+  const {owner, repo, branch} = GITHUB_LIBRARY;
+  const encodedPath = encodeGitHubPath(path);
+  const candidates = [];
+
+  try {
+    candidates.push(new URL(path, document.baseURI).href);
+  } catch {}
+
+  candidates.push(
+    `https://cdn.jsdelivr.net/gh/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}` +
+      `@${encodeURIComponent(branch)}/${encodedPath}`,
+    `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/` +
+      `${encodeURIComponent(branch)}/${encodedPath}`
+  );
+
+  const errors = [];
+  for (const url of [...new Set(candidates)]) {
+    try {
+      const {data, url: sourceUrl} = await fetchJSONResponse(url);
+      return {
+        path,
+        dir: dirname(path),
+        name: basename(path),
+        rawUrl: sourceUrl,
+        data
+      };
+    } catch (error) {
+      errors.push(error.message);
+    }
+  }
+
+  throw new Error(`${path}: ${errors.at(-1) || "could not be loaded"}`);
 }
 
 async function loadLibrary() {
-  const {owner, repo, branch, root} = GITHUB_LIBRARY;
-  const treeUrl =
-    `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}` +
-    `/git/trees/${encodeURIComponent(branch)}?recursive=1`;
-
-  const treeData = await fetchGitHubJSON(treeUrl, "Could not read the repository");
-  if (treeData.truncated) {
-    throw new Error("The GitHub file list was truncated because the repository is too large.");
-  }
-
-  const rootPrefix = `${String(root).replace(/^\/+|\/+$/g, "")}/`;
-  const jsonEntries = (treeData.tree || [])
-    .filter((entry) =>
-      entry.type === "blob" &&
-      entry.path.startsWith(rootPrefix) &&
-      entry.path.toLowerCase().endsWith(".json")
-    )
-    .sort((a, b) => a.path.localeCompare(b.path, undefined, {numeric: true}));
+  const discovery = await discoverLibraryEntries();
+  const {rootPrefix} = discovery;
+  const jsonEntries = discovery.paths
+    .filter((path) => !/(?:^|\/)(?:manifest|library-manifest)\.json$/i.test(path))
+    .sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
 
   if (!jsonEntries.length) {
-    throw new Error(`No JSON stories were found inside ${root}/.`);
+    throw new Error(`No JSON stories were found inside ${GITHUB_LIBRARY.root}/.`);
   }
 
-  const results = await Promise.allSettled(jsonEntries.map(async (entry) => {
-    const rawUrl =
-      `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/` +
-      `${encodeURIComponent(branch)}/${encodeGitHubPath(entry.path)}`;
-    const response = await fetch(rawUrl, {cache: "no-cache"});
-    if (!response.ok) throw new Error(`${entry.path}: HTTP ${response.status}`);
-    return {
-      path: entry.path,
-      dir: dirname(entry.path),
-      name: basename(entry.path),
-      rawUrl,
-      data: await response.json()
-    };
-  }));
-
+  const results = await Promise.allSettled(jsonEntries.map(loadLibraryFile));
   const parsed = [];
   const warnings = [];
+
   results.forEach((result, index) => {
     if (result.status === "fulfilled") parsed.push(result.value);
-    else warnings.push(result.reason?.message || jsonEntries[index].path);
+    else warnings.push(result.reason?.message || jsonEntries[index]);
   });
 
   const collectionInfos = parsed

@@ -18,18 +18,19 @@ function openStory(story, push = false) {
   readerTitle.textContent = story.title;
   readerLevel.textContent = story.level;
   readerLevel.classList.toggle("has-variants", hasVariants);
-  readerLevel.classList.toggle("single-version", !hasVariants);
+  readerLevel.classList.remove("single-version");
   readerLevel.disabled = !hasVariants;
-  readerLevel.dataset.versionLabel = hasVariants ? `${variants.length}` : "";
+  readerLevel.removeAttribute("data-version-label");
   readerLevel.setAttribute("aria-label", hasVariants
-    ? `Choose among ${variants.length} versions of ${story.title}`
-    : `${story.level || "Story level"}; only one version available`);
-  readerLevel.title = hasVariants ? `${variants.length} versions available` : "Only one version available";
+    ? `Choose another version of ${story.title}`
+    : (story.level || "Story level"));
+  readerLevel.title = hasVariants ? "Choose story version" : "";
 
   renderStory(story);
   setViewActive("reader");
   updateMainPageActions();
   window.scrollTo({top: 0, behavior: "auto"});
+
   if (push) {
     history.pushState(
       {view: "reader", storyId: story.id, collectionId: story.collectionId},
@@ -66,9 +67,11 @@ function renderStory(story) {
 function buildGrammarRanges(sentence) {
   const text = String(sentence.korean || "");
   const ranges = [];
+
   (sentence.grammar || []).forEach((item, grammarIndex) => {
     const fragment = grammarFragmentCandidate(item, text);
     if (!fragment) return;
+
     let from = 0;
     while (from < text.length) {
       const start = text.indexOf(fragment, from);
@@ -77,6 +80,7 @@ function buildGrammarRanges(sentence) {
       from = start + Math.max(1, fragment.length);
     }
   });
+
   return ranges;
 }
 
@@ -108,6 +112,7 @@ function appendWordTokens(container, sentence) {
     const overlappingGrammar = grammarRanges
       .filter((range) => start < range.end && end > range.start)
       .map((range) => range.grammarIndex);
+
     const grammarIndexes = [...new Set([
       ...(translation.grammarIndexes || []),
       ...overlappingGrammar
@@ -120,7 +125,10 @@ function appendWordTokens(container, sentence) {
     word.tabIndex = 0;
     word.dataset.surface = clean || chunk;
     word.dataset.grammarIndexes = grammarIndexes.join(",");
-    word.setAttribute("aria-label", `${clean || chunk}. Click or tap for translation${sentence.grammar?.length ? "; open grammar with double-click or long press" : ""}.`);
+    word.setAttribute(
+      "aria-label",
+      `${clean || chunk}. Click or tap for translation; double-click or long press for grammar.`
+    );
 
     attachWordInteractions(word, translation, container, sentence, grammarIndexes);
     container.appendChild(word);
@@ -128,67 +136,99 @@ function appendWordTokens(container, sentence) {
 }
 
 function attachWordInteractions(word, translation, sentenceElement, sentence, grammarIndexes) {
+  let touchPress = null;
+
   word.addEventListener("contextmenu", (event) => event.preventDefault());
 
   word.addEventListener("click", (event) => {
     event.preventDefault();
     event.stopPropagation();
-    if (event.detail === 0 || state.longPressTriggered) return;
+
+    if (Date.now() < state.suppressWordClickUntil || event.detail !== 1) return;
+
     clearTimeout(state.clickTimer);
     state.clickTimer = window.setTimeout(() => {
       showWordPopover(translation, event.clientX, event.clientY, word);
-    }, 230);
+    }, 240);
   });
 
   word.addEventListener("dblclick", (event) => {
     event.preventDefault();
     event.stopPropagation();
     clearTimeout(state.clickTimer);
+    hideWordPopover();
     openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
   });
 
   word.addEventListener("pointerdown", (event) => {
     if (event.pointerType === "mouse") return;
-    state.longPressTriggered = false;
-    state.pointerStart = {x: event.clientX, y: event.clientY, pointerId: event.pointerId};
+
+    touchPress = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      clientX: event.clientX,
+      clientY: event.clientY,
+      moved: false,
+      longPressed: false
+    };
+
     clearTimeout(state.longPressTimer);
     state.longPressTimer = window.setTimeout(() => {
-      state.longPressTriggered = true;
+      if (!touchPress || touchPress.moved) return;
+      touchPress.longPressed = true;
+      state.suppressWordClickUntil = Date.now() + 700;
+      hideWordPopover();
       openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
       if (navigator.vibrate) navigator.vibrate(18);
     }, LONG_PRESS_MS);
   });
 
   word.addEventListener("pointermove", (event) => {
-    if (event.pointerType === "mouse" || !state.pointerStart) return;
-    const distance = Math.hypot(event.clientX - state.pointerStart.x, event.clientY - state.pointerStart.y);
-    if (distance > 12) clearTimeout(state.longPressTimer);
+    if (!touchPress || event.pointerId !== touchPress.pointerId) return;
+    touchPress.clientX = event.clientX;
+    touchPress.clientY = event.clientY;
+
+    if (Math.hypot(
+      event.clientX - touchPress.startX,
+      event.clientY - touchPress.startY
+    ) > 12) {
+      touchPress.moved = true;
+      clearTimeout(state.longPressTimer);
+    }
   });
 
   word.addEventListener("pointerup", (event) => {
-    if (event.pointerType === "mouse") return;
+    if (event.pointerType === "mouse" || !touchPress || event.pointerId !== touchPress.pointerId) return;
+
     event.preventDefault();
     event.stopPropagation();
     clearTimeout(state.longPressTimer);
-    state.pointerStart = null;
-    if (state.longPressTriggered) {
-      window.setTimeout(() => { state.longPressTriggered = false; }, 80);
-      return;
-    }
+    state.suppressWordClickUntil = Date.now() + 700;
+
+    const completedPress = touchPress;
+    touchPress = null;
+
+    if (completedPress.longPressed || completedPress.moved) return;
     showWordPopover(translation, event.clientX, event.clientY, word);
   }, {passive: false});
 
-  word.addEventListener("pointercancel", () => {
+  const cancelTouchPress = () => {
     clearTimeout(state.longPressTimer);
-    state.pointerStart = null;
-    state.longPressTriggered = false;
-  });
+    touchPress = null;
+  };
+
+  word.addEventListener("pointercancel", cancelTouchPress);
+  word.addEventListener("lostpointercapture", cancelTouchPress);
 
   word.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && event.shiftKey) {
       event.preventDefault();
       openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
-    } else if (event.key === "Enter" || event.key === " ") {
+      return;
+    }
+
+    if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       showWordPopover(translation, innerWidth / 2, innerHeight / 2, word);
     }
@@ -219,6 +259,7 @@ function buildWordLookup(sentence) {
 
   (sentence.words || []).forEach((entry) => {
     if (!entry || !entry.surface) return;
+
     const grammarIndexes = [];
     if (Number.isInteger(entry.grammarIndex)) grammarIndexes.push(entry.grammarIndex);
     if (Array.isArray(entry.grammarIndexes)) {
@@ -227,6 +268,7 @@ function buildWordLookup(sentence) {
         if (Number.isInteger(number)) grammarIndexes.push(number);
       });
     }
+
     lookup.set(cleanToken(String(entry.surface)), {
       surface: String(entry.surface),
       meaning: String(entry.meaning || "—"),
@@ -239,6 +281,7 @@ function buildWordLookup(sentence) {
   (sentence.vocab || []).forEach((entry) => {
     if (!entry || !entry.word) return;
     const key = cleanToken(String(entry.word));
+
     if (!lookup.has(key) && !String(entry.word).includes(" ")) {
       lookup.set(key, {
         surface: String(entry.word),

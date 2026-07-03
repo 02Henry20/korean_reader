@@ -55,8 +55,7 @@ function renderStoryCards(collectionId, query) {
   libraryEyebrow.textContent = collection.level || "STORY COLLECTION";
   libraryTitle.textContent = collection.title;
   librarySubtitle.textContent = [collection.koreanTitle, collection.description].filter(Boolean).join(" · ");
-  searchInput.placeholder = `Search within ${collection.title}`;
-  setSearchScope(collection.title, query);
+  searchInput.placeholder = "Search story titles, descriptions, text, or translations";
 
   const groups = getVariantGroupsForCollection(collectionId)
     .filter((group) => !query || group.variants.some((story) => storyMatchesQuery(story, query)))
@@ -112,10 +111,7 @@ function createStoryCard(group, options = {}) {
   if (story.englishTitle) content.appendChild(createTextBlock("p", "english-title", story.englishTitle));
   if (story.description) content.appendChild(createTextBlock("p", "description", story.description));
 
-  const arrow = document.createElement("span");
-  arrow.className = "card-arrow";
-  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
-  card.append(content, thumbnail, arrow);
+  card.append(content, thumbnail);
   card.addEventListener("click", () => openStory(story, true));
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {

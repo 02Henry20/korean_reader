@@ -62,8 +62,12 @@ function updateSettingFromControl(control) {
   syncSettingsForm();
   applyAllSettings();
 
-  if (detailPanel && !detailPanel.classList.contains("detail-panel-empty") && state.activeStory) {
-    /* Re-rendering the current grammar panel is intentionally deferred until it is reopened. */
+  if (state.activeGrammarContext &&
+      (key === "showKeyVocabulary" || key === "grammarDetail")) {
+    renderGrammarDetails(
+      state.activeGrammarContext.sentence,
+      state.activeGrammarContext.grammarIndexes
+    );
   }
 }
 

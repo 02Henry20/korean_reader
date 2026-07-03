@@ -126,13 +126,6 @@ h1 {
   opacity: 1;
 }
 
-.search-scope {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 720;
-}
-
 .search-section-title {
   grid-column: 1 / -1;
   display: flex;

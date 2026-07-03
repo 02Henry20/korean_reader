@@ -36,17 +36,6 @@ function showCollection(collectionId, push = false) {
   if (push) history.pushState({view: "collection", collectionId}, "", `#collection=${encodeURIComponent(collectionId)}`);
 }
 
-function showGrammarLibrary(push = false) {
-  state.activeStory = null;
-  hideAllTransientUI();
-  setViewActive("grammar");
-  grammarSearchInput.value = "";
-  renderGrammarLibrary();
-  updateMainPageActions();
-  window.scrollTo({top: 0, behavior: "auto"});
-  if (push) history.pushState({view: "grammar"}, "", "#grammar");
-}
-
 function renderLibrary(filter = "") {
   const query = normalizeSearchQuery(filter);
   storyGrid.replaceChildren();
@@ -65,6 +54,5 @@ function renderNavigation(nav) {
   if (nav?.view === "collection" && getCollection(nav.collectionId)) {
     return showCollection(nav.collectionId, false);
   }
-  if (nav?.view === "grammar") return showGrammarLibrary(false);
   showCollections(false);
 }

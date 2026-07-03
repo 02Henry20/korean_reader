@@ -10,30 +10,26 @@ const state = {
   selectedWordElement: null,
   selectedGrammarElements: [],
   selectedSentenceElement: null,
+  activeGrammarContext: null,
   clickTimer: null,
   longPressTimer: null,
   longPressTriggered: false,
   pointerStart: null,
-  suppressSentenceClickUntil: 0,
-  detailSheetGesture: null,
+  suppressWordClickUntil: 0,
   storySearchCache: new WeakMap(),
   collectionSearchCache: new WeakMap(),
-  grammarLibraryEntries: null
 };
 
 const libraryView = document.getElementById("libraryView");
 const readerView = document.getElementById("readerView");
-const grammarView = document.getElementById("grammarView");
 const storyGrid = document.getElementById("storyGrid");
 const searchInput = document.getElementById("searchInput");
-const searchScopeLabel = document.getElementById("searchScopeLabel");
 const libraryBackButton = document.getElementById("libraryBackButton");
 const libraryEyebrow = document.getElementById("libraryEyebrow");
 const libraryTitle = document.getElementById("libraryTitle");
 const librarySubtitle = document.getElementById("librarySubtitle");
 const libraryActions = document.getElementById("libraryActions");
 const settingsButton = document.getElementById("settingsButton");
-const grammarLibraryButton = document.getElementById("grammarLibraryButton");
 
 const backButton = document.getElementById("backButton");
 const readerTitle = document.getElementById("readerTitle");
@@ -41,14 +37,8 @@ const readerLevel = document.getElementById("readerLevel");
 const storyContent = document.getElementById("storyContent");
 const detailPanel = document.getElementById("detailPanel");
 const detailContent = document.getElementById("detailContent");
-const detailBackdrop = document.getElementById("detailBackdrop");
-const detailSheetHandle = document.getElementById("detailSheetHandle");
 const closeDetailButton = document.getElementById("closeDetailButton");
 
-const grammarBackButton = document.getElementById("grammarBackButton");
-const grammarSearchInput = document.getElementById("grammarSearchInput");
-const grammarSearchScopeLabel = document.getElementById("grammarSearchScopeLabel");
-const grammarGrid = document.getElementById("grammarGrid");
 
 const wordPopover = document.getElementById("wordPopover");
 const variantMenu = document.getElementById("variantMenu");
@@ -74,5 +64,4 @@ function setViewActive(view) {
   state.currentView = view;
   libraryView.classList.toggle("view-active", view === "collections" || view === "collection");
   readerView.classList.toggle("view-active", view === "reader");
-  grammarView.classList.toggle("view-active", view === "grammar");
 }

@@ -2,10 +2,9 @@ function renderCollectionCards(query) {
   applyTheme(state.settings.theme);
   libraryBackButton.hidden = true;
   libraryEyebrow.textContent = "한국어 리더";
-  libraryTitle.textContent = "Your Korean library";
+  libraryTitle.textContent = "Korean Reader";
   librarySubtitle.textContent = "Choose a collection, then choose a story.";
-  searchInput.placeholder = "Search the complete library";
-  setSearchScope("Complete library", query);
+  searchInput.placeholder = "Search titles, descriptions, or story text";
 
   if (query) {
     renderGlobalSearchResults(query);
@@ -41,10 +40,7 @@ function createCollectionCard(collection) {
   if (collection.koreanTitle) content.appendChild(createTextBlock("p", "collection-korean-title", collection.koreanTitle));
   if (collection.description) content.appendChild(createTextBlock("p", "description", collection.description));
 
-  const arrow = document.createElement("span");
-  arrow.className = "card-arrow";
-  arrow.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
-  card.append(content, arrow);
+  card.appendChild(content);
   card.addEventListener("click", () => showCollection(collection.id, true));
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {

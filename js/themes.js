@@ -123,7 +123,6 @@ function applyAllSettings() {
   applyTheme(contextTheme);
   applyReaderTypography();
   if (libraryView.classList.contains("view-active")) renderLibrary(searchInput.value);
-  if (grammarView.classList.contains("view-active")) renderGrammarLibrary(grammarSearchInput.value);
 }
 
 let toastTimer;

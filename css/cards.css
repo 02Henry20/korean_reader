@@ -87,33 +87,6 @@
   line-height: 1.62;
 }
 
-.card-arrow {
-  position: absolute;
-  right: 25px;
-  top: 25px;
-  z-index: 2;
-  display: grid;
-  width: 43px;
-  height: 43px;
-  place-items: center;
-  border-radius: 50%;
-  color: var(--card-accent);
-  background: color-mix(in srgb, var(--card-bg) 88%, transparent);
-  box-shadow: 0 9px 22px rgba(48, 74, 68, 0.1);
-}
-
-.card-arrow svg,
-.icon-button svg {
-  width: 21px;
-  height: 21px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.9;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-
 .empty-state {
   grid-column: 1 / -1;
   padding: 64px 22px;

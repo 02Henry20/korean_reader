@@ -1,73 +1,67 @@
 # Korean Reader — Modular Codebase
 
-This version divides the Korean Reader into small feature files so that future changes can be made without repeatedly sending the complete application to an AI.
+This project is a static Korean reading application divided into small feature files. The separation is intended to make future AI-assisted edits possible without repeatedly providing the complete application.
 
-The application remains a static website. It reads the public GitHub repository configured in `js/settings.js`, loads collection and story JSON files from `library/`, and stores only user preferences in `localStorage`.
+The application reads collection and story JSON files from the public repository configured in `js/settings.js`. User preferences are stored locally in the browser with `localStorage`.
 
 ## Current behavior
 
-### Word interactions
+### Word and grammar interactions
 
 | Device | Interaction | Result |
 |---|---|---|
-| Desktop | Single click a word | Compact word translation popup |
-| Desktop | Double-click a word or marked grammar structure | Grammar explanation panel |
-| Mobile | Short tap a word | Compact word translation popup |
-| Mobile | Long press a word or marked grammar structure | Grammar bottom sheet |
-| Keyboard | Enter or Space on a word | Word translation |
-| Keyboard | Shift + Enter on a word | Grammar explanation |
+| Desktop | Single click a word | Show its compact translation popup |
+| Desktop | Double-click a word or grammar-containing word | Open the grammar explanation panel |
+| Mobile | Short tap a word | Show its compact translation popup |
+| Mobile | Long press a word or grammar-containing word | Open the grammar explanation panel |
+| Keyboard | Enter or Space | Show the selected word translation |
+| Keyboard | Shift + Enter | Open grammar details |
 
-The selected word is highlighted in the Korean text. Grammar structures are underlined subtly and highlighted when their explanation is open.
+The active word or grammar fragment is highlighted directly in the Korean text.
 
 ### Grammar panel
 
-- Desktop: sticky side panel.
-- Mobile: scrollable bottom sheet occupying approximately the lower half of the screen.
-- Close methods on mobile:
-  - close button;
-  - tap the darkened area outside the sheet;
-  - swipe the handle downward.
-- The full Korean sentence is not repeated in the panel.
-- Only the relevant grammar fragment is shown when the JSON supplies or allows the app to infer it.
+- Desktop uses the original sticky panel beside the story.
+- Mobile uses the original full-screen slide-in panel.
+- The panel is closed with its close button or Escape on a keyboard.
+- Detailed grammar fields remain supported.
+- `Key vocabulary` can be shown or hidden through Settings.
 
-### Search scopes
+### Search
 
-- Main library: searches the complete library.
-- Collection page: searches only stories in that collection.
-- Grammar library: searches only grammar entries.
+There is no search-scope annotation and no separate grammar library.
 
-Searchable story data includes:
+On the main page, search matches:
 
-- collection and story titles;
-- descriptions;
-- TOPIK levels;
-- author and story metadata;
-- English sentence translations;
-- complete Korean story text;
-- word translations;
-- vocabulary entries;
-- grammar patterns, explanations, examples, transformations, and nuances.
+- collection title and Korean title;
+- collection description;
+- story title and English title;
+- story description;
+- Korean story text;
+- sentence translations.
+
+Inside a collection, only stories in that collection are searched. Vocabulary entries, grammar explanations, authors, tags, TOPIK metadata, and other hidden metadata are not included in search.
 
 ### Settings
 
-The Settings button is displayed only on the main library page. Settings are stored in `localStorage` and include:
+The Settings button appears only on the main page. Current settings include:
 
 - light or dark appearance;
-- global color theme, including Dracula;
-- story-specific accent colors on/off;
+- color theme, including Dracula;
+- story-specific accent colors;
 - interface font;
-- story font override;
-- story text size;
+- story-font override;
+- text size;
 - line spacing;
 - compact or expanded word translations;
-- key-vocabulary visibility;
+- Key Vocabulary visibility;
 - concise or detailed grammar explanations;
 - animation intensity.
 
 ## Directory structure
 
 ```text
-korean_reader_modular/
+korean_reader_modular_v3/
 ├── index.html
 ├── site.webmanifest
 ├── README.md
@@ -81,7 +75,6 @@ korean_reader_modular/
 │   ├── grammar.css
 │   ├── overlays.css
 │   ├── settings.css
-│   ├── grammar-library.css
 │   ├── mobile.css
 │   ├── animations.css
 │   ├── directories.css
@@ -96,12 +89,11 @@ korean_reader_modular/
 │   ├── directories.js
 │   ├── stories.js
 │   ├── thumbnails.js
-│   ├── reader.js
 │   ├── grammar.js
+│   ├── reader.js
 │   ├── interactions.js
 │   ├── themes.js
 │   ├── settings-panel.js
-│   ├── grammar-library.js
 │   ├── bookmarks.js
 │   ├── search.js
 │   └── pwa.js
@@ -110,20 +102,53 @@ korean_reader_modular/
 └── library/
 ```
 
-The existing root paths `icons/`, `thumbnails/`, and `library/` are intentionally preserved so current manifest and story paths continue to work.
+The root paths `icons/`, `thumbnails/`, and `library/` remain unchanged so existing JSON and manifest paths continue to work.
 
 ## Startup and data flow
 
-1. `index.html` defines the library, reader, grammar-library, settings, popup, and bottom-sheet containers.
-2. JavaScript files load in dependency order at the end of `index.html`.
+1. `index.html` defines the library view, reader view, settings panel, grammar panel, word popup, variant menu, and toast.
+2. Scripts are loaded in dependency order at the end of `index.html`.
 3. `js/pwa.js` calls `initializeLibrary()`.
-4. `js/library.js` reads the configured GitHub tree and downloads collection/story JSON files.
-5. Normalized data is stored in the shared `state` object from `js/app.js`.
-6. `js/router.js` selects the current view.
-7. Feature renderers create the required DOM elements.
-8. `js/search.js` connects global event listeners and search controls.
+4. `js/library.js` discovers and loads JSON files.
+5. Normalized collections and stories are stored in the shared `state` object from `js/app.js`.
+6. `js/router.js` selects the active collection or reader view.
+7. Rendering modules create cards, story text, popups, and grammar details.
+8. `js/search.js` connects search, navigation, keyboard, resize, and history listeners.
 
-Do not reorder script imports unless the dependencies are also updated.
+Do not reorder script imports unless their dependencies are updated too.
+
+## Reliable library loading
+
+`js/library.js` no longer relies on only one GitHub API request. It uses this order:
+
+1. A same-origin manifest, when present.
+2. A jsDelivr repository file listing.
+3. GitHub's recursive tree API as a final fallback.
+
+For each JSON file, it then tries:
+
+1. the deployed website's own `library/` path;
+2. jsDelivr's GitHub CDN;
+3. `raw.githubusercontent.com`.
+
+This makes deployed static versions less dependent on GitHub API availability or rate limits.
+
+### Optional manifest
+
+For the most deterministic deployment, add `library/manifest.json`:
+
+```json
+{
+  "files": [
+    "collection_1/info.json",
+    "collection_1/01_story.json",
+    "collection_2/info.json",
+    "collection_2/01_story.json"
+  ]
+}
+```
+
+Paths may be relative to `library/` or begin with `library/`.
 
 # JavaScript reference
 
@@ -131,268 +156,159 @@ Do not reorder script imports unless the dependencies are also updated.
 
 Safe wrappers around `localStorage`.
 
-Important functions:
-
-- `storageGet(key)`
-- `storageSet(key, value)`
-- `loadJSONV6(key, fallback)`
-
-Provide this file when changing persistence or storage error handling.
+Use it for persistence changes or storage error handling.
 
 ## `js/settings.js`
 
 Static configuration and default preferences.
 
-Contains:
+Contains themes, appearances, fonts, setting defaults, storage keys, mobile breakpoint, long-press duration, and `GITHUB_LIBRARY` repository configuration.
 
-- `THEMES`: global and story accent palettes;
-- `APPEARANCES`: light and dark surface palettes;
-- `UI_FONTS`: allowed interface fonts;
-- `STORY_FONTS`: allowed reader fonts;
-- `DEFAULT_SETTINGS`;
-- local-storage keys;
-- mobile breakpoint and long-press duration;
-- `GITHUB_LIBRARY` repository configuration;
-- `loadAppSettings()` and legacy-setting migration.
-
-Provide this file when adding themes, fonts, preferences, or changing the GitHub repository.
+Use it when changing themes, fonts, defaults, gestures, or the source repository.
 
 ## `js/app.js`
 
 Shared runtime state and cached DOM references.
 
-Contains:
-
-- `state`;
-- references to all major views, panels, buttons, and inputs;
-- `createTextBlock()`;
-- `setViewActive()`.
-
-Provide this file when a new root-level control or state field is introduced.
+Use it when introducing a new root-level control, panel, or state field.
 
 ## `js/library.js`
 
-GitHub loading, validation, and JSON normalization.
+Library discovery, network fallbacks, validation, and JSON normalization.
 
-Contains:
+Important responsibilities:
 
-- file/path helpers;
-- GitHub API requests;
+- same-origin manifest loading;
+- jsDelivr and GitHub fallbacks;
 - collection discovery;
+- story validation;
 - fallback collection creation;
-- collection/story normalization;
-- story variant, thumbnail, author, tags, and preferred-font metadata;
-- `getCollection()`;
-- `getStoriesForCollection()`.
+- variant, thumbnail, author, tag, and preferred-font normalization;
+- `getCollection()` and `getStoriesForCollection()`.
 
-Provide this file when changing the story or collection JSON schema.
+Use it when changing the JSON schema or loading strategy.
 
 ## `js/router.js`
 
-Navigation and view switching.
+Collection and reader navigation.
 
-Contains:
+Contains `showCollections()`, `showCollection()`, `renderLibrary()`, and browser-history restoration.
 
-- `showCollections()`;
-- `showCollection()`;
-- `showGrammarLibrary()`;
-- `renderLibrary()`;
-- `renderNavigation()`;
-- main-page Settings/Grammar button visibility.
-
-Provide this file when changing routes, hash URLs, browser history, or page-level navigation.
+Use it for routes, hash URLs, back behavior, or root-view changes.
 
 ## `js/directories.js`
 
-Collection-page rendering.
+Main-page and directory-card rendering.
 
-Contains:
+Contains the `Korean Reader` heading, collection cards, global search sections, and empty states. Directory tags and entry arrows are intentionally not rendered.
 
-- main library heading and scope setup;
-- collection-card creation;
-- global search section headings;
-- empty-state rendering.
-
-Directory tags are intentionally not rendered.
-
-For collection-card design changes, also provide:
-
-- `css/cards.css`;
-- `css/directories.css`.
+For visual changes, also provide `css/cards.css` and `css/directories.css`.
 
 ## `js/stories.js`
 
-Story grouping, version selection, and story-card rendering.
+Story grouping, variant selection, and story-card rendering.
 
-Contains:
-
-- grouping by `variantGroupId`;
-- selected-variant persistence;
-- collection-scoped filtering;
-- version buttons;
-- optional collection context on global search cards.
-
-For TOPIK/version behavior, also provide `js/interactions.js` and `js/reader.js`.
+Contains variant grouping, selected-version persistence, collection filtering, version selectors on cards, and story thumbnails. Story-card entry arrows are intentionally not rendered.
 
 ## `js/thumbnails.js`
 
-External cover handling and generated fallback covers.
+External thumbnail handling and generated SVG fallback covers.
 
-Contains:
-
-- generated SVG covers;
-- thumbnail-path resolution;
-- `<img>` creation;
-- load-error fallback.
-
-Provide this file with `css/thumbnails.css` for thumbnail changes.
+Use it with `css/thumbnails.css` for cover changes.
 
 ## `js/reader.js`
 
-Korean text rendering and word/grammar gesture detection.
+Story rendering and word interaction handling.
 
 Contains:
 
-- `openStory()`;
-- `renderStory()`;
-- grammar-fragment range detection;
-- word token creation;
-- desktop single-click/double-click behavior;
-- mobile tap/long-press behavior;
-- word lookup construction;
-- optional word-to-grammar index mapping.
+- `openStory()` and `renderStory()`;
+- Korean word token creation;
+- grammar-fragment range mapping;
+- desktop single-click and double-click logic;
+- mobile short-tap and long-press logic;
+- synthetic-click suppression on touch devices;
+- word lookup construction.
 
-This is the primary file for changing interaction gestures or Korean text tokenization.
+This is the primary file for gesture or tokenization changes.
 
 ## `js/grammar.js`
 
-Grammar normalization, rendering, highlighting, and mobile sheet behavior.
+Grammar normalization, rendering, highlighting, and panel state.
 
 Contains:
 
-- `normalizeGrammarItem()`;
-- `openGrammarDetails()`;
-- relevant-fragment highlighting;
-- detailed grammar-card rendering;
-- optional key-vocabulary rendering;
-- panel clearing;
-- swipe-down gesture handling.
+- richer grammar-field compatibility;
+- fragment highlighting;
+- grammar-card rendering;
+- optional Key Vocabulary rendering;
+- panel open/close behavior.
 
-For visual panel changes, also provide:
-
-- `css/grammar.css`;
-- `css/mobile.css`.
+For panel styling, also provide `css/grammar.css` and `css/mobile.css`.
 
 ## `js/interactions.js`
 
-Small floating overlays.
+Floating UI behavior.
 
-Contains:
+Contains the word-translation popup, popup positioning, selected-word cleanup, and story-version menu.
 
-- compact word translation popup;
-- popup positioning;
-- selected-word cleanup;
-- story-version menu.
-
-For word-popup design changes, also provide `css/overlays.css`.
+Use it with `css/overlays.css` for popup changes.
 
 ## `js/themes.js`
 
-Applies appearance, theme, accent, font, line spacing, and animation settings.
+Applies appearances, themes, accents, contrast variables, fonts, line spacing, animations, and toast behavior.
 
-Contains:
-
-- color mixing;
-- global surface selection;
-- story-accent resolution;
-- card colors;
-- search contrast variables;
-- word-popup contrast variables;
-- story-font resolution;
-- reader typography;
-- settings persistence helpers;
-- toast messages.
-
-Provide this file together with `js/settings.js` for most theme changes.
+Use it together with `js/settings.js` for theme and contrast changes.
 
 ## `js/settings-panel.js`
 
-Settings panel behavior.
+Settings-panel form behavior.
 
-Contains:
+Contains option generation, synchronization, opening and closing, live updates, Key Vocabulary re-rendering, and reset behavior.
 
-- select-option generation;
-- form synchronization;
-- open/close behavior;
-- live preference application;
-- reset-to-default behavior.
+Adding a setting usually requires changes in:
 
-For adding a setting, normally edit all of:
-
-1. `js/settings.js` — default and allowed values;
-2. `index.html` — form control;
-3. `js/settings-panel.js` — only when custom handling is required;
-4. the feature file that consumes the setting.
-
-## `js/grammar-library.js`
-
-Builds a grammar index from all loaded stories.
-
-Contains:
-
-- flattened grammar-entry generation;
-- grammar-only filtering;
-- grammar-library cards;
-- source-story links.
-
-No separate `grammar.json` is required. The library is generated from story JSON.
+1. `js/settings.js`;
+2. `index.html`;
+3. `js/settings-panel.js`;
+4. the feature module that consumes the value.
 
 ## `js/bookmarks.js`
 
-Reserved extension point. It remains inactive because this version does not yet restore bookmarks, reading positions, or read-story state.
+Reserved extension point. Bookmarks, reading-position restoration, and read-state behavior are not active yet.
 
 ## `js/search.js`
 
-Search indexing and global event wiring.
+Restricted search indexing and global event wiring.
 
-Contains:
-
-- text normalization;
-- complete story search-index generation;
-- collection search text;
-- global result rendering;
-- search-scope labels;
-- search, back, grammar-library, panel, Escape, resize, scroll, and history listeners.
-
-Provide this file for search fields, search scopes, or global listener changes.
+Search indexing includes only titles, descriptions, Korean text, and sentence translations. This file also connects back buttons, panel closing, Escape, resize, scroll, and browser-history events.
 
 ## `js/pwa.js`
 
-Application bootstrap and loading/error states.
+Application bootstrap plus loading and error states.
 
-It does not register a service worker. Installed-app behavior still comes from `site.webmanifest` and icon/meta tags.
+It does not register a service worker. Installed-app metadata comes from `site.webmanifest` and the icon/meta tags in `index.html`.
 
 # CSS reference
 
 | File | Responsibility |
 |---|---|
-| `base.css` | Variables, resets, page background, shared font stacks |
-| `layout.css` | App shell, headers, buttons, search box, search scope/results headings |
-| `cards.css` | Collection/story grid and base cards |
-| `reader.css` | Reader header, Korean typography, selected-word and grammar highlights |
-| `grammar.css` | Desktop grammar panel and detailed grammar fields |
+| `base.css` | Variables, resets, background, and shared font stacks |
+| `layout.css` | App shell, headers, buttons, search box, and result headings |
+| `cards.css` | Collection/story grids and card surfaces |
+| `reader.css` | Reader header, Korean text, word selection, and grammar highlighting |
+| `grammar.css` | Desktop grammar panel and grammar/vocabulary cards |
 | `overlays.css` | Word popup and toast |
-| `settings.css` | Settings backdrop, panel, controls, mobile settings sheet |
-| `grammar-library.css` | Grammar index cards and responsive grid |
-| `mobile.css` | Mobile reader and half-height grammar bottom sheet |
-| `animations.css` | Full/reduced/none animation modes and OS reduced-motion support |
-| `directories.css` | Collection-specific headings, monograms, and counts |
-| `themes.css` | Main-page utility buttons, variant menu, TOPIK availability labels |
-| `thumbnails.css` | Story thumbnail placement and responsive sizes |
+| `settings.css` | Settings backdrop, panel, and controls |
+| `mobile.css` | Responsive cards and original full-screen mobile grammar panel |
+| `animations.css` | Full, reduced, and disabled animation modes |
+| `directories.css` | Collection headings, monograms, and counts |
+| `themes.css` | Settings button, variant menu, and story-version labels on cards |
+| `thumbnails.css` | Story-thumbnail placement and responsive sizes |
 
 # Story and grammar JSON
 
-The app remains backward-compatible with existing grammar entries such as:
+The app remains compatible with short grammar entries such as:
 
 ```json
 {
@@ -402,46 +318,33 @@ The app remains backward-compatible with existing grammar entries such as:
 }
 ```
 
-For the new detailed layout, use the richer format documented in:
+The richer format is documented in [`docs/STORY_JSON_SCHEMA.md`](docs/STORY_JSON_SCHEMA.md).
 
-[`docs/STORY_JSON_SCHEMA.md`](docs/STORY_JSON_SCHEMA.md)
-
-The most important new grammar field is `fragment`. It should contain only the relevant Korean portion of the sentence, for example:
+The `fragment` field should contain only the relevant Korean portion, for example:
 
 ```json
 "fragment": "먹고 싶다"
 ```
 
-That allows the reader to identify and highlight the exact grammar structure.
+This lets the reader highlight the relevant grammar structure in the original text.
 
 # Recommended file bundles for future AI prompts
 
 | Requested change | Files to provide |
 |---|---|
-| Word click/tap/long-press behavior | `README.md`, `js/reader.js`, `js/interactions.js`, `css/reader.css`, `css/overlays.css` |
-| Grammar content or panel behavior | `README.md`, `js/grammar.js`, `js/reader.js`, `css/grammar.css`, `css/mobile.css` |
-| Search fields or scopes | `README.md`, `js/search.js`, `js/router.js`, plus the affected renderer |
+| Word click, tap, or long-press behavior | `README.md`, `js/reader.js`, `js/interactions.js`, `css/reader.css`, `css/overlays.css` |
+| Grammar panel or content rendering | `README.md`, `js/grammar.js`, `js/reader.js`, `css/grammar.css`, `css/mobile.css` |
+| Search behavior | `README.md`, `js/search.js`, `js/router.js`, `js/directories.js`, `js/stories.js` |
+| Library loading or hosted deployment | `README.md`, `js/library.js`, `js/settings.js`, `js/pwa.js` |
 | Settings option | `README.md`, `js/settings.js`, `js/settings-panel.js`, `index.html`, relevant feature file |
 | Theme or contrast | `README.md`, `js/settings.js`, `js/themes.js`, `css/base.css`, relevant component CSS |
 | Collection cards | `README.md`, `js/directories.js`, `css/cards.css`, `css/directories.css` |
-| Story cards or versions | `README.md`, `js/stories.js`, `js/interactions.js`, `css/cards.css`, `css/themes.css` |
+| Story cards or variants | `README.md`, `js/stories.js`, `js/interactions.js`, `css/cards.css`, `css/themes.css` |
 | Story JSON schema | `README.md`, `docs/STORY_JSON_SCHEMA.md`, `js/library.js` |
-| Add a new root-level view | `README.md`, `index.html`, `js/app.js`, `js/router.js`, `js/search.js` |
-
-# Important limitation of this package
-
-The actual story JSON files from the live GitHub repository were not included in the supplied modular project. Therefore:
-
-- the code and schema now support detailed grammar explanations;
-- the UI renders all detailed fields when present;
-- existing short grammar entries continue to work;
-- the text of every existing story has **not** been rewritten or expanded inside this archive.
-
-To expand all existing grammar explanations, provide the actual `library/` story JSON files. Each grammar entry can then be updated using the schema in `docs/STORY_JSON_SCHEMA.md`.
 
 # Local testing
 
-Because the application uses `fetch`, do not open `index.html` directly with `file://` for normal testing. Run a local server from the project directory:
+A local HTTP server is recommended because browsers restrict some `fetch` behavior under `file://`:
 
 ```bash
 python -m http.server 8000
@@ -453,11 +356,11 @@ Then open:
 http://localhost:8000
 ```
 
-The repository configured in `js/settings.js` must be public and reachable.
+Opening `index.html` directly may still work through the external fallbacks, but an HTTP server gives behavior closer to the deployed website.
 
 # Deployment
 
-Push the following to the repository root:
+Deploy these items together:
 
 - `index.html`;
 - `css/`;

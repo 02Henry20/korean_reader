@@ -36,6 +36,16 @@
   transition: transform 160ms ease, background 160ms ease;
 }
 
+.icon-button svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .icon-button:hover {
   transform: translateY(-1px);
   background: var(--accent-soft);
@@ -106,13 +116,6 @@
   transition: color 130ms ease, background 130ms ease, box-shadow 130ms ease;
 }
 
-.grammar-token {
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--accent) 28%, transparent);
-  text-decoration-thickness: 0.07em;
-  text-underline-offset: 0.2em;
-}
-
 .word-selected {
   color: var(--word);
   background: color-mix(in srgb, var(--word) 16%, transparent);
@@ -132,8 +135,4 @@
     background: color-mix(in srgb, var(--word) 8%, transparent);
   }
 
-  .grammar-token:hover {
-    color: var(--accent-strong);
-    background: color-mix(in srgb, var(--accent-soft) 55%, transparent);
-  }
 }

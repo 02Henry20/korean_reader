@@ -117,8 +117,7 @@
   font-weight: 950;
 }
 
-.story-level-button.has-variants::after,
-.reader-level-button.has-variants::after {
+.story-level-button.has-variants::after {
   content: attr(data-version-label) " versions ▾";
   display: inline-flex;
   margin-left: 8px;
@@ -130,8 +129,7 @@
   opacity: .72;
 }
 
-.story-level-static::after,
-.reader-level-button.single-version::after {
+.story-level-static::after {
   content: "1 version";
   display: inline-flex;
   margin-left: 8px;

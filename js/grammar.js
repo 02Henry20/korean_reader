@@ -84,16 +84,14 @@ function openGrammarDetails(sentenceElement, sentence, grammarIndexes, fallbackW
   targets.forEach((element) => element.classList.add("grammar-selected"));
   state.selectedGrammarElements = targets;
 
+  state.activeGrammarContext = {sentence, grammarIndexes: [...grammarIndexes]};
   renderGrammarDetails(sentence, grammarIndexes);
   detailPanel.classList.remove("detail-panel-empty");
   detailPanel.setAttribute("aria-hidden", "false");
 
   if (MOBILE_QUERY.matches) {
-    detailBackdrop.hidden = false;
-    requestAnimationFrame(() => {
-      detailBackdrop.classList.add("detail-backdrop-open");
-      detailPanel.classList.add("detail-panel-open");
-    });
+    document.body.style.overflow = "hidden";
+    requestAnimationFrame(() => detailPanel.classList.add("detail-panel-open"));
   }
 }
 
@@ -205,59 +203,13 @@ function clearSentenceSelection() {
 
 function clearDetails() {
   clearGrammarSelection();
+  state.activeGrammarContext = null;
   detailPanel.classList.remove("detail-panel-open");
   detailPanel.classList.add("detail-panel-empty");
-  detailPanel.style.transform = "";
   detailPanel.setAttribute("aria-hidden", "true");
   detailContent.replaceChildren();
-  detailBackdrop.classList.remove("detail-backdrop-open");
-  window.setTimeout(() => {
-    if (!detailBackdrop.classList.contains("detail-backdrop-open")) detailBackdrop.hidden = true;
-  }, 180);
+  document.body.style.overflow = "";
 }
-
 function createLabel(text) {
   return createTextBlock("p", "detail-label", text);
 }
-
-function setupDetailSheetGestures() {
-  let startY = 0;
-  let lastY = 0;
-  let startTime = 0;
-  let dragging = false;
-
-  detailSheetHandle.addEventListener("pointerdown", (event) => {
-    if (!MOBILE_QUERY.matches || !detailPanel.classList.contains("detail-panel-open")) return;
-    dragging = true;
-    startY = lastY = event.clientY;
-    startTime = performance.now();
-    detailSheetHandle.setPointerCapture(event.pointerId);
-    detailPanel.classList.add("detail-panel-dragging");
-  });
-
-  detailSheetHandle.addEventListener("pointermove", (event) => {
-    if (!dragging) return;
-    lastY = event.clientY;
-    const delta = Math.max(0, lastY - startY);
-    detailPanel.style.transform = `translateY(${delta}px)`;
-  });
-
-  const finish = () => {
-    if (!dragging) return;
-    dragging = false;
-    detailPanel.classList.remove("detail-panel-dragging");
-    const delta = Math.max(0, lastY - startY);
-    const elapsed = Math.max(1, performance.now() - startTime);
-    const velocity = delta / elapsed;
-    if (delta > 90 || velocity > 0.65) {
-      clearDetails();
-    } else {
-      detailPanel.style.transform = "";
-    }
-  };
-
-  detailSheetHandle.addEventListener("pointerup", finish);
-  detailSheetHandle.addEventListener("pointercancel", finish);
-}
-
-setupDetailSheetGestures();
