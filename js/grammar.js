@@ -252,17 +252,15 @@ function initializeGrammarSheetGestures() {
   detailPanel.addEventListener("pointerdown", (event) => {
     if (!MOBILE_QUERY.matches || !detailPanel.classList.contains("detail-panel-open")) return;
 
-    const rect = detailPanel.getBoundingClientRect();
-    const distanceFromPanelTop = event.clientY - rect.top;
-    const startedInExpandedHandleZone = distanceFromPanelTop <= 150;
     const panelIsAtTop = detailPanel.scrollTop <= 2;
 
     /*
-     * The upper 150 px act as an enlarged drag area at any scroll position.
-     * When the grammar panel is already scrolled to the top, a downward swipe
-     * may begin anywhere inside the panel.
+     * Dismissal may only begin when the panel was already at the top before
+     * this gesture started. A fast swipe that merely scrolls the panel back
+     * to the top therefore cannot close it; the user must start a new
+     * downward swipe after reaching the top.
      */
-    if (!startedInExpandedHandleZone && !panelIsAtTop) return;
+    if (!panelIsAtTop) return;
 
     state.detailDrag = {
       pointerId: event.pointerId,
