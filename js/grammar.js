@@ -77,6 +77,7 @@ function scrollSelectedSentenceToMobileTop(sentenceElement) {
 
 function openMobileGrammarSheet(sentenceElement) {
   clearTimeout(state.detailCloseTimer);
+  document.body.classList.add("mobile-grammar-open");
   const revealDelay = scrollSelectedSentenceToMobileTop(sentenceElement);
   detailBackdrop.hidden = false;
   detailBackdrop.setAttribute("aria-hidden", "false");
@@ -229,6 +230,7 @@ function clearDetails() {
   detailPanel.setAttribute("aria-hidden", "true");
   detailBackdrop.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
+  document.body.classList.remove("mobile-grammar-open");
 
   const finishClose = () => {
     if (detailPanel.classList.contains("detail-panel-open")) return;

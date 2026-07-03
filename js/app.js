@@ -17,6 +17,8 @@ const state = {
   pointerStart: null,
   suppressWordClickUntil: 0,
   sentencePress: null,
+  mobileSentenceTap: null,
+  mobileWordTapTimer: null,
   detailCloseTimer: null,
   detailDrag: null,
   storySearchCache: new WeakMap(),

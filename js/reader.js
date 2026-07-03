@@ -56,7 +56,7 @@ function renderStory(story) {
       sentenceElement.tabIndex = 0;
       sentenceElement.setAttribute(
         "aria-label",
-        "Sentence. Double-click on desktop or long press on mobile for its grammar explanation."
+        "Sentence. Double-click on desktop or double-tap on mobile for its grammar explanation."
       );
 
       appendWordTokens(sentenceElement, sentence);
@@ -77,6 +77,8 @@ function sentenceGrammarIndexes(sentence) {
 }
 
 function attachSentenceInteractions(sentenceElement, sentence) {
+  const mobileDoubleTapWindow = 360;
+
   const openSentenceGrammar = () => {
     const indexes = sentenceGrammarIndexes(sentence);
     if (!indexes.length) {
@@ -101,53 +103,57 @@ function attachSentenceInteractions(sentenceElement, sentence) {
 
   sentenceElement.addEventListener("pointerdown", (event) => {
     if (event.pointerType === "mouse") return;
-
     state.sentencePress = {
       element: sentenceElement,
       pointerId: event.pointerId,
       startX: event.clientX,
       startY: event.clientY,
-      moved: false,
-      longPressed: false
+      moved: false
     };
-
-    clearTimeout(state.longPressTimer);
-    state.longPressTimer = window.setTimeout(() => {
-      const press = state.sentencePress;
-      if (!press || press.element !== sentenceElement || press.moved) return;
-
-      press.longPressed = true;
-      state.longPressTriggered = true;
-      state.suppressWordClickUntil = Date.now() + 900;
-      hideWordPopover();
-      openSentenceGrammar();
-      if (navigator.vibrate) navigator.vibrate(18);
-
-      window.setTimeout(() => {
-        state.longPressTriggered = false;
-      }, 950);
-    }, LONG_PRESS_MS);
   }, {capture: true});
 
   sentenceElement.addEventListener("pointermove", (event) => {
     const press = state.sentencePress;
     if (!press || press.element !== sentenceElement || press.pointerId !== event.pointerId) return;
-
     if (Math.hypot(event.clientX - press.startX, event.clientY - press.startY) > 12) {
       press.moved = true;
-      clearTimeout(state.longPressTimer);
     }
   }, {capture: true});
 
-  const finishSentencePress = (event) => {
+  sentenceElement.addEventListener("pointerup", (event) => {
+    if (event.pointerType === "mouse") return;
     const press = state.sentencePress;
     if (!press || press.element !== sentenceElement || press.pointerId !== event.pointerId) return;
-    clearTimeout(state.longPressTimer);
     state.sentencePress = null;
-  };
+    if (press.moved) return;
 
-  sentenceElement.addEventListener("pointerup", finishSentencePress, {capture: true});
-  sentenceElement.addEventListener("pointercancel", finishSentencePress, {capture: true});
+    const now = Date.now();
+    const previous = state.mobileSentenceTap;
+    const isDoubleTap = previous &&
+      previous.element === sentenceElement &&
+      now - previous.time <= mobileDoubleTapWindow;
+
+    if (!isDoubleTap) {
+      state.mobileSentenceTap = {element: sentenceElement, time: now};
+      return;
+    }
+
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    clearTimeout(state.mobileWordTapTimer);
+    clearTimeout(state.clickTimer);
+    state.mobileSentenceTap = null;
+    state.suppressWordClickUntil = now + 750;
+    hideWordPopover();
+    openSentenceGrammar();
+  }, {capture: true});
+
+  sentenceElement.addEventListener("pointercancel", (event) => {
+    const press = state.sentencePress;
+    if (press && press.element === sentenceElement && press.pointerId === event.pointerId) {
+      state.sentencePress = null;
+    }
+  }, {capture: true});
 
   sentenceElement.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && event.shiftKey) {
@@ -230,14 +236,22 @@ function attachWordInteractions(word, translation, sentenceElement, sentence) {
     const completedTap = touchTap;
     touchTap = null;
 
-    if (completedTap.moved || state.longPressTriggered || Date.now() < state.suppressWordClickUntil) {
-      return;
-    }
+    if (completedTap.moved || Date.now() < state.suppressWordClickUntil) return;
 
     event.preventDefault();
     event.stopPropagation();
-    state.suppressWordClickUntil = Date.now() + 650;
-    showWordPopover(translation, event.clientX, event.clientY, word);
+    const tapTime = Date.now();
+    const sentenceTapTime = state.mobileSentenceTap?.element === sentenceElement
+      ? state.mobileSentenceTap.time
+      : tapTime;
+    state.suppressWordClickUntil = tapTime + 650;
+    clearTimeout(state.mobileWordTapTimer);
+    state.mobileWordTapTimer = window.setTimeout(() => {
+      const sentenceTap = state.mobileSentenceTap;
+      if (!sentenceTap || sentenceTap.element !== sentenceElement || sentenceTap.time !== sentenceTapTime) return;
+      state.mobileSentenceTap = null;
+      showWordPopover(translation, event.clientX, event.clientY, word);
+    }, 380);
   }, {passive: false});
 
   const cancelTouchTap = () => {

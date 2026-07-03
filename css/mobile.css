@@ -39,13 +39,40 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity 210ms ease;
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
   }
 
   .detail-backdrop-open {
     opacity: 1;
     pointer-events: auto;
+  }
+
+  body.mobile-grammar-open .story-content {
+    z-index: 92;
+    pointer-events: none;
+  }
+
+  body.mobile-grammar-open .story-paragraph .sentence:not(.grammar-selected) {
+    filter: blur(2px);
+    opacity: .52;
+  }
+
+  body.mobile-grammar-open .sentence.grammar-selected {
+    position: relative;
+    z-index: 3;
+    filter: none;
+    opacity: 1;
+    color: var(--accent-strong);
+    background: color-mix(in srgb, var(--accent-soft) 94%, var(--surface-solid));
+    box-shadow:
+      0 0 0 6px color-mix(in srgb, var(--accent-soft) 88%, transparent),
+      0 10px 30px color-mix(in srgb, var(--accent) 16%, transparent);
+  }
+
+  body.mobile-grammar-open .story-content::before {
+    filter: blur(5px);
+    opacity: .72;
   }
 
   .detail-panel {

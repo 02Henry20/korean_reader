@@ -46,10 +46,18 @@
   pointer-events: none;
   background:
     radial-gradient(circle at var(--shine-x) var(--shine-y),
-      color-mix(in srgb, white 28%, transparent),
-      transparent 34%);
+      color-mix(in srgb, var(--card-shine, white) 38%, transparent),
+      transparent 36%);
   opacity: .4;
   transition: opacity 180ms ease;
+}
+
+html[data-appearance="light"] .story-card {
+  --card-shine: var(--card-accent);
+}
+
+html[data-appearance="dark"] .story-card {
+  --card-shine: #ffffff;
 }
 
 .story-card::after {
@@ -83,7 +91,11 @@
 }
 
 .story-card:hover::before {
-  opacity: .7;
+  opacity: .82;
+}
+
+html[data-appearance="light"] .story-card:hover::before {
+  opacity: .62;
 }
 
 .story-card:hover::after {
