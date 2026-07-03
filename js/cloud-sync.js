@@ -17,6 +17,7 @@ let cloudSyncRunning = null;
 let cloudSyncQueued = false;
 let cloudAutoSyncTimer = null;
 let syncDecisionResolver = null;
+let syncDecisionPreviousFocus = null;
 
 function createFirebaseSyncError(code, message) {
   const error = new Error(message);
@@ -438,9 +439,12 @@ function closeSyncDecision(choice = "cancel") {
   dialog?.classList.remove("sync-decision-dialog-open");
   dialog?.setAttribute("aria-hidden", "true");
   backdrop?.classList.remove("sync-decision-backdrop-open");
+  document.body.classList.remove("sync-decision-open");
   window.setTimeout(() => {
     if (backdrop && !backdrop.classList.contains("sync-decision-backdrop-open")) backdrop.hidden = true;
   }, 180);
+  if (syncDecisionPreviousFocus instanceof HTMLElement) syncDecisionPreviousFocus.focus({preventScroll: true});
+  syncDecisionPreviousFocus = null;
   const resolver = syncDecisionResolver;
   syncDecisionResolver = null;
   resolver?.(choice);
@@ -456,11 +460,14 @@ function requestSyncDecision(localSnapshot, cloudSnapshot, reason) {
   if (local) local.textContent = summaryText(snapshotSummary(localSnapshot));
   if (cloud) cloud.textContent = summaryText(snapshotSummary(cloudSnapshot));
 
+  syncDecisionPreviousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   backdrop.hidden = false;
   dialog.setAttribute("aria-hidden", "false");
+  document.body.classList.add("sync-decision-open");
   requestAnimationFrame(() => {
     backdrop.classList.add("sync-decision-backdrop-open");
     dialog.classList.add("sync-decision-dialog-open");
+    document.getElementById("syncDecisionMergeButton")?.focus({preventScroll: true});
   });
 
   setFirebaseStatus("warning", "Choose a sync direction", "Nothing has been uploaded or deleted yet.");
@@ -1216,6 +1223,12 @@ document.getElementById("syncDecisionUploadButton")?.addEventListener("click", (
 document.getElementById("syncDecisionCancelButton")?.addEventListener("click", () => closeSyncDecision("cancel"));
 document.getElementById("syncDecisionCloseButton")?.addEventListener("click", () => closeSyncDecision("cancel"));
 document.getElementById("syncDecisionBackdrop")?.addEventListener("click", () => closeSyncDecision("cancel"));
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && document.getElementById("syncDecisionDialog")?.classList.contains("sync-decision-dialog-open")) {
+    closeSyncDecision("cancel");
+  }
+});
 
 window.addEventListener("online", () => {
   if (state.firebaseUser) syncCloudData({reason: "reconnected"}).catch(() => {});

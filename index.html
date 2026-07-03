@@ -225,14 +225,24 @@
 <article><span>Firebase</span><strong id="syncDecisionCloudSummary">Checking…</strong></article>
 </div>
 <div class="sync-decision-actions">
-<button class="button button-primary sync-decision-action sync-decision-merge" id="syncDecisionMergeButton" type="button">
-<strong>Merge both</strong><small>Keep unique data from both sides and resolve matching items by their change times.</small>
+<button class="button sync-decision-action sync-decision-merge" id="syncDecisionMergeButton" type="button">
+<span aria-hidden="true" class="sync-decision-action-icon">
+<svg viewBox="0 0 24 24"><path d="M7 7h9.5a3.5 3.5 0 0 1 0 7H15"></path><path d="m18 4 3 3-3 3M17 17H7.5a3.5 3.5 0 0 1 0-7H9"></path><path d="m6 14-3 3 3 3"></path></svg>
+</span>
+<span class="sync-decision-action-copy"><strong>Merge both</strong><small>Keep unique data from both sides and use the newest version when an item exists in both places.</small></span>
+<span class="sync-decision-action-badge">Recommended</span>
 </button>
-<button class="button sync-decision-action" id="syncDecisionDownloadButton" type="button">
-<strong>Use Firebase</strong><small>Replace this device’s custom library and reading state with the online copy.</small>
+<button class="button sync-decision-action sync-decision-download" id="syncDecisionDownloadButton" type="button">
+<span aria-hidden="true" class="sync-decision-action-icon">
+<svg viewBox="0 0 24 24"><path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 20h14"></path></svg>
+</span>
+<span class="sync-decision-action-copy"><strong>Use Firebase</strong><small>Replace this device’s imported library and reading state with the online copy.</small></span>
 </button>
-<button class="button sync-decision-action sync-decision-danger" id="syncDecisionUploadButton" type="button">
-<strong>Use this device</strong><small>Replace the Korean Reader data in Firebase with the data currently on this device.</small>
+<button class="button sync-decision-action sync-decision-upload" id="syncDecisionUploadButton" type="button">
+<span aria-hidden="true" class="sync-decision-action-icon">
+<svg viewBox="0 0 24 24"><path d="M12 21V9"></path><path d="m7 14 5-5 5 5"></path><path d="M5 4h14"></path></svg>
+</span>
+<span class="sync-decision-action-copy"><strong>Use this device</strong><small>Replace the Korean Reader data in Firebase with the data currently stored on this device.</small></span>
 </button>
 <button class="button sync-decision-cancel" id="syncDecisionCancelButton" type="button">Cancel and remain local</button>
 </div>
