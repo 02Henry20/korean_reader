@@ -12,9 +12,9 @@ function updateLibraryManageButton() {
   if (!libraryManageButton) return;
   const deleting = Boolean(state.libraryDeleteMode);
   const label = libraryManageButton.querySelector("span");
-  if (label) label.textContent = deleting ? "Done" : "Add";
+  if (label) label.textContent = deleting ? "Done" : "Manage";
   libraryManageButton.classList.toggle("manage-library-button-delete-active", deleting);
-  libraryManageButton.setAttribute("aria-label", deleting ? "Leave delete mode" : "Add or delete library content");
+  libraryManageButton.setAttribute("aria-label", deleting ? "Leave delete mode" : "Manage library content");
 }
 
 function openLibraryManager() {
@@ -195,6 +195,76 @@ async function parseJsonFile(file) {
   }
 }
 
+function importedCollectionEntries(parsed, rootFolder) {
+  const entries = parsed
+    .filter(({data}) => data?.type === "collection")
+    .map(({file, data}) => {
+      const directory = dirname(normalizedFilePath(file));
+      const collection = normalizeCollection({...data, sourceType: "custom"}, directory || rootFolder);
+      collection.sourceType = "custom";
+      return {file, data, directory, collection};
+    });
+
+  if (entries.length) return entries;
+
+  const collection = normalizeCollection({
+    id: slugify(rootFolder),
+    title: humanizeFolderName(rootFolder),
+    monogram: humanizeFolderName(rootFolder).slice(0, 1),
+    theme: "sage",
+    sourceType: "custom"
+  }, rootFolder);
+  collection.sourceType = "custom";
+  return [{file: null, data: null, directory: rootFolder, collection}];
+}
+
+function collectionForImportedStory(entry, collectionEntries) {
+  const rawCollectionId = String(entry.data?.collectionId || "");
+  if (rawCollectionId) {
+    const matchingId = collectionEntries.find(({collection}) => collection.id === rawCollectionId);
+    if (matchingId) return matchingId.collection;
+  }
+
+  const storyDirectory = dirname(normalizedFilePath(entry.file));
+  const matchingDirectory = collectionEntries
+    .filter(({directory}) =>
+      directory &&
+      (storyDirectory === directory || storyDirectory.startsWith(`${directory}/`))
+    )
+    .sort((a, b) => pathDepth(b.directory) - pathDepth(a.directory))[0];
+
+  return matchingDirectory?.collection || collectionEntries[0]?.collection;
+}
+
+async function clearImportDeletionMarker(kind, id, pendingCloudDeletionClears = []) {
+  const key = `${kind}:${id}`;
+  if (!state.libraryDeletions.has(key)) return;
+  state.libraryDeletions.delete(key);
+  await removeLocalDeletionRecord(key);
+  pendingCloudDeletionClears.push({key, kind, id});
+}
+
+function syncImportedContentInBackground(detail, pendingCloudDeletionClears = []) {
+  if (!state.firebaseUser) {
+    setFirebaseStatus("offline", "Saved locally", detail || "Sign in to synchronize imported content.");
+    return;
+  }
+
+  const deletionClears = pendingCloudDeletionClears.map((record) => ({...record}));
+  setFirebaseStatus("syncing", "Saved locally", "Uploading imported content in the background.");
+  window.setTimeout(() => {
+    (async () => {
+      for (const deletion of deletionClears) {
+        await firebaseDeleteDocument(CLOUD_PATHS.deletions, deletion.key);
+      }
+      await syncCloudData({force: true});
+    })().catch((error) => {
+      console.error("Background import sync failed:", error);
+      setFirebaseStatus("error", "Import saved locally; sync failed", friendlyFirebaseError(error));
+    });
+  }, 0);
+}
+
 async function importDirectoryFiles(fileList) {
   const files = [...fileList];
   if (!files.length) return;
@@ -208,68 +278,69 @@ async function importDirectoryFiles(fileList) {
     const parsed = [];
     for (const file of jsonFiles) parsed.push({file, data: await parseJsonFile(file)});
 
-    const collectionEntry = parsed.find(({data}) => data?.type === "collection");
     const rootFolder = normalizedFilePath(files[0]).split("/")[0] || "Imported collection";
-    const rawCollection = collectionEntry?.data || {
-      id: slugify(rootFolder),
-      title: humanizeFolderName(rootFolder),
-      monogram: humanizeFolderName(rootFolder).slice(0, 1),
-      theme: "sage"
-    };
-    const collection = normalizeCollection({...rawCollection, sourceType: "custom"}, rootFolder);
-    collection.sourceType = "custom";
+    const collectionEntries = importedCollectionEntries(parsed, rootFolder);
 
     const storyEntries = parsed.filter(({data}) => Array.isArray(data?.paragraphs));
     if (!storyEntries.length) throw new Error("No valid story JSON files were found in this directory.");
 
-    const stories = storyEntries.map(({file, data}) => ({
-      file,
-      raw: data,
-      story: validateImportedStory(data, file.name, collection.id)
-    }));
+    const stories = storyEntries.map((entry) => {
+      const collection = collectionForImportedStory(entry, collectionEntries);
+      if (!collection) throw new Error(`${entry.file.name} could not be matched to a collection.`);
+      return {
+        file: entry.file,
+        raw: entry.data,
+        collection,
+        story: validateImportedStory(entry.data, entry.file.name, collection.id)
+      };
+    });
     const duplicateIds = stories.map(({story}) => story.id).filter((id, index, all) => all.indexOf(id) !== index);
     if (duplicateIds.length) throw new Error(`Duplicate story ID: ${duplicateIds[0]}`);
 
-    const existingCollection = getCollection(collection.id);
-    if (existingCollection && !window.confirm(`A directory named “${existingCollection.title}” already exists. Replace matching imported content?`)) {
+    const collections = [...new Map(stories.map(({collection}) => [collection.id, collection])).values()];
+    const existingCollections = collections.filter((collection) => getCollection(collection.id));
+    if (existingCollections.length && !window.confirm(
+      `${existingCollections.length} imported director${existingCollections.length === 1 ? "y" : "ies"} already ` +
+      "exist. Replace matching imported content?"
+    )) {
       closeLibraryManager();
       return;
     }
 
     const now = Date.now();
-    await clearDeletion("collection", collection.id);
-    await saveCustomCollection({id: collection.id, collection, updatedAt: now});
+    const pendingDeletionClears = [];
+    for (const [index, collection] of collections.entries()) {
+      setLibraryManagerProgress("Adding directory", `Saving ${collection.title}…`);
+      await clearImportDeletionMarker("collection", collection.id, pendingDeletionClears);
+      await saveCustomCollection({id: collection.id, collection, updatedAt: now + index}, {localOnly: true});
+    }
 
     let importedCount = 0;
     for (const entry of stories) {
       setLibraryManagerProgress("Adding directory", `Saving ${entry.story.title}…`);
-      await clearDeletion("story", entry.story.id);
+      await clearImportDeletionMarker("story", entry.story.id, pendingDeletionClears);
       const thumbnailFile = importedThumbnailFile(fileMap, entry.file, entry.raw.thumbnail || entry.raw.cover || entry.raw.coverImage);
-      const record = await buildStoryRecord(entry.story, thumbnailFile, now + importedCount + 1);
-      await saveCustomStory(record);
+      const record = await buildStoryRecord(entry.story, thumbnailFile, now + collections.length + importedCount + 1);
+      await saveCustomStory(record, {localOnly: true});
       importedCount += 1;
     }
 
     await loadLocalLibraryIntoState();
     closeLibraryManager();
     renderLibrary(searchInput.value);
-    setFirebaseStatus(
-      state.firebaseUser ? "synced" : "offline",
-      state.firebaseUser ? "Synced" : "Saved locally",
-      state.firebaseUser?.email || "Sign in to synchronize the imported directory."
-    );
-    showToast(`Added ${collection.title} with ${importedCount} stories`);
+    syncImportedContentInBackground("Sign in to synchronize the imported directory.", pendingDeletionClears);
+    showToast(`Added ${collections.length} director${collections.length === 1 ? "y" : "ies"} with ${importedCount} stories`);
   } catch (error) {
     console.error(error);
     libraryManageBody.replaceChildren(createTextBlock("div", "library-import-error", error.message));
   }
 }
 
-async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.now()) {
+async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.now(), options = {}) {
   let thumbnailUrl = "";
   let thumbnailStoragePath = "";
 
-  if (thumbnailFile && state.firebaseUser) {
+  if (thumbnailFile && state.firebaseUser && options.uploadThumbnail === true) {
     try {
       setFirebaseStatus("syncing", "Uploading thumbnail…", thumbnailFile.name);
       const uploaded = await uploadThumbnailToFirebase(story.id, story.collectionId, thumbnailFile);
@@ -344,13 +415,15 @@ async function finishSingleStoryImport(thumbnailFile) {
   setLibraryManagerProgress("Adding story", `Saving ${pending.story.title}…`);
 
   try {
-    await clearDeletion("story", pending.story.id);
+    const pendingDeletionClears = [];
+    await clearImportDeletionMarker("story", pending.story.id, pendingDeletionClears);
     const record = await buildStoryRecord(pending.story, thumbnailFile, Date.now());
-    await saveCustomStory(record);
+    await saveCustomStory(record, {localOnly: true});
     state.pendingStoryImport = null;
     await loadLocalLibraryIntoState();
     closeLibraryManager();
     renderLibrary(searchInput.value);
+    syncImportedContentInBackground("Sign in to synchronize the imported story.", pendingDeletionClears);
     showToast(`Added ${pending.story.title}`);
   } catch (error) {
     console.error(error);
