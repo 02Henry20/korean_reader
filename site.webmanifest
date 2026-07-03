@@ -1,12 +1,20 @@
 {
+  "id": "./",
   "name": "Korean Reader",
   "short_name": "Korean Reader",
   "description": "A static Korean reading app with story collections, translations, grammar notes, and vocabulary help.",
+  "lang": "en",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f5ef",
-  "theme_color": "#4d7f69",
+  "orientation": "any",
+  "background_color": "#FAF7EE",
+  "theme_color": "#4D7F69",
+  "categories": [
+    "education",
+    "books"
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icons/icon-192.png",
@@ -19,6 +27,18 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
