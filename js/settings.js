@@ -17,8 +17,11 @@ const THEMES = {
   warm: {name:"Warm", accent:"#a76643", accentStrong:"#79462e", accentSoft:"#f0ddcf", word:"#7b5a92", ambientOne:"#ead7bf", ambientTwo:"#e8cfc4"},
   forest: {name:"Forest", accent:"#3f7453", accentStrong:"#285139", accentSoft:"#d5e7d8", word:"#9b5d43", ambientOne:"#c7dccb", ambientTwo:"#d9dfc5"},
   dracula: {
-    name:"Dracula", accent:"#bd93f9", accentStrong:"#8f6bd1", accentSoft:"#e4d7fb", word:"#ff79c6",
-    ambientOne:"#6f52a8", ambientTwo:"#a64e84",
+    name:"Dracula",
+    accent:"#7447b8", accentStrong:"#4d287f", accentSoft:"#e8def7", word:"#ad1f6f",
+    ambientOne:"#d7c8ef", ambientTwo:"#edc7dc",
+    lightSurface:{bg:"#f5f1fa", surface:"#fffaff", surfaceMuted:"#ebe4f3", ink:"#261b35", muted:"#62556f"},
+    darkAccent:{accent:"#bd93f9", accentStrong:"#a98ae9", accentSoft:"#4a405f", word:"#ff79c6", ambientOne:"#6f52a8", ambientTwo:"#a64e84"},
     darkSurface:{bg:"#191a21", surface:"#282a36", surfaceMuted:"#343746", ink:"#f8f8f2", muted:"#b8b8c7"}
   }
 };

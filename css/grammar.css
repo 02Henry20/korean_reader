@@ -41,21 +41,10 @@
   pointer-events: none;
 }
 
-.detail-panel-empty .detail-content,
-.detail-panel-empty .close-detail {
+.detail-panel-empty .detail-content {
   display: none;
 }
 
-
-.close-detail {
-  position: sticky;
-  z-index: 2;
-  top: 0;
-  float: right;
-  width: 39px;
-  height: 39px;
-  margin: -7px -7px 0 10px;
-}
 
 .detail-content {
   padding-right: 8px;

@@ -75,8 +75,26 @@ function scrollSelectedSentenceToMobileTop(sentenceElement) {
   return smooth ? 150 : 0;
 }
 
+function ensureMobileGrammarHistoryEntry() {
+  if (!MOBILE_QUERY.matches || state.mobileGrammarHistoryActive) return;
+
+  const current = history.state;
+  const readerState = current?.view === "reader"
+    ? current
+    : {
+        view: "reader",
+        storyId: state.activeStory?.id || "",
+        collectionId: state.activeCollectionId || ""
+      };
+
+  history.pushState({...readerState, grammarPanel: true}, "", window.location.href);
+  state.mobileGrammarHistoryActive = true;
+  state.mobileGrammarHistoryClosing = false;
+}
+
 function openMobileGrammarSheet(sentenceElement) {
   clearTimeout(state.detailCloseTimer);
+  ensureMobileGrammarHistoryEntry();
   document.body.classList.add("mobile-grammar-open");
   const revealDelay = scrollSelectedSentenceToMobileTop(sentenceElement);
   detailBackdrop.hidden = false;
@@ -217,7 +235,17 @@ function clearSentenceSelection() {
   clearGrammarSelection();
 }
 
-function clearDetails() {
+function dismissGrammarDetails() {
+  if (MOBILE_QUERY.matches && state.mobileGrammarHistoryActive) {
+    state.mobileGrammarHistoryClosing = true;
+    clearDetails({preserveHistoryState: true});
+    history.back();
+    return;
+  }
+  clearDetails();
+}
+
+function clearDetails(options = {}) {
   const closingMobileSheet = MOBILE_QUERY.matches && detailPanel.classList.contains("detail-panel-open");
   clearGrammarSelection();
   state.activeGrammarContext = null;
@@ -231,6 +259,11 @@ function clearDetails() {
   detailBackdrop.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
   document.body.classList.remove("mobile-grammar-open");
+
+  if (!options.preserveHistoryState) {
+    state.mobileGrammarHistoryActive = false;
+    state.mobileGrammarHistoryClosing = false;
+  }
 
   const finishClose = () => {
     if (detailPanel.classList.contains("detail-panel-open")) return;
@@ -247,7 +280,7 @@ function clearDetails() {
 }
 
 function initializeGrammarSheetGestures() {
-  detailBackdrop.addEventListener("click", clearDetails);
+  detailBackdrop.addEventListener("click", dismissGrammarDetails);
 
   detailPanel.addEventListener("pointerdown", (event) => {
     if (!MOBILE_QUERY.matches || !detailPanel.classList.contains("detail-panel-open")) return;
@@ -291,7 +324,7 @@ function initializeGrammarSheetGestures() {
     detailBackdrop.style.removeProperty("opacity");
 
     if (drag.dragging && (distance > 92 || velocity > 0.65)) {
-      clearDetails();
+      dismissGrammarDetails();
       return;
     }
 

@@ -156,7 +156,7 @@ html[data-appearance="light"] .story-card:hover::before {
 
 .english-title {
   margin-bottom: 14px;
-  color: var(--muted);
+  color: var(--card-muted, var(--muted));
   font-size: 0.96rem;
   font-weight: 680;
 }
@@ -164,7 +164,7 @@ html[data-appearance="light"] .story-card:hover::before {
 .description {
   max-width: 76%;
   margin: auto 0 0;
-  color: var(--muted);
+  color: var(--card-muted, var(--muted));
   line-height: 1.62;
 }
 

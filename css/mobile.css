@@ -127,16 +127,6 @@
     box-shadow: 0 8px 20px color-mix(in srgb, var(--ink) 8%, transparent);
   }
 
-  .close-detail {
-    position: sticky;
-    z-index: 5;
-    top: 8px;
-    width: 43px;
-    height: 43px;
-    margin: -2px 0 6px auto;
-    float: none;
-  }
-
   .detail-content {
     width: min(680px, 100%);
     margin: 0 auto;

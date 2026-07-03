@@ -20,24 +20,39 @@ function activeSurfacePalette() {
   if (state.settings.appearance === "dark" && globalTheme.darkSurface) {
     return {...appearance, ...globalTheme.darkSurface};
   }
+  if (state.settings.appearance === "light" && globalTheme.lightSurface) {
+    return {...appearance, ...globalTheme.lightSurface};
+  }
   return appearance;
+}
+
+function accentPaletteForAppearance(theme) {
+  if (!theme) return THEMES.sage;
+  if (state.settings.appearance === "dark" && theme.darkAccent) {
+    return {...theme, ...theme.darkAccent};
+  }
+  return theme;
 }
 
 function activeAccentPalette(contextThemeKey) {
   const key = state.settings.storyAccents && THEMES[contextThemeKey]
     ? contextThemeKey
     : state.settings.theme;
-  return THEMES[key] || THEMES.sage;
+  return accentPaletteForAppearance(THEMES[key] || THEMES.sage);
 }
 
 function setCardTheme(card, storyAccent) {
   const appearance = activeSurfacePalette();
-  const accent = state.settings.storyAccents ? storyAccent : (THEMES[state.settings.theme] || THEMES.sage);
+  const sourceAccent = state.settings.storyAccents
+    ? storyAccent
+    : (THEMES[state.settings.theme] || THEMES.sage);
+  const accent = accentPaletteForAppearance(sourceAccent);
   const dark = state.settings.appearance === "dark";
   card.style.setProperty("--card-bg", appearance.surface);
   card.style.setProperty("--card-soft", mixHexV6(accent.accent, appearance.surfaceMuted, dark ? 0.72 : 0.82));
-  card.style.setProperty("--card-accent", dark ? mixHexV6(accent.accent, "#ffffff", 0.28) : accent.accent);
-  card.style.setProperty("--card-accent-strong", dark ? mixHexV6(accent.accent, "#ffffff", 0.46) : accent.accentStrong);
+  card.style.setProperty("--card-accent", dark ? mixHexV6(accent.accent, "#ffffff", 0.18) : accent.accent);
+  card.style.setProperty("--card-accent-strong", dark ? mixHexV6(accent.accentStrong, "#ffffff", 0.24) : accent.accentStrong);
+  card.style.setProperty("--card-muted", appearance.muted);
 }
 
 function applyTheme(contextThemeKey = state.settings.theme) {

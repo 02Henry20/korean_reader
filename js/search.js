@@ -81,7 +81,6 @@ function renderGlobalSearchResults(query) {
 searchInput.addEventListener("input", () => renderLibrary(searchInput.value));
 libraryBackButton.addEventListener("click", () => history.back());
 backButton.addEventListener("click", () => history.back());
-closeDetailButton.addEventListener("click", clearDetails);
 
 storyContent.addEventListener("click", (event) => {
   if (!event.target.closest(".word-token")) hideWordPopover();
@@ -108,7 +107,7 @@ document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
   hideWordPopover();
   hideVariantMenu();
-  clearDetails();
+  dismissGrammarDetails();
   closeSettings();
 });
 
@@ -116,10 +115,16 @@ window.addEventListener("resize", () => {
   hideWordPopover();
   hideVariantMenu();
   if (!MOBILE_QUERY.matches) {
-    detailPanel.classList.remove("detail-panel-open");
-    detailBackdrop.classList.remove("detail-backdrop-open");
-    detailBackdrop.hidden = true;
-    document.body.style.overflow = "";
+    if (state.mobileGrammarHistoryActive) {
+      state.mobileGrammarHistoryClosing = true;
+      clearDetails({preserveHistoryState: true});
+      history.back();
+    } else {
+      detailPanel.classList.remove("detail-panel-open");
+      detailBackdrop.classList.remove("detail-backdrop-open");
+      detailBackdrop.hidden = true;
+      document.body.style.overflow = "";
+    }
   } else if (state.activeGrammarContext && state.selectedSentenceElement) {
     openMobileGrammarSheet(state.selectedSentenceElement);
   }
@@ -131,5 +136,11 @@ window.addEventListener("scroll", () => {
 }, {passive: true});
 
 window.addEventListener("popstate", (event) => {
+  if (state.mobileGrammarHistoryActive || state.mobileGrammarHistoryClosing) {
+    state.mobileGrammarHistoryActive = false;
+    state.mobileGrammarHistoryClosing = false;
+    clearDetails();
+    return;
+  }
   renderNavigation(event.state || {view: "collections"});
 });
