@@ -55,7 +55,7 @@ function renderStoryCards(collectionId, query) {
   libraryEyebrow.textContent = collection.level || "STORY COLLECTION";
   libraryTitle.textContent = collection.title;
   librarySubtitle.textContent = [collection.koreanTitle, collection.description].filter(Boolean).join(" · ");
-  searchInput.placeholder = "Search story titles, descriptions, text, or translations";
+  searchInput.placeholder = "Search in directory";
 
   const groups = getVariantGroupsForCollection(collectionId)
     .filter((group) => !query || group.variants.some((story) => storyMatchesQuery(story, query)))

@@ -4,7 +4,7 @@ function renderCollectionCards(query) {
   libraryEyebrow.textContent = "한국어 리더";
   libraryTitle.textContent = "Korean Reader";
   librarySubtitle.textContent = "Choose a collection, then choose a story.";
-  searchInput.placeholder = "Search titles, descriptions, or story text";
+  searchInput.placeholder = "Search";
 
   if (query) {
     renderGlobalSearchResults(query);
