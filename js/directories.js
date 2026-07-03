@@ -32,15 +32,16 @@ function createCollectionCard(collection) {
   content.className = "story-card-content";
   const topline = document.createElement("div");
   topline.className = "collection-topline";
-  const mark = createTextBlock("span", "collection-monogram", collection.monogram);
+  const artwork = createCollectionArtwork(collection, accent);
   const count = createTextBlock("span", "collection-count", `${groups.length} stor${groups.length === 1 ? "y" : "ies"}`);
-  topline.append(mark, count);
+  topline.append(artwork, count);
   content.appendChild(topline);
   content.appendChild(createTextBlock("h2", "", collection.title));
   if (collection.koreanTitle) content.appendChild(createTextBlock("p", "collection-korean-title", collection.koreanTitle));
   if (collection.description) content.appendChild(createTextBlock("p", "description", collection.description));
 
   card.appendChild(content);
+  enableCardMotion(card);
   card.addEventListener("click", () => showCollection(collection.id, true));
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {

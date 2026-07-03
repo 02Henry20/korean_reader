@@ -1,3 +1,5 @@
+const CARD_SVG_CACHE = new Map();
+
 function escapeXmlV8(value) {
   return String(value || "").replace(/[&<>"']/g, (char) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;"
@@ -12,11 +14,9 @@ function splitCoverTextV8(value, maxCharacters = 12, maxLines = 2) {
   let current = "";
 
   words.forEach((word) => {
-    if (!current) {
-      current = word;
-    } else if ((current + " " + word).length <= maxCharacters) {
-      current += " " + word;
-    } else {
+    if (!current) current = word;
+    else if ((current + " " + word).length <= maxCharacters) current += " " + word;
+    else {
       lines.push(current);
       current = word;
     }
@@ -92,41 +92,166 @@ function generatedStoryThumbnailV8(story, accent) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
-function createStoryThumbnailV8(story, accent) {
+function genericCollectionArtwork(collection) {
+  const symbol = escapeXmlV8(collection?.monogram || String(collection?.title || "문").slice(0, 1));
+  return `
+    <svg viewBox="0 0 120 120" aria-hidden="true">
+      <path class="art-soft" d="M18 31c0-8 6-14 14-14h31c9 0 17 4 22 11l17 23c5 7 4 17-3 23L71 99c-6 5-15 6-22 2L23 87c-7-4-11-11-10-19l5-37Z"/>
+      <path class="art-line" d="M31 35c13-8 27-8 42 0v48c-15-8-29-8-42 0V35Z"/>
+      <path class="art-line" d="M73 35c8-5 16-7 24-6v47c-8-1-16 1-24 7V35Z"/>
+      <path class="art-detail" d="M39 47h24M39 57h20M39 67h24"/>
+      <circle class="art-orbit" cx="91" cy="24" r="10"/>
+      <path class="art-orbit" d="M14 91c8-2 14 0 19 6"/>
+      <text x="53" y="91" text-anchor="middle" class="art-symbol">${symbol}</text>
+    </svg>`;
+}
+
+function genericStoryArtwork(story) {
+  const symbol = escapeXmlV8(String(story?.title || "문").slice(0, 1));
+  return `
+    <svg viewBox="0 0 120 160" aria-hidden="true">
+      <path class="art-soft" d="M18 13h72c8 0 14 6 14 14v104c0 9-7 16-16 16H28c-9 0-16-7-16-16V19c0-3 3-6 6-6Z"/>
+      <path class="art-line" d="M29 31h61v91H29z"/>
+      <path class="art-detail" d="M39 45h41M39 56h31M39 113h41"/>
+      <path class="art-wave" d="M22 95c21-28 43 20 76-17v44H22V95Z"/>
+      <circle class="art-orbit" cx="86" cy="37" r="9"/>
+      <text x="58" y="93" text-anchor="middle" class="art-symbol art-symbol-large">${symbol}</text>
+    </svg>`;
+}
+
+function repositoryAssetUrls(path) {
+  const clean = String(path || "").replace(/\\/g, "/").replace(/^\/+/, "");
+  if (!clean) return [];
+  try {
+    return [new URL(clean, document.baseURI).href];
+  } catch {
+    return [];
+  }
+}
+
+function explicitAssetUrls(item, value) {
+  const path = String(value || "").trim().replace(/\\/g, "/");
+  if (!path) return [];
+  if (/^(?:data:|blob:|https?:|\/)/i.test(path)) return [path];
+
+  const urls = [];
+  if (item?.sourcePath) {
+    try { urls.push(new URL(path, item.sourcePath).href); } catch {}
+  }
+  urls.push(...repositoryAssetUrls(path.replace(/^\.\//, "")));
+  return [...new Set(urls)];
+}
+
+function collectionSvgUrls(collection) {
+  if (collection?.cardSvg) return explicitAssetUrls(collection, collection.cardSvg);
+  const paths = [];
+  if (collection?.sourceDirectory) paths.push(`${collection.sourceDirectory}/directory.svg`);
+  paths.push(
+    `assets/directory-svg/${collection.id}/directory.svg`,
+    `directory-svg/${collection.id}/directory.svg`
+  );
+  return paths.flatMap(repositoryAssetUrls);
+}
+
+function storySvgUrls(story) {
+  if (story?.cardSvg) return explicitAssetUrls(story, story.cardSvg);
+  const sourceStem = String(story?.sourceFileName || "").replace(/\.json$/i, "");
+  const paths = [];
+  if (story?.sourceDirectory && sourceStem) {
+    paths.push(`${story.sourceDirectory}/${sourceStem}/story.svg`);
+  }
+  paths.push(
+    `assets/directory-svg/${story.collectionId}/${story.id}/story.svg`,
+    `directory-svg/${story.collectionId}/${story.id}/story.svg`
+  );
+  return paths.flatMap(repositoryAssetUrls);
+}
+
+function sanitizeAndRecolorSvg(svgText) {
+  const documentSvg = new DOMParser().parseFromString(svgText, "image/svg+xml");
+  const root = documentSvg.documentElement;
+  if (!root || root.nodeName.toLowerCase() !== "svg" || documentSvg.querySelector("parsererror")) {
+    throw new Error("Invalid SVG");
+  }
+
+  root.querySelectorAll("script, foreignObject, iframe, object, embed").forEach((node) => node.remove());
+  root.querySelectorAll("*").forEach((node) => {
+    [...node.attributes].forEach((attribute) => {
+      if (/^on/i.test(attribute.name)) node.removeAttribute(attribute.name);
+      if ((attribute.name === "href" || attribute.name.endsWith(":href")) && /^https?:/i.test(attribute.value)) {
+        node.removeAttribute(attribute.name);
+      }
+    });
+  });
+
+  root.removeAttribute("width");
+  root.removeAttribute("height");
+  root.setAttribute("aria-hidden", "true");
+  root.classList.add("external-card-svg");
+
+  root.querySelectorAll("stop").forEach((node) => node.setAttribute("stop-color", "currentColor"));
+  root.querySelectorAll("path, rect, circle, ellipse, polygon, polyline, line, text").forEach((node) => {
+    const fill = node.getAttribute("fill");
+    const stroke = node.getAttribute("stroke");
+    if (fill !== "none") node.setAttribute("fill", "currentColor");
+    if (stroke && stroke !== "none") node.setAttribute("stroke", "currentColor");
+  });
+
+  return document.importNode(root, true);
+}
+
+async function fetchFirstSvg(urls) {
+  for (const url of urls) {
+    if (CARD_SVG_CACHE.has(url)) {
+      const cached = CARD_SVG_CACHE.get(url);
+      if (cached) return cached.cloneNode(true);
+      continue;
+    }
+
+    try {
+      const response = await fetch(url, {cache: "force-cache"});
+      if (!response.ok) throw new Error(String(response.status));
+      const text = await response.text();
+      const svg = sanitizeAndRecolorSvg(text);
+      CARD_SVG_CACHE.set(url, svg);
+      return svg.cloneNode(true);
+    } catch {
+      CARD_SVG_CACHE.set(url, null);
+    }
+  }
+  return null;
+}
+
+function loadCardSvg(wrapper, urls) {
+  if (!urls.length) return;
+  fetchFirstSvg(urls).then((svg) => {
+    if (!svg || !wrapper.isConnected) return;
+    wrapper.replaceChildren(svg);
+    wrapper.classList.add("has-custom-svg");
+  });
+}
+
+function createCollectionArtwork(collection, accent) {
   const wrapper = document.createElement("div");
-  wrapper.className = "story-thumbnail";
-  wrapper.setAttribute("aria-hidden", "true");
-
-  const image = document.createElement("img");
-  const fallback = generatedStoryThumbnailV8(story, accent);
-  image.src = storyThumbnailSourceV8(story, accent);
-  image.alt = "";
-  image.decoding = "async";
-  image.loading = "eager";
-  image.addEventListener("error", () => {
-    if (image.src !== fallback) image.src = fallback;
-  }, {once: true});
-
-  wrapper.appendChild(image);
+  wrapper.className = "collection-artwork card-svg-art";
+  wrapper.style.setProperty("--art-accent", accent.accent);
+  wrapper.style.setProperty("--art-accent-strong", accent.accentStrong);
+  wrapper.innerHTML = genericCollectionArtwork(collection);
+  loadCardSvg(wrapper, collectionSvgUrls(collection));
   return wrapper;
 }
 
 function resolveThumbnailPathV9(story, value) {
   const path = String(value || "").trim().replace(/\\/g, "/");
   if (!path) return "";
-
-  /* Full URLs, data/blob URLs, root paths, and anchors are already complete. */
   if (/^(?:[a-z][a-z0-9+.-]*:|\/|#)/i.test(path)) return path;
 
-  /* ./cover.jpg and ../cover.jpg follow the imported JSON folder. */
   if (/^\.\.?\//.test(path) && story?.sourcePath) {
     try {
       const sourceUrl = new URL(String(story.sourcePath).replace(/\\/g, "/"), document.baseURI);
       return new URL(path, sourceUrl).href;
     } catch {}
   }
-
-  /* Other relative paths are intentionally relative to the HTML file. */
   return path;
 }
 
@@ -134,4 +259,61 @@ function storyThumbnailSourceV8(story, accent) {
   const groupThumbnail = story?.thumbnail || getVariants(groupIdFor(story)).find((variant) => variant.thumbnail)?.thumbnail || "";
   const resolved = resolveThumbnailPathV9(story, groupThumbnail);
   return resolved || generatedStoryThumbnailV8(story, accent);
+}
+
+function createStoryThumbnailV8(story, accent) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "story-thumbnail";
+  wrapper.setAttribute("aria-hidden", "true");
+  wrapper.style.setProperty("--art-accent", accent.accent);
+  wrapper.style.setProperty("--art-accent-strong", accent.accentStrong);
+
+  if (story?.cardSvg) {
+    wrapper.classList.add("card-svg-art");
+    wrapper.innerHTML = genericStoryArtwork(story);
+    loadCardSvg(wrapper, storySvgUrls(story));
+    return wrapper;
+  }
+
+  const groupThumbnail = story?.thumbnail || getVariants(groupIdFor(story)).find((variant) => variant.thumbnail)?.thumbnail || "";
+  if (groupThumbnail) {
+    const image = document.createElement("img");
+    const fallback = generatedStoryThumbnailV8(story, accent);
+    image.src = storyThumbnailSourceV8(story, accent);
+    image.alt = "";
+    image.decoding = "async";
+    image.loading = "eager";
+    image.addEventListener("error", () => {
+      if (image.src !== fallback) image.src = fallback;
+    }, {once: true});
+    wrapper.appendChild(image);
+    return wrapper;
+  }
+
+  wrapper.classList.add("card-svg-art");
+  wrapper.innerHTML = genericStoryArtwork(story);
+  loadCardSvg(wrapper, storySvgUrls(story));
+  return wrapper;
+}
+
+function enableCardMotion(card) {
+  if (!window.matchMedia("(hover: hover) and (pointer: fine)").matches) return;
+
+  card.addEventListener("pointermove", (event) => {
+    if (state.settings.animationIntensity !== "full") return;
+    const rect = card.getBoundingClientRect();
+    const x = (event.clientX - rect.left) / rect.width - 0.5;
+    const y = (event.clientY - rect.top) / rect.height - 0.5;
+    card.style.setProperty("--tilt-x", `${(-y * 3.2).toFixed(2)}deg`);
+    card.style.setProperty("--tilt-y", `${(x * 4.2).toFixed(2)}deg`);
+    card.style.setProperty("--shine-x", `${((x + 0.5) * 100).toFixed(1)}%`);
+    card.style.setProperty("--shine-y", `${((y + 0.5) * 100).toFixed(1)}%`);
+  });
+
+  card.addEventListener("pointerleave", () => {
+    card.style.removeProperty("--tilt-x");
+    card.style.removeProperty("--tilt-y");
+    card.style.removeProperty("--shine-x");
+    card.style.removeProperty("--shine-y");
+  });
 }

@@ -44,15 +44,23 @@ function renderStory(story) {
   storyContent.replaceChildren();
   applyReaderTypography();
 
-  story.paragraphs.forEach((paragraph) => {
+  story.paragraphs.forEach((paragraph, paragraphIndex) => {
     const paragraphElement = document.createElement("p");
     paragraphElement.className = "story-paragraph";
+    paragraphElement.style.setProperty("--paragraph-index", String(paragraphIndex));
 
     paragraph.sentences.forEach((sentence, sentenceIndex) => {
       const sentenceElement = document.createElement("span");
       sentenceElement.className = "sentence";
       sentenceElement.dataset.sentenceIndex = String(sentenceIndex);
+      sentenceElement.tabIndex = 0;
+      sentenceElement.setAttribute(
+        "aria-label",
+        "Sentence. Double-click on desktop or long press on mobile for its grammar explanation."
+      );
+
       appendWordTokens(sentenceElement, sentence);
+      attachSentenceInteractions(sentenceElement, sentence);
       paragraphElement.appendChild(sentenceElement);
 
       if (sentenceIndex < paragraph.sentences.length - 1) {
@@ -64,79 +72,126 @@ function renderStory(story) {
   });
 }
 
-function buildGrammarRanges(sentence) {
-  const text = String(sentence.korean || "");
-  const ranges = [];
+function sentenceGrammarIndexes(sentence) {
+  return (sentence.grammar || []).map((_, index) => index);
+}
 
-  (sentence.grammar || []).forEach((item, grammarIndex) => {
-    const fragment = grammarFragmentCandidate(item, text);
-    if (!fragment) return;
-
-    let from = 0;
-    while (from < text.length) {
-      const start = text.indexOf(fragment, from);
-      if (start < 0) break;
-      ranges.push({start, end: start + fragment.length, grammarIndex, fragment});
-      from = start + Math.max(1, fragment.length);
+function attachSentenceInteractions(sentenceElement, sentence) {
+  const openSentenceGrammar = () => {
+    const indexes = sentenceGrammarIndexes(sentence);
+    if (!indexes.length) {
+      showToast("No grammar explanation is stored for this sentence yet.");
+      return;
     }
+    openGrammarDetails(sentenceElement, sentence, indexes);
+  };
+
+  sentenceElement.addEventListener("dblclick", (event) => {
+    if (MOBILE_QUERY.matches) return;
+    event.preventDefault();
+    event.stopPropagation();
+    clearTimeout(state.clickTimer);
+    hideWordPopover();
+    openSentenceGrammar();
   });
 
-  return ranges;
+  sentenceElement.addEventListener("contextmenu", (event) => {
+    if (event.pointerType !== "mouse" || MOBILE_QUERY.matches) event.preventDefault();
+  });
+
+  sentenceElement.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse") return;
+
+    state.sentencePress = {
+      element: sentenceElement,
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      moved: false,
+      longPressed: false
+    };
+
+    clearTimeout(state.longPressTimer);
+    state.longPressTimer = window.setTimeout(() => {
+      const press = state.sentencePress;
+      if (!press || press.element !== sentenceElement || press.moved) return;
+
+      press.longPressed = true;
+      state.longPressTriggered = true;
+      state.suppressWordClickUntil = Date.now() + 900;
+      hideWordPopover();
+      openSentenceGrammar();
+      if (navigator.vibrate) navigator.vibrate(18);
+
+      window.setTimeout(() => {
+        state.longPressTriggered = false;
+      }, 950);
+    }, LONG_PRESS_MS);
+  }, {capture: true});
+
+  sentenceElement.addEventListener("pointermove", (event) => {
+    const press = state.sentencePress;
+    if (!press || press.element !== sentenceElement || press.pointerId !== event.pointerId) return;
+
+    if (Math.hypot(event.clientX - press.startX, event.clientY - press.startY) > 12) {
+      press.moved = true;
+      clearTimeout(state.longPressTimer);
+    }
+  }, {capture: true});
+
+  const finishSentencePress = (event) => {
+    const press = state.sentencePress;
+    if (!press || press.element !== sentenceElement || press.pointerId !== event.pointerId) return;
+    clearTimeout(state.longPressTimer);
+    state.sentencePress = null;
+  };
+
+  sentenceElement.addEventListener("pointerup", finishSentencePress, {capture: true});
+  sentenceElement.addEventListener("pointercancel", finishSentencePress, {capture: true});
+
+  sentenceElement.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" && event.shiftKey) {
+      event.preventDefault();
+      openSentenceGrammar();
+    }
+  });
 }
 
 function appendWordTokens(container, sentence) {
   const lookup = buildWordLookup(sentence);
-  const grammarRanges = buildGrammarRanges(sentence);
-  const text = String(sentence.korean || "");
-  const chunkPattern = /\s+|[^\s]+/gu;
-  let match;
+  const chunks = String(sentence.korean || "").split(/(\s+)/u);
 
-  while ((match = chunkPattern.exec(text))) {
-    const chunk = match[0];
-    const start = match.index;
-    const end = start + chunk.length;
-
+  chunks.forEach((chunk) => {
+    if (!chunk) return;
     if (/^\s+$/u.test(chunk)) {
       container.appendChild(document.createTextNode(chunk));
-      continue;
+      return;
     }
 
     const clean = cleanToken(chunk);
     const translation = lookup.get(clean) || {
       surface: clean || chunk,
       meaning: "No individual translation is stored for this word yet.",
-      note: "Add it to the sentence’s words list in the JSON story file.",
-      grammarIndexes: []
+      note: "Add it to the sentence’s words list in the JSON story file."
     };
-
-    const overlappingGrammar = grammarRanges
-      .filter((range) => start < range.end && end > range.start)
-      .map((range) => range.grammarIndex);
-
-    const grammarIndexes = [...new Set([
-      ...(translation.grammarIndexes || []),
-      ...overlappingGrammar
-    ])];
 
     const word = document.createElement("span");
     word.className = "word-token";
-    if (grammarIndexes.length) word.classList.add("grammar-token");
     word.textContent = chunk;
     word.tabIndex = 0;
     word.dataset.surface = clean || chunk;
-    word.dataset.grammarIndexes = grammarIndexes.join(",");
     word.setAttribute(
       "aria-label",
-      `${clean || chunk}. Click or tap for translation; double-click or long press for grammar.`
+      `${clean || chunk}. Click or tap for its translation.`
     );
 
-    attachWordInteractions(word, translation, container, sentence, grammarIndexes);
+    attachWordInteractions(word, translation, container, sentence);
     container.appendChild(word);
-  }
+  });
 }
 
-function attachWordInteractions(word, translation, sentenceElement, sentence, grammarIndexes) {
-  let touchPress = null;
+function attachWordInteractions(word, translation, sentenceElement, sentence) {
+  let touchTap = null;
 
   word.addEventListener("contextmenu", (event) => event.preventDefault());
 
@@ -149,82 +204,53 @@ function attachWordInteractions(word, translation, sentenceElement, sentence, gr
     clearTimeout(state.clickTimer);
     state.clickTimer = window.setTimeout(() => {
       showWordPopover(translation, event.clientX, event.clientY, word);
-    }, 240);
-  });
-
-  word.addEventListener("dblclick", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    clearTimeout(state.clickTimer);
-    hideWordPopover();
-    openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
+    }, 235);
   });
 
   word.addEventListener("pointerdown", (event) => {
     if (event.pointerType === "mouse") return;
-
-    touchPress = {
+    touchTap = {
       pointerId: event.pointerId,
       startX: event.clientX,
       startY: event.clientY,
-      clientX: event.clientX,
-      clientY: event.clientY,
-      moved: false,
-      longPressed: false
+      moved: false
     };
-
-    clearTimeout(state.longPressTimer);
-    state.longPressTimer = window.setTimeout(() => {
-      if (!touchPress || touchPress.moved) return;
-      touchPress.longPressed = true;
-      state.suppressWordClickUntil = Date.now() + 700;
-      hideWordPopover();
-      openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
-      if (navigator.vibrate) navigator.vibrate(18);
-    }, LONG_PRESS_MS);
   });
 
   word.addEventListener("pointermove", (event) => {
-    if (!touchPress || event.pointerId !== touchPress.pointerId) return;
-    touchPress.clientX = event.clientX;
-    touchPress.clientY = event.clientY;
-
-    if (Math.hypot(
-      event.clientX - touchPress.startX,
-      event.clientY - touchPress.startY
-    ) > 12) {
-      touchPress.moved = true;
-      clearTimeout(state.longPressTimer);
+    if (!touchTap || touchTap.pointerId !== event.pointerId) return;
+    if (Math.hypot(event.clientX - touchTap.startX, event.clientY - touchTap.startY) > 12) {
+      touchTap.moved = true;
     }
   });
 
   word.addEventListener("pointerup", (event) => {
-    if (event.pointerType === "mouse" || !touchPress || event.pointerId !== touchPress.pointerId) return;
+    if (event.pointerType === "mouse" || !touchTap || touchTap.pointerId !== event.pointerId) return;
+
+    const completedTap = touchTap;
+    touchTap = null;
+
+    if (completedTap.moved || state.longPressTriggered || Date.now() < state.suppressWordClickUntil) {
+      return;
+    }
 
     event.preventDefault();
     event.stopPropagation();
-    clearTimeout(state.longPressTimer);
-    state.suppressWordClickUntil = Date.now() + 700;
-
-    const completedPress = touchPress;
-    touchPress = null;
-
-    if (completedPress.longPressed || completedPress.moved) return;
+    state.suppressWordClickUntil = Date.now() + 650;
     showWordPopover(translation, event.clientX, event.clientY, word);
   }, {passive: false});
 
-  const cancelTouchPress = () => {
-    clearTimeout(state.longPressTimer);
-    touchPress = null;
+  const cancelTouchTap = () => {
+    touchTap = null;
   };
 
-  word.addEventListener("pointercancel", cancelTouchPress);
-  word.addEventListener("lostpointercapture", cancelTouchPress);
+  word.addEventListener("pointercancel", cancelTouchTap);
+  word.addEventListener("lostpointercapture", cancelTouchTap);
 
   word.addEventListener("keydown", (event) => {
     if (event.key === "Enter" && event.shiftKey) {
       event.preventDefault();
-      openGrammarForWord(word, sentenceElement, sentence, grammarIndexes);
+      selectSentence(sentenceElement, sentence);
       return;
     }
 
@@ -233,19 +259,6 @@ function attachWordInteractions(word, translation, sentenceElement, sentence, gr
       showWordPopover(translation, innerWidth / 2, innerHeight / 2, word);
     }
   });
-}
-
-function openGrammarForWord(word, sentenceElement, sentence, grammarIndexes) {
-  const indexes = grammarIndexes.length
-    ? grammarIndexes
-    : (sentence.grammar || []).map((_, index) => index);
-
-  if (!indexes.length) {
-    showToast("No grammar explanation is stored for this sentence yet.");
-    return;
-  }
-
-  openGrammarDetails(sentenceElement, sentence, indexes, word);
 }
 
 function cleanToken(token) {
@@ -259,22 +272,11 @@ function buildWordLookup(sentence) {
 
   (sentence.words || []).forEach((entry) => {
     if (!entry || !entry.surface) return;
-
-    const grammarIndexes = [];
-    if (Number.isInteger(entry.grammarIndex)) grammarIndexes.push(entry.grammarIndex);
-    if (Array.isArray(entry.grammarIndexes)) {
-      entry.grammarIndexes.forEach((value) => {
-        const number = Number(value);
-        if (Number.isInteger(number)) grammarIndexes.push(number);
-      });
-    }
-
     lookup.set(cleanToken(String(entry.surface)), {
       surface: String(entry.surface),
       meaning: String(entry.meaning || "—"),
       base: String(entry.base || entry.baseForm || ""),
-      note: String(entry.note || ""),
-      grammarIndexes: [...new Set(grammarIndexes)]
+      note: String(entry.note || "")
     });
   });
 
@@ -287,8 +289,7 @@ function buildWordLookup(sentence) {
         surface: String(entry.word),
         meaning: String(entry.meaning || "—"),
         base: String(entry.base || entry.baseForm || ""),
-        note: String(entry.note || ""),
-        grammarIndexes: []
+        note: String(entry.note || "")
       });
     }
   });

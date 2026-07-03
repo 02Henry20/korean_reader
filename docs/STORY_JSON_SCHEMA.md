@@ -138,3 +138,36 @@ The normalizer accepts several older or alternative field names:
 - `note` → `nuance`
 - `restrictions` → `limitations`
 - `example` → one-item `examples` list
+
+
+## Optional card SVG artwork
+
+Collection metadata may explicitly point to its card illustration:
+
+```json
+{
+  "type": "collection",
+  "id": "fairy-tales",
+  "directorySvg": "./directory.svg"
+}
+```
+
+A story may do the same:
+
+```json
+{
+  "id": "snow-white",
+  "storySvg": "./snow-white/story.svg"
+}
+```
+
+Relative paths are resolved from the JSON file. Without explicit fields, the reader checks these conventions:
+
+```text
+library/<collection-folder>/directory.svg
+library/<collection-folder>/<story-json-filename-without-.json>/story.svg
+assets/directory-svg/<collection-id>/directory.svg
+assets/directory-svg/<collection-id>/<story-id>/story.svg
+```
+
+The app replaces visible SVG fills and strokes with the active card accent. Use opacity and shape layering to create multiple accent shades; do not rely on fixed internal colors.

@@ -112,6 +112,7 @@ function createStoryCard(group, options = {}) {
   if (story.description) content.appendChild(createTextBlock("p", "description", story.description));
 
   card.append(content, thumbnail);
+  enableCardMotion(card);
   card.addEventListener("click", () => openStory(story, true));
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {

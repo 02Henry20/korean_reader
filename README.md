@@ -11,19 +11,21 @@ The application reads collection and story JSON files from the public repository
 | Device | Interaction | Result |
 |---|---|---|
 | Desktop | Single click a word | Show its compact translation popup |
-| Desktop | Double-click a word or grammar-containing word | Open the grammar explanation panel |
+| Desktop | Double-click anywhere in a sentence | Highlight the complete sentence and open its grammar explanation |
 | Mobile | Short tap a word | Show its compact translation popup |
-| Mobile | Long press a word or grammar-containing word | Open the grammar explanation panel |
+| Mobile | Long press anywhere in a sentence | Move the sentence near the top, highlight it, and open its grammar explanation |
 | Keyboard | Enter or Space | Show the selected word translation |
 | Keyboard | Shift + Enter | Open grammar details |
 
-The active word or grammar fragment is highlighted directly in the Korean text.
+A translation highlights only its word. A grammar explanation always highlights the complete sentence rather than an individual word.
 
 ### Grammar panel
 
 - Desktop uses the original sticky panel beside the story.
-- Mobile uses the original full-screen slide-in panel.
-- The panel is closed with its close button or Escape on a keyboard.
+- Mobile uses a scrollable bottom sheet occupying approximately the lower half of the display.
+- The selected sentence is moved toward the top of the visible reader before the sheet opens.
+- The mobile sheet closes through its close button, a tap outside it, or a downward swipe from its top area.
+- Escape also closes the panel when a keyboard is present.
 - Detailed grammar fields remain supported.
 - `Key vocabulary` can be shown or hidden through Settings.
 
@@ -61,7 +63,7 @@ The Settings button appears only on the main page. Current settings include:
 ## Directory structure
 
 ```text
-korean_reader_modular_v3/
+korean_reader_modular_v4/
 ├── index.html
 ├── site.webmanifest
 ├── README.md
@@ -97,6 +99,8 @@ korean_reader_modular_v3/
 │   ├── bookmarks.js
 │   ├── search.js
 │   └── pwa.js
+├── assets/
+│   └── directory-svg/
 ├── icons/
 ├── thumbnails/
 └── library/
@@ -212,9 +216,25 @@ Contains variant grouping, selected-version persistence, collection filtering, v
 
 ## `js/thumbnails.js`
 
-External thumbnail handling and generated SVG fallback covers.
+External thumbnails, automatic card-SVG discovery, SVG sanitization/recoloring, richer generic artwork, and pointer-based card tilt.
 
-Use it with `css/thumbnails.css` for cover changes.
+Automatic SVG locations:
+
+```text
+library/<collection-folder>/directory.svg
+library/<collection-folder>/<story-json-filename-without-.json>/story.svg
+```
+
+Alternative asset locations are also supported:
+
+```text
+assets/directory-svg/<collection-id>/directory.svg
+assets/directory-svg/<collection-id>/<story-id>/story.svg
+```
+
+A collection JSON may explicitly set `directorySvg`, and a story JSON may set `storySvg`. Relative explicit paths are resolved relative to that JSON file. Every loaded SVG is recolored to the collection or story accent.
+
+Use this file with `css/thumbnails.css`, `css/cards.css`, and `css/directories.css` for card-art changes.
 
 ## `js/reader.js`
 
@@ -224,9 +244,9 @@ Contains:
 
 - `openStory()` and `renderStory()`;
 - Korean word token creation;
-- grammar-fragment range mapping;
-- desktop single-click and double-click logic;
-- mobile short-tap and long-press logic;
+- word-only translation clicks and taps;
+- sentence-only desktop double-click grammar activation;
+- sentence-only mobile long-press grammar activation;
 - synthetic-click suppression on touch devices;
 - word lookup construction.
 
@@ -239,10 +259,11 @@ Grammar normalization, rendering, highlighting, and panel state.
 Contains:
 
 - richer grammar-field compatibility;
-- fragment highlighting;
+- complete-sentence grammar highlighting;
 - grammar-card rendering;
 - optional Key Vocabulary rendering;
-- panel open/close behavior.
+- desktop panel and mobile bottom-sheet behavior;
+- selected-sentence scrolling, outside-tap closing, and swipe-down closing.
 
 For panel styling, also provide `css/grammar.css` and `css/mobile.css`.
 
@@ -295,16 +316,16 @@ It does not register a service worker. Installed-app metadata comes from `site.w
 |---|---|
 | `base.css` | Variables, resets, background, and shared font stacks |
 | `layout.css` | App shell, headers, buttons, search box, and result headings |
-| `cards.css` | Collection/story grids and card surfaces |
-| `reader.css` | Reader header, Korean text, word selection, and grammar highlighting |
+| `cards.css` | Collection/story grids, organic card surfaces, tilt, press, and hover behavior |
+| `reader.css` | Reader header, accent-tinted reading surface, word selection, and full-sentence grammar highlighting |
 | `grammar.css` | Desktop grammar panel and grammar/vocabulary cards |
 | `overlays.css` | Word popup and toast |
 | `settings.css` | Settings backdrop, panel, and controls |
-| `mobile.css` | Responsive cards and original full-screen mobile grammar panel |
-| `animations.css` | Full, reduced, and disabled animation modes |
-| `directories.css` | Collection headings, monograms, and counts |
+| `mobile.css` | Responsive cards and lower-half mobile grammar bottom sheet |
+| `animations.css` | Staggered card entrances, reader entrance, ambient motion, plus reduced/disabled modes |
+| `directories.css` | Collection headings, SVG artwork, and counts |
 | `themes.css` | Settings button, variant menu, and story-version labels on cards |
-| `thumbnails.css` | Story-thumbnail placement and responsive sizes |
+| `thumbnails.css` | Story artwork, generic/custom SVG coloring, and responsive sizes |
 
 # Story and grammar JSON
 

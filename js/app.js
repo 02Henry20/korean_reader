@@ -16,6 +16,9 @@ const state = {
   longPressTriggered: false,
   pointerStart: null,
   suppressWordClickUntil: 0,
+  sentencePress: null,
+  detailCloseTimer: null,
+  detailDrag: null,
   storySearchCache: new WeakMap(),
   collectionSearchCache: new WeakMap(),
 };
@@ -36,6 +39,7 @@ const readerTitle = document.getElementById("readerTitle");
 const readerLevel = document.getElementById("readerLevel");
 const storyContent = document.getElementById("storyContent");
 const detailPanel = document.getElementById("detailPanel");
+const detailBackdrop = document.getElementById("detailBackdrop");
 const detailContent = document.getElementById("detailContent");
 const closeDetailButton = document.getElementById("closeDetailButton");
 

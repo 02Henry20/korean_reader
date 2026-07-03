@@ -77,14 +77,40 @@
 }
 
 .story-content {
+  position: relative;
   min-height: calc(100vh - 170px);
+  overflow: hidden;
   padding: clamp(34px, 5vw, 70px);
-  border: 1px solid color-mix(in srgb, var(--line) 70%, white);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, var(--line));
   border-radius: clamp(27px, 4vw, 42px);
-  background: color-mix(in srgb, var(--surface-solid) 96%, transparent);
-  box-shadow: var(--shadow-md);
+  background:
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--accent-soft) 32%, var(--surface-solid)) 0%,
+      color-mix(in srgb, var(--surface-solid) 98%, transparent) 18%,
+      color-mix(in srgb, var(--surface-solid) 98%, transparent) 74%,
+      color-mix(in srgb, var(--accent-soft) 38%, var(--surface-solid)) 100%);
+  box-shadow:
+    var(--shadow-md),
+    inset 0 1px 0 color-mix(in srgb, var(--accent-soft) 46%, white),
+    inset 0 -28px 70px color-mix(in srgb, var(--accent) 8%, transparent);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+}
+
+.story-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 5%, color-mix(in srgb, var(--accent) 13%, transparent), transparent 21rem),
+    radial-gradient(circle at 92% 96%, color-mix(in srgb, var(--word) 9%, transparent), transparent 25rem);
+}
+
+.story-content > * {
+  position: relative;
+  z-index: 1;
 }
 
 .story-paragraph {
@@ -103,6 +129,17 @@
 
 .sentence {
   border-radius: 8px;
+  scroll-margin-top: 112px;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: color 150ms ease, background 170ms ease, box-shadow 170ms ease, transform 170ms ease;
+}
+
+.sentence.grammar-selected {
+  color: var(--accent-strong);
+  background: color-mix(in srgb, var(--accent-soft) 88%, transparent);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent-soft) 82%, transparent);
+  text-decoration-color: var(--accent);
 }
 
 .word-token {
@@ -122,12 +159,6 @@
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--word) 16%, transparent);
 }
 
-.grammar-selected {
-  color: var(--accent-strong);
-  background: color-mix(in srgb, var(--accent-soft) 88%, transparent);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-soft) 88%, transparent);
-  text-decoration-color: var(--accent);
-}
 
 @media (hover: hover) {
   .word-token:hover {
@@ -135,4 +166,17 @@
     background: color-mix(in srgb, var(--word) 8%, transparent);
   }
 
+}
+
+.sentence.grammar-selected .word-token,
+.sentence.grammar-selected .word-token:hover {
+  color: inherit;
+  background: transparent;
+  box-shadow: none;
+}
+
+.sentence.grammar-selected .word-token,
+.sentence.grammar-selected .word-token:hover {
+  color: var(--accent-strong);
+  transition: none;
 }

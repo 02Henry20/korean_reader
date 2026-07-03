@@ -204,7 +204,11 @@ async function loadLibrary() {
     .filter((item) => item.data?.type === "collection")
     .map((item) => ({
       ...item,
-      collection: normalizeCollection(item.data, item.dir)
+      collection: normalizeCollection({
+        ...item.data,
+        sourcePath: item.rawUrl,
+        sourceDirectory: item.dir
+      }, item.dir)
     }));
 
   state.collections = collectionInfos.map((item) => item.collection);
@@ -237,7 +241,8 @@ async function loadLibrary() {
       theme: "sage",
       order: numericOrder(folder),
       monogram: humanizeFolderName(folder).slice(0, 1),
-      tags: []
+      tags: [],
+      sourceDirectory: directory
     }, directory);
     state.collections.push(collection);
     collectionByDirectory.set(directory, collection);
@@ -263,7 +268,12 @@ async function loadLibrary() {
 
     try {
       const story = normalizeStory(
-        {...item.data, sourcePath: item.rawUrl},
+        {
+          ...item.data,
+          sourcePath: item.rawUrl,
+          sourceDirectory: item.dir,
+          sourceFileName: item.name
+        },
         item.name,
         collectionId,
         numericOrder(item.path)
@@ -314,6 +324,9 @@ function normalizeCollection(info = {}, fallbackPath = "") {
     metadata: {
       author: String(info.author || "")
     },
+    sourcePath: String(info.sourcePath || ""),
+    sourceDirectory: String(info.sourceDirectory || fallbackPath || ""),
+    cardSvg: String(info.directorySvg || info.cardSvg || info.svg || ""),
     storyCount: Number(info.storyCount) || 0,
     sort: String(info.sort || "order")
   };
@@ -350,6 +363,9 @@ function normalizeStory(story, sourceName = "Imported story", fallbackCollection
     collectionId: String(story.collectionId || fallbackCollectionId),
     order: Number.isFinite(Number(story.order)) ? Number(story.order) : fallbackOrder,
     sourcePath: String(story.sourcePath || ""),
+    sourceDirectory: String(story.sourceDirectory || ""),
+    sourceFileName: String(story.sourceFileName || sourceName || ""),
+    cardSvg: String(story.storySvg || story.cardSvg || story.svg || ""),
     author: String(story.author || story.metadata?.author || ""),
     tags: Array.isArray(story.tags) ? story.tags.map(String) : [],
     preferredFont: String(story.preferredFont || story.readingFont || story.font || ""),

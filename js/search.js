@@ -117,7 +117,11 @@ window.addEventListener("resize", () => {
   hideVariantMenu();
   if (!MOBILE_QUERY.matches) {
     detailPanel.classList.remove("detail-panel-open");
+    detailBackdrop.classList.remove("detail-backdrop-open");
+    detailBackdrop.hidden = true;
     document.body.style.overflow = "";
+  } else if (state.activeGrammarContext && state.selectedSentenceElement) {
+    openMobileGrammarSheet(state.selectedSentenceElement);
   }
 });
 

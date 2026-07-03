@@ -3,9 +3,14 @@
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: 19px;
   padding-bottom: 72px;
+  perspective: 1200px;
 }
 
 .story-card {
+  --tilt-x: 0deg;
+  --tilt-y: 0deg;
+  --shine-x: 50%;
+  --shine-y: 30%;
   position: relative;
   grid-column: span 6;
   min-height: 280px;
@@ -19,24 +24,81 @@
       color-mix(in srgb, var(--card-soft) 54%, var(--card-bg)));
   box-shadow: var(--shadow-sm);
   cursor: pointer;
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transform:
+    perspective(1000px)
+    rotateX(var(--tilt-x))
+    rotateY(var(--tilt-y))
+    translateY(0)
+    scale(1);
+  transform-style: preserve-3d;
+  transition:
+    transform 210ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 210ms ease,
+    border-color 180ms ease;
+  will-change: transform;
+}
+
+.story-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at var(--shine-x) var(--shine-y),
+      color-mix(in srgb, white 28%, transparent),
+      transparent 34%);
+  opacity: .4;
+  transition: opacity 180ms ease;
 }
 
 .story-card::after {
   content: "";
   position: absolute;
-  right: -52px;
-  bottom: -58px;
-  width: 205px;
-  height: 205px;
-  border-radius: 50%;
-  background: var(--card-soft);
-  opacity: 0.9;
+  right: -76px;
+  bottom: -82px;
+  width: 250px;
+  height: 230px;
+  border-radius: 42% 58% 63% 37% / 48% 35% 65% 52%;
+  background:
+    linear-gradient(145deg,
+      color-mix(in srgb, var(--card-soft) 92%, transparent),
+      color-mix(in srgb, var(--card-accent) 24%, transparent));
+  opacity: .88;
+  transform: rotate(-16deg);
+  transition: transform 300ms cubic-bezier(.2,.8,.2,1), opacity 220ms ease;
 }
 
 .story-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform:
+    perspective(1000px)
+    rotateX(var(--tilt-x))
+    rotateY(var(--tilt-y))
+    translateY(-7px)
+    scale(1.012);
+  border-color: color-mix(in srgb, var(--card-accent) 34%, var(--card-bg));
+  box-shadow:
+    0 26px 72px color-mix(in srgb, var(--card-accent) 20%, transparent),
+    var(--shadow-md);
+}
+
+.story-card:hover::before {
+  opacity: .7;
+}
+
+.story-card:hover::after {
+  opacity: 1;
+  transform: rotate(-10deg) translate(-8px, -7px) scale(1.04);
+}
+
+.story-card:active {
+  transform:
+    perspective(1000px)
+    rotateX(calc(var(--tilt-x) * .35))
+    rotateY(calc(var(--tilt-y) * .35))
+    translateY(-1px)
+    scale(.982);
+  transition-duration: 90ms;
 }
 
 .story-card:focus-visible {
@@ -50,6 +112,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  transform: translateZ(18px);
 }
 
 .story-level {
@@ -71,6 +134,12 @@
   font-size: clamp(1.8rem, 4vw, 2.65rem);
   line-height: 1.1;
   letter-spacing: -0.046em;
+  transition: transform 180ms cubic-bezier(.2,.8,.2,1), letter-spacing 180ms ease;
+}
+
+.story-card:hover h2 {
+  transform: translateX(3px) scale(1.015);
+  letter-spacing: -0.05em;
 }
 
 .english-title {

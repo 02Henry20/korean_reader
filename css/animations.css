@@ -24,3 +24,62 @@ html[data-animation="none"] *::after {
     animation-iteration-count: 1 !important;
   }
 }
+
+@keyframes card-arrive {
+  from {
+    opacity: 0;
+    transform: perspective(1000px) translateY(18px) rotateX(2deg) scale(.985);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(1000px) translateY(0) rotateX(0) scale(1);
+  }
+}
+
+@keyframes reader-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(.992);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes ambient-drift-a {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(26px, 18px, 0) scale(1.07); }
+}
+
+@keyframes ambient-drift-b {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-22px, -16px, 0) scale(1.05); }
+}
+
+html[data-animation="full"] .view-active .story-card {
+  animation: card-arrive 470ms cubic-bezier(.2,.82,.2,1) both;
+}
+
+html[data-animation="full"] .view-active .story-card:nth-of-type(2) { animation-delay: 45ms; }
+html[data-animation="full"] .view-active .story-card:nth-of-type(3) { animation-delay: 90ms; }
+html[data-animation="full"] .view-active .story-card:nth-of-type(4) { animation-delay: 135ms; }
+html[data-animation="full"] .view-active .story-card:nth-of-type(5) { animation-delay: 180ms; }
+html[data-animation="full"] .view-active .story-card:nth-of-type(n+6) { animation-delay: 220ms; }
+
+html[data-animation="full"] .reader-view.view-active .story-content {
+  animation: reader-arrive 430ms cubic-bezier(.2,.82,.2,1) both;
+}
+
+html[data-animation="full"] .ambient-a {
+  animation: ambient-drift-a 13s ease-in-out infinite;
+}
+
+html[data-animation="full"] .ambient-b {
+  animation: ambient-drift-b 15s ease-in-out infinite;
+}
+
+html[data-animation="full"] .icon-button:active,
+html[data-animation="full"] .button:active {
+  transform: scale(.92);
+}

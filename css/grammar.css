@@ -1,3 +1,11 @@
+
+.detail-backdrop {
+  display: none;
+}
+
+.detail-drag-handle {
+  display: none;
+}
 .detail-panel {
   position: sticky;
   top: 110px;

@@ -66,23 +66,39 @@ function normalizeGrammarItem(item, sentence = null) {
   };
 }
 
-function openGrammarDetails(sentenceElement, sentence, grammarIndexes, fallbackWord = null) {
+function scrollSelectedSentenceToMobileTop(sentenceElement) {
+  const header = document.querySelector(".reader-header");
+  const headerOffset = (header?.getBoundingClientRect().height || 70) + 24;
+  const target = Math.max(0, window.scrollY + sentenceElement.getBoundingClientRect().top - headerOffset);
+  const smooth = state.settings.animationIntensity === "full" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  window.scrollTo({top: target, behavior: smooth ? "smooth" : "auto"});
+  return smooth ? 150 : 0;
+}
+
+function openMobileGrammarSheet(sentenceElement) {
+  clearTimeout(state.detailCloseTimer);
+  const revealDelay = scrollSelectedSentenceToMobileTop(sentenceElement);
+  detailBackdrop.hidden = false;
+  detailBackdrop.setAttribute("aria-hidden", "false");
+
+  window.setTimeout(() => {
+    if (!state.activeGrammarContext) return;
+    document.body.style.overflow = "hidden";
+    requestAnimationFrame(() => {
+      detailBackdrop.classList.add("detail-backdrop-open");
+      detailPanel.classList.add("detail-panel-open");
+    });
+  }, revealDelay);
+}
+
+function openGrammarDetails(sentenceElement, sentence, grammarIndexes) {
   hideWordPopover();
   clearWordSelection();
   clearGrammarSelection();
 
   state.selectedSentenceElement = sentenceElement;
-  const indexSet = new Set(grammarIndexes.map(Number));
-  const matchingWords = [...sentenceElement.querySelectorAll(".word-token")]
-    .filter((element) => element.dataset.grammarIndexes
-      .split(",")
-      .filter(Boolean)
-      .map(Number)
-      .some((index) => indexSet.has(index)));
-
-  const targets = matchingWords.length ? matchingWords : (fallbackWord ? [fallbackWord] : [sentenceElement]);
-  targets.forEach((element) => element.classList.add("grammar-selected"));
-  state.selectedGrammarElements = targets;
+  sentenceElement.classList.add("grammar-selected");
+  state.selectedGrammarElements = [sentenceElement];
 
   state.activeGrammarContext = {sentence, grammarIndexes: [...grammarIndexes]};
   renderGrammarDetails(sentence, grammarIndexes);
@@ -90,8 +106,7 @@ function openGrammarDetails(sentenceElement, sentence, grammarIndexes, fallbackW
   detailPanel.setAttribute("aria-hidden", "false");
 
   if (MOBILE_QUERY.matches) {
-    document.body.style.overflow = "hidden";
-    requestAnimationFrame(() => detailPanel.classList.add("detail-panel-open"));
+    openMobileGrammarSheet(sentenceElement);
   }
 }
 
@@ -202,14 +217,90 @@ function clearSentenceSelection() {
 }
 
 function clearDetails() {
+  const closingMobileSheet = MOBILE_QUERY.matches && detailPanel.classList.contains("detail-panel-open");
   clearGrammarSelection();
   state.activeGrammarContext = null;
+  clearTimeout(state.detailCloseTimer);
   detailPanel.classList.remove("detail-panel-open");
-  detailPanel.classList.add("detail-panel-empty");
+  detailBackdrop.classList.remove("detail-backdrop-open");
+  detailPanel.style.removeProperty("transform");
+  detailPanel.style.removeProperty("transition");
+  detailBackdrop.style.removeProperty("opacity");
   detailPanel.setAttribute("aria-hidden", "true");
-  detailContent.replaceChildren();
+  detailBackdrop.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
+
+  const finishClose = () => {
+    if (detailPanel.classList.contains("detail-panel-open")) return;
+    detailPanel.classList.add("detail-panel-empty");
+    detailContent.replaceChildren();
+    detailBackdrop.hidden = true;
+  };
+
+  if (closingMobileSheet) {
+    state.detailCloseTimer = window.setTimeout(finishClose, 280);
+  } else {
+    finishClose();
+  }
 }
+
+function initializeGrammarSheetGestures() {
+  detailBackdrop.addEventListener("click", clearDetails);
+
+  detailPanel.addEventListener("pointerdown", (event) => {
+    if (!MOBILE_QUERY.matches || !detailPanel.classList.contains("detail-panel-open")) return;
+    const rect = detailPanel.getBoundingClientRect();
+    const startedNearTop = event.clientY - rect.top <= 86;
+    if (!startedNearTop || detailPanel.scrollTop > 1) return;
+
+    state.detailDrag = {
+      pointerId: event.pointerId,
+      startY: event.clientY,
+      lastY: event.clientY,
+      startedAt: performance.now(),
+      dragging: false
+    };
+  });
+
+  detailPanel.addEventListener("pointermove", (event) => {
+    const drag = state.detailDrag;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    const distance = Math.max(0, event.clientY - drag.startY);
+    drag.lastY = event.clientY;
+    if (distance < 7 && !drag.dragging) return;
+
+    drag.dragging = true;
+    event.preventDefault();
+    detailPanel.style.transition = "none";
+    detailPanel.style.transform = `translateY(${distance}px)`;
+    detailBackdrop.style.opacity = String(Math.max(0, 1 - distance / 360));
+  }, {passive: false});
+
+  const finishDrag = (event) => {
+    const drag = state.detailDrag;
+    if (!drag || drag.pointerId !== event.pointerId) return;
+    state.detailDrag = null;
+
+    const distance = Math.max(0, drag.lastY - drag.startY);
+    const elapsed = Math.max(1, performance.now() - drag.startedAt);
+    const velocity = distance / elapsed;
+
+    detailPanel.style.removeProperty("transition");
+    detailBackdrop.style.removeProperty("opacity");
+
+    if (drag.dragging && (distance > 92 || velocity > 0.65)) {
+      clearDetails();
+      return;
+    }
+
+    detailPanel.style.removeProperty("transform");
+  };
+
+  detailPanel.addEventListener("pointerup", finishDrag);
+  detailPanel.addEventListener("pointercancel", finishDrag);
+}
+
+initializeGrammarSheetGestures();
 function createLabel(text) {
   return createTextBlock("p", "detail-label", text);
 }

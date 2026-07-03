@@ -18,14 +18,14 @@
           "translation": "Patterns in Time is not one continuous adventure, but a collection of eight stories from different eras.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "시간 속의 무늬는 한 줄로 이어지는 모험이 아니라 서로 다른 시대의 여덟 이야기를 모은 책이야."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "한 줄로"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "시간 속의 무늬는 한 줄로 이어지는 모험이 아니라 서로 다른 시대의 여덟 이야기를 모은 책이야."
+              "pattern": "서로",
+              "explanation": "Reciprocal adverb meaning 'each other' or 'one another.' It indicates that two or more participants direct the same relation or action toward one another.",
+              "example": "서로"
             }
           ],
           "vocab": [
@@ -78,32 +78,32 @@
             {
               "surface": "속의",
               "meaning": "inside / in (of / possessive)",
-              "base": "속 + 의"
+              "base": "속 → 속의 (속 + 의)"
             },
             {
               "surface": "무늬는",
               "meaning": "pattern (topic)",
-              "base": "무늬 + 는"
+              "base": "무늬 → 무늬는 (무늬 + 는)"
             },
             {
               "surface": "한",
-              "meaning": "made",
-              "base": "하다 + -(으)ㄴ"
+              "meaning": "one",
+              "base": "하나 → 한 (native Korean attributive numeral)"
             },
             {
               "surface": "줄로",
               "meaning": "give (to / by / as)",
-              "base": "줄 + 로"
+              "base": "줄 → 줄로 (줄 + 로)"
             },
             {
               "surface": "모험이",
               "meaning": "adventure (subject)",
-              "base": "모험 + 이"
+              "base": "모험 → 모험이 (모험 + 이)"
             },
             {
               "surface": "아니라",
               "meaning": "not but rather",
-              "base": "아니다 + -라"
+              "base": "아니다 → 아니라 (아니- + -라)"
             },
             {
               "surface": "서로",
@@ -112,17 +112,17 @@
             {
               "surface": "다른",
               "meaning": "other",
-              "base": "다르다 + -(으)ㄴ"
+              "base": "다르다 → 다른 (다르- + -(으)ㄴ)"
             },
             {
               "surface": "이야기를",
               "meaning": "story",
-              "base": "이야기 + 를"
+              "base": "이야기 → 이야기를 (이야기 + 를)"
             },
             {
               "surface": "모은",
               "meaning": "collected",
-              "base": "모으다 + -(으)ㄴ"
+              "base": "모으다 → 모은 (모으- + -(으)ㄴ)"
             }
           ]
         },
@@ -132,23 +132,18 @@
           "grammar": [
             {
               "pattern": "-아/어 주다",
-              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
-              "example": "각 이야기는 거대한 전투보다 인물의 가족과 성장과 작은 선택을 가까이 보여 줘."
+              "explanation": "Shows that an action is performed for another person's benefit or as a favor. The receiver may be marked with 에게/한테; in casual speech 주었어 contracts to 줬어. With requests, -아/어 달라고 asks someone to perform the action for the speaker or the quoted speaker.",
+              "example": "보여 줘"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "각 이야기는 거대한 전투보다 인물의 가족과 성장과 작은 선택을 가까이 보여 줘."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "거대한 전투보다"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "각 이야기는 거대한 전투보다 인물의 가족과 성장과 작은 선택을 가까이 보여 줘."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "각 이야기는 거대한 전투보다 인물의 가족과 성장과 작은 선택을 가까이 보여 줘."
+              "pattern": "N보다",
+              "explanation": "Comparison particle meaning 'than' or 'rather than N.' It marks the standard against which another noun, quality, or action is compared. With a preference verb such as 좋아하다, it identifies the less preferred option.",
+              "example": "전투보다"
             }
           ],
           "vocab": [
@@ -201,42 +196,42 @@
             {
               "surface": "이야기는",
               "meaning": "story",
-              "base": "이야기 + 는"
+              "base": "이야기 → 이야기는 (이야기 + 는)"
             },
             {
               "surface": "거대한",
               "meaning": "huge",
-              "base": "거대하다 + -(으)ㄴ"
+              "base": "거대하다 → 거대한 (거대하- + -(으)ㄴ)"
             },
             {
               "surface": "전투보다",
               "meaning": "in battle (than)",
-              "base": "전투 + 보다"
+              "base": "전투 → 전투보다 (전투 + 보다)"
             },
             {
               "surface": "인물의",
               "meaning": "characters'",
-              "base": "인물 + 의"
+              "base": "인물 → 인물의 (인물 + 의)"
             },
             {
               "surface": "가족과",
               "meaning": "families and",
-              "base": "가족 + 과"
+              "base": "가족 → 가족과 (가족 + 과)"
             },
             {
               "surface": "성장과",
               "meaning": "growth also (and / with)",
-              "base": "성장 + 과"
+              "base": "성장 → 성장과 (성장 + 과)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "선택을",
               "meaning": "choice (object)",
-              "base": "선택 + 을"
+              "base": "선택 → 선택을 (선택 + 을)"
             },
             {
               "surface": "가까이",
@@ -245,12 +240,12 @@
             {
               "surface": "보여",
               "meaning": "showed",
-              "base": "보이다 + -아/어"
+              "base": "보이다 → 보여 (보 + 여)"
             },
             {
               "surface": "줘",
               "meaning": "does for us",
-              "base": "주다"
+              "base": "주다 → 줘"
             }
           ]
         }
@@ -264,23 +259,28 @@
           "grammar": [
             {
               "pattern": "-다가",
-              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
-              "example": "첫 이야기에서 어린 코라는 카타라에게 물 굽히기를 배우다가 다가오는 폭풍 때문에 훈련을 끝냈어."
-            },
-            {
-              "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "첫 이야기에서 어린 코라는 카타라에게 물 굽히기를 배우다가 다가오는 폭풍 때문에 훈련을 끝냈어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "첫 이야기에서 어린 코라는 카타라에게 물 굽히기를 배우다가 다가오는 폭풍 때문에 훈련을 끝냈어."
+              "explanation": "Shows that an action or state was in progress and then changed, stopped, or led to another event: 'while doing, then….' The contrast or interruption is often important; the subject generally remains the same unless context makes a change clear.",
+              "example": "배우다가"
             },
             {
               "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "첫 이야기에서 어린 코라는 카타라에게 물 굽히기를 배우다가 다가오는 폭풍 때문에 훈련을 끝냈어."
+              "explanation": "Prospective noun modifier. It describes a noun connected with a future, expected, intended, possible, or still-unrealized action: 'the N that will/is to….'",
+              "example": "굽히기를 배우다가"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "어린 코라는"
+            },
+            {
+              "pattern": "-게",
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "카타라에게 물"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 카타라에게"
             }
           ],
           "vocab": [
@@ -332,17 +332,17 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "어린",
               "meaning": "young",
-              "base": "어리다 + -(으)ㄴ"
+              "base": "어리다 → 어린 (어리- + -(으)ㄴ)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "물",
@@ -351,17 +351,17 @@
             {
               "surface": "굽히기를",
               "meaning": "bending",
-              "base": "굽히다 + -기를"
+              "base": "굽히다 → 굽히기를 (굽히- + -기를)"
             },
             {
               "surface": "배우다가",
               "meaning": "learned (subject)",
-              "base": "배우다 + 가"
+              "base": "배우다 → 배우다가 (배우- + 가)"
             },
             {
               "surface": "다가오는",
               "meaning": "to approach",
-              "base": "다가오다"
+              "base": "다가오다 → 다가오는 (다가오- + -는)"
             },
             {
               "surface": "때문에",
@@ -370,7 +370,7 @@
             {
               "surface": "훈련을",
               "meaning": "training",
-              "base": "훈련 + 을"
+              "base": "훈련 → 훈련을 (훈련 + 을)"
             }
           ]
         },
@@ -379,14 +379,24 @@
           "translation": "Following howls into the night, Korra secretly went outside and found a polar bear dog cub separated from its pack.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "밤에 들린 울음소리를 따라 몰래 밖으로 나간 코라는 무리와 떨어진 북극곰개 새끼를 발견했어."
+              "pattern": "-아/어지다",
+              "explanation": "Marks a change of state: 'become/get.' It most often follows a descriptive verb, as in 많아지다, or forms a passive-like change with some action verbs. The tense is expressed on 지다.",
+              "example": "떨어진"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "들린 울음소리를"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "밤에 들린 울음소리를 따라 몰래 밖으로 나간 코라는 무리와 떨어진 북극곰개 새끼를 발견했어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "발견했어"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 무리와"
             }
           ],
           "vocab": [
@@ -435,22 +445,22 @@
             {
               "surface": "밤에",
               "meaning": "at night",
-              "base": "밤 + 에"
+              "base": "밤 → 밤에 (밤 + 에)"
             },
             {
               "surface": "들린",
               "meaning": "heard / audible",
-              "base": "들리다 + -(으)ㄴ"
+              "base": "들리다 → 들린 (들리- + -(으)ㄴ)"
             },
             {
               "surface": "울음소리를",
               "meaning": "crying sound",
-              "base": "울음소리 + 를"
+              "base": "울음소리 → 울음소리를 (울음소리 + 를)"
             },
             {
               "surface": "따라",
               "meaning": "following / along",
-              "base": "따르다 + -아/어"
+              "base": "따르다 → 따라 (따르- + -아/어)"
             },
             {
               "surface": "몰래",
@@ -459,27 +469,27 @@
             {
               "surface": "밖으로",
               "meaning": "outside",
-              "base": "밖 + 으로"
+              "base": "밖 → 밖으로 (밖 + 으로)"
             },
             {
               "surface": "나간",
               "meaning": "went out",
-              "base": "나가다 + -(으)ㄴ"
+              "base": "나가다 → 나간 (나가- + -(으)ㄴ)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "무리와",
               "meaning": "group / troop (and / with)",
-              "base": "무리 + 와"
+              "base": "무리 → 무리와 (무리 + 와)"
             },
             {
               "surface": "떨어진",
               "meaning": "separated / fallen",
-              "base": "떨어지다 + -(으)ㄴ"
+              "base": "떨어지다 → 떨어진 (떨어지- + -(으)ㄴ)"
             },
             {
               "surface": "북극곰개",
@@ -488,12 +498,12 @@
             {
               "surface": "새끼를",
               "meaning": "young / baby animal",
-              "base": "새끼 + 를"
+              "base": "새끼 → 새끼를 (새끼 + 를)"
             },
             {
               "surface": "발견했어",
               "meaning": "discovered",
-              "base": "발견하다"
+              "base": "발견하다 → 발견했어 (발견하- + -였어 → 발견했어)"
             }
           ]
         }
@@ -506,19 +516,19 @@
           "translation": "After getting lost, Korra made a small snow shelter and endured the storm with the cub.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "길을 잃은 코라는 눈으로 작은 피난처를 만들고 새끼와 함께 폭풍을 견뎠어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "잃은 코라는"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "길을 잃은 코라는 눈으로 작은 피난처를 만들고 새끼와 함께 폭풍을 견뎠어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "만들고 새끼와"
             },
             {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "길을 잃은 코라는 눈으로 작은 피난처를 만들고 새끼와 함께 폭풍을 견뎠어."
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 눈으로"
             }
           ],
           "vocab": [
@@ -566,32 +576,32 @@
             {
               "surface": "길을",
               "meaning": "way",
-              "base": "길 + 을"
+              "base": "길 → 길을 (길 + 을)"
             },
             {
               "surface": "잃은",
               "meaning": "lost",
-              "base": "잃다 + -(으)ㄴ"
+              "base": "잃다 → 잃은 (잃- + -(으)ㄴ)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "눈으로",
               "meaning": "eyes (to / by / as)",
-              "base": "눈 + 으로"
+              "base": "눈 → 눈으로 (눈 + 으로)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "만들고",
               "meaning": "made and",
-              "base": "만들다"
+              "base": "만들다 → 만들고 (만들- + -고)"
             },
             {
               "surface": "함께",
@@ -600,7 +610,7 @@
             {
               "surface": "견뎠어",
               "meaning": "endured",
-              "base": "견디다"
+              "base": "견디다 → 견뎠어 (견디- + -아/어)"
             }
           ]
         },
@@ -609,29 +619,34 @@
           "translation": "Katara persuaded Korra’s parents by saying every Avatar had an animal guide, and Korra named her new friend Naga.",
           "grammar": [
             {
-              "pattern": "-다고/라고 하다",
-              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
-              "example": "카타라는 모든 아바타에게 동물 안내자가 있었다며 부모님을 설득했고 코라는 새 친구를 나가라고 불렀어."
+              "pattern": "-다며 / -(이)라며",
+              "explanation": "A shortened quotation form related to -다고 하며 / -(이)라고 하며. It means 'saying that,' 'claiming that,' or sometimes 'on the grounds that,' and often introduces the quoted reason or attitude behind the next action.",
+              "example": "있었다며"
             },
             {
               "pattern": "-(으)면서 / -(으)며",
-              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
-              "example": "카타라는 모든 아바타에게 동물 안내자가 있었다며 부모님을 설득했고 코라는 새 친구를 나가라고 불렀어."
+              "explanation": "Connects two actions or states as simultaneous or closely accompanying: 'while,' 'as,' or 'and.' -(으)면서 is common in speech, while -(으)며 is more compact and literary. With two deliberate actions, the understood subject is usually the same unless the context clearly supplies different subjects.",
+              "example": "있었다며"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "모든 아바타에게"
             },
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "카타라는 모든 아바타에게 동물 안내자가 있었다며 부모님을 설득했고 코라는 새 친구를 나가라고 불렀어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "아바타에게 동물"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "카타라는 모든 아바타에게 동물 안내자가 있었다며 부모님을 설득했고 코라는 새 친구를 나가라고 불렀어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "설득했고 코라는"
             },
             {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "카타라는 모든 아바타에게 동물 안내자가 있었다며 부모님을 설득했고 코라는 새 친구를 나가라고 불렀어."
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "카타라는 모든"
             }
           ],
           "vocab": [
@@ -682,7 +697,7 @@
             {
               "surface": "아바타에게",
               "meaning": "Avatars and (to / by)",
-              "base": "아바타 + 에게"
+              "base": "아바타 → 아바타에게 (아바타 + 에게)"
             },
             {
               "surface": "동물",
@@ -691,17 +706,17 @@
             {
               "surface": "부모님을",
               "meaning": "with parents (object)",
-              "base": "부모님 + 을"
+              "base": "부모님 → 부모님을 (부모님 + 을)"
             },
             {
               "surface": "설득했고",
               "meaning": "to persuade",
-              "base": "설득하다 + -았고"
+              "base": "설득하다 → 설득했고 (설득하- + -였고 → 설득했고)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "새",
@@ -710,12 +725,12 @@
             {
               "surface": "친구를",
               "meaning": "friend",
-              "base": "친구 + 를"
+              "base": "친구 → 친구를 (친구 + 를)"
             },
             {
               "surface": "나가라고",
               "meaning": "to go out",
-              "base": "나가다"
+              "base": "나가다 → 나가라고 (나가- + -(으)라고 / -(이)라고)"
             }
           ]
         }
@@ -728,24 +743,19 @@
           "translation": "In the second story, young Asami visited the office of her mother Yasuko, who was an architect.",
           "grammar": [
             {
-              "pattern": "-던",
-              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
-              "example": "두 번째 이야기에서는 어린 아사미가 건축가였던 어머니 야스코의 사무실을 방문했어."
+              "pattern": "-던 N",
+              "explanation": "-던 modifies a noun by recalling an action or state that was ongoing, repeated, habitual, or not viewed as fully completed in the past. It carries the speaker's memory of that earlier situation. Compare -았/었던, which more strongly presents the event as completed.",
+              "example": "건축가였던 어머니"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "두 번째 이야기에서는 어린 아사미가 건축가였던 어머니 야스코의 사무실을 방문했어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "두 번째 이야기에서는 어린 아사미가 건축가였던 어머니 야스코의 사무실을 방문했어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "어린 아사미가"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "두 번째 이야기에서는 어린 아사미가 건축가였던 어머니 야스코의 사무실을 방문했어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "방문했어"
             }
           ],
           "vocab": [
@@ -801,22 +811,22 @@
             {
               "surface": "이야기에서는",
               "meaning": "in the story",
-              "base": "이야기 + 에서 + 는"
+              "base": "이야기 → 이야기에서는 (이야기 + 에서 + 는)"
             },
             {
               "surface": "어린",
               "meaning": "young",
-              "base": "어리다 + -(으)ㄴ"
+              "base": "어리다 → 어린 (어리- + -(으)ㄴ)"
             },
             {
               "surface": "아사미가",
               "meaning": "Asami (subject)",
-              "base": "아사미 + 가"
+              "base": "아사미 → 아사미가 (아사미 + 가)"
             },
             {
               "surface": "건축가였던",
               "meaning": "who had been an architect",
-              "base": "건축가이다 + -었던"
+              "base": "건축가이다 → 건축가였던 (건축가 + -이었어/-였어)"
             },
             {
               "surface": "어머니",
@@ -825,17 +835,17 @@
             {
               "surface": "야스코의",
               "meaning": "Yasuko’s",
-              "base": "야스코 + 의"
+              "base": "야스코 → 야스코의 (야스코 + 의)"
             },
             {
               "surface": "사무실을",
               "meaning": "office",
-              "base": "사무실 + 을"
+              "base": "사무실 → 사무실을 (사무실 + 을)"
             },
             {
               "surface": "방문했어",
               "meaning": "visited",
-              "base": "방문하다"
+              "base": "방문하다 → 방문했어 (방문하- + -였어 → 방문했어)"
             }
           ]
         },
@@ -844,29 +854,19 @@
           "translation": "Yasuko had her build a small tower from cards and explained how tall buildings distribute weight.",
           "grammar": [
             {
-              "pattern": "-게 하다 / -게 만들다",
-              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
-              "example": "야스코는 카드로 작은 탑을 만들게 하며 높은 건물이 힘을 나누어 버티는 원리를 설명했어."
-            },
-            {
               "pattern": "-(으)면서 / -(으)며",
-              "explanation": "Connects simultaneous actions or provides accompanying background: “while / as.” The two clauses normally share the same subject when used for simultaneous actions.",
-              "example": "야스코는 카드로 작은 탑을 만들게 하며 높은 건물이 힘을 나누어 버티는 원리를 설명했어."
+              "explanation": "Connects two actions or states as simultaneous or closely accompanying: 'while,' 'as,' or 'and.' -(으)면서 is common in speech, while -(으)며 is more compact and literary. With two deliberate actions, the understood subject is usually the same unless the context clearly supplies different subjects.",
+              "example": "하며"
             },
             {
-              "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "야스코는 카드로 작은 탑을 만들게 하며 높은 건물이 힘을 나누어 버티는 원리를 설명했어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "작은 탑을"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "야스코는 카드로 작은 탑을 만들게 하며 높은 건물이 힘을 나누어 버티는 원리를 설명했어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "야스코는 카드로 작은 탑을 만들게 하며 높은 건물이 힘을 나누어 버티는 원리를 설명했어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "설명했어"
             }
           ],
           "vocab": [
@@ -915,67 +915,67 @@
             {
               "surface": "야스코는",
               "meaning": "Yasuko",
-              "base": "야스코 + 는"
+              "base": "야스코 → 야스코는 (야스코 + 는)"
             },
             {
               "surface": "카드로",
               "meaning": "with cards",
-              "base": "카드 + 로"
+              "base": "카드 → 카드로 (카드 + 로)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "탑을",
               "meaning": "tower",
-              "base": "탑 + 을"
+              "base": "탑 → 탑을 (탑 + 을)"
             },
             {
               "surface": "만들게",
               "meaning": "made and",
-              "base": "만들다"
+              "base": "만들다 → 만들게 (만들- + -게)"
             },
             {
               "surface": "하며",
               "meaning": "doing while / and",
-              "base": "하다 + -(으)며"
+              "base": "하다 → 하며 (하- + -(으)며)"
             },
             {
               "surface": "높은",
               "meaning": "high / tall",
-              "base": "높다 + -(으)ㄴ"
+              "base": "높다 → 높은 (높- + -(으)ㄴ)"
             },
             {
               "surface": "건물이",
               "meaning": "building",
-              "base": "건물 + 이"
+              "base": "건물 → 건물이 (건물 + 이)"
             },
             {
               "surface": "힘을",
               "meaning": "strength",
-              "base": "힘 + 을"
+              "base": "힘 → 힘을 (힘 + 을)"
             },
             {
               "surface": "나누어",
               "meaning": "dividing / sharing",
-              "base": "나누다 + -아/어"
+              "base": "나누다 → 나누어 (나누- + -아/어)"
             },
             {
               "surface": "버티는",
               "meaning": "supporting / enduring",
-              "base": "버티다 + -는"
+              "base": "버티다 → 버티는 (버티- + -는)"
             },
             {
               "surface": "원리를",
               "meaning": "principle",
-              "base": "원리 + 를"
+              "base": "원리 → 원리를 (원리 + 를)"
             },
             {
               "surface": "설명했어",
               "meaning": "must explain",
-              "base": "설명하다 + -았어"
+              "base": "설명하다 → 설명했어 (설명하- + -였어 → 설명했어)"
             }
           ]
         }
@@ -988,24 +988,14 @@
           "translation": "Hearing that benders and nonbenders would build a school together, Asami wanted to become an engineer too.",
           "grammar": [
             {
-              "pattern": "-고 싶다",
-              "explanation": "Expresses the speaker’s desire: “want to.” With another person as the subject, Korean often uses -고 싶어 하다 to describe that person’s observable desire.",
-              "example": "아사미는 벤더와 비벤더가 함께 학교를 짓는다는 말을 듣고 자신도 기술자가 되고 싶어 했어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "아사미는 벤더와 비벤더가 함께 학교를 짓는다는 말을 듣고 자신도 기술자가 되고 싶어 했어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "아사미는 벤더와 비벤더가 함께 학교를 짓는다는 말을 듣고 자신도 기술자가 되고 싶어 했어."
+              "pattern": "-고 싶다 / -고 싶어 하다",
+              "explanation": "-고 싶다 expresses the speaker's own desire: 'want to do.' For another person's observable desire, Korean often uses -고 싶어 하다, although narrative context may also license -고 싶다 with a third-person subject. Tense and politeness are carried by 싶다/싶어 하다.",
+              "example": "되고 싶어 했어"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "아사미는 벤더와 비벤더가 함께 학교를 짓는다는 말을 듣고 자신도 기술자가 되고 싶어 했어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "했어"
             }
           ],
           "vocab": [
@@ -1053,7 +1043,7 @@
             {
               "surface": "아사미는",
               "meaning": "Asami",
-              "base": "아사미 + 는"
+              "base": "아사미 → 아사미는 (아사미 + 는)"
             },
             {
               "surface": "함께",
@@ -1062,32 +1052,32 @@
             {
               "surface": "학교를",
               "meaning": "school",
-              "base": "학교 + 를"
+              "base": "학교 → 학교를 (학교 + 를)"
             },
             {
               "surface": "말을",
               "meaning": "words / speech (object)",
-              "base": "말 + 을"
+              "base": "말 → 말을 (말 + 을)"
             },
             {
               "surface": "듣고",
               "meaning": "heard and",
-              "base": "듣다 + -고"
+              "base": "듣다 → 듣고 (듣- + -고)"
             },
             {
               "surface": "자신도",
               "meaning": "her (also / even)",
-              "base": "자신 + 도"
+              "base": "자신 → 자신도 (자신 + 도)"
             },
             {
               "surface": "싶어",
               "meaning": "want",
-              "base": "싶다 + -아/어"
+              "base": "싶다 → 싶어 (싶- + -아/어)"
             },
             {
               "surface": "했어",
               "meaning": "tried",
-              "base": "하다"
+              "base": "하다 → 했어 (하- + -였어 → 했어)"
             }
           ]
         },
@@ -1096,29 +1086,14 @@
           "translation": "The brief time with her mother later became an important memory as Asami led Future Industries.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "어머니와 보낸 짧은 시간은 나중에 아사미가 미래 산업을 이끄는 데 중요한 기억이 됐어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "어머니와 보낸 짧은 시간은 나중에 아사미가 미래 산업을 이끄는 데 중요한 기억이 됐어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "어머니와 보낸 짧은 시간은 나중에 아사미가 미래 산업을 이끄는 데 중요한 기억이 됐어."
-            },
-            {
-              "pattern": "Passive or change-of-state expression",
-              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
-              "example": "어머니와 보낸 짧은 시간은 나중에 아사미가 미래 산업을 이끄는 데 중요한 기억이 됐어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "보낸 짧은"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "어머니와 보낸 짧은 시간은 나중에 아사미가 미래 산업을 이끄는 데 중요한 기억이 됐어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "됐어"
             }
           ],
           "vocab": [
@@ -1167,27 +1142,27 @@
             {
               "surface": "어머니와",
               "meaning": "with mother",
-              "base": "어머니 + 와"
+              "base": "어머니 → 어머니와 (어머니 + 와)"
             },
             {
               "surface": "보낸",
               "meaning": "spent",
-              "base": "보내다 + -(으)ㄴ"
+              "base": "보내다 → 보낸 (보내- + -(으)ㄴ)"
             },
             {
               "surface": "짧은",
               "meaning": "short",
-              "base": "짧다 + -(으)ㄴ"
+              "base": "짧다 → 짧은 (짧- + -(으)ㄴ)"
             },
             {
               "surface": "시간은",
               "meaning": "time (topic)",
-              "base": "시간 + 은"
+              "base": "시간 → 시간은 (시간 + 은)"
             },
             {
               "surface": "아사미가",
               "meaning": "Asami (subject)",
-              "base": "아사미 + 가"
+              "base": "아사미 → 아사미가 (아사미 + 가)"
             },
             {
               "surface": "미래",
@@ -1200,17 +1175,17 @@
             {
               "surface": "중요한",
               "meaning": "became important",
-              "base": "중요하다 + -(으)ㄴ"
+              "base": "중요하다 → 중요한 (중요하- + -(으)ㄴ)"
             },
             {
               "surface": "기억이",
               "meaning": "memories",
-              "base": "기억 + 이"
+              "base": "기억 → 기억이 (기억 + 이)"
             },
             {
               "surface": "됐어",
               "meaning": "became",
-              "base": "되다"
+              "base": "되다 → 됐어 (되- + -었- → 됐-)"
             }
           ]
         }
@@ -1223,24 +1198,14 @@
           "translation": "The third story follows a young Air Nomad who climbed a mountain in the distant past to seek wisdom.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "세 번째 이야기는 아주 먼 과거에 지혜를 찾으러 산에 오른 젊은 공기 유목민을 따라가."
+              "pattern": "-(으)러 가다/오다",
+              "explanation": "Movement-purpose construction meaning 'go/come in order to do.' -러 follows a vowel or ㄹ and -으러 follows most consonants; it normally appears with a movement verb such as 가다, 오다, 다니다, or 떠나다.",
+              "example": "찾으러 산에 오른"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "세 번째 이야기는 아주 먼 과거에 지혜를 찾으러 산에 오른 젊은 공기 유목민을 따라가."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "세 번째 이야기는 아주 먼 과거에 지혜를 찾으러 산에 오른 젊은 공기 유목민을 따라가."
-            },
-            {
-              "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "세 번째 이야기는 아주 먼 과거에 지혜를 찾으러 산에 오른 젊은 공기 유목민을 따라가."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "먼 과거에"
             }
           ],
           "vocab": [
@@ -1298,7 +1263,7 @@
             {
               "surface": "이야기는",
               "meaning": "story",
-              "base": "이야기 + 는"
+              "base": "이야기 → 이야기는 (이야기 + 는)"
             },
             {
               "surface": "아주",
@@ -1307,37 +1272,37 @@
             {
               "surface": "먼",
               "meaning": "far / distant",
-              "base": "멀다 + -(으)ㄴ"
+              "base": "멀다 → 먼 (멀- + -(으)ㄴ)"
             },
             {
               "surface": "과거에",
               "meaning": "past's (to / at / in)",
-              "base": "과거 + 에"
+              "base": "과거 → 과거에 (과거 + 에)"
             },
             {
               "surface": "지혜를",
               "meaning": "with wisdom (object)",
-              "base": "지혜 + 를"
+              "base": "지혜 → 지혜를 (지혜 + 를)"
             },
             {
               "surface": "찾으러",
               "meaning": "in order to seek",
-              "base": "찾다 + -(으)러"
+              "base": "찾다 → 찾으러 (찾- + -(으)러)"
             },
             {
               "surface": "산에",
               "meaning": "mountain (to / at / in)",
-              "base": "산 + 에"
+              "base": "산 → 산에 (산 + 에)"
             },
             {
               "surface": "오른",
               "meaning": "climbed",
-              "base": "오르다 + -(으)ㄴ"
+              "base": "오르다 → 오른 (오르- + -(으)ㄴ)"
             },
             {
               "surface": "젊은",
               "meaning": "young",
-              "base": "젊다 + -(으)ㄴ"
+              "base": "젊다 → 젊은 (젊- + -(으)ㄴ)"
             },
             {
               "surface": "공기",
@@ -1346,12 +1311,12 @@
             {
               "surface": "유목민을",
               "meaning": "nomad",
-              "base": "유목민 + 을"
+              "base": "유목민 → 유목민을 (유목민 + 을)"
             },
             {
               "surface": "따라가",
               "meaning": "following / along (subject)",
-              "base": "따라 + 가"
+              "base": "따라 → 따라가 (따라 + 가)"
             }
           ]
         },
@@ -1360,24 +1325,19 @@
           "translation": "The pilgrim wrote eagerly on paper so as not to miss any of Guru Laghima’s words.",
           "grammar": [
             {
-              "pattern": "-지 않다 / 안",
-              "explanation": "Forms ordinary negation: “do not / is not.” 안 precedes the verb, while -지 않다 follows the verb stem and is often clearer in longer sentences.",
-              "example": "순례자는 구루 라기마의 말을 하나도 놓치지 않으려고 종이에 열심히 적었어."
+              "pattern": "-(으)려고",
+              "explanation": "Expresses the subject's intention or purpose: 'intending to' or 'in order to.' Use -려고 after a vowel or ㄹ and -으려고 after most consonants. It normally describes a controllable action and often combines with 하다 to mean 'try/intend to do.'",
+              "example": "않으려고"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "순례자는 구루 라기마의 말을 하나도 놓치지 않으려고 종이에 열심히 적었어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "순례자는 구루 라기마의 말을 하나도 놓치지 않으려고 종이에 열심히 적었어."
+              "pattern": "-지 않다",
+              "explanation": "Neutral analytic negation meaning 'do not' or 'is not.' It can describe a deliberate choice or simply deny a fact; tense and politeness appear on 않다.",
+              "example": "놓치지 않으려고"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "순례자는 구루 라기마의 말을 하나도 놓치지 않으려고 종이에 열심히 적었어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "적었어"
             }
           ],
           "vocab": [
@@ -1423,22 +1383,22 @@
             {
               "surface": "라기마의",
               "meaning": "Laghima (of / possessive)",
-              "base": "라기마 + 의"
+              "base": "라기마 → 라기마의 (라기마 + 의)"
             },
             {
               "surface": "말을",
               "meaning": "words / speech (object)",
-              "base": "말 + 을"
+              "base": "말 → 말을 (말 + 을)"
             },
             {
               "surface": "하나도",
               "meaning": "one / a single (also / even)",
-              "base": "하나 + 도"
+              "base": "하나 → 하나도 (하나 + 도)"
             },
             {
               "surface": "놓치지",
               "meaning": "to miss",
-              "base": "놓치다"
+              "base": "놓치다 → 놓치지 (놓치- + -지)"
             },
             {
               "surface": "열심히",
@@ -1447,7 +1407,7 @@
             {
               "surface": "적었어",
               "meaning": "wrote down",
-              "base": "적다"
+              "base": "적다 → 적었어 (적- + -었어)"
             }
           ]
         }
@@ -1460,24 +1420,14 @@
           "translation": "When Laghima lifted his body into the air, the wind scattered the pilgrim’s papers in every direction again.",
           "grammar": [
             {
-              "pattern": "-아/어 버리다",
-              "explanation": "Shows that an action is completed fully. It often adds emotion such as regret, surprise, relief, or a sense of irreversible finality.",
-              "example": "라기마가 몸을 공중에 띄우자 바람은 순례자의 종이를 다시 사방으로 날려 버렸어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "라기마가 몸을 공중에 띄우자 바람은 순례자의 종이를 다시 사방으로 날려 버렸어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "라기마가 몸을 공중에 띄우자 바람은 순례자의 종이를 다시 사방으로 날려 버렸어."
+              "pattern": "-자",
+              "explanation": "Narrative connector meaning 'when/as soon as the first event occurred, the second followed.' It presents the first event as the trigger or time point for the second and is more literary than conversational -니까 or -자마자. It is different from the proposal ending -자, 'let's.'",
+              "example": "띄우자"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "라기마가 몸을 공중에 띄우자 바람은 순례자의 종이를 다시 사방으로 날려 버렸어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "버렸어"
             }
           ],
           "vocab": [
@@ -1526,37 +1476,37 @@
             {
               "surface": "라기마가",
               "meaning": "Laghima (subject)",
-              "base": "라기마 + 가"
+              "base": "라기마 → 라기마가 (라기마 + 가)"
             },
             {
               "surface": "몸을",
               "meaning": "body",
-              "base": "몸 + 을"
+              "base": "몸 → 몸을 (몸 + 을)"
             },
             {
               "surface": "공중에",
               "meaning": "air (to / at / in)",
-              "base": "공중 + 에"
+              "base": "공중 → 공중에 (공중 + 에)"
             },
             {
               "surface": "띄우자",
               "meaning": "to launch / float",
-              "base": "띄우다"
+              "base": "띄우다 → 띄우자 (띄우- + -자)"
             },
             {
               "surface": "바람은",
               "meaning": "wind",
-              "base": "바람 + 은"
+              "base": "바람 → 바람은 (바람 + 은)"
             },
             {
               "surface": "순례자의",
               "meaning": "pilgrim’s",
-              "base": "순례자 + 의"
+              "base": "순례자 → 순례자의 (순례자 + 의)"
             },
             {
               "surface": "종이를",
               "meaning": "paper",
-              "base": "종이 + 를"
+              "base": "종이 → 종이를 (종이 + 를)"
             },
             {
               "surface": "다시",
@@ -1565,17 +1515,17 @@
             {
               "surface": "사방으로",
               "meaning": "in every direction",
-              "base": "사방 + 으로"
+              "base": "사방 → 사방으로 (사방 + 으로)"
             },
             {
               "surface": "날려",
               "meaning": "blew / sent flying",
-              "base": "날리다 + -아/어"
+              "base": "날리다 → 날려 (날리- + -아/어)"
             },
             {
               "surface": "버렸어",
               "meaning": "completely / unfortunately",
-              "base": "버리다"
+              "base": "버리다 → 버렸어 (버리- + -아/어)"
             }
           ]
         },
@@ -1584,24 +1534,19 @@
           "translation": "The scene contrasts the desire to capture wisdom in writing with the formless flow of the wind.",
           "grammar": [
             {
+              "pattern": "-(으)려는 N",
+              "explanation": "Intention noun modifier meaning 'a person/thing intending to…' or 'an attempt/plan to….' It comes from -(으)려고 하는 contracted before a noun. The intention belongs to the subject of the modifying clause.",
+              "example": "붙잡으려는 마음과"
+            },
+            {
               "pattern": "-아/어 주다",
-              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
-              "example": "이 장면은 지혜를 글로 붙잡으려는 마음과 형태 없이 흘러가는 바람을 대비해 보여 줘."
+              "explanation": "Shows that an action is performed for another person's benefit or as a favor. The receiver may be marked with 에게/한테; in casual speech 주었어 contracts to 줬어. With requests, -아/어 달라고 asks someone to perform the action for the speaker or the quoted speaker.",
+              "example": "보여 줘"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "이 장면은 지혜를 글로 붙잡으려는 마음과 형태 없이 흘러가는 바람을 대비해 보여 줘."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "이 장면은 지혜를 글로 붙잡으려는 마음과 형태 없이 흘러가는 바람을 대비해 보여 줘."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "이 장면은 지혜를 글로 붙잡으려는 마음과 형태 없이 흘러가는 바람을 대비해 보여 줘."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "흘러가는 바람을"
             }
           ],
           "vocab": [
@@ -1654,47 +1599,47 @@
             {
               "surface": "지혜를",
               "meaning": "with wisdom (object)",
-              "base": "지혜 + 를"
+              "base": "지혜 → 지혜를 (지혜 + 를)"
             },
             {
               "surface": "글로",
               "meaning": "writing (to / by / as)",
-              "base": "글 + 로"
+              "base": "글 → 글로 (글 + 로)"
             },
             {
               "surface": "마음과",
               "meaning": "heart / nature (and / with)",
-              "base": "마음 + 과"
+              "base": "마음 → 마음과 (마음 + 과)"
             },
             {
               "surface": "없이",
               "meaning": "without",
-              "base": "없다 + -이"
+              "base": "없다 → 없이 (없- + -이)"
             },
             {
               "surface": "흘러가는",
               "meaning": "flow + not",
-              "base": "흘러가다"
+              "base": "흘러가다 → 흘러가는 (흘러가- + -는)"
             },
             {
               "surface": "바람을",
               "meaning": "wind (object)",
-              "base": "바람 + 을"
+              "base": "바람 → 바람을 (바람 + 을)"
             },
             {
               "surface": "대비해",
               "meaning": "to prepare for",
-              "base": "대비하다 + -아/어"
+              "base": "대비하다 → 대비해 (대비하- + -여 → 대비해)"
             },
             {
               "surface": "보여",
               "meaning": "showed",
-              "base": "보이다 + -아/어"
+              "base": "보이다 → 보여 (보 + 여)"
             },
             {
               "surface": "줘",
               "meaning": "does for us",
-              "base": "주다"
+              "base": "주다 → 줘"
             }
           ]
         }
@@ -1707,29 +1652,24 @@
           "translation": "In the fourth story, Meelo avoided work at a refugee camp until Korra gave him a mission to find lost animals.",
           "grammar": [
             {
+              "pattern": "피동 표현 (-이/히/리/기-, -아/어지다)",
+              "explanation": "Passive expression: the subject receives an action rather than performing it. Korean may add lexical passive suffixes such as -이-, -히-, -리-, or -기- (잡다→잡히다), or use -아/어지다 with certain verbs. The agent, when stated, is often marked by 에게/한테.",
+              "example": "받았어"
+            },
+            {
               "pattern": "-다가",
-              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
-              "example": "네 번째 이야기에서 밀로는 난민 캠프 일을 피하다가 코라에게 잃어버린 동물을 찾는 임무를 받았어."
+              "explanation": "Shows that an action or state was in progress and then changed, stopped, or led to another event: 'while doing, then….' The contrast or interruption is often important; the subject generally remains the same unless context makes a change clear.",
+              "example": "피하다가"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "잃어버린 동물을"
             },
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "네 번째 이야기에서 밀로는 난민 캠프 일을 피하다가 코라에게 잃어버린 동물을 찾는 임무를 받았어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "네 번째 이야기에서 밀로는 난민 캠프 일을 피하다가 코라에게 잃어버린 동물을 찾는 임무를 받았어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "네 번째 이야기에서 밀로는 난민 캠프 일을 피하다가 코라에게 잃어버린 동물을 찾는 임무를 받았어."
-            },
-            {
-              "pattern": "Passive or change-of-state expression",
-              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
-              "example": "네 번째 이야기에서 밀로는 난민 캠프 일을 피하다가 코라에게 잃어버린 동물을 찾는 임무를 받았어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "코라에게 잃어버린"
             }
           ],
           "vocab": [
@@ -1787,12 +1727,12 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "밀로는",
               "meaning": "Meelo",
-              "base": "밀로 + 는"
+              "base": "밀로 → 밀로는 (밀로 + 는)"
             },
             {
               "surface": "난민",
@@ -1805,42 +1745,42 @@
             {
               "surface": "일을",
               "meaning": "work",
-              "base": "일 + 을"
+              "base": "일 → 일을 (일 + 을)"
             },
             {
               "surface": "피하다가",
               "meaning": "to avoid (subject)",
-              "base": "피하다 + 가"
+              "base": "피하다 → 피하다가 (피하- + 가)"
             },
             {
               "surface": "코라에게",
               "meaning": "Korra (to / by)",
-              "base": "코라 + 에게"
+              "base": "코라 → 코라에게 (코라 + 에게)"
             },
             {
               "surface": "잃어버린",
               "meaning": "lost",
-              "base": "잃어버리다 + -(으)ㄴ"
+              "base": "잃어버리다 → 잃어버린 (잃어버리- + -(으)ㄴ)"
             },
             {
               "surface": "동물을",
               "meaning": "animal (object)",
-              "base": "동물 + 을"
+              "base": "동물 → 동물을 (동물 + 을)"
             },
             {
               "surface": "찾는",
               "meaning": "searching for",
-              "base": "찾다 + -는"
+              "base": "찾다 → 찾는 (찾- + -는)"
             },
             {
               "surface": "임무를",
               "meaning": "mission",
-              "base": "임무 + 를"
+              "base": "임무 → 임무를 (임무 + 를)"
             },
             {
               "surface": "받았어",
               "meaning": "received",
-              "base": "받다"
+              "base": "받다 → 받았어 (받- + -았어)"
             }
           ]
         },
@@ -1849,29 +1789,24 @@
           "translation": "At first he imagined a heroic secret mission, but it was really the task of finding pets separated from their families.",
           "grammar": [
             {
+              "pattern": "-아/어지다",
+              "explanation": "Marks a change of state: 'become/get.' It most often follows a descriptive verb, as in 많아지다, or forms a passive-like change with some action verbs. The tense is expressed on 지다.",
+              "example": "떨어진"
+            },
+            {
               "pattern": "-다고/라고 하다",
-              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
-              "example": "처음에는 영웅 같은 비밀 임무라고 생각했지만 실제로는 가족과 떨어진 반려동물들을 찾는 일이었어."
+              "explanation": "Indirect quotation: it embeds what someone says, thinks, believes, notices, or claims. Action verbs use -ㄴ/는다고, descriptive verbs use -다고, nouns use -(이)라고, and future/intention commonly appears as -(으)ㄹ 거라고. Commands use -(으)라고, questions use -냐고, and requests may use -아/어 달라고.",
+              "example": "임무라고 생각했지만"
             },
             {
               "pattern": "-지만",
-              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
-              "example": "처음에는 영웅 같은 비밀 임무라고 생각했지만 실제로는 가족과 떨어진 반려동물들을 찾는 일이었어."
+              "explanation": "Connects contrasting clauses: 'but' or 'although.' It attaches directly to a verb or adjective stem; tense can appear before it, as in 했지만. The contrast may be factual rather than strongly argumentative.",
+              "example": "생각했지만"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "처음에는 영웅 같은 비밀 임무라고 생각했지만 실제로는 가족과 떨어진 반려동물들을 찾는 일이었어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "처음에는 영웅 같은 비밀 임무라고 생각했지만 실제로는 가족과 떨어진 반려동물들을 찾는 일이었어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "처음에는 영웅 같은 비밀 임무라고 생각했지만 실제로는 가족과 떨어진 반려동물들을 찾는 일이었어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "같은 비밀"
             }
           ],
           "vocab": [
@@ -1920,7 +1855,7 @@
             {
               "surface": "처음에는",
               "meaning": "at first",
-              "base": "처음 + 에는"
+              "base": "처음 → 처음에는 (처음 + 에는)"
             },
             {
               "surface": "영웅",
@@ -1929,7 +1864,7 @@
             {
               "surface": "같은",
               "meaning": "same / like",
-              "base": "같다 + -(으)ㄴ"
+              "base": "같다 → 같은 (같- + -(으)ㄴ)"
             },
             {
               "surface": "비밀",
@@ -1938,42 +1873,42 @@
             {
               "surface": "임무라고",
               "meaning": "that it was a mission",
-              "base": "임무 + 이라고"
+              "base": "임무 → 임무라고 (임무 + 이라고)"
             },
             {
               "surface": "생각했지만",
               "meaning": "thought but",
-              "base": "생각하다 + -았지만"
+              "base": "생각하다 → 생각했지만 (생각하- + -였지만 → 생각했지만)"
             },
             {
               "surface": "실제로는",
               "meaning": "in reality",
-              "base": "실제 + 로는"
+              "base": "실제 → 실제로는 (실제 + 로는)"
             },
             {
               "surface": "가족과",
               "meaning": "families and",
-              "base": "가족 + 과"
+              "base": "가족 → 가족과 (가족 + 과)"
             },
             {
               "surface": "떨어진",
               "meaning": "separated / fallen",
-              "base": "떨어지다 + -(으)ㄴ"
+              "base": "떨어지다 → 떨어진 (떨어지- + -(으)ㄴ)"
             },
             {
               "surface": "반려동물들을",
               "meaning": "companion animals / pets",
-              "base": "반려동물들 + 을"
+              "base": "반려동물들 → 반려동물들을 (반려동물들 + 을)"
             },
             {
               "surface": "찾는",
               "meaning": "searching for",
-              "base": "찾다 + -는"
+              "base": "찾다 → 찾는 (찾- + -는)"
             },
             {
               "surface": "일이었어",
               "meaning": "was a matter/task",
-              "base": "일이다"
+              "base": "일이다 → 일이었어 (일 + -이었어/-였어)"
             }
           ]
         }
@@ -1987,28 +1922,18 @@
           "grammar": [
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "밀로는 나가와 자기 감각을 이용해 동물들의 흔적을 따라갔고 점점 임무를 진지하게 받아들였어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "진지하게 받아들였어"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "밀로는 나가와 자기 감각을 이용해 동물들의 흔적을 따라갔고 점점 임무를 진지하게 받아들였어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "밀로는 나가와 자기 감각을 이용해 동물들의 흔적을 따라갔고 점점 임무를 진지하게 받아들였어."
-            },
-            {
-              "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "밀로는 나가와 자기 감각을 이용해 동물들의 흔적을 따라갔고 점점 임무를 진지하게 받아들였어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "따라갔고 점점"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "밀로는 나가와 자기 감각을 이용해 동물들의 흔적을 따라갔고 점점 임무를 진지하게 받아들였어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "받아들였어"
             }
           ],
           "vocab": [
@@ -2057,12 +1982,12 @@
             {
               "surface": "밀로는",
               "meaning": "Meelo",
-              "base": "밀로 + 는"
+              "base": "밀로 → 밀로는 (밀로 + 는)"
             },
             {
               "surface": "나가와",
               "meaning": "Naga (and / with)",
-              "base": "나가 + 와"
+              "base": "나가 → 나가와 (나가 + 와)"
             },
             {
               "surface": "자기",
@@ -2071,27 +1996,27 @@
             {
               "surface": "감각을",
               "meaning": "sense (object)",
-              "base": "감각 + 을"
+              "base": "감각 → 감각을 (감각 + 을)"
             },
             {
               "surface": "이용해",
               "meaning": "using",
-              "base": "이용하다 + -아/어"
+              "base": "이용하다 → 이용해 (이용하- + -여 → 이용해)"
             },
             {
               "surface": "동물들의",
               "meaning": "animals (of / possessive)",
-              "base": "동물들 + 의"
+              "base": "동물들 → 동물들의 (동물들 + 의)"
             },
             {
               "surface": "흔적을",
               "meaning": "trace",
-              "base": "흔적 + 을"
+              "base": "흔적 → 흔적을 (흔적 + 을)"
             },
             {
               "surface": "따라갔고",
               "meaning": "followed and",
-              "base": "따라가다 + -았고"
+              "base": "따라가다 → 따라갔고 (따라가- + -았고)"
             },
             {
               "surface": "점점",
@@ -2100,17 +2025,17 @@
             {
               "surface": "임무를",
               "meaning": "mission",
-              "base": "임무 + 를"
+              "base": "임무 → 임무를 (임무 + 를)"
             },
             {
               "surface": "진지하게",
               "meaning": "seriously",
-              "base": "진지하다 + -게"
+              "base": "진지하다 → 진지하게 (진지하- + -게)"
             },
             {
               "surface": "받아들였어",
               "meaning": "accepted",
-              "base": "받아들이다"
+              "base": "받아들이다 → 받아들였어 (받아들 + -이었어/-였어)"
             }
           ]
         },
@@ -2119,19 +2044,19 @@
           "translation": "Seeing the animals reunite with their owners, he learned that even small help can matter greatly to someone.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "동물들이 주인과 다시 만나는 모습을 본 그는 작은 도움도 누군가에게는 매우 중요하다는 걸 배웠어."
+              "pattern": "-(으)ㄴ/는다는 것",
+              "explanation": "Quoted-clause nominalization meaning 'the fact that….' The quotation marker (-ㄴ/는다고, -다고, or -(이)라고) combines with 하는 것, often contracted to -다는 것/걸. It packages an entire proposition as the object of knowing, realizing, showing, or admitting.",
+              "example": "중요하다는 걸"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "동물들이 주인과 다시 만나는 모습을 본 그는 작은 도움도 누군가에게는 매우 중요하다는 걸 배웠어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "작은 도움도"
             },
             {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "동물들이 주인과 다시 만나는 모습을 본 그는 작은 도움도 누군가에게는 매우 중요하다는 걸 배웠어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "배웠어"
             }
           ],
           "vocab": [
@@ -2180,12 +2105,12 @@
             {
               "surface": "동물들이",
               "meaning": "animals (subject)",
-              "base": "동물들 + 이"
+              "base": "동물들 → 동물들이 (동물들 + 이)"
             },
             {
               "surface": "주인과",
               "meaning": "owner (and / with)",
-              "base": "주인 + 과"
+              "base": "주인 → 주인과 (주인 + 과)"
             },
             {
               "surface": "다시",
@@ -2194,27 +2119,27 @@
             {
               "surface": "만나는",
               "meaning": "met and (topic)",
-              "base": "만나 + 는"
+              "base": "만나 → 만나는 (만나 + 는)"
             },
             {
               "surface": "모습을",
               "meaning": "self / appearance",
-              "base": "모습 + 을"
+              "base": "모습 → 모습을 (모습 + 을)"
             },
             {
               "surface": "그는",
               "meaning": "he",
-              "base": "그 + 는"
+              "base": "그 → 그는 (그 + 는)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "도움도",
               "meaning": "help (also / even)",
-              "base": "도움 + 도"
+              "base": "도움 → 도움도 (도움 + 도)"
             },
             {
               "surface": "매우",
@@ -2223,17 +2148,17 @@
             {
               "surface": "중요하다는",
               "meaning": "became important (topic)",
-              "base": "중요하다 + 는"
+              "base": "중요하다 → 중요하다는 (중요하- + 는)"
             },
             {
               "surface": "걸",
               "meaning": "the fact",
-              "base": "것을"
+              "base": "것 → 걸 (것을 → 걸; spoken contraction)"
             },
             {
               "surface": "배웠어",
               "meaning": "learned",
-              "base": "배우다"
+              "base": "배우다 → 배웠어 (배우- + -었어 → 워졌어)"
             }
           ]
         }
@@ -2246,14 +2171,24 @@
           "translation": "In the fifth story, Korra, Asami, and Jinora made an emergency landing in the mountains because of powerful winds.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "다섯 번째 이야기에서 코라와 아사미와 지노라는 강한 바람 때문에 비행기를 산에 비상 착륙시켰어."
+              "pattern": "-시키다 사동",
+              "explanation": "Lexical causative construction using 시키다, meaning 'make/cause someone or something to do or become.' It is common with Sino-Korean nouns and adjectives, as in 긴장시키다, 'make tense.'",
+              "example": "착륙시켰어"
             },
             {
-              "pattern": "Particles 은/는, 이/가, 을/를",
-              "explanation": "Korean particles mark a noun’s role. 은/는 sets the topic or contrast, 이/가 marks the grammatical subject or new focus, and 을/를 marks the direct object.",
-              "example": "다섯 번째 이야기에서 코라와 아사미와 지노라는 강한 바람 때문에 비행기를 산에 비상 착륙시켰어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "강한 바람"
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "착륙시켰어"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "지노라는 강한"
             }
           ],
           "vocab": [
@@ -2310,27 +2245,27 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "코라와",
               "meaning": "Korra and",
-              "base": "코라 + 와"
+              "base": "코라 → 코라와 (코라 + 와)"
             },
             {
               "surface": "아사미와",
               "meaning": "Asami and",
-              "base": "아사미 + 와"
+              "base": "아사미 → 아사미와 (아사미 + 와)"
             },
             {
               "surface": "지노라는",
               "meaning": "Jinora",
-              "base": "지노라 + 는"
+              "base": "지노라 → 지노라는 (지노라 + 는)"
             },
             {
               "surface": "강한",
               "meaning": "strong",
-              "base": "강하다 + -(으)ㄴ"
+              "base": "강하다 → 강한 (강하- + -(으)ㄴ)"
             },
             {
               "surface": "바람",
@@ -2343,12 +2278,12 @@
             {
               "surface": "비행기를",
               "meaning": "airplane",
-              "base": "비행기 + 를"
+              "base": "비행기 → 비행기를 (비행기 + 를)"
             },
             {
               "surface": "산에",
               "meaning": "mountain (to / at / in)",
-              "base": "산 + 에"
+              "base": "산 → 산에 (산 + 에)"
             },
             {
               "surface": "비상",
@@ -2357,7 +2292,7 @@
             {
               "surface": "착륙시켰어",
               "meaning": "made land / landed",
-              "base": "착륙시키다"
+              "base": "착륙시키다 → 착륙시켰어 (착륙시키- + -아/어)"
             }
           ]
         },
@@ -2367,28 +2302,23 @@
           "grammar": [
             {
               "pattern": "-게 하다 / -게 만들다",
-              "explanation": "A causative construction meaning “make/let someone do” or “cause something to become.” The affected person or thing is marked before the -게 phrase.",
-              "example": "혼란에 빠진 작은 영혼들은 비행기가 자기들을 흩어지게 했다고 오해해 기체를 절벽으로 밀었어."
+              "explanation": "Causative construction meaning 'make, let, or cause someone/something to do or become.' The affected person is often marked by 에게/한테 or 을/를, depending on the verb and emphasis. -게 만들다 usually stresses actively producing the result more strongly than -게 하다.",
+              "example": "흩어지게 했다"
             },
             {
               "pattern": "-다고/라고 하다",
-              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
-              "example": "혼란에 빠진 작은 영혼들은 비행기가 자기들을 흩어지게 했다고 오해해 기체를 절벽으로 밀었어."
+              "explanation": "Indirect quotation: it embeds what someone says, thinks, believes, notices, or claims. Action verbs use -ㄴ/는다고, descriptive verbs use -다고, nouns use -(이)라고, and future/intention commonly appears as -(으)ㄹ 거라고. Commands use -(으)라고, questions use -냐고, and requests may use -아/어 달라고.",
+              "example": "했다고 오해해"
             },
             {
-              "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "혼란에 빠진 작은 영혼들은 비행기가 자기들을 흩어지게 했다고 오해해 기체를 절벽으로 밀었어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "빠진 작은"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "혼란에 빠진 작은 영혼들은 비행기가 자기들을 흩어지게 했다고 오해해 기체를 절벽으로 밀었어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "혼란에 빠진 작은 영혼들은 비행기가 자기들을 흩어지게 했다고 오해해 기체를 절벽으로 밀었어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "밀었어"
             }
           ],
           "vocab": [
@@ -2437,62 +2367,62 @@
             {
               "surface": "혼란에",
               "meaning": "in confusion",
-              "base": "혼란 + 에"
+              "base": "혼란 → 혼란에 (혼란 + 에)"
             },
             {
               "surface": "빠진",
               "meaning": "fallen into",
-              "base": "빠지다 + -(으)ㄴ"
+              "base": "빠지다 → 빠진 (빠지- + -(으)ㄴ)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "영혼들은",
               "meaning": "spirits",
-              "base": "영혼들 + 은"
+              "base": "영혼들 → 영혼들은 (영혼들 + 은)"
             },
             {
               "surface": "비행기가",
               "meaning": "airplane",
-              "base": "비행기 + 가"
+              "base": "비행기 → 비행기가 (비행기 + 가)"
             },
             {
               "surface": "자기들을",
               "meaning": "their own (object)",
-              "base": "자기들 + 을"
+              "base": "자기들 → 자기들을 (자기들 + 을)"
             },
             {
               "surface": "흩어지게",
               "meaning": "so as to scatter",
-              "base": "흩어지다 + -게"
+              "base": "흩어지다 → 흩어지게 (흩어지- + -게)"
             },
             {
               "surface": "했다고",
               "meaning": "that it did",
-              "base": "하다 + -았다고"
+              "base": "하다 → 했다고 (하- + -았다고)"
             },
             {
               "surface": "오해해",
               "meaning": "to do / make misunderstanding",
-              "base": "오해하다"
+              "base": "오해하다 → 오해해 (오해하- + -여 → 오해해)"
             },
             {
               "surface": "기체를",
               "meaning": "aircraft / gas (object)",
-              "base": "기체 + 를"
+              "base": "기체 → 기체를 (기체 + 를)"
             },
             {
               "surface": "절벽으로",
               "meaning": "toward the cliff",
-              "base": "절벽 + 으로"
+              "base": "절벽 → 절벽으로 (절벽 + 으로)"
             },
             {
               "surface": "밀었어",
               "meaning": "pushed",
-              "base": "밀다"
+              "base": "밀다 → 밀었어 (밀- + -었어)"
             }
           ]
         }
@@ -2506,28 +2436,23 @@
           "grammar": [
             {
               "pattern": "-도록",
-              "explanation": "Expresses a goal, intended result, degree, or limit: “so that / until.” The surrounding verb determines whether it describes purpose or extent.",
-              "example": "코라는 공기 굽히기로 비행기를 붙잡고 지노라가 영적으로 그들의 두려움을 이해하도록 기다렸어."
+              "explanation": "Can express a goal or intended result ('so that'), a limit/extent ('until/to the point that'), or an instruction ('make sure that'). Its exact meaning depends on the main verb and context.",
+              "example": "이해하도록"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "코라는 공기 굽히기로 비행기를 붙잡고 지노라가 영적으로 그들의 두려움을 이해하도록 기다렸어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "코라는 공기 굽히기로 비행기를 붙잡고 지노라가 영적으로 그들의 두려움을 이해하도록 기다렸어."
-            },
-            {
-              "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "코라는 공기 굽히기로 비행기를 붙잡고 지노라가 영적으로 그들의 두려움을 이해하도록 기다렸어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "붙잡고 지노라가"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "코라는 공기 굽히기로 비행기를 붙잡고 지노라가 영적으로 그들의 두려움을 이해하도록 기다렸어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "기다렸어"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 공기"
             }
           ],
           "vocab": [
@@ -2576,7 +2501,7 @@
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "공기",
@@ -2585,42 +2510,42 @@
             {
               "surface": "굽히기로",
               "meaning": "with bending",
-              "base": "굽히기 + 로"
+              "base": "굽히기 → 굽히기로 (굽히기 + 로)"
             },
             {
               "surface": "비행기를",
               "meaning": "airplane",
-              "base": "비행기 + 를"
+              "base": "비행기 → 비행기를 (비행기 + 를)"
             },
             {
               "surface": "붙잡고",
               "meaning": "held and",
-              "base": "붙잡다 + -고"
+              "base": "붙잡다 → 붙잡고 (붙잡- + -고)"
             },
             {
               "surface": "지노라가",
               "meaning": "Jinora",
-              "base": "지노라 + 가"
+              "base": "지노라 → 지노라가 (지노라 + 가)"
             },
             {
               "surface": "그들의",
               "meaning": "their",
-              "base": "그들 + 의"
+              "base": "그들 → 그들의 (그들 + 의)"
             },
             {
               "surface": "두려움을",
               "meaning": "fear",
-              "base": "두려움 + 을"
+              "base": "두려움 → 두려움을 (두려움 + 을)"
             },
             {
               "surface": "이해하도록",
               "meaning": "came to understand",
-              "base": "이해하다 + -도록"
+              "base": "이해하다 → 이해하도록 (이해하- + -도록)"
             },
             {
               "surface": "기다렸어",
               "meaning": "waited",
-              "base": "기다리다"
+              "base": "기다리다 → 기다렸어 (기다리- + -아/어)"
             }
           ]
         },
@@ -2630,23 +2555,23 @@
           "grammar": [
             {
               "pattern": "-기보다",
-              "explanation": "Means “rather than doing / more than doing.” It compares two actions or descriptions and places the speaker’s preference or stronger judgment in the following expression.",
-              "example": "세 사람은 힘으로 영혼을 쫓아내기보다 문제의 원인을 알아내고 안전하게 돌려보냈어."
+              "explanation": "Means 'rather than doing/being.' The first option is rejected or treated as less accurate, and the following clause gives the preferred interpretation or choice.",
+              "example": "쫓아내기보다"
             },
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "세 사람은 힘으로 영혼을 쫓아내기보다 문제의 원인을 알아내고 안전하게 돌려보냈어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "안전하게 돌려보냈어"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "세 사람은 힘으로 영혼을 쫓아내기보다 문제의 원인을 알아내고 안전하게 돌려보냈어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "알아내고 안전하게"
             },
             {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "세 사람은 힘으로 영혼을 쫓아내기보다 문제의 원인을 알아내고 안전하게 돌려보냈어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "돌려보냈어"
             }
           ],
           "vocab": [
@@ -2700,47 +2625,47 @@
             {
               "surface": "사람은",
               "meaning": "people",
-              "base": "사람 + 은"
+              "base": "사람 → 사람은 (사람 + 은)"
             },
             {
               "surface": "힘으로",
               "meaning": "with power",
-              "base": "힘 + 으로"
+              "base": "힘 → 힘으로 (힘 + 으로)"
             },
             {
               "surface": "영혼을",
               "meaning": "spirit (object)",
-              "base": "영혼 + 을"
+              "base": "영혼 → 영혼을 (영혼 + 을)"
             },
             {
               "surface": "쫓아내기보다",
               "meaning": "rather than driving away",
-              "base": "쫓아내다 + -기보다"
+              "base": "쫓아내다 → 쫓아내기보다 (쫓아내- + -기보다)"
             },
             {
               "surface": "문제의",
               "meaning": "problem’s / of the problem",
-              "base": "문제 + 의"
+              "base": "문제 → 문제의 (문제 + 의)"
             },
             {
               "surface": "원인을",
               "meaning": "cause",
-              "base": "원인 + 을"
+              "base": "원인 → 원인을 (원인 + 을)"
             },
             {
               "surface": "알아내고",
               "meaning": "to discover",
-              "base": "알아내다"
+              "base": "알아내다 → 알아내고 (알아내- + -고)"
             },
             {
               "surface": "안전하게",
               "meaning": "safely",
-              "base": "안전하다 + -게"
+              "base": "안전하다 → 안전하게 (안전하- + -게)"
             },
             {
               "surface": "돌려보냈어",
               "meaning": "sent back",
-              "base": "돌려보내다"
+              "base": "돌려보내다 → 돌려보냈어 (돌려보내- + -아/어)"
             }
           ]
         }
@@ -2753,29 +2678,29 @@
           "translation": "In the sixth story, young Korra began lessons with a strict firebending master named Yim.",
           "grammar": [
             {
-              "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "여섯 번째 이야기에서 어린 코라는 엄격한 불 굽히기 스승 임에게 처음 수업을 받았어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "여섯 번째 이야기에서 어린 코라는 엄격한 불 굽히기 스승 임에게 처음 수업을 받았어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "여섯 번째 이야기에서 어린 코라는 엄격한 불 굽히기 스승 임에게 처음 수업을 받았어."
+              "pattern": "피동 표현 (-이/히/리/기-, -아/어지다)",
+              "explanation": "Passive expression: the subject receives an action rather than performing it. Korean may add lexical passive suffixes such as -이-, -히-, -리-, or -기- (잡다→잡히다), or use -아/어지다 with certain verbs. The agent, when stated, is often marked by 에게/한테.",
+              "example": "받았어"
             },
             {
               "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "여섯 번째 이야기에서 어린 코라는 엄격한 불 굽히기 스승 임에게 처음 수업을 받았어."
+              "explanation": "Nominalization: it turns a verb clause into a noun-like unit. -는 것 presents a concrete action, fact, or situation and can take particles; -기 is more compact and often names an activity, plan, rule, or evaluation. In speech, 것은/것을 often contract to 건/걸.",
+              "example": "굽히기"
             },
             {
-              "pattern": "Passive or change-of-state expression",
-              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
-              "example": "여섯 번째 이야기에서 어린 코라는 엄격한 불 굽히기 스승 임에게 처음 수업을 받았어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "어린 코라는"
+            },
+            {
+              "pattern": "-게",
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "임에게 처음"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 엄격한"
             }
           ],
           "vocab": [
@@ -2832,22 +2757,22 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "어린",
               "meaning": "young",
-              "base": "어리다 + -(으)ㄴ"
+              "base": "어리다 → 어린 (어리- + -(으)ㄴ)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "엄격한",
               "meaning": "strict",
-              "base": "엄격하다 + -(으)ㄴ"
+              "base": "엄격하다 → 엄격한 (엄격하- + -(으)ㄴ)"
             },
             {
               "surface": "불",
@@ -2856,7 +2781,7 @@
             {
               "surface": "굽히기",
               "meaning": "bending",
-              "base": "굽히다 + -기"
+              "base": "굽히다 → 굽히기 (굽히- + -기)"
             },
             {
               "surface": "스승",
@@ -2865,7 +2790,7 @@
             {
               "surface": "임에게",
               "meaning": "to Im",
-              "base": "임 + 에게"
+              "base": "임 → 임에게 (임 + 에게)"
             },
             {
               "surface": "처음",
@@ -2874,12 +2799,12 @@
             {
               "surface": "수업을",
               "meaning": "lesson",
-              "base": "수업 + 을"
+              "base": "수업 → 수업을 (수업 + 을)"
             },
             {
               "surface": "받았어",
               "meaning": "received",
-              "base": "받다"
+              "base": "받다 → 받았어 (받- + -았어)"
             }
           ]
         },
@@ -2888,29 +2813,29 @@
           "translation": "Korra wanted to attend the Glacier Spirits Festival, but her teacher told her to think only about training.",
           "grammar": [
             {
-              "pattern": "-고 싶다",
-              "explanation": "Expresses the speaker’s desire: “want to.” With another person as the subject, Korean often uses -고 싶어 하다 to describe that person’s observable desire.",
-              "example": "코라는 빙하 영혼 축제에 가고 싶었지만 스승은 훈련만 생각하라고 했어."
+              "pattern": "-(으)라고 하다/명령하다",
+              "explanation": "Reported command ending meaning 'tell/order someone to do….' Use -라고 after a vowel or ㄹ and -으라고 after most consonants; the reporting verb may be 말하다, 명령하다, 요구하다, or 지시하다. This differs from noun quotation -(이)라고.",
+              "example": "생각하라고 했어"
             },
             {
-              "pattern": "-다고/라고 하다",
-              "explanation": "Marks indirect quotation. Declarative content is embedded before verbs such as say, think, believe, promise, or reveal; the exact form changes with verbs, adjectives, and nouns.",
-              "example": "코라는 빙하 영혼 축제에 가고 싶었지만 스승은 훈련만 생각하라고 했어."
+              "pattern": "-고 싶다 / -고 싶어 하다",
+              "explanation": "-고 싶다 expresses the speaker's own desire: 'want to do.' For another person's observable desire, Korean often uses -고 싶어 하다, although narrative context may also license -고 싶다 with a third-person subject. Tense and politeness are carried by 싶다/싶어 하다.",
+              "example": "가고 싶었지만"
             },
             {
               "pattern": "-지만",
-              "explanation": "Connects contrasting information: “but / although.” The first clause remains true, while the second presents a contrasting or unexpected fact.",
-              "example": "코라는 빙하 영혼 축제에 가고 싶었지만 스승은 훈련만 생각하라고 했어."
+              "explanation": "Connects contrasting clauses: 'but' or 'although.' It attaches directly to a verb or adjective stem; tense can appear before it, as in 했지만. The contrast may be factual rather than strongly argumentative.",
+              "example": "싶었지만"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "코라는 빙하 영혼 축제에 가고 싶었지만 스승은 훈련만 생각하라고 했어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "영혼 축제에"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "코라는 빙하 영혼 축제에 가고 싶었지만 스승은 훈련만 생각하라고 했어."
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 빙하"
             }
           ],
           "vocab": [
@@ -2957,7 +2882,7 @@
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "빙하",
@@ -2970,27 +2895,27 @@
             {
               "surface": "싶었지만",
               "meaning": "wanted but",
-              "base": "싶다 + -었지만"
+              "base": "싶다 → 싶었지만 (싶- + -었지만)"
             },
             {
               "surface": "스승은",
               "meaning": "teacher / master (topic)",
-              "base": "스승 + 은"
+              "base": "스승 → 스승은 (스승 + 은)"
             },
             {
               "surface": "훈련만",
               "meaning": "training (only)",
-              "base": "훈련 + 만"
+              "base": "훈련 → 훈련만 (훈련 + 만)"
             },
             {
               "surface": "생각하라고",
               "meaning": "to think",
-              "base": "생각하다"
+              "base": "생각하다 → 생각하라고 (생각하- + -(으)라고 / -(이)라고)"
             },
             {
               "surface": "했어",
               "meaning": "tried",
-              "base": "하다"
+              "base": "하다 → 했어 (하- + -였어 → 했어)"
             }
           ]
         }
@@ -3003,29 +2928,29 @@
           "translation": "As the festival approached, Korra struggled to focus and slipped out to experience being with other people.",
           "grammar": [
             {
+              "pattern": "-던 N",
+              "explanation": "-던 modifies a noun by recalling an action or state that was ongoing, repeated, habitual, or not viewed as fully completed in the past. It carries the speaker's memory of that earlier situation. Compare -았/었던, which more strongly presents the event as completed.",
+              "example": "못하던 코라는"
+            },
+            {
               "pattern": "-다가",
-              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
-              "example": "축제가 가까워질수록 집중하지 못하던 코라는 몰래 나갔다가 다른 사람들과 어울리는 경험을 했어."
+              "explanation": "Shows that an action or state was in progress and then changed, stopped, or led to another event: 'while doing, then….' The contrast or interruption is often important; the subject generally remains the same unless context makes a change clear.",
+              "example": "나갔다가"
             },
             {
-              "pattern": "-지 못하다 / 못",
-              "explanation": "Expresses inability or failure: “cannot / could not.” It often implies that circumstances or insufficient ability prevented the action.",
-              "example": "축제가 가까워질수록 집중하지 못하던 코라는 몰래 나갔다가 다른 사람들과 어울리는 경험을 했어."
+              "pattern": "-지 못하다",
+              "explanation": "Negation of ability or successful completion: 'cannot' or 'failed to.' It usually implies that the subject wanted or was expected to act but circumstances or ability prevented it.",
+              "example": "집중하지 못하던"
             },
             {
-              "pattern": "-던",
-              "explanation": "A retrospective modifier referring to an action or state remembered as ongoing, repeated, or unfinished in the past: “that used to / was doing.”",
-              "example": "축제가 가까워질수록 집중하지 못하던 코라는 몰래 나갔다가 다른 사람들과 어울리는 경험을 했어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "다른 사람들과"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "축제가 가까워질수록 집중하지 못하던 코라는 몰래 나갔다가 다른 사람들과 어울리는 경험을 했어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "축제가 가까워질수록 집중하지 못하던 코라는 몰래 나갔다가 다른 사람들과 어울리는 경험을 했어."
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "코라는 몰래"
             }
           ],
           "vocab": [
@@ -3068,12 +2993,12 @@
             {
               "surface": "못하던",
               "meaning": "could not and",
-              "base": "못하다"
+              "base": "못하다 → 못하던 (못하- + -던)"
             },
             {
               "surface": "코라는",
               "meaning": "Korra",
-              "base": "코라 + 는"
+              "base": "코라 → 코라는 (코라 + 는)"
             },
             {
               "surface": "몰래",
@@ -3082,22 +3007,22 @@
             {
               "surface": "다른",
               "meaning": "other",
-              "base": "다르다 + -(으)ㄴ"
+              "base": "다르다 → 다른 (다르- + -(으)ㄴ)"
             },
             {
               "surface": "사람들과",
               "meaning": "with people",
-              "base": "사람들 + 과"
+              "base": "사람들 → 사람들과 (사람들 + 과)"
             },
             {
               "surface": "경험을",
               "meaning": "experiences",
-              "base": "경험 + 을"
+              "base": "경험 → 경험을 (경험 + 을)"
             },
             {
               "surface": "했어",
               "meaning": "tried",
-              "base": "하다"
+              "base": "하다 → 했어 (하- + -였어 → 했어)"
             }
           ]
         },
@@ -3106,29 +3031,34 @@
           "translation": "The teacher realized that rules alone could not help Korra understand why she was learning.",
           "grammar": [
             {
+              "pattern": "-(으)ㄴ/는다는 것",
+              "explanation": "Quoted-clause nominalization meaning 'the fact that….' The quotation marker (-ㄴ/는다고, -다고, or -(이)라고) combines with 하는 것, often contracted to -다는 것/걸. It packages an entire proposition as the object of knowing, realizing, showing, or admitting.",
+              "example": "없다는 사실"
+            },
+            {
+              "pattern": "-는지 / -(으)ㄹ지",
+              "explanation": "Embedded-question ending meaning 'whether,' 'what,' 'where,' or 'which.' Present action verbs use -는지, completed events use -았/었는지, and future/uncertain possibilities use -(으)ㄹ지. It commonly appears before 모르다, 알다, 묻다, 고민하다, 결정하다, or verbs of checking.",
+              "example": "배우는지"
+            },
+            {
+              "pattern": "-(으)ㄹ 수 있다/없다",
+              "explanation": "Expresses ability or objective possibility: 'can/cannot.' The verb takes the prospective modifier -(으)ㄹ before the bound noun 수, literally 'a way/possibility,' followed by 있다 or 없다. Tense is normally marked on 있다/없다.",
+              "example": "이해할 수 없다는"
+            },
+            {
               "pattern": "-아/어서",
-              "explanation": "Links a cause, natural sequence, or closely connected action: “because / so / and then.” It usually presents the first clause as the reason or background for the next.",
-              "example": "스승은 규칙만 강요해서는 코라가 왜 배우는지 이해할 수 없다는 사실을 깨달았어."
+              "explanation": "Connects a cause to its result ('because/so') or two closely linked actions in sequence ('and then'). When it gives a reason, the second clause normally does not use an imperative or proposal. With movement verbs, it can describe going somewhere and then performing the next action.",
+              "example": "강요해서"
             },
             {
-              "pattern": "-지 못하다 / 못",
-              "explanation": "Expresses inability or failure: “cannot / could not.” It often implies that circumstances or insufficient ability prevented the action.",
-              "example": "스승은 규칙만 강요해서는 코라가 왜 배우는지 이해할 수 없다는 사실을 깨달았어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "강요해서는 코라가"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "스승은 규칙만 강요해서는 코라가 왜 배우는지 이해할 수 없다는 사실을 깨달았어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "스승은 규칙만 강요해서는 코라가 왜 배우는지 이해할 수 없다는 사실을 깨달았어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "스승은 규칙만 강요해서는 코라가 왜 배우는지 이해할 수 없다는 사실을 깨달았어."
+              "pattern": "N만",
+              "explanation": "Particle meaning 'only' or 'just.' It restricts the focus to the marked noun; when followed by another particle, combinations such as 만이 or 만을 are possible.",
+              "example": "규칙만"
             }
           ],
           "vocab": [
@@ -3177,32 +3107,32 @@
             {
               "surface": "스승은",
               "meaning": "teacher / master (topic)",
-              "base": "스승 + 은"
+              "base": "스승 → 스승은 (스승 + 은)"
             },
             {
               "surface": "규칙만",
               "meaning": "rule (only)",
-              "base": "규칙 + 만"
+              "base": "규칙 → 규칙만 (규칙 + 만)"
             },
             {
               "surface": "강요해서는",
               "meaning": "to force",
-              "base": "강요하다"
+              "base": "강요하다 → 강요해서는 (강요하- + -는)"
             },
             {
               "surface": "코라가",
               "meaning": "Korra (subject)",
-              "base": "코라 + 가"
+              "base": "코라 → 코라가 (코라 + 가)"
             },
             {
               "surface": "배우는지",
               "meaning": "learned",
-              "base": "배우다"
+              "base": "배우다 → 배우는지 (배우- + -는지)"
             },
             {
               "surface": "이해할",
               "meaning": "came to understand",
-              "base": "이해하다 + -(으)ㄹ"
+              "base": "이해하다 → 이해할 (이해하- + -(으)ㄹ)"
             },
             {
               "surface": "수",
@@ -3211,12 +3141,12 @@
             {
               "surface": "없다는",
               "meaning": "that they were absent",
-              "base": "없다 + -다는"
+              "base": "없다 → 없다는 (없- + -다는)"
             },
             {
               "surface": "사실을",
               "meaning": "fact",
-              "base": "사실 + 을"
+              "base": "사실 → 사실을 (사실 + 을)"
             }
           ]
         }
@@ -3229,24 +3159,24 @@
           "translation": "In the seventh story, Tenzin told his arguing children about a fight he experienced when he was young.",
           "grammar": [
             {
-              "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "일곱 번째 이야기에서 텐진은 다투는 자녀들에게 자기가 어렸을 때 겪은 싸움을 들려줬어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "일곱 번째 이야기에서 텐진은 다투는 자녀들에게 자기가 어렸을 때 겪은 싸움을 들려줬어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "일곱 번째 이야기에서 텐진은 다투는 자녀들에게 자기가 어렸을 때 겪은 싸움을 들려줬어."
+              "pattern": "-(으)ㄹ 때",
+              "explanation": "Means 'when' or 'at the time of doing.' The verb takes the prospective modifier -(으)ㄹ before the bound noun 때; despite the form, it may refer to past, present, or future time depending on the main clause.",
+              "example": "어렸을 때"
             },
             {
               "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "일곱 번째 이야기에서 텐진은 다투는 자녀들에게 자기가 어렸을 때 겪은 싸움을 들려줬어."
+              "explanation": "Prospective noun modifier. It describes a noun connected with a future, expected, intended, possible, or still-unrealized action: 'the N that will/is to….'",
+              "example": "어렸을 때"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "겪은 싸움을"
+            },
+            {
+              "pattern": "-게",
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "자녀들에게 자기가"
             }
           ],
           "vocab": [
@@ -3303,32 +3233,32 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "텐진은",
               "meaning": "Tenzin (topic)",
-              "base": "텐진 + 은"
+              "base": "텐진 → 텐진은 (텐진 + 은)"
             },
             {
               "surface": "다투는",
               "meaning": "argued but",
-              "base": "다투다"
+              "base": "다투다 → 다투는 (다투- + -는)"
             },
             {
               "surface": "자녀들에게",
               "meaning": "to the children",
-              "base": "자녀들 + 에게"
+              "base": "자녀들 → 자녀들에게 (자녀들 + 에게)"
             },
             {
               "surface": "자기가",
               "meaning": "his own (subject)",
-              "base": "자기 + 가"
+              "base": "자기 → 자기가 (자기 + 가)"
             },
             {
               "surface": "어렸을",
               "meaning": "when young / young",
-              "base": "어리다 + -었을"
+              "base": "어리다 → 어렸을 (어리- + -었을)"
             },
             {
               "surface": "때",
@@ -3337,17 +3267,17 @@
             {
               "surface": "겪은",
               "meaning": "experienced",
-              "base": "겪다 + -(으)ㄴ"
+              "base": "겪다 → 겪은 (겪- + -(으)ㄴ)"
             },
             {
               "surface": "싸움을",
               "meaning": "fight",
-              "base": "싸움 + 을"
+              "base": "싸움 → 싸움을 (싸움 + 을)"
             },
             {
               "surface": "들려줬어",
               "meaning": "told / recounted",
-              "base": "들려주다"
+              "base": "들려주다 → 들려줬어 (들려주- + -아/어)"
             }
           ]
         },
@@ -3356,29 +3286,24 @@
           "translation": "Young Tenzin could not easily accept another child’s words because he felt burdened with preserving Aang’s legacy.",
           "grammar": [
             {
-              "pattern": "-지 못하다 / 못",
-              "explanation": "Expresses inability or failure: “cannot / could not.” It often implies that circumstances or insufficient ability prevented the action.",
-              "example": "어린 텐진은 아버지 아앙의 유산을 지켜야 한다는 부담 때문에 다른 아이의 말을 쉽게 받아들이지 못했어."
+              "pattern": "-지 못하다",
+              "explanation": "Negation of ability or successful completion: 'cannot' or 'failed to.' It usually implies that the subject wanted or was expected to act but circumstances or ability prevented it.",
+              "example": "받아들이지 못했어"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "어린 텐진은"
             },
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "어린 텐진은 아버지 아앙의 유산을 지켜야 한다는 부담 때문에 다른 아이의 말을 쉽게 받아들이지 못했어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "쉽게 받아들이지"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "어린 텐진은 아버지 아앙의 유산을 지켜야 한다는 부담 때문에 다른 아이의 말을 쉽게 받아들이지 못했어."
-            },
-            {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "어린 텐진은 아버지 아앙의 유산을 지켜야 한다는 부담 때문에 다른 아이의 말을 쉽게 받아들이지 못했어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "어린 텐진은 아버지 아앙의 유산을 지켜야 한다는 부담 때문에 다른 아이의 말을 쉽게 받아들이지 못했어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "못했어"
             }
           ],
           "vocab": [
@@ -3427,12 +3352,12 @@
             {
               "surface": "어린",
               "meaning": "young",
-              "base": "어리다 + -(으)ㄴ"
+              "base": "어리다 → 어린 (어리- + -(으)ㄴ)"
             },
             {
               "surface": "텐진은",
               "meaning": "Tenzin (topic)",
-              "base": "텐진 + 은"
+              "base": "텐진 → 텐진은 (텐진 + 은)"
             },
             {
               "surface": "아버지",
@@ -3441,12 +3366,12 @@
             {
               "surface": "유산을",
               "meaning": "inheritance (object)",
-              "base": "유산 + 을"
+              "base": "유산 → 유산을 (유산 + 을)"
             },
             {
               "surface": "한다는",
               "meaning": "that someone does",
-              "base": "하다 + -ㄴ다는"
+              "base": "하다 → 한다는 (하- + -ㄴ다는)"
             },
             {
               "surface": "때문에",
@@ -3455,27 +3380,27 @@
             {
               "surface": "다른",
               "meaning": "other",
-              "base": "다르다 + -(으)ㄴ"
+              "base": "다르다 → 다른 (다르- + -(으)ㄴ)"
             },
             {
               "surface": "아이의",
               "meaning": "child's",
-              "base": "아이 + 의"
+              "base": "아이 → 아이의 (아이 + 의)"
             },
             {
               "surface": "말을",
               "meaning": "words / speech (object)",
-              "base": "말 + 을"
+              "base": "말 → 말을 (말 + 을)"
             },
             {
               "surface": "받아들이지",
               "meaning": "to accept",
-              "base": "받아들이다"
+              "base": "받아들이다 → 받아들이지 (받아들 + 이지)"
             },
             {
               "surface": "못했어",
               "meaning": "could not and",
-              "base": "못하다 + -았어"
+              "base": "못하다 → 못했어 (못하- + -였어 → 못했어)"
             }
           ]
         }
@@ -3488,24 +3413,29 @@
           "translation": "After the fight, he learned that Air Nomad tradition was not an object to preserve perfectly alone, but a way of life learned with others.",
           "grammar": [
             {
+              "pattern": "-(으)ㄴ/는다는 것",
+              "explanation": "Quoted-clause nominalization meaning 'the fact that….' The quotation marker (-ㄴ/는다고, -다고, or -(이)라고) combines with 하는 것, often contracted to -다는 것/걸. It packages an entire proposition as the object of knowing, realizing, showing, or admitting.",
+              "example": "삶이라는 걸"
+            },
+            {
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "지키는 물건이"
+            },
+            {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "싸움 뒤 그는 공기 유목민의 전통이 완벽하게 혼자 지키는 물건이 아니라 사람들과 함께 배우는 삶이라는 걸 알았어."
-            },
-            {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "싸움 뒤 그는 공기 유목민의 전통이 완벽하게 혼자 지키는 물건이 아니라 사람들과 함께 배우는 삶이라는 걸 알았어."
-            },
-            {
-              "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "싸움 뒤 그는 공기 유목민의 전통이 완벽하게 혼자 지키는 물건이 아니라 사람들과 함께 배우는 삶이라는 걸 알았어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "완벽하게 혼자"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "싸움 뒤 그는 공기 유목민의 전통이 완벽하게 혼자 지키는 물건이 아니라 사람들과 함께 배우는 삶이라는 걸 알았어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "알았어"
+            },
+            {
+              "pattern": "-(이)라는 N",
+              "explanation": "Quoted-name noun modifier meaning 'an N called…' or 'the idea that….' It comes from -(이)라고 하는 contracted before a noun.",
+              "example": "삶이라는 걸"
             }
           ],
           "vocab": [
@@ -3558,7 +3488,7 @@
             {
               "surface": "그는",
               "meaning": "he",
-              "base": "그 + 는"
+              "base": "그 → 그는 (그 + 는)"
             },
             {
               "surface": "공기",
@@ -3567,12 +3497,12 @@
             {
               "surface": "전통이",
               "meaning": "tradition (subject)",
-              "base": "전통 + 이"
+              "base": "전통 → 전통이 (전통 + 이)"
             },
             {
               "surface": "완벽하게",
               "meaning": "perfectly",
-              "base": "완벽하다 + -게"
+              "base": "완벽하다 → 완벽하게 (완벽하- + -게)"
             },
             {
               "surface": "혼자",
@@ -3581,22 +3511,22 @@
             {
               "surface": "지키는",
               "meaning": "to protect",
-              "base": "지키다"
+              "base": "지키다 → 지키는 (지키- + -는)"
             },
             {
               "surface": "물건이",
               "meaning": "goods (subject)",
-              "base": "물건 + 이"
+              "base": "물건 → 물건이 (물건 + 이)"
             },
             {
               "surface": "아니라",
               "meaning": "not but rather",
-              "base": "아니다 + -라"
+              "base": "아니다 → 아니라 (아니- + -라)"
             },
             {
               "surface": "사람들과",
               "meaning": "with people",
-              "base": "사람들 + 과"
+              "base": "사람들 → 사람들과 (사람들 + 과)"
             },
             {
               "surface": "함께",
@@ -3605,22 +3535,22 @@
             {
               "surface": "배우는",
               "meaning": "learned",
-              "base": "배우다"
+              "base": "배우다 → 배우는 (배우- + -는)"
             },
             {
               "surface": "삶이라는",
               "meaning": "life (called / that is)",
-              "base": "삶 + 이라는"
+              "base": "삶 → 삶이라는 (삶 + 이라는)"
             },
             {
               "surface": "걸",
               "meaning": "the fact",
-              "base": "것을"
+              "base": "것 → 걸 (것을 → 걸; spoken contraction)"
             },
             {
               "surface": "알았어",
               "meaning": "realized",
-              "base": "알다"
+              "base": "알다 → 알았어 (알- + -았어)"
             }
           ]
         },
@@ -3630,13 +3560,18 @@
           "grammar": [
             {
               "pattern": "-게",
-              "explanation": "An adverbial ending meaning “in a … way,” or a result/causative marker depending on the following verb. It turns an adjective into an adverb or links a state to verbs such as 되다 and 하다.",
-              "example": "그 이야기는 지노라와 이키와 밀로에게 사과하고 다시 관계를 풀 기회를 줬어."
+              "explanation": "Adverbial ending that changes a descriptive verb into the manner or result of an action: 'in a … way' or 'so that it becomes….' Before 하다/만들다/되다 it also participates in causative or change-of-state constructions.",
+              "example": "밀로에게 사과하고"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "그 이야기는 지노라와 이키와 밀로에게 사과하고 다시 관계를 풀 기회를 줬어."
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "사과하고 다시"
+            },
+            {
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "줬어"
             }
           ],
           "vocab": [
@@ -3688,22 +3623,22 @@
             {
               "surface": "이야기는",
               "meaning": "story",
-              "base": "이야기 + 는"
+              "base": "이야기 → 이야기는 (이야기 + 는)"
             },
             {
               "surface": "이키와",
               "meaning": "Ikki (and / with)",
-              "base": "이키 + 와"
+              "base": "이키 → 이키와 (이키 + 와)"
             },
             {
               "surface": "밀로에게",
               "meaning": "Meelo (to / by)",
-              "base": "밀로 + 에게"
+              "base": "밀로 → 밀로에게 (밀로 + 에게)"
             },
             {
               "surface": "사과하고",
               "meaning": "apple (and / with)",
-              "base": "사과 + 하고"
+              "base": "사과 → 사과하고 (사과 + 하고)"
             },
             {
               "surface": "다시",
@@ -3712,17 +3647,17 @@
             {
               "surface": "관계를",
               "meaning": "relationship (object)",
-              "base": "관계 + 를"
+              "base": "관계 → 관계를 (관계 + 를)"
             },
             {
               "surface": "기회를",
               "meaning": "opportunity",
-              "base": "기회 + 를"
+              "base": "기회 → 기회를 (기회 + 를)"
             },
             {
               "surface": "줬어",
               "meaning": "did for her",
-              "base": "주다"
+              "base": "주다 → 줬어 (주- + -아/어)"
             }
           ]
         }
@@ -3735,14 +3670,14 @@
           "translation": "In the final story, Bumi took a disappointed Meelo to Wangmo’s Island after his promised trip was canceled.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "마지막 이야기에서 부미는 약속이 취소되어 실망한 밀로를 왕모의 섬으로 데려갔어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "실망한 밀로를"
             },
             {
               "pattern": "-았/었어",
-              "explanation": "Casual past tense used in narrative 반말. It marks a completed action or past state; 하다 contracts to 했어 and 되다 commonly becomes 됐어.",
-              "example": "마지막 이야기에서 부미는 약속이 취소되어 실망한 밀로를 왕모의 섬으로 데려갔어."
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "데려갔어"
             }
           ],
           "vocab": [
@@ -3795,47 +3730,47 @@
             {
               "surface": "이야기에서",
               "meaning": "story (in / at / from)",
-              "base": "이야기 + 에서"
+              "base": "이야기 → 이야기에서 (이야기 + 에서)"
             },
             {
               "surface": "부미는",
               "meaning": "Bumi (topic)",
-              "base": "부미 + 는"
+              "base": "부미 → 부미는 (부미 + 는)"
             },
             {
               "surface": "약속이",
               "meaning": "promise (subject)",
-              "base": "약속 + 이"
+              "base": "약속 → 약속이 (약속 + 이)"
             },
             {
               "surface": "취소되어",
               "meaning": "was canceled",
-              "base": "취소되다 + -아/어"
+              "base": "취소되다 → 취소되어 (취소되- + -아/어)"
             },
             {
               "surface": "실망한",
               "meaning": "disappointed",
-              "base": "실망하다 + -(으)ㄴ"
+              "base": "실망하다 → 실망한 (실망하- + -(으)ㄴ)"
             },
             {
               "surface": "밀로를",
               "meaning": "Meelo",
-              "base": "밀로 + 를"
+              "base": "밀로 → 밀로를 (밀로 + 를)"
             },
             {
               "surface": "왕모의",
               "meaning": "Wangmo’s",
-              "base": "왕모 + 의"
+              "base": "왕모 → 왕모의 (왕모 + 의)"
             },
             {
               "surface": "섬으로",
               "meaning": "to the island",
-              "base": "섬 + 으로"
+              "base": "섬 → 섬으로 (섬 + 으로)"
             },
             {
               "surface": "데려갔어",
               "meaning": "took someone",
-              "base": "데려가다"
+              "base": "데려가다 → 데려갔어 (데려가- + -아/어)"
             }
           ]
         },
@@ -3845,23 +3780,18 @@
           "grammar": [
             {
               "pattern": "-다가",
-              "explanation": "Shows that an action was in progress and then stopped, changed direction, or was interrupted by another event.",
-              "example": "둘은 아버지들이 늘 바빴다는 공통점을 이야기하다가 섬을 차지한 해적들과 마주쳤어."
+              "explanation": "Shows that an action or state was in progress and then changed, stopped, or led to another event: 'while doing, then….' The contrast or interruption is often important; the subject generally remains the same unless context makes a change clear.",
+              "example": "이야기하다가"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "둘은 아버지들이 늘 바빴다는 공통점을 이야기하다가 섬을 차지한 해적들과 마주쳤어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "차지한 해적들과"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "둘은 아버지들이 늘 바빴다는 공통점을 이야기하다가 섬을 차지한 해적들과 마주쳤어."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "둘은 아버지들이 늘 바빴다는 공통점을 이야기하다가 섬을 차지한 해적들과 마주쳤어."
+              "pattern": "-았/었어",
+              "explanation": "Casual past-tense ending used for a completed event or a past state. Attach -았어 after stems whose last vowel is ㅏ or ㅗ and -었어 after most other stems; 하다 contracts to 했어. Because the story is narrated in 반말, this ending sounds informal but neutral rather than rude.",
+              "example": "마주쳤어"
             }
           ],
           "vocab": [
@@ -3904,7 +3834,7 @@
             {
               "surface": "둘은",
               "meaning": "the two",
-              "base": "둘 + 은"
+              "base": "둘 → 둘은 (둘 + 은)"
             },
             {
               "surface": "늘",
@@ -3913,27 +3843,27 @@
             {
               "surface": "공통점을",
               "meaning": "common point (object)",
-              "base": "공통점 + 을"
+              "base": "공통점 → 공통점을 (공통점 + 을)"
             },
             {
               "surface": "이야기하다가",
               "meaning": "talk + not (subject)",
-              "base": "이야기하다 + 가"
+              "base": "이야기하다 → 이야기하다가 (이야기하- + 가)"
             },
             {
               "surface": "섬을",
               "meaning": "to the island (object)",
-              "base": "섬 + 을"
+              "base": "섬 → 섬을 (섬 + 을)"
             },
             {
               "surface": "차지한",
               "meaning": "to occupy",
-              "base": "차지하다 + -(으)ㄴ"
+              "base": "차지하다 → 차지한 (차지하- + -(으)ㄴ)"
             },
             {
               "surface": "마주쳤어",
               "meaning": "encountered / met face-to-face",
-              "base": "마주치다"
+              "base": "마주치다 → 마주쳤어 (마주치- + -아/어)"
             }
           ]
         }
@@ -3946,19 +3876,24 @@
           "translation": "Bumi and Meelo used their different experience and airbending to stop the pirates and protect the island’s animals.",
           "grammar": [
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "부미와 밀로는 서로 다른 경험과 공기 굽히기를 이용해 해적들을 막고 섬의 동물을 지켰어."
-            },
-            {
               "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "부미와 밀로는 서로 다른 경험과 공기 굽히기를 이용해 해적들을 막고 섬의 동물을 지켰어."
+              "explanation": "Prospective noun modifier. It describes a noun connected with a future, expected, intended, possible, or still-unrealized action: 'the N that will/is to….'",
+              "example": "굽히기를 이용해"
             },
             {
-              "pattern": "-는 것 / -기",
-              "explanation": "Nominalizes an action or state so it can function like a noun: “doing / the fact that….” -는 것 is more descriptive, while -기 is compact and common with fixed expressions.",
-              "example": "부미와 밀로는 서로 다른 경험과 공기 굽히기를 이용해 해적들을 막고 섬의 동물을 지켰어."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "다른 경험과"
+            },
+            {
+              "pattern": "-고",
+              "explanation": "Basic connector meaning 'and' or 'and then.' It lists actions or states without itself specifying a strong causal relationship. The exact relation—simultaneous, sequential, or merely additive—comes from context.",
+              "example": "막고 섬의"
+            },
+            {
+              "pattern": "서로",
+              "explanation": "Reciprocal adverb meaning 'each other' or 'one another.' It indicates that two or more participants direct the same relation or action toward one another.",
+              "example": "서로"
             }
           ],
           "vocab": [
@@ -4007,12 +3942,12 @@
             {
               "surface": "부미와",
               "meaning": "Bumi (and / with)",
-              "base": "부미 + 와"
+              "base": "부미 → 부미와 (부미 + 와)"
             },
             {
               "surface": "밀로는",
               "meaning": "Meelo",
-              "base": "밀로 + 는"
+              "base": "밀로 → 밀로는 (밀로 + 는)"
             },
             {
               "surface": "서로",
@@ -4021,12 +3956,12 @@
             {
               "surface": "다른",
               "meaning": "other",
-              "base": "다르다 + -(으)ㄴ"
+              "base": "다르다 → 다른 (다르- + -(으)ㄴ)"
             },
             {
               "surface": "경험과",
               "meaning": "experience (and / with)",
-              "base": "경험 + 과"
+              "base": "경험 → 경험과 (경험 + 과)"
             },
             {
               "surface": "공기",
@@ -4035,27 +3970,27 @@
             {
               "surface": "굽히기를",
               "meaning": "bending",
-              "base": "굽히다 + -기를"
+              "base": "굽히다 → 굽히기를 (굽히- + -기를)"
             },
             {
               "surface": "이용해",
               "meaning": "using",
-              "base": "이용하다 + -아/어"
+              "base": "이용하다 → 이용해 (이용하- + -여 → 이용해)"
             },
             {
               "surface": "막고",
               "meaning": "stopped and",
-              "base": "막다 + -고"
+              "base": "막다 → 막고 (막- + -고)"
             },
             {
               "surface": "섬의",
               "meaning": "island's",
-              "base": "섬 + 의"
+              "base": "섬 → 섬의 (섬 + 의)"
             },
             {
               "surface": "동물을",
               "meaning": "animal (object)",
-              "base": "동물 + 을"
+              "base": "동물 → 동물을 (동물 + 을)"
             }
           ]
         },
@@ -4064,29 +3999,29 @@
           "translation": "The eight stories show that the characters of the present were shaped through countless small memories and relationships.",
           "grammar": [
             {
+              "pattern": "-(으)ㄴ/는다는 것",
+              "explanation": "Quoted-clause nominalization meaning 'the fact that….' The quotation marker (-ㄴ/는다고, -다고, or -(이)라고) combines with 하는 것, often contracted to -다는 것/걸. It packages an entire proposition as the object of knowing, realizing, showing, or admitting.",
+              "example": "만들어졌다는 사실"
+            },
+            {
+              "pattern": "피동 표현 (-이/히/리/기-, -아/어지다)",
+              "explanation": "Passive expression: the subject receives an action rather than performing it. Korean may add lexical passive suffixes such as -이-, -히-, -리-, or -기- (잡다→잡히다), or use -아/어지다 with certain verbs. The agent, when stated, is often marked by 에게/한테.",
+              "example": "보여"
+            },
+            {
               "pattern": "-아/어 주다",
-              "explanation": "Shows that an action is performed for someone’s benefit. Depending on context, it can convey help, kindness, or the speaker’s perspective on who benefits.",
-              "example": "여덟 이야기는 현재의 인물들이 수많은 작은 기억과 관계를 통해 만들어졌다는 사실을 보여 줘."
+              "explanation": "Shows that an action is performed for another person's benefit or as a favor. The receiver may be marked with 에게/한테; in casual speech 주었어 contracts to 줬어. With requests, -아/어 달라고 asks someone to perform the action for the speaker or the quoted speaker.",
+              "example": "보여 줘"
             },
             {
-              "pattern": "-는 N",
-              "explanation": "A present-tense verb modifier placed before a noun: “the N that does/is doing….” Korean relative clauses appear directly before the noun without a relative pronoun.",
-              "example": "여덟 이야기는 현재의 인물들이 수많은 작은 기억과 관계를 통해 만들어졌다는 사실을 보여 줘."
+              "pattern": "-(으)ㄴ/는 N",
+              "explanation": "A noun-modifying clause placed before a noun. Action verbs normally use -는 for a present or ongoing action, -(으)ㄴ for a completed action, and -(으)ㄹ for an expected or intended action; descriptive verbs usually use -(으)ㄴ for a present quality. The subject inside the modifying clause is commonly marked with 이/가.",
+              "example": "작은 기억과"
             },
             {
-              "pattern": "-(으)ㄴ N",
-              "explanation": "A completed-action or descriptive modifier placed before a noun. With verbs it commonly means “the N that did…,” while adjectives use it for a present description.",
-              "example": "여덟 이야기는 현재의 인물들이 수많은 작은 기억과 관계를 통해 만들어졌다는 사실을 보여 줘."
-            },
-            {
-              "pattern": "-(으)ㄹ N",
-              "explanation": "A future, expected, intended, or hypothetical modifier placed before a noun: “the N that will/is to….”",
-              "example": "여덟 이야기는 현재의 인물들이 수많은 작은 기억과 관계를 통해 만들어졌다는 사실을 보여 줘."
-            },
-            {
-              "pattern": "Passive or change-of-state expression",
-              "explanation": "The sentence describes something being done to a subject or a state changing. Korean uses passive verbs such as -되다/-받다 and lexical passive forms, while -아/어지다 often marks a change of state.",
-              "example": "여덟 이야기는 현재의 인물들이 수많은 작은 기억과 관계를 통해 만들어졌다는 사실을 보여 줘."
+              "pattern": "-을/를 통해",
+              "explanation": "Means 'through' or 'by means of.' The noun before 통해 names the channel, method, experience, or intermediary through which the following result is achieved. 통해 is the connective form of 통하다.",
+              "example": "관계를 통해"
             }
           ],
           "vocab": [
@@ -4135,27 +4070,27 @@
             {
               "surface": "이야기는",
               "meaning": "story",
-              "base": "이야기 + 는"
+              "base": "이야기 → 이야기는 (이야기 + 는)"
             },
             {
               "surface": "현재의",
               "meaning": "present's",
-              "base": "현재 + 의"
+              "base": "현재 → 현재의 (현재 + 의)"
             },
             {
               "surface": "작은",
               "meaning": "small",
-              "base": "작다 + -(으)ㄴ"
+              "base": "작다 → 작은 (작- + -(으)ㄴ)"
             },
             {
               "surface": "기억과",
               "meaning": "memory (and / with)",
-              "base": "기억 + 과"
+              "base": "기억 → 기억과 (기억 + 과)"
             },
             {
               "surface": "관계를",
               "meaning": "relationship (object)",
-              "base": "관계 + 를"
+              "base": "관계 → 관계를 (관계 + 를)"
             },
             {
               "surface": "통해",
@@ -4164,22 +4099,22 @@
             {
               "surface": "만들어졌다는",
               "meaning": "made and",
-              "base": "만들다"
+              "base": "만들다 → 만들어졌다는 (만들- + -는)"
             },
             {
               "surface": "사실을",
               "meaning": "fact",
-              "base": "사실 + 을"
+              "base": "사실 → 사실을 (사실 + 을)"
             },
             {
               "surface": "보여",
               "meaning": "showed",
-              "base": "보이다 + -아/어"
+              "base": "보이다 → 보여 (보 + 여)"
             },
             {
               "surface": "줘",
               "meaning": "does for us",
-              "base": "주다"
+              "base": "주다 → 줘"
             }
           ]
         }
