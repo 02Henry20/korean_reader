@@ -119,9 +119,9 @@
     z-index: 4;
     top: 0;
     display: block;
-    width: min(190px, 62%);
-    height: 30px;
-    margin: -6px auto 0;
+    width: 76px;
+    height: 20px;
+    margin: -2px auto 4px;
     background: transparent;
     cursor: grab;
     touch-action: none;
@@ -130,9 +130,9 @@
   .detail-drag-handle::before {
     content: "";
     position: absolute;
-    top: 10px;
+    top: 7px;
     left: 50%;
-    width: 58px;
+    width: 46px;
     height: 5px;
     border-radius: 999px;
     background: color-mix(in srgb, var(--muted) 56%, transparent);
