@@ -2,27 +2,26 @@ const CLOUD_PATHS = Object.freeze({
   collections: "libraryCollections",
   stories: "libraryStories",
   readerState: "readerState",
-  deletions: "libraryDeletions"
+  deletions: "libraryDeletions",
+  metadata: "syncMetadata"
 });
+
+const SYNC_SCHEMA_VERSION = 2;
+const FIRESTORE_SAFE_DOCUMENT_BYTES = 900 * 1024;
+const FIREBASE_REQUEST_TIMEOUT_MS = 45_000;
+const SYNC_DEVICE_ID_KEY = "korean-reader-sync-device-id-v1";
+const SYNC_BASELINE_KEY_PREFIX = "korean-reader-sync-baseline-v2";
 
 let firebaseAuthUnsubscribe = null;
 let cloudSyncRunning = null;
 let cloudSyncQueued = false;
-
-const FIRESTORE_SAFE_DOCUMENT_BYTES = 900 * 1024;
-const FIREBASE_REQUEST_TIMEOUT_MS = 45_000;
+let cloudAutoSyncTimer = null;
+let syncDecisionResolver = null;
 
 function createFirebaseSyncError(code, message) {
   const error = new Error(message);
   error.code = code;
   return error;
-}
-
-function formatCloudBytes(bytes) {
-  const value = Number(bytes) || 0;
-  if (value < 1024) return `${value} B`;
-  if (value < 1024 * 1024) return `${(value / 1024).toFixed(1)} KB`;
-  return `${(value / (1024 * 1024)).toFixed(2)} MB`;
 }
 
 function withFirebaseTimeout(promise, timeoutMs, label) {
@@ -31,7 +30,7 @@ function withFirebaseTimeout(promise, timeoutMs, label) {
     timeoutId = window.setTimeout(() => {
       reject(createFirebaseSyncError(
         "app/firebase-timeout",
-        `${label} timed out. Check the network connection and Firebase rules.`
+        `${label} timed out. Check the network connection and Firestore rules.`
       ));
     }, timeoutMs);
   });
@@ -48,7 +47,7 @@ function assertFirestorePayloadSize(payload, id) {
   if (bytes > FIRESTORE_SAFE_DOCUMENT_BYTES) {
     throw createFirebaseSyncError(
       "app/firestore-document-too-large",
-      `Story “${id}” is ${formatCloudBytes(bytes)} after serialization. Firestore documents must stay below 1 MiB; split or shorten this story.`
+      `“${id}” is too large for one Firestore document. Shorten or split this story.`
     );
   }
 }
@@ -78,8 +77,7 @@ function createSyncProgress(initialTotal = 1) {
 
   const render = (label = "") => {
     const percent = ((completed + currentFraction) / total) * 100;
-    const itemLabel = label ? `${Math.round(percent)}% · ${label}` : `${Math.round(percent)}%`;
-    setFirebaseProgress(percent, itemLabel);
+    setFirebaseProgress(percent, label ? `${Math.round(percent)}% · ${label}` : `${Math.round(percent)}%`);
   };
 
   render("Preparing sync");
@@ -98,7 +96,7 @@ function createSyncProgress(initialTotal = 1) {
       currentFraction = 0;
       render(label);
     },
-    complete(label = "100%") {
+    complete(label = "100% · Synced") {
       completed = total;
       currentFraction = 0;
       setFirebaseProgress(100, label);
@@ -109,24 +107,30 @@ function createSyncProgress(initialTotal = 1) {
 function setFirebaseStatus(status, message, detail = "") {
   state.firebaseStatus = status;
   state.firebaseStatusMessage = message;
+
   if (firebaseStatusBadge) {
     firebaseStatusBadge.dataset.status = status;
-    firebaseStatusBadge.textContent = status === "synced" ? "✓" : status === "error" || status === "warning" ? "!" : status === "offline" ? "○" : "…";
+    firebaseStatusBadge.textContent = status === "synced"
+      ? "✓"
+      : status === "error" || status === "warning"
+        ? "!"
+        : status === "offline"
+          ? "○"
+          : "…";
   }
-  if (firebaseSyncProgress) {
-    firebaseSyncProgress.dataset.status = status;
-  }
+  if (firebaseSyncProgress) firebaseSyncProgress.dataset.status = status;
   if (firebaseStatusText) firebaseStatusText.textContent = message;
   if (firebaseAccountText) firebaseAccountText.textContent = detail || (state.firebaseUser?.email || "Not signed in");
 
   const busy = status === "syncing" || status === "loading";
   if (firebaseSyncButton) {
     firebaseSyncButton.disabled = busy;
-    firebaseSyncButton.textContent = busy ? "Syncing…" : "Sync now";
+    firebaseSyncButton.textContent = busy ? "Checking…" : "Sync now";
   }
 
   if (status === "loading") setFirebaseProgress(0, "Connecting…", {indeterminate: true});
   if (status === "offline") setFirebaseProgress(0, "Local only");
+  if (status === "warning") setFirebaseProgress(0, "Action required");
   if (status === "synced") setFirebaseProgress(100, "100% · Synced");
 
   if (firebaseSignedOutControls) firebaseSignedOutControls.hidden = Boolean(state.firebaseUser);
@@ -138,8 +142,20 @@ function firebaseUserCollectionPath(name) {
   return ["koreanReaderUsers", state.firebaseUser.uid, name];
 }
 
+function firebaseUserDocumentRef(collectionName, id) {
+  if (!state.firebaseUser) throw new Error("Sign in before using Firebase sync.");
+  const services = state.firebaseServices || window.firebaseServices;
+  return services.firestoreApi.doc(
+    services.db,
+    ...firebaseUserCollectionPath(collectionName),
+    encodeURIComponent(String(id))
+  );
+}
+
 function cleanForCloud(value) {
-  if (Array.isArray(value)) return value.map(cleanForCloud);
+  if (Array.isArray(value)) {
+    return value.map(cleanForCloud).filter((item) => item !== undefined);
+  }
   if (value && typeof value === "object") {
     if (value instanceof Blob || value instanceof File) return undefined;
     const result = {};
@@ -155,44 +171,78 @@ function cleanForCloud(value) {
 
 function collectionCloudPayload(record) {
   return cleanForCloud({
-    id: record.id,
+    id: String(record.id),
     collection: record.collection,
-    updatedAt: record.updatedAt,
+    updatedAt: Number(record.updatedAt) || 0,
     sourceType: "custom"
   });
-}
-
-function cloudThumbnailReference(value) {
-  const reference = String(value || "").trim();
-  if (!reference || /^(?:blob:|data:|file:)/i.test(reference)) return "";
-  return reference;
 }
 
 function storyCloudPayload(record) {
-  const story = {...record.story};
-  const thumbnail = cloudThumbnailReference(story.thumbnail || record.thumbnailUrl);
-  if (thumbnail) story.thumbnail = thumbnail;
-  else delete story.thumbnail;
+  const story = {...(record.story || {})};
+  const remoteThumbnail = String(record.thumbnailUrl || "").trim();
+  if (remoteThumbnail && /^https?:/i.test(remoteThumbnail)) story.thumbnail = remoteThumbnail;
+  if (/^(?:blob:|data:)/i.test(String(story.thumbnail || ""))) delete story.thumbnail;
 
   return cleanForCloud({
-    id: record.id,
+    id: String(record.id),
     story,
     collectionId: story.collectionId,
-    thumbnailUrl: thumbnail,
-    thumbnailStoragePath: "",
-    updatedAt: record.updatedAt,
+    updatedAt: Number(record.updatedAt) || 0,
     sourceType: "custom"
   });
+}
+
+function normalizeCollectionRecord(record) {
+  if (!record) return null;
+  return collectionCloudPayload({
+    id: record.id || record.collection?.id,
+    collection: record.collection || {},
+    updatedAt: record.updatedAt
+  });
+}
+
+function normalizeStoryRecord(record) {
+  if (!record) return null;
+  const story = {...(record.story || {})};
+  if (!story.thumbnail && /^https?:/i.test(String(record.thumbnailUrl || ""))) {
+    story.thumbnail = record.thumbnailUrl;
+  }
+  return storyCloudPayload({
+    id: record.id || story.id,
+    story,
+    thumbnailUrl: record.thumbnailUrl,
+    updatedAt: record.updatedAt
+  });
+}
+
+function normalizeDeletionRecord(record) {
+  if (!record) return null;
+  const deletedAt = Number(record.deletedAt || record.updatedAt) || 0;
+  return cleanForCloud({
+    key: String(record.key || `${record.kind}:${record.id}`),
+    kind: record.kind,
+    id: String(record.id),
+    deletedAt,
+    updatedAt: deletedAt
+  });
+}
+
+function normalizeReaderCloudRecord(record, id = record?.id) {
+  const source = {...(record || {})};
+  delete source.id;
+  const normalized = typeof normalizeReaderStateRecord === "function"
+    ? normalizeReaderStateRecord(source)
+    : source;
+  return cleanForCloud({id: String(id), ...normalized});
 }
 
 async function firebaseSetDocument(collectionName, id, payload) {
   const services = state.firebaseServices || await window.firebaseReadyPromise;
-  const {doc, setDoc} = services.firestoreApi;
-  const path = firebaseUserCollectionPath(collectionName);
   const cleanedPayload = cleanForCloud(payload);
   assertFirestorePayloadSize(cleanedPayload, id);
   await withFirebaseTimeout(
-    setDoc(doc(services.db, ...path, encodeURIComponent(String(id))), cleanedPayload, {merge: true}),
+    services.firestoreApi.setDoc(firebaseUserDocumentRef(collectionName, id), cleanedPayload),
     FIREBASE_REQUEST_TIMEOUT_MS,
     `Uploading ${id}`
   );
@@ -201,122 +251,714 @@ async function firebaseSetDocument(collectionName, id, payload) {
 async function firebaseDeleteDocument(collectionName, id) {
   if (!state.firebaseUser) return;
   const services = state.firebaseServices || await window.firebaseReadyPromise;
-  const {doc, deleteDoc} = services.firestoreApi;
-  const path = firebaseUserCollectionPath(collectionName);
   await withFirebaseTimeout(
-    deleteDoc(doc(services.db, ...path, encodeURIComponent(String(id)))),
+    services.firestoreApi.deleteDoc(firebaseUserDocumentRef(collectionName, id)),
     FIREBASE_REQUEST_TIMEOUT_MS,
     `Deleting ${id}`
   );
 }
 
-async function queueReaderStateCloudWrite(storyId, value) {
-  if (!state.firebaseUser) {
-    setFirebaseStatus("offline", "Saved locally", "Sign in to synchronize reader state.");
-    return;
+async function getCloudDocuments(name) {
+  const services = state.firebaseServices || await window.firebaseReadyPromise;
+  const {collection, getDocs} = services.firestoreApi;
+  const snapshot = await withFirebaseTimeout(
+    getDocs(collection(services.db, ...firebaseUserCollectionPath(name))),
+    FIREBASE_REQUEST_TIMEOUT_MS,
+    `Downloading ${name}`
+  );
+  return snapshot.docs.map((documentSnapshot) => ({
+    ...documentSnapshot.data(),
+    id: documentSnapshot.data().id || decodeURIComponent(documentSnapshot.id)
+  }));
+}
+
+async function getCloudMetadata() {
+  const services = state.firebaseServices || await window.firebaseReadyPromise;
+  const snapshot = await withFirebaseTimeout(
+    services.firestoreApi.getDoc(firebaseUserDocumentRef(CLOUD_PATHS.metadata, "main")),
+    FIREBASE_REQUEST_TIMEOUT_MS,
+    "Downloading sync metadata"
+  );
+  return snapshot.exists()
+    ? snapshot.data()
+    : {revision: 0, schemaVersion: SYNC_SCHEMA_VERSION};
+}
+
+function syncDeviceId() {
+  let id = storageGet(SYNC_DEVICE_ID_KEY);
+  if (id) return id;
+  id = typeof crypto?.randomUUID === "function"
+    ? crypto.randomUUID()
+    : `device-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  storageSet(SYNC_DEVICE_ID_KEY, id);
+  return id;
+}
+
+function syncBaselineKey() {
+  return `${SYNC_BASELINE_KEY_PREFIX}:${state.firebaseUser?.uid || "signed-out"}`;
+}
+
+function readSyncBaseline() {
+  if (!state.firebaseUser) return null;
+  const baseline = loadJSONV6(syncBaselineKey(), null);
+  return baseline && typeof baseline === "object" ? baseline : null;
+}
+
+function writeSyncBaseline({revision, localFingerprint, cloudFingerprint}) {
+  if (!state.firebaseUser) return;
+  storageSet(syncBaselineKey(), JSON.stringify({
+    schemaVersion: SYNC_SCHEMA_VERSION,
+    revision: Number(revision) || 0,
+    localFingerprint,
+    cloudFingerprint,
+    deviceId: syncDeviceId(),
+    syncedAt: Date.now()
+  }));
+}
+
+function stableValue(value) {
+  if (Array.isArray(value)) return value.map(stableValue);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.keys(value)
+        .sort()
+        .filter((key) => key !== "thumbnailBlob" && key !== "thumbnailStoragePath")
+        .map((key) => [key, stableValue(value[key])])
+    );
   }
-  if (cloudSyncRunning) {
-    cloudSyncQueued = true;
-    return;
+  return value;
+}
+
+function stableStringify(value) {
+  return JSON.stringify(stableValue(value));
+}
+
+function hashString(value) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
   }
-  const ownsStatus = true;
-  try {
-    setFirebaseStatus("syncing", "Saving reader state…", state.firebaseUser.email);
-    await firebaseSetDocument(CLOUD_PATHS.readerState, storyId, {id: storyId, ...value});
-    if (ownsStatus && !cloudSyncRunning) setFirebaseStatus("synced", "Synced", state.firebaseUser.email);
-  } catch (error) {
-    console.error(error);
-    if (ownsStatus && !cloudSyncRunning) setFirebaseStatus("error", "Reader state not synced", friendlyFirebaseError(error));
+  return (hash >>> 0).toString(16).padStart(8, "0");
+}
+
+function recordId(record) {
+  return String(record?.key || record?.id || "");
+}
+
+function sortedRecords(records) {
+  return [...(records || [])]
+    .filter(Boolean)
+    .sort((left, right) => recordId(left).localeCompare(recordId(right)));
+}
+
+function snapshotFingerprint(snapshot) {
+  const normalized = {
+    collections: sortedRecords(snapshot.collections).map(normalizeCollectionRecord),
+    stories: sortedRecords(snapshot.stories).map(normalizeStoryRecord),
+    deletions: sortedRecords(snapshot.deletions).map(normalizeDeletionRecord),
+    readerState: sortedRecords(snapshot.readerState).map((record) => normalizeReaderCloudRecord(record, record.id))
+  };
+  return `${hashString(stableStringify(normalized))}:${stableStringify(normalized).length}`;
+}
+
+function readerStateArrayFromLocal() {
+  return Object.entries(exportLocalReaderState()).map(([id, value]) => normalizeReaderCloudRecord(value, id));
+}
+
+function getLocalSyncSnapshot() {
+  return {
+    collections: state.localCollections.map(normalizeCollectionRecord),
+    stories: state.localStories.map(normalizeStoryRecord),
+    deletions: [...state.libraryDeletions.values()].map(normalizeDeletionRecord),
+    readerState: readerStateArrayFromLocal(),
+    metadata: null
+  };
+}
+
+async function getCloudSyncSnapshot(progress) {
+  const read = async (path, label) => {
+    progress?.setCurrent(0.15, label);
+    const records = await getCloudDocuments(path);
+    progress?.step(label);
+    return records;
+  };
+
+  const [collections, stories, deletions, readerState, metadata] = await Promise.all([
+    read(CLOUD_PATHS.collections, "Downloaded collections"),
+    read(CLOUD_PATHS.stories, "Downloaded stories"),
+    read(CLOUD_PATHS.deletions, "Downloaded deletions"),
+    read(CLOUD_PATHS.readerState, "Downloaded reader state"),
+    getCloudMetadata()
+  ]);
+
+  return {
+    collections: collections.map(normalizeCollectionRecord),
+    stories: stories.map(normalizeStoryRecord),
+    deletions: deletions.map(normalizeDeletionRecord),
+    readerState: readerState.map((record) => normalizeReaderCloudRecord(record, record.id)),
+    metadata
+  };
+}
+
+function snapshotHasData(snapshot) {
+  return Boolean(
+    snapshot.collections.length ||
+    snapshot.stories.length ||
+    snapshot.deletions.length ||
+    snapshot.readerState.length
+  );
+}
+
+function snapshotSummary(snapshot) {
+  return {
+    collections: snapshot.collections.length,
+    stories: snapshot.stories.length,
+    readerState: snapshot.readerState.length,
+    deletions: snapshot.deletions.length
+  };
+}
+
+function summaryText(summary) {
+  return `${summary.collections} directories · ${summary.stories} stories · ${summary.readerState} reading states · ${summary.deletions} deletions`;
+}
+
+function syncDecisionElements() {
+  return {
+    backdrop: document.getElementById("syncDecisionBackdrop"),
+    dialog: document.getElementById("syncDecisionDialog"),
+    reason: document.getElementById("syncDecisionReason"),
+    local: document.getElementById("syncDecisionLocalSummary"),
+    cloud: document.getElementById("syncDecisionCloudSummary")
+  };
+}
+
+function closeSyncDecision(choice = "cancel") {
+  const {backdrop, dialog} = syncDecisionElements();
+  dialog?.classList.remove("sync-decision-dialog-open");
+  dialog?.setAttribute("aria-hidden", "true");
+  backdrop?.classList.remove("sync-decision-backdrop-open");
+  window.setTimeout(() => {
+    if (backdrop && !backdrop.classList.contains("sync-decision-backdrop-open")) backdrop.hidden = true;
+  }, 180);
+  const resolver = syncDecisionResolver;
+  syncDecisionResolver = null;
+  resolver?.(choice);
+}
+
+function requestSyncDecision(localSnapshot, cloudSnapshot, reason) {
+  const {backdrop, dialog, reason: reasonElement, local, cloud} = syncDecisionElements();
+  if (!backdrop || !dialog) return Promise.resolve("merge");
+
+  if (syncDecisionResolver) closeSyncDecision("cancel");
+
+  if (reasonElement) reasonElement.textContent = reason;
+  if (local) local.textContent = summaryText(snapshotSummary(localSnapshot));
+  if (cloud) cloud.textContent = summaryText(snapshotSummary(cloudSnapshot));
+
+  backdrop.hidden = false;
+  dialog.setAttribute("aria-hidden", "false");
+  requestAnimationFrame(() => {
+    backdrop.classList.add("sync-decision-backdrop-open");
+    dialog.classList.add("sync-decision-dialog-open");
+  });
+
+  setFirebaseStatus("warning", "Choose a sync direction", "Nothing has been uploaded or deleted yet.");
+  return new Promise((resolve) => {
+    syncDecisionResolver = resolve;
+  });
+}
+
+async function commitCloudRevision(reason) {
+  const services = state.firebaseServices || await window.firebaseReadyPromise;
+  const reference = firebaseUserDocumentRef(CLOUD_PATHS.metadata, "main");
+  const {runTransaction} = services.firestoreApi;
+
+  return withFirebaseTimeout(
+    runTransaction(services.db, async (transaction) => {
+      const snapshot = await transaction.get(reference);
+      const previous = snapshot.exists() ? snapshot.data() : {};
+      const next = {
+        revision: Number(previous.revision || 0) + 1,
+        schemaVersion: SYNC_SCHEMA_VERSION,
+        updatedAt: Date.now(),
+        updatedByDevice: syncDeviceId(),
+        reason: String(reason || "sync")
+      };
+      transaction.set(reference, next, {merge: true});
+      return next;
+    }),
+    FIREBASE_REQUEST_TIMEOUT_MS,
+    "Updating sync revision"
+  );
+}
+
+function recordsMap(records) {
+  return new Map((records || []).filter(Boolean).map((record) => [recordId(record), record]));
+}
+
+function recordsEqual(left, right) {
+  return stableStringify(left) === stableStringify(right);
+}
+
+function chooseNewestRecord(local, cloud) {
+  if (!local) return cloud;
+  if (!cloud) return local;
+  const localUpdatedAt = Number(local.updatedAt || 0);
+  const cloudUpdatedAt = Number(cloud.updatedAt || 0);
+  if (localUpdatedAt > cloudUpdatedAt) return local;
+  if (cloudUpdatedAt > localUpdatedAt) return cloud;
+  if (recordsEqual(local, cloud)) return local;
+  return cloud;
+}
+
+function mergeRecordMaps(localRecords, cloudRecords) {
+  const localMap = recordsMap(localRecords);
+  const cloudMap = recordsMap(cloudRecords);
+  const desired = new Map();
+  new Set([...localMap.keys(), ...cloudMap.keys()]).forEach((id) => {
+    desired.set(id, chooseNewestRecord(localMap.get(id), cloudMap.get(id)));
+  });
+  return desired;
+}
+
+function resolveDeletionConflicts(collectionMap, storyMap, deletionMap) {
+  const desiredDeletions = new Map(deletionMap);
+
+  [...desiredDeletions.values()]
+    .sort((left, right) => Number(left.deletedAt || 0) - Number(right.deletedAt || 0))
+    .forEach((deletion) => {
+      const deletedAt = Number(deletion.deletedAt || deletion.updatedAt || 0);
+
+      if (deletion.kind === "story") {
+        const story = storyMap.get(String(deletion.id));
+        if (story && Number(story.updatedAt || 0) >= deletedAt) {
+          desiredDeletions.delete(deletion.key);
+        } else {
+          storyMap.delete(String(deletion.id));
+        }
+        return;
+      }
+
+      if (deletion.kind === "collection") {
+        const id = String(deletion.id);
+        const collection = collectionMap.get(id);
+        const matchingStories = [...storyMap.values()].filter((story) => story.story?.collectionId === id);
+        const newestContentTime = Math.max(
+          Number(collection?.updatedAt || 0),
+          ...matchingStories.map((story) => Number(story.updatedAt || 0)),
+          0
+        );
+
+        if (newestContentTime >= deletedAt) {
+          desiredDeletions.delete(deletion.key);
+        } else {
+          collectionMap.delete(id);
+          matchingStories.forEach((story) => storyMap.delete(String(story.id)));
+        }
+      }
+    });
+
+  return desiredDeletions;
+}
+
+async function syncDesiredRecordSet({
+  desired,
+  localRecords,
+  cloudRecords,
+  saveLocal,
+  deleteLocal,
+  cloudPath,
+  progress,
+  label
+}) {
+  const localMap = recordsMap(localRecords);
+  const cloudMap = recordsMap(cloudRecords);
+  const ids = new Set([...desired.keys(), ...localMap.keys(), ...cloudMap.keys()]);
+
+  for (const id of ids) {
+    const target = desired.get(id);
+    const local = localMap.get(id);
+    const cloud = cloudMap.get(id);
+    progress?.setCurrent(0.1, `${label}: ${id}`);
+
+    if (target) {
+      if (!local || !recordsEqual(local, target)) await saveLocal(target);
+      progress?.setCurrent(0.55, `${label}: ${id}`);
+      if (!cloud || !recordsEqual(cloud, target)) await firebaseSetDocument(cloudPath, id, target);
+    } else {
+      if (local) await deleteLocal(id);
+      progress?.setCurrent(0.55, `${label}: ${id}`);
+      if (cloud) await firebaseDeleteDocument(cloudPath, id);
+    }
+    progress?.step(`${label}: ${id}`);
   }
+}
+
+function mergeReaderStateMaps(localRecords, cloudRecords) {
+  const localMap = recordsMap(localRecords);
+  const cloudMap = recordsMap(cloudRecords);
+  const desired = new Map();
+
+  new Set([...localMap.keys(), ...cloudMap.keys()]).forEach((id) => {
+    const local = localMap.get(id);
+    const cloud = cloudMap.get(id);
+    let merged;
+    if (typeof mergeReaderStateRecords === "function") {
+      merged = mergeReaderStateRecords(local || {}, cloud || {});
+    } else {
+      merged = chooseNewestRecord(local, cloud) || {};
+    }
+    desired.set(id, normalizeReaderCloudRecord(merged, id));
+  });
+
+  return desired;
+}
+
+async function syncDesiredReaderStates(desired, localRecords, cloudRecords, progress) {
+  const cloudMap = recordsMap(cloudRecords);
+  const localObject = Object.fromEntries(
+    [...desired.entries()].map(([id, record]) => {
+      const value = {...record};
+      delete value.id;
+      return [id, value];
+    })
+  );
+
+  if (typeof replaceLocalReaderState === "function") replaceLocalReaderState(localObject);
+  else mergeCloudReaderState(localObject);
+
+  for (const [id, target] of desired) {
+    progress?.setCurrent(0.1, `Reading state: ${id}`);
+    if (!cloudMap.has(id) || !recordsEqual(cloudMap.get(id), target)) {
+      await firebaseSetDocument(CLOUD_PATHS.readerState, id, target);
+    }
+    progress?.step(`Reading state: ${id}`);
+  }
+}
+
+async function refreshLibraryAfterSync() {
+  await loadLocalLibraryIntoState();
+  if (libraryView.classList.contains("view-active")) renderLibrary(searchInput.value);
+  if (state.activeStory) {
+    updateBookmarkButton();
+    markRenderedBookmark();
+  }
+}
+
+async function mergeLocalAndCloud(localSnapshot, cloudSnapshot, progress) {
+  const collections = mergeRecordMaps(localSnapshot.collections, cloudSnapshot.collections);
+  const stories = mergeRecordMaps(localSnapshot.stories, cloudSnapshot.stories);
+  const deletions = mergeRecordMaps(localSnapshot.deletions, cloudSnapshot.deletions);
+  const resolvedDeletions = resolveDeletionConflicts(collections, stories, deletions);
+  const readerStates = mergeReaderStateMaps(localSnapshot.readerState, cloudSnapshot.readerState);
+
+  const total =
+    new Set([...collections.keys(), ...recordsMap(localSnapshot.collections).keys(), ...recordsMap(cloudSnapshot.collections).keys()]).size +
+    new Set([...stories.keys(), ...recordsMap(localSnapshot.stories).keys(), ...recordsMap(cloudSnapshot.stories).keys()]).size +
+    new Set([...resolvedDeletions.keys(), ...recordsMap(localSnapshot.deletions).keys(), ...recordsMap(cloudSnapshot.deletions).keys()]).size +
+    readerStates.size + 3;
+  progress.setTotal(total);
+
+  await syncDesiredRecordSet({
+    desired: collections,
+    localRecords: localSnapshot.collections,
+    cloudRecords: cloudSnapshot.collections,
+    saveLocal: saveLocalCollectionRecord,
+    deleteLocal: removeLocalCollectionRecord,
+    cloudPath: CLOUD_PATHS.collections,
+    progress,
+    label: "Directories"
+  });
+
+  await syncDesiredRecordSet({
+    desired: stories,
+    localRecords: localSnapshot.stories,
+    cloudRecords: cloudSnapshot.stories,
+    saveLocal: saveCloudStoryLocally,
+    deleteLocal: removeLocalStoryRecord,
+    cloudPath: CLOUD_PATHS.stories,
+    progress,
+    label: "Stories"
+  });
+
+  await syncDesiredRecordSet({
+    desired: resolvedDeletions,
+    localRecords: localSnapshot.deletions,
+    cloudRecords: cloudSnapshot.deletions,
+    saveLocal: saveLocalDeletionRecord,
+    deleteLocal: removeLocalDeletionRecord,
+    cloudPath: CLOUD_PATHS.deletions,
+    progress,
+    label: "Deletions"
+  });
+
+  await syncDesiredReaderStates(readerStates, localSnapshot.readerState, cloudSnapshot.readerState, progress);
+
+  progress.setCurrent(0.2, "Updating cloud revision");
+  const metadata = await commitCloudRevision("merge");
+  progress.step("Updated cloud revision");
+
+  progress.setCurrent(0.3, "Refreshing library");
+  await refreshLibraryAfterSync();
+  progress.step("Refreshed library");
+
+  const finalLocal = getLocalSyncSnapshot();
+  const fingerprint = snapshotFingerprint(finalLocal);
+  writeSyncBaseline({
+    revision: metadata.revision,
+    localFingerprint: fingerprint,
+    cloudFingerprint: fingerprint
+  });
+  progress.step("Saved device baseline");
+}
+
+async function replaceLocalWithCloud(localSnapshot, cloudSnapshot, progress) {
+  if (!window.confirm(
+    "Replace this device with the Firebase data? Local custom content that is not in Firebase will be removed."
+  )) return false;
+
+  const collectionMap = recordsMap(cloudSnapshot.collections);
+  const storyMap = recordsMap(cloudSnapshot.stories);
+  const deletionMap = recordsMap(cloudSnapshot.deletions);
+  const resolvedDeletions = resolveDeletionConflicts(collectionMap, storyMap, deletionMap);
+  const localThumbnailBlobs = new Map(
+    state.localStories
+      .filter((record) => record.thumbnailBlob instanceof Blob)
+      .map((record) => [String(record.id), record.thumbnailBlob])
+  );
+
+  progress.setTotal(collectionMap.size + storyMap.size + resolvedDeletions.size + 6);
+  progress.setCurrent(0.2, "Clearing local custom library");
+  await Promise.all([
+    localClear(LOCAL_LIBRARY_DB.stores.collections),
+    localClear(LOCAL_LIBRARY_DB.stores.stories),
+    localClear(LOCAL_LIBRARY_DB.stores.deletions)
+  ]);
+  progress.step("Cleared local custom library");
+
+  for (const record of collectionMap.values()) {
+    await saveLocalCollectionRecord(record);
+    progress.step(`Downloaded directory: ${record.id}`);
+  }
+  for (const record of storyMap.values()) {
+    const thumbnailBlob = localThumbnailBlobs.get(String(record.id)) || null;
+    await saveLocalStoryRecord({...record, thumbnailBlob});
+    progress.step(`Downloaded story: ${record.id}`);
+  }
+  for (const record of resolvedDeletions.values()) {
+    await saveLocalDeletionRecord(record);
+    progress.step(`Downloaded deletion: ${record.id}`);
+  }
+
+  const cloudReaderObject = Object.fromEntries(cloudSnapshot.readerState.map((record) => {
+    const value = {...record};
+    delete value.id;
+    return [String(record.id), value];
+  }));
+  if (typeof replaceLocalReaderState === "function") replaceLocalReaderState(cloudReaderObject);
+  else mergeCloudReaderState(cloudReaderObject);
+  progress.step("Replaced reading state");
+
+  await refreshLibraryAfterSync();
+  progress.step("Refreshed library");
+
+  const finalLocal = getLocalSyncSnapshot();
+  writeSyncBaseline({
+    revision: Number(cloudSnapshot.metadata?.revision || 0),
+    localFingerprint: snapshotFingerprint(finalLocal),
+    cloudFingerprint: snapshotFingerprint(cloudSnapshot)
+  });
+  progress.step("Saved device baseline");
+  return true;
+}
+
+
+async function applyDesiredSetsLocally(collectionMap, storyMap, deletionMap) {
+  const currentCollections = recordsMap(state.localCollections.map(normalizeCollectionRecord));
+  const currentStories = recordsMap(state.localStories.map(normalizeStoryRecord));
+  const currentDeletions = recordsMap([...state.libraryDeletions.values()].map(normalizeDeletionRecord));
+
+  for (const [id, record] of collectionMap) {
+    if (!currentCollections.has(id) || !recordsEqual(currentCollections.get(id), record)) {
+      await saveLocalCollectionRecord(record);
+    }
+  }
+  for (const id of currentCollections.keys()) {
+    if (!collectionMap.has(id)) await removeLocalCollectionRecord(id);
+  }
+
+  for (const [id, record] of storyMap) {
+    if (!currentStories.has(id) || !recordsEqual(currentStories.get(id), record)) {
+      await saveCloudStoryLocally(record);
+    }
+  }
+  for (const id of currentStories.keys()) {
+    if (!storyMap.has(id)) await removeLocalStoryRecord(id);
+  }
+
+  for (const [id, record] of deletionMap) {
+    if (!currentDeletions.has(id) || !recordsEqual(currentDeletions.get(id), record)) {
+      await saveLocalDeletionRecord(record);
+    }
+  }
+  for (const id of currentDeletions.keys()) {
+    if (!deletionMap.has(id)) await removeLocalDeletionRecord(id);
+  }
+}
+
+async function clearCloudDataset(cloudSnapshot, progress) {
+  const groups = [
+    [CLOUD_PATHS.collections, cloudSnapshot.collections],
+    [CLOUD_PATHS.stories, cloudSnapshot.stories],
+    [CLOUD_PATHS.deletions, cloudSnapshot.deletions],
+    [CLOUD_PATHS.readerState, cloudSnapshot.readerState]
+  ];
+  for (const [path, records] of groups) {
+    for (const record of records) {
+      await firebaseDeleteDocument(path, recordId(record));
+      progress?.step(`Removed cloud record: ${recordId(record)}`);
+    }
+  }
+}
+
+async function replaceCloudWithLocal(localSnapshot, cloudSnapshot, progress) {
+  if (!window.confirm(
+    "Replace all Korean Reader data in Firebase with this device? Other devices will receive this device’s state on their next sync."
+  )) return false;
+
+  const collectionMap = recordsMap(localSnapshot.collections);
+  const storyMap = recordsMap(localSnapshot.stories);
+  const deletionMap = recordsMap(localSnapshot.deletions);
+  const resolvedDeletions = resolveDeletionConflicts(collectionMap, storyMap, deletionMap);
+  const readerMap = recordsMap(localSnapshot.readerState);
+
+  await applyDesiredSetsLocally(collectionMap, storyMap, resolvedDeletions);
+
+  const cloudRecordCount = cloudSnapshot.collections.length + cloudSnapshot.stories.length + cloudSnapshot.deletions.length + cloudSnapshot.readerState.length;
+  progress.setTotal(cloudRecordCount + collectionMap.size + storyMap.size + resolvedDeletions.size + readerMap.size + 4);
+
+  await clearCloudDataset(cloudSnapshot, progress);
+
+  for (const record of collectionMap.values()) {
+    await firebaseSetDocument(CLOUD_PATHS.collections, record.id, record);
+    progress.step(`Uploaded directory: ${record.id}`);
+  }
+  for (const record of storyMap.values()) {
+    await firebaseSetDocument(CLOUD_PATHS.stories, record.id, record);
+    progress.step(`Uploaded story: ${record.id}`);
+  }
+  for (const record of resolvedDeletions.values()) {
+    await firebaseSetDocument(CLOUD_PATHS.deletions, record.key, record);
+    progress.step(`Uploaded deletion: ${record.id}`);
+  }
+  for (const record of readerMap.values()) {
+    await firebaseSetDocument(CLOUD_PATHS.readerState, record.id, record);
+    progress.step(`Uploaded reading state: ${record.id}`);
+  }
+
+  const metadata = await commitCloudRevision("replace-cloud");
+  progress.step("Updated cloud revision");
+
+  await refreshLibraryAfterSync();
+  progress.step("Refreshed library");
+
+  const finalLocal = getLocalSyncSnapshot();
+  const fingerprint = snapshotFingerprint(finalLocal);
+  writeSyncBaseline({
+    revision: metadata.revision,
+    localFingerprint: fingerprint,
+    cloudFingerprint: fingerprint
+  });
+  progress.step("Saved device baseline");
+  return true;
+}
+
+function determineSyncAction(localSnapshot, cloudSnapshot, baseline) {
+  const localFingerprint = snapshotFingerprint(localSnapshot);
+  const cloudFingerprint = snapshotFingerprint(cloudSnapshot);
+  const localHasData = snapshotHasData(localSnapshot);
+  const cloudHasData = snapshotHasData(cloudSnapshot);
+  const cloudRevision = Number(cloudSnapshot.metadata?.revision || 0);
+
+  if (!baseline || Number(baseline.schemaVersion || 0) !== SYNC_SCHEMA_VERSION) {
+    if (!localHasData && !cloudHasData) return {action: "baseline", localFingerprint, cloudFingerprint};
+    if (!localHasData && cloudHasData) return {action: "download", localFingerprint, cloudFingerprint};
+    if (localHasData && !cloudHasData) {
+      return {
+        action: "choose",
+        reason: "Firebase is empty, but this device contains local data. Choose whether to upload it or keep working locally.",
+        localFingerprint,
+        cloudFingerprint
+      };
+    }
+    if (localFingerprint === cloudFingerprint) return {action: "baseline", localFingerprint, cloudFingerprint};
+    return {
+      action: "choose",
+      reason: "This device and Firebase already contain different data. Nothing will change until you choose a direction.",
+      localFingerprint,
+      cloudFingerprint
+    };
+  }
+
+  const localChanged = localFingerprint !== baseline.localFingerprint;
+  const cloudChanged = cloudFingerprint !== baseline.cloudFingerprint || cloudRevision !== Number(baseline.revision || 0);
+
+  if (localChanged && cloudChanged) {
+    return {
+      action: "choose",
+      reason: "Both this device and Firebase changed since their last common synchronization.",
+      localFingerprint,
+      cloudFingerprint
+    };
+  }
+  if (cloudChanged) return {action: "merge", localFingerprint, cloudFingerprint};
+  if (localChanged) return {action: "merge", localFingerprint, cloudFingerprint};
+  return {action: "none", localFingerprint, cloudFingerprint};
+}
+
+async function saveCloudStoryLocally(record) {
+  const existing = state.localStories.find((item) => String(item.id) === String(record.id));
+  await saveLocalStoryRecord({
+    ...normalizeStoryRecord(record),
+    thumbnailBlob: existing?.thumbnailBlob || null
+  });
+}
+
+async function queueReaderStateCloudWrite() {
+  requestSafeCloudSync("Reading progress saved locally");
 }
 
 async function saveCustomCollection(record, options = {}) {
   await saveLocalCollectionRecord(record);
-  if (state.firebaseUser && !options.localOnly) {
-    if (cloudSyncRunning) {
-      cloudSyncQueued = true;
-      return;
-    }
-    try {
-      await firebaseSetDocument(CLOUD_PATHS.collections, record.id, collectionCloudPayload(record));
-    } catch (error) {
-      setFirebaseStatus("error", "Saved locally; cloud sync failed", friendlyFirebaseError(error));
-    }
-  }
+  if (!options.localOnly) requestSafeCloudSync("Directory saved locally");
 }
 
 async function saveCustomStory(record, options = {}) {
   await saveLocalStoryRecord(record);
-  if (state.firebaseUser && !options.localOnly) {
-    if (cloudSyncRunning) {
-      cloudSyncQueued = true;
-      return;
-    }
-    const progress = createSyncProgress(1);
-    try {
-      setFirebaseStatus("syncing", "Uploading story…", record.id);
-      await syncLocalStoryRecordToCloud(record, {
-        onProgress: (fraction) => progress.setCurrent(fraction, `Uploading ${record.id}`)
-      });
-      progress.complete("100% · Uploaded");
-      setFirebaseStatus("synced", "Synced", state.firebaseUser.email);
-    } catch (error) {
-      setFirebaseStatus("error", "Saved locally; cloud sync failed", friendlyFirebaseError(error));
-    }
-  }
-}
-
-
-async function saveCloudStoryLocally(record) {
-  const existing = state.localStories.find((item) => item.id === record.id);
-  const merged = {
-    ...record,
-    thumbnailBlob: record.thumbnailBlob || existing?.thumbnailBlob || null
-  };
-  await saveLocalStoryRecord(merged);
-}
-
-async function syncLocalStoryRecordToCloud(record, options = {}) {
-  const onProgress = options.onProgress || (() => {});
-  onProgress(0.2);
-  await firebaseSetDocument(CLOUD_PATHS.stories, record.id, storyCloudPayload(record));
-  onProgress(1);
+  if (!options.localOnly) requestSafeCloudSync("Story saved locally");
 }
 
 async function saveDeletion(kind, id, options = {}) {
+  const deletedAt = Date.now();
   const record = {
     key: `${kind}:${id}`,
     kind,
-    id,
-    updatedAt: Date.now()
+    id: String(id),
+    deletedAt,
+    updatedAt: deletedAt
   };
   await saveLocalDeletionRecord(record);
   state.libraryDeletions.set(record.key, record);
-  if (state.firebaseUser && !options.localOnly) {
-    if (cloudSyncRunning) {
-      cloudSyncQueued = true;
-      return record;
-    }
-    try {
-      await firebaseSetDocument(CLOUD_PATHS.deletions, record.key, record);
-    } catch (error) {
-      setFirebaseStatus("error", "Deletion saved locally", friendlyFirebaseError(error));
-    }
-  }
+  if (!options.localOnly) requestSafeCloudSync("Deletion saved locally");
   return record;
 }
 
-async function clearDeletion(kind, id) {
+async function clearDeletion(kind, id, options = {}) {
   const key = `${kind}:${id}`;
   state.libraryDeletions.delete(key);
   await removeLocalDeletionRecord(key);
-  if (state.firebaseUser) {
-    try {
-      await firebaseDeleteDocument(CLOUD_PATHS.deletions, key);
-    } catch (error) {
-      console.warn("The cloud deletion marker could not be cleared:", error);
-    }
-  }
+  if (!options.localOnly) requestSafeCloudSync("Restored item saved locally");
 }
 
 function collectionFromLocalRecord(record) {
@@ -331,18 +973,16 @@ function storyFromLocalRecord(record) {
   const stored = {...record.story};
   if (record.thumbnailBlob instanceof Blob) {
     stored.thumbnail = localThumbnailUrl(record.id, record.thumbnailBlob);
-  } else if (record.thumbnailUrl) {
+  } else if (record.thumbnailUrl && /^https?:/i.test(String(record.thumbnailUrl))) {
     stored.thumbnail = record.thumbnailUrl;
   }
   const story = normalizeStory({
     ...stored,
     sourceType: "custom",
-    updatedAt: record.updatedAt,
-    thumbnailStoragePath: record.thumbnailStoragePath || ""
+    updatedAt: record.updatedAt
   }, stored.sourceFileName || `${record.id}.json`, stored.collectionId, stored.order);
   story.sourceType = "custom";
   story.updatedAt = record.updatedAt;
-  story.thumbnailStoragePath = record.thumbnailStoragePath || "";
   return story;
 }
 
@@ -356,14 +996,27 @@ function rebuildMergedLibrary() {
   state.githubStories.forEach((story) => storyMap.set(story.id, story));
   state.localStories.forEach((record) => storyMap.set(record.id, storyFromLocalRecord(record)));
 
-  state.libraryDeletions.forEach((deletion) => {
+  state.libraryDeletions.forEach((rawDeletion) => {
+    const deletion = normalizeDeletionRecord(rawDeletion);
     if (deletion.kind === "collection") {
-      collectionMap.delete(deletion.id);
-      [...storyMap.values()].forEach((story) => {
-        if (story.collectionId === deletion.id) storyMap.delete(story.id);
-      });
+      const collection = collectionMap.get(deletion.id);
+      const newestStoryTime = Math.max(
+        ...[...storyMap.values()]
+          .filter((story) => story.collectionId === deletion.id)
+          .map((story) => Number(story.updatedAt || 0)),
+        0
+      );
+      if (Number(deletion.deletedAt) > Math.max(Number(collection?.updatedAt || 0), newestStoryTime)) {
+        collectionMap.delete(deletion.id);
+        [...storyMap.values()].forEach((story) => {
+          if (story.collectionId === deletion.id) storyMap.delete(story.id);
+        });
+      }
     }
-    if (deletion.kind === "story") storyMap.delete(deletion.id);
+    if (deletion.kind === "story") {
+      const story = storyMap.get(deletion.id);
+      if (!story || Number(deletion.deletedAt) > Number(story.updatedAt || 0)) storyMap.delete(deletion.id);
+    }
   });
 
   state.collections = [...collectionMap.values()];
@@ -381,98 +1034,25 @@ async function loadLocalLibraryIntoState() {
   const records = await loadLocalLibraryRecords();
   state.localCollections = records.collections || [];
   state.localStories = records.stories || [];
-  state.libraryDeletions = new Map((records.deletions || []).map((record) => [record.key, record]));
+  state.libraryDeletions = new Map(
+    (records.deletions || []).map((record) => {
+      const normalized = normalizeDeletionRecord(record);
+      return [normalized.key, normalized];
+    })
+  );
   rebuildMergedLibrary();
 }
 
-async function getCloudDocuments(name) {
-  const services = state.firebaseServices || await window.firebaseReadyPromise;
-  const {collection, getDocs} = services.firestoreApi;
-  const snapshot = await withFirebaseTimeout(
-    getDocs(collection(services.db, ...firebaseUserCollectionPath(name))),
-    FIREBASE_REQUEST_TIMEOUT_MS,
-    `Downloading ${name}`
-  );
-  return snapshot.docs.map((documentSnapshot) => documentSnapshot.data());
-}
-
-function reconciliationItemCount(localRecords, cloudRecords) {
-  return new Set([
-    ...localRecords.map((record) => record.id || record.key),
-    ...cloudRecords.map((record) => record.id || record.key)
-  ]).size;
-}
-
-async function reconcileRecords(localRecords, cloudRecords, saveLocal, saveCloud, options = {}) {
-  const localMap = new Map(localRecords.map((record) => [record.id || record.key, record]));
-  const cloudMap = new Map(cloudRecords.map((record) => [record.id || record.key, record]));
-  const ids = new Set([...localMap.keys(), ...cloudMap.keys()]);
-  const progress = options.progress;
-  const label = options.label || "Synchronizing";
-
-  for (const id of ids) {
-    const local = localMap.get(id);
-    const cloud = cloudMap.get(id);
-    const localUpdatedAt = Number(local?.updatedAt || 0);
-    const cloudUpdatedAt = Number(cloud?.updatedAt || 0);
-    const preferLocal = Boolean(options.preferLocal?.(local, cloud));
-
-    progress?.setCurrent(0.03, `${label}: ${id}`);
-    if (!cloud || (local && (localUpdatedAt > cloudUpdatedAt || preferLocal))) {
-      if (local) {
-        await saveCloud(local, (fraction) => progress?.setCurrent(fraction, `${label}: ${id}`));
-      }
-    } else if (!local || cloudUpdatedAt >= localUpdatedAt) {
-      progress?.setCurrent(0.5, `${label}: ${id}`);
-      await saveLocal(cloud);
-    }
-    progress?.step(`${label}: ${id}`);
-  }
-}
-
-
-async function applyDeletionRecordsToCustomLibrary(progress) {
-  const deletionRecords = await localGetAll(LOCAL_LIBRARY_DB.stores.deletions);
-  const localStoryRecords = await localGetAll(LOCAL_LIBRARY_DB.stores.stories);
-
-  if (!deletionRecords.length) {
-    progress?.step("No deletions to apply");
+function requestSafeCloudSync(detail = "Changes are waiting to synchronize") {
+  if (!state.firebaseUser) {
+    setFirebaseStatus("offline", "Saved locally", "Sign in to synchronize these changes.");
     return;
   }
-
-  for (let index = 0; index < deletionRecords.length; index += 1) {
-    const deletion = deletionRecords[index];
-    progress?.setCurrent(index / deletionRecords.length, `Applying deletions: ${index + 1}/${deletionRecords.length}`);
-    if (deletion.kind === "story") {
-      await removeLocalStoryRecord(deletion.id);
-      await firebaseDeleteDocument(CLOUD_PATHS.stories, deletion.id);
-    }
-    if (deletion.kind === "collection") {
-      await removeLocalCollectionRecord(deletion.id);
-      const matchingStories = localStoryRecords.filter((record) => record.story?.collectionId === deletion.id);
-      for (const record of matchingStories) {
-        await removeLocalStoryRecord(record.id);
-        await firebaseDeleteDocument(CLOUD_PATHS.stories, record.id);
-      }
-      await firebaseDeleteDocument(CLOUD_PATHS.collections, deletion.id);
-    }
-  }
-  progress?.step("Applied deletions");
-}
-
-async function syncReaderStatesWithCloud(cloudRecords, progress, localState = exportLocalReaderState()) {
-  const cloudMap = Object.fromEntries(cloudRecords.map((record) => [record.id, record]));
-  mergeCloudReaderState(cloudMap);
-  progress?.step("Merged reader state");
-
-  for (const [storyId, localStateValue] of Object.entries(localState)) {
-    const cloudState = cloudMap[storyId];
-    progress?.setCurrent(0.1, `Reader state: ${storyId}`);
-    if (!cloudState || Number(localStateValue.updatedAt) > Number(cloudState.updatedAt || 0)) {
-      await firebaseSetDocument(CLOUD_PATHS.readerState, storyId, {id: storyId, ...localStateValue});
-    }
-    progress?.step(`Reader state: ${storyId}`);
-  }
+  window.clearTimeout(cloudAutoSyncTimer);
+  setFirebaseStatus("syncing", "Checking before upload…", detail);
+  cloudAutoSyncTimer = window.setTimeout(() => {
+    syncCloudData({reason: "local-change"}).catch(() => {});
+  }, 650);
 }
 
 async function syncCloudData(options = {}) {
@@ -480,77 +1060,66 @@ async function syncCloudData(options = {}) {
     setFirebaseStatus("offline", "Local only", "Sign in to synchronize with Firebase.");
     return;
   }
+  if (!navigator.onLine) {
+    setFirebaseStatus("offline", "Offline", "Changes remain saved locally.");
+    return;
+  }
   if (cloudSyncRunning) {
-    if (options.force) cloudSyncQueued = true;
+    cloudSyncQueued = true;
     return cloudSyncRunning;
   }
 
-  const localReaderState = exportLocalReaderState();
-  const initialTotal = 8
-    + state.localCollections.length
-    + state.localStories.length
-    + (state.libraryDeletions?.size || 0)
-    + Object.keys(localReaderState).length;
-  const progress = createSyncProgress(initialTotal);
+  const progress = createSyncProgress(6);
   cloudSyncRunning = (async () => {
-    setFirebaseStatus("syncing", "Synchronizing…", state.firebaseUser.email);
+    setFirebaseStatus("syncing", "Checking both copies…", state.firebaseUser.email || "Firebase account");
+    const cloudSnapshot = await getCloudSyncSnapshot(progress);
+    const localSnapshot = getLocalSyncSnapshot();
+    const baseline = readSyncBaseline();
+    const decision = determineSyncAction(localSnapshot, cloudSnapshot, baseline);
+    let action = decision.action;
 
-    const readCloudGroup = async (name, label) => {
-      progress.setCurrent(0.1, label);
-      const records = await getCloudDocuments(name);
-      progress.step(label);
-      return records;
-    };
-
-    const [cloudCollections, cloudStories, cloudDeletions, cloudReaderState] = await Promise.all([
-      readCloudGroup(CLOUD_PATHS.collections, "Downloaded collections"),
-      readCloudGroup(CLOUD_PATHS.stories, "Downloaded stories"),
-      readCloudGroup(CLOUD_PATHS.deletions, "Downloaded deletions"),
-      readCloudGroup(CLOUD_PATHS.readerState, "Downloaded reader state")
-    ]);
-
-    const exactTotal = 4
-      + reconciliationItemCount(state.localCollections, cloudCollections)
-      + reconciliationItemCount(state.localStories, cloudStories)
-      + reconciliationItemCount([...state.libraryDeletions.values()], cloudDeletions)
-      + 1
-      + 1
-      + Object.keys(localReaderState).length
-      + 1;
-    progress.setTotal(exactTotal);
-
-    await reconcileRecords(
-      state.localCollections,
-      cloudCollections,
-      saveLocalCollectionRecord,
-      (record) => firebaseSetDocument(CLOUD_PATHS.collections, record.id, collectionCloudPayload(record)),
-      {progress, label: "Collections"}
-    );
-    await reconcileRecords(
-      state.localStories,
-      cloudStories,
-      saveCloudStoryLocally,
-      (record, onProgress) => syncLocalStoryRecordToCloud(record, {onProgress}),
-      {progress, label: "Stories"}
-    );
-    await reconcileRecords(
-      [...state.libraryDeletions.values()],
-      cloudDeletions,
-      saveLocalDeletionRecord,
-      (record) => firebaseSetDocument(CLOUD_PATHS.deletions, record.key, record),
-      {progress, label: "Deletion markers"}
-    );
-    await applyDeletionRecordsToCustomLibrary(progress);
-    await syncReaderStatesWithCloud(cloudReaderState, progress, localReaderState);
-
-    progress.setCurrent(0.3, "Refreshing local library");
-    await loadLocalLibraryIntoState();
-    if (libraryView.classList.contains("view-active")) renderLibrary(searchInput.value);
-    if (state.activeStory) {
-      updateBookmarkButton();
-      markRenderedBookmark();
+    if (action === "choose") {
+      action = await requestSyncDecision(localSnapshot, cloudSnapshot, decision.reason);
     }
-    progress.step("Refreshed library");
+
+    if (action === "cancel") {
+      setFirebaseStatus("warning", "Synchronization paused", "Local and cloud data were left unchanged.");
+      return;
+    }
+
+    if (action === "none") {
+      setFirebaseStatus("synced", "Already synchronized", state.firebaseUser.email);
+      progress.complete("100% · Already synchronized");
+      return;
+    }
+
+    if (action === "baseline") {
+      writeSyncBaseline({
+        revision: Number(cloudSnapshot.metadata?.revision || 0),
+        localFingerprint: decision.localFingerprint,
+        cloudFingerprint: decision.cloudFingerprint
+      });
+      setFirebaseStatus("synced", "Synchronized", state.firebaseUser.email);
+      progress.complete("100% · Baseline saved");
+      return;
+    }
+
+    if (action === "download") {
+      const completed = await replaceLocalWithCloud(localSnapshot, cloudSnapshot, progress);
+      if (!completed) {
+        setFirebaseStatus("warning", "Synchronization cancelled", "No data was changed.");
+        return;
+      }
+    } else if (action === "upload") {
+      const completed = await replaceCloudWithLocal(localSnapshot, cloudSnapshot, progress);
+      if (!completed) {
+        setFirebaseStatus("warning", "Synchronization cancelled", "No data was changed.");
+        return;
+      }
+    } else {
+      await mergeLocalAndCloud(localSnapshot, cloudSnapshot, progress);
+    }
+
     progress.complete("100% · Synced");
     setFirebaseStatus("synced", "Synced", state.firebaseUser.email);
   })().catch((error) => {
@@ -561,7 +1130,7 @@ async function syncCloudData(options = {}) {
     cloudSyncRunning = null;
     if (cloudSyncQueued && state.firebaseUser && navigator.onLine) {
       cloudSyncQueued = false;
-      window.setTimeout(() => syncCloudData().catch(() => {}), 0);
+      window.setTimeout(() => syncCloudData({reason: "queued-change"}).catch(() => {}), 0);
     }
   });
 
@@ -589,6 +1158,8 @@ async function signInToFirebase() {
 
 async function signOutOfFirebase() {
   try {
+    closeSyncDecision("cancel");
+    window.clearTimeout(cloudAutoSyncTimer);
     const services = state.firebaseServices || await window.firebaseReadyPromise;
     await services.authApi.signOut(services.auth);
   } catch (error) {
@@ -598,8 +1169,6 @@ async function signOutOfFirebase() {
 
 function friendlyFirebaseError(error) {
   const code = String(error?.code || "");
-  const message = String(error?.message || "");
-
   if (code.includes("invalid-credential")) return "Email or password is incorrect.";
   if (code.includes("too-many-requests")) return "Too many attempts. Try again later.";
   if (code.includes("operation-not-allowed")) return "Enable Email/Password authentication in Firebase.";
@@ -607,7 +1176,7 @@ function friendlyFirebaseError(error) {
   if (code.includes("resource-exhausted")) return "Firebase quota has been exceeded.";
   if (code.includes("firestore-document-too-large")) return error.message;
   if (code.includes("firebase-timeout")) return error.message;
-  return message || "Firebase operation failed.";
+  return error?.message || "Firebase operation failed.";
 }
 
 async function initializeCloudSync() {
@@ -620,12 +1189,13 @@ async function initializeCloudSync() {
     firebaseAuthUnsubscribe = services.authApi.onAuthStateChanged(services.auth, async (user) => {
       state.firebaseUser = user || null;
       if (!user) {
-        setFirebaseStatus(navigator.onLine ? "offline" : "offline", "Local only", "Sign in to synchronize with Firebase.");
+        closeSyncDecision("cancel");
+        setFirebaseStatus("offline", "Local only", "Sign in to synchronize with Firebase.");
         return;
       }
-      setFirebaseStatus("syncing", "Signed in", user.email || "Firebase account");
+      setFirebaseStatus("syncing", "Inspecting local and cloud data…", user.email || "Firebase account");
       try {
-        await syncCloudData({force: true});
+        await syncCloudData({reason: "sign-in"});
       } catch {}
     });
   } catch (error) {
@@ -638,8 +1208,16 @@ firebasePasswordInput?.addEventListener("keydown", (event) => {
   if (event.key === "Enter") signInToFirebase();
 });
 firebaseSignOutButton?.addEventListener("click", signOutOfFirebase);
-firebaseSyncButton?.addEventListener("click", () => syncCloudData({force: true}).catch(() => {}));
+firebaseSyncButton?.addEventListener("click", () => syncCloudData({reason: "manual"}).catch(() => {}));
+
+document.getElementById("syncDecisionMergeButton")?.addEventListener("click", () => closeSyncDecision("merge"));
+document.getElementById("syncDecisionDownloadButton")?.addEventListener("click", () => closeSyncDecision("download"));
+document.getElementById("syncDecisionUploadButton")?.addEventListener("click", () => closeSyncDecision("upload"));
+document.getElementById("syncDecisionCancelButton")?.addEventListener("click", () => closeSyncDecision("cancel"));
+document.getElementById("syncDecisionCloseButton")?.addEventListener("click", () => closeSyncDecision("cancel"));
+document.getElementById("syncDecisionBackdrop")?.addEventListener("click", () => closeSyncDecision("cancel"));
+
 window.addEventListener("online", () => {
-  if (state.firebaseUser) syncCloudData({force: true}).catch(() => {});
+  if (state.firebaseUser) syncCloudData({reason: "reconnected"}).catch(() => {});
 });
 window.addEventListener("offline", () => setFirebaseStatus("offline", "Offline", "Changes remain saved locally."));

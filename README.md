@@ -76,6 +76,36 @@ Every story card has a check button. Read stories:
 - retain their state locally;
 - synchronize through Firebase when signed in.
 
+
+## Safe synchronization across multiple devices
+
+Signing in no longer immediately uploads the current device. The app first downloads
+Firestore metadata and compares dataset fingerprints for the local and cloud copies.
+If both sides changed, it pauses before writing and offers four choices:
+
+- **Merge both** keeps records found on either side. Matching records use their
+  `updatedAt` values, while read state and bookmarks use per-field timestamps.
+- **Use Firebase** replaces the current device's custom library and reading state.
+- **Use this device** clears the Korean Reader collections in Firestore and uploads
+  the current device after an additional confirmation.
+- **Cancel and remain local** leaves both copies unchanged.
+
+Each successful synchronization updates:
+
+```text
+Firestore
+koreanReaderUsers/<uid>/syncMetadata/main
+```
+
+The metadata document contains a monotonically increasing revision and the device ID
+that completed the operation. Each browser stores its last synchronized revision and
+local/cloud fingerprints in local storage. A later synchronization can therefore
+detect when both sides changed since their last common state.
+
+Absence is not treated as deletion. Only an explicit deletion marker can delete an
+item, and that marker wins only when its `deletedAt` timestamp is newer than the
+corresponding story or directory. Re-importing a newer item clears a stale deletion.
+
 ## Firebase data layout
 
 ```text
@@ -84,6 +114,7 @@ koreanReaderUsers/<uid>/libraryCollections/<collection-id>
 koreanReaderUsers/<uid>/libraryStories/<story-id>
 koreanReaderUsers/<uid>/readerState/<story-id>
 koreanReaderUsers/<uid>/libraryDeletions/<kind:id>
+koreanReaderUsers/<uid>/syncMetadata/main
 ```
 
 The paths are intentionally isolated because the configured Firebase project also
@@ -163,7 +194,9 @@ Firebase authentication and synchronization layer. It contains:
 - sync status rendering;
 - user-scoped Firestore paths;
 - Firestore-only story metadata synchronization;
-- local/cloud timestamp reconciliation;
+- first-sync direction choice and conflict detection;
+- local/cloud dataset fingerprints and revision tracking;
+- timestamp-aware merge and deletion reconciliation;
 - reader-state synchronization;
 - merged GitHub, local, and cloud library rebuilding.
 

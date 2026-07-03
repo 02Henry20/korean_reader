@@ -1,8 +1,30 @@
 const READER_STATE_KEY = "korean-reader-reader-state-v1";
 
+function normalizeReaderStateRecord(value) {
+  const source = value && typeof value === "object" ? value : {};
+  const updatedAt = Number(source.updatedAt) || 0;
+  const fieldUpdatedAt = source.fieldUpdatedAt && typeof source.fieldUpdatedAt === "object"
+    ? {...source.fieldUpdatedAt}
+    : {};
+  const result = {};
+
+  Object.entries(source).forEach(([key, item]) => {
+    if (key === "id" || key === "updatedAt" || key === "fieldUpdatedAt") return;
+    result[key] = item;
+    fieldUpdatedAt[key] = Number(fieldUpdatedAt[key]) || updatedAt;
+  });
+
+  result.fieldUpdatedAt = fieldUpdatedAt;
+  result.updatedAt = Math.max(updatedAt, ...Object.values(fieldUpdatedAt).map(Number), 0);
+  return result;
+}
+
 function loadReaderState() {
   const saved = loadJSONV6(READER_STATE_KEY, {});
-  return saved && typeof saved === "object" ? saved : {};
+  if (!saved || typeof saved !== "object") return {};
+  return Object.fromEntries(
+    Object.entries(saved).map(([storyId, value]) => [storyId, normalizeReaderStateRecord(value)])
+  );
 }
 
 state.readerState = loadReaderState();
@@ -27,14 +49,17 @@ function writeReaderState(storyId, patch, options = {}) {
   const id = String(storyId || "");
   if (!id) return;
 
-  const previous = storyReaderState(id);
-  const next = {
-    ...previous,
-    ...patch,
-    updatedAt: Number(options.updatedAt) || Date.now()
-  };
+  const previous = normalizeReaderStateRecord(storyReaderState(id));
+  const changedAt = Number(options.updatedAt) || Date.now();
+  const fieldUpdatedAt = {...previous.fieldUpdatedAt};
+  const next = {...previous, ...patch};
 
-  if (patch.bookmark === null) delete next.bookmark;
+  Object.keys(patch).forEach((key) => {
+    fieldUpdatedAt[key] = changedAt;
+  });
+
+  next.fieldUpdatedAt = fieldUpdatedAt;
+  next.updatedAt = Math.max(changedAt, Number(previous.updatedAt || 0));
   state.readerState[id] = next;
   saveReaderState();
 
@@ -69,7 +94,6 @@ function setBookmarkFromWord(wordElement) {
     wordIndex: Number(wordElement.dataset.wordIndex),
     surface: wordElement.dataset.surface || wordElement.textContent || ""
   };
-
   const current = storyBookmark(state.activeStory.id);
   const sameBookmark = current &&
     Number(current.paragraphIndex) === bookmark.paragraphIndex &&
@@ -100,9 +124,7 @@ function markRenderedBookmark(bookmark = storyBookmark(state.activeStory?.id)) {
     element.classList.remove("word-bookmarked");
   });
   if (!bookmark) return null;
-
-  const selector =
-    `.sentence[data-paragraph-index="${bookmark.paragraphIndex}"]` +
+  const selector = `.sentence[data-paragraph-index="${bookmark.paragraphIndex}"]` +
     `[data-sentence-index="${bookmark.sentenceIndex}"] ` +
     `.word-token[data-word-index="${bookmark.wordIndex}"]`;
   const element = storyContent.querySelector(selector);
@@ -114,7 +136,6 @@ function restoreStoryBookmark() {
   const bookmark = storyBookmark(state.activeStory?.id);
   updateBookmarkButton();
   if (!bookmark) return;
-
   requestAnimationFrame(() => {
     const element = markRenderedBookmark(bookmark);
     if (!element) return;
@@ -141,16 +162,61 @@ function updateBookmarkButton() {
       : "Set bookmark";
 }
 
+function mergeReaderStateRecords(leftValue, rightValue) {
+  const left = normalizeReaderStateRecord(leftValue);
+  const right = normalizeReaderStateRecord(rightValue);
+  const result = {};
+  const fieldUpdatedAt = {};
+  const fields = new Set([
+    ...Object.keys(left).filter((key) => !["updatedAt", "fieldUpdatedAt", "id"].includes(key)),
+    ...Object.keys(right).filter((key) => !["updatedAt", "fieldUpdatedAt", "id"].includes(key))
+  ]);
+
+  fields.forEach((field) => {
+    const leftHasField = Object.prototype.hasOwnProperty.call(left, field);
+    const rightHasField = Object.prototype.hasOwnProperty.call(right, field);
+    const leftTime = Number(left.fieldUpdatedAt?.[field] || left.updatedAt || 0);
+    const rightTime = Number(right.fieldUpdatedAt?.[field] || right.updatedAt || 0);
+
+    if (!leftHasField && rightHasField) {
+      result[field] = right[field];
+      fieldUpdatedAt[field] = rightTime;
+    } else if (leftHasField && !rightHasField) {
+      result[field] = left[field];
+      fieldUpdatedAt[field] = leftTime;
+    } else if (rightTime > leftTime) {
+      result[field] = right[field];
+      fieldUpdatedAt[field] = rightTime;
+    } else {
+      result[field] = left[field];
+      fieldUpdatedAt[field] = leftTime;
+    }
+  });
+
+  result.fieldUpdatedAt = fieldUpdatedAt;
+  result.updatedAt = Math.max(...Object.values(fieldUpdatedAt).map(Number), 0);
+  return result;
+}
+
 function mergeCloudReaderState(cloudStates) {
   let changed = false;
   Object.entries(cloudStates || {}).forEach(([storyId, cloudState]) => {
     const localState = storyReaderState(storyId);
-    if (Number(cloudState.updatedAt) > Number(localState.updatedAt || 0)) {
-      state.readerState[storyId] = cloudState;
+    const merged = mergeReaderStateRecords(localState, cloudState);
+    if (JSON.stringify(merged) !== JSON.stringify(normalizeReaderStateRecord(localState))) {
+      state.readerState[storyId] = merged;
       changed = true;
     }
   });
   if (changed) saveReaderState();
+}
+
+function replaceLocalReaderState(nextStates) {
+  state.readerState = Object.fromEntries(
+    Object.entries(nextStates || {}).map(([storyId, value]) => [storyId, normalizeReaderStateRecord(value)])
+  );
+  saveReaderState();
+  updateBookmarkButton();
 }
 
 function exportLocalReaderState() {

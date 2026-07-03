@@ -201,12 +201,43 @@
 <button class="button firebase-secondary-button" id="firebaseSyncButton" type="button">Sync now</button>
 <button class="button firebase-secondary-button" id="firebaseSignOutButton" type="button">Sign out</button>
 </div>
-<p class="firebase-sync-note">Story data, read status, and bookmarks synchronize through Firestore. Thumbnail files stay local or load from paths in your repository; they are never uploaded to Firebase.</p>
+<p class="firebase-sync-note">Story data, read status, and bookmarks synchronize through Firestore. When devices disagree, the app asks whether to merge, use Firebase, or use this device. Thumbnails are never uploaded.</p>
 </div>
 </section>
 <button class="button settings-reset" id="resetSettingsButton" type="button">Reset settings</button>
 </form>
 </aside>
+
+<div class="sync-decision-backdrop" hidden id="syncDecisionBackdrop"></div>
+<section aria-hidden="true" aria-labelledby="syncDecisionTitle" aria-modal="true" class="sync-decision-dialog" id="syncDecisionDialog" role="dialog">
+<header class="sync-decision-header">
+<div>
+<p class="eyebrow">CLOUD SYNC</p>
+<h2 id="syncDecisionTitle">Choose a sync direction</h2>
+</div>
+<button aria-label="Close synchronization choice" class="icon-button" id="syncDecisionCloseButton" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+</button>
+</header>
+<p class="sync-decision-reason" id="syncDecisionReason">This device and Firebase contain different data.</p>
+<div class="sync-decision-comparison">
+<article><span>This device</span><strong id="syncDecisionLocalSummary">Checking…</strong></article>
+<article><span>Firebase</span><strong id="syncDecisionCloudSummary">Checking…</strong></article>
+</div>
+<div class="sync-decision-actions">
+<button class="button button-primary sync-decision-action sync-decision-merge" id="syncDecisionMergeButton" type="button">
+<strong>Merge both</strong><small>Keep unique data from both sides and resolve matching items by their change times.</small>
+</button>
+<button class="button sync-decision-action" id="syncDecisionDownloadButton" type="button">
+<strong>Use Firebase</strong><small>Replace this device’s custom library and reading state with the online copy.</small>
+</button>
+<button class="button sync-decision-action sync-decision-danger" id="syncDecisionUploadButton" type="button">
+<strong>Use this device</strong><small>Replace the Korean Reader data in Firebase with the data currently on this device.</small>
+</button>
+<button class="button sync-decision-cancel" id="syncDecisionCancelButton" type="button">Cancel and remain local</button>
+</div>
+<p class="sync-decision-note">No data is uploaded or deleted until you choose. Repository thumbnails are not part of Firebase synchronization.</p>
+</section>
 
 <div class="library-manage-backdrop" hidden id="libraryManageBackdrop"></div>
 <aside aria-hidden="true" aria-label="Manage library" class="library-manage-panel" id="libraryManagePanel">

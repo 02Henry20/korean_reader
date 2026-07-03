@@ -271,21 +271,15 @@ async function clearImportDeletionMarker(kind, id, pendingCloudDeletionClears = 
   pendingCloudDeletionClears.push({key, kind, id});
 }
 
-function syncImportedContentInBackground(detail, pendingCloudDeletionClears = []) {
+function syncImportedContentInBackground(detail) {
   if (!state.firebaseUser) {
     setFirebaseStatus("offline", "Saved locally", detail || "Sign in to synchronize imported content.");
     return;
   }
 
-  const deletionClears = pendingCloudDeletionClears.map((record) => ({...record}));
-  setFirebaseStatus("syncing", "Saved locally", "Uploading imported content in the background.");
+  setFirebaseStatus("syncing", "Saved locally", "Checking local and cloud data before synchronization.");
   window.setTimeout(() => {
-    (async () => {
-      for (const deletion of deletionClears) {
-        await firebaseDeleteDocument(CLOUD_PATHS.deletions, deletion.key);
-      }
-      await syncCloudData({force: true});
-    })().catch((error) => {
+    syncCloudData({reason: "library-import"}).catch((error) => {
       console.error("Background import sync failed:", error);
       setFirebaseStatus("error", "Import saved locally; sync failed", friendlyFirebaseError(error));
     });
@@ -364,43 +358,31 @@ async function importDirectoryFiles(fileList) {
   }
 }
 
-function persistentThumbnailReference(value) {
-  const reference = String(value || "").trim();
-  if (!reference || /^(?:blob:|data:|file:)/i.test(reference)) return "";
-  return reference;
-}
-
 async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.now()) {
   const storedStory = cleanForCloud({...story});
   storedStory.sourceType = "custom";
 
-  /*
-   * A selected image is stored only in this browser's IndexedDB. Firebase
-   * receives only the JSON thumbnail reference, such as a repository-relative
-   * path or an HTTP(S) URL. No image bytes are uploaded to Firebase.
-   */
-  const thumbnailReference = persistentThumbnailReference(story.thumbnail);
-  if (thumbnailReference) storedStory.thumbnail = thumbnailReference;
-  else delete storedStory.thumbnail;
+  const existingThumbnail = String(story.thumbnail || "").trim();
+  if (/^(?:blob:|data:)/i.test(existingThumbnail)) delete storedStory.thumbnail;
 
   return {
     id: story.id,
     story: storedStory,
     thumbnailBlob: thumbnailFile || null,
-    thumbnailUrl: thumbnailReference,
-    thumbnailStoragePath: "",
+    thumbnailUrl: /^https?:/i.test(existingThumbnail) ? existingThumbnail : "",
     updatedAt
   };
 }
 
-function preservedStoryThumbnail(existingStory, existingRecord, replacementStory) {
-  const replacementReference = persistentThumbnailReference(replacementStory?.thumbnail);
-  const existingRecordReference = persistentThumbnailReference(existingRecord?.story?.thumbnail || existingRecord?.thumbnailUrl);
-  const existingStoryReference = persistentThumbnailReference(existingStory?.thumbnail);
+function preservedStoryThumbnail(existingStory, existingRecord) {
+  const recordThumbnail = String(existingRecord?.story?.thumbnail || "").trim();
+  const storyThumbnail = String(existingStory?.thumbnail || "").trim();
+  const reusableThumbnail = recordThumbnail || storyThumbnail;
 
   return {
     thumbnailBlob: existingRecord?.thumbnailBlob || null,
-    thumbnailReference: replacementReference || existingRecordReference || existingStoryReference
+    thumbnailUrl: /^https?:/i.test(reusableThumbnail) ? reusableThumbnail : "",
+    thumbnail: /^(?:blob:|data:)/i.test(reusableThumbnail) ? "" : reusableThumbnail
   };
 }
 
@@ -423,11 +405,10 @@ async function updateExistingStoryFromFile(file) {
 
     closeLibraryManager(true);
     const existingRecord = state.localStories.find((record) => record.id === story.id);
-    const preserved = preservedStoryThumbnail(existingStory, existingRecord, story);
+    const preserved = preservedStoryThumbnail(existingStory, existingRecord);
     const storedStory = cleanForCloud({...story});
     storedStory.sourceType = "custom";
-    if (preserved.thumbnailReference) storedStory.thumbnail = preserved.thumbnailReference;
-    else delete storedStory.thumbnail;
+    storedStory.thumbnail = preserved.thumbnail || preserved.thumbnailUrl || "";
 
     const pendingDeletionClears = [];
     await clearImportDeletionMarker("story", story.id, pendingDeletionClears);
@@ -435,8 +416,7 @@ async function updateExistingStoryFromFile(file) {
       id: story.id,
       story: storedStory,
       thumbnailBlob: preserved.thumbnailBlob,
-      thumbnailUrl: preserved.thumbnailReference,
-      thumbnailStoragePath: "",
+      thumbnailUrl: preserved.thumbnailUrl,
       updatedAt: Date.now()
     }, {localOnly: true});
 
@@ -465,14 +445,14 @@ async function beginSingleStoryImport(file) {
 
     state.storyImportMode = "add";
     state.pendingStoryImport = {file, raw, story};
-    libraryManageTitle.textContent = "Local thumbnail";
+    libraryManageTitle.textContent = "Story thumbnail";
     libraryManageBody.replaceChildren(
-      createTextBlock("p", "library-manage-prompt", `Choose an optional local thumbnail for “${story.title}”. Repository paths in the JSON are synchronized separately.`),
-      createManageAction("Choose local thumbnail", "Stored only on this device. It is never uploaded to Firebase.", "plus", () => {
+      createTextBlock("p", "library-manage-prompt", `Does “${story.title}” have a thumbnail?`),
+      createManageAction("Choose thumbnail", "Select an image for this device only. Repository thumbnails should stay referenced in the story JSON.", "plus", () => {
         storyThumbnailInput.value = "";
         storyThumbnailInput.click();
       }),
-      createManageAction("Continue", "Use the JSON repository path or the directory character fallback.", "folder", () => finishSingleStoryImport(null))
+      createManageAction("Continue without thumbnail", "Use the directory character as the fallback image.", "folder", () => finishSingleStoryImport(null))
     );
     libraryManageBackdrop.hidden = false;
     libraryManagePanel.setAttribute("aria-hidden", "false");
@@ -509,13 +489,8 @@ async function finishSingleStoryImport(thumbnailFile) {
 }
 
 async function requestDeleteStory(story) {
-  if (!window.confirm(`Delete “${story.title}”? This hides the story on every synchronized device.`)) return;
+  if (!window.confirm(`Delete “${story.title}”? This deletion will synchronize after conflict checks.`)) return;
   try {
-    try {
-      await firebaseDeleteDocument(CLOUD_PATHS.stories, story.id);
-    } catch (error) {
-      console.warn("Cloud story cleanup will be retried later:", error);
-    }
     await removeLocalStoryRecord(story.id);
     await saveDeletion("story", story.id);
     await loadLocalLibraryIntoState();
@@ -528,23 +503,11 @@ async function requestDeleteStory(story) {
 }
 
 async function requestDeleteCollection(collection) {
-  if (!window.confirm(`Delete the directory “${collection.title}” and all stories inside it?`)) return;
+  if (!window.confirm(`Delete the directory “${collection.title}” and all stories inside it? This deletion will synchronize after conflict checks.`)) return;
   try {
     const localStories = state.localStories.filter((record) => record.story?.collectionId === collection.id);
-    for (const record of localStories) {
-      try {
-        await firebaseDeleteDocument(CLOUD_PATHS.stories, record.id);
-      } catch (error) {
-        console.warn("Cloud story cleanup will be retried later:", error);
-      }
-      await removeLocalStoryRecord(record.id);
-    }
+    for (const record of localStories) await removeLocalStoryRecord(record.id);
     await removeLocalCollectionRecord(collection.id);
-    try {
-      await firebaseDeleteDocument(CLOUD_PATHS.collections, collection.id);
-    } catch (error) {
-      console.warn("Cloud directory cleanup will be retried later:", error);
-    }
     await saveDeletion("collection", collection.id);
     await loadLocalLibraryIntoState();
     renderLibrary(searchInput.value);
