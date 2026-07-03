@@ -181,6 +181,14 @@ async function loadLibraryFile(path) {
 }
 
 async function loadLibrary() {
+  if (GITHUB_LIBRARY.enabled === false) {
+    state.collections = [];
+    state.stories = [];
+    state.githubCollections = [];
+    state.githubStories = [];
+    return;
+  }
+
   const discovery = await discoverLibraryEntries();
   const {rootPrefix} = discovery;
   const jsonEntries = discovery.paths

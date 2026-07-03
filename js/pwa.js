@@ -4,16 +4,21 @@ async function initializeLibrary() {
   applyReaderTypography();
   libraryBackButton.hidden = true;
   libraryTitle.textContent = "Loading your library…";
-  librarySubtitle.textContent = "Loading built-in and locally saved stories.";
+  librarySubtitle.textContent = "Loading saved stories.";
   searchInput.placeholder = "Loading stories";
   storyGrid.replaceChildren(createTextBlock("div", "empty-state", "Loading collections and stories…"));
 
   let githubError = null;
-  try {
-    await loadLibrary();
-  } catch (error) {
-    githubError = error;
-    console.warn("The GitHub library could not be loaded:", error);
+  if (GITHUB_LIBRARY.enabled !== false) {
+    try {
+      await loadLibrary();
+    } catch (error) {
+      githubError = error;
+      console.warn("The GitHub library could not be loaded:", error);
+      state.githubCollections = [];
+      state.githubStories = [];
+    }
+  } else {
     state.githubCollections = [];
     state.githubStories = [];
   }
@@ -26,18 +31,18 @@ async function initializeLibrary() {
 
   if (state.stories.length || state.collections.length) {
     showCollections(false);
-    if (githubError) showToast("Built-in GitHub stories are unavailable; showing locally saved content");
+    if (githubError) showToast("Optional built-in stories are unavailable; showing saved content");
   } else {
     state.currentView = "collections";
     updateMainPageActions();
-    libraryTitle.textContent = "Library could not be loaded";
-    librarySubtitle.textContent = "No built-in or locally saved stories are available.";
-    searchInput.placeholder = "Library unavailable";
+    libraryTitle.textContent = "No saved stories";
+    librarySubtitle.textContent = "Import a directory or sign in from Settings to synchronize your library.";
+    searchInput.placeholder = "No stories available";
     storyGrid.replaceChildren(
       createTextBlock(
         "div",
         "empty-state",
-        `${githubError?.message || "No stories were found."} You can still sign in and synchronize Firebase from Settings.`
+        `${githubError?.message || "No stories are saved on this device yet."} You can still sign in and synchronize Firebase from Settings.`
       )
     );
   }

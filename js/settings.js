@@ -74,6 +74,7 @@ const MOBILE_QUERY = window.matchMedia("(max-width: 900px)");
 const LONG_PRESS_MS = 560;
 
 const GITHUB_LIBRARY = Object.freeze({
+  enabled: false,
   owner: "02Henry20",
   repo: "korean_reader",
   branch: "main",

@@ -9,8 +9,8 @@ browser's IndexedDB first, while settings, bookmarks, and read state are stored
 locally. After email/password sign-in, the app synchronizes collections, stories,
 reader state, and deletion markers through Firestore.
 
-Thumbnail files are never uploaded to Firebase. Built-in thumbnails load from paths
-stored in the repository, while manually selected thumbnail files remain only in the
+Thumbnail files are never uploaded to Firebase. Repository thumbnails load from paths
+stored in story records, while manually selected thumbnail files remain only in the
 browser's IndexedDB on the device where they were imported. Synchronization shows
 determinate progress for Firestore records.
 
@@ -44,8 +44,8 @@ The contextual **Add** button changes by location:
 - **Delete stories** enters story-delete mode.
 
 Delete mode is intentionally separate from ordinary navigation. Click **Done** to
-leave it. Deletions are stored locally and synchronized as deletion markers, so
-GitHub-provided stories can also remain hidden on other signed-in devices.
+leave it. Deletions are stored locally and synchronized as deletion markers across
+signed-in devices.
 
 ### Recommended imported directory
 
@@ -230,14 +230,9 @@ Active reader-state module. It contains:
 
 ## `js/library.js`
 
-Loads the built-in GitHub library, validates stories, normalizes JSON, and retains a
-separate GitHub source snapshot before local/cloud content is merged.
-
-Built-in loading order:
-
-1. same-origin `library/manifest.json`;
-2. jsDelivr file listing;
-3. GitHub recursive tree API.
+Contains the optional built-in library loader. It is currently disabled because the
+repository hosts the static app and thumbnail files only; story data comes from
+IndexedDB imports and Firestore synchronization.
 
 ## `js/stories.js`
 
@@ -267,16 +262,16 @@ Collection/reader navigation and contextual visibility of Settings and Add contr
 
 Startup sequence:
 
-1. load built-in GitHub stories;
+1. skip the disabled built-in GitHub story loader;
 2. load local IndexedDB stories and deletions;
-3. show the merged local library;
+3. show the local library if it exists;
 4. initialize Firebase Authentication;
 5. merge cloud content after sign-in.
 
 ## Existing modules
 
 - `storage.js`: safe localStorage wrappers.
-- `settings.js`: themes, appearances, fonts, defaults, and GitHub source settings.
+- `settings.js`: themes, appearances, fonts, defaults, and built-in library settings.
 - `app.js`: shared state and DOM references.
 - `grammar.js`: grammar rendering and mobile bottom sheet.
 - `interactions.js`: word popup and variant menu.
