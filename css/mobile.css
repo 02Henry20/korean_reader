@@ -119,12 +119,34 @@
     z-index: 4;
     top: 0;
     display: block;
-    width: 46px;
+    width: min(190px, 62%);
+    height: 30px;
+    margin: -6px auto 0;
+    background: transparent;
+    cursor: grab;
+    touch-action: none;
+  }
+
+  .detail-drag-handle::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 58px;
     height: 5px;
-    margin: 0 auto 5px;
     border-radius: 999px;
-    background: color-mix(in srgb, var(--muted) 52%, transparent);
+    background: color-mix(in srgb, var(--muted) 56%, transparent);
     box-shadow: 0 8px 20px color-mix(in srgb, var(--ink) 8%, transparent);
+    transform: translateX(-50%);
+  }
+
+  .detail-drag-handle:active {
+    cursor: grabbing;
+  }
+
+  /* Mobile grammar is dismissed by tapping outside or swiping downward. */
+  .close-detail {
+    display: none;
   }
 
   .detail-content {

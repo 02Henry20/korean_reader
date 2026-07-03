@@ -165,3 +165,14 @@
 .word-note {
   color: var(--word-popover-muted, rgba(255, 255, 255, 0.72));
 }
+
+
+/* Dracula needs darker heading colors on the light surface. */
+:root[data-appearance="light"][data-theme="dracula"] #libraryTitle {
+  color: #3f294f;
+  text-shadow: 0 10px 34px rgba(111, 82, 168, 0.14);
+}
+
+:root[data-appearance="light"][data-theme="dracula"] #libraryEyebrow {
+  color: #653a8f;
+}

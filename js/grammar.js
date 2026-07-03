@@ -75,26 +75,8 @@ function scrollSelectedSentenceToMobileTop(sentenceElement) {
   return smooth ? 150 : 0;
 }
 
-function ensureMobileGrammarHistoryEntry() {
-  if (!MOBILE_QUERY.matches || state.mobileGrammarHistoryActive) return;
-
-  const current = history.state;
-  const readerState = current?.view === "reader"
-    ? current
-    : {
-        view: "reader",
-        storyId: state.activeStory?.id || "",
-        collectionId: state.activeCollectionId || ""
-      };
-
-  history.pushState({...readerState, grammarPanel: true}, "", window.location.href);
-  state.mobileGrammarHistoryActive = true;
-  state.mobileGrammarHistoryClosing = false;
-}
-
 function openMobileGrammarSheet(sentenceElement) {
   clearTimeout(state.detailCloseTimer);
-  ensureMobileGrammarHistoryEntry();
   document.body.classList.add("mobile-grammar-open");
   const revealDelay = scrollSelectedSentenceToMobileTop(sentenceElement);
   detailBackdrop.hidden = false;
@@ -235,17 +217,7 @@ function clearSentenceSelection() {
   clearGrammarSelection();
 }
 
-function dismissGrammarDetails() {
-  if (MOBILE_QUERY.matches && state.mobileGrammarHistoryActive) {
-    state.mobileGrammarHistoryClosing = true;
-    clearDetails({preserveHistoryState: true});
-    history.back();
-    return;
-  }
-  clearDetails();
-}
-
-function clearDetails(options = {}) {
+function clearDetails() {
   const closingMobileSheet = MOBILE_QUERY.matches && detailPanel.classList.contains("detail-panel-open");
   clearGrammarSelection();
   state.activeGrammarContext = null;
@@ -259,11 +231,6 @@ function clearDetails(options = {}) {
   detailBackdrop.setAttribute("aria-hidden", "true");
   document.body.style.overflow = "";
   document.body.classList.remove("mobile-grammar-open");
-
-  if (!options.preserveHistoryState) {
-    state.mobileGrammarHistoryActive = false;
-    state.mobileGrammarHistoryClosing = false;
-  }
 
   const finishClose = () => {
     if (detailPanel.classList.contains("detail-panel-open")) return;
@@ -280,13 +247,22 @@ function clearDetails(options = {}) {
 }
 
 function initializeGrammarSheetGestures() {
-  detailBackdrop.addEventListener("click", dismissGrammarDetails);
+  detailBackdrop.addEventListener("click", clearDetails);
 
   detailPanel.addEventListener("pointerdown", (event) => {
     if (!MOBILE_QUERY.matches || !detailPanel.classList.contains("detail-panel-open")) return;
+
     const rect = detailPanel.getBoundingClientRect();
-    const startedNearTop = event.clientY - rect.top <= 86;
-    if (!startedNearTop || detailPanel.scrollTop > 1) return;
+    const distanceFromPanelTop = event.clientY - rect.top;
+    const startedInExpandedHandleZone = distanceFromPanelTop <= 150;
+    const panelIsAtTop = detailPanel.scrollTop <= 2;
+
+    /*
+     * The upper 150 px act as an enlarged drag area at any scroll position.
+     * When the grammar panel is already scrolled to the top, a downward swipe
+     * may begin anywhere inside the panel.
+     */
+    if (!startedInExpandedHandleZone && !panelIsAtTop) return;
 
     state.detailDrag = {
       pointerId: event.pointerId,
@@ -295,6 +271,10 @@ function initializeGrammarSheetGestures() {
       startedAt: performance.now(),
       dragging: false
     };
+
+    try {
+      detailPanel.setPointerCapture(event.pointerId);
+    } catch {}
   });
 
   detailPanel.addEventListener("pointermove", (event) => {
@@ -316,6 +296,12 @@ function initializeGrammarSheetGestures() {
     if (!drag || drag.pointerId !== event.pointerId) return;
     state.detailDrag = null;
 
+    try {
+      if (detailPanel.hasPointerCapture(event.pointerId)) {
+        detailPanel.releasePointerCapture(event.pointerId);
+      }
+    } catch {}
+
     const distance = Math.max(0, drag.lastY - drag.startY);
     const elapsed = Math.max(1, performance.now() - drag.startedAt);
     const velocity = distance / elapsed;
@@ -323,8 +309,8 @@ function initializeGrammarSheetGestures() {
     detailPanel.style.removeProperty("transition");
     detailBackdrop.style.removeProperty("opacity");
 
-    if (drag.dragging && (distance > 92 || velocity > 0.65)) {
-      dismissGrammarDetails();
+    if (drag.dragging && (distance > 68 || velocity > 0.48)) {
+      clearDetails();
       return;
     }
 
