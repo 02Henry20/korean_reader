@@ -216,23 +216,9 @@ Contains variant grouping, selected-version persistence, collection filtering, v
 
 ## `js/thumbnails.js`
 
-External thumbnails, automatic card-SVG discovery, SVG sanitization/recoloring, richer generic artwork, and pointer-based card tilt.
+External story thumbnails, character-based fallbacks, collection monograms, and pointer-based card tilt.
 
-Automatic SVG locations:
-
-```text
-library/<collection-folder>/directory.svg
-library/<collection-folder>/<story-json-filename-without-.json>/story.svg
-```
-
-Alternative asset locations are also supported:
-
-```text
-assets/directory-svg/<collection-id>/directory.svg
-assets/directory-svg/<collection-id>/<story-id>/story.svg
-```
-
-A collection JSON may explicitly set `directorySvg`, and a story JSON may set `storySvg`. Relative explicit paths are resolved relative to that JSON file. Every loaded SVG is recolored to the collection or story accent.
+Card SVG loading is intentionally not supported. Collection cards use the `monogram` from collection metadata, and stories without an external thumbnail reuse that collection character as their visual mark.
 
 Use this file with `css/thumbnails.css`, `css/cards.css`, and `css/directories.css` for card-art changes.
 
@@ -323,9 +309,9 @@ It does not register a service worker. Installed-app metadata comes from `site.w
 | `settings.css` | Settings backdrop, panel, and controls |
 | `mobile.css` | Responsive cards and lower-half mobile grammar bottom sheet |
 | `animations.css` | Staggered card entrances, reader entrance, ambient motion, plus reduced/disabled modes |
-| `directories.css` | Collection headings, SVG artwork, and counts |
+| `directories.css` | Collection headings, prominent character monograms, and counts |
 | `themes.css` | Settings button, variant menu, and story-version labels on cards |
-| `thumbnails.css` | Story artwork, generic/custom SVG coloring, and responsive sizes |
+| `thumbnails.css` | External story covers, character fallbacks, and responsive sizes |
 
 # Story and grammar JSON
 

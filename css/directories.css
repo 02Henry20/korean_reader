@@ -1,4 +1,6 @@
-[hidden] { display: none !important; }
+[hidden] {
+  display: none !important;
+}
 
 .library-header {
   align-items: center;
@@ -37,20 +39,78 @@
   margin-top: 18px;
 }
 
+/*
+ * Collection artwork is intentionally typographic again. The collection's
+ * monogram—normally a Han character such as 文—is the entire visual focus.
+ */
 .collection-artwork {
   position: relative;
-  width: 82px;
-  height: 82px;
+  display: grid;
+  width: 92px;
+  height: 88px;
   flex: 0 0 auto;
-  color: var(--card-accent);
-  filter: drop-shadow(0 14px 18px color-mix(in srgb, var(--card-accent) 20%, transparent));
-  transform: rotate(-3deg) translateZ(24px);
-  transition: transform 240ms cubic-bezier(.2,.8,.2,1), filter 220ms ease;
+  place-items: center;
+  color: var(--card-accent-strong);
+  isolation: isolate;
+  transform: rotate(-2deg) translateZ(24px);
+  transition:
+    transform 240ms cubic-bezier(.2,.8,.2,1),
+    filter 220ms ease;
+}
+
+.collection-artwork::before,
+.collection-artwork::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.collection-artwork::before {
+  inset: 13px 4px 5px 9px;
+  border-radius: 31% 69% 56% 44% / 57% 40% 60% 43%;
+  background:
+    linear-gradient(145deg,
+      color-mix(in srgb, var(--card-accent) 17%, transparent),
+      color-mix(in srgb, var(--card-soft) 72%, transparent));
+  transform: rotate(-8deg);
+}
+
+.collection-artwork::after {
+  right: 5px;
+  bottom: 8px;
+  width: 64px;
+  height: 8px;
+  border-radius: 999px 38% 999px 45%;
+  background: color-mix(in srgb, var(--card-accent) 42%, transparent);
+  filter: blur(.2px);
+  transform: rotate(-6deg);
+}
+
+.collection-monogram-symbol {
+  display: block;
+  font-family: var(--font-reading);
+  font-size: clamp(3.15rem, 5vw, 4.15rem);
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: -.09em;
+  text-shadow:
+    0 3px 0 color-mix(in srgb, var(--card-bg) 80%, transparent),
+    0 16px 26px color-mix(in srgb, var(--card-accent) 23%, transparent);
+  transform: translate(-2px, -2px);
+  transition: transform 220ms cubic-bezier(.2,.8,.2,1), text-shadow 220ms ease;
 }
 
 .collection-card:hover .collection-artwork {
+  filter: drop-shadow(0 18px 24px color-mix(in srgb, var(--card-accent) 20%, transparent));
   transform: rotate(2deg) translateY(-4px) translateZ(30px) scale(1.06);
-  filter: drop-shadow(0 18px 24px color-mix(in srgb, var(--card-accent) 28%, transparent));
+}
+
+.collection-card:hover .collection-monogram-symbol {
+  text-shadow:
+    0 3px 0 color-mix(in srgb, var(--card-bg) 82%, transparent),
+    0 19px 30px color-mix(in srgb, var(--card-accent) 31%, transparent);
+  transform: translate(-2px, -4px) scale(1.035);
 }
 
 .collection-topline {
@@ -120,7 +180,8 @@
   .library-header {
     grid-template-columns: 1fr;
   }
-.library-heading-group h1 {
+
+  .library-heading-group h1 {
     font-size: clamp(2.15rem, 12vw, 3rem);
   }
 
@@ -131,5 +192,14 @@
 
   .collection-card h2 {
     max-width: 72%;
+  }
+
+  .collection-artwork {
+    width: 76px;
+    height: 72px;
+  }
+
+  .collection-monogram-symbol {
+    font-size: 3.15rem;
   }
 }

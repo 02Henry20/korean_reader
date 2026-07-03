@@ -326,7 +326,6 @@ function normalizeCollection(info = {}, fallbackPath = "") {
     },
     sourcePath: String(info.sourcePath || ""),
     sourceDirectory: String(info.sourceDirectory || fallbackPath || ""),
-    cardSvg: String(info.directorySvg || info.cardSvg || info.svg || ""),
     storyCount: Number(info.storyCount) || 0,
     sort: String(info.sort || "order")
   };
@@ -365,7 +364,6 @@ function normalizeStory(story, sourceName = "Imported story", fallbackCollection
     sourcePath: String(story.sourcePath || ""),
     sourceDirectory: String(story.sourceDirectory || ""),
     sourceFileName: String(story.sourceFileName || sourceName || ""),
-    cardSvg: String(story.storySvg || story.cardSvg || story.svg || ""),
     author: String(story.author || story.metadata?.author || ""),
     tags: Array.isArray(story.tags) ? story.tags.map(String) : [],
     preferredFont: String(story.preferredFont || story.readingFont || story.font || ""),

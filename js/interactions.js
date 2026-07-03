@@ -26,21 +26,46 @@ function showWordPopover(word, clientX, clientY, wordElement = null) {
   wordPopover.classList.add("word-popover-visible");
 
   if (!MOBILE_QUERY.matches) {
-    requestAnimationFrame(() => positionWordPopover(clientX, clientY));
+    requestAnimationFrame(() => positionWordPopover(wordElement, clientX, clientY));
   }
 }
 
-function positionWordPopover(clientX, clientY) {
-  const rect = wordPopover.getBoundingClientRect();
+function positionWordPopover(wordElement, fallbackX = 0, fallbackY = 0) {
+  const popoverRect = wordPopover.getBoundingClientRect();
+  const anchorRect = wordElement?.getBoundingClientRect?.();
   const margin = 14;
-  let left = clientX + 12;
-  let top = clientY + 12;
+  const gap = 10;
 
-  if (left + rect.width > window.innerWidth - margin) left = clientX - rect.width - 12;
-  if (top + rect.height > window.innerHeight - margin) top = clientY - rect.height - 12;
+  /*
+   * Anchor translations to the word itself instead of the mouse coordinates.
+   * The preferred placement is slightly to the lower-right of the word. If
+   * there is not enough room, the popup flips above it and remains clamped
+   * inside the viewport.
+   */
+  let left = anchorRect
+    ? anchorRect.left + Math.min(10, anchorRect.width * 0.35)
+    : fallbackX + 12;
+  let top = anchorRect
+    ? anchorRect.bottom + gap
+    : fallbackY + 12;
 
-  wordPopover.style.left = `${Math.max(margin, left)}px`;
-  wordPopover.style.top = `${Math.max(margin, top)}px`;
+  if (left + popoverRect.width > window.innerWidth - margin) {
+    left = anchorRect
+      ? anchorRect.right - popoverRect.width
+      : fallbackX - popoverRect.width - 12;
+  }
+
+  if (top + popoverRect.height > window.innerHeight - margin) {
+    top = anchorRect
+      ? anchorRect.top - popoverRect.height - gap
+      : fallbackY - popoverRect.height - 12;
+  }
+
+  const maxLeft = Math.max(margin, window.innerWidth - popoverRect.width - margin);
+  const maxTop = Math.max(margin, window.innerHeight - popoverRect.height - margin);
+
+  wordPopover.style.left = `${Math.min(maxLeft, Math.max(margin, left))}px`;
+  wordPopover.style.top = `${Math.min(maxTop, Math.max(margin, top))}px`;
 }
 
 function hideWordPopover() {

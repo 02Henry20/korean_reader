@@ -140,34 +140,16 @@ The normalizer accepts several older or alternative field names:
 - `example` → one-item `examples` list
 
 
-## Optional card SVG artwork
+## Card characters and thumbnails
 
-Collection metadata may explicitly point to its card illustration:
+Collection cards use the collection metadata's `monogram` field as their visual character:
 
 ```json
 {
   "type": "collection",
   "id": "fairy-tales",
-  "directorySvg": "./directory.svg"
+  "monogram": "文"
 }
 ```
 
-A story may do the same:
-
-```json
-{
-  "id": "snow-white",
-  "storySvg": "./snow-white/story.svg"
-}
-```
-
-Relative paths are resolved from the JSON file. Without explicit fields, the reader checks these conventions:
-
-```text
-library/<collection-folder>/directory.svg
-library/<collection-folder>/<story-json-filename-without-.json>/story.svg
-assets/directory-svg/<collection-id>/directory.svg
-assets/directory-svg/<collection-id>/<story-id>/story.svg
-```
-
-The app replaces visible SVG fills and strokes with the active card accent. Use opacity and shape layering to create multiple accent shades; do not rely on fixed internal colors.
+Stories may still reference an external raster or regular image thumbnail through `thumbnail`. Stories without one display their collection's monogram instead. Card-specific SVG fields such as `directorySvg` and `storySvg` are not used.

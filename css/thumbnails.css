@@ -13,12 +13,14 @@
   z-index: 2;
   top: 82px;
   right: 27px;
+  display: grid;
   width: 90px;
   height: 120px;
   overflow: hidden;
+  place-items: center;
   border: 1px solid color-mix(in srgb, var(--card-accent) 22%, rgba(255,255,255,.72));
   border-radius: 17px;
-  color: var(--card-accent);
+  color: var(--card-accent-strong);
   background:
     linear-gradient(145deg,
       color-mix(in srgb, var(--card-soft) 84%, var(--card-bg)),
@@ -39,73 +41,63 @@
     inset 0 0 0 1px rgba(255,255,255,.42);
 }
 
-.story-thumbnail img,
-.card-svg-art svg {
+.story-thumbnail img {
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-.card-svg-art {
-  color: var(--art-accent, var(--card-accent));
-}
-
-.card-svg-art svg {
+/* No generated or user-provided SVG artwork: missing covers use the collection character. */
+.story-monogram-thumbnail {
   overflow: visible;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  isolation: isolate;
 }
 
-.card-svg-art .art-soft {
-  fill: currentColor;
-  opacity: .16;
+.story-monogram-thumbnail::before,
+.story-monogram-thumbnail::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
 }
 
-.card-svg-art .art-line {
-  fill: color-mix(in srgb, currentColor 12%, transparent);
-  stroke: currentColor;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+.story-monogram-thumbnail::before {
+  inset: 12px 2px 10px 7px;
+  border-radius: 43% 57% 38% 62% / 61% 39% 61% 39%;
+  background:
+    linear-gradient(145deg,
+      color-mix(in srgb, var(--card-accent) 15%, transparent),
+      color-mix(in srgb, var(--card-soft) 75%, transparent));
+  transform: rotate(7deg);
 }
 
-.card-svg-art .art-detail {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 3;
-  stroke-linecap: round;
-  opacity: .64;
+.story-monogram-thumbnail::after {
+  right: 4px;
+  bottom: 15px;
+  width: 67px;
+  height: 7px;
+  border-radius: 999px 38% 999px 44%;
+  background: color-mix(in srgb, var(--card-accent) 38%, transparent);
+  transform: rotate(-7deg);
 }
 
-.card-svg-art .art-wave {
-  fill: currentColor;
-  opacity: .25;
-}
-
-.card-svg-art .art-orbit {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 3;
-  stroke-linecap: round;
-  opacity: .48;
-}
-
-.card-svg-art .art-symbol {
-  fill: var(--card-accent-strong);
+.story-monogram-symbol {
   font-family: var(--font-reading);
-  font-size: 19px;
-  font-weight: 900;
+  font-size: 4.25rem;
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: -.1em;
+  text-shadow:
+    0 3px 0 color-mix(in srgb, var(--card-bg) 84%, transparent),
+    0 16px 26px color-mix(in srgb, var(--card-accent) 26%, transparent);
+  transform: translate(-3px, -4px);
 }
 
-.card-svg-art .art-symbol-large {
-  font-size: 38px;
-  opacity: .7;
-}
-
-.external-card-svg {
-  color: var(--art-accent, var(--card-accent));
-  filter: drop-shadow(0 10px 18px color-mix(in srgb, currentColor 18%, transparent));
-}
-
-.story-thumbnail::after {
+.story-thumbnail:not(.story-monogram-thumbnail)::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -127,8 +119,7 @@
     border-radius: 14px;
   }
 
-  .collection-artwork {
-    width: 68px;
-    height: 68px;
+  .story-monogram-symbol {
+    font-size: 3.5rem;
   }
 }
