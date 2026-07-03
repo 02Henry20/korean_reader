@@ -332,11 +332,12 @@
 }
 
 .settings-preview-stage[data-preview-animation="reduced"] .settings-preview-orb {
-  animation: settingsPreviewFloat 4s ease-in-out infinite alternate;
+  animation: settingsPreviewReducedDrift 7.2s ease-in-out infinite;
 }
 
 .settings-preview-stage[data-preview-animation="reduced"] .settings-preview-trail {
-  opacity: .45;
+  opacity: .28;
+  animation: none;
 }
 
 .settings-preview-stage[data-preview-animation="none"] .settings-preview-orb,
@@ -351,6 +352,22 @@
 
 @keyframes settingsPreviewOrbit {
   to { transform: rotate(343deg); }
+}
+
+/* Reduced motion stays mostly still and makes one small movement per cycle. */
+@keyframes settingsPreviewReducedDrift {
+  0%, 68%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: .72;
+  }
+  78% {
+    transform: translate3d(3px, -2px, 0) scale(1.025);
+    opacity: .9;
+  }
+  88% {
+    transform: translate3d(1px, 1px, 0) scale(1.01);
+    opacity: .78;
+  }
 }
 
 .settings-section {
@@ -652,29 +669,117 @@
   }
 
   .settings-live-preview {
-    top: 70px;
-    padding: 9px;
-    border-radius: 19px;
+    top: 66px;
+    padding: 7px;
+    border-radius: 17px;
+    box-shadow: 0 10px 26px rgba(20, 34, 30, .12);
+  }
+
+  .settings-preview-heading {
+    margin: 0 2px 6px;
+  }
+
+  .settings-preview-heading .eyebrow {
+    margin-bottom: 0;
+    font-size: .57rem;
+  }
+
+  .settings-preview-heading strong {
+    font-size: .75rem;
   }
 
   .settings-preview-stage {
-    min-height: 208px;
+    min-height: 158px;
+    border-radius: 14px;
+  }
+
+  .settings-preview-toolbar {
+    min-height: 34px;
+    padding: 4px 7px;
+    font-size: .68rem;
+  }
+
+  .settings-preview-brand-mark,
+  .settings-preview-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
   }
 
   .settings-preview-reading {
-    padding: 10px 11px 7px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 5px 6px;
+    padding: 7px 8px 5px;
   }
 
   .settings-preview-korean {
-    font-size: clamp(.96rem, calc(var(--preview-story-size) * .86), 1.45rem);
+    grid-column: 1 / -1;
+    margin-bottom: 1px;
+    font-size: clamp(.88rem, calc(var(--preview-story-size) * .72), 1.18rem);
+    line-height: min(var(--preview-line-height), 1.78);
+  }
+
+  .settings-preview-translation {
+    width: 100%;
+    margin: 0;
+    padding: 6px 7px;
+    border-radius: 9px;
+    font-size: .61rem;
+  }
+
+  .settings-preview-translation small {
+    display: none;
+  }
+
+  .settings-preview-grammar {
+    min-width: 0;
+    padding: 6px 7px;
+    border-left-width: 2px;
+    border-radius: 0 8px 8px 0;
+    font-size: .58rem;
+  }
+
+  .settings-preview-grammar strong {
+    margin-bottom: 2px;
+  }
+
+  .settings-preview-grammar p {
+    display: -webkit-box;
+    overflow: hidden;
+    line-height: 1.28;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
   }
 
   .settings-preview-grammar dl {
     grid-template-columns: 1fr;
+    gap: 1px;
   }
 
-  .settings-preview-grammar dl div:nth-child(n+3) {
+  .settings-preview-grammar dl div:nth-child(n+2) {
     display: none;
+  }
+
+  .settings-preview-vocabulary {
+    grid-column: 1 / -1;
+    margin-top: 0;
+    font-size: .58rem;
+  }
+
+  .settings-preview-footer {
+    padding: 4px 8px;
+    font-size: .54rem;
+  }
+
+  .settings-preview-orb {
+    width: 24px;
+    height: 24px;
+  }
+
+  .settings-preview-trail {
+    width: 68px;
+    height: 42px;
   }
 
   .setting-row {
@@ -720,4 +825,12 @@
     animation: none !important;
     transition-duration: .01ms !important;
   }
+}
+
+/* Keep the reduced preview calm even while the app itself uses reduced motion. */
+html[data-animation="reduced"] .settings-preview-stage[data-preview-animation="reduced"] .settings-preview-orb {
+  animation-name: settingsPreviewReducedDrift !important;
+  animation-duration: 7.2s !important;
+  animation-timing-function: ease-in-out !important;
+  animation-iteration-count: infinite !important;
 }

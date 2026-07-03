@@ -1,8 +1,7 @@
 html[data-animation="reduced"] *,
 html[data-animation="reduced"] *::before,
 html[data-animation="reduced"] *::after {
-  transition-duration: 90ms !important;
-  animation-duration: 120ms !important;
+  transition-duration: 120ms !important;
 }
 
 html[data-animation="none"] *,
@@ -82,4 +81,85 @@ html[data-animation="full"] .ambient-b {
 html[data-animation="full"] .icon-button:active,
 html[data-animation="full"] .button:active {
   transform: scale(.92);
+}
+
+
+@keyframes reduced-arrive {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes mobile-header-arrive {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes mobile-toolbar-arrive {
+  from { opacity: 0; transform: translateY(8px) scale(.992); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes mobile-reader-header-arrive {
+  from { opacity: 0; transform: translateY(-7px) scale(.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes mobile-setting-arrive {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Reduced mode uses quick one-time entrances, never fast looping motion. */
+html[data-animation="reduced"] .view-active .story-card,
+html[data-animation="reduced"] .reader-view.view-active .story-content {
+  animation: reduced-arrive 180ms ease-out both;
+}
+
+@media (max-width: 900px) {
+  /* Mobile gets restrained page entrances and tactile feedback. */
+  html[data-animation="full"] .library-view.view-active .library-header,
+  html[data-animation="full"] #libraryView.view-active .library-header {
+    animation: mobile-header-arrive 360ms cubic-bezier(.2,.82,.2,1) both;
+  }
+
+  html[data-animation="full"] .library-view.view-active .library-toolbar,
+  html[data-animation="full"] #libraryView.view-active .library-toolbar {
+    animation: mobile-toolbar-arrive 390ms 55ms cubic-bezier(.2,.82,.2,1) both;
+  }
+
+  html[data-animation="full"] .reader-view.view-active .reader-header {
+    animation: mobile-reader-header-arrive 330ms cubic-bezier(.2,.82,.2,1) both;
+  }
+
+  html[data-animation="full"] .settings-panel-open .settings-live-preview {
+    animation: mobile-setting-arrive 300ms 55ms cubic-bezier(.2,.82,.2,1) both;
+  }
+
+  html[data-animation="full"] .settings-panel-open .settings-section {
+    animation: mobile-setting-arrive 300ms cubic-bezier(.2,.82,.2,1) both;
+  }
+
+  html[data-animation="full"] .settings-panel-open .settings-section:nth-of-type(2) { animation-delay: 75ms; }
+  html[data-animation="full"] .settings-panel-open .settings-section:nth-of-type(3) { animation-delay: 105ms; }
+  html[data-animation="full"] .settings-panel-open .settings-section:nth-of-type(4) { animation-delay: 135ms; }
+  html[data-animation="full"] .settings-panel-open .settings-section:nth-of-type(5) { animation-delay: 165ms; }
+
+  html[data-animation="full"] .search-box:focus-within svg {
+    transform: scale(1.08) rotate(-4deg);
+    transition: transform 180ms cubic-bezier(.2,.82,.2,1);
+  }
+
+  html[data-animation="full"] .story-card:active {
+    transform: perspective(1000px) translateY(1px) scale(.982);
+  }
+
+  html[data-animation="full"] .story-card:active h2 {
+    transform: translateX(2px) scale(1.008);
+  }
+
+  html[data-animation="full"] .icon-button:active,
+  html[data-animation="full"] .button:active,
+  html[data-animation="full"] .settings-choice:active {
+    transform: scale(.955);
+  }
 }
