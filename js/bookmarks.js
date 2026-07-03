@@ -70,6 +70,22 @@ function setBookmarkFromWord(wordElement) {
     surface: wordElement.dataset.surface || wordElement.textContent || ""
   };
 
+  const current = storyBookmark(state.activeStory.id);
+  const sameBookmark = current &&
+    Number(current.paragraphIndex) === bookmark.paragraphIndex &&
+    Number(current.sentenceIndex) === bookmark.sentenceIndex &&
+    Number(current.wordIndex) === bookmark.wordIndex;
+
+  if (sameBookmark) {
+    writeReaderState(state.activeStory.id, {bookmark: null});
+    state.bookmarkMode = false;
+    document.body.classList.remove("bookmark-placement-mode");
+    markRenderedBookmark(null);
+    updateBookmarkButton();
+    showToast("Bookmark removed");
+    return true;
+  }
+
   writeReaderState(state.activeStory.id, {bookmark});
   state.bookmarkMode = false;
   document.body.classList.remove("bookmark-placement-mode");

@@ -104,22 +104,47 @@
 
 .story-read-button-active {
   color: white;
-  background: color-mix(in srgb, var(--card-accent) 76%, #626a67);
+  background: #747a76;
 }
 
 .story-card-read {
-  filter: saturate(0.28);
-  opacity: 0.7;
+  --card-accent: #767d79 !important;
+  --card-accent-strong: #5f6662 !important;
+  --card-soft: #e0e3e0 !important;
+  --card-muted: #737976 !important;
+  --card-shine: #9aa09c !important;
+  filter: none;
+  opacity: 0.74;
 }
 
 .story-card-read::before {
-  opacity: 0.18;
+  opacity: 0.1;
+}
+
+.story-card-read::after {
+  background:
+    linear-gradient(145deg,
+      color-mix(in srgb, #d8dbd8 92%, transparent),
+      color-mix(in srgb, #848b87 22%, transparent));
+}
+
+.story-card-read .story-thumbnail img {
+  filter: grayscale(1) contrast(.86);
+  opacity: .64;
 }
 
 .story-card-read:hover,
 .story-card-read:focus-visible {
-  filter: saturate(0.45);
+  filter: none;
   opacity: 0.86;
+}
+
+html[data-appearance="dark"] .story-card-read {
+  --card-accent: #8a918d !important;
+  --card-accent-strong: #c4cac6 !important;
+  --card-soft: #3a403d !important;
+  --card-muted: #a6ada9 !important;
+  --card-shine: #b6bdb9 !important;
 }
 
 .delete-mode-card {
@@ -226,6 +251,42 @@
 
 @keyframes firebaseStatusPulse {
   50% { transform: scale(0.88); opacity: 0.58; }
+}
+
+.firebase-sync-progress {
+  position: relative;
+  height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface-solid) 70%, var(--accent-soft));
+  opacity: 0;
+  transition: height 160ms ease, margin-top 160ms ease, opacity 160ms ease;
+}
+
+.firebase-sync-progress span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 42%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+  transform: translateX(-110%);
+}
+
+.firebase-sync-progress[data-status="loading"],
+.firebase-sync-progress[data-status="syncing"] {
+  height: 5px;
+  margin-top: 12px;
+  opacity: 1;
+}
+
+.firebase-sync-progress[data-status="loading"] span,
+.firebase-sync-progress[data-status="syncing"] span {
+  animation: firebaseProgressSlide 1.1s ease-in-out infinite;
+}
+
+@keyframes firebaseProgressSlide {
+  to { transform: translateX(245%); }
 }
 
 .firebase-auth-controls {
@@ -454,13 +515,9 @@
 
   .manage-library-button,
   .settings-button {
-    min-width: 48px;
-    padding: 0 13px;
-  }
-
-  .manage-library-button span,
-  .settings-button span {
-    display: none;
+    min-width: 0;
+    padding: 0 12px;
+    font-size: .86rem;
   }
 
   .story-read-button {
@@ -508,6 +565,7 @@
 @media (prefers-reduced-motion: reduce) {
   .bookmark-button-placing,
   .firebase-status-badge,
+  .firebase-sync-progress span,
   .library-import-spinner {
     animation: none !important;
   }

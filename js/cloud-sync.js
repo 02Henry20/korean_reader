@@ -15,6 +15,9 @@ function setFirebaseStatus(status, message, detail = "") {
     firebaseStatusBadge.dataset.status = status;
     firebaseStatusBadge.textContent = status === "synced" ? "✓" : status === "error" ? "!" : status === "offline" ? "○" : "…";
   }
+  if (firebaseSyncProgress) {
+    firebaseSyncProgress.dataset.status = status;
+  }
   if (firebaseStatusText) firebaseStatusText.textContent = message;
   if (firebaseAccountText) firebaseAccountText.textContent = detail || (state.firebaseUser?.email || "Not signed in");
 

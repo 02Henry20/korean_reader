@@ -179,6 +179,13 @@
 @media (max-width: 600px) {
   .library-header {
     grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .library-heading-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .library-heading-group h1 {
@@ -188,6 +195,12 @@
   .library-back {
     width: 42px;
     height: 42px;
+    margin: 0;
+    justify-self: start;
+  }
+
+  .library-copy {
+    width: 100%;
   }
 
   .collection-card h2 {

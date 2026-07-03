@@ -68,7 +68,7 @@ function normalizeGrammarItem(item, sentence = null) {
 
 function scrollSelectedSentenceToMobileTop(sentenceElement) {
   const header = document.querySelector(".reader-header");
-  const headerOffset = (header?.getBoundingClientRect().height || 70) + 24;
+  const headerOffset = (header?.getBoundingClientRect().height || 70) + 6;
   const target = Math.max(0, window.scrollY + sentenceElement.getBoundingClientRect().top - headerOffset);
   const smooth = state.settings.animationIntensity === "full" && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   window.scrollTo({top: target, behavior: smooth ? "smooth" : "auto"});

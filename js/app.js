@@ -36,6 +36,7 @@ const state = {
   libraryDeleteMode: null,
   bookmarkMode: false,
   pendingStoryImport: null,
+  storyImportMode: "add",
 };
 
 const libraryView = document.getElementById("libraryView");
@@ -75,6 +76,7 @@ const readerSizeOutput = document.getElementById("readerSizeOutput");
 const lineSpacingOutput = document.getElementById("lineSpacingOutput");
 
 const firebaseStatusBadge = document.getElementById("firebaseStatusBadge");
+const firebaseSyncProgress = document.getElementById("firebaseSyncProgress");
 const firebaseStatusText = document.getElementById("firebaseStatusText");
 const firebaseAccountText = document.getElementById("firebaseAccountText");
 const firebaseEmailInput = document.getElementById("firebaseEmailInput");

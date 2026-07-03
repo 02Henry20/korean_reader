@@ -172,8 +172,8 @@
   .library-header {
     display: grid;
     align-items: start;
-    gap: 22px;
-    padding-top: 42px;
+    gap: 16px;
+    padding-top: 30px;
   }
 
   h1 {

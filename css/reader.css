@@ -94,7 +94,6 @@
     );
   box-shadow:
     var(--shadow-md),
-    inset 6px 0 0 color-mix(in srgb, var(--accent) 18%, transparent),
     inset 0 1px 0 color-mix(in srgb, var(--accent-soft) 52%, white),
     inset 0 0 90px color-mix(in srgb, var(--accent) 5%, transparent);
   backdrop-filter: blur(15px);
@@ -140,7 +139,7 @@
 }
 
 .story-content::after {
-  content: "";
+  content: none;
   position: absolute;
   top: 2rem;
   bottom: 2rem;

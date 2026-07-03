@@ -37,6 +37,18 @@ function openLibraryManager() {
         "plus",
         () => {
           closeLibraryManager();
+          state.storyImportMode = "add";
+          storyImportInput.value = "";
+          storyImportInput.click();
+        }
+      ),
+      createManageAction(
+        "Update story",
+        "Choose a replacement JSON file and keep the story's current thumbnail.",
+        "update",
+        () => {
+          closeLibraryManager();
+          state.storyImportMode = "update";
           storyImportInput.value = "";
           storyImportInput.click();
         }
@@ -87,11 +99,16 @@ function openLibraryManager() {
   });
 }
 
-function closeLibraryManager() {
+function closeLibraryManager(immediate = false) {
   if (!libraryManagePanel) return;
+  const closeImmediately = immediate === true;
   libraryManagePanel.classList.remove("library-manage-panel-open");
   libraryManagePanel.setAttribute("aria-hidden", "true");
   libraryManageBackdrop.classList.remove("library-manage-backdrop-open");
+  if (closeImmediately) {
+    libraryManageBackdrop.hidden = true;
+    return;
+  }
   window.setTimeout(() => {
     if (!libraryManageBackdrop.classList.contains("library-manage-backdrop-open")) {
       libraryManageBackdrop.hidden = true;
@@ -102,6 +119,7 @@ function closeLibraryManager() {
 function manageIcon(type) {
   if (type === "trash") return '<path d="M5 7h14M9 7V4h6v3m-8 0 1 13h8l1-13M10 11v5M14 11v5"/>';
   if (type === "folder") return '<path d="M3.5 6.5h6l2 2h9v10h-17Z"/><path d="M3.5 9h17"/>';
+  if (type === "update") return '<path d="M4 4v6h6"/><path d="M20 20v-6h-6"/><path d="M5.2 15.1A7.5 7.5 0 0 0 18.4 18"/><path d="M18.8 8.9A7.5 7.5 0 0 0 5.6 6"/>';
   return '<path d="M12 5v14M5 12h14"/>';
 }
 
@@ -131,6 +149,15 @@ function setLibraryManagerProgress(title, detail) {
     libraryManageBackdrop.classList.add("library-manage-backdrop-open");
     libraryManagePanel.classList.add("library-manage-panel-open");
   });
+}
+
+function showLibraryImportError(error) {
+  console.error(error);
+  if (libraryManageBackdrop.hidden) {
+    showToast(`Import failed: ${error.message}`);
+    return;
+  }
+  libraryManageBody.replaceChildren(createTextBlock("div", "library-import-error", error.message));
 }
 
 function jsonByteSize(value) {
@@ -307,17 +334,18 @@ async function importDirectoryFiles(fileList) {
       return;
     }
 
+    closeLibraryManager(true);
+    showToast(`Importing ${stories.length} stories locally`);
+
     const now = Date.now();
     const pendingDeletionClears = [];
     for (const [index, collection] of collections.entries()) {
-      setLibraryManagerProgress("Adding directory", `Saving ${collection.title}…`);
       await clearImportDeletionMarker("collection", collection.id, pendingDeletionClears);
       await saveCustomCollection({id: collection.id, collection, updatedAt: now + index}, {localOnly: true});
     }
 
     let importedCount = 0;
     for (const entry of stories) {
-      setLibraryManagerProgress("Adding directory", `Saving ${entry.story.title}…`);
       await clearImportDeletionMarker("story", entry.story.id, pendingDeletionClears);
       const thumbnailFile = importedThumbnailFile(fileMap, entry.file, entry.raw.thumbnail || entry.raw.cover || entry.raw.coverImage);
       const record = await buildStoryRecord(entry.story, thumbnailFile, now + collections.length + importedCount + 1);
@@ -326,13 +354,13 @@ async function importDirectoryFiles(fileList) {
     }
 
     await loadLocalLibraryIntoState();
-    closeLibraryManager();
+    directoryImportInput.value = "";
+    closeLibraryManager(true);
     renderLibrary(searchInput.value);
     syncImportedContentInBackground("Sign in to synchronize the imported directory.", pendingDeletionClears);
     showToast(`Added ${collections.length} director${collections.length === 1 ? "y" : "ies"} with ${importedCount} stories`);
   } catch (error) {
-    console.error(error);
-    libraryManageBody.replaceChildren(createTextBlock("div", "library-import-error", error.message));
+    showLibraryImportError(error);
   }
 }
 
@@ -377,6 +405,68 @@ async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.no
   };
 }
 
+function preservedStoryThumbnail(existingStory, existingRecord) {
+  const recordThumbnail = String(existingRecord?.story?.thumbnail || "").trim();
+  const storyThumbnail = String(existingStory?.thumbnail || "").trim();
+  const reusableUrl =
+    existingRecord?.thumbnailUrl ||
+    (/^(?:https?:|data:)/i.test(recordThumbnail) ? recordThumbnail : "") ||
+    (/^(?:https?:|data:)/i.test(storyThumbnail) ? storyThumbnail : "");
+
+  return {
+    thumbnailBlob: existingRecord?.thumbnailBlob || null,
+    thumbnailUrl: reusableUrl,
+    thumbnailStoragePath: existingRecord?.thumbnailStoragePath || existingStory?.thumbnailStoragePath || ""
+  };
+}
+
+async function updateExistingStoryFromFile(file) {
+  if (!file) return;
+  const collection = getCollection(state.activeCollectionId);
+  if (!collection) return;
+  setLibraryManagerProgress("Updating story", "Checking the selected JSON file…");
+
+  try {
+    const raw = await parseJsonFile(file);
+    const story = validateImportedStory(raw, file.name, collection.id);
+    const existingStory = state.stories.find((item) =>
+      item.id === story.id && item.collectionId === collection.id
+    );
+
+    if (!existingStory) {
+      throw new Error(`No existing story with ID "${story.id}" was found in this directory.`);
+    }
+
+    closeLibraryManager(true);
+    const existingRecord = state.localStories.find((record) => record.id === story.id);
+    const preserved = preservedStoryThumbnail(existingStory, existingRecord);
+    const storedStory = cleanForCloud({...story});
+    storedStory.sourceType = "custom";
+    storedStory.thumbnail = preserved.thumbnailUrl || "";
+
+    const pendingDeletionClears = [];
+    await clearImportDeletionMarker("story", story.id, pendingDeletionClears);
+    await saveCustomStory({
+      id: story.id,
+      story: storedStory,
+      thumbnailBlob: preserved.thumbnailBlob,
+      thumbnailUrl: preserved.thumbnailUrl,
+      thumbnailStoragePath: preserved.thumbnailStoragePath,
+      updatedAt: Date.now()
+    }, {localOnly: true});
+
+    state.storyImportMode = "add";
+    storyImportInput.value = "";
+    await loadLocalLibraryIntoState();
+    closeLibraryManager(true);
+    renderLibrary(searchInput.value);
+    syncImportedContentInBackground("Sign in to synchronize the updated story.", pendingDeletionClears);
+    showToast(`Updated ${story.title}`);
+  } catch (error) {
+    showLibraryImportError(error);
+  }
+}
+
 async function beginSingleStoryImport(file) {
   if (!file) return;
   const collection = getCollection(state.activeCollectionId);
@@ -388,6 +478,7 @@ async function beginSingleStoryImport(file) {
     const existing = state.stories.find((item) => item.id === story.id);
     if (existing && !window.confirm(`A story named “${existing.title}” already exists. Replace it?`)) return;
 
+    state.storyImportMode = "add";
     state.pendingStoryImport = {file, raw, story};
     libraryManageTitle.textContent = "Story thumbnail";
     libraryManageBody.replaceChildren(
@@ -415,19 +506,20 @@ async function finishSingleStoryImport(thumbnailFile) {
   setLibraryManagerProgress("Adding story", `Saving ${pending.story.title}…`);
 
   try {
+    closeLibraryManager(true);
     const pendingDeletionClears = [];
     await clearImportDeletionMarker("story", pending.story.id, pendingDeletionClears);
     const record = await buildStoryRecord(pending.story, thumbnailFile, Date.now());
     await saveCustomStory(record, {localOnly: true});
     state.pendingStoryImport = null;
+    storyThumbnailInput.value = "";
     await loadLocalLibraryIntoState();
-    closeLibraryManager();
+    closeLibraryManager(true);
     renderLibrary(searchInput.value);
     syncImportedContentInBackground("Sign in to synchronize the imported story.", pendingDeletionClears);
     showToast(`Added ${pending.story.title}`);
   } catch (error) {
-    console.error(error);
-    libraryManageBody.replaceChildren(createTextBlock("div", "library-import-error", error.message));
+    showLibraryImportError(error);
   }
 }
 
@@ -491,7 +583,11 @@ libraryManageButton?.addEventListener("click", openLibraryManager);
 closeLibraryManageButton?.addEventListener("click", closeLibraryManager);
 libraryManageBackdrop?.addEventListener("click", closeLibraryManager);
 directoryImportInput?.addEventListener("change", () => importDirectoryFiles(directoryImportInput.files));
-storyImportInput?.addEventListener("change", () => beginSingleStoryImport(storyImportInput.files?.[0]));
+storyImportInput?.addEventListener("change", () => {
+  const file = storyImportInput.files?.[0];
+  if (state.storyImportMode === "update") updateExistingStoryFromFile(file);
+  else beginSingleStoryImport(file);
+});
 storyThumbnailInput?.addEventListener("change", () => finishSingleStoryImport(storyThumbnailInput.files?.[0] || null));
 scrollTopButton?.addEventListener("click", () => window.scrollTo({top: 0, behavior: state.settings.animationIntensity === "none" ? "auto" : "smooth"}));
 window.addEventListener("scroll", updateScrollTopButton, {passive: true});
