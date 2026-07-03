@@ -1,188 +1,471 @@
-# Korean Reader
+# Korean Reader — Modular Codebase
 
-Korean Reader is a static web application for reading Korean stories with built-in learning support. Stories are organized into collections and loaded from JSON files stored in the repository's `library/` directory.
+This version divides the Korean Reader into small feature files so that future changes can be made without repeatedly sending the complete application to an AI.
 
-The project is designed for Korean learners who want readable stories together with sentence translations, grammar explanations, vocabulary notes, and quick word lookups.
+The application remains a static website. It reads the public GitHub repository configured in `js/settings.js`, loads collection and story JSON files from `library/`, and stores only user preferences in `localStorage`.
 
-## Features
+## Current behavior
 
-- Story collections loaded from `library/`
-- Korean stories with sentence-by-sentence English translations
-- Grammar explanations and vocabulary notes
-- Double-click or double-tap word translations
-- Multiple TOPIK-level versions of the same story
-- Story thumbnails stored as external image files
-- JSON-defined story and collection accent colors
-- Light, Warm, Forest, and Dark appearance themes
-- Responsive layout for desktop and mobile
-- Home-screen icon and standalone app-style display
-- No database, framework, package manager, or build process
+### Word interactions
 
-## Project structure
+| Device | Interaction | Result |
+|---|---|---|
+| Desktop | Single click a word | Compact word translation popup |
+| Desktop | Double-click a word or marked grammar structure | Grammar explanation panel |
+| Mobile | Short tap a word | Compact word translation popup |
+| Mobile | Long press a word or marked grammar structure | Grammar bottom sheet |
+| Keyboard | Enter or Space on a word | Word translation |
+| Keyboard | Shift + Enter on a word | Grammar explanation |
+
+The selected word is highlighted in the Korean text. Grammar structures are underlined subtly and highlighted when their explanation is open.
+
+### Grammar panel
+
+- Desktop: sticky side panel.
+- Mobile: scrollable bottom sheet occupying approximately the lower half of the screen.
+- Close methods on mobile:
+  - close button;
+  - tap the darkened area outside the sheet;
+  - swipe the handle downward.
+- The full Korean sentence is not repeated in the panel.
+- Only the relevant grammar fragment is shown when the JSON supplies or allows the app to infer it.
+
+### Search scopes
+
+- Main library: searches the complete library.
+- Collection page: searches only stories in that collection.
+- Grammar library: searches only grammar entries.
+
+Searchable story data includes:
+
+- collection and story titles;
+- descriptions;
+- TOPIK levels;
+- author and story metadata;
+- English sentence translations;
+- complete Korean story text;
+- word translations;
+- vocabulary entries;
+- grammar patterns, explanations, examples, transformations, and nuances.
+
+### Settings
+
+The Settings button is displayed only on the main library page. Settings are stored in `localStorage` and include:
+
+- light or dark appearance;
+- global color theme, including Dracula;
+- story-specific accent colors on/off;
+- interface font;
+- story font override;
+- story text size;
+- line spacing;
+- compact or expanded word translations;
+- key-vocabulary visibility;
+- concise or detailed grammar explanations;
+- animation intensity.
+
+## Directory structure
 
 ```text
-korean_reader/
+korean_reader_modular/
 ├── index.html
 ├── site.webmanifest
 ├── README.md
+├── docs/
+│   └── STORY_JSON_SCHEMA.md
+├── css/
+│   ├── base.css
+│   ├── layout.css
+│   ├── cards.css
+│   ├── reader.css
+│   ├── grammar.css
+│   ├── overlays.css
+│   ├── settings.css
+│   ├── grammar-library.css
+│   ├── mobile.css
+│   ├── animations.css
+│   ├── directories.css
+│   ├── themes.css
+│   └── thumbnails.css
+├── js/
+│   ├── storage.js
+│   ├── settings.js
+│   ├── app.js
+│   ├── library.js
+│   ├── router.js
+│   ├── directories.js
+│   ├── stories.js
+│   ├── thumbnails.js
+│   ├── reader.js
+│   ├── grammar.js
+│   ├── interactions.js
+│   ├── themes.js
+│   ├── settings-panel.js
+│   ├── grammar-library.js
+│   ├── bookmarks.js
+│   ├── search.js
+│   └── pwa.js
 ├── icons/
-│   ├── apple-touch-icon.png
-│   ├── favicon.ico
-│   ├── favicon-16x16.png
-│   ├── favicon-32x32.png
-│   ├── icon-192.png
-│   ├── icon-512.png
-│   └── icon-1024.png
-├── library/
-│   ├── avatar/
-│   │   ├── info.json
-│   │   ├── 01_the_promise.json
-│   │   └── ...
-│   ├── korra/
-│   │   ├── info.json
-│   │   └── ...
-│   └── ...
-└── thumbnails/
-    ├── 01_the_promise.jpg
-    └── ...
+├── thumbnails/
+└── library/
 ```
 
-## How the library is loaded
+The existing root paths `icons/`, `thumbnails/`, and `library/` are intentionally preserved so current manifest and story paths continue to work.
 
-`index.html` reads the repository's public `library/` directory through the GitHub API. The repository configuration is defined inside the JavaScript:
+## Startup and data flow
 
-```javascript
-const GITHUB_LIBRARY = Object.freeze({
-  owner: "02Henry20",
-  repo: "korean_reader",
-  branch: "main",
-  root: "library"
-});
-```
+1. `index.html` defines the library, reader, grammar-library, settings, popup, and bottom-sheet containers.
+2. JavaScript files load in dependency order at the end of `index.html`.
+3. `js/pwa.js` calls `initializeLibrary()`.
+4. `js/library.js` reads the configured GitHub tree and downloads collection/story JSON files.
+5. Normalized data is stored in the shared `state` object from `js/app.js`.
+6. `js/router.js` selects the current view.
+7. Feature renderers create the required DOM elements.
+8. `js/search.js` connects global event listeners and search controls.
 
-Change these values when the repository owner, repository name, branch, or library folder changes.
+Do not reorder script imports unless the dependencies are also updated.
 
-Because the GitHub API is used, the repository must be public and an internet connection is required when the library is loaded.
+# JavaScript reference
 
-## Collection folders
+## `js/storage.js`
 
-Each first-level folder inside `library/` represents a collection.
+Safe wrappers around `localStorage`.
 
-A collection can contain an `info.json` file with metadata such as:
+Important functions:
+
+- `storageGet(key)`
+- `storageSet(key, value)`
+- `loadJSONV6(key, fallback)`
+
+Provide this file when changing persistence or storage error handling.
+
+## `js/settings.js`
+
+Static configuration and default preferences.
+
+Contains:
+
+- `THEMES`: global and story accent palettes;
+- `APPEARANCES`: light and dark surface palettes;
+- `UI_FONTS`: allowed interface fonts;
+- `STORY_FONTS`: allowed reader fonts;
+- `DEFAULT_SETTINGS`;
+- local-storage keys;
+- mobile breakpoint and long-press duration;
+- `GITHUB_LIBRARY` repository configuration;
+- `loadAppSettings()` and legacy-setting migration.
+
+Provide this file when adding themes, fonts, preferences, or changing the GitHub repository.
+
+## `js/app.js`
+
+Shared runtime state and cached DOM references.
+
+Contains:
+
+- `state`;
+- references to all major views, panels, buttons, and inputs;
+- `createTextBlock()`;
+- `setViewActive()`.
+
+Provide this file when a new root-level control or state field is introduced.
+
+## `js/library.js`
+
+GitHub loading, validation, and JSON normalization.
+
+Contains:
+
+- file/path helpers;
+- GitHub API requests;
+- collection discovery;
+- fallback collection creation;
+- collection/story normalization;
+- story variant, thumbnail, author, tags, and preferred-font metadata;
+- `getCollection()`;
+- `getStoriesForCollection()`.
+
+Provide this file when changing the story or collection JSON schema.
+
+## `js/router.js`
+
+Navigation and view switching.
+
+Contains:
+
+- `showCollections()`;
+- `showCollection()`;
+- `showGrammarLibrary()`;
+- `renderLibrary()`;
+- `renderNavigation()`;
+- main-page Settings/Grammar button visibility.
+
+Provide this file when changing routes, hash URLs, browser history, or page-level navigation.
+
+## `js/directories.js`
+
+Collection-page rendering.
+
+Contains:
+
+- main library heading and scope setup;
+- collection-card creation;
+- global search section headings;
+- empty-state rendering.
+
+Directory tags are intentionally not rendered.
+
+For collection-card design changes, also provide:
+
+- `css/cards.css`;
+- `css/directories.css`.
+
+## `js/stories.js`
+
+Story grouping, version selection, and story-card rendering.
+
+Contains:
+
+- grouping by `variantGroupId`;
+- selected-variant persistence;
+- collection-scoped filtering;
+- version buttons;
+- optional collection context on global search cards.
+
+For TOPIK/version behavior, also provide `js/interactions.js` and `js/reader.js`.
+
+## `js/thumbnails.js`
+
+External cover handling and generated fallback covers.
+
+Contains:
+
+- generated SVG covers;
+- thumbnail-path resolution;
+- `<img>` creation;
+- load-error fallback.
+
+Provide this file with `css/thumbnails.css` for thumbnail changes.
+
+## `js/reader.js`
+
+Korean text rendering and word/grammar gesture detection.
+
+Contains:
+
+- `openStory()`;
+- `renderStory()`;
+- grammar-fragment range detection;
+- word token creation;
+- desktop single-click/double-click behavior;
+- mobile tap/long-press behavior;
+- word lookup construction;
+- optional word-to-grammar index mapping.
+
+This is the primary file for changing interaction gestures or Korean text tokenization.
+
+## `js/grammar.js`
+
+Grammar normalization, rendering, highlighting, and mobile sheet behavior.
+
+Contains:
+
+- `normalizeGrammarItem()`;
+- `openGrammarDetails()`;
+- relevant-fragment highlighting;
+- detailed grammar-card rendering;
+- optional key-vocabulary rendering;
+- panel clearing;
+- swipe-down gesture handling.
+
+For visual panel changes, also provide:
+
+- `css/grammar.css`;
+- `css/mobile.css`.
+
+## `js/interactions.js`
+
+Small floating overlays.
+
+Contains:
+
+- compact word translation popup;
+- popup positioning;
+- selected-word cleanup;
+- story-version menu.
+
+For word-popup design changes, also provide `css/overlays.css`.
+
+## `js/themes.js`
+
+Applies appearance, theme, accent, font, line spacing, and animation settings.
+
+Contains:
+
+- color mixing;
+- global surface selection;
+- story-accent resolution;
+- card colors;
+- search contrast variables;
+- word-popup contrast variables;
+- story-font resolution;
+- reader typography;
+- settings persistence helpers;
+- toast messages.
+
+Provide this file together with `js/settings.js` for most theme changes.
+
+## `js/settings-panel.js`
+
+Settings panel behavior.
+
+Contains:
+
+- select-option generation;
+- form synchronization;
+- open/close behavior;
+- live preference application;
+- reset-to-default behavior.
+
+For adding a setting, normally edit all of:
+
+1. `js/settings.js` — default and allowed values;
+2. `index.html` — form control;
+3. `js/settings-panel.js` — only when custom handling is required;
+4. the feature file that consumes the setting.
+
+## `js/grammar-library.js`
+
+Builds a grammar index from all loaded stories.
+
+Contains:
+
+- flattened grammar-entry generation;
+- grammar-only filtering;
+- grammar-library cards;
+- source-story links.
+
+No separate `grammar.json` is required. The library is generated from story JSON.
+
+## `js/bookmarks.js`
+
+Reserved extension point. It remains inactive because this version does not yet restore bookmarks, reading positions, or read-story state.
+
+## `js/search.js`
+
+Search indexing and global event wiring.
+
+Contains:
+
+- text normalization;
+- complete story search-index generation;
+- collection search text;
+- global result rendering;
+- search-scope labels;
+- search, back, grammar-library, panel, Escape, resize, scroll, and history listeners.
+
+Provide this file for search fields, search scopes, or global listener changes.
+
+## `js/pwa.js`
+
+Application bootstrap and loading/error states.
+
+It does not register a service worker. Installed-app behavior still comes from `site.webmanifest` and icon/meta tags.
+
+# CSS reference
+
+| File | Responsibility |
+|---|---|
+| `base.css` | Variables, resets, page background, shared font stacks |
+| `layout.css` | App shell, headers, buttons, search box, search scope/results headings |
+| `cards.css` | Collection/story grid and base cards |
+| `reader.css` | Reader header, Korean typography, selected-word and grammar highlights |
+| `grammar.css` | Desktop grammar panel and detailed grammar fields |
+| `overlays.css` | Word popup and toast |
+| `settings.css` | Settings backdrop, panel, controls, mobile settings sheet |
+| `grammar-library.css` | Grammar index cards and responsive grid |
+| `mobile.css` | Mobile reader and half-height grammar bottom sheet |
+| `animations.css` | Full/reduced/none animation modes and OS reduced-motion support |
+| `directories.css` | Collection-specific headings, monograms, and counts |
+| `themes.css` | Main-page utility buttons, variant menu, TOPIK availability labels |
+| `thumbnails.css` | Story thumbnail placement and responsive sizes |
+
+# Story and grammar JSON
+
+The app remains backward-compatible with existing grammar entries such as:
 
 ```json
 {
-  "type": "collection",
-  "id": "avatar-last-airbender",
-  "title": "Avatar: The Last Airbender",
-  "koreanTitle": "아바타: 아앙의 전설",
-  "description": "Korean learning summaries of the Avatar graphic novels.",
-  "level": "TOPIK 2–3",
-  "theme": "sunset",
-  "order": 10,
-  "monogram": "四",
-  "tags": ["fantasy", "adventure"]
+  "pattern": "-고 싶다",
+  "explanation": "Expresses a desire to do something.",
+  "example": "한국에 가고 싶다."
 }
 ```
 
-## Story files
+For the new detailed layout, use the richer format documented in:
 
-Stories are stored as JSON files inside their collection folder. A story normally contains:
+[`docs/STORY_JSON_SCHEMA.md`](docs/STORY_JSON_SCHEMA.md)
 
-```json
-{
-  "id": "avatar-the-promise",
-  "collectionId": "avatar-last-airbender",
-  "title": "약속",
-  "englishTitle": "Avatar — The Promise",
-  "level": "TOPIK 2–3",
-  "description": "A Korean summary of The Promise.",
-  "theme": "sunset",
-  "thumbnail": "thumbnails/01_the_promise.jpg",
-  "order": 1,
-  "paragraphs": []
-}
-```
-
-The `theme` field controls the story's accent color. The appearance selector in the website controls the overall Light, Warm, Forest, or Dark interface.
-
-## TOPIK variants
-
-Multiple difficulty versions can be grouped by giving them the same `variantGroupId`:
+The most important new grammar field is `fragment`. It should contain only the relevant Korean portion of the sentence, for example:
 
 ```json
-{
-  "id": "story-easy",
-  "variantGroupId": "story-main",
-  "variantLabel": "TOPIK 2",
-  "difficultyOrder": 1
-}
+"fragment": "먹고 싶다"
 ```
 
-```json
-{
-  "id": "story-standard",
-  "variantGroupId": "story-main",
-  "variantLabel": "TOPIK 3",
-  "difficultyOrder": 2
-}
+That allows the reader to identify and highlight the exact grammar structure.
+
+# Recommended file bundles for future AI prompts
+
+| Requested change | Files to provide |
+|---|---|
+| Word click/tap/long-press behavior | `README.md`, `js/reader.js`, `js/interactions.js`, `css/reader.css`, `css/overlays.css` |
+| Grammar content or panel behavior | `README.md`, `js/grammar.js`, `js/reader.js`, `css/grammar.css`, `css/mobile.css` |
+| Search fields or scopes | `README.md`, `js/search.js`, `js/router.js`, plus the affected renderer |
+| Settings option | `README.md`, `js/settings.js`, `js/settings-panel.js`, `index.html`, relevant feature file |
+| Theme or contrast | `README.md`, `js/settings.js`, `js/themes.js`, `css/base.css`, relevant component CSS |
+| Collection cards | `README.md`, `js/directories.js`, `css/cards.css`, `css/directories.css` |
+| Story cards or versions | `README.md`, `js/stories.js`, `js/interactions.js`, `css/cards.css`, `css/themes.css` |
+| Story JSON schema | `README.md`, `docs/STORY_JSON_SCHEMA.md`, `js/library.js` |
+| Add a new root-level view | `README.md`, `index.html`, `js/app.js`, `js/router.js`, `js/search.js` |
+
+# Important limitation of this package
+
+The actual story JSON files from the live GitHub repository were not included in the supplied modular project. Therefore:
+
+- the code and schema now support detailed grammar explanations;
+- the UI renders all detailed fields when present;
+- existing short grammar entries continue to work;
+- the text of every existing story has **not** been rewritten or expanded inside this archive.
+
+To expand all existing grammar explanations, provide the actual `library/` story JSON files. Each grammar entry can then be updated using the schema in `docs/STORY_JSON_SCHEMA.md`.
+
+# Local testing
+
+Because the application uses `fetch`, do not open `index.html` directly with `file://` for normal testing. Run a local server from the project directory:
+
+```bash
+python -m http.server 8000
 ```
 
-The reader then displays a version selector for that story.
+Then open:
 
-## Thumbnails
-
-Thumbnail files stay external and are not embedded into `index.html`.
-
-For a thumbnail stored in the repository root's `thumbnails/` directory:
-
-```json
-"thumbnail": "thumbnails/01_the_promise.jpg"
+```text
+http://localhost:8000
 ```
 
-Paths beginning with `./` or `../` are resolved relative to the story JSON file.
+The repository configured in `js/settings.js` must be public and reachable.
 
-## GitHub Pages deployment
+# Deployment
 
-1. Push `index.html`, `site.webmanifest`, `icons/`, `library/`, and `thumbnails/` to the repository.
-2. Open the repository on GitHub.
-3. Go to **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and the `/ (root)` folder.
-6. Save the setting and wait for GitHub Pages to publish the site.
+Push the following to the repository root:
 
-## Add to the home screen
+- `index.html`;
+- `css/`;
+- `js/`;
+- `docs/`;
+- `site.webmanifest`;
+- existing `icons/`;
+- existing `thumbnails/`;
+- existing `library/`.
 
-### iPhone or iPad
-
-1. Open the published website in Safari.
-2. Tap **Share**.
-3. Tap **Add to Home Screen**.
-4. Remove an older home-screen shortcut first if iOS continues to display the previous icon.
-
-The Apple icon is provided by:
-
-```html
-<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
-```
-
-### Android
-
-1. Open the published website in Chrome.
-2. Open the browser menu.
-3. Choose **Add to Home screen** or **Install app**.
-
-Android uses `site.webmanifest` together with `icon-192.png` and `icon-512.png`.
-
-## Updating content
-
-The website itself does not edit or delete stories. To make a permanent change:
-
-1. Edit the appropriate JSON file.
-2. Add, replace, or remove files in `library/` or `thumbnails/`.
-3. Commit and push the changes to GitHub.
-4. Reload the published website.
-
-## License
-
-No license has been selected yet. Add a `LICENSE` file before allowing redistribution or reuse by others.
+No build step or package manager is required.

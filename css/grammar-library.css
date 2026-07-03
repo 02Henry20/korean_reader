@@ -1,0 +1,77 @@
+.grammar-library-view {
+  padding-bottom: 72px;
+}
+
+.grammar-library-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 18px;
+  padding-bottom: 72px;
+}
+
+.grammar-library-card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  min-height: 230px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 25px;
+  background: color-mix(in srgb, var(--surface-solid) 96%, transparent);
+  box-shadow: var(--shadow-sm);
+}
+
+.grammar-library-pattern {
+  margin: 0 0 9px;
+  color: var(--word);
+  font-family: var(--font-reading);
+  font-size: 1.25rem;
+  font-weight: 860;
+}
+
+.grammar-library-fragment {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border-radius: 11px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  font-family: var(--font-reading);
+  font-weight: 740;
+}
+
+.grammar-library-meaning {
+  margin: 0 0 8px;
+  font-weight: 760;
+  line-height: 1.55;
+}
+
+.grammar-library-explanation {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0 0 18px;
+  color: var(--muted);
+  line-height: 1.58;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.grammar-source-button {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 8px 11px;
+  border: 0;
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  font-size: .76rem;
+  font-weight: 820;
+  cursor: pointer;
+}
+
+@media (max-width: 1050px) {
+  .grammar-library-card { grid-column: span 6; }
+}
+
+@media (max-width: 700px) {
+  .grammar-library-card { grid-column: 1 / -1; }
+}

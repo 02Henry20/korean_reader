@@ -1,0 +1,26 @@
+html[data-animation="reduced"] *,
+html[data-animation="reduced"] *::before,
+html[data-animation="reduced"] *::after {
+  transition-duration: 90ms !important;
+  animation-duration: 120ms !important;
+}
+
+html[data-animation="none"] *,
+html[data-animation="none"] *::before,
+html[data-animation="none"] *::after {
+  scroll-behavior: auto !important;
+  transition-duration: 0.01ms !important;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

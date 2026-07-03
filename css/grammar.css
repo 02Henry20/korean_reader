@@ -1,0 +1,160 @@
+.detail-backdrop {
+  display: none;
+}
+
+.detail-panel {
+  position: sticky;
+  top: 110px;
+  min-height: min(690px, calc(100vh - 130px));
+  max-height: calc(100vh - 130px);
+  overflow: auto;
+  padding: 25px 24px 32px;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-solid) 97%, transparent);
+  box-shadow: var(--shadow-md);
+  scrollbar-width: thin;
+}
+
+.detail-panel-empty {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 75% 22%, var(--accent-soft), transparent 12rem),
+    linear-gradient(145deg, var(--surface-solid), var(--surface-muted));
+}
+
+.detail-panel-empty::after {
+  content: "문법";
+  position: absolute;
+  right: -10px;
+  bottom: -38px;
+  color: color-mix(in srgb, var(--accent) 12%, transparent);
+  font-family: var(--font-reading);
+  font-size: 9rem;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  pointer-events: none;
+}
+
+.detail-panel-empty .detail-content,
+.detail-panel-empty .close-detail,
+.detail-panel-empty .detail-sheet-handle {
+  display: none;
+}
+
+.detail-sheet-handle {
+  display: none;
+}
+
+.close-detail {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  float: right;
+  width: 39px;
+  height: 39px;
+  margin: -7px -7px 0 10px;
+}
+
+.detail-content {
+  padding-right: 8px;
+}
+
+.detail-label {
+  margin: 19px 0 10px;
+  color: var(--accent);
+  font-size: 0.71rem;
+  font-weight: 870;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.detail-label:first-child {
+  margin-top: 2px;
+}
+
+.grammar-list,
+.vocab-list {
+  display: grid;
+  gap: 12px;
+}
+
+.grammar-card,
+.vocab-row {
+  padding: 17px 18px;
+  border: 1px solid var(--line);
+  border-radius: 19px;
+  background: color-mix(in srgb, var(--surface-muted) 72%, var(--surface-solid));
+}
+
+.grammar-pattern,
+.vocab-term {
+  margin: 0 0 9px;
+  color: var(--word);
+  font-family: var(--font-reading);
+  font-size: 1.05rem;
+  font-weight: 850;
+}
+
+.grammar-fragment {
+  margin: 0 0 14px;
+  padding: 11px 12px;
+  border-radius: 13px;
+  color: var(--accent-strong);
+  background: color-mix(in srgb, var(--accent-soft) 76%, transparent);
+  font-family: var(--font-reading);
+  font-size: 1.08rem;
+  font-weight: 760;
+  line-height: 1.5;
+}
+
+.grammar-fragment .grammar-field-label {
+  margin-bottom: 3px;
+}
+
+.grammar-field {
+  margin-top: 12px;
+}
+
+.grammar-field:first-of-type {
+  margin-top: 0;
+}
+
+.grammar-field-label {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.69rem;
+  font-weight: 840;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.grammar-field-value,
+.vocab-meaning,
+.vocab-note {
+  margin: 0;
+  line-height: 1.62;
+}
+
+.grammar-examples {
+  margin-top: 14px;
+}
+
+.grammar-examples ul {
+  margin: 7px 0 0;
+  padding-left: 1.2rem;
+}
+
+.grammar-examples li {
+  margin: 6px 0;
+  font-family: var(--font-reading);
+  line-height: 1.58;
+}
+
+.vocab-note {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 0.89rem;
+}
