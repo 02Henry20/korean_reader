@@ -188,7 +188,10 @@
 <div><strong id="firebaseStatusText">Connecting…</strong><small id="firebaseAccountText">Firebase status will appear here.</small></div>
 <span class="firebase-status-badge" data-status="loading" id="firebaseStatusBadge">…</span>
 </div>
-<div aria-hidden="true" class="firebase-sync-progress" id="firebaseSyncProgress"><span></span></div>
+<div aria-label="Firebase synchronization progress" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="firebase-sync-progress" id="firebaseSyncProgress" role="progressbar">
+<span class="firebase-sync-progress-fill"></span>
+<output id="firebaseSyncProgressLabel">0%</output>
+</div>
 <div class="firebase-auth-controls" id="firebaseSignedOutControls">
 <label><span>Email</span><input autocomplete="email" id="firebaseEmailInput" inputmode="email" type="email"/></label>
 <label><span>Password</span><input autocomplete="current-password" id="firebasePasswordInput" type="password"/></label>
@@ -198,7 +201,7 @@
 <button class="button firebase-secondary-button" id="firebaseSyncButton" type="button">Sync now</button>
 <button class="button firebase-secondary-button" id="firebaseSignOutButton" type="button">Sign out</button>
 </div>
-<p class="firebase-sync-note">Imported stories, read status, and bookmarks are stored locally first and synchronized when signed in.</p>
+<p class="firebase-sync-note">Story data, read status, and bookmarks synchronize through Firestore. Thumbnail files stay local or load from paths in your repository; they are never uploaded to Firebase.</p>
 </div>
 </section>
 <button class="button settings-reset" id="resetSettingsButton" type="button">Reset settings</button>

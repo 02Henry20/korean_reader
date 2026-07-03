@@ -1,0 +1,24 @@
+KOREAN READER — FIRESTORE-ONLY SYNC
+
+Replace these files in the repository:
+  index.html
+  js/firebase.js
+  js/cloud-sync.js
+  js/library-manager.js
+  css/cloud.css
+  css/settings.css
+  README.md
+
+Firebase Storage is not used or imported.
+Only deploy firebase/firestore.rules. No Storage rules are required.
+
+Thumbnail behavior:
+- Repository thumbnail references in story JSON are synchronized as text.
+- A thumbnail selected during local import stays only in that browser's IndexedDB.
+- No image bytes are sent to Firebase.
+
+Example story JSON:
+  "thumbnail": "thumbnails/01_story.webp"
+
+After deployment, hard-refresh the page. If installed as a PWA, close and reopen it
+or clear the site's cached data if an older JavaScript bundle is still active.

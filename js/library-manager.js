@@ -364,59 +364,43 @@ async function importDirectoryFiles(fileList) {
   }
 }
 
-async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.now(), options = {}) {
-  let thumbnailUrl = "";
-  let thumbnailStoragePath = "";
+function persistentThumbnailReference(value) {
+  const reference = String(value || "").trim();
+  if (!reference || /^(?:blob:|data:|file:)/i.test(reference)) return "";
+  return reference;
+}
 
-  if (thumbnailFile && state.firebaseUser && options.uploadThumbnail === true) {
-    try {
-      setFirebaseStatus("syncing", "Uploading thumbnail…", thumbnailFile.name);
-      const uploaded = await uploadThumbnailToFirebase(story.id, story.collectionId, thumbnailFile);
-      thumbnailUrl = uploaded.url;
-      thumbnailStoragePath = uploaded.path;
-    } catch (error) {
-      console.warn("Thumbnail saved locally but not uploaded:", error);
-      setFirebaseStatus("error", "Thumbnail saved locally", friendlyFirebaseError(error));
-    }
-  }
-
+async function buildStoryRecord(story, thumbnailFile = null, updatedAt = Date.now()) {
   const storedStory = cleanForCloud({...story});
   storedStory.sourceType = "custom";
 
   /*
-   * A separately selected local thumbnail takes precedence. When no file was
-   * selected, preserve an already complete remote/data URL from the JSON.
-   * Relative paths are not persisted because they are only meaningful while
-   * the original local directory is mounted in the file picker.
+   * A selected image is stored only in this browser's IndexedDB. Firebase
+   * receives only the JSON thumbnail reference, such as a repository-relative
+   * path or an HTTP(S) URL. No image bytes are uploaded to Firebase.
    */
-  const existingThumbnail = String(story.thumbnail || "").trim();
-  const reusableThumbnail = /^(?:https?:|data:)/i.test(existingThumbnail)
-    ? existingThumbnail
-    : "";
-  storedStory.thumbnail = thumbnailUrl || reusableThumbnail;
-  if (!thumbnailUrl && reusableThumbnail) thumbnailUrl = reusableThumbnail;
+  const thumbnailReference = persistentThumbnailReference(story.thumbnail);
+  if (thumbnailReference) storedStory.thumbnail = thumbnailReference;
+  else delete storedStory.thumbnail;
+
   return {
     id: story.id,
     story: storedStory,
     thumbnailBlob: thumbnailFile || null,
-    thumbnailUrl,
-    thumbnailStoragePath,
+    thumbnailUrl: thumbnailReference,
+    thumbnailStoragePath: "",
     updatedAt
   };
 }
 
-function preservedStoryThumbnail(existingStory, existingRecord) {
-  const recordThumbnail = String(existingRecord?.story?.thumbnail || "").trim();
-  const storyThumbnail = String(existingStory?.thumbnail || "").trim();
-  const reusableUrl =
-    existingRecord?.thumbnailUrl ||
-    (/^(?:https?:|data:)/i.test(recordThumbnail) ? recordThumbnail : "") ||
-    (/^(?:https?:|data:)/i.test(storyThumbnail) ? storyThumbnail : "");
+function preservedStoryThumbnail(existingStory, existingRecord, replacementStory) {
+  const replacementReference = persistentThumbnailReference(replacementStory?.thumbnail);
+  const existingRecordReference = persistentThumbnailReference(existingRecord?.story?.thumbnail || existingRecord?.thumbnailUrl);
+  const existingStoryReference = persistentThumbnailReference(existingStory?.thumbnail);
 
   return {
     thumbnailBlob: existingRecord?.thumbnailBlob || null,
-    thumbnailUrl: reusableUrl,
-    thumbnailStoragePath: existingRecord?.thumbnailStoragePath || existingStory?.thumbnailStoragePath || ""
+    thumbnailReference: replacementReference || existingRecordReference || existingStoryReference
   };
 }
 
@@ -439,10 +423,11 @@ async function updateExistingStoryFromFile(file) {
 
     closeLibraryManager(true);
     const existingRecord = state.localStories.find((record) => record.id === story.id);
-    const preserved = preservedStoryThumbnail(existingStory, existingRecord);
+    const preserved = preservedStoryThumbnail(existingStory, existingRecord, story);
     const storedStory = cleanForCloud({...story});
     storedStory.sourceType = "custom";
-    storedStory.thumbnail = preserved.thumbnailUrl || "";
+    if (preserved.thumbnailReference) storedStory.thumbnail = preserved.thumbnailReference;
+    else delete storedStory.thumbnail;
 
     const pendingDeletionClears = [];
     await clearImportDeletionMarker("story", story.id, pendingDeletionClears);
@@ -450,8 +435,8 @@ async function updateExistingStoryFromFile(file) {
       id: story.id,
       story: storedStory,
       thumbnailBlob: preserved.thumbnailBlob,
-      thumbnailUrl: preserved.thumbnailUrl,
-      thumbnailStoragePath: preserved.thumbnailStoragePath,
+      thumbnailUrl: preserved.thumbnailReference,
+      thumbnailStoragePath: "",
       updatedAt: Date.now()
     }, {localOnly: true});
 
@@ -480,14 +465,14 @@ async function beginSingleStoryImport(file) {
 
     state.storyImportMode = "add";
     state.pendingStoryImport = {file, raw, story};
-    libraryManageTitle.textContent = "Story thumbnail";
+    libraryManageTitle.textContent = "Local thumbnail";
     libraryManageBody.replaceChildren(
-      createTextBlock("p", "library-manage-prompt", `Does “${story.title}” have a thumbnail?`),
-      createManageAction("Choose thumbnail", "Select an image file stored beside this story.", "plus", () => {
+      createTextBlock("p", "library-manage-prompt", `Choose an optional local thumbnail for “${story.title}”. Repository paths in the JSON are synchronized separately.`),
+      createManageAction("Choose local thumbnail", "Stored only on this device. It is never uploaded to Firebase.", "plus", () => {
         storyThumbnailInput.value = "";
         storyThumbnailInput.click();
       }),
-      createManageAction("Continue without thumbnail", "Use the directory character as the fallback image.", "folder", () => finishSingleStoryImport(null))
+      createManageAction("Continue", "Use the JSON repository path or the directory character fallback.", "folder", () => finishSingleStoryImport(null))
     );
     libraryManageBackdrop.hidden = false;
     libraryManagePanel.setAttribute("aria-hidden", "false");
@@ -526,9 +511,7 @@ async function finishSingleStoryImport(thumbnailFile) {
 async function requestDeleteStory(story) {
   if (!window.confirm(`Delete “${story.title}”? This hides the story on every synchronized device.`)) return;
   try {
-    const localRecord = state.localStories.find((record) => record.id === story.id);
     try {
-      await deleteThumbnailFromFirebase(localRecord?.thumbnailStoragePath || story.thumbnailStoragePath);
       await firebaseDeleteDocument(CLOUD_PATHS.stories, story.id);
     } catch (error) {
       console.warn("Cloud story cleanup will be retried later:", error);
@@ -550,7 +533,6 @@ async function requestDeleteCollection(collection) {
     const localStories = state.localStories.filter((record) => record.story?.collectionId === collection.id);
     for (const record of localStories) {
       try {
-        await deleteThumbnailFromFirebase(record.thumbnailStoragePath);
         await firebaseDeleteDocument(CLOUD_PATHS.stories, record.id);
       } catch (error) {
         console.warn("Cloud story cleanup will be retried later:", error);

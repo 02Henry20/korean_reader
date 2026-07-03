@@ -6,8 +6,13 @@ tracking, local imports, and optional Firebase synchronization.
 
 The application remains usable without Firebase. Imported content is written to the
 browser's IndexedDB first, while settings, bookmarks, and read state are stored
-locally. After email/password sign-in, the app synchronizes the same data with
-Firestore and uploads imported thumbnail images to Firebase Storage.
+locally. After email/password sign-in, the app synchronizes collections, stories,
+reader state, and deletion markers through Firestore.
+
+Thumbnail files are never uploaded to Firebase. Built-in thumbnails load from paths
+stored in the repository, while manually selected thumbnail files remain only in the
+browser's IndexedDB on the device where they were imported. Synchronization shows
+determinate progress for Firestore records.
 
 See `FIREBASE_SETUP.md` before testing cloud synchronization.
 
@@ -34,8 +39,8 @@ The contextual **Add** button changes by location:
 
 ### Inside a directory
 
-- **Add story** selects one story JSON file and then asks whether a thumbnail should
-  be selected.
+- **Add story** selects one story JSON file and optionally accepts a local-only
+  thumbnail. Repository thumbnail paths should be stored in the story JSON.
 - **Delete stories** enters story-delete mode.
 
 Delete mode is intentionally separate from ordinary navigation. Click **Done** to
@@ -79,9 +84,6 @@ koreanReaderUsers/<uid>/libraryCollections/<collection-id>
 koreanReaderUsers/<uid>/libraryStories/<story-id>
 koreanReaderUsers/<uid>/readerState/<story-id>
 koreanReaderUsers/<uid>/libraryDeletions/<kind:id>
-
-Storage
-korean-reader/<uid>/thumbnails/<collection>/<story>/<file>
 ```
 
 The paths are intentionally isolated because the configured Firebase project also
@@ -97,8 +99,7 @@ Rules snippets into that project's existing rules; do not blindly replace them.
 ├── FIREBASE_SETUP.md
 ├── firebase/
 │   ├── README.md
-│   ├── firestore.rules.example
-│   └── storage.rules.example
+│   └── firestore.rules.example
 ├── docs/
 │   └── STORY_JSON_SCHEMA.md
 ├── css/
@@ -145,9 +146,9 @@ Rules snippets into that project's existing rules; do not blindly replace them.
 
 ## `js/firebase.js`
 
-Loads Firebase App, Authentication, Firestore, and Storage from the official CDN and
-initializes the supplied web configuration. Change this file when moving to a
-separate Firebase project or updating the SDK version.
+Loads Firebase App, Authentication, and Firestore from the official CDN and
+initializes the supplied web configuration. Firebase Storage is not imported.
+Change this file when moving to a separate Firebase project or updating the SDK version.
 
 ## `js/local-db.js`
 
@@ -161,7 +162,7 @@ Firebase authentication and synchronization layer. It contains:
 - email/password sign-in and sign-out;
 - sync status rendering;
 - user-scoped Firestore paths;
-- thumbnail upload and deletion;
+- Firestore-only story metadata synchronization;
 - local/cloud timestamp reconciliation;
 - reader-state synchronization;
 - merged GitHub, local, and cloud library rebuilding.
@@ -176,7 +177,7 @@ All add/delete workflows:
 - directory and story file pickers;
 - JSON format validation;
 - story-size validation;
-- thumbnail matching and selection;
+- repository thumbnail references and local-only thumbnail selection;
 - delete mode;
 - directory/story deletion;
 - scroll-to-top button.
@@ -258,9 +259,13 @@ remain in their original modules.
 
 # Deployment notes
 
-The app must be served through HTTPS for Firebase Authentication and Storage. GitHub
-Pages satisfies this requirement. Add the GitHub Pages hostname to Firebase
+The app must be served through HTTPS for Firebase Authentication. GitHub Pages
+satisfies this requirement. Add the GitHub Pages hostname to Firebase
 Authentication's authorized domains.
+
+No Firebase Storage bucket or Storage security rules are required. Thumbnail paths in
+story JSON should point to files available from the deployed repository, for example
+`thumbnails/01_story.webp` or a path relative to the story JSON file.
 
 The Firebase web configuration is client-side by design. Never add a service-account
 JSON file, Admin SDK private key, or other server credential to this repository.

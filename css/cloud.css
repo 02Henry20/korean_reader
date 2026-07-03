@@ -244,6 +244,16 @@ html[data-appearance="dark"] .story-card-read {
   background: #f3dddd;
 }
 
+.firebase-status-badge[data-status="warning"] {
+  color: #8a5b20;
+  background: #f4e5c9;
+}
+
+.firebase-status-badge[data-status="offline"] {
+  color: var(--muted);
+  background: var(--surface-muted);
+}
+
 .firebase-status-badge[data-status="syncing"],
 .firebase-status-badge[data-status="loading"] {
   animation: firebaseStatusPulse 1.2s ease-in-out infinite;
@@ -253,40 +263,78 @@ html[data-appearance="dark"] .story-card-read {
   50% { transform: scale(0.88); opacity: 0.58; }
 }
 
-.firebase-sync-progress {
+.firebase-settings-section .firebase-sync-progress {
   position: relative;
-  height: 0;
-  margin-top: 0;
+  display: block;
+  width: 100%;
+  height: 24px;
   overflow: hidden;
+  margin: 12px 0 14px;
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line));
   border-radius: 999px;
-  background: color-mix(in srgb, var(--surface-solid) 70%, var(--accent-soft));
-  opacity: 0;
-  transition: height 160ms ease, margin-top 160ms ease, opacity 160ms ease;
-}
-
-.firebase-sync-progress span {
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 42%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, var(--accent), var(--accent-strong));
-  transform: translateX(-110%);
-}
-
-.firebase-sync-progress[data-status="loading"],
-.firebase-sync-progress[data-status="syncing"] {
-  height: 5px;
-  margin-top: 12px;
+  background: color-mix(in srgb, var(--surface-muted) 82%, var(--surface-solid));
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, .08);
   opacity: 1;
 }
 
-.firebase-sync-progress[data-status="loading"] span,
-.firebase-sync-progress[data-status="syncing"] span {
-  animation: firebaseProgressSlide 1.1s ease-in-out infinite;
+.firebase-settings-section .firebase-sync-progress > .firebase-sync-progress-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  width: 0%;
+  min-width: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--accent) 82%, white),
+    var(--accent-strong)
+  );
+  transform: none;
+  transition: width 180ms ease;
 }
 
-@keyframes firebaseProgressSlide {
-  to { transform: translateX(245%); }
+.firebase-settings-section .firebase-sync-progress > output {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  padding: 0 10px;
+  color: var(--ink);
+  font-size: .68rem;
+  font-weight: 800;
+  line-height: 22px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.firebase-settings-section .firebase-sync-progress[data-indeterminate="true"] > .firebase-sync-progress-fill {
+  width: 34%;
+  animation: firebaseProgressIndeterminate 1.15s ease-in-out infinite;
+}
+
+.firebase-settings-section .firebase-sync-progress[data-status="synced"] > .firebase-sync-progress-fill {
+  width: 100%;
+}
+
+.firebase-settings-section .firebase-sync-progress[data-status="error"] {
+  border-color: color-mix(in srgb, #b94b4b 48%, var(--line));
+}
+
+.firebase-settings-section .firebase-sync-progress[data-status="error"] > .firebase-sync-progress-fill {
+  background: linear-gradient(90deg, #c85a5a, #913d3d);
+}
+
+.firebase-settings-section .firebase-sync-progress[data-status="warning"] > .firebase-sync-progress-fill {
+  background: linear-gradient(90deg, #c68a3d, #9a622d);
+}
+
+@keyframes firebaseProgressIndeterminate {
+  0% { transform: translateX(-110%); }
+  55% { transform: translateX(120%); }
+  100% { transform: translateX(300%); }
 }
 
 .firebase-auth-controls {
@@ -565,7 +613,7 @@ html[data-appearance="dark"] .story-card-read {
 @media (prefers-reduced-motion: reduce) {
   .bookmark-button-placing,
   .firebase-status-badge,
-  .firebase-sync-progress span,
+  .firebase-sync-progress-fill,
   .library-import-spinner {
     animation: none !important;
   }

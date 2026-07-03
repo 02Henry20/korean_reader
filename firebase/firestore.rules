@@ -1,0 +1,21 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner(userId) {
+      return request.auth != null
+        && request.auth.uid == userId;
+    }
+
+    // Weight Tracker
+    match /apps/weight-tracker/users/{userId}/{document=**} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // Korean Reader: parent user document and every nested collection/document.
+    match /koreanReaderUsers/{userId}/{document=**} {
+      allow read, write: if isOwner(userId);
+    }
+  }
+}
