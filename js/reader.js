@@ -6,6 +6,8 @@ function openStory(story, push = false) {
 
   state.activeStory = story;
   state.activeCollectionId = story.collectionId;
+  state.bookmarkMode = false;
+  document.body.classList.remove("bookmark-placement-mode");
   clearWordSelection();
   clearGrammarSelection();
   hideWordPopover();
@@ -28,8 +30,10 @@ function openStory(story, push = false) {
 
   renderStory(story);
   setViewActive("reader");
+  updateBookmarkButton();
   updateMainPageActions();
   window.scrollTo({top: 0, behavior: "auto"});
+  restoreStoryBookmark();
 
   if (push) {
     history.pushState(
@@ -52,6 +56,7 @@ function renderStory(story) {
     paragraph.sentences.forEach((sentence, sentenceIndex) => {
       const sentenceElement = document.createElement("span");
       sentenceElement.className = "sentence";
+      sentenceElement.dataset.paragraphIndex = String(paragraphIndex);
       sentenceElement.dataset.sentenceIndex = String(sentenceIndex);
       sentenceElement.tabIndex = 0;
       sentenceElement.setAttribute(
@@ -59,7 +64,7 @@ function renderStory(story) {
         "Sentence. Double-click on desktop or double-tap on mobile for its grammar explanation."
       );
 
-      appendWordTokens(sentenceElement, sentence);
+      appendWordTokens(sentenceElement, sentence, paragraphIndex, sentenceIndex);
       attachSentenceInteractions(sentenceElement, sentence);
       paragraphElement.appendChild(sentenceElement);
 
@@ -163,9 +168,10 @@ function attachSentenceInteractions(sentenceElement, sentence) {
   });
 }
 
-function appendWordTokens(container, sentence) {
+function appendWordTokens(container, sentence, paragraphIndex, sentenceIndex) {
   const lookup = buildWordLookup(sentence);
   const chunks = String(sentence.korean || "").split(/(\s+)/u);
+  let wordIndex = 0;
 
   chunks.forEach((chunk) => {
     if (!chunk) return;
@@ -186,6 +192,10 @@ function appendWordTokens(container, sentence) {
     word.textContent = chunk;
     word.tabIndex = 0;
     word.dataset.surface = clean || chunk;
+    word.dataset.paragraphIndex = String(paragraphIndex);
+    word.dataset.sentenceIndex = String(sentenceIndex);
+    word.dataset.wordIndex = String(wordIndex);
+    wordIndex += 1;
     word.setAttribute(
       "aria-label",
       `${clean || chunk}. Click or tap for its translation.`
@@ -206,6 +216,11 @@ function attachWordInteractions(word, translation, sentenceElement, sentence) {
     event.stopPropagation();
 
     if (Date.now() < state.suppressWordClickUntil || event.detail !== 1) return;
+    if (state.bookmarkMode) {
+      clearTimeout(state.clickTimer);
+      setBookmarkFromWord(word);
+      return;
+    }
 
     clearTimeout(state.clickTimer);
     state.clickTimer = window.setTimeout(() => {
@@ -239,6 +254,11 @@ function attachWordInteractions(word, translation, sentenceElement, sentence) {
     if (completedTap.moved || Date.now() < state.suppressWordClickUntil) return;
 
     event.preventDefault();
+    if (state.bookmarkMode) {
+      event.stopPropagation();
+      setBookmarkFromWord(word);
+      return;
+    }
     event.stopPropagation();
     const tapTime = Date.now();
     const sentenceTapTime = state.mobileSentenceTap?.element === sentenceElement

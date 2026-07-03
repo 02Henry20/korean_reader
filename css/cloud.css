@@ -1,0 +1,514 @@
+.manage-library-button svg,
+.firebase-sync-icon svg,
+.library-manage-action svg,
+.story-read-button svg,
+.delete-card-button svg,
+.bookmark-button svg,
+.scroll-top-button svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.manage-library-button {
+  min-width: 104px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface-solid) 88%, transparent);
+  box-shadow: var(--shadow-sm);
+}
+
+.manage-library-button-delete-active {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(135deg, #9f4b4b, #723535);
+}
+
+.reader-tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
+.bookmark-button-active {
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 24%, transparent);
+}
+
+.bookmark-button-active svg {
+  fill: color-mix(in srgb, var(--accent) 32%, transparent);
+}
+
+.bookmark-button-placing {
+  animation: bookmarkButtonPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes bookmarkButtonPulse {
+  50% { transform: translateY(-2px) scale(1.05); }
+}
+
+.word-bookmarked {
+  position: relative;
+  color: var(--accent-strong);
+  background: color-mix(in srgb, var(--accent-soft) 88%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-soft) 72%, transparent);
+}
+
+.word-bookmarked::after {
+  content: "";
+  position: absolute;
+  right: -4px;
+  top: -0.62em;
+  width: 8px;
+  height: 12px;
+  border-radius: 2px 2px 0 0;
+  background: var(--accent);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 73%, 0 100%);
+}
+
+.bookmark-placement-mode .word-token {
+  cursor: copy;
+}
+
+.bookmark-placement-mode .word-token:hover {
+  color: var(--accent-strong);
+  background: color-mix(in srgb, var(--accent-soft) 72%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-soft) 55%, transparent);
+}
+
+.story-read-button {
+  position: absolute;
+  z-index: 6;
+  right: 26px;
+  bottom: 24px;
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid color-mix(in srgb, var(--card-accent) 20%, white);
+  border-radius: 50%;
+  color: var(--card-accent);
+  background: color-mix(in srgb, var(--card-bg) 80%, white);
+  box-shadow: 0 9px 24px color-mix(in srgb, var(--card-accent) 13%, transparent);
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.story-read-button:hover {
+  transform: translateY(-2px) scale(1.04);
+}
+
+.story-read-button-active {
+  color: white;
+  background: color-mix(in srgb, var(--card-accent) 76%, #626a67);
+}
+
+.story-card-read {
+  filter: saturate(0.28);
+  opacity: 0.7;
+}
+
+.story-card-read::before {
+  opacity: 0.18;
+}
+
+.story-card-read:hover,
+.story-card-read:focus-visible {
+  filter: saturate(0.45);
+  opacity: 0.86;
+}
+
+.delete-mode-card {
+  cursor: pointer;
+  box-shadow: 0 0 0 2px color-mix(in srgb, #b34d4d 35%, transparent), var(--shadow-sm);
+}
+
+.delete-mode-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  border-radius: inherit;
+  background: color-mix(in srgb, #792f2f 13%, transparent);
+  pointer-events: none;
+}
+
+.delete-card-button {
+  position: absolute;
+  z-index: 8;
+  left: 22px;
+  bottom: 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 39px;
+  padding: 0 13px;
+  border-radius: 999px;
+  color: white;
+  background: #8d3f3f;
+  box-shadow: 0 10px 28px rgba(82, 26, 26, 0.24);
+  font-size: 0.78rem;
+  font-weight: 820;
+  pointer-events: none;
+}
+
+.delete-mode-card .story-read-button,
+.delete-mode-card .story-level-button {
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+.firebase-sync-card {
+  padding: 17px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: color-mix(in srgb, var(--surface-muted) 65%, var(--surface-solid));
+}
+
+.firebase-sync-heading {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.firebase-sync-heading strong,
+.firebase-sync-heading small {
+  display: block;
+}
+
+.firebase-sync-heading small {
+  margin-top: 3px;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.firebase-sync-icon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 14px;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+}
+
+.firebase-status-badge {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--muted);
+  background: var(--surface-solid);
+  font-weight: 900;
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.firebase-status-badge[data-status="synced"] {
+  color: #2f7251;
+  background: #dcefe3;
+}
+
+.firebase-status-badge[data-status="error"] {
+  color: #983f3f;
+  background: #f3dddd;
+}
+
+.firebase-status-badge[data-status="syncing"],
+.firebase-status-badge[data-status="loading"] {
+  animation: firebaseStatusPulse 1.2s ease-in-out infinite;
+}
+
+@keyframes firebaseStatusPulse {
+  50% { transform: scale(0.88); opacity: 0.58; }
+}
+
+.firebase-auth-controls {
+  display: grid;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.firebase-auth-controls label span {
+  display: block;
+  margin: 0 0 5px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 760;
+}
+
+.firebase-auth-controls input {
+  width: 100%;
+  min-height: 45px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  color: var(--ink);
+  caret-color: var(--accent);
+  background: var(--surface-solid);
+  outline: none;
+}
+
+.firebase-auth-controls input:focus {
+  border-color: color-mix(in srgb, var(--accent) 48%, var(--line));
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent-soft) 58%, transparent);
+}
+
+.firebase-auth-button,
+.firebase-secondary-button {
+  min-height: 44px;
+}
+
+.firebase-auth-controls-signed-in {
+  grid-template-columns: 1fr 1fr;
+}
+
+.firebase-secondary-button {
+  border: 1px solid var(--line);
+  background: var(--surface-solid);
+}
+
+.firebase-sync-note {
+  margin: 13px 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.library-manage-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 210;
+  background: rgba(20, 29, 26, 0.34);
+  opacity: 0;
+  transition: opacity 180ms ease;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.library-manage-backdrop-open {
+  opacity: 1;
+}
+
+.library-manage-panel {
+  position: fixed;
+  z-index: 220;
+  top: 50%;
+  left: 50%;
+  width: min(500px, calc(100vw - 28px));
+  max-height: min(720px, calc(100dvh - 30px));
+  overflow: auto;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  color: var(--ink);
+  background: var(--surface-solid);
+  box-shadow: 0 30px 90px rgba(16, 27, 24, 0.28);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -46%) scale(0.97);
+  transition: opacity 180ms ease, transform 220ms cubic-bezier(.2,.8,.2,1);
+}
+
+.library-manage-panel-open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.library-manage-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.library-manage-header h2 {
+  margin: 0;
+  font-size: 1.55rem;
+}
+
+.library-manage-body {
+  display: grid;
+  gap: 11px;
+}
+
+.library-manage-action {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 19px;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--surface-muted) 58%, var(--surface-solid));
+  text-align: left;
+  cursor: pointer;
+  transition: transform 150ms ease, background 150ms ease;
+}
+
+.library-manage-action:hover {
+  transform: translateY(-2px);
+  background: var(--accent-soft);
+}
+
+.library-manage-action-icon {
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border-radius: 15px;
+  color: var(--accent-strong);
+  background: var(--surface-solid);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.library-manage-action strong,
+.library-manage-action small {
+  display: block;
+}
+
+.library-manage-action small {
+  margin-top: 4px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.library-manage-prompt {
+  margin: 0 0 3px;
+  font-weight: 760;
+  line-height: 1.5;
+}
+
+.library-import-progress {
+  display: grid;
+  justify-items: center;
+  gap: 13px;
+  padding: 35px 18px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.library-import-spinner {
+  width: 38px;
+  height: 38px;
+  border: 4px solid var(--accent-soft);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: librarySpinner 0.9s linear infinite;
+}
+
+@keyframes librarySpinner { to { transform: rotate(360deg); } }
+
+.library-import-error {
+  padding: 18px;
+  border-radius: 17px;
+  color: #7f3333;
+  background: #f4dddd;
+  line-height: 1.55;
+}
+
+.scroll-top-button {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 45px;
+  padding: 0 15px;
+  border: 0;
+  border-radius: 999px;
+  color: white;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  box-shadow: 0 14px 36px color-mix(in srgb, var(--accent) 32%, transparent);
+  font-weight: 820;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(14px) scale(0.94);
+  transition: opacity 170ms ease, transform 190ms ease;
+}
+
+.scroll-top-button-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+@media (max-width: 600px) {
+  .library-actions {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .manage-library-button,
+  .settings-button {
+    min-width: 48px;
+    padding: 0 13px;
+  }
+
+  .manage-library-button span,
+  .settings-button span {
+    display: none;
+  }
+
+  .story-read-button {
+    right: 20px;
+    bottom: 19px;
+    width: 39px;
+    height: 39px;
+  }
+
+  .delete-card-button {
+    left: 18px;
+    bottom: 18px;
+  }
+
+  .library-manage-panel {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: min(78dvh, 720px);
+    padding: 20px 18px calc(24px + env(safe-area-inset-bottom, 0px));
+    border-width: 1px 0 0;
+    border-radius: 28px 28px 0 0;
+    transform: translateY(100%);
+  }
+
+  .library-manage-panel-open {
+    transform: translateY(0);
+  }
+
+  .scroll-top-button {
+    right: 14px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    width: 45px;
+    min-width: 45px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .scroll-top-button span {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bookmark-button-placing,
+  .firebase-status-badge,
+  .library-import-spinner {
+    animation: none !important;
+  }
+}

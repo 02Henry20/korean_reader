@@ -28,6 +28,7 @@
 <link href="css/directories.css" rel="stylesheet"/>
 <link href="css/themes.css" rel="stylesheet"/>
 <link href="css/thumbnails.css" rel="stylesheet"/>
+<link href="css/cloud.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="ambient ambient-a"></div>
@@ -46,7 +47,10 @@
 </div>
 </div>
 <div class="library-actions" id="libraryActions">
-
+<button aria-label="Add or delete library content" class="button manage-library-button" id="libraryManageButton" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"></path></svg>
+<span>Add</span>
+</button>
 <button aria-label="Open settings" class="button settings-button" id="settingsButton" type="button">
 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"></path><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21h-4v-.1a1.7 1.7 0 0 0-1.4-1.67 1.7 1.7 0 0 0-1.57.47l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H3v-4h.1A1.7 1.7 0 0 0 4.77 8.2a1.7 1.7 0 0 0-.47-1.57l-.06-.06 2.83-2.83.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-.6 1.7 1.7 0 0 0 .4-1.1V3h4v.1A1.7 1.7 0 0 0 15.8 4.77a1.7 1.7 0 0 0 1.57-.47l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 9c.12.38.33.72.6 1 .3.28.68.42 1.1.4h.1v4h-.1A1.7 1.7 0 0 0 19.4 15Z"></path></svg>
 <span>Settings</span>
@@ -71,6 +75,11 @@
 <button aria-label="Choose story level" class="eyebrow reader-level-button" id="readerLevel" type="button"></button>
 <h2 id="readerTitle"></h2>
 </div>
+<div class="reader-tools">
+<button aria-label="Set or move bookmark" class="icon-button bookmark-button" id="bookmarkButton" title="Set or move bookmark" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M7 4.5h10v15l-5-3.2-5 3.2Z"></path></svg>
+</button>
+</div>
 </header>
 <div class="reader-layout">
 <article aria-live="polite" class="story-content" id="storyContent"></article>
@@ -78,6 +87,9 @@
 <div aria-hidden="true" class="detail-backdrop" hidden id="detailBackdrop"></div>
 <aside aria-hidden="true" aria-label="Grammar explanation" class="detail-panel detail-panel-empty" id="detailPanel">
 <div aria-hidden="true" class="detail-drag-handle"></div>
+<button aria-label="Close grammar explanation" class="icon-button close-detail" id="closeDetailButton" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+</button>
 <div class="detail-content" id="detailContent"></div>
 </aside>
 </div>
@@ -165,14 +177,60 @@
 <h3>Motion</h3>
 <label class="setting-row"><span><strong>Animation intensity</strong><small>The moving accent in the live preview reflects this choice.</small></span><select name="animationIntensity"><option value="full">Full</option><option value="reduced">Reduced</option><option value="none">None</option></select></label>
 </section>
+
+<section class="settings-section firebase-settings-section">
+<h3>Cloud sync</h3>
+<div class="firebase-sync-card">
+<div class="firebase-sync-heading">
+<span aria-hidden="true" class="firebase-sync-icon">
+<svg viewBox="0 0 24 24"><path d="M7.5 18.5h9.2a4.3 4.3 0 0 0 .7-8.54A6.2 6.2 0 0 0 5.5 8.4a5.1 5.1 0 0 0 2 10.1Z"></path><path d="m9 14 3-3 3 3M12 11v7"></path></svg>
+</span>
+<div><strong id="firebaseStatusText">Connecting…</strong><small id="firebaseAccountText">Firebase status will appear here.</small></div>
+<span class="firebase-status-badge" data-status="loading" id="firebaseStatusBadge">…</span>
+</div>
+<div class="firebase-auth-controls" id="firebaseSignedOutControls">
+<label><span>Email</span><input autocomplete="email" id="firebaseEmailInput" inputmode="email" type="email"/></label>
+<label><span>Password</span><input autocomplete="current-password" id="firebasePasswordInput" type="password"/></label>
+<button class="button button-primary firebase-auth-button" id="firebaseLoginButton" type="button">Sign in</button>
+</div>
+<div class="firebase-auth-controls firebase-auth-controls-signed-in" hidden id="firebaseSignedInControls">
+<button class="button firebase-secondary-button" id="firebaseSyncButton" type="button">Sync now</button>
+<button class="button firebase-secondary-button" id="firebaseSignOutButton" type="button">Sign out</button>
+</div>
+<p class="firebase-sync-note">Imported stories, read status, and bookmarks are stored locally first and synchronized when signed in.</p>
+</div>
+</section>
 <button class="button settings-reset" id="resetSettingsButton" type="button">Reset settings</button>
 </form>
 </aside>
+
+<div class="library-manage-backdrop" hidden id="libraryManageBackdrop"></div>
+<aside aria-hidden="true" aria-label="Manage library" class="library-manage-panel" id="libraryManagePanel">
+<header class="library-manage-header">
+<div><p class="eyebrow">LIBRARY</p><h2 id="libraryManageTitle">Manage library</h2></div>
+<button aria-label="Close library manager" class="icon-button" id="closeLibraryManageButton" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"></path></svg>
+</button>
+</header>
+<div class="library-manage-body" id="libraryManageBody"></div>
+</aside>
+<input accept=".json,application/json,image/*" hidden id="directoryImportInput" multiple type="file" webkitdirectory/>
+<input accept=".json,application/json" hidden id="storyImportInput" type="file"/>
+<input accept="image/*" hidden id="storyThumbnailInput" type="file"/>
+<button aria-label="Scroll to top" class="scroll-top-button" id="scrollTopButton" title="Back to top" type="button">
+<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 14 6-6 6 6"></path></svg>
+<span>Top</span>
+</button>
+
 <div aria-live="polite" class="toast" id="toast" role="status"></div>
 <script src="js/storage.js"></script>
+<script src="js/firebase.js"></script>
+<script src="js/local-db.js"></script>
 <script src="js/settings.js"></script>
 <script src="js/app.js"></script>
 <script src="js/library.js"></script>
+<script src="js/cloud-sync.js"></script>
+<script src="js/bookmarks.js"></script>
 <script src="js/router.js"></script>
 <script src="js/directories.js"></script>
 <script src="js/stories.js"></script>
@@ -182,8 +240,7 @@
 <script src="js/interactions.js"></script>
 <script src="js/themes.js"></script>
 <script src="js/settings-panel.js"></script>
-
-<script src="js/bookmarks.js"></script>
+<script src="js/library-manager.js"></script>
 <script src="js/search.js"></script>
 <script src="js/pwa.js"></script>
 </body>

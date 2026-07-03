@@ -1,0 +1,26 @@
+{
+  "files": [
+    "FIREBASE_SETUP.md",
+    "PATCH_NOTES.md",
+    "README.md",
+    "css/cloud.css",
+    "docs/STORY_JSON_SCHEMA.md",
+    "firebase/README.md",
+    "firebase/firestore.rules.example",
+    "firebase/storage.rules.example",
+    "index.html",
+    "js/app.js",
+    "js/bookmarks.js",
+    "js/cloud-sync.js",
+    "js/directories.js",
+    "js/firebase.js",
+    "js/library-manager.js",
+    "js/library.js",
+    "js/local-db.js",
+    "js/pwa.js",
+    "js/reader.js",
+    "js/router.js",
+    "js/stories.js",
+    "js/thumbnails.js"
+  ]
+}

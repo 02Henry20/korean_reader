@@ -21,10 +21,21 @@ const state = {
   mobileWordTapTimer: null,
   detailCloseTimer: null,
   detailDrag: null,
-  mobileGrammarHistoryActive: false,
-  mobileGrammarHistoryClosing: false,
   storySearchCache: new WeakMap(),
   collectionSearchCache: new WeakMap(),
+  githubCollections: [],
+  githubStories: [],
+  localCollections: [],
+  localStories: [],
+  libraryDeletions: new Map(),
+  readerState: {},
+  firebaseUser: null,
+  firebaseServices: null,
+  firebaseStatus: "loading",
+  firebaseStatusMessage: "Connecting…",
+  libraryDeleteMode: null,
+  bookmarkMode: false,
+  pendingStoryImport: null,
 };
 
 const libraryView = document.getElementById("libraryView");
@@ -37,14 +48,17 @@ const libraryTitle = document.getElementById("libraryTitle");
 const librarySubtitle = document.getElementById("librarySubtitle");
 const libraryActions = document.getElementById("libraryActions");
 const settingsButton = document.getElementById("settingsButton");
+const libraryManageButton = document.getElementById("libraryManageButton");
 
 const backButton = document.getElementById("backButton");
 const readerTitle = document.getElementById("readerTitle");
 const readerLevel = document.getElementById("readerLevel");
+const bookmarkButton = document.getElementById("bookmarkButton");
 const storyContent = document.getElementById("storyContent");
 const detailPanel = document.getElementById("detailPanel");
 const detailBackdrop = document.getElementById("detailBackdrop");
 const detailContent = document.getElementById("detailContent");
+const closeDetailButton = document.getElementById("closeDetailButton");
 
 
 const wordPopover = document.getElementById("wordPopover");
@@ -59,6 +73,27 @@ const closeSettingsButton = document.getElementById("closeSettingsButton");
 const resetSettingsButton = document.getElementById("resetSettingsButton");
 const readerSizeOutput = document.getElementById("readerSizeOutput");
 const lineSpacingOutput = document.getElementById("lineSpacingOutput");
+
+const firebaseStatusBadge = document.getElementById("firebaseStatusBadge");
+const firebaseStatusText = document.getElementById("firebaseStatusText");
+const firebaseAccountText = document.getElementById("firebaseAccountText");
+const firebaseEmailInput = document.getElementById("firebaseEmailInput");
+const firebasePasswordInput = document.getElementById("firebasePasswordInput");
+const firebaseLoginButton = document.getElementById("firebaseLoginButton");
+const firebaseSignOutButton = document.getElementById("firebaseSignOutButton");
+const firebaseSyncButton = document.getElementById("firebaseSyncButton");
+const firebaseSignedOutControls = document.getElementById("firebaseSignedOutControls");
+const firebaseSignedInControls = document.getElementById("firebaseSignedInControls");
+
+const libraryManageBackdrop = document.getElementById("libraryManageBackdrop");
+const libraryManagePanel = document.getElementById("libraryManagePanel");
+const libraryManageTitle = document.getElementById("libraryManageTitle");
+const libraryManageBody = document.getElementById("libraryManageBody");
+const closeLibraryManageButton = document.getElementById("closeLibraryManageButton");
+const directoryImportInput = document.getElementById("directoryImportInput");
+const storyImportInput = document.getElementById("storyImportInput");
+const storyThumbnailInput = document.getElementById("storyThumbnailInput");
+const scrollTopButton = document.getElementById("scrollTopButton");
 
 function createTextBlock(tag, className, text) {
   const element = document.createElement(tag);

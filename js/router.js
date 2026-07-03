@@ -3,16 +3,21 @@ function hideAllTransientUI() {
   hideWordPopover();
   hideVariantMenu();
   closeSettings();
+  closeLibraryManager();
 }
 
 function updateMainPageActions() {
-  const show = state.currentView === "collections" && !state.activeCollectionId;
-  libraryActions.hidden = !show;
+  const inLibrary = state.currentView === "collections" || state.currentView === "collection";
+  libraryActions.hidden = !inLibrary;
+  settingsButton.hidden = !(state.currentView === "collections" && !state.activeCollectionId);
+  libraryManageButton.hidden = !inLibrary;
+  updateLibraryManageButton();
 }
 
 function showCollections(push = false) {
   state.activeCollectionId = null;
   state.activeStory = null;
+  state.libraryDeleteMode = null;
   hideAllTransientUI();
   setViewActive("collections");
   searchInput.value = "";
@@ -27,6 +32,7 @@ function showCollection(collectionId, push = false) {
   if (!collection) return showCollections(push);
   state.activeCollectionId = collectionId;
   state.activeStory = null;
+  state.libraryDeleteMode = null;
   hideAllTransientUI();
   setViewActive("collection");
   searchInput.value = "";

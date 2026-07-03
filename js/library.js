@@ -207,7 +207,8 @@ async function loadLibrary() {
       collection: normalizeCollection({
         ...item.data,
         sourcePath: item.rawUrl,
-        sourceDirectory: item.dir
+        sourceDirectory: item.dir,
+        sourceType: "github"
       }, item.dir)
     }));
 
@@ -242,7 +243,8 @@ async function loadLibrary() {
       order: numericOrder(folder),
       monogram: humanizeFolderName(folder).slice(0, 1),
       tags: [],
-      sourceDirectory: directory
+      sourceDirectory: directory,
+      sourceType: "github"
     }, directory);
     state.collections.push(collection);
     collectionByDirectory.set(directory, collection);
@@ -272,7 +274,8 @@ async function loadLibrary() {
           ...item.data,
           sourcePath: item.rawUrl,
           sourceDirectory: item.dir,
-          sourceFileName: item.name
+          sourceFileName: item.name,
+          sourceType: "github"
         },
         item.name,
         collectionId,
@@ -302,6 +305,9 @@ async function loadLibrary() {
     throw new Error(`JSON files were found, but none were valid Korean Reader stories.`);
   }
 
+  state.githubCollections = state.collections.map((collection) => ({...collection, sourceType: "github"}));
+  state.githubStories = state.stories.map((story) => ({...story, sourceType: "github"}));
+
   if (warnings.length) {
     console.warn("Some library files could not be loaded:", warnings);
     showToast(`${warnings.length} library file${warnings.length === 1 ? "" : "s"} could not be loaded`);
@@ -327,7 +333,9 @@ function normalizeCollection(info = {}, fallbackPath = "") {
     sourcePath: String(info.sourcePath || ""),
     sourceDirectory: String(info.sourceDirectory || fallbackPath || ""),
     storyCount: Number(info.storyCount) || 0,
-    sort: String(info.sort || "order")
+    sort: String(info.sort || "order"),
+    sourceType: String(info.sourceType || "github"),
+    updatedAt: Number(info.updatedAt) || 0
   };
 }
 
@@ -367,6 +375,9 @@ function normalizeStory(story, sourceName = "Imported story", fallbackCollection
     author: String(story.author || story.metadata?.author || ""),
     tags: Array.isArray(story.tags) ? story.tags.map(String) : [],
     preferredFont: String(story.preferredFont || story.readingFont || story.font || ""),
+    sourceType: String(story.sourceType || "github"),
+    updatedAt: Number(story.updatedAt) || 0,
+    thumbnailStoragePath: String(story.thumbnailStoragePath || ""),
     paragraphs: story.paragraphs
   };
 

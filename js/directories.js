@@ -41,12 +41,23 @@ function createCollectionCard(collection) {
   if (collection.description) content.appendChild(createTextBlock("p", "description", collection.description));
 
   card.appendChild(content);
+  if (state.libraryDeleteMode === "collections") {
+    card.classList.add("delete-mode-card");
+    card.appendChild(createDeleteCardButton("Delete directory"));
+  }
   enableCardMotion(card);
-  card.addEventListener("click", () => showCollection(collection.id, true));
+  card.addEventListener("click", () => {
+    if (state.libraryDeleteMode === "collections") {
+      requestDeleteCollection(collection);
+      return;
+    }
+    showCollection(collection.id, true);
+  });
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
-      showCollection(collection.id, true);
+      if (state.libraryDeleteMode === "collections") requestDeleteCollection(collection);
+      else showCollection(collection.id, true);
     }
   });
   return card;

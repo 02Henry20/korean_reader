@@ -153,3 +153,44 @@ Collection cards use the collection metadata's `monogram` field as their visual 
 ```
 
 Stories may still reference an external raster or regular image thumbnail through `thumbnail`. Stories without one display their collection's monogram instead. Card-specific SVG fields such as `directorySvg` and `storySvg` are not used.
+
+## Imported directory and thumbnail paths
+
+When importing a complete directory through the app, thumbnail paths are resolved
+relative to the JSON file containing them.
+
+Example:
+
+```text
+fairy-tales/
+├── info.json
+├── snow-white.json
+└── thumbnails/
+    └── snow-white.jpg
+```
+
+`snow-white.json`:
+
+```json
+{
+  "id": "snow-white",
+  "collectionId": "fairy-tales",
+  "thumbnail": "thumbnails/snow-white.jpg"
+}
+```
+
+The app keeps the selected image as an IndexedDB `Blob`. When Firebase sync is active,
+the image is uploaded to Firebase Storage and the cloud download URL is stored with
+the story document.
+
+## Import validation
+
+An imported story must contain:
+
+- a top-level JSON object;
+- a `paragraphs` array;
+- a `sentences` array in every paragraph;
+- non-empty Korean text in every sentence.
+
+The importer also rejects duplicate story IDs inside one selected directory and
+stories whose serialized JSON is too close to Firestore's per-document limit.

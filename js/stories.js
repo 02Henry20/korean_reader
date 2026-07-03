@@ -59,7 +59,11 @@ function renderStoryCards(collectionId, query) {
 
   const groups = getVariantGroupsForCollection(collectionId)
     .filter((group) => !query || group.variants.some((story) => storyMatchesQuery(story, query)))
-    .sort((a, b) => a.index - b.index);
+    .sort((a, b) => {
+      const aRead = isStoryRead(selectedVariantForGroup(a).id);
+      const bRead = isStoryRead(selectedVariantForGroup(b).id);
+      return Number(aRead) - Number(bRead) || a.index - b.index;
+    });
 
   if (!groups.length) return renderEmpty(`No matching stories in ${collection.title}.`);
   groups.forEach((group) => storyGrid.appendChild(createStoryCard(group)));
@@ -77,6 +81,8 @@ function createStoryCard(group, options = {}) {
   card.setAttribute("role", "button");
   card.setAttribute("aria-label", `Open ${story.title}`);
   setCardTheme(card, accent);
+  const read = isStoryRead(story.id);
+  card.classList.toggle("story-card-read", read);
 
   card.classList.add("has-story-thumbnail");
   const thumbnail = createStoryThumbnailV8(story, accent);
@@ -111,13 +117,36 @@ function createStoryCard(group, options = {}) {
   if (story.englishTitle) content.appendChild(createTextBlock("p", "english-title", story.englishTitle));
   if (story.description) content.appendChild(createTextBlock("p", "description", story.description));
 
-  card.append(content, thumbnail);
+  const readButton = document.createElement("button");
+  readButton.type = "button";
+  readButton.className = `story-read-button${read ? " story-read-button-active" : ""}`;
+  readButton.setAttribute("aria-label", read ? `Mark ${story.title} as unread` : `Mark ${story.title} as read`);
+  readButton.title = read ? "Mark as unread" : "Mark as read";
+  readButton.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 12 4 4 8-9"/></svg>';
+  readButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleStoryRead(story);
+  });
+
+  card.append(content, thumbnail, readButton);
+  if (state.libraryDeleteMode === "stories") {
+    card.classList.add("delete-mode-card");
+    card.appendChild(createDeleteCardButton("Delete story"));
+  }
   enableCardMotion(card);
-  card.addEventListener("click", () => openStory(story, true));
+  card.addEventListener("click", () => {
+    if (state.libraryDeleteMode === "stories") {
+      requestDeleteStory(story);
+      return;
+    }
+    openStory(story, true);
+  });
   card.addEventListener("keydown", (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
-      openStory(story, true);
+      if (state.libraryDeleteMode === "stories") requestDeleteStory(story);
+      else openStory(story, true);
     }
   });
   return card;

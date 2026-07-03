@@ -4,28 +4,45 @@ async function initializeLibrary() {
   applyReaderTypography();
   libraryBackButton.hidden = true;
   libraryTitle.textContent = "Loading your library…";
-  librarySubtitle.textContent = `Reading ${GITHUB_LIBRARY.root}/ from ${GITHUB_LIBRARY.owner}/${GITHUB_LIBRARY.repo}.`;
+  librarySubtitle.textContent = "Loading built-in and locally saved stories.";
   searchInput.placeholder = "Loading stories";
   storyGrid.replaceChildren(createTextBlock("div", "empty-state", "Loading collections and stories…"));
 
+  let githubError = null;
   try {
     await loadLibrary();
-    showCollections(false);
   } catch (error) {
-    console.error(error);
+    githubError = error;
+    console.warn("The GitHub library could not be loaded:", error);
+    state.githubCollections = [];
+    state.githubStories = [];
+  }
+
+  try {
+    await loadLocalLibraryIntoState();
+  } catch (error) {
+    console.error("The local library could not be loaded:", error);
+  }
+
+  if (state.stories.length || state.collections.length) {
+    showCollections(false);
+    if (githubError) showToast("Built-in GitHub stories are unavailable; showing locally saved content");
+  } else {
     state.currentView = "collections";
     updateMainPageActions();
     libraryTitle.textContent = "Library could not be loaded";
-    librarySubtitle.textContent = `${GITHUB_LIBRARY.owner}/${GITHUB_LIBRARY.repo}/${GITHUB_LIBRARY.root}`;
+    librarySubtitle.textContent = "No built-in or locally saved stories are available.";
     searchInput.placeholder = "Library unavailable";
     storyGrid.replaceChildren(
       createTextBlock(
         "div",
         "empty-state",
-        `${error.message} Make sure the repository is public and the library folder exists on the main branch.`
+        `${githubError?.message || "No stories were found."} You can still sign in and synchronize Firebase from Settings.`
       )
     );
   }
+
+  initializeCloudSync();
 }
 
 initializeLibrary();

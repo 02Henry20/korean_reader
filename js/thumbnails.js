@@ -33,7 +33,7 @@ function resolveThumbnailPathV9(story, value) {
   if (!path) return "";
   if (/^(?:[a-z][a-z0-9+.-]*:|\/|#)/i.test(path)) return path;
 
-  if (/^\.\.?\//.test(path) && story?.sourcePath) {
+  if (story?.sourcePath) {
     try {
       const sourceUrl = new URL(
         String(story.sourcePath).replace(/\\/g, "/"),
@@ -43,7 +43,7 @@ function resolveThumbnailPathV9(story, value) {
     } catch {}
   }
 
-  return path;
+  return new URL(path, document.baseURI).href;
 }
 
 function storyThumbnailSourceV8(story) {
