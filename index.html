@@ -101,28 +101,73 @@
 </button>
 </header>
 <form class="settings-form" id="settingsForm">
+<section aria-label="Live settings preview" class="settings-live-preview" id="settingsLivePreview">
+<div class="settings-preview-heading">
+<div>
+<p class="eyebrow">LIVE PREVIEW</p>
+<strong id="settingsPreviewThemeName">Sage · Light</strong>
+</div>
+<span class="settings-preview-status" id="settingsPreviewStatus">Updates immediately</span>
+</div>
+<div class="settings-preview-stage" data-preview-animation="full" id="settingsPreviewStage">
+<div class="settings-preview-toolbar">
+<span class="settings-preview-brand-mark" aria-hidden="true">한</span>
+<span id="settingsPreviewUiLabel">Reader controls</span>
+<button aria-hidden="true" class="settings-preview-button" tabindex="-1" type="button">가</button>
+</div>
+<div class="settings-preview-reading">
+<p class="settings-preview-korean" id="settingsPreviewStoryText"><span>오늘은 새로운 이야기를 천천히 </span><mark class="settings-preview-highlight">읽어 봐</mark><span>.</span></p>
+<div class="settings-preview-translation" id="settingsPreviewTranslation">
+<strong>읽어 봐</strong>
+<span>try reading</span>
+<small id="settingsPreviewTranslationExtra">Base: 읽다 · Grammar: -아/어 보다</small>
+</div>
+<div class="settings-preview-grammar" id="settingsPreviewGrammar"></div>
+<div class="settings-preview-vocabulary" id="settingsPreviewVocabulary">
+<strong>새롭다</strong>
+<span>to be new</span>
+</div>
+</div>
+<div aria-hidden="true" class="settings-preview-motion">
+<span class="settings-preview-orb"></span>
+<span class="settings-preview-trail"></span>
+</div>
+<footer class="settings-preview-footer">
+<span id="settingsPreviewFontName">Korean sans</span>
+<span id="settingsPreviewAccentState">Story accents on</span>
+</footer>
+</div>
+</section>
 <section class="settings-section">
 <h3>Appearance</h3>
-<label class="setting-row"><span><strong>Light or dark</strong><small>Controls the page surfaces.</small></span><select name="appearance"></select></label>
-<label class="setting-row"><span><strong>Theme</strong><small>Controls global accents and ambient colors.</small></span><select name="theme"></select></label>
+<div class="setting-visual-control">
+<div class="setting-copy"><strong>Light or dark</strong><small>Preview both surface styles before choosing.</small></div>
+<div aria-label="Appearance options" class="settings-choice-grid settings-choice-grid-appearance" id="appearanceChoices"></div>
+<input name="appearance" type="hidden"/>
+</div>
+<div class="setting-visual-control">
+<div class="setting-copy"><strong>Theme</strong><small>Each card shows the actual accent, word, and ambient colors.</small></div>
+<div aria-label="Theme options" class="settings-choice-grid settings-choice-grid-theme" id="themeChoices"></div>
+<input name="theme" type="hidden"/>
+</div>
 <label class="setting-toggle"><span><strong>Story accent colors</strong><small>Let story JSON colors override the global accent.</small></span><input name="storyAccents" type="checkbox"/></label>
 </section>
 <section class="settings-section">
 <h3>Typography</h3>
-<label class="setting-row"><span><strong>Interface font</strong></span><select name="uiFont"></select></label>
-<label class="setting-row"><span><strong>Story font</strong><small>“Story preference” uses the font from story JSON.</small></span><select name="storyFont"></select></label>
+<label class="setting-row"><span><strong>Interface font</strong><small>The toolbar in the live preview uses this font.</small></span><select name="uiFont"></select></label>
+<label class="setting-row"><span><strong>Story font</strong><small>The Korean sample updates immediately. “Story preference” follows story JSON.</small></span><select name="storyFont"></select></label>
 <label class="setting-range"><span><strong>Story text size</strong><output id="readerSizeOutput"></output></span><input max="2.05" min="1" name="readerSize" step="0.05" type="range"/></label>
 <label class="setting-range"><span><strong>Line spacing</strong><output id="lineSpacingOutput"></output></span><input max="2.4" min="1.5" name="lineSpacing" step="0.05" type="range"/></label>
 </section>
 <section class="settings-section">
 <h3>Learning tools</h3>
-<label class="setting-row"><span><strong>Translation popup</strong><small>Choose whether base forms and notes are shown.</small></span><select name="translationDetails"><option value="compact">Meaning only</option><option value="expanded">Meaning, base form, and notes</option></select></label>
-<label class="setting-toggle"><span><strong>Key vocabulary</strong><small>Show vocabulary below grammar explanations.</small></span><input name="showKeyVocabulary" type="checkbox"/></label>
-<label class="setting-row"><span><strong>Grammar detail level</strong></span><select name="grammarDetail"><option value="concise">Concise</option><option value="detailed">Detailed</option></select></label>
+<label class="setting-row"><span><strong>Translation popup</strong><small>The translation sample shows exactly which details remain visible.</small></span><select name="translationDetails"><option value="compact">Meaning only</option><option value="expanded">Meaning, base form, and notes</option></select></label>
+<label class="setting-toggle"><span><strong>Key vocabulary</strong><small>The vocabulary row appears or disappears in the live preview.</small></span><input name="showKeyVocabulary" type="checkbox"/></label>
+<label class="setting-row"><span><strong>Grammar detail level</strong><small>The grammar sample changes between a summary and the structured explanation.</small></span><select name="grammarDetail"><option value="concise">Concise</option><option value="detailed">Detailed</option></select></label>
 </section>
 <section class="settings-section">
 <h3>Motion</h3>
-<label class="setting-row"><span><strong>Animation intensity</strong></span><select name="animationIntensity"><option value="full">Full</option><option value="reduced">Reduced</option><option value="none">None</option></select></label>
+<label class="setting-row"><span><strong>Animation intensity</strong><small>The moving accent in the live preview reflects this choice.</small></span><select name="animationIntensity"><option value="full">Full</option><option value="reduced">Reduced</option><option value="none">None</option></select></label>
 </section>
 <button class="button settings-reset" id="resetSettingsButton" type="button">Reset settings</button>
 </form>
